@@ -103,3 +103,4 @@ config/stepup.cfg
 *.xlsx
 *.csv
 config/chancecubes/custom_rewards/CustomSounds-Resourcepack.zip
+config.json
