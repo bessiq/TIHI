@@ -1,0 +1,112 @@
+
+#Configs are reloaded when you unpause or open the main menu.
+#Pardon this awkward layout. Please teach me a better way to sort options.
+[NamePain]
+	#
+	#true: Keep normal coloring on scoreboard objectives below names.
+	#false: Apply Name Pain coloring to scoreboard objectives below names.
+	#Default: true
+	"Vanilla Scoreboards" = true
+	#
+	#true: Don't render your nameplate.
+	#false: Apply Name Pain coloring to your nameplate in inventory and 3rd-person view.
+	#Default: true
+	"Vanilla Self" = true
+	#
+	#true: Keep normal coloring on named mobs.
+	#false: Apply Name Pain coloring to named mobs.
+	#Default: false
+	"Vanilla Mobs" = false
+
+	[NamePain.Name]
+
+		#RGBA values for NAMES with MINIMUM health (Default: opaque red)
+		[NamePain.Name.Min]
+			#Default: 255
+			#Range: 0 ~ 255
+			Red = 255
+
+			[NamePain.Name.Min._]
+				#Default: 0
+				#Range: 0 ~ 255
+				Green = 0
+
+				[NamePain.Name.Min._._]
+					#Default: 0
+					#Range: 0 ~ 255
+					Blue = 0
+
+					[NamePain.Name.Min._._._]
+						#0.0 = transparent, 1.0 = opaque
+						#Default: 1.0
+						#Range: 0.0 ~ 1.0
+						Alpha = 1.0
+
+		#RGBA values for NAMES with MAXIMUM health (Default: opaque white)
+		[NamePain.Name.Max]
+			#Default: 255
+			#Range: 0 ~ 255
+			Red = 255
+
+			[NamePain.Name.Max._]
+				#Default: 255
+				#Range: 0 ~ 255
+				Green = 255
+
+				[NamePain.Name.Max._._]
+					#Default: 255
+					#Range: 0 ~ 255
+					Blue = 255
+
+					[NamePain.Name.Max._._._]
+						#0.0 = transparent, 1.0 = opaque
+						#Default: 1.0
+						#Range: 0.0 ~ 1.0
+						Alpha = 1.0
+
+	[NamePain.Plate]
+
+		#RGBA values for BACKGROUNDS with MINIMUM health (Default: transparent black)
+		[NamePain.Plate.Min]
+			#Default: 0
+			#Range: 0 ~ 255
+			Red = 0
+
+			[NamePain.Plate.Min._]
+				#Default: 0
+				#Range: 0 ~ 255
+				Green = 0
+
+				[NamePain.Plate.Min._._]
+					#Default: 0
+					#Range: 0 ~ 255
+					Blue = 0
+
+					[NamePain.Plate.Min._._._]
+						#0.0 = transparent, 1.0 = opaque
+						#Default: 0.25
+						#Range: 0.0 ~ 1.0
+						Alpha = 0.25
+
+		#RGBA values for BACKGROUNDS with MAXIMUM health (Default: transparent black)
+		[NamePain.Plate.Max]
+			#Default: 0
+			#Range: 0 ~ 255
+			Red = 0
+
+			[NamePain.Plate.Max._]
+				#Default: 0
+				#Range: 0 ~ 255
+				Green = 0
+
+				[NamePain.Plate.Max._._]
+					#Default: 0
+					#Range: 0 ~ 255
+					Blue = 0
+
+					[NamePain.Plate.Max._._._]
+						#0.0 = transparent, 1.0 = opaque
+						#Default: 0.25
+						#Range: 0.0 ~ 1.0
+						Alpha = 0.25
+

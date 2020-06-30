@@ -1,0 +1,130 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  renderorder = foreground
+}
+
+customization {
+  path = screenshots\tihi_bg_dark.png
+  action = texturizebackground
+}
+
+customization {
+  identifier = %id=4%
+  orientation = bottom-centered
+  x = -62
+  action = movebutton
+  y = -68
+}
+
+customization {
+  identifier = %id=4%
+  width = 60
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=5%
+  orientation = bottom-centered
+  x = -61
+  action = movebutton
+  y = -92
+}
+
+customization {
+  identifier = %id=6%
+  orientation = bottom-centered
+  x = 42
+  action = movebutton
+  y = -92
+}
+
+customization {
+  identifier = %id=1%
+  orientation = bottom-centered
+  x = -62
+  action = movebutton
+  y = -140
+}
+
+customization {
+  identifier = %id=1%
+  width = 124
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=1%
+  action = setbuttonlabel
+  value = Singleplayer
+}
+
+customization {
+  identifier = %id=2%
+  orientation = bottom-centered
+  x = -62
+  action = movebutton
+  y = -116
+}
+
+customization {
+  identifier = %id=2%
+  width = 124
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=3%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=7%
+  orientation = bottom-centered
+  x = -37
+  action = movebutton
+  y = -92
+}
+
+customization {
+  identifier = %id=7%
+  width = 76
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=8%
+  orientation = bottom-centered
+  x = 2
+  action = movebutton
+  y = -68
+}
+
+customization {
+  identifier = %id=8%
+  width = 60
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=8%
+  action = setbuttonlabel
+  value = Quit
+}
+
+customization {
+  path = screenshots/tihi_logo.png
+  orientation = top-centered
+  x = -80
+  width = 160
+  action = addtexture
+  y = 10
+  height = 100
+}
+

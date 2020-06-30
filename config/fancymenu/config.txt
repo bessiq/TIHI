@@ -1,0 +1,35 @@
+##[general]
+
+[A minecraft restart is required after changing this value.]
+B:enablehotkeys = 'true';
+[ONLY AVAILABLE ON WINDOWS! A minecraft restart is required after changing this value.]
+B:enablesystemtray = 'true';
+B:playmenumusic = 'true';
+
+
+##[customization]
+
+B:showcustomizationbuttons = 'false';
+
+
+##[mainmenu]
+
+B:hidelogo = 'true';
+B:showmainmenufooter = 'false';
+B:hiderealmsnotifications = 'true';
+B:hidebranding = 'true';
+
+
+##[mainmenu_splash]
+
+I:splashoffsetx = '0';
+I:splashoffsety = '0';
+I:splashrotation = '-20';
+B:hidesplashtext = 'false';
+
+
+##[loading]
+
+B:showanimationloadingstatus = 'true';
+S:gameintroanimation = '';
+B:loadingscreendarkmode = 'true';

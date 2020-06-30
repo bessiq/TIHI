@@ -1,0 +1,5 @@
+
+["Silk Chest"]
+	#Add here any block you wanna keep the items inside it when using silk touch
+	silkList = ["minecraft:chest", "minecraft:trapped_chest", "minecraft:spawner"]
+

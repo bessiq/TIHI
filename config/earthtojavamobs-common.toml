@@ -1,0 +1,346 @@
+
+[general]
+	#Frequency of mud lake generation. Lower number -> High appearance chance
+	#Range: > 1
+	mudLakeFrequency = 50
+
+[entities]
+
+	[entities.inkySheep]
+		#Minimum number of entities in group
+		#Range: > 0
+		entityGroupMin = 2
+		#Maximum number of entities in group
+		#Range: > 0
+		entityGroupMax = 4
+		#Biome where entity Spawn
+		spawnBiomes = ["minecraft:plains", "minecraft:sunflower_plains", "minecraft:mountains", "minecraft:wooded_mountains", "minecraft:mountain_edge", "minecraft:gravelly_mountains", "minecraft:modified_gravelly_mountains"]
+		#Weight of entity in spawn
+		#Range: > 0
+		entityWeight = 12
+
+	[entities.sunsetCow]
+		#Minimum number of entities in group
+		#Range: > 0
+		entityGroupMin = 2
+		#Maximum number of entities in group
+		#Range: > 0
+		entityGroupMax = 4
+		#Biome where entity Spawn
+		spawnBiomes = ["minecraft:savanna", "minecraft:savanna_plateau", "minecraft:shattered_savanna", "minecraft:shattered_savanna_plateau"]
+		#Weight of entity in spawn
+		#Range: > 0
+		entityWeight = 8
+
+	[entities.midnightChicken]
+		#Minimum number of entities in group
+		#Range: > 0
+		entityGroupMin = 2
+		#Maximum number of entities in group
+		#Range: > 0
+		entityGroupMax = 4
+		#Biome where entity Spawn
+		spawnBiomes = ["minecraft:forest", "minecraft:wooded_hills", "minecraft:flower_forest", "minecraft:dark_forest", "minecraft:dark_forest_hills", "minecraft:jungle", "minecraft:jungle_hills", "minecraft:modified_jungle", "minecraft:jungle_edge", "minecraft:modified_jungle_edge", "minecraft:birch_forest", "minecraft:birch_forest_hills", "minecraft:tall_birch_forest", "minecraft:tall_birch_hills"]
+		#Weight of entity in spawn
+		#Range: > 0
+		entityWeight = 10
+
+	[entities.muddyFootRabbit]
+		#Minimum number of entities in group
+		#Range: > 0
+		entityGroupMin = 2
+		#Maximum number of entities in group
+		#Range: > 0
+		entityGroupMax = 4
+		#Biome where entity Spawn
+		spawnBiomes = ["minecraft:plains", "minecraft:sunflower_plains"]
+		#Weight of entity in spawn
+		#Range: > 0
+		entityWeight = 4
+
+	[entities.muddyPig]
+		#Minimum number of entities in group
+		#Range: > 0
+		entityGroupMin = 2
+		#Maximum number of entities in group
+		#Range: > 0
+		entityGroupMax = 4
+		#Biome where entity Spawn
+		spawnBiomes = ["minecraft:plains", "minecraft:sunflower_plains", "minecraft:mountains", "minecraft:wooded_mountains", "minecraft:mountain_edge", "minecraft:river"]
+		#Weight of entity in spawn
+		#Range: > 0
+		entityWeight = 10
+
+	[entities.furnaceGolem]
+		#Minimum number of entities in group
+		#Range: > 0
+		entityGroupMin = 2
+		#Maximum number of entities in group
+		#Range: > 0
+		entityGroupMax = 4
+		#Biome where entity Spawn
+		spawnBiomes = ["minecraft:plains", "minecraft:sunflower_plains"]
+		#Weight of entity in spawn
+		#Range: > 0
+		entityWeight = 20
+
+	[entities.amberChicken]
+		#Minimum number of entities in group
+		#Range: > 0
+		entityGroupMin = 2
+		#Maximum number of entities in group
+		#Range: > 0
+		entityGroupMax = 4
+		#Biome where entity Spawn
+		spawnBiomes = ["minecraft:desert", "minecraft:desert_hills", "minecraft:desert_lakes", "minecraft:savanna", "minecraft:savanna_plateau", "minecraft:shattered_savanna", "minecraft:shattered_savanna_plateau"]
+		#Weight of entity in spawn
+		#Range: > 0
+		entityWeight = 10
+
+	[entities.melonGolem]
+		#Minimum number of entities in group
+		#Range: > 0
+		entityGroupMin = 2
+		#Maximum number of entities in group
+		#Range: > 0
+		entityGroupMax = 4
+		#Biome where entity Spawn
+		spawnBiomes = ["minecraft:snowy_taiga", "minecraft:snowy_taiga_hills", "minecraft:snowy_taiga_mountains", "minecraft:snowy_tundra", "minecraft:snowy_mountains", "minecraft:snowy_beach", "minecraft:ice_spikes"]
+		#Weight of entity in spawn
+		#Range: > 0
+		entityWeight = 20
+
+	[entities.ashenCow]
+		#Minimum number of entities in group
+		#Range: > 0
+		entityGroupMin = 2
+		#Maximum number of entities in group
+		#Range: > 0
+		entityGroupMax = 4
+		#Biome where entity Spawn
+		spawnBiomes = ["minecraft:mountains", "minecraft:wooded_mountains", "minecraft:mountain_edge", "minecraft:gravelly_mountains", "minecraft:modified_gravelly_mountains"]
+		#Weight of entity in spawn
+		#Range: > 0
+		entityWeight = 8
+
+	[entities.woolyCow]
+		#Minimum number of entities in group
+		#Range: > 0
+		entityGroupMin = 2
+		#Maximum number of entities in group
+		#Range: > 0
+		entityGroupMax = 4
+		#Biome where entity Spawn
+		spawnBiomes = ["minecraft:taiga", "minecraft:taiga_hills", "minecraft:taiga_mountains", "minecraft:snowy_taiga", "minecraft:snowy_taiga_hills", "minecraft:snowy_taiga_mountains", "minecraft:giant_tree_taiga", "minecraft:giant_tree_taiga_hills", "minecraft:giant_spruce_taiga", "minecraft:giant_spruce_taiga_hills"]
+		#Weight of entity in spawn
+		#Range: > 0
+		entityWeight = 8
+
+	[entities.boneSpider]
+		#Minimum number of entities in group
+		#Range: > 0
+		entityGroupMin = 2
+		#Maximum number of entities in group
+		#Range: > 0
+		entityGroupMax = 4
+		#Biome where entity Spawn
+		spawnBiomes = ["minecraft:plains", "minecraft:sunflower_plains"]
+		#Weight of entity in spawn
+		#Range: > 0
+		entityWeight = 20
+
+	[entities.glowSquid]
+		#Minimum number of entities in group
+		#Range: > 0
+		entityGroupMin = 2
+		#Maximum number of entities in group
+		#Range: > 0
+		entityGroupMax = 4
+		#Biome where entity Spawn
+		spawnBiomes = ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:deep_warm_ocean", "minecraft:river", "minecraft:swamp", "minecraft:swamp_hills"]
+		#Weight of entity in spawn
+		#Range: > 0
+		entityWeight = 5
+
+	[entities.piebaldPig]
+		#Minimum number of entities in group
+		#Range: > 0
+		entityGroupMin = 2
+		#Maximum number of entities in group
+		#Range: > 0
+		entityGroupMax = 4
+		#Biome where entity Spawn
+		spawnBiomes = ["minecraft:forest", "minecraft:wooded_hills", "minecraft:flower_forest", "minecraft:birch_forest", "minecraft:birch_forest_hills", "minecraft:tall_birch_forest", "minecraft:tall_birch_hills", "minecraft:plains", "minecraft:sunflower_plains", "minecraft:mountains", "minecraft:wooded_mountains", "minecraft:mountain_edge", "minecraft:taiga", "minecraft:taiga_hills", "minecraft:taiga_mountains", "minecraft:savanna", "minecraft:savanna_plateau", "minecraft:shattered_savanna", "minecraft:shattered_savanna_plateau"]
+		#Weight of entity in spawn
+		#Range: > 0
+		entityWeight = 10
+
+	[entities.fleckedSheep]
+		#Minimum number of entities in group
+		#Range: > 0
+		entityGroupMin = 2
+		#Maximum number of entities in group
+		#Range: > 0
+		entityGroupMax = 4
+		#Biome where entity Spawn
+		spawnBiomes = ["minecraft:plains", "minecraft:sunflower_plains", "minecraft:mountains", "minecraft:wooded_mountains", "minecraft:mountain_edge", "minecraft:taiga", "minecraft:taiga_hills", "minecraft:taiga_mountains", "minecraft:gravelly_mountains", "minecraft:modified_gravelly_mountains", "minecraft:forest", "minecraft:wooded_hills", "minecraft:flower_forest"]
+		#Weight of entity in spawn
+		#Range: > 0
+		entityWeight = 12
+
+	[entities.harelequinRabbit]
+		#Minimum number of entities in group
+		#Range: > 0
+		entityGroupMin = 2
+		#Maximum number of entities in group
+		#Range: > 0
+		entityGroupMax = 4
+		#Biome where entity Spawn
+		spawnBiomes = ["minecraft:plains", "minecraft:sunflower_plains"]
+		#Weight of entity in spawn
+		#Range: > 0
+		entityWeight = 4
+
+	[entities.stormyChicken]
+		#Minimum number of entities in group
+		#Range: > 0
+		entityGroupMin = 2
+		#Maximum number of entities in group
+		#Range: > 0
+		entityGroupMax = 4
+		#Biome where entity Spawn
+		spawnBiomes = ["minecraft:plains", "minecraft:sunflower_plains", "minecraft:mountains", "minecraft:wooded_mountains", "minecraft:mountain_edge", "minecraft:gravelly_mountains", "minecraft:modified_gravelly_mountains", "minecraft:taiga", "minecraft:taiga_hills", "minecraft:taiga_mountains"]
+		#Weight of entity in spawn
+		#Range: > 0
+		entityWeight = 10
+
+	[entities.moobloom]
+		#Minimum number of entities in group
+		#Range: > 0
+		entityGroupMin = 2
+		#Maximum number of entities in group
+		#Range: > 0
+		entityGroupMax = 4
+		#Biome where entity Spawn
+		spawnBiomes = ["minecraft:flower_forest"]
+		#Weight of entity in spawn
+		#Range: > 0
+		entityWeight = 8
+
+	[entities.palePig]
+		#Minimum number of entities in group
+		#Range: > 0
+		entityGroupMin = 2
+		#Maximum number of entities in group
+		#Range: > 0
+		entityGroupMax = 4
+		#Biome where entity Spawn
+		spawnBiomes = ["minecraft:snowy_tundra", "minecraft:snowy_mountains", "minecraft:snowy_taiga", "minecraft:snowy_taiga_hills", "minecraft:snowy_taiga_mountains"]
+		#Weight of entity in spawn
+		#Range: > 0
+		entityWeight = 10
+
+	[entities.albinoCow]
+		#Minimum number of entities in group
+		#Range: > 0
+		entityGroupMin = 2
+		#Maximum number of entities in group
+		#Range: > 0
+		entityGroupMax = 4
+		#Biome where entity Spawn
+		spawnBiomes = ["minecraft:plains", "minecraft:sunflower_plains", "minecraft:mountains", "minecraft:wooded_mountains", "minecraft:mountain_edge", "minecraft:gravelly_mountains", "minecraft:modified_gravelly_mountains"]
+		#Weight of entity in spawn
+		#Range: > 0
+		entityWeight = 20
+
+	[entities.cluckshroom]
+		#Minimum number of entities in group
+		#Range: > 0
+		entityGroupMin = 2
+		#Maximum number of entities in group
+		#Range: > 0
+		entityGroupMax = 4
+		#Biome where entity Spawn
+		spawnBiomes = ["minecraft:mushroom_fields", "minecraft:mushroom_fields"]
+		#Weight of entity in spawn
+		#Range: > 0
+		entityWeight = 10
+
+	[entities.rockySheep]
+		#Minimum number of entities in group
+		#Range: > 0
+		entityGroupMin = 2
+		#Maximum number of entities in group
+		#Range: > 0
+		entityGroupMax = 4
+		#Biome where entity Spawn
+		spawnBiomes = ["minecraft:plains", "minecraft:sunflower_plains", "minecraft:mountains", "minecraft:wooded_mountains", "minecraft:mountain_edge", "minecraft:gravelly_mountains", "minecraft:modified_gravelly_mountains"]
+		#Weight of entity in spawn
+		#Range: > 0
+		entityWeight = 12
+
+	[entities.hornedSheep]
+		#Minimum number of entities in group
+		#Range: > 0
+		entityGroupMin = 2
+		#Maximum number of entities in group
+		#Range: > 0
+		entityGroupMax = 4
+		#Biome where entity Spawn
+		spawnBiomes = ["minecraft:plains", "minecraft:sunflower_plains", "minecraft:mountains", "minecraft:wooded_mountains", "minecraft:mountain_edge", "minecraft:gravelly_mountains", "minecraft:modified_gravelly_mountains"]
+		#Weight of entity in spawn
+		#Range: > 0
+		entityWeight = 12
+
+	[entities.spottedPig]
+		#Minimum number of entities in group
+		#Range: > 0
+		entityGroupMin = 2
+		#Maximum number of entities in group
+		#Range: > 0
+		entityGroupMax = 4
+		#Biome where entity Spawn
+		spawnBiomes = ["minecraft:swamp", "minecraft:swamp_hills"]
+		#Weight of entity in spawn
+		#Range: > 0
+		entityWeight = 10
+
+	[entities.tropicalSlime]
+		#Minimum number of entities in group
+		#Range: > 0
+		entityGroupMin = 1
+		#Maximum number of entities in group
+		#Range: > 0
+		entityGroupMax = 1
+		#Biome where entity Spawn
+		spawnBiomes = ["minecraft:beach"]
+		#Weight of entity in spawn
+		#Range: > 0
+		entityWeight = 10
+
+	[entities.skeletonWolf]
+		#Minimum number of entities in group
+		#Range: > 0
+		entityGroupMin = 2
+		#Maximum number of entities in group
+		#Range: > 0
+		entityGroupMax = 4
+		#Biome where entity Spawn
+		spawnBiomes = ["minecraft:forest", "minecraft:wooded_hills", "minecraft:flower_forest", "minecraft:taiga", "minecraft:taiga_hills", "minecraft:taiga_mountains", "minecraft:snowy_taiga", "minecraft:snowy_taiga_hills", "minecraft:snowy_taiga_mountains", "minecraft:giant_tree_taiga", "minecraft:giant_tree_taiga_hills", "minecraft:giant_spruce_taiga", "minecraft:giant_spruce_taiga_hills", "minecraft:badlands", "minecraft:badlands_plateau", "minecraft:modified_badlands_plateau", "minecraft:wooded_badlands_plateau", "minecraft:modified_wooded_badlands_plateau", "minecraft:eroded_badlands"]
+		#Weight of entity in spawn
+		#Range: > 0
+		entityWeight = 8
+
+	[entities.vestedRabbit]
+		#Minimum number of entities in group
+		#Range: > 0
+		entityGroupMin = 2
+		#Maximum number of entities in group
+		#Range: > 0
+		entityGroupMax = 4
+		#Biome where entity Spawn
+		spawnBiomes = ["minecraft:plains", "minecraft:sunflower_plains"]
+		#Weight of entity in spawn
+		#Range: > 0
+		entityWeight = 4
+
