@@ -1,2 +1,2 @@
 # TIHI - Thanks, I Hate It
-### *A Modpack for Minecraft 1.16.1*
+### *A Modpack for Minecraft 1.16*
