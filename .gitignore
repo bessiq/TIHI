@@ -1,4 +1,5 @@
 # Folders to ignore
+/natives/
 /journeymap/
 /dumps/
 /crash-reports/
@@ -104,3 +105,4 @@ config/stepup.cfg
 *.csv
 config/chancecubes/custom_rewards/CustomSounds-Resourcepack.zip
 config.json
+background.png
