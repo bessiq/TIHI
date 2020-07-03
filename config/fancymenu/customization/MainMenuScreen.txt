@@ -12,27 +12,33 @@ customization {
 
 customization {
   path = global_data_pack/TIHI/resources/tihi_logo.png
-  orientation = top-centered
-  x = -80
-  width = 160
+  orientation = mid-centered
+  x = -96
+  width = 192
   action = addtexture
-  y = 20
-  height = 100
+  y = -110
+  height = 120
 }
 
 customization {
   identifier = %id=4%
   orientation = bottom-centered
-  x = -62
+  x = -69
   action = movebutton
-  y = -63
+  y = -64
 }
 
 customization {
   identifier = %id=4%
-  width = 60
+  width = 68
   action = resizebutton
   height = 20
+}
+
+customization {
+  identifier = %id=4%
+  action = setbuttonlabel
+  value = Mods
 }
 
 customization {
@@ -45,9 +51,9 @@ customization {
 customization {
   identifier = %id=5%
   orientation = bottom-centered
-  x = -61
+  x = -69
   action = movebutton
-  y = -85
+  y = -84
 }
 
 customization {
@@ -59,16 +65,16 @@ customization {
 customization {
   identifier = %id=5%
   action = setbuttontexture
-  backgroundhovered = global_data_pack/TIHI/resources/language.png
+  backgroundhovered = global_data_pack/TIHI/resources/language_hov.png
   backgroundnormal = global_data_pack/TIHI/resources/language.png
 }
 
 customization {
   identifier = %id=6%
   orientation = bottom-centered
-  x = 42
+  x = 49
   action = movebutton
-  y = -85
+  y = -84
 }
 
 customization {
@@ -80,21 +86,21 @@ customization {
 customization {
   identifier = %id=6%
   action = setbuttontexture
-  backgroundhovered = global_data_pack/TIHI/resources/accessibility.png
+  backgroundhovered = global_data_pack/TIHI/resources/accessibility_hov.png
   backgroundnormal = global_data_pack/TIHI/resources/accessibility.png
 }
 
 customization {
   identifier = %id=1%
   orientation = bottom-centered
-  x = -62
+  x = -70
   action = movebutton
-  y = -129
+  y = -124
 }
 
 customization {
   identifier = %id=1%
-  width = 124
+  width = 140
   action = resizebutton
   height = 20
 }
@@ -113,24 +119,24 @@ customization {
 }
 
 customization {
-  identifier = %id=1%
-  action = sethoverlabel
-  label = Hate It Alone
-}
-
-customization {
   identifier = %id=2%
   orientation = bottom-centered
-  x = -62
+  x = -70
   action = movebutton
-  y = -107
+  y = -104
 }
 
 customization {
   identifier = %id=2%
-  width = 124
+  width = 140
   action = resizebutton
   height = 20
+}
+
+customization {
+  identifier = %id=2%
+  action = setbuttonlabel
+  value = Multiplayer
 }
 
 customization {
@@ -141,24 +147,24 @@ customization {
 }
 
 customization {
-  identifier = %id=2%
-  action = sethoverlabel
-  label = Hate It With Friends!
-}
-
-customization {
   identifier = %id=7%
   orientation = bottom-centered
-  x = -38
+  x = -49
   action = movebutton
-  y = -85
+  y = -84
 }
 
 customization {
   identifier = %id=7%
-  width = 78
+  width = 98
   action = resizebutton
   height = 20
+}
+
+customization {
+  identifier = %id=7%
+  action = setbuttonlabel
+  value = Options
 }
 
 customization {
@@ -171,14 +177,14 @@ customization {
 customization {
   identifier = %id=8%
   orientation = bottom-centered
-  x = 3
+  x = 1
   action = movebutton
-  y = -63
+  y = -64
 }
 
 customization {
   identifier = %id=8%
-  width = 60
+  width = 68
   action = resizebutton
   height = 20
 }
@@ -199,5 +205,20 @@ customization {
 customization {
   identifier = %id=3%
   action = hidebutton
+}
+
+customization {
+  orientation = bottom-centered
+  hoverlabel = Thanks For Hating It!
+  buttonaction = openlink
+  x = -70
+  width = 140
+  action = addbutton
+  y = -44
+  backgroundhovered = global_data_pack/TIHI/resources/button_hov.png
+  label = TIHI
+  backgroundnormal = global_data_pack/TIHI/resources/button.png
+  value = https://youtu.be/dQw4w9WgXcQ
+  height = 20
 }
 

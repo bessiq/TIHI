@@ -9,7 +9,7 @@
 	ExternalICYBiomes = ""
 	#Biome Size, Default 1.
 	#Range: 0 ~ 25
-	BiomeSize = 1
+	BiomeSize = 0.05
 	#Add external WARM biomes by their registry names in a commented list.
 	ExternalWARMBiomes = ""
 	#Add external HOT biomes by their registry names in a commented list.
