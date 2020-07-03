@@ -92,7 +92,7 @@
 		#Range: > 0
 		entityGroupMax = 4
 		#Biome where entity Spawn
-		spawnBiomes = ["minecraft:desert", "minecraft:desert_hills", "minecraft:desert_lakes", "minecraft:badlands", "minecraft:badlands_plateau", "minecraft:eroded_badlands", "minecraft:modified_badlands_plateau", , "minecraft:modified_wooded_badlands_plateau", "minecraft:wooded_badlands_plateau", "byg:prairie", "byg:lush_red_desert", "byg:red_desert", "byg:red_desert_dunes", "byg:red_rock_highlands", "byg:red_rock_lowlands", "byg:red_rock_mountains"]
+		spawnBiomes = ["minecraft:desert", "minecraft:desert_hills", "minecraft:desert_lakes", "minecraft:badlands", "minecraft:badlands_plateau", "minecraft:eroded_badlands", "minecraft:modified_badlands_plateau", "minecraft:modified_wooded_badlands_plateau", "minecraft:wooded_badlands_plateau", "byg:prairie", "byg:lush_red_desert", "byg:red_desert", "byg:red_desert_dunes", "byg:red_rock_highlands", "byg:red_rock_lowlands", "byg:red_rock_mountains"]
 		#Weight of entity in spawn
 		#Range: > 0
 		entityWeight = 10
@@ -157,7 +157,7 @@
 		#Range: > 0
 		entityGroupMax = 2
 		#Biome where entity Spawn
-		spawnBiomes = ["minecraft:deep_ocean", "minecraft:deep_frozen_ocean", "minecraft:deep_cold_ocean", "minecraft:deep_lukewarm_ocean",  "minecraft:deep_warm_ocean"]
+		spawnBiomes = ["minecraft:deep_ocean", "minecraft:deep_frozen_ocean", "minecraft:deep_cold_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:deep_warm_ocean"]
 		#Weight of entity in spawn
 		#Range: > 0
 		entityWeight = 5
@@ -170,7 +170,7 @@
 		#Range: > 0
 		entityGroupMax = 3
 		#Biome where entity Spawn
-		spawnBiomes = ["minecraft:badlands", "minecraft:badlands_plateau", "minecraft:eroded_badlands", "minecraft:modified_badlands_plateau", , "minecraft:modified_wooded_badlands_plateau", "minecraft:wooded_badlands_plateau", "byg:sierra_range", "byg:sierra_valley"]
+		spawnBiomes = ["minecraft:badlands", "minecraft:badlands_plateau", "minecraft:eroded_badlands", "minecraft:modified_badlands_plateau", "minecraft:modified_wooded_badlands_plateau", "minecraft:wooded_badlands_plateau", "byg:sierra_range", "byg:sierra_valley"]
 		#Weight of entity in spawn
 		#Range: > 0
 		entityWeight = 10
