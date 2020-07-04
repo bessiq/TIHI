@@ -1,6 +1,6 @@
 
 [worldgen]
-	enabled = true
+	enabled = false
 
 	[worldgen.tin]
 		#Range: > 1
@@ -11,7 +11,7 @@
 		size = 6
 		#Range: > 0
 		max_height = 64
-		enabled = true
+		enabled = false
 
 	[worldgen.copper]
 		#Range: > 1
@@ -22,5 +22,5 @@
 		size = 10
 		#Range: > 0
 		max_height = 68
-		enabled = true
+		enabled = false
 

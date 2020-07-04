@@ -108,7 +108,7 @@
 		["Ore Generation".Experience.Nether]
 			#Set the Count of the Experience Ore how much can spawn per Chunk in the Nether(Default: 5).
 			#Range: 1 ~ 255
-			count_nether_experience = 5
+			count_nether_experience = 4
 			#Enable the Generation of the Nether Experience Ore (Default: true).
 			generate_nether_experience = true
 			#Set the Max Height of the Experience Ore in the Nether (Default: 128).
@@ -123,7 +123,7 @@
 			generate_overworld_experience = true
 			#Set the Count of the Experience Ore how much can spawn per Chunk in the Overworld.(Default: 5)
 			#Range: 1 ~ 255
-			count_overworld_experience = 5
+			count_overworld_experience = 4
 			#Set the Max Height of the Experience Ore in the Overworld (Default: 128).
 			#Range: 0 ~ 256
 			max_height_overworld_experience = 128
@@ -136,7 +136,7 @@
 			generate_end_experience = true
 			#Set the Count of the Experience Ore how much can spawn per Chunk in  the End (Default: 5).
 			#Range: 1 ~ 255
-			count_end_experience = 5
+			count_end_experience = 4
 			#Set the Min Height of the Experience Ore in  the End (Default: 0).
 			#Range: 0 ~ 128
 			min_height_end_experience = 0
@@ -160,7 +160,7 @@
 			minheight_topaz = 0
 			#Set the Count of the Topaz Ore how much can spawn per Chunk (Default: 12).
 			#Range: 1 ~ 255
-			count_topaz = 12
+			count_topaz = 10
 
 	["Ore Generation".Overworld]
 		#Enable that Rubies and Sapphire's generate in every biome(Default: false).

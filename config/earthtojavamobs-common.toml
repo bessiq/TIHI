@@ -53,7 +53,7 @@
 		#Range: > 0
 		entityGroupMax = 3
 		#Biome where entity Spawn
-		spawnBiomes = ["minecraft:plains", "byg:meadow", "byg:vibrant_swamplands"]
+		spawnBiomes = ["minecraft:plains", "byg:meadow", "byg:vibrant_swamplands", "byg:red_desert", "byg:mojave_desert"]
 		#Weight of entity in spawn
 		#Range: > 0
 		entityWeight = 4
@@ -66,7 +66,7 @@
 		#Range: > 0
 		entityGroupMax = 3
 		#Biome where entity Spawn
-		spawnBiomes = ["minecraft:plains", "byg:meadow", "minecraft:mountains", "minecraft:wooded_mountains", "minecraft:mountain_edge"]
+		spawnBiomes = ["minecraft:plains", "byg:meadow", "minecraft:mountains", "minecraft:wooded_mountains", "minecraft:mountain_edge", "byg:red_desert", "byg:mojave_desert"]
 		#Weight of entity in spawn
 		#Range: > 0
 		entityWeight = 10
@@ -160,7 +160,7 @@
 		spawnBiomes = ["minecraft:deep_ocean", "minecraft:deep_frozen_ocean", "minecraft:deep_cold_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:deep_warm_ocean"]
 		#Weight of entity in spawn
 		#Range: > 0
-		entityWeight = 5
+		entityWeight = 6
 
 	[entities.piebaldPig]
 		#Minimum number of entities in group

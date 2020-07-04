@@ -9,5 +9,5 @@
 	#Do you want Magical Power? [default: true]
 	magicalpower = true
 	#a list for mod support [default: minecraft]
-	modsupportlist = ["minecraft"]
+	modsupportlist = ["dungeons_plus", "endreborn", "farlanders", "conjurer_illager"]
 

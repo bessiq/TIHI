@@ -219,6 +219,8 @@
 	#Highest damage possible for Caliburn
 	#Range: 0 ~ 100000000
 	POWER_CONSOLIDATION_ATTACK_CAP = 5000000
+	#mahoutsukai.config.power_consolidation_fear_blacklist.comment
+	POWER_CONSOLIDATION_FEAR_BLACKLIST = []
 	#A blacklist for items which should not spawn extra drops with Strengthening
 	STRENGTHENING_ITEM_SPAWN_BLACKLIST = []
 	#This is the range for undead mobs to fear Caliburn

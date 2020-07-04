@@ -5,7 +5,7 @@
 	obsidian_ore_rarity = 6
 	#Quartz Ore spawn rarity
 	#Range: 0 ~ 64
-	quartz_rarity = 4
+	quartz_rarity = 2
 	#The End new structures
 	new_structures_end = true
 	#Random model size | If enabled, server logs can spam with warning about enderman spawning

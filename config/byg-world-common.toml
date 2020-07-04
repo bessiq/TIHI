@@ -9,7 +9,7 @@
 	ExternalICYBiomes = ""
 	#Biome Size, Default 1.
 	#Range: 0 ~ 25
-	BiomeSize = 0.05
+	BiomeSize = 1
 	#Add external WARM biomes by their registry names in a commented list.
 	ExternalWARMBiomes = ""
 	#Add external HOT biomes by their registry names in a commented list.
@@ -19,23 +19,23 @@
 
 		[World_Settings.Stone_Settings.Soapstone]
 			#Range: 0 ~ 100
-			SoapstoneChance = 10
+			SoapstoneChance = 8
 			#Range: 0 ~ 256
-			SoapstoneMaxY = 30
+			SoapstoneMaxY = 12
 			#Range: 0 ~ 35
-			SoapstoneSize = 24
+			SoapstoneSize = 20
 
 		[World_Settings.Stone_Settings.Scoria_Stone]
 			#Range: 0 ~ 100
-			ScoriaStoneChance = 10
+			ScoriaStoneChance = 8
 			#Range: 0 ~ 256
-			ScoriaStoneMaxY = 20
+			ScoriaStoneMaxY = 24
 			#Range: 0 ~ 35
-			ScoriaStoneSize = 24
+			ScoriaStoneSize = 20
 
 		[World_Settings.Stone_Settings.Rocky_Stone]
 			#Range: 0 ~ 100
-			RockyStoneSize = 0
+			RockyStoneSize = 10
 			#Range: 0 ~ 100
 			RockyStoneChance = 4
 			#Range: 0 ~ 256

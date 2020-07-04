@@ -18,7 +18,7 @@
 	[OreGeneration.Tin]
 		#Tin ore vein size
 		#Range: > 1
-		TinVeinSize = 7
+		TinVeinSize = 6
 		#Tin ore minimum height
 		#Range: 1 ~ 254
 		TinBottomHeight = 20
@@ -52,10 +52,10 @@
 		OnyxMaxHeight = 128
 		#Onyx ore vein count per chunk
 		#Range: > 1
-		OnyxVeinCount = 5
+		OnyxVeinCount = 4
 		#Onyx ore vein size
 		#Range: > 1
-		OnyxVeinSize = 7
+		OnyxVeinSize = 6
 
 	[OreGeneration.Copper]
 		#Copper ore maximum height
@@ -66,10 +66,10 @@
 		CopperBottomHeight = 40
 		#Copper ore vein size
 		#Range: > 1
-		CopperVeinSize = 7
+		CopperVeinSize = 6
 		#Copper ore vein count per chunk
 		#Range: > 1
-		CopperVeinCount = 25
+		CopperVeinCount = 24
 
 	[OreGeneration.Adamantium]
 		#Adamantium ore minimum height
