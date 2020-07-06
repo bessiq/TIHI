@@ -27,7 +27,7 @@
 		#Range: > 0
 		entityGroupMax = 3
 		#Biome where entity Spawn
-		spawnBiomes = ["minecraft:savanna", "byg:lush_red_desert", "byg:red_desert", "byg:red_desert_dunes", "minecraft:badlands", "minecraft:badlands_plateau", "minecraft:eroded_badlands", "minecraft:modified_badlands_plateau", "minecraft:modified_wooded_badlands_plateau", "minecraft:wooded_badlands_plateau", "byg:red_rock_highlands", "byg:red_rock_lowlands", "byg:red_rock_mountains"]
+		spawnBiomes = ["minecraft:savanna", "byg:baobab_savanna", "byg:lush_red_desert", "byg:red_desert", "byg:red_desert_dunes", "minecraft:badlands", "minecraft:badlands_plateau", "minecraft:eroded_badlands", "minecraft:modified_badlands_plateau", "minecraft:modified_wooded_badlands_plateau", "minecraft:wooded_badlands_plateau", "byg:red_rock_highlands", "byg:red_rock_lowlands", "byg:red_rock_mountains"]
 		#Weight of entity in spawn
 		#Range: > 0
 		entityWeight = 8
@@ -53,7 +53,7 @@
 		#Range: > 0
 		entityGroupMax = 3
 		#Biome where entity Spawn
-		spawnBiomes = ["minecraft:plains", "byg:meadow", "byg:vibrant_swamplands", "byg:red_desert", "byg:mojave_desert"]
+		spawnBiomes = ["minecraft:plains", "byg:meadow", "byg:grassland_plateau", "byg:red_desert", "byg:mojave_desert"]
 		#Weight of entity in spawn
 		#Range: > 0
 		entityWeight = 4
@@ -66,7 +66,7 @@
 		#Range: > 0
 		entityGroupMax = 3
 		#Biome where entity Spawn
-		spawnBiomes = ["minecraft:plains", "byg:meadow", "minecraft:mountains", "minecraft:wooded_mountains", "minecraft:mountain_edge", "byg:red_desert", "byg:mojave_desert"]
+		spawnBiomes = ["minecraft:plains", "byg:meadow", "minecraft:forest", "minecraft:mountain_edge", "byg:red_desert", "byg:mojave_desert", "byg:grassland_plateau"]
 		#Weight of entity in spawn
 		#Range: > 0
 		entityWeight = 10

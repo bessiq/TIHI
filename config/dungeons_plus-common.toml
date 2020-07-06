@@ -2,7 +2,7 @@
 [tower]
 	#Spacing between structures
 	#Range: > 1
-	spacing = 40
+	spacing = 42
 	#Offsets the spacing of the structures randomly
 	#Range: > 0
 	offset = 8

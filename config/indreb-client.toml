@@ -1,26 +1,26 @@
 
 [worldgen]
-	enabled = false
+	enabled = true
 
 	[worldgen.tin]
 		#Range: > 1
 		chance = 10
 		#Range: > 0
-		min_height = 0
+		min_height = 24
 		#Range: > 1
 		size = 6
 		#Range: > 0
-		max_height = 64
-		enabled = false
+		max_height = 54
+		enabled = true
 
 	[worldgen.copper]
 		#Range: > 1
-		chance = 15
+		chance = 14
 		#Range: > 0
-		min_height = 0
+		min_height = 32
 		#Range: > 1
-		size = 10
+		size = 8
 		#Range: > 0
-		max_height = 68
-		enabled = false
+		max_height = 62
+		enabled = true
 

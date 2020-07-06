@@ -1,9 +1,9 @@
 
-#Variant16x Common Configuration File
+#'Variant16x' Common Configuration File
 [variant16x]
 
-	#General Variants Settings
-	#NOTE: Changing 'General Variants Settings' OVERRIDES Custom Settings!
+	#General Settings
+	#NOTE: Changing 'General Settings' WILL OVERRIDE Custom Settings!
 	[variant16x.general]
 		#Enables/Disables ALL Pressure Plate Variants
 		enablePressurePlates = true
@@ -22,7 +22,7 @@
 		#Enables/Disables ALL Slab Variants
 		enableSlabs = true
 
-	#Custom Wall Variants Settings
+	#Custom Wall Settings
 	[variant16x.walls]
 		#Enables/Disables Stone/Other Wall Variants
 		enableStoneWalls = true
@@ -37,14 +37,14 @@
 		#Enables/Disables Concrete Wall Variants
 		enableConcreteWalls = true
 
-	#Custom Fence Variants Settings
+	#Custom Fence Settings
 	[variant16x.fences]
 		#Enables/Disables Wood Fence Variants
 		enableWoodFences = true
 		#Enables/Disables Red Nether Brick Fence
 		enableStoneFences = true
 
-	#Custom Button Variants Settings
+	#Custom Button Settings
 	[variant16x.buttons]
 		#Enables/Disables Stone/Other Button Variants
 		enableStoneButtons = true
@@ -61,7 +61,7 @@
 		#Enables/Disables Glass Button Variants
 		enableGlassButtons = true
 
-	#Custom Miscellaneous Variants Settings
+	#Custom Miscellaneous Settings
 	[variant16x.miscellaneous]
 		#Enables/Disables Infested Variants
 		enableInfestedStones = true
@@ -70,7 +70,7 @@
 		#Enables/Disables Flower Variants
 		enableSmallFlowers = true
 
-	#Custom Pressure Plate Variants Settings
+	#Custom Pressure Plate Settings
 	[variant16x.pressurePlates]
 		#Enables/Disables Wood Pressure Plate Variants
 		enableWoodPressurePlates = true
@@ -89,7 +89,7 @@
 		#Enables/Disables Terracotta Pressure Plate Variants
 		enableTerracottaPressurePlates = true
 
-	#Custom Stairs Variants Settings
+	#Custom Stairs Settings
 	[variant16x.stairs]
 		#Enables/Disables Wood Stairs Variants
 		enableWoodStairs = true
@@ -106,12 +106,12 @@
 		#Enables/Disables Concrete Stairs Variants
 		enableConcreteStairs = true
 
-	#Custom Fence Gate Variants Settings
+	#Custom Fence Gate Settings
 	[variant16x.fenceGates]
 		#Enables/Disables Wood Fence Gate Variants
 		enableWoodFenceGates = true
 
-	#Custom Slab Variants Settings
+	#Custom Slab Settings
 	[variant16x.slabs]
 		#Enables/Disables Wool Slab Variants
 		enableWoolSlabs = true

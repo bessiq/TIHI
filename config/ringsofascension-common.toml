@@ -18,7 +18,7 @@
 	ringGrowth = true
 	ringInvisibility = true
 	ringWaterBreathing = true
-	ringWither = true
+	ringWither = false
 	ringDolphin = true
 	ringKnockbackResistance = true
 	ringHungerless = true
@@ -109,33 +109,33 @@
 	#Generate rings in woodland mansion chests
 	ringWoodlandChests = true
 	#Generate rings in village toolsmith chests
-	ringToolsmithChests = true
+	ringToolsmithChests = false
 	#Generate rings in dungeon chests
-	ringDungeonChests = true
+	ringDungeonChests = false
 	#Generate rings in pillager outpost chests
-	ringPillagerChests = true
+	ringPillagerChests = false
 	#Generate rings in village armorer chests
-	ringArmorerChests = true
+	ringArmorerChests = false
 	#Generate rings in abandoned mineshaft chests
-	ringMineshaftChests = true
+	ringMineshaftChests = false
 	#Generate rings in desert pyramid chests
-	ringPyramidChests = true
+	ringPyramidChests = false
 	#Generate rings in end city chests
 	ringEndCityChests = true
 	#Generate rings in stronghold library chests
-	ringStrongholdChests = true
+	ringStrongholdChests = false
 	#Generate rings in village weaponsmith chests
-	ringWeaponsmithChests = true
+	ringWeaponsmithChests = false
 	#Generate rings in buried treasure chests
-	ringBuriedTreasureChests = true
+	ringBuriedTreasureChests = false
 	#Generate rings in igloo chests
-	ringIglooChests = true
+	ringIglooChests = false
 	#Generate rings in nether bridge chests
 	ringNetherChests = true
 	#Generate rings in spawn bonus chests
-	ringBonusChests = true
+	ringBonusChests = false
 	#Generate rings in shipwreck treasure chests
-	ringShipwreckChests = true
+	ringShipwreckChests = false
 	#Generate rings in jungle temple chests
-	ringJungleChests = true
+	ringJungleChests = false
 

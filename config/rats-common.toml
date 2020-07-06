@@ -131,7 +131,7 @@
 	"Max Rat Radius" = 32
 	#The weight of pied pipers in vanilla's spawn rate
 	#Range: 1 ~ 300
-	"Pied Piper Spawn Weight" = 6
+	"Pied Piper Spawn Weight" = 4
 	#The max block hardness that rats are allowed to dig through. (Dirt = 0.5F, Cobblestone = 2.0F, Obsidian = 50.0F)
 	#Range: 0.0 ~ 1000000.0
 	"Rat Dig Strength" = 4.0

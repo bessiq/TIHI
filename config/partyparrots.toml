@@ -6,12 +6,12 @@
 	#Do parrots party when they're on your shoulder?
 	partyShoulder = true
 	#Do parrots party when they're flying?
-	partyFlying = true
+	partyFlying = false
 	#Do parrots party when they're sitting?
 	partySitting = false
 	#How far do players have to be twerking for parrots to PARTY?!
 	#Range: 2.0 ~ 32.0
 	partyTwerkRange = 5.0
 	#Do parrots party when players twerk?
-	partyTwerk = false
+	partyTwerk = true
 
