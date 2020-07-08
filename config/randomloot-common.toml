@@ -24,91 +24,119 @@
 	#Minimum damage a sword can do.
 	#Range: 0 ~ 100
 	sword_damage = 7
-<<<<<<< HEAD
-	#Weight for shovel to drop from case
+	#Weight for a shovel to drop from case
 	#Range: 0 ~ 100
 	spade_weight = 8
 	#Minimum attack speed a shovel can have.
 	#Range: -4.0 ~ 4.0
 	spade_a_speed = -3.0
-=======
->>>>>>> 2456a82a389661d192cdd6719b76ac0f62e817c0
 	#Minimum attack speed a pickaxe can have.
 	#Range: -4.0 ~ 4.0
 	pick_a_speed = -2.8
-	#Weight for pick to drop from case
+	#Weight for a pick to drop from case
 	#Range: 0 ~ 100
 	pick_weight = 15
 	#Weight of a basic case dropping
 	#Range: 0 ~ 100
 	basic_chance = 70
-<<<<<<< HEAD
 	#Minimum damage a shovel can do.
 	#Range: 0 ~ 100
 	spade_damage = 4
-	#Weight for axe to drop from case
+	#Weight for and axe to drop from case
 	#Range: 0 ~ 100
 	axe_weight = 10
-=======
->>>>>>> 2456a82a389661d192cdd6719b76ac0f62e817c0
 	#Range: 0 ~ 100
 	titan_rolls = 9
+	#Weight for a bow to drop from case
+	#Range: 0 ~ 100
+	bow_weight = 8
 	#Initital Rolls for traits/stats
 	#Range: 0 ~ 100
 	basic_rolls = 2
-<<<<<<< HEAD
 	#Minimum damage an axe can do.
 	#Range: 0 ~ 100
 	axe_damage = 9
-	#Weight for sword to drop from case
+	#Weight for a sword to drop from case
 	#Range: 0 ~ 100
 	sword_weight = 20
 	#Minimum attack speed an axe can have.
 	#Range: -4.0 ~ 4.0
 	axe_a_speed = -3.0
 
-#Enabled Traits
+#Traits Enabled
 [traits]
-	"Bouncier enabled?" = true
-	"Webbed enabled?" = true
-	"Hastier enabled?" = true
-	"Bouncy enabled?" = true
-	"Super_lucky enabled?" = true
-	"More_fire_resistant enabled?" = true
-	"Fire_resistant enabled?" = true
-	"More_resistant enabled?" = true
-	"Speedier enabled?" = true
-	"Resistant enabled?" = true
-	"Explosive enabled?" = true
-	"Deep_breathing enabled?" = true
-	"Cloud_walker enabled?" = true
-	"Withering enabled?" = true
-	"Phasing enabled?" = true
-	"Lucky enabled?" = true
-	"Double_webbed enabled?" = true
-	"Regenerating enabled?" = true
-	"Speedy enabled?" = true
-	"Weakening enabled?" = true
-	"Strong enabled?" = true
-	"Auto-smelt enabled?" = true
-	"Very_withering enabled?" = true
-	"Filling enabled?" = true
-	"Hastey enabled?" = true
-	"Stronger enabled?" = true
-	"Poisonous enabled?" = true
-	"Soul_searching enabled?" = true
-	"Very_poisonous enabled?" = true
-	"Fortified enabled?" = true
-	"Damage+ enabled?" = true
-	"Insightful enabled?" = true
-	"Damage++ enabled?" = true
-	"Glittering enabled?" = true
-	"Very_weakening enabled?" = true
-	"Blinding enabled?" = true
-	"Floating enabled?" = true
-=======
-	#Weight for sword to drop from case
-	#Range: 0 ~ 100
-	sword_weight = 20
->>>>>>> 2456a82a389661d192cdd6719b76ac0f62e817c0
+	#Weakening Enabled?
+	weakening_enabled = true
+	#Webbed Enabled?
+	webbed_enabled = true
+	#More_fire_resistant Enabled?
+	more_fire_resistant_enabled = true
+	#Very_weakening Enabled?
+	very_weakening_enabled = true
+	#Floating Enabled?
+	floating_enabled = true
+	#More_resistant Enabled?
+	more_resistant_enabled = true
+	#Speedier Enabled?
+	speedier_enabled = true
+	#Damage++ Enabled?
+	"damage++_enabled" = true
+	#Bouncier Enabled?
+	bouncier_enabled = true
+	#Soul_searching Enabled?
+	soul_searching_enabled = true
+	#Regenerating Enabled?
+	regenerating_enabled = true
+	#Hastey Enabled?
+	hastey_enabled = true
+	#Super_lucky Enabled?
+	super_lucky_enabled = true
+	#Auto-smelt Enabled?
+	auto-smelt_enabled = true
+	#Very_withering Enabled?
+	very_withering_enabled = true
+	#Resistant Enabled?
+	resistant_enabled = true
+	#Bouncy Enabled?
+	bouncy_enabled = true
+	#Hastier Enabled?
+	hastier_enabled = true
+	#Cloud_walker Enabled?
+	cloud_walker_enabled = true
+	#Very_poisonous Enabled?
+	very_poisonous_enabled = true
+	#Insightful Enabled?
+	insightful_enabled = true
+	#Glittering Enabled?
+	glittering_enabled = true
+	#Filling Enabled?
+	filling_enabled = true
+	#Strong Enabled?
+	strong_enabled = true
+	#Fire_resistant Enabled?
+	fire_resistant_enabled = true
+	#Poisonous Enabled?
+	poisonous_enabled = true
+	#Fortified Enabled?
+	fortified_enabled = true
+	#Double_webbed Enabled?
+	double_webbed_enabled = true
+	#Damage+ Enabled?
+	"damage+_enabled" = true
+	#Deep_breathing Enabled?
+	deep_breathing_enabled = true
+	#Withering Enabled?
+	withering_enabled = true
+	#Explosive Enabled?
+	explosive_enabled = true
+	#Phasing Enabled?
+	phasing_enabled = true
+	#Stronger Enabled?
+	stronger_enabled = true
+	#Lucky Enabled?
+	lucky_enabled = true
+	#Speedy Enabled?
+	speedy_enabled = true
+	#Blinding Enabled?
+	blinding_enabled = true
 
