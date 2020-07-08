@@ -18,6 +18,7 @@ screenshots/
 /classes/
 /tutorials/
 /tellme/
+/natives/
 
 # Utilities
 .github_changelog_generator
@@ -62,6 +63,7 @@ post-file-to-discord.bat
 
 **/*.log
 /.mixin.out
+/.fabric
 /saves
 /downloads
 /resourcepacks
@@ -70,6 +72,7 @@ config/XaeroWorldMap/
 eula.txt
 scb_resources/
 XaeroWaypoints/
+XaeroWaypoints*/
 XaeroWorldMap/
 options.txt
 secrets.ps1
@@ -103,5 +106,4 @@ config/stepup.cfg
 *.xlsx
 *.csv
 config/chancecubes/custom_rewards/CustomSounds-Resourcepack.zip
-.github/ISSUE_TEMPLATE/feature-mod-suggestion.md
-.github/ISSUE_TEMPLATE/bug_report.md
+config.json
