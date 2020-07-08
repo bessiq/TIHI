@@ -1,0 +1,17 @@
+
+[General]
+	#Spawn Rate
+	spawnRate = 4
+	#Ore's Per Vein
+	veinSize = 4
+	#Max Y-Level Ore's Spawn
+	maxYLevel = 60
+	#Min Y-Level Ore's Spawn
+	minYLevel = 15
+	#Max Food Value for Rock Candy
+	foodValue = 5
+	#Max Saturation for Rock Candy
+	satValue = 0.6
+	#Time to change Harden Candy to Blank Candy in seconds.
+	changeTime = 2
+

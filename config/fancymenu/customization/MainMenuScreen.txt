@@ -6,52 +6,101 @@ customization-meta {
 }
 
 customization {
-  path = screenshots\tihi_bg_dark.png
+  path = global_data_pack/TIHI/resources/tihi_bg.png
   action = texturizebackground
+}
+
+customization {
+  path = global_data_pack/TIHI/resources/tihi_logo.png
+  orientation = mid-centered
+  x = -96
+  width = 192
+  action = addtexture
+  y = -110
+  height = 120
 }
 
 customization {
   identifier = %id=4%
   orientation = bottom-centered
-  x = -62
+  x = -69
   action = movebutton
-  y = -68
+  y = -64
 }
 
 customization {
   identifier = %id=4%
-  width = 60
+  width = 68
   action = resizebutton
   height = 20
 }
 
 customization {
+  identifier = %id=4%
+  action = setbuttonlabel
+  value = Mods
+}
+
+customization {
+  identifier = %id=4%
+  action = setbuttontexture
+  backgroundhovered = global_data_pack/TIHI/resources/button_hov.png
+  backgroundnormal = global_data_pack/TIHI/resources/button.png
+}
+
+customization {
   identifier = %id=5%
   orientation = bottom-centered
-  x = -61
+  x = -69
   action = movebutton
-  y = -92
+  y = -84
+}
+
+customization {
+  identifier = %id=5%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=5%
+  action = setbuttontexture
+  backgroundhovered = global_data_pack/TIHI/resources/language_hov.png
+  backgroundnormal = global_data_pack/TIHI/resources/language.png
 }
 
 customization {
   identifier = %id=6%
   orientation = bottom-centered
-  x = 42
+  x = 49
   action = movebutton
-  y = -92
+  y = -84
+}
+
+customization {
+  identifier = %id=6%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=6%
+  action = setbuttontexture
+  backgroundhovered = global_data_pack/TIHI/resources/accessibility_hov.png
+  backgroundnormal = global_data_pack/TIHI/resources/accessibility.png
 }
 
 customization {
   identifier = %id=1%
   orientation = bottom-centered
-  x = -62
+  x = -70
   action = movebutton
-  y = -140
+  y = -124
 }
 
 customization {
   identifier = %id=1%
-  width = 124
+  width = 140
   action = resizebutton
   height = 20
 }
@@ -63,51 +112,79 @@ customization {
 }
 
 customization {
-  identifier = %id=2%
-  orientation = bottom-centered
-  x = -62
-  action = movebutton
-  y = -116
+  identifier = %id=1%
+  action = setbuttontexture
+  backgroundhovered = global_data_pack/TIHI/resources/button_hov.png
+  backgroundnormal = global_data_pack/TIHI/resources/button.png
 }
 
 customization {
   identifier = %id=2%
-  width = 124
+  orientation = bottom-centered
+  x = -70
+  action = movebutton
+  y = -104
+}
+
+customization {
+  identifier = %id=2%
+  width = 140
   action = resizebutton
   height = 20
 }
 
 customization {
-  identifier = %id=3%
-  action = hidebutton
+  identifier = %id=2%
+  action = setbuttonlabel
+  value = Multiplayer
+}
+
+customization {
+  identifier = %id=2%
+  action = setbuttontexture
+  backgroundhovered = global_data_pack/TIHI/resources/button_hov.png
+  backgroundnormal = global_data_pack/TIHI/resources/button.png
 }
 
 customization {
   identifier = %id=7%
   orientation = bottom-centered
-  x = -37
+  x = -49
   action = movebutton
-  y = -92
+  y = -84
 }
 
 customization {
   identifier = %id=7%
-  width = 76
+  width = 98
   action = resizebutton
   height = 20
 }
 
 customization {
-  identifier = %id=8%
-  orientation = bottom-centered
-  x = 2
-  action = movebutton
-  y = -68
+  identifier = %id=7%
+  action = setbuttonlabel
+  value = Options
+}
+
+customization {
+  identifier = %id=7%
+  action = setbuttontexture
+  backgroundhovered = global_data_pack/TIHI/resources/button_hov.png
+  backgroundnormal = global_data_pack/TIHI/resources/button.png
 }
 
 customization {
   identifier = %id=8%
-  width = 60
+  orientation = bottom-centered
+  x = 1
+  action = movebutton
+  y = -64
+}
+
+customization {
+  identifier = %id=8%
+  width = 68
   action = resizebutton
   height = 20
 }
@@ -119,12 +196,29 @@ customization {
 }
 
 customization {
-  path = screenshots/tihi_logo.png
-  orientation = top-centered
-  x = -80
-  width = 160
-  action = addtexture
-  y = 10
-  height = 100
+  identifier = %id=8%
+  action = setbuttontexture
+  backgroundhovered = global_data_pack/TIHI/resources/button_hov.png
+  backgroundnormal = global_data_pack/TIHI/resources/button.png
+}
+
+customization {
+  identifier = %id=3%
+  action = hidebutton
+}
+
+customization {
+  orientation = bottom-centered
+  hoverlabel = Thanks For Hating It!
+  buttonaction = openlink
+  x = -70
+  width = 140
+  action = addbutton
+  y = -44
+  backgroundhovered = global_data_pack/TIHI/resources/button_hov.png
+  label = TIHI
+  backgroundnormal = global_data_pack/TIHI/resources/button.png
+  value = https://youtu.be/dQw4w9WgXcQ
+  height = 20
 }
 

@@ -17,7 +17,7 @@ B:showcustomizationbuttons = 'false';
 B:hidelogo = 'true';
 B:showmainmenufooter = 'false';
 B:hiderealmsnotifications = 'true';
-B:hidebranding = 'true';
+B:hidebranding = 'false';
 
 
 ##[mainmenu_splash]

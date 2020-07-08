@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:white_wool"
+    },
+    "b": {
+      "item": "minecraft:phantom_membrane"
+    }
+  },
+  "result": {
+    "item": "elevatorid:elevator_white"
+  }
+}

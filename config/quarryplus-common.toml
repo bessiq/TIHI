@@ -139,6 +139,7 @@
 		SpawnerController = true
 		ChunkDestroyer = true
 		NewQuarry = false
+		CreativeGenerator = false
 		EnchantMover = false
 		ModuleReplacer = false
 		ModuleExpPump = false

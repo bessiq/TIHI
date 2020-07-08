@@ -1,0 +1,53 @@
+#Restock
+Restock = true
+#Use fixed items
+UseFixedItems = false
+#Fixed items
+FixedItems = "minecraft:air;minecraft:air;minecraft:air;minecraft:air;minecraft:air;minecraft:air;minecraft:air"
+#Include Mods
+IncludeMods = "harvestsprites;tesseract;entangled;toolbelt;chanceglobe;curios;potionofbees;bouncing_balls;randomloot;jmc;backpacked;ring_of_attraction;packingtape;yeeter;tbouncepad;travellersboots;wetstone;randomite"
+#Exclude Mods
+ExcludeMods = "*"
+#Exclude Items
+ExcludeItems = "minecraft:nether_star;minecraft:beacon;minecraft:shulker_box;minecraft:colorset*shulker_box;minecraft:elytra;minecraft:end_portal_frame;vm:vending_machine;randomloot:pickaxe;randomloot:sword;bouncing_balls:clay;bouncing_balls:snow;bouncing_balls:egg;bouncing_balls:tnt;bouncing_balls:slime;bouncing_balls:redstone;bouncing_balls:glowstone;bouncing_balls:gold;bouncing_balls:iron;bouncing_balls:diamond;bouncing_balls:obsidian;bouncing_balls:emerald;bouncing_balls:quartz;bouncing_balls:netherstar;curios:amulet;curios:knuckles;curios:crown;packingtape:packaged_block;jmc:cheese;jmc:golden_apple_cake;jmc:birthday_cake;jmc:christmas_cake;jmc:triple_decker_cake;jmc:cupcake"
+#Include Creative Tab Groups
+IncludeGroups = "*"
+#Exclude Creative Tab Groups
+ExcludeGroups = "!"
+#Change item rarity value for pricing
+ItemRarity = "chanceglobe:chance_globe=2;randomloot:basic_case=1;randomloot:gold_case=2;randomloot:titan_case=3;backpacked:backpack=1;ring_of_attraction:ring_of_attraction=1;curios:ring=2;yeeter:tnt_yeeter_spawn_egg=2;toolbelt:belt=1;toolbelt:pouch=1;entangled:block=3;entangled:item=2;harvestsprites:sprite_lamp=1;tesseract:tesseract=3;travellersboots:travellersbootmkii=1;travellersboots:travellersbootmkiii=2;travellersboots:travellersbootmkiv=3"
+
+[RarityData]
+	#Common Item
+	CommonItem = "minecraft:emerald"
+	#Uncommon Item
+	UncommonItem = "minecraft:emerald"
+	#Rare Item
+	RareItem = "minecraft:emerald"
+	#Epic Item
+	EpicItem = "minecraft:emerald"
+	#Common Cost
+	#Range: 1 ~ 64
+	CommonCost = 6
+	#Uncommon Cost
+	#Range: 1 ~ 64
+	UncommonCost = 12
+	#Rare Cost
+	#Range: 1 ~ 64
+	RareCost = 24
+	#Epic Cost
+	#Range: 1 ~ 64
+	EpicCost = 42
+	#Common Uses
+	#Range: 1 ~ 32
+	CommonUses = 4
+	#Uncommon Uses
+	#Range: 1 ~ 32
+	UncommonUses = 3
+	#Rare Uses
+	#Range: 1 ~ 32
+	RareUses = 2
+	#Epic Uses
+	#Range: 1 ~ 32
+	EpicUses = 1
+

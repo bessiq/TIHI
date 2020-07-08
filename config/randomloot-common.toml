@@ -1,0 +1,102 @@
+
+#General settings
+[general]
+	#Minimum speed a sword can have.
+	#Range: -4.0 ~ 4.0
+	sword_speed = -2.4
+	#Weight of a golden case dropping
+	#Range: 0 ~ 100
+	gold_chance = 35
+	#Initital Max XP for tools.
+	#Range: 0 ~ 10000
+	init_xp = 256
+	#Range: 0 ~ 100
+	gold_rolls = 5
+	#Chance of a case dropping
+	#Range: 0 ~ 100
+	total_chance = 5
+	#Minimum damage a pickaxe can do.
+	#Range: 0 ~ 100
+	pick_damage = 3
+	#Weight of a titan case dropping
+	#Range: 0 ~ 100
+	titan_chance = 20
+	#Minimum damage a sword can do.
+	#Range: 0 ~ 100
+	sword_damage = 7
+	#Weight for shovel to drop from case
+	#Range: 0 ~ 100
+	spade_weight = 8
+	#Minimum attack speed a shovel can have.
+	#Range: -4.0 ~ 4.0
+	spade_a_speed = -3.0
+	#Minimum attack speed a pickaxe can have.
+	#Range: -4.0 ~ 4.0
+	pick_a_speed = -2.8
+	#Weight for pick to drop from case
+	#Range: 0 ~ 100
+	pick_weight = 15
+	#Weight of a basic case dropping
+	#Range: 0 ~ 100
+	basic_chance = 70
+	#Minimum damage a shovel can do.
+	#Range: 0 ~ 100
+	spade_damage = 4
+	#Weight for axe to drop from case
+	#Range: 0 ~ 100
+	axe_weight = 10
+	#Range: 0 ~ 100
+	titan_rolls = 9
+	#Initital Rolls for traits/stats
+	#Range: 0 ~ 100
+	basic_rolls = 2
+	#Minimum damage an axe can do.
+	#Range: 0 ~ 100
+	axe_damage = 9
+	#Weight for sword to drop from case
+	#Range: 0 ~ 100
+	sword_weight = 20
+	#Minimum attack speed an axe can have.
+	#Range: -4.0 ~ 4.0
+	axe_a_speed = -3.0
+
+#Enabled Traits
+[traits]
+	"Bouncier enabled?" = true
+	"Webbed enabled?" = true
+	"Hastier enabled?" = true
+	"Bouncy enabled?" = true
+	"Super_lucky enabled?" = true
+	"More_fire_resistant enabled?" = true
+	"Fire_resistant enabled?" = true
+	"More_resistant enabled?" = true
+	"Speedier enabled?" = true
+	"Resistant enabled?" = true
+	"Explosive enabled?" = true
+	"Deep_breathing enabled?" = true
+	"Cloud_walker enabled?" = true
+	"Withering enabled?" = true
+	"Phasing enabled?" = true
+	"Lucky enabled?" = true
+	"Double_webbed enabled?" = true
+	"Regenerating enabled?" = true
+	"Speedy enabled?" = true
+	"Weakening enabled?" = true
+	"Strong enabled?" = true
+	"Auto-smelt enabled?" = true
+	"Very_withering enabled?" = true
+	"Filling enabled?" = true
+	"Hastey enabled?" = true
+	"Stronger enabled?" = true
+	"Poisonous enabled?" = true
+	"Soul_searching enabled?" = true
+	"Very_poisonous enabled?" = true
+	"Fortified enabled?" = true
+	"Damage+ enabled?" = true
+	"Insightful enabled?" = true
+	"Damage++ enabled?" = true
+	"Glittering enabled?" = true
+	"Very_weakening enabled?" = true
+	"Blinding enabled?" = true
+	"Floating enabled?" = true
+
