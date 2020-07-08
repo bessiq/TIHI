@@ -24,12 +24,15 @@
 	#Minimum damage a sword can do.
 	#Range: 0 ~ 100
 	sword_damage = 7
+<<<<<<< HEAD
 	#Weight for shovel to drop from case
 	#Range: 0 ~ 100
 	spade_weight = 8
 	#Minimum attack speed a shovel can have.
 	#Range: -4.0 ~ 4.0
 	spade_a_speed = -3.0
+=======
+>>>>>>> 2456a82a389661d192cdd6719b76ac0f62e817c0
 	#Minimum attack speed a pickaxe can have.
 	#Range: -4.0 ~ 4.0
 	pick_a_speed = -2.8
@@ -39,17 +42,21 @@
 	#Weight of a basic case dropping
 	#Range: 0 ~ 100
 	basic_chance = 70
+<<<<<<< HEAD
 	#Minimum damage a shovel can do.
 	#Range: 0 ~ 100
 	spade_damage = 4
 	#Weight for axe to drop from case
 	#Range: 0 ~ 100
 	axe_weight = 10
+=======
+>>>>>>> 2456a82a389661d192cdd6719b76ac0f62e817c0
 	#Range: 0 ~ 100
 	titan_rolls = 9
 	#Initital Rolls for traits/stats
 	#Range: 0 ~ 100
 	basic_rolls = 2
+<<<<<<< HEAD
 	#Minimum damage an axe can do.
 	#Range: 0 ~ 100
 	axe_damage = 9
@@ -99,4 +106,9 @@
 	"Very_weakening enabled?" = true
 	"Blinding enabled?" = true
 	"Floating enabled?" = true
+=======
+	#Weight for sword to drop from case
+	#Range: 0 ~ 100
+	sword_weight = 20
+>>>>>>> 2456a82a389661d192cdd6719b76ac0f62e817c0
 

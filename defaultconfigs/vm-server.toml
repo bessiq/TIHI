@@ -9,7 +9,11 @@ IncludeMods = "harvestsprites;tesseract;entangled;toolbelt;chanceglobe;curios;po
 #Exclude Mods
 ExcludeMods = "*"
 #Exclude Items
+<<<<<<< HEAD
 ExcludeItems = "minecraft:nether_star;minecraft:beacon;minecraft:shulker_box;minecraft:colorset*shulker_box;minecraft:elytra;minecraft:end_portal_frame;vm:vending_machine;randomloot:pickaxe;randomloot:sword;bouncing_balls:clay;bouncing_balls:snow;bouncing_balls:egg;bouncing_balls:tnt;bouncing_balls:slime;bouncing_balls:redstone;bouncing_balls:glowstone;bouncing_balls:gold;bouncing_balls:iron;bouncing_balls:diamond;bouncing_balls:obsidian;bouncing_balls:emerald;bouncing_balls:quartz;bouncing_balls:netherstar;curios:amulet;curios:knuckles;curios:crown;packingtape:packaged_block;jmc:cheese;jmc:golden_apple_cake;jmc:birthday_cake;jmc:christmas_cake;jmc:triple_decker_cake;jmc:cupcake"
+=======
+ExcludeItems = "minecraft:nether_star;minecraft:beacon;minecraft:shulker_box;minecraft:colorset*shulker_box;minecraft:elytra;minecraft:end_portal_frame;vm:vending_machine;randomloot:pickaxe;randomloot:sword;bouncing_balls:clay;bouncing_balls:snow;bouncing_balls:egg;bouncing_balls:tnt;bouncing_balls:slime;bouncing_balls:redstone;bouncing_balls:glowstone;bouncing_balls:gold;bouncing_balls:iron;bouncing_balls:diamond;bouncing_balls:obsidian;bouncing_balls:emerald;bouncing_balls:quartz;bouncing_balls:netherstar;curios:amulet;curios:knuckles;curios:crown;packingtape:packaged_block;jmc:cheese"
+>>>>>>> 2456a82a389661d192cdd6719b76ac0f62e817c0
 #Include Creative Tab Groups
 IncludeGroups = "*"
 #Exclude Creative Tab Groups
