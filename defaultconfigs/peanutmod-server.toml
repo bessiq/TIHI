@@ -1,0 +1,5 @@
+
+[effects]
+	#Enabling this will add the effects slowness and haste to peanuts and peanut butter to the game.
+	joke_effects = false
+

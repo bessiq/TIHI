@@ -1,0 +1,7 @@
+
+[general]
+	#How much Energy the powered Rod can hold.
+	PoweredLightRodCapacity = 2560000
+	#The Energy required to place a light source.
+	PoweredLightRodCost = 10000
+
