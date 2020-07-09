@@ -52,10 +52,10 @@
 	"Flying Dutchrat Automaton Attack Damage" = 10.0
 	#Distance that untamed rats will immediately despawn. For Vanilla mobs, this is 128 blocks.
 	#Range: 0.0 ~ 3.4028234663852886E38
-	"Rat Immediate Despawn Distance" = 144.0
+	"Rat Immediate Despawn Distance" = 128.0
 	#A seperate random roll that only spawns pipers if a one-out-of-X chance, x being this number. raise this number to make them more rare.
 	#Range: > 0
-	"Piper Spawn Decrease" = 5
+	"Piper Spawn Decrease" = 7
 	#How much kRF (1000 RF) a rat with an advanced energy transfer upgrade can transport at a time.
 	#Range: > 1
 	"Rat RF Transfer Rate Advanced (kRF)" = 500
@@ -78,7 +78,7 @@
 	"Pied Piper Spawn In Overworld Only" = true
 	#A seperate random roll that only spawns rats if a one-out-of-X chance, x being this number. raise this number to make them more rare.
 	#Range: > 0
-	"Rat Spawn Decrease" = 5
+	"Rat Spawn Decrease" = 7
 	#True if tamed rats will destroy crops when they harvest them
 	"Rats Break Crops on Harvest" = true
 	#Flying Dutchrat Max Health
@@ -153,5 +153,5 @@
 	"Default Rat Radius" = 16
 	#The weight of rats in vanilla's spawn rate
 	#Range: 1 ~ 300
-	"Rat Spawn Weight" = 80
+	"Rat Spawn Weight" = 50
 
