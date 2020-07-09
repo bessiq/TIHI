@@ -1,0 +1,77 @@
+
+[Misc]
+	#Stack Size
+	#Range: 1 ~ 64
+	stacksize = 3
+	#How many items drop when a loot bag is used
+	#Range: 1 ~ 1000
+	dropamount = 5
+	#Enabled debug mode
+	debugmode = false
+
+["Mob Drops"]
+	#Do ravagers drop lootbags
+	ravager = true
+	#Do ender dragons drop lootbags
+	dragon = false
+	#Do magma_cubes drop lootbags
+	magma_cube = false
+	#Do pillagers drop lootbags
+	pillager = false
+	#Do skeletons drop lootbags
+	skeleton = false
+	#Do husks drop lootbags
+	husk = false
+	#Do blazes drop lootbags
+	blaze = false
+	#Do endermites drop lootbags
+	endermite = false
+	#Do silverfishs drop lootbags
+	silverfish = false
+	#Do zombies drop lootbags
+	zombie = false
+	#Do drowneds drop lootbags
+	drowned = false
+	#Do guardians drop lootbags
+	guardian = false
+	#Do ghasts drop lootbags
+	ghast = false
+	#Do zombie_pigmans drop lootbags
+	zombie_pigman = false
+	#Do strays drop lootbags
+	stray = false
+	#Do shulkers drop lootbags
+	shulker = true
+	#Do wither_skeletons drop lootbags
+	wither_skeleton = false
+	#Do zombie_villagers drop lootbags
+	zombie_villager = false
+	#Do elder_guardians drop lootbags
+	elder_guardian = false
+	#Do vindicators drop lootbags
+	vindicator = false
+	#Do phantoms drop lootbags
+	phantom = false
+	#Do evokers drop lootbags
+	evoker = false
+	#Do cave_spiders drop lootbags
+	cave_spider = false
+	#Do witches drop lootbags
+	witch = false
+	#Do spiders drop lootbags
+	spider = false
+	#Do withers drop lootbags
+	wither = false
+	#Do creepers drop lootbags
+	creeper = false
+	#Do endermans drop lootbags
+	enderman = false
+
+["Black And White Lists"]
+	#Use the whitelist
+	enablewhitelist = false
+	#BlackList (Syntax "minecraft or modid : item or block name"; example "minecraft:air" or "lootbagmod:lootbag")
+	blacklist = ["minecraft:air", "minecraft:command_block", "minecraft:structure_block", "minecraft:knowledge_book", "minecraft:chain_command_block", "minecraft:repeating_command_block", "minecraft:barrier", "minecraft:enchanted_book", "minecraft:written_book", "minecraft:potion", "minecraft:splash_potion", "minecraft:lingering_potion", "minecraft:spawn_egg", "minecraft:structure_void", "minecraft:mob_spawner", "minecraft:bedrock"]
+	#WhiteList Syntax "minecraft or modid : item or block name"; example minecraft:air or lootbagmod:lootbag)
+	whitelist = ["minecraft:stone"]
+
