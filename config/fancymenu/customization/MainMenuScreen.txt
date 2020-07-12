@@ -6,12 +6,12 @@ customization-meta {
 }
 
 customization {
-  path = global_data_pack/TIHI/resources/tihi_bg.png
+  path = global_data_pack/tihi/resources/tihi_bg.png
   action = texturizebackground
 }
 
 customization {
-  path = global_data_pack/TIHI/resources/tihi_logo.png
+  path = global_data_pack/tihi/resources/tihi_logo.png
   orientation = mid-centered
   x = -96
   width = 192
@@ -44,8 +44,8 @@ customization {
 customization {
   identifier = %id=4%
   action = setbuttontexture
-  backgroundhovered = global_data_pack/TIHI/resources/button_hov.png
-  backgroundnormal = global_data_pack/TIHI/resources/button.png
+  backgroundhovered = global_data_pack/tihi/resources/button_hov.png
+  backgroundnormal = global_data_pack/tihi/resources/button.png
 }
 
 customization {
@@ -65,8 +65,8 @@ customization {
 customization {
   identifier = %id=5%
   action = setbuttontexture
-  backgroundhovered = global_data_pack/TIHI/resources/language_hov.png
-  backgroundnormal = global_data_pack/TIHI/resources/language.png
+  backgroundhovered = global_data_pack/tihi/resources/language_hov.png
+  backgroundnormal = global_data_pack/tihi/resources/language.png
 }
 
 customization {
@@ -86,8 +86,8 @@ customization {
 customization {
   identifier = %id=6%
   action = setbuttontexture
-  backgroundhovered = global_data_pack/TIHI/resources/accessibility_hov.png
-  backgroundnormal = global_data_pack/TIHI/resources/accessibility.png
+  backgroundhovered = global_data_pack/tihi/resources/accessibility_hov.png
+  backgroundnormal = global_data_pack/tihi/resources/accessibility.png
 }
 
 customization {
@@ -114,8 +114,8 @@ customization {
 customization {
   identifier = %id=1%
   action = setbuttontexture
-  backgroundhovered = global_data_pack/TIHI/resources/button_hov.png
-  backgroundnormal = global_data_pack/TIHI/resources/button.png
+  backgroundhovered = global_data_pack/tihi/resources/button_hov.png
+  backgroundnormal = global_data_pack/tihi/resources/button.png
 }
 
 customization {
@@ -142,8 +142,8 @@ customization {
 customization {
   identifier = %id=2%
   action = setbuttontexture
-  backgroundhovered = global_data_pack/TIHI/resources/button_hov.png
-  backgroundnormal = global_data_pack/TIHI/resources/button.png
+  backgroundhovered = global_data_pack/tihi/resources/button_hov.png
+  backgroundnormal = global_data_pack/tihi/resources/button.png
 }
 
 customization {
@@ -170,8 +170,8 @@ customization {
 customization {
   identifier = %id=7%
   action = setbuttontexture
-  backgroundhovered = global_data_pack/TIHI/resources/button_hov.png
-  backgroundnormal = global_data_pack/TIHI/resources/button.png
+  backgroundhovered = global_data_pack/tihi/resources/button_hov.png
+  backgroundnormal = global_data_pack/tihi/resources/button.png
 }
 
 customization {
@@ -198,8 +198,8 @@ customization {
 customization {
   identifier = %id=8%
   action = setbuttontexture
-  backgroundhovered = global_data_pack/TIHI/resources/button_hov.png
-  backgroundnormal = global_data_pack/TIHI/resources/button.png
+  backgroundhovered = global_data_pack/tihi/resources/button_hov.png
+  backgroundnormal = global_data_pack/tihi/resources/button.png
 }
 
 customization {
@@ -215,9 +215,9 @@ customization {
   width = 140
   action = addbutton
   y = -44
-  backgroundhovered = global_data_pack/TIHI/resources/button_hov.png
+  backgroundhovered = global_data_pack/tihi/resources/button_hov.png
   label = TIHI
-  backgroundnormal = global_data_pack/TIHI/resources/button.png
+  backgroundnormal = global_data_pack/tihi/resources/button.png
   value = https://youtu.be/dQw4w9WgXcQ
   height = 20
 }
