@@ -1,5 +1,7 @@
 ##[general]
 
+[Maximizes compatibility with the operating system. A minecraft restart is required after changing this value.]
+B:safemode = 'false';
 [A minecraft restart is required after changing this value.]
 B:enablehotkeys = 'true';
 [ONLY AVAILABLE ON WINDOWS! A minecraft restart is required after changing this value.]
@@ -30,6 +32,16 @@ B:hidesplashtext = 'false';
 
 ##[loading]
 
+B:allowgameintroskip = 'true';
 B:showanimationloadingstatus = 'true';
 S:gameintroanimation = '';
+S:customgameintroskiptext = '';
 B:loadingscreendarkmode = 'true';
+
+
+##[minecraftwindow]
+
+[A minecraft restart is required after changing this value.]
+S:customwindowtitle = 'TIHI: A Minecraft Modpack';
+[A minecraft restart is required after changing this value.]
+B:customwindowicon = 'true';
