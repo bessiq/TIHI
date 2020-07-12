@@ -17,7 +17,7 @@
 		spawnBiomes = ["minecraft:wooded_mountains", "minecraft:mountain_edge", "byg:cold_swamplands", "byg:boreal_forest"]
 		#Weight of entity in spawn
 		#Range: > 0
-		entityWeight = 10
+		entityWeight = 12
 
 	[entities.sunsetCow]
 		#Minimum number of entities in group
@@ -30,7 +30,7 @@
 		spawnBiomes = ["minecraft:savanna", "byg:baobab_savanna", "byg:lush_red_desert", "byg:red_desert", "byg:red_desert_dunes", "minecraft:badlands", "minecraft:badlands_plateau", "minecraft:eroded_badlands", "minecraft:modified_badlands_plateau", "minecraft:modified_wooded_badlands_plateau", "minecraft:wooded_badlands_plateau", "byg:red_rock_highlands", "byg:red_rock_lowlands", "byg:red_rock_mountains"]
 		#Weight of entity in spawn
 		#Range: > 0
-		entityWeight = 8
+		entityWeight = 10
 
 	[entities.midnightChicken]
 		#Minimum number of entities in group
@@ -43,7 +43,7 @@
 		spawnBiomes = ["minecraft:dark_forest", "minecraft:dark_forest_hills", "byg:blue_taiga", "byg:blue_taiga_hills", "byg:blue_giant_taiga", "byg:crag_gardens"]
 		#Weight of entity in spawn
 		#Range: > 0
-		entityWeight = 10
+		entityWeight = 12
 
 	[entities.muddyFootRabbit]
 		#Minimum number of entities in group
@@ -56,7 +56,7 @@
 		spawnBiomes = ["byg:prairie", "minecraft:plains", "byg:meadow", "byg:grassland_plateau", "byg:red_desert", "byg:mojave_desert"]
 		#Weight of entity in spawn
 		#Range: > 0
-		entityWeight = 4
+		entityWeight = 6
 
 	[entities.muddyPig]
 		#Minimum number of entities in group
@@ -69,7 +69,7 @@
 		spawnBiomes = ["byg:prairie", "minecraft:plains", "byg:meadow", "minecraft:forest", "minecraft:mountain_edge", "byg:red_desert", "byg:mojave_desert", "byg:grassland_plateau"]
 		#Weight of entity in spawn
 		#Range: > 0
-		entityWeight = 10
+		entityWeight = 12
 
 	[entities.furnaceGolem]
 		#Minimum number of entities in group
@@ -82,7 +82,7 @@
 		spawnBiomes = ["minecraft:plains", "byg:prairie", "byg:wooded_meadow", "byg:orchard", "byg:zelkova_forest"]
 		#Weight of entity in spawn
 		#Range: > 0
-		entityWeight = 18
+		entityWeight = 20
 
 	[entities.amberChicken]
 		#Minimum number of entities in group
@@ -95,7 +95,7 @@
 		spawnBiomes = ["minecraft:desert", "minecraft:desert_hills", "minecraft:desert_lakes", "minecraft:badlands", "minecraft:badlands_plateau", "minecraft:eroded_badlands", "minecraft:modified_badlands_plateau", "minecraft:modified_wooded_badlands_plateau", "minecraft:wooded_badlands_plateau", "byg:prairie", "byg:lush_red_desert", "byg:red_desert", "byg:red_desert_dunes", "byg:red_rock_highlands", "byg:red_rock_lowlands", "byg:red_rock_mountains"]
 		#Weight of entity in spawn
 		#Range: > 0
-		entityWeight = 10
+		entityWeight = 12
 
 	[entities.melonGolem]
 		#Minimum number of entities in group
@@ -108,7 +108,7 @@
 		spawnBiomes = ["minecraft:snowy_taiga", "minecraft:snowy_taiga_hills", "minecraft:snowy_taiga_mountains", "minecraft:snowy_tundra", "minecraft:snowy_mountains", "minecraft:snowy_beach", "minecraft:ice_spikes", "byg:snowy_rocky_black_beach", "byg:snowy_evergreen_hills", "byg:snowy_deciduous_forest_hills", "byg:snowy_coniferous_forest_hills", "byg:snowy_blue_taiga_hills"]
 		#Weight of entity in spawn
 		#Range: > 0
-		entityWeight = 18
+		entityWeight = 20
 
 	[entities.ashenCow]
 		#Minimum number of entities in group
@@ -121,7 +121,7 @@
 		spawnBiomes = ["minecraft:gravelly_mountains", "minecraft:modified_gravelly_mountains", "byg:snowy_black_beach", "byg:weeping_witch_forest", "byg:black_forest_clearing", "byg:ancient_forest"]
 		#Weight of entity in spawn
 		#Range: > 0
-		entityWeight = 8
+		entityWeight = 10
 
 	[entities.woolyCow]
 		#Minimum number of entities in group
@@ -134,7 +134,7 @@
 		spawnBiomes = ["minecraft:ice_spikes", "minecraft:giant_spruce_taiga", "minecraft:giant_tree_taiga", "minecraft:giant_tree_taiga_hills", "minecraft:giant_spruce_taiga_hills", "byg:snowy_blue_giant_taiga", "byg:snowy_evergreen_clearing", "byg:snowy_coniferous_clearing", "byg:snowy_deciduous_clearing"]
 		#Weight of entity in spawn
 		#Range: > 0
-		entityWeight = 8
+		entityWeight = 10
 
 	[entities.boneSpider]
 		#Minimum number of entities in group
@@ -147,7 +147,7 @@
 		spawnBiomes = ["byg:prairie", "minecraft:plains", "minecraft:sunflower_plains", "minecraft:taiga", "minecraft:taiga_hills", "minecraft:taiga_mountains", "minecraft:snowy_taiga", "minecraft:snowy_taiga_hills", "minecraft:snowy_taiga_mountains", "minecraft:giant_tree_taiga", "minecraft:giant_tree_taiga_hills", "minecraft:giant_spruce_taiga", "minecraft:giant_spruce_taiga_hills", "byg:weeping_witch_clearing", "byg:autumnal_valley", "byg:zelkova_forest_hills", "byg:pumpkin_forest", "byg:boreal_forest", "minecraft:bamboo_jungle", "byg:embur_bog", "byg:dead_sea"]
 		#Weight of entity in spawn
 		#Range: > 0
-		entityWeight = 18
+		entityWeight = 20
 
 	[entities.glowSquid]
 		#Minimum number of entities in group
@@ -160,7 +160,7 @@
 		spawnBiomes = ["minecraft:deep_ocean", "minecraft:deep_frozen_ocean", "minecraft:deep_cold_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:deep_warm_ocean"]
 		#Weight of entity in spawn
 		#Range: > 0
-		entityWeight = 6
+		entityWeight = 8
 
 	[entities.piebaldPig]
 		#Minimum number of entities in group
@@ -173,7 +173,7 @@
 		spawnBiomes = ["minecraft:badlands", "minecraft:badlands_plateau", "minecraft:eroded_badlands", "minecraft:modified_badlands_plateau", "minecraft:modified_wooded_badlands_plateau", "minecraft:wooded_badlands_plateau", "byg:sierra_range", "byg:sierra_valley"]
 		#Weight of entity in spawn
 		#Range: > 0
-		entityWeight = 10
+		entityWeight = 12
 
 	[entities.fleckedSheep]
 		#Minimum number of entities in group
@@ -186,7 +186,7 @@
 		spawnBiomes = ["minecraft:wooded_mountains", "minecraft:mountain_edge", "minecraft:taiga", "minecraft:taiga_hills", "minecraft:forest", "minecraft:wooded_hills", "byg:red_rock_highlands", "byg:red_rock_mountains", "byg:cika_mountains"]
 		#Weight of entity in spawn
 		#Range: > 0
-		entityWeight = 10
+		entityWeight = 12
 
 	[entities.harelequinRabbit]
 		#Minimum number of entities in group
@@ -199,7 +199,7 @@
 		spawnBiomes = ["minecraft:taiga", "minecraft:taiga_hills", "minecraft:forest", "minecraft:wooded_hills", "byg:red_rock_lowlands", "minecraft:badlands", "byg:lush_red_desert", "byg:red_desert", "byg:red_desert_dunes", "byg:red_rock_lowlands"]
 		#Weight of entity in spawn
 		#Range: > 0
-		entityWeight = 4
+		entityWeight = 6
 
 	[entities.stormyChicken]
 		#Minimum number of entities in group
@@ -212,7 +212,7 @@
 		spawnBiomes = ["minecraft:taiga", "minecraft:taiga_hills", "minecraft:taiga_mountains", "byg:allium_fields", "byg:ebony_woods"]
 		#Weight of entity in spawn
 		#Range: > 0
-		entityWeight = 10
+		entityWeight = 12
 
 	[entities.moobloom]
 		#Minimum number of entities in group
@@ -225,7 +225,7 @@
 		spawnBiomes = ["minecraft:flower_forest", "byg:amaranth_fields", "byg:allium_fields", "byg:flowering_meadow", "byg:guiana_clearing", "byg:glowing_ancient_forest"]
 		#Weight of entity in spawn
 		#Range: > 0
-		entityWeight = 8
+		entityWeight = 10
 
 	[entities.palePig]
 		#Minimum number of entities in group
@@ -238,7 +238,7 @@
 		spawnBiomes = ["minecraft:snowy_tundra", "minecraft:snowy_mountains", "minecraft:snowy_taiga", "minecraft:snowy_taiga_hills", "minecraft:snowy_taiga_mountains", "byg:snowy_deciduous_forest", "byg:snowy_blue_taiga", "byg:snowy_evergreen_taiga", "byg:snowy_coniferous_forest", "byg:zelkova_clearing", "byg:cherry_blossom_forest"]
 		#Weight of entity in spawn
 		#Range: > 0
-		entityWeight = 10
+		entityWeight = 12
 
 	[entities.albinoCow]
 		#Minimum number of entities in group
@@ -251,7 +251,7 @@
 		spawnBiomes = ["minecraft:snowy_tundra", "minecraft:snowy_mountains", "minecraft:snowy_taiga", "minecraft:snowy_taiga_hills", "minecraft:snowy_taiga_mountains", "byg:snowy_deciduous_forest", "byg:snowy_blue_taiga", "byg:snowy_evergreen_taiga", "byg:snowy_coniferous_forest", "byg:zelkova_clearing", "byg:cherry_blossom_forest"]
 		#Weight of entity in spawn
 		#Range: > 0
-		entityWeight = 18
+		entityWeight = 20
 
 	[entities.cluckshroom]
 		#Minimum number of entities in group
@@ -264,7 +264,7 @@
 		spawnBiomes = ["minecraft:mushroom_fields", "minecraft:mushroom_fields", "byg:fungal_patch", "byg:tropical_fungal_forest", "byg:tropical_fungal_rainforest_hills", "byg:glowshroom_bayou"]
 		#Weight of entity in spawn
 		#Range: > 0
-		entityWeight = 10
+		entityWeight = 12
 
 	[entities.rockySheep]
 		#Minimum number of entities in group
@@ -277,7 +277,7 @@
 		spawnBiomes = ["minecraft:mountains", "minecraft:wooded_mountains", "minecraft:gravelly_mountains", "minecraft:modified_gravelly_mountains", "byg:dover_mountains", "byg:wooded_grassland_plateau"]
 		#Weight of entity in spawn
 		#Range: > 0
-		entityWeight = 10
+		entityWeight = 12
 
 	[entities.hornedSheep]
 		#Minimum number of entities in group
@@ -290,7 +290,7 @@
 		spawnBiomes = ["minecraft:mountains", "minecraft:wooded_mountains", "byg:alps", "byg:bluff_peaks", "byg:bluff_steeps", "byg:grassland_plateau", "byg:guiana_clearing", "byg:redwood_mountains"]
 		#Weight of entity in spawn
 		#Range: > 0
-		entityWeight = 10
+		entityWeight = 12
 
 	[entities.spottedPig]
 		#Minimum number of entities in group
@@ -303,7 +303,7 @@
 		spawnBiomes = ["minecraft:jungle", "minecraft:swamp", "minecraft:swamp_hills", "byg:bog", "byg:cold_swamplands", "byg:forest_fault"]
 		#Weight of entity in spawn
 		#Range: > 0
-		entityWeight = 10
+		entityWeight = 12
 
 	[entities.tropicalSlime]
 		#Minimum number of entities in group
@@ -316,7 +316,7 @@
 		spawnBiomes = ["minecraft:beach", "byg:rainbow_beach", "byg:oasis", "byg:white_beach", "byg:crag_gardens"]
 		#Weight of entity in spawn
 		#Range: > 0
-		entityWeight = 10
+		entityWeight = 12
 
 	[entities.skeletonWolf]
 		#Minimum number of entities in group
@@ -329,7 +329,7 @@
 		spawnBiomes = ["byg:prairie", "minecraft:taiga", "minecraft:taiga_hills", "minecraft:taiga_mountains", "minecraft:snowy_taiga", "minecraft:snowy_taiga_hills", "minecraft:snowy_taiga_mountains", "minecraft:giant_tree_taiga", "minecraft:giant_tree_taiga_hills", "minecraft:giant_spruce_taiga", "minecraft:giant_spruce_taiga_hills", "minecraft:badlands", "minecraft:badlands_plateau", "minecraft:modified_badlands_plateau", "minecraft:wooded_badlands_plateau", "minecraft:modified_wooded_badlands_plateau", "minecraft:eroded_badlands", "byg:blue_taiga", "byg:blue_taiga_hills", "byg:blue_giant_taiga", "byg:evergreen_taiga", "byg:coniferous_forest", "byg:maple_taiga", "byg:black_forest_hills", "byg:guiana_shield", "byg:shattered_glacier"]
 		#Weight of entity in spawn
 		#Range: > 0
-		entityWeight = 8
+		entityWeight = 10
 
 	[entities.vestedRabbit]
 		#Minimum number of entities in group
@@ -342,5 +342,5 @@
 		spawnBiomes = ["minecraft:mountains", "minecraft:wooded_mountains", "byg:alps", "byg:aspen_clearing", "byg:aspen_forest", "byg:orchard", "byg:coniferous_forest", "byg:maple_taiga", "byg:boreal_clearing"]
 		#Weight of entity in spawn
 		#Range: > 0
-		entityWeight = 4
+		entityWeight = 6
 
