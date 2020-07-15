@@ -2,7 +2,7 @@
 #Party settings
 [party]
 	#Do parrots party when they're standing?
-	partyStanding = true
+	partyStanding = false
 	#Do parrots party when they're on your shoulder?
 	partyShoulder = true
 	#Do parrots party when they're flying?
