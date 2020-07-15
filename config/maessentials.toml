@@ -27,7 +27,7 @@
 		#Range: > 0
 		delay = 3
 		#Enable command: /back
-		enable = true
+		enable = false
 		#Range: > 0
 		cooldown = 0
 		enable_on_death = true
@@ -48,7 +48,7 @@
 		#Range: > 0
 		delay = 3
 		#Enable commands: /setwarp, /delwarp, /warp
-		enable = true
+		enable = false
 		#Range: > 0
 		cooldown = 0
 
@@ -72,7 +72,7 @@
 		#Range: > 0
 		delay = 3
 		#Enable commands: /sethome, /delhome, /home
-		enable = true
+		enable = false
 		#Range: > 0
 		cooldown = 0
 		#Range: > 1
