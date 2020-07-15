@@ -156,13 +156,6 @@ customization {
 
 customization {
   identifier = %id=7%
-  width = 98
-  action = resizebutton
-  height = 20
-}
-
-customization {
-  identifier = %id=7%
   action = setbuttonlabel
   value = Options
 }
