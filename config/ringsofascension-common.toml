@@ -119,7 +119,7 @@
 	#Generate rings in abandoned mineshaft chests
 	ringMineshaftChests = false
 	#Generate rings in desert pyramid chests
-	ringPyramidChests = false
+	ringPyramidChests = true
 	#Generate rings in end city chests
 	ringEndCityChests = true
 	#Generate rings in stronghold library chests
@@ -127,7 +127,7 @@
 	#Generate rings in village weaponsmith chests
 	ringWeaponsmithChests = false
 	#Generate rings in buried treasure chests
-	ringBuriedTreasureChests = false
+	ringBuriedTreasureChests = true
 	#Generate rings in igloo chests
 	ringIglooChests = false
 	#Generate rings in nether bridge chests
@@ -137,5 +137,5 @@
 	#Generate rings in shipwreck treasure chests
 	ringShipwreckChests = false
 	#Generate rings in jungle temple chests
-	ringJungleChests = false
+	ringJungleChests = true
 
