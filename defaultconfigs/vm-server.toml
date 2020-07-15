@@ -5,7 +5,7 @@ UseFixedItems = false
 #Fixed items
 FixedItems = "minecraft:air;minecraft:air;minecraft:air;minecraft:air;minecraft:air;minecraft:air;minecraft:air"
 #Include Mods
-IncludeMods = "harvestsprites;tesseract;toolbelt;chanceglobe;curios;potionofbees;bouncing_balls;randomloot;jmc;backpacked;ring_of_attraction;packingtape;yeeter;tbouncepad;travellersboots;wetstone;randomite;lootbagmod;rockcandy;pamhc2foodcore"
+IncludeMods = "harvestsprites;tesseract;toolbelt;chanceglobe;curios;potionofbees;bouncing_balls;randomloot;jmc;backpacked;ring_of_attraction;packingtape;yeeter;tbouncepad;travellersboots;randomite;lootbagmod;rockcandy;pamhc2foodcore"
 #Exclude Mods
 ExcludeMods = "*"
 #Exclude Items
