@@ -1,0 +1,63 @@
+
+#'Variant16x: Biomes O' Plenty' Common Configuration File
+[variant16x_biomesoplenty]
+
+	#General Settings
+	#NOTE: Changing 'General Settings' WILL OVERRIDE Custom Settings!
+	[variant16x_biomesoplenty.general]
+		#Enables/Disables ALL Pressure Plate Variants
+		enablePressurePlates = true
+		#Enables/Disables ALL Button Variants
+		enableButtons = true
+		#Enables/Disables ALL Stairs Variants
+		enableStairs = true
+		#Enables/Disables ALL Wall Variants
+		enableWalls = true
+		#Enables/Disables ALL Fence Gate Variants
+		enableFenceGates = true
+		#Enables/Disables ALL Fence Variants
+		enableFences = true
+		#Enables/Disables ALL Slab Variants
+		enableSlabs = true
+
+	#Custom Wall Settings
+	[variant16x_biomesoplenty.walls]
+		#Enables/Disables Stone/Other Wall Variants
+		enableStoneWalls = true
+
+	#Custom Fence Settings
+	[variant16x_biomesoplenty.fences]
+		#Enables/Disables Wood Fence Variants
+		enableWoodFences = true
+
+	#Custom Button Settings
+	[variant16x_biomesoplenty.buttons]
+		#Enables/Disables Stone/Other Button Variants
+		enableStoneButtons = true
+		#Enables/Disables Wood Button Variants
+		enableWoodButtons = true
+
+	#Custom Pressure Plate Settings
+	[variant16x_biomesoplenty.pressurePlates]
+		#Enables/Disables Wood Pressure Plate Variants
+		enableWoodPressurePlates = true
+		#Enables/Disables Stone/Other Pressure Plate Variants
+		enableStonePressurePlates = true
+
+	#Custom Stairs Settings
+	[variant16x_biomesoplenty.stairs]
+		#Enables/Disables Wood Stairs Variants
+		enableWoodStairs = true
+		#Enables/Disables Cut White Sandstone Stairs
+		enableStoneStairs = true
+
+	#Custom Fence Gate Settings
+	[variant16x_biomesoplenty.fenceGates]
+		#Enables/Disables Wood Fence Gate Variants
+		enableWoodFenceGates = true
+
+	#Custom Slab Settings
+	[variant16x_biomesoplenty.slabs]
+		#Enables/Disables Wood Slab Variants
+		enableWoodSlabs = true
+
