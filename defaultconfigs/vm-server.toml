@@ -5,17 +5,17 @@ UseFixedItems = false
 #Fixed items
 FixedItems = "minecraft:air;minecraft:air;minecraft:air;minecraft:air;minecraft:air;minecraft:air;minecraft:air"
 #Include Mods
-IncludeMods = "harvestsprites;tesseract;entangled;toolbelt;chanceglobe;curios;potionofbees;bouncing_balls;randomloot;jmc;backpacked;ring_of_attraction;packingtape;yeeter;tbouncepad;travellersboots;wetstone;randomite"
+IncludeMods = "harvestsprites;tesseract;toolbelt;chanceglobe;curios;potionofbees;bouncing_balls;randomloot;jmc;backpacked;ring_of_attraction;packingtape;yeeter;tbouncepad;travellersboots;wetstone;randomite;lootbagmod;rockcandy;pamhc2foodcore"
 #Exclude Mods
 ExcludeMods = "*"
 #Exclude Items
-ExcludeItems = "minecraft:nether_star;minecraft:beacon;minecraft:shulker_box;minecraft:colorset*shulker_box;minecraft:elytra;minecraft:end_portal_frame;vm:vending_machine;randomloot:pickaxe;randomloot:sword;bouncing_balls:clay;bouncing_balls:snow;bouncing_balls:egg;bouncing_balls:tnt;bouncing_balls:slime;bouncing_balls:redstone;bouncing_balls:glowstone;bouncing_balls:gold;bouncing_balls:iron;bouncing_balls:diamond;bouncing_balls:obsidian;bouncing_balls:emerald;bouncing_balls:quartz;bouncing_balls:netherstar;curios:amulet;curios:knuckles;curios:crown;packingtape:packaged_block;jmc:cheese;jmc:golden_apple_cake;jmc:birthday_cake;jmc:christmas_cake;jmc:triple_decker_cake;jmc:cupcake"
+ExcludeItems = "minecraft:nether_star;minecraft:beacon;minecraft:shulker_box;minecraft:colorset*shulker_box;minecraft:elytra;minecraft:end_portal_frame;vm:vending_machine;randomloot:pickaxe;randomloot:sword;bouncing_balls:clay;bouncing_balls:snow;bouncing_balls:egg;bouncing_balls:tnt;bouncing_balls:slime;bouncing_balls:redstone;bouncing_balls:glowstone;bouncing_balls:gold;bouncing_balls:iron;bouncing_balls:diamond;bouncing_balls:obsidian;bouncing_balls:emerald;bouncing_balls:quartz;bouncing_balls:netherstar;curios:amulet;curios:knuckles;curios:crown;packingtape:packaged_block;jmc:cheese;jmc:golden_apple_cake;jmc:birthday_cake;jmc:christmas_cake;jmc:triple_decker_cake;jmc:cupcake;rockcandy:candy_ore;rockcandy:candy_core;rockcandy:candy_rod;rockcandy:hunger_stick;pamhc2foodcore:flouritem;pamhc2foodcore:doughitem;pamhc2foodcore:butteritem;pamhc2foodcore:pastaitem;pamhc2foodcore:vinegaritem;pamhc2foodcore:cookingoilitem;pamhc2foodcore:bakewareitem;pamhc2foodcore:cuttingboarditem;pamhc2foodcore:juiceritem;pamhc2foodcore:grinderitem;pamhc2foodcore:mixingbowlitem;pamhc2foodcore:potitem;pamhc2foodcore:rolleritem;pamhc2foodcore:saucepanitem;pamhc2foodcore:skilletitem;pamhc2foodcore:cocoapowderitem;pamhc2foodcore:batteritem;pamhc2foodcore:saltitem;pamhc2foodcore:freshmilkitem;pamhc2foodcore:freshwateritem;randomloot:trait_holder;randomloot;randomloot:editor"
 #Include Creative Tab Groups
 IncludeGroups = "*"
 #Exclude Creative Tab Groups
 ExcludeGroups = "!"
 #Change item rarity value for pricing
-ItemRarity = "chanceglobe:chance_globe=2;randomloot:basic_case=1;randomloot:gold_case=2;randomloot:titan_case=3;backpacked:backpack=1;ring_of_attraction:ring_of_attraction=1;curios:ring=2;yeeter:tnt_yeeter_spawn_egg=2;toolbelt:belt=1;toolbelt:pouch=1;entangled:block=3;entangled:item=2;harvestsprites:sprite_lamp=1;tesseract:tesseract=3;travellersboots:travellersbootmkii=1;travellersboots:travellersbootmkiii=2;travellersboots:travellersbootmkiv=3"
+ItemRarity = "chanceglobe:chance_globe=2;randomloot:basic_case=1;randomloot:golden_case=2;randomloot:titan_case=3;backpacked:backpack=1;ring_of_attraction:ring_of_attraction=1;curios:ring=2;yeeter:tnt_yeeter_spawn_egg=2;toolbelt:belt=1;toolbelt:pouch=1;entangled:block=3;entangled:item=2;harvestsprites:sprite_lamp=1;tesseract:tesseract=3;travellersboots:travellersbootmkii=1;travellersboots:travellersbootmkiii=2;travellersboots:travellersbootmkiv=3;lootbagmod:lootbag=3;rockcandy:candy_gem=3;rockcandy:candy_cane_pickaxe=2;rockcandy:candy_club=1;randomloot:random_chunk=1;randomloot:random_cluster=2"
 
 [RarityData]
 	#Common Item
@@ -34,10 +34,10 @@ ItemRarity = "chanceglobe:chance_globe=2;randomloot:basic_case=1;randomloot:gold
 	UncommonCost = 12
 	#Rare Cost
 	#Range: 1 ~ 64
-	RareCost = 24
+	RareCost = 20
 	#Epic Cost
 	#Range: 1 ~ 64
-	EpicCost = 42
+	EpicCost = 32
 	#Common Uses
 	#Range: 1 ~ 32
 	CommonUses = 4

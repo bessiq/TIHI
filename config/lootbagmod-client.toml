@@ -5,13 +5,13 @@
 	stacksize = 3
 	#How many items drop when a loot bag is used
 	#Range: 1 ~ 1000
-	dropamount = 5
+	dropamount = 3
 	#Enabled debug mode
 	debugmode = false
 
 ["Mob Drops"]
 	#Do ravagers drop lootbags
-	ravager = true
+	ravager = false
 	#Do ender dragons drop lootbags
 	dragon = false
 	#Do magma_cubes drop lootbags
@@ -41,7 +41,7 @@
 	#Do strays drop lootbags
 	stray = false
 	#Do shulkers drop lootbags
-	shulker = true
+	shulker = false
 	#Do wither_skeletons drop lootbags
 	wither_skeleton = false
 	#Do zombie_villagers drop lootbags
@@ -69,9 +69,9 @@
 
 ["Black And White Lists"]
 	#Use the whitelist
-	enablewhitelist = false
+	enablewhitelist = true
 	#BlackList (Syntax "minecraft or modid : item or block name"; example "minecraft:air" or "lootbagmod:lootbag")
-	blacklist = ["minecraft:air", "minecraft:command_block", "minecraft:structure_block", "minecraft:knowledge_book", "minecraft:chain_command_block", "minecraft:repeating_command_block", "minecraft:barrier", "minecraft:enchanted_book", "minecraft:written_book", "minecraft:potion", "minecraft:splash_potion", "minecraft:lingering_potion", "minecraft:spawn_egg", "minecraft:structure_void", "minecraft:mob_spawner", "minecraft:bedrock"]
+	blacklist = ["minecraft:air", "minecraft:command_block", "minecraft:structure_block", "minecraft:knowledge_book", "minecraft:chain_command_block", "minecraft:repeating_command_block", "minecraft:barrier", "minecraft:enchanted_book", "minecraft:written_book", "minecraft:potion", "minecraft:splash_potion", "minecraft:lingering_potion", "minecraft:spawn_egg", "minecraft:structure_void", "minecraft:mob_spawner", "minecraft:bedrock", "vm:vending_machine", "lightestlamp:debug_chunk_cleaner", "lightestlamp:debug_stick", "lightestlamp:occ", "minecraft:end_portal_frame", "minecraft:command_block_minecart", "quarryplus:quarry_pickaxe"]
 	#WhiteList Syntax "minecraft or modid : item or block name"; example minecraft:air or lootbagmod:lootbag)
-	whitelist = ["minecraft:stone"]
+	whitelist = ["randomloot:axe", "randomloot:pickaxe", "randomloot:shovel", "randomloot:sword", "randomloot:rl_bow", "randomloot:basic_case", "randomloot:gold_case", "randomloot:titan_case"]
 
