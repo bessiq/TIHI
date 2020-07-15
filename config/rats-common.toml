@@ -55,7 +55,7 @@
 	"Rat Immediate Despawn Distance" = 128.0
 	#A seperate random roll that only spawns pipers if a one-out-of-X chance, x being this number. raise this number to make them more rare.
 	#Range: > 0
-	"Piper Spawn Decrease" = 7
+	"Piper Spawn Decrease" = 10
 	#How much kRF (1000 RF) a rat with an advanced energy transfer upgrade can transport at a time.
 	#Range: > 1
 	"Rat RF Transfer Rate Advanced (kRF)" = 500
@@ -78,9 +78,9 @@
 	"Pied Piper Spawn In Overworld Only" = true
 	#A seperate random roll that only spawns rats if a one-out-of-X chance, x being this number. raise this number to make them more rare.
 	#Range: > 0
-	"Rat Spawn Decrease" = 7
+	"Rat Spawn Decrease" = 8
 	#True if tamed rats will destroy crops when they harvest them
-	"Rats Break Crops on Harvest" = true
+	"Rats Break Crops on Harvest" = false
 	#Flying Dutchrat Max Health
 	#Range: 0.0 ~ 3.4028234663852886E38
 	"Flying Dutchrat Max Health" = 400.0
@@ -153,5 +153,5 @@
 	"Default Rat Radius" = 16
 	#The weight of rats in vanilla's spawn rate
 	#Range: 1 ~ 300
-	"Rat Spawn Weight" = 50
+	"Rat Spawn Weight" = 30
 
