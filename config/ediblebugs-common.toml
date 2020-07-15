@@ -19,7 +19,7 @@
 	cookedHealthReceived = 6
 	#Amount of saturation cooked bugs will give
 	#Range: 0.0 ~ 15.0
-	cookedSaturationReceived = 1.2
+	cookedSaturationReceived = 0.9
 	#Turn on or off termite mound generation in forests. They are rare.
 	allowForest = true
 	#Allow bugs to drop from wood. If false, wood will not drop wood bugs.
