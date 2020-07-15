@@ -1,0 +1,66 @@
+
+#Settings for Inventory HUD
+[inventoryhud]
+	#Inventory HUD position (Y)
+	#Range: -9999 ~ 9999
+	yPos = 99
+	#Inventory HUD horizontal align
+	#Allowed Values: LEFT, MIDDLE, RIGHT
+	invHalign = "MIDDLE"
+	#Toggle on by default
+	byDefault = false
+	#Inventory HUD position (X)
+	#Range: -9999 ~ 9999
+	xPos = 0
+	#Inventory HUD vertical align
+	#Allowed Values: TOP, CENTER, BOTTOM
+	invValign = "BOTTOM"
+
+#Settings for ArmorStatus HUD
+[armorhud]
+	#Armor HUD position (X)
+	#Range: -9999 ~ 9999
+	xArmPos = 90
+	#Armor HUD position (Y)
+	#Range: -9999 ~ 9999
+	yArmPos = 83
+	#Armor HUD horizontal align
+	#Allowed Values: LEFT, MIDDLE, RIGHT
+	armHalign = "RIGHT"
+	#Armor HUD type (ARMOR, FULL, FULL and empty inventory slots)
+	#Allowed Values: ARMOR, FULL, FULL_AND_INV
+	armType = "FULL_AND_INV"
+	#Is Armor Damage HUD enabled
+	ArmorDamage = true
+	#Hide if durability is above this (in percentage):
+	#Range: 0 ~ 100
+	armAbove = 100
+	#Armor HUD durability view (PERCENTAGE, DAMAGE, DAMAGE LEFT)
+	#Allowed Values: PERCENTAGE, DAMAGE, DAMAGE_LEFT
+	armView = "DAMAGE_LEFT"
+	#Armor HUD vertical align
+	#Allowed Values: TOP, CENTER, BOTTOM
+	armValign = "BOTTOM"
+
+#Settings for Potions HUD
+[potionshud]
+	#Is Potions HUD enabled
+	Potions = true
+	#Potion HUD position (Y)
+	#Range: -9999 ~ 9999
+	yPotionPos = 47
+	#Potion HUD vertical align
+	#Allowed Values: TOP, CENTER, BOTTOM
+	potValign = "CENTER"
+	#Potion HUD mini mode
+	potMini = true
+	#Potion HUD position (X)
+	#Range: -9999 ~ 9999
+	xPotionPos = 60
+	#Potion HUD alpha
+	#Range: 0 ~ 100
+	potAlpha = 90
+	#Potion HUD horizontal align
+	#Allowed Values: LEFT, MIDDLE, RIGHT
+	potHalign = "RIGHT"
+
