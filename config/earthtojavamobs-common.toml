@@ -53,7 +53,7 @@
 		#Range: > 0
 		entityGroupMax = 3
 		#Biome where entity Spawn
-		spawnBiomes = ["byg:prairie", "minecraft:plains", "byg:meadow", "byg:grassland_plateau", "byg:red_desert", "byg:mojave_desert"]
+		spawnBiomes = ["biomesoplenty:orchard", "byg:prairie", "minecraft:plains", "byg:meadow", "byg:grassland_plateau", "byg:red_desert", "byg:mojave_desert"]
 		#Weight of entity in spawn
 		#Range: > 0
 		entityWeight = 6
@@ -66,7 +66,7 @@
 		#Range: > 0
 		entityGroupMax = 3
 		#Biome where entity Spawn
-		spawnBiomes = ["byg:prairie", "minecraft:plains", "byg:meadow", "minecraft:forest", "minecraft:mountain_edge", "byg:red_desert", "byg:mojave_desert", "byg:grassland_plateau"]
+		spawnBiomes = ["biomesoplenty:orchard", "byg:prairie", "minecraft:plains", "byg:meadow", "minecraft:forest", "minecraft:mountain_edge", "byg:red_desert", "byg:mojave_desert", "byg:grassland_plateau"]
 		#Weight of entity in spawn
 		#Range: > 0
 		entityWeight = 12
@@ -79,7 +79,7 @@
 		#Range: > 0
 		entityGroupMax = 2
 		#Biome where entity Spawn
-		spawnBiomes = ["minecraft:plains", "byg:prairie", "byg:wooded_meadow", "byg:orchard", "byg:zelkova_forest"]
+		spawnBiomes = ["biomesoplenty:orchard", "minecraft:plains", "byg:prairie", "byg:wooded_meadow", "byg:orchard", "byg:zelkova_forest"]
 		#Weight of entity in spawn
 		#Range: > 0
 		entityWeight = 20
