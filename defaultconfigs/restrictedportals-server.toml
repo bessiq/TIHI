@@ -1,0 +1,17 @@
+
+[options]
+	#Prevents Death by Teleporting Player to Spawn if trying to enter an Ender Portal
+	preventdeath = true
+	#Message that displays when Teleport is blocked
+	blockedmessage = "Obtain a %item% to enter %dim%."
+	#Title for the Advancements
+	craftedmessage = "%item% acquired. Access granted to %dim%!"
+	#Description for the Advancements
+	description = "Unlock access to %dim%"
+	#Comma seperated list of items that when crafted unlock the corresponding dimension
+	craftitems = "minecraft:nether_brick,minecraft:netherite_scrap,rats:gem_of_ratlantis"
+	#Comma seperated list of Dimension Resource Names
+	dimresname = "minecraft:the_nether,minecraft:the_end,rats:ratlantis"
+	#Comma seperated list of Dimension Display Names
+	dimnames = "The Nether,The End,Ratlantis"
+
