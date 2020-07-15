@@ -28,15 +28,15 @@
 #External Biomes. World settings for custom nether/end/byg: https://gist.github.com/CorgiTaco/f5716864bc7b63b04aa547ccfc0e846a
 [Dimension_Settings]
 	#Add external Nether biomes by their registry names in a commented list.
-	ExternalNetherBiomes = ""
+	ExternalNetherBiomes = "biomesoplenty:crystalline_chasm"
 	#Add external End biomes by their registry names in a commented list.
 	ExternalEndBiomes = ""
 	#Add external Nether biomes by their registry names in a commented list.
 	#Range: 0 ~ 10
-	EndBiomeSize = 3
+	EndBiomeSize = 2
 	#Add external Nether biomes by their registry names in a commented list.
 	#Range: 0 ~ 10
-	NetherBiomeSize = 3
+	NetherBiomeSize = 2
 
 [Ore_Settings]
 
@@ -63,14 +63,14 @@
 	#Vanilla BiomeSounds. Default is true
 	VanillaBiomes = true
 	#Add external COOL biomes by their registry names in a commented list.
-	ExternalCOOLBiomes = ""
+	ExternalCOOLBiomes = "biomesoplenty:boreal_forest,biomesoplenty:meadow,biomesoplenty:fir_clearing,biomesoplenty:coniferous_forest,biomesoplenty:maple_woods,biomesoplenty:seasonal_forest,biomesoplenty:silkglade,biomesoplenty:woodland,biomesoplenty:tundra,biomesoplenty:dead_forest,biomesoplenty:ghost_forest,biomesoplenty:pumpkin_patch,biomesoplenty:shield,biomesoplenty:flower_meadow,biomesoplenty:mire"
 	#Add external ICY biomes by their registry names in a commented list.
-	ExternalICYBiomes = ""
+	ExternalICYBiomes = "biomesoplenty:alps,biomesoplenty:alps_foothills,biomesoplenty:snowy_coniferous_forest,biomesoplenty:snowy_fir_clearing,biomesoplenty:snowy_forest,biomesoplenty:cold_desert"
 	#Biome Size, Default 1.
 	#Range: 0 ~ 25
 	BiomeSize = 4
 	#Add external WARM biomes by their registry names in a commented list.
-	ExternalWARMBiomes = ""
+	ExternalWARMBiomes = "biomesoplenty:temperate_rainforest,biomesoplenty:temperate_rainforest_hills,biomesoplenty:tropic_beach,biomesoplenty:tropics,biomesoplenty:rainforest,biomesoplenty:marsh,biomesoplenty:bog,biomesoplenty:prairie,biomesoplenty:pasture,biomesoplenty:chaparral,biomesoplenty:mangrove,biomesoplenty:orchard,biomesoplenty:lavender_field,biomesoplenty:poppy_field,biomesoplenty:cherry_blossom_grove,biomesoplenty:origin_beach,biomesoplenty:origin_hills,biomesoplenty:ominous_woods,biomesoplenty:gravel_beach,biomesoplenty:grove,biomesoplenty:grassland,biomesoplenty:wetland,biomesoplenty:mystic_grove,biomesoplenty:shrubland,biomesoplenty:highland,biomesoplenty:highland_moor,biomesoplenty:steppe,biomesoplenty:rainbow_valley,biomesoplenty:redwood_forest,biomesoplenty:redwood_forest_edge,biomesoplenty:fungal_jungle"
 	#Add external HOT biomes by their registry names in a commented list.
-	ExternalHOTBiomes = ""
+	ExternalHOTBiomes = "biomesoplenty:brushland,biomesoplenty:oasis,biomesoplenty:outback,biomesoplenty:scrubland,biomesoplenty:tropical_rainforest,biomesoplenty:wasteland,biomesoplenty:xeric_shrubland,biomesoplenty:volcano,biomesoplenty:volcano_edge,biomesoplenty:lush_grassland,biomesoplenty:lush_swamp,biomesoplenty:floodplain,biomesoplenty:bayou,biomesoplenty:overgrown_cliffs"
 
