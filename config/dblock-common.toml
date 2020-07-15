@@ -2,5 +2,5 @@
 [Global]
 	#What is the chance for a Dick Block to appear? (1 in x)
 	#Range: > 0
-	oneInJumps = 100
+	oneInJumps = 500
 
