@@ -1,64 +1,85 @@
 
 #General settings
 [general]
-	#Minimum speed a sword can have.
-	#Range: -4.0 ~ 4.0
-	sword_speed = -2.4
 	#Weight of a golden case dropping
 	#Range: 0 ~ 100
 	gold_chance = 35
-	#Initital Max XP for tools.
-	#Range: 0 ~ 10000
-	init_xp = 256
 	#Range: 0 ~ 100
 	gold_rolls = 5
-	#Chance of a case dropping
-	#Range: 0 ~ 100
-	total_chance = 5
-	#Minimum damage a pickaxe can do.
-	#Range: 0 ~ 100
-	pick_damage = 3
 	#Weight of a titan case dropping
 	#Range: 0 ~ 100
 	titan_chance = 20
-	#Minimum damage a sword can do.
-	#Range: 0 ~ 100
-	sword_damage = 7
 	#Weight for a shovel to drop from case
 	#Range: 0 ~ 100
 	spade_weight = 8
 	#Minimum attack speed a shovel can have.
 	#Range: -4.0 ~ 4.0
 	spade_a_speed = -3.0
-	#Minimum attack speed a pickaxe can have.
-	#Range: -4.0 ~ 4.0
-	pick_a_speed = -2.8
 	#Weight for a pick to drop from case
 	#Range: 0 ~ 100
 	pick_weight = 15
-	#Weight of a basic case dropping
-	#Range: 0 ~ 100
-	basic_chance = 70
 	#Minimum damage a shovel can do.
 	#Range: 0 ~ 100
 	spade_damage = 4
-	#Weight for and axe to drop from case
-	#Range: 0 ~ 100
-	axe_weight = 10
-	#Range: 0 ~ 100
-	titan_rolls = 9
-	#Weight for a bow to drop from case
-	#Range: 0 ~ 100
-	bow_weight = 8
 	#Initital Rolls for traits/stats
 	#Range: 0 ~ 100
 	basic_rolls = 2
+	#Minimum armor points armor can have.
+	#Range: 0.0 ~ 100.0
+	toughness = 1.0
 	#Minimum damage an axe can do.
 	#Range: 0 ~ 100
 	axe_damage = 9
 	#Weight for a sword to drop from case
 	#Range: 0 ~ 100
 	sword_weight = 20
+	#Bosses drop chance
+	#Range: 0 ~ 100
+	boss_drops = 100
+	#Minimum speed a sword can have.
+	#Range: -4.0 ~ 4.0
+	sword_speed = -2.4
+	#Initital Max XP for tools.
+	#Range: 0 ~ 10000
+	init_xp = 256
+	#Weight for any given piece of armor to drop from case
+	#Range: 0 ~ 100
+	armor_weight = 1
+	#Chance of a case dropping
+	#Range: 0 ~ 100
+	total_chance = 5
+	#Minimum damage a pickaxe can do.
+	#Range: 0 ~ 100
+	pick_damage = 3
+	#Minimum damage a sword can do.
+	#Range: 0 ~ 100
+	sword_damage = 7
+	#Minimum attack speed a pickaxe can have.
+	#Range: -4.0 ~ 4.0
+	pick_a_speed = -2.8
+	#Minimum armor points armor can have.
+	#Range: 0 ~ 100
+	armor = 4
+	#Weight of a basic case dropping
+	#Range: 0 ~ 100
+	basic_chance = 70
+	#Weight for and axe to drop from case
+	#Range: 0 ~ 100
+	axe_weight = 10
+	#Range: 0 ~ 100
+	titan_rolls = 9
+	#Minimum damage a throwable can do.
+	#Range: 0 ~ 100
+	throw_damage = 5
+	#Monsters drop chance
+	#Range: 0 ~ 100
+	monster_drops = 10
+	#Weight for a bow to drop from case
+	#Range: 0 ~ 100
+	bow_weight = 8
+	#Animals drop chance
+	#Range: 0 ~ 100
+	animal_drops = 0
 	#Minimum attack speed an axe can have.
 	#Range: -4.0 ~ 4.0
 	axe_a_speed = -3.0
@@ -69,13 +90,13 @@
 	weakening_enabled = true
 	#Webbed Enabled?
 	webbed_enabled = true
-	#More_fire_resistant Enabled?
+	#More Fire Resistant Enabled?
 	more_fire_resistant_enabled = true
-	#Very_weakening Enabled?
+	#Very Weakening Enabled?
 	very_weakening_enabled = true
 	#Floating Enabled?
 	floating_enabled = true
-	#More_resistant Enabled?
+	#More Resistant Enabled?
 	more_resistant_enabled = true
 	#Speedier Enabled?
 	speedier_enabled = true
@@ -83,17 +104,17 @@
 	"damage++_enabled" = true
 	#Bouncier Enabled?
 	bouncier_enabled = true
-	#Soul_searching Enabled?
+	#Soul Searching Enabled?
 	soul_searching_enabled = true
 	#Regenerating Enabled?
 	regenerating_enabled = true
 	#Hastey Enabled?
 	hastey_enabled = true
-	#Super_lucky Enabled?
+	#Super Lucky Enabled?
 	super_lucky_enabled = true
 	#Auto-smelt Enabled?
 	auto-smelt_enabled = true
-	#Very_withering Enabled?
+	#Very Withering Enabled?
 	very_withering_enabled = true
 	#Resistant Enabled?
 	resistant_enabled = true
@@ -101,9 +122,9 @@
 	bouncy_enabled = true
 	#Hastier Enabled?
 	hastier_enabled = true
-	#Cloud_walker Enabled?
+	#Cloud Walker Enabled?
 	cloud_walker_enabled = true
-	#Very_poisonous Enabled?
+	#Very Poisonous Enabled?
 	very_poisonous_enabled = true
 	#Insightful Enabled?
 	insightful_enabled = true
@@ -113,17 +134,17 @@
 	filling_enabled = true
 	#Strong Enabled?
 	strong_enabled = true
-	#Fire_resistant Enabled?
+	#Fire Resistant Enabled?
 	fire_resistant_enabled = true
 	#Poisonous Enabled?
 	poisonous_enabled = true
 	#Fortified Enabled?
 	fortified_enabled = true
-	#Double_webbed Enabled?
+	#Double Webbed Enabled?
 	double_webbed_enabled = true
 	#Damage+ Enabled?
 	"damage+_enabled" = true
-	#Deep_breathing Enabled?
+	#Deep Breathing Enabled?
 	deep_breathing_enabled = true
 	#Withering Enabled?
 	withering_enabled = true
