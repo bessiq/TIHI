@@ -38,7 +38,7 @@ B:allowgameintroskip = 'true';
 B:showanimationloadingstatus = 'true';
 S:gameintroanimation = '';
 S:customgameintroskiptext = '';
-B:loadingscreendarkmode = 'false';
+B:loadingscreendarkmode = 'true';
 
 
 ##[minecraftwindow]
