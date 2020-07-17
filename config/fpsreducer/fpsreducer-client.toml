@@ -3,7 +3,7 @@
 [general]
 	#Reference position of HUD.
 	#Range: 1 ~ 8
-	hudReferencePos = 5
+	hudReferencePos = 2
 	#Frame rate during reducing.
 	#Range: 1 ~ 60
 	idleFps = 10
@@ -19,7 +19,7 @@
 	waitingTime = 300
 	#HUD scale (default: 1.0)
 	#Range: 0.1 ~ 2.0
-	hudScale = 0.8
+	hudScale = 0.9
 	#Detect movement of player position. (0:OFF, 1:Riding/Flying, 2:Always)
 	#Range: 0 ~ 2
 	detectMoving = 1
@@ -27,7 +27,7 @@
 	ignoreHoldButton = false
 	#HUD information (0:off, 1:FPS/CPU(long), 1:FPS/CPU(short), 3:FPS/CPU(2lines), 4:FPS only, 5:CPU only)
 	#Range: 0 ~ 5
-	hudInfo = 2
+	hudInfo = 0
 	#Behavior of HUD display when a chat window opened. (0:keep to display, 1:off, 2:dodge a chat box)
 	#Range: 0 ~ 2
 	hudBehindChatBox = 2

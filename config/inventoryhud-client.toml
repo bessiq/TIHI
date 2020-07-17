@@ -20,10 +20,10 @@
 [armorhud]
 	#Armor HUD position (X)
 	#Range: -9999 ~ 9999
-	xArmPos = 90
+	xArmPos = 92
 	#Armor HUD position (Y)
 	#Range: -9999 ~ 9999
-	yArmPos = 83
+	yArmPos = 73
 	#Armor HUD horizontal align
 	#Allowed Values: LEFT, MIDDLE, RIGHT
 	armHalign = "RIGHT"
@@ -56,7 +56,7 @@
 	potMini = true
 	#Potion HUD position (X)
 	#Range: -9999 ~ 9999
-	xPotionPos = 60
+	xPotionPos = 62
 	#Potion HUD alpha
 	#Range: 0 ~ 100
 	potAlpha = 90

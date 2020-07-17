@@ -1,14 +1,14 @@
 
 [general]
-	#Deer drops steak (1 - 4 Raw Steak)
-	dropBeef = false
 	#Deer experience drop
 	dropExp = false
+	#Deer drops steak (1 - 4 Raw Steak)
+	dropBeef = false
 
 ["spawn chances"]
 	#Spawn rates. Set weight to 0 to disable.
 	#Range: 2 ~ 64
-	min = 1
+	min = 2
 	#Range: 2 ~ 64
 	max = 4
 	#Range: 0 ~ 100
