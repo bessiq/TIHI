@@ -39,9 +39,6 @@
     "biomesoplenty:fungal_jungle": {
       "weight": 1
     },
-    "biomesoplenty:ghost_forest": {
-      "weight": 2
-    },
     "biomesoplenty:grassland": {
       "weight": 5
     },
@@ -74,6 +71,9 @@
     },
     "biomesoplenty:mire": {
       "weight": 3
+    },
+    "biomesoplenty:muskeg": {
+      "weight": 2
     },
     "biomesoplenty:mystic_grove": {
       "weight": 1
