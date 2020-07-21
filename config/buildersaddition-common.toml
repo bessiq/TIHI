@@ -1,0 +1,10 @@
+
+#General Settings
+[general]
+	#Enable server MIDI.
+	midi_enable = true
+	#Enable MIDI client sound.
+	midi_sound_enable = true
+	#Enable MIDI input.
+	midi_input_enable = false
+

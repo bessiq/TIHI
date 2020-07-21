@@ -1,0 +1,7 @@
+
+["General Category"]
+	#Crates Quantity Text
+	crates_quantity = true
+	#Shelves Quantity Text
+	shelves_quantity = true
+
