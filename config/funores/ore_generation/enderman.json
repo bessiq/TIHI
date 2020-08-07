@@ -1,0 +1,21 @@
+{
+  "blocks": [
+    {
+      "block": "funores:enderman_ore",
+      "weight": 10
+    },
+    {
+      "weight": 3
+    }
+  ],
+  "replaces": "forge:stone",
+  "chance": 0.05,
+  "count": 1,
+  "size": 22,
+  "min_height": 32,
+  "max_height": 84,
+  "dimensions": [
+    "minecraft:dimension"
+  ],
+  "biomes": []
+}

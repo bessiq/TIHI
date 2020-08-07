@@ -1,0 +1,7 @@
+
+#Some more different stuff
+["Generic Config"]
+	#Controls how obscured your vision is in lava when Blazing Core is equipped. Lower value equals more visibility.
+	#Range: 0.0 ~ 1024.0
+	magmaHeartLavaDensity = 0.3
+

@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+      "minecraft:tube_coral", 
+      "byg:warped_coral", 
+      "byg:warped_coral_fan"
+    ]
+  }

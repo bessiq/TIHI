@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+      "minecraft:mushroom_stem",
+      "byg:brown_mushroom_stem",
+      "byg:red_glowshroom_stem",
+      "byg:white_mushroom_stem",
+      "byg:yellow_glowshroom_stem",
+      "byg:plant_stem"
+    ]
+  }

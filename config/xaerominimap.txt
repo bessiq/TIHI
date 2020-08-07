@@ -1,5 +1,5 @@
 #CONFIG ONLY OPTIONS
-ignoreUpdate:250
+ignoreUpdate:253
 updateNotification:true
 settingsButton:false
 allowWrongWorldTeleportation:false
@@ -68,7 +68,6 @@ playerNames:true
 showLightLevel:false
 renderLayerIndex:1
 crossDimensionalTp:true
-mpCrossDimensionalTp:false
 showTime:1
 biomeColorsVanillaMode:false
 lookingAtAngle:20
@@ -84,6 +83,7 @@ caveMapsDepth:30
 hideWaypointCoordinates:false
 renderAllSets:false
 playerArrowOpacity:100
+ignoreHeightmaps:false
 interface:dummy:0:36:true:false:false:false
 interface:dummy:0:10000:true:false:false:false
 interface:dummy:0:0:false:false:true:false

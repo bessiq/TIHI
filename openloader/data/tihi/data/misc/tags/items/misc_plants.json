@@ -1,0 +1,31 @@
+{
+    "replace": false,
+    "values": [
+        "byg:nether_bristle", 
+        "minecraft:fern", 
+        "minecraft:large_fern", 
+        "minecraft:nether_sprouts", 
+        "byg:warped_bush", 
+        "byg:winter_succulent", 
+        "byg:horseweed", 
+        "byg:mini_cactus", 
+        "byg:leaf_pile", 
+        "byg:water_silk", 
+        "byg:tiny_lilypads", 
+        "byg:clover_patch", 
+        "byg:flower_patch", 
+        "endergetic:poise_bush", 
+        "endergetic:tall_poise_bush", 
+        "byg:embur_lily", 
+        "byg:ivis_sprout", 
+        "byg:sythian_sprout", 
+        "minecraft:crimson_roots", 
+        "minecraft:warped_roots", 
+        "byg:sythian_roots", 
+        "byg:embur_roots", 
+        "byg:tall_embur_roots", 
+        "byg:ivis_roots", 
+        "byg:cattail", 
+        "byg:reeds"
+    ]
+  }

@@ -1,7 +1,7 @@
 
 [General]
 	#The message sent on portal creation.
-	messageOnPortalCreation = "You feel a corrupt energy coming from the portal. The nether will slowly spread into the overworld unless %preventSpreadBlockAmountNeeded% %preventSpreadBlockString% are placed within a %portalSpreadRadius% block radius around the portal."
+	messageOnPortalCreation = "You feel a corrupt energy coming from the portal. The Nether will slowly spread into the Overworld unless %preventSpreadBlockAmountNeeded% %preventSpreadBlockString% are placed within a %portalSpreadRadius% block radius around the portal."
 	#When enabled, sends a message to players around the portal that the nether spread has stopped when the portal detects new 'preventSpreadBlockString' blocks.
 	sendMessageOnPreventSpreadBlocksFound = true
 	#The message sent on preventspread blocks found.

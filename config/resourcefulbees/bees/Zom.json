@@ -1,0 +1,20 @@
+{
+  "honeycombColor": "#2F4E32",
+  "baseLayerTexture": "zombie/zombie_bee",
+  "isBeeColored": false,
+  "flower": "minecraft:dead_bush",
+  "mutationInput": "minecraft:stone",
+  "mutationOutput": "minecraft:cobblestone",
+  "mainOutput": "minecraft:rotten_flesh",
+  "mainOutputWeight": 1.00,
+  "mainOutputCount": 3,
+  "secondaryOutput": "forbidden_arcanus:rotten_leather",
+  "secondaryOutputWeight": 0.20,
+  "bottleOutput": "minecraft:experience_bottle",
+  "bottleOutputWeight": 0.20,
+  "spawnInWorld": true,
+  "biomeWhitelist": "tag:DEAD,tag:SPARSE",
+  "biomeBlacklist": "tag:OCEAN,tag:BEACH",
+  "maxTimeInHive": 600,
+  "zomBee": true
+}

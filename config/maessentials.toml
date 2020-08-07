@@ -19,17 +19,17 @@
 
 	[Commands.endc]
 		#Enable command: /endc
-		enable = true
+		enable = false
 
 	[Commands.back]
 		#Range: > 0
-		death_custom_cooldown = 0
+		death_custom_cooldown = 300
 		#Range: > 0
-		delay = 3
+		delay = 5
 		#Enable command: /back
 		enable = false
 		#Range: > 0
-		cooldown = 0
+		cooldown = 300
 		enable_on_death = true
 
 	[Commands.speed]
@@ -46,11 +46,11 @@
 
 	[Commands.warps]
 		#Range: > 0
-		delay = 3
+		delay = 5
 		#Enable commands: /setwarp, /delwarp, /warp
 		enable = false
 		#Range: > 0
-		cooldown = 0
+		cooldown = 300
 
 	[Commands.top]
 		#Enable command: /top
@@ -70,11 +70,11 @@
 
 	[Commands.homes]
 		#Range: > 0
-		delay = 3
+		delay = 5
 		#Enable commands: /sethome, /delhome, /home
 		enable = false
 		#Range: > 0
-		cooldown = 0
+		cooldown = 300
 		#Range: > 1
 		limit = 3
 		#Range: > 1
@@ -94,11 +94,11 @@
 
 	[Commands.rndtp]
 		#Range: > 0
-		delay = 3
+		delay = 5
 		#Enable command: /rndtp
 		enable = true
 		#Range: > 0
-		cooldown = 0
+		cooldown = 15
 		#Range: 50 ~ 999
 		range_min = 500
 		#Range: > 1000
@@ -106,11 +106,11 @@
 
 	[Commands.tpa]
 		#Range: > 0
-		delay = 3
+		delay = 5
 		#Enable commands: /tpa, /tpahere, /tpaccept, /tpdeny
 		enable = true
 		#Range: > 0
-		cooldown = 0
+		cooldown = 300
 		#Range: > 0
 		timeout = 20
 
@@ -158,11 +158,11 @@
 
 	[Commands.spawn]
 		#Range: > 0
-		delay = 3
+		delay = 5
 		#Enable commands: /spawn, /setspawn
 		enable = true
 		#Range: > 0
-		cooldown = 0
+		cooldown = 300
 		force_spawn_on_death = false
 
 	[Commands.time]

@@ -1,4 +1,4 @@
-ignoreUpdate:72
+ignoreUpdate:75
 updateNotification:true
 differentiateByServerAddress:true
 debug:false
@@ -16,4 +16,6 @@ biomeColorsVanillaMode:false
 waypoints:true
 renderArrow:true
 displayZoom:true
+ignoreHeightmaps:false
+waypointScale:1.0
 globalVersion:9

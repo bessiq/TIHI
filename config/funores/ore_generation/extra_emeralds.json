@@ -1,0 +1,18 @@
+{
+  "blocks": [
+    {
+      "block": "minecraft:emerald_ore",
+      "weight": 1
+    }
+  ],
+  "replaces": "forge:stone",
+  "chance": 0.1,
+  "count": 1,
+  "size": 1,
+  "min_height": 16,
+  "max_height": 48,
+  "dimensions": [
+    "minecraft:dimension"
+  ],
+  "biomes": []
+}

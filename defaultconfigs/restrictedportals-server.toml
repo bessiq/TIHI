@@ -9,9 +9,9 @@
 	#Description for the Advancements
 	description = "Unlock %dim%"
 	#Comma seperated list of items that when crafted unlock the corresponding dimension
-	craftitems = "minecraft:nether_brick,minecraft:netherite_scrap,rats:gem_of_ratlantis"
+	craftitems = "minecraft:nether_brick,minecraft:netherite_scrap"
 	#Comma seperated list of Dimension Resource Names
-	dimresname = "minecraft:the_nether,minecraft:the_end,rats:ratlantis"
+	dimresname = "minecraft:the_nether,minecraft:the_end"
 	#Comma seperated list of Dimension Display Names
-	dimnames = "The Nether,The End,Ratlantis"
+	dimnames = "The Nether,The End"
 

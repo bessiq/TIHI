@@ -1,0 +1,19 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:grass", 
+        "minecraft:tall_grass", 
+        "minecraft:seagrass", 
+        "byg:short_grass", 
+        "byg:tall_prairie_grass", 
+        "byg:winter_grass", 
+        "byg:weed_grass", 
+        "byg:wilted_grass", 
+        "byg:short_beach_grass", 
+        "byg:beach_grass", 
+        "undergarden:glowing_sea_grass", 
+        "undergarden:tall_deepturf", 
+        "undergarden:ashen_tall_deepturf", 
+        "undergarden:double_deepturf"
+    ]
+  }

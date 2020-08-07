@@ -3,7 +3,7 @@
 [general]
 	#Chance of llamas wearing parts of their outfit, in percentage% (0-100)
 	#Range: 0 ~ 100
-	fancyChance = 10
+	fancyChance = 7
 	#Apply Mod On...
 	#0 = Nothing (why install the mod though?)
 	#1 = Llamas

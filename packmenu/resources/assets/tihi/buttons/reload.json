@@ -1,0 +1,11 @@
+{
+	"x": 0,
+	"y": 0,
+	"width": 22,
+	"height": 22,
+	"texWidth": 70,
+	"texHeight": 70,
+	"anchor": "TOP_CENTER",
+	"texture": "tihi:textures/reload.png",
+	"action": "RELOAD"
+}

@@ -1,0 +1,21 @@
+{
+	"x": 0,
+	"y": 62,
+	"width": 70,
+	"height": 22,
+	"u": 0,
+	"v": 0,
+	"hoverU": 0,
+	"hoverV": 70,
+	"texWidth": 400,
+	"texHeight": 139,
+	"textYOffset": -1,
+	"textXOffset": 3,
+	"fontColor": 12840163,
+	"hoverFontColor": 25679,
+	"dropShadow": false,
+	"texture": "tihi:textures/buttons.png",
+	"langKey": "packmenu.tihi.tihi",
+	"action": "OPEN_URL",
+	"data": "https://youtu.be/dQw4w9WgXcQ"
+}

@@ -4,5 +4,5 @@
 	#Whether the flooding of adjacent air blocks should be animated or instant.
 	animatedFlooding = true
 	#List of blocks that should be affected by the adjusted water physics.
-	affectedBlocks = ["minecraft:sand", "byg:white_sand", "byg:purple_sand", "byg:blue_sand", "byg:black_sand", "biomesoplenty:white_sand"]
+	affectedBlocks = ["minecraft:sand", "minecraft:gravel", "byg:white_sand", "byg:purple_sand", "byg:blue_sand", "byg:black_sand"]
 

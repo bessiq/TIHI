@@ -3,7 +3,7 @@
 [general]
 	#Chance of bunnies wearing parts of their outfit, in percentage% (0-100)
 	#Range: 0 ~ 100
-	fancyChance = 10
+	fancyChance = 7
 
 #Settings regarding bunnies that are wearing outfits
 [outfit]

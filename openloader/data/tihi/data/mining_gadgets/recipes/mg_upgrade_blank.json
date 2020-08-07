@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aba",
+    "dcd",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "extendedcrafting:redstone"
+    },
+    "b": {
+      "item": "silentgear:azure_electrum_ingot"
+    },
+    "c": {
+      "item": "botania:mana_glass_pane"
+    },
+    "d": {
+      "item": "mysticalagriculture:prosperity_gemstone"
+    }
+  },
+  "result": {
+    "item": "mininggadgets:upgrade_empty"
+  }
+}

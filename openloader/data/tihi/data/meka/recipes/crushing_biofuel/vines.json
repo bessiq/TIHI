@@ -1,0 +1,6 @@
+{
+  "type":"mekanism:crushing",
+  "input":
+    {"ingredient":{"tag":"misc:vines"}},
+  "output":{"item":"mekanism:bio_fuel","count":3}
+}

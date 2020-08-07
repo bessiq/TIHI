@@ -6,7 +6,7 @@
 	#Quartz Ore spawn rarity
 	#Range: 0 ~ 64
 	quartz_rarity = 2
-	#The End new structures
+	#The End new structures generation
 	new_structures_end = true
 	#Random model size | If enabled, server logs can spam with warning about enderman spawning
 	enderman_tweaks = false
@@ -19,6 +19,8 @@
 	#Dragonite flower spawn rarity
 	#Range: 0 ~ 64
 	dragonite_rarity = 1
+	#End Moss, Endstone Coral generation
+	tungsten_ore = true
 	#Cracked Purpur and Cracked End Bricks spawn rarity
 	#Range: 0 ~ 64
 	decorator_rarity = 4

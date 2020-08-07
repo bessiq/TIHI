@@ -22,7 +22,7 @@
 	#  To disable spawning in the nether biome: [ "!minecraft:nether" ]
 	#  To disable spawning in forest areas, but allow them in dark fores: [ "minecraft:dark_forest", "!#FOREST" ]
 	#NOTE: VOID type biomes are disabled by default, internally. You can explicitly enable those by adding "#VOID" to the rules, but this is not recommended.
-	biomeRules = ["byg:bayou", "byg:embur_bog", "byg:weeping_witch_forest", "byg:sythian_torrids", "byg:dead_sea", "biomesoplenty:ominous_woods", "biomesoplenty:mangrove", "biomesoplenty:withered_abyss", "!*"]
+	biomeRules = ["byg:bayou", "byg:embur_bog", "byg:weeping_witch_forest", "byg:sythian_torrids", "byg:dead_sea", "!*"]
 	#Set to false to disable the jumpscare system.
 	jumpscare = true
 	#Set to a number > 0 to cause the jumpscare to apply poison the player. A value of 5 will take around half of the health. 

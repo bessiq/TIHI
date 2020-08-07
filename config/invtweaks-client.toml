@@ -32,6 +32,10 @@
 		containerClass = "com.tfar.craftingstation.CraftingStationContainer"
 		sortRange = ""
 
+	[[sorting.containerOverrides]]
+		containerClass = "mcjty.rftoolsutility.modules.crafter.blocks.CrafterContainer"
+		sortRange = ""
+
 	#Categor(y/ies) for sorting
 	#
 	#name: the name of the category
@@ -71,7 +75,7 @@
 
 	[[sorting.category]]
 		name = "cheapBlocks"
-		spec = [""]
+		spec = ["/tag:minecraft:cobblestone", "/tag:minecraft:dirt"]
 
 	[[sorting.category]]
 		name = "blocks"

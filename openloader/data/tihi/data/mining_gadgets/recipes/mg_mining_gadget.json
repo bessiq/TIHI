@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "abb",
+    "acd",
+    "abb"
+  ],
+  "key": {
+    "a": {
+      "item": "appliedenergestics2:charged_certus_quartz_crystal"
+    },
+    "b": {
+      "item": "immersiveengineering:component_iron"
+    },
+    "c": {
+      "item": "mininggadgets:upgrade_empty"
+    },
+    "d": {
+      "item": "mekanism:laser"
+    }
+  },
+  "result": {
+    "item": "mininggadgets:mininggadget"
+  }
+}

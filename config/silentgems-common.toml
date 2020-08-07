@@ -28,7 +28,7 @@
 				#Each 'size x size' chunk area is a 'region', which contains a couple types of gems.
 				#Larger regions will make finding many types of gems more difficult.
 				#Setting to zero will disable gem generation in this dimension.
-				regionSize = 8
+				regionSize = 10
 
 		[world.generation.other]
 
@@ -37,7 +37,7 @@
 				#Each 'size x size' chunk area is a 'region', which contains a couple types of gems.
 				#Larger regions will make finding many types of gems more difficult.
 				#Setting to zero will disable gem generation in these dimensions (does not include overworld).
-				regionSize = 4
+				regionSize = 0
 
 		[world.generation.ores]
 
@@ -45,13 +45,13 @@
 
 				#Number of chaos ore veins per chunk, selected randomly per biome. Set min and max to zero to disable.
 				[world.generation.ores.chaos.veinCount]
-					min = 1
-					max = 2
+					min = 0
+					max = 0
 
 			[world.generation.ores.silver]
 				#Number of veins of silver ore per chunk. Set 0 to disable.
 				#Default: 0 if Silent's Mechanisms is installed when config is created, 2 otherwise
-				veinCount = 2
+				veinCount = 0
 
 			[world.generation.ores.ender]
 				#Number of ender ore veins per chunk in The End. Set zero to disable.
@@ -68,22 +68,22 @@
 				#Each 'size x size' chunk area is a 'region', which contains a couple types of gems.
 				#Larger regions will make finding many types of gems more difficult.
 				#Setting to zero will disable gem generation in this dimension.
-				regionSize = 6
+				regionSize = 10
 
 		[world.generation.overworld]
 
 			[world.generation.overworld.gems]
 				#The most gem types to select per biome. Should be at least the same as the min value.
 				#Setting both min and max to zero will disable normal gem generation in the overworld, but not in other dimensions.
-				maxTypePerBiome = 5
+				maxTypePerBiome = 2
 				#The fewest number of gem types to select per biome. Should be no bigger than the max value.
 				#Setting both min and max to zero will disable normal gem generation in the overworld, but not in other dimensions.
-				minTypePerBiome = 2
+				minTypePerBiome = 1
 
 			[world.generation.overworld.geode]
 				#The base chance of a chunk having a gem geode.
 				# Setting to zero will disable geodes. A value of one would make every chunk have a geode.
-				baseChance = 0.05
+				baseChance = 0.01
 				#Max variation in geode chance. The final chance is a normal distribution, with this being the standard deviation.
 				#This will tend to be close to the base chance, but could be more/less by several times this value.
 				#The chance is rolled separately for each biome.
@@ -93,7 +93,7 @@
 	#The most chaos the any source (player or world) can accumulate
 	maxValue = 10000000
 	#If true, players will not experience chaos events until they have used a bed (set a respawn point)
-	noEventsUntilPlayerHasBed = true
+	noEventsUntilPlayerHasBed = false
 
 	#Allows individual events to be disabled.
 	#Note that disabling events will likely increase the frequency of other events.
@@ -123,7 +123,7 @@
 
 [teleporter]
 	#Only allow teleporters to be linked to teleporters made with the same gem
-	sameGemOnly = false
+	sameGemOnly = true
 	#Allow teleporters to link to teleporter anchors
 	allowAnchors = true
 
@@ -148,36 +148,36 @@
 	#The numbers will tend to be close to average, but could occasionally be plus/minus a couple deviations.
 	[soulGem.dropRate]
 		#Average drop rate of soul gems (1 = 100%) [0 ~ 1]
-		average = 0.025
+		average = 0.01
 		#The drop rate for boss creatures (overrides normal calculation) [0 ~ 1]
-		boss = 1.0
+		boss = 0.2
 		#Standard deviation of drop rate (should be no more than a quarter of the average, preferably less) [0 ~ 1]
 		deviation = 0.002
 
 [returnHomeCharm]
 	#Durability of return home charms. 0 means unlimited. Charms with durability will still generate chaos when used.
-	maxUses = 0
+	maxUses = 42
 	#Only allow return home charms to be bound to teleporters made with the same gem
-	sameGemOnly = false
+	sameGemOnly = true
 	#Allow return home charms to be bound to teleporter anchors
 	allowAnchors = true
 	#The time (in ticks) the player must use a return home charm to activate it
-	useTime = 16
+	useTime = 20
 
 [glowrose]
 	#The light level of free-standing glowroses [0 ~ 15]
 	#Requires a Minecraft restart
-	normalLight = 10
+	normalLight = 8
 	#The light level of glowroses planted in vanilla flower pots [0 ~ 15]
 	#Requires a Minecraft restart
-	pottedLight = 15
+	pottedLight = 12
 
 	[glowrose.world]
 		#The number of placement attempts when generating new chunks (higher numbers = bigger patches)
 		#Note this is the number of 'attempts', not the actual number you will likely see in any given patch
-		placeTryCount = 40
+		placeTryCount = 25
 		#The most glowroses that can be in a single patch
-		maxPerPatch = 16
+		maxPerPatch = 10
 
 [entity]
 
@@ -188,7 +188,7 @@
 			#Smallest possible group size
 			minGroupSize = 1
 			#Spawn weight of ender slimes in The End. Set to zero to disable spawns.
-			weight = 3
+			weight = 2
 			#Largest possible group size
 			maxGroupSize = 2
 

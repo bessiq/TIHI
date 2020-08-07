@@ -1,0 +1,18 @@
+{
+  "honeycombColor": "#FFECA6",
+  "primaryColor": "#FFECA6",
+  "secondaryColor": "#976500",
+  "flower": "tag:silentgems:glowroses",
+  "mutationInput": "tag:forge:netherrack",
+  "mutationOutput": "minecraft:glowstone",
+  "mainOutput": "minecraft:glowstone_dust",
+  "mainOutputWeight": 1.00,
+  "mainOutputCount": 4,
+  "secondaryOutput": "mekanism:nugget_refined_glowstone",
+  "secondaryOutputWeight": 0.05,
+  "bottleOutput": "minecraft:experience_bottle",
+  "bottleOutputWeight": 0.10,
+  "spawnInWorld": true,
+  "biomeWhitelist": "byg:glowstone_gardens",
+  "netherBee": true
+}

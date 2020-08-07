@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    "b": {
+      "item": "byg:black_rose"
+    },
+    "c": {
+      "item": "silentgems:nether_star_shard"
+    }
+  },
+  "result": {
+    "item": "minecraft:wither_rose"
+  }
+}

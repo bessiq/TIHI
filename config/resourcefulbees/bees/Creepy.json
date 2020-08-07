@@ -1,0 +1,20 @@
+{
+  "honeycombColor": "#0C9F0A",
+  "baseLayerTexture": "/creeper/creeper_bee",
+  "isBeeColored": false,
+  "flower": "forbidden_arcanus:stella_arcanum",
+  "mutationInput": "minecraft:tnt",
+  "mutationOutput": "mekanismadditions:obsidian_tnt",
+  "mainOutput": "minecraft:gunpowder",
+  "mainOutputWeight": 1.0,
+  "mainOutputCount": 4,
+  "secondaryOutput": "quark:gunpowder_sack",
+  "secondaryOutputWeight": 0.25,
+  "bottleOutput": "minecraft:experience_bottle",
+  "bottleOutputWeight": 0.20,
+  "spawnInWorld": true,
+  "biomeWhitelist": "tag:SPOOKY,tag:RARE",
+  "biomeBlacklist": "tag:OCEAN,tag:BEACH",
+  "maxTimeInHive": 600,
+  "creeperBee": true
+}

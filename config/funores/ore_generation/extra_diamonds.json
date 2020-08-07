@@ -1,0 +1,18 @@
+{
+  "blocks": [
+    {
+      "block": "minecraft:diamond_ore",
+      "weight": 1
+    }
+  ],
+  "replaces": "forge:stone",
+  "chance": 0.5,
+  "count": 1,
+  "size": 6,
+  "min_height": 0,
+  "max_height": 16,
+  "dimensions": [
+    "minecraft:dimension"
+  ],
+  "biomes": []
+}

@@ -1,0 +1,19 @@
+{
+  "honeycombColor": "#345ec3",
+  "primaryColor": "#345ec3",
+  "secondaryColor": "#303030",
+  "flower": "ALL",
+  "mutationInput": "tag:forge:stone",
+  "mutationOutput": "minecraft:lapis_ore",
+  "mainOutput": "minecraft:lapis_lazuli",
+  "mainOutputWeight": 1.00,
+  "mainOutputCount": 2,
+  "secondaryOutput": "minecraft:lapis_block",
+  "secondaryOutputWeight": 0.10,
+  "bottleOutput": "minecraft:experience_bottle",
+  "bottleOutputWeight": 0.15,
+  "spawnInWorld": true,
+  "biomeWhitelist": "tag:MAGICAL",
+  "biomeBlacklist": "tag:OCEAN,tag:BEACH",
+  "maxTimeInHive": 600
+}

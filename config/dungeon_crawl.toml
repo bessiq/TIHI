@@ -8,7 +8,7 @@
 [world_generation]
 	#The probability of a dungeon getting generated on each fitting chunk.
 	#Range: 1.0E-4 ~ 1.0
-	dungeon_probability = 0.3
+	dungeon_probability = 0.1
 	#If this is set to false, no dungeons can be generated outside the overworld.
 	ignore_dimension = true
 
@@ -33,8 +33,8 @@
 	spawner_entities = 8
 	#The minumum amount of rooms for each dungeon layer.
 	#Range: 0 ~ 24
-	layer_min_additions = 5
+	layer_min_additions = 3
 	#The amount of extra rooms per dungeon layer. A random number in the range [0 ~ layer_extra_additions-1] will be used.
 	#Range: 1 ~ 24
-	layer_extra_additions = 6
+	layer_extra_additions = 4
 

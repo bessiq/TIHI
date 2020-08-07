@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "b": {
+      "item": "minecraft:gilded_blackstone"
+    },
+    "c": {
+      "item": "minecraft:lodestone"
+    }
+  },
+  "result": {
+    "item": "chunk:loader"
+  }
+}

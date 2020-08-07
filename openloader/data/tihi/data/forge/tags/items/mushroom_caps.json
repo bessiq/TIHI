@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+      "minecraft:brown_mushroom_block",
+      "minecraft:red_mushroom_block",
+      "byg:black_puff_mushroom_block",
+      "byg:blue_glowshroom_block",
+      "byg:green_mushroom_block",
+      "byg:purple_glowshroom_block",
+      "byg:weeping_milkcap_mushroom_block",
+      "byg:wood_blewit_mushroom_block"
+    ]
+  }

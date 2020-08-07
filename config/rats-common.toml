@@ -15,19 +15,19 @@
 	"Black Death Automaton Attack Damage" = 4.0
 	#percent chance for piper to drop hat on death
 	#Range: 0.0 ~ 1.0
-	"Pied Piper Hat Drop Rate" = 0.09000000357627869
+	"Pied Piper Hat Drop Rate" = 0.1
 	#percent chance for a husk or jungle skeleton to spawn with an archeologist hat
 	#Range: 0.0 ~ 1.0
-	"Archeologist Hat Spawn Rate" = 0.11999999731779099
+	"Archeologist Hat Spawn Rate" = 0.12
 	#percent chance for plague rat to drop plague essence on death
 	#Range: 0.0 ~ 1.0
-	"Plague Essence Drop Rate" = 0.10000000149011612
+	"Plague Essence Drop Rate" = 0.1
 	#Neo-Ratlantean Attack Damage
 	#Range: 0.0 ~ 3.4028234663852886E38
 	"Neo-Ratlantean Automaton Attack Damage" = 8.0
 	#1/This number chance for a rat to drop a Token
 	#Range: > 1
-	"Rat Token Drop Rate" = 10000
+	"Rat Token Drop Rate" = 15000
 	#True if plague doctor huts can spawn in villages
 	"Village Plague Doctors" = true
 	#True if wild rats contaminate food when they steal from chests
@@ -55,20 +55,20 @@
 	"Rat Immediate Despawn Distance" = 128.0
 	#A seperate random roll that only spawns pipers if a one-out-of-X chance, x being this number. raise this number to make them more rare.
 	#Range: > 0
-	"Piper Spawn Decrease" = 10
+	"Piper Spawn Decrease" = 12
 	#How much kRF (1000 RF) a rat with an advanced energy transfer upgrade can transport at a time.
 	#Range: > 1
 	"Rat RF Transfer Rate Advanced (kRF)" = 500
 	#When a rat is farther than its potential despawn distance, a random roll is taken to see if it despawns. Lower this number will make rats more likely to despawn.
 	#Range: > 1
-	"Rat Potential Despawn Chance" = 800
+	"Rat Potential Despawn Chance" = 700
 	#True if wild rats will steal from chests
 	"Rats Steal From Chests" = true
 	#True if rats should rarely make a funny noise when creating rats nuggets.
 	"Rat Fart Noises" = true
 	#The time in ticks(20 per second) it takes for milk to turn into cheese in a cauldron
 	#Range: 20 ~ 1000000
-	"Milk Curdling Time" = 150
+	"Milk Curdling Time" = 200
 	#Neo-Ratlantean Max Health
 	#Range: 0.0 ~ 3.4028234663852886E38
 	"Neo-Ratlantean Max Health" = 300.0
@@ -78,15 +78,15 @@
 	"Pied Piper Spawn In Overworld Only" = true
 	#A seperate random roll that only spawns rats if a one-out-of-X chance, x being this number. raise this number to make them more rare.
 	#Range: > 0
-	"Rat Spawn Decrease" = 8
+	"Rat Spawn Decrease" = 10
 	#True if tamed rats will destroy crops when they harvest them
-	"Rats Break Crops on Harvest" = false
+	"Rats Break Crops on Harvest" = true
 	#Flying Dutchrat Max Health
 	#Range: 0.0 ~ 3.4028234663852886E38
 	"Flying Dutchrat Max Health" = 400.0
 	#Percentage for every random tick to spawn a rat for a garbage pile.
 	#Range: 0.0 ~ 1.0
-	"Garbage Pile Spawn Chance" = 0.15000000596046448
+	"Garbage Pile Spawn Chance" = 0.07
 	#True if rats can dig holes
 	"Rats Dig Holes" = true
 	#Ratlantean Automaton Max Health
@@ -125,13 +125,13 @@
 	#Range: > -2147483648
 	"Ratlantis Portal Exit Dimension ID" = 0
 	#True if rats can only spawn in the Overworld(0) dimension.
-	"Rats Spawn In Overworld Only" = false
+	"Rats Spawn In Overworld Only" = true
 	#Largest possible radius for tamed rats conducting their searches for items, harvests, etc.
 	#Range: > 1
 	"Max Rat Radius" = 32
 	#The weight of pied pipers in vanilla's spawn rate
 	#Range: 1 ~ 300
-	"Pied Piper Spawn Weight" = 4
+	"Pied Piper Spawn Weight" = 3
 	#The max block hardness that rats are allowed to dig through. (Dirt = 0.5F, Cobblestone = 2.0F, Obsidian = 50.0F)
 	#Range: 0.0 ~ 1000000.0
 	"Rat Dig Strength" = 4.0
@@ -144,7 +144,7 @@
 	"Rat RF Transfer Rate Elite (kRF)" = 1000
 	#percent chance for plague rat to drop plague tome on death
 	#Range: 0.0 ~ 1.0
-	"Plague Tome Drop Rate" = 0.0035000001080334187
+	"Plague Tome Drop Rate" = 0.0035
 	#How far away from players the Rat Upgrade: Voodoo Doll is effective.
 	#Range: 0.0 ~ 3.4028234663852886E38
 	"Voodoo Doll Rat distance" = 32.0
@@ -153,5 +153,5 @@
 	"Default Rat Radius" = 16
 	#The weight of rats in vanilla's spawn rate
 	#Range: 1 ~ 300
-	"Rat Spawn Weight" = 30
+	"Rat Spawn Weight" = 10
 

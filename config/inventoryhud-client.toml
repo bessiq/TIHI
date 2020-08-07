@@ -20,10 +20,10 @@
 [armorhud]
 	#Armor HUD position (X)
 	#Range: -9999 ~ 9999
-	xArmPos = 92
+	xArmPos = 90
 	#Armor HUD position (Y)
 	#Range: -9999 ~ 9999
-	yArmPos = 73
+	yArmPos = 70
 	#Armor HUD horizontal align
 	#Allowed Values: LEFT, MIDDLE, RIGHT
 	armHalign = "RIGHT"
@@ -45,7 +45,7 @@
 #Settings for Potions HUD
 [potionshud]
 	#Is Potions HUD enabled
-	Potions = true
+	Potions = false
 	#Potion HUD position (Y)
 	#Range: -9999 ~ 9999
 	yPotionPos = 47
