@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "abc",
+      "ghg",
+      "def"
+    ],
+    "key": {
+      "a": {
+        "item": "enigmaticlegacy:angel_blessing"
+      },
+      "b": {
+        "item": "enigmaticlegacy:eye_of_nebula"
+      },
+      "c": {
+        "item": "enigmaticlegacy:golem_heart"
+      },
+      "d": {
+        "item": "enigmaticlegacy:magma_heart"
+      },
+      "e": {
+        "item": "enigmaticlegacy:ocean_stone"
+      },      
+      "f": {
+        "item": "enigmaticlegacy:void_pearl"
+      },      
+      "g": {
+        "item": "enigmaticlegacy:fabulous_scroll"
+      },      
+      "h": {
+        "item": "extendedcrafting:ultimate_singularity"
+      }
+    },
+    "result": {
+      "item": "enigmaticlegacy:enigmatic_item"
+    }
+  }

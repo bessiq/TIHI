@@ -3,7 +3,7 @@
 lootCrateWeight = 1
 #The minimum number of rolls a loot crate will try to generate, each roll has a 30% chance of generating a loot crate
 #Range: 0 ~ 300
-lootCrateMinRolls = 1
+lootCrateMinRolls = 0
 #the maximum number of rolls a loot crate will try to generate, each roll has a 30% chance of generating a loot crate
 #Range: 0 ~ 300
 lootCrateMaxRolls = 1

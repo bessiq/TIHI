@@ -1,0 +1,12 @@
+{
+    "mobs": [
+        {
+            "name": "minecraft:endermite",
+            "weight": 10
+        },
+        {
+            "name": "earthtojavamobs:bone_spider",
+            "weight": 5
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+	"type": "theme_randomizer",
+	"base": 0,
+	"entries": [
+		{
+			"value": 0,
+			"weight": 1
+		},
+		{
+			"value": 48,
+			"weight": 1
+		},
+		{
+			"value": 49,
+			"weight": 1
+		},
+		{
+			"value": 50,
+			"weight": 1
+		},
+		{
+			"value": 222,
+			"weight": 5
+		},
+		{
+			"value": 224,
+			"weight": 5
+		},
+		{
+			"value": 16,
+			"weight": 3
+		},		
+		{
+			"value": 17,
+			"weight": 3
+		},		
+		{
+			"value": 80,
+			"weight": 3
+		},		
+		{
+			"value": 81,
+			"weight": 3
+		}
+	]
+}

@@ -5,7 +5,7 @@
 	# temples to spawn in. Separate each ID with a comma ,
 	#
 	#Example: "minecraft:ice_spikes,awesome_mod:awesome_biome"
-	blacklistedTempleBiomes = "mining_dimension:mining_biome"
+	blacklistedTempleBiomes = ""
 	#
 	# Add Nether Crimson Temples to modded Nether Crimson Forest biomes.
 	addNetherCrimsonTempleToModdedBiomes = true
@@ -13,7 +13,7 @@
 	# How rare are Nether Basalt Temples in Nether Basalt Delta biomes.
 	# 1 for spawning in most chunks and 1001 for none.
 	#Range: 1 ~ 1001
-	netherBasaltTempleSpawnrate = 26
+	netherBasaltTempleSpawnrate = 30
 	#
 	# Add Nether Soul Temples to modded Nether Soul Sand Valley biomes.
 	addNetherSoulTempleToModdedBiomes = true
@@ -21,12 +21,12 @@
 	# How rare are Nether Temples in Nether Wastelands.
 	# 1 for spawning in most chunks and 1001 for none.
 	#Range: 1 ~ 1001
-	netherWastelandTempleSpawnrate = 26
+	netherWastelandTempleSpawnrate = 30
 	#
 	# How rare are Nether Soul Temples in Nether Soul Sand Valley.
 	# 1 for spawning in most chunks and 1001 for none.
 	#Range: 1 ~ 1001
-	netherSoulTempleSpawnrate = 26
+	netherSoulTempleSpawnrate = 30
 	#
 	# Add Nether Basalt Temples to modded Nether Basalt biomes.
 	addNetherBasaltTempleToModdedBiomes = true
@@ -38,7 +38,7 @@
 	# How rare are Nether Crimson Temples in Nether Crimson Forest.
 	# 1 for spawning in most chunks and 1001 for none.
 	#Range: 1 ~ 1001
-	netherCrimsonTempleSpawnrate = 26
+	netherCrimsonTempleSpawnrate = 30
 	#
 	# Add Nether Warped Temples to modded Nether Warped Forest biomes.
 	addNetherWarpedTempleToModdedBiomes = true
@@ -46,23 +46,28 @@
 	# How rare are Nether Crimson Temples in Nether Warped Forest.
 	# 1 for spawning in most chunks and 1001 for none.
 	#Range: 1 ~ 1001
-	netherWarpedTempleSpawnrate = 26
+	netherWarpedTempleSpawnrate = 30
 
 [Pyramids]
 	#
 	# Add Nether Pyramids to modded Nether biomes.
 	addNetherPyramidToModdedBiomes = true
 	#
+	# How rare are Nether Pyramids in Nether.
+	# 1 for spawning in most chunks and 1001 for none.
+	#Range: 1 ~ 1001
+	netherPyramidSpawnrate = 38
+	#
 	# How rare are Badlands Pyramid in non-plateau Badlands biomes.
 	# 1 for spawning in most chunks and 1001 for none.
 	#Range: 1 ~ 1001
-	netherPyramidSpawnrate = 20
+	badlandsPyramidSpawnrate = 21
 	#
 	# Add the ID/resource location of the biome you don't want
 	# pyramids to spawn in. Separate each ID with a comma ,
 	#
 	#Example: "minecraft:ice_spikes,awesome_mod:awesome_biome"
-	blacklistedPyramidBiomes = "mining_dimension:mining_biome"
+	blacklistedPyramidBiomes = ""
 	#
 	# Add Badlands Pyramid to modded Badlands biomes.
 	addBadlandsPyramidToModdedBiomes = true

@@ -12,7 +12,7 @@
 	#Enable or disable the custom Wandering Trader
 	canWanderingTraderSpawn = true
 	#Identifier of the item to use as currency for trades
-	wanderingTraderCurrency = "silentgear:blaze_gold_nugget"
+	wanderingTraderCurrency = "minecraft:emerald"
 
 [entities]
 
@@ -261,7 +261,7 @@
 		spawnBiomes = ["minecraft:flower_forest", "byg:amaranth_fields", "byg:allium_fields", "byg:enchanted_forest", "byg:enchanted_forest_hills", "byg:enchanted_grove", "byg:flowering_enchanted_grove", "byg:flowering_grove", "byg:flowering_meadow", "byg:flowering_ancient_forest", "byg:rainbow_beach", "byg:guiana_clearing", "byg:skyris_highlands", "byg:jacaranda_forest_hills"]
 		#Weight of entity in spawn
 		#Range: > 0
-		entityWeight = 12
+		entityWeight = 10
 
 	[entities.moobloom]
 		#Minimum number of entities in group
@@ -274,7 +274,7 @@
 		spawnBiomes = ["minecraft:flower_forest", "minecraft:sunflower_plains", "byg:amaranth_fields", "byg:allium_fields", "byg:flowering_meadow", "byg:guiana_clearing", "byg:flowering_enchanted_grove", "byg:flowering_grove", "byg:flowering_ancient_forest"]
 		#Weight of entity in spawn
 		#Range: > 0
-		entityWeight = 12
+		entityWeight = 10
 
 	[entities.palePig]
 		#Minimum number of entities in group
@@ -414,9 +414,9 @@
 		#Range: > 0
 		rubyOreBottomOffset = 0
 		#Range: > 0
-		rubyOreMaximum = 16
+		rubyOreMaximum = 0
 		#Enable or disable the generation for Ruby Ore
-		canRubyOreGenerate = false
+		canRubyOreGenerate = true
 		#Range: > 0
-		rubyOreCount = 2
+		rubyOreCount = 0
 

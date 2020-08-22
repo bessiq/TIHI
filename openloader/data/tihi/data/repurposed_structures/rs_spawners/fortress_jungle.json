@@ -1,0 +1,12 @@
+{
+    "mobs": [
+        {
+            "name": "minecraft:silverfish",
+            "weight": 8
+        },
+        {
+            "name": "yeeter:tnt_yeeter",
+            "weight": 12
+        }
+    ]
+}

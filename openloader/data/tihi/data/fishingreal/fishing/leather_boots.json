@@ -1,0 +1,8 @@
+{
+  "input": {
+    "item": "minecraft:leather_boots"
+  },
+  "result": {
+    "id": "appliedenergistics2:tiny_tnt_primed"
+  }
+}

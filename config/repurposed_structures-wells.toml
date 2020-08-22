@@ -11,7 +11,7 @@
 	# RS's wells to spawn in. Separate each ID with a comma ,
 	#
 	#Example: "minecraft:ice_spikes,awesome_mod:awesome_biome"
-	blacklistedWellBiomes = "mining_dimension:mining_biome"
+	blacklistedWellBiomes = ""
 
 	["Small Wells".Spawnrate]
 		#

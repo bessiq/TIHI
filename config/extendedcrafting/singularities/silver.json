@@ -1,8 +1,8 @@
 {
   "name": "singularity.extendedcrafting.silver",
   "colors": [
-    "83aab2",
-    "83aab2"
+    "CEE1EE",
+    "98BBCD"
   ],
   "ingredient": {
     "tag": "forge:ingots/silver"

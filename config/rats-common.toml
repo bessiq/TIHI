@@ -125,13 +125,13 @@
 	#Range: > -2147483648
 	"Ratlantis Portal Exit Dimension ID" = 0
 	#True if rats can only spawn in the Overworld(0) dimension.
-	"Rats Spawn In Overworld Only" = true
+	"Rats Spawn In Overworld Only" = false
 	#Largest possible radius for tamed rats conducting their searches for items, harvests, etc.
 	#Range: > 1
 	"Max Rat Radius" = 32
 	#The weight of pied pipers in vanilla's spawn rate
 	#Range: 1 ~ 300
-	"Pied Piper Spawn Weight" = 3
+	"Pied Piper Spawn Weight" = 1
 	#The max block hardness that rats are allowed to dig through. (Dirt = 0.5F, Cobblestone = 2.0F, Obsidian = 50.0F)
 	#Range: 0.0 ~ 1000000.0
 	"Rat Dig Strength" = 4.0
@@ -153,5 +153,5 @@
 	"Default Rat Radius" = 16
 	#The weight of rats in vanilla's spawn rate
 	#Range: 1 ~ 300
-	"Rat Spawn Weight" = 10
+	"Rat Spawn Weight" = 4
 

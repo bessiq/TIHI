@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aba",
+    "aca",
+    "ada"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:wool"
+    },
+    "b": {
+      "tag": "forge:string"
+    },
+    "c": {
+      "item": "backpacked:backpack"
+    },
+    "d": {
+      "tag": "forge:dyes/white"
+    }
+  },
+  "result": {
+    "item": "ender_bags:white_bag"
+  }
+}

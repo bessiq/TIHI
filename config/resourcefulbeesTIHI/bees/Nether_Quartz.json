@@ -1,0 +1,20 @@
+{
+  "honeycombColor": "#ECE7E0",
+  "primaryColor": "#ECE7E0",
+  "secondaryColor": "#6F0D0D",
+  "flower": "minecraft:nether_wart",
+  "mutationInput": "minecraft:netherrack",
+  "mutationOutput": "minecraft:nether_quartz_ore",
+  "mainOutput": "minecraft:quartz",
+  "mainOutputWeight": 1.00,
+  "mainOutputCount": 4,
+  "secondaryOutput": "minecraft:quartz",
+  "secondaryOutputWeight": 0.60,
+  "secondaryOutputCount": 4,
+  "bottleOutput": "minecraft:experience_bottle",
+  "bottleOutputWeight": 0.10,
+  "spawnInWorld": true,
+  "biomeWhitelist": "minecraft:crimson_forest,minecraft:warped_forest,minecraft:nether_wastes",
+  "netherBee": true,
+  "maxTimeInHive": 700
+}

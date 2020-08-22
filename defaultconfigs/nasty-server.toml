@@ -56,7 +56,7 @@
 	#Spawn weights (Green,Red,Purple,Cyan,Orange,Yellow)
 	SpawnVariantWeights = "5,5,5,5,5,2"
 	#Biome adjustments (biome,variant,hp,speed)
-	BiomeAdjustments = "minecraft:plains,*,-0.2,0.2;minecraft:swamp,0,0.2,0.0;minecraft:swamp,*,0.1,-0.1;minecraft:badlands,*,0.3,0.3;minecraft:dark_forest_hills,*,0.3,0.3;mining_dimension:mining_biome,*,0.4,1.3"
+	BiomeAdjustments = "minecraft:plains,*,-0.2,0.2;minecraft:swamp,0,0.2,0.0;minecraft:swamp,*,0.1,-0.1;minecraft:badlands,*,0.3,0.3;minecraft:dark_forest_hills,*,0.3,0.3"
 
 ["Nasty Wolf"]
 	#Virus Mode

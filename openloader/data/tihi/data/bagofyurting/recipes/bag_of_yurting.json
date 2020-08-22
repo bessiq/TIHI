@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "wbw",
+    "aEa",
+    "bcb"
+  ],
+  "key": {
+    "w": {
+      "tag": "minecraft:wool"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    },
+    "a": {
+      "item": "immersiveengineering:hemp_fabric"
+    },
+    "b": {
+      "item": "minecraft:leather"
+    },
+    "c": {
+      "item": "silentgems:fluffy_fabric"
+    }
+  },
+  "result": {
+    "item": "bagofyurting:bag_of_yurting"
+  }
+}

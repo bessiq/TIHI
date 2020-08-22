@@ -1,0 +1,35 @@
+{
+  "type": "crafting_shaped",
+  "group": "tools",
+  "pattern": [
+    "ALB",
+    "EFE",
+    "CLD"
+  ],
+  "key": {
+    "A": {
+      "item": "silentgear:netherwood_sapling"
+    },
+    "L": {
+      "item": "forbidden_arcanus:edelwood_log"
+    },
+    "B": {
+      "item": "undergarden:wigglewood_sapling"
+    },
+    "C": {
+      "tag": "forge:saplings"
+    },
+    "D": {
+      "tag": "quark:saplings"
+    },
+    "E": {
+      "tag": "minecraft:logs"
+    },
+    "F": {
+      "item": "minecraft:compass"
+    }
+  },
+  "result": {
+    "item": "naturescompass:naturescompass"
+  }
+}

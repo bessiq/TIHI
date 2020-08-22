@@ -9,5 +9,15 @@
 	"block.silentgems.wild_fluffy_puff_plant.name": "Wild Fluffy Puff Plant",
 	"entity.eyesinthedarkness.eyes": "Eyes In The Darkness",
 	"mystictools.key.categories.loot": "Mystic Tools",
-	"entity.teletubbies.tinkywinky": "Tinky Winky"
+	"entity.teletubbies.tinkywinky": "Tinky Winky",
+	"entity.sfl.mimic": "Mimic",
+	"entity.sfl.end_mimic": "End Mimic",
+	"entity.sfl.nether_mimic": "Nether Mimic",
+	"entity.sfl.water_mimic": "Water Mimic",
+	"singularity.extendedcrafting.bismuth": "Bismuth Singularity",
+	"singularity.extendedcrafting.osmium": "Osmium Singularity",
+	"singularity.extendedcrafting.quartz": "Quartz Singularity",
+	"singularity.extendedcrafting.fluorite": "Fluorite Singularity",
+	"singularity.extendedcrafting.zinc": "Zinc Singularity"
+
 }

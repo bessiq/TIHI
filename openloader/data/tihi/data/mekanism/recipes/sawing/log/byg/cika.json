@@ -1,0 +1,15 @@
+{
+    "type":
+        "mekanism:sawing",
+    "input":{
+        "ingredient":{"tag":"byg:cika_logs"}
+    },
+    "mainOutput":{
+        "item":"byg:cika_planks",
+        "count":6
+    },
+    "secondaryOutput":{
+        "item":"mekanism:sawdust"
+    },
+    "secondaryChance":0.25
+}

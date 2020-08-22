@@ -1,0 +1,23 @@
+{
+  "type": "immersiveengineering:crusher",
+  "secondaries": [],
+  "result": {
+    "count": 6,
+    "base_ingredient": {
+      "item":"mekanism:fluorite_gem"
+    }
+  },
+  "conditions": [
+    {
+      "value": {
+        "item":"mekanism:fluorite_ore",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "input": {
+    "item":"mekanism:fluorite_ore"
+  },
+  "energy": 6000
+}

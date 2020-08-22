@@ -5,3 +5,11 @@
   presetAffixes = []
   affixList = ["knocking", "wounding", "paralyzing", "molten"]
   affixPermission = "BLACKLIST"
+
+  [[entities]]
+  entity = "eyesinthedarkness:eyes"
+  minTier = 0
+  maxTier = 4
+  presetAffixes = []
+  affixList = ["adaptable", "arctic", "dampening", "desecrating", "enkindling", "hasty", "infested", "knocking", "lively", "magnetic", "molten", "paralyzing", "plagued", "reflective", "shielding", "wounding"]
+  affixPermission = "BLACKLIST"

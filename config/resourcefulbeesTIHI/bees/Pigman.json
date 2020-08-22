@@ -1,0 +1,21 @@
+{
+  "honeycombColor": "#885956",
+  "baseLayerTexture": "pigman/pigman_bee",
+  "isBeeColored": false,
+  "flower": "tag:forge:mushrooms",
+  "mutationInput": "minecraft:nether_gold_ore",
+  "mutationOutput": "minecraft:gold_block",
+  "mainOutput": "minecraft:golden_apple",
+  "mainOutputWeight": 0.90,
+  "mainOutputCount": 2,
+  "secondaryOutput": "minecraft:enchanted_golden_apple",
+  "secondaryOutputWeight": 0.05,
+  "bottleOutput": "minecraft:experience_bottle",
+  "bottleOutputWeight": 0.10,
+  "spawnInWorld": true,
+  "biomeWhitelist": "minecraft:nether_wastes",
+  "maxTimeInHive": 1000,
+  "pigmanBee": true,
+  "netherBee": true,
+  "sizeModifier": 1.5
+}

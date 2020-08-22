@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "artifacts:panic_necklace",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "artifacts:pocket_piston",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "artifacts:steadfast_spikes",
+          "weight": 7
+        },
+        {
+          "type": "item",
+          "name": "artifacts:power_glove",
+          "weight": 7
+        },
+        {
+          "type": "item",
+          "name": "artifacts:cross_necklace",
+          "weight": 7
+        },
+        {
+          "type": "item",
+          "name": "artifacts:scarf_of_invisibility",
+          "weight": 7
+        },
+        {
+          "type": "item",
+          "name": "artifacts:crystal_heart",
+          "weight": 5
+        },
+        {
+          "type": "empty",
+          "weight": 47
+        }
+      ]
+    }
+  ]
+}

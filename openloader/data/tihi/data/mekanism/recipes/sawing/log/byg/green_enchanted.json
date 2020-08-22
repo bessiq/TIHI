@@ -1,0 +1,15 @@
+{
+    "type":
+        "mekanism:sawing",
+    "input":{
+        "ingredient":{"tag":"byg:green_enchanted_logs"}
+    },
+    "mainOutput":{
+        "item":"byg:green_enchanted_planks",
+        "count":6
+    },
+    "secondaryOutput":{
+        "item":"mekanism:sawdust"
+    },
+    "secondaryChance":0.25
+}

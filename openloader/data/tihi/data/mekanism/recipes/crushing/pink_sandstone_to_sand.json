@@ -1,0 +1,29 @@
+{
+    "type": "mekanism:crushing",
+    "input": [
+        {
+            "ingredient": {
+                "item": "byg:pink_sandstone"
+            }
+        },
+        {
+            "ingredient": {
+                "item": "byg:pink_chiseled_sandstone"
+            }
+        },
+        {
+            "ingredient": {
+                "item": "byg:pink_cut_sandstone"
+            }
+        },
+        {
+            "ingredient": {
+                "item": "byg:pink_smooth_sandstone"
+            }
+        }
+    ],
+    "output": {
+        "item": "byg:pink_sand",
+        "count": 2
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "mobs": [
+        {
+            "name": "minecraft:stray",
+            "weight": 10
+        },
+        {
+            "name": "mekanismadditions:baby_stray",
+            "weight": 5
+        }
+    ]
+}

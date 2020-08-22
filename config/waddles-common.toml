@@ -8,7 +8,7 @@
 ["spawn chances"]
 	#Configure penguins spawn weight & min/max group size. Set weight to 0 to disable.
 	#Range: 0 ~ 64
-	min = 1
+	min = 2
 	#Range: 0 ~ 64
 	max = 4
 	#Range: 0 ~ 100
@@ -17,5 +17,5 @@
 ["spawnable biomes"]
 	#BiomeDictionary types to include & exclude.
 	include = ["SNOWY"]
-	exclude = ["FOREST", "MOUNTAIN", "NETHER"]
+	exclude = ["FOREST", "MOUNTAIN", "NETHER", "END"]
 

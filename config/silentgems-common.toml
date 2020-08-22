@@ -46,7 +46,7 @@
 				#Number of chaos ore veins per chunk, selected randomly per biome. Set min and max to zero to disable.
 				[world.generation.ores.chaos.veinCount]
 					min = 0
-					max = 0
+					max = 1
 
 			[world.generation.ores.silver]
 				#Number of veins of silver ore per chunk. Set 0 to disable.

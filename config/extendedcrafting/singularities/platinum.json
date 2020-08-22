@@ -1,8 +1,8 @@
 {
   "name": "singularity.extendedcrafting.platinum",
   "colors": [
-    "6feaef",
-    "6feaef"
+    "8DD5DE",
+    "ACF0FF"
   ],
   "ingredient": {
     "tag": "forge:ingots/platinum"

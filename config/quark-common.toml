@@ -227,11 +227,11 @@
 
 	[tools.ancient_tomes]
 		"Valid Enchantments" = ["minecraft:feather_falling", "minecraft:thorns", "minecraft:sharpness", "minecraft:smite", "minecraft:bane_of_arthropods", "minecraft:knockback", "minecraft:fire_aspect", "minecraft:looting", "minecraft:sweeping", "minecraft:efficiency", "minecraft:unbreaking", "minecraft:fortune", "minecraft:power", "minecraft:punch", "minecraft:luck_of_the_sea", "minecraft:lure", "minecraft:loyalty", "minecraft:riptide", "minecraft:impaling", "minecraft:piercing"]
-		"Dungeon Weight" = 20
+		"Dungeon Weight" = 18
 		"Item Quality" = 2
 		"Apply Cost" = 35
 		"Library Weight" = 30
-		"Monster Box Weight" = 5
+		"Monster Box Weight" = 7
 		"Merge Cost" = 35
 
 	[tools.pathfinder_maps]
@@ -254,12 +254,12 @@
 		"Xp From Trade" = 5
 
 	[tools.color_runes]
-		"Jungle Temple Weight" = 8
-		"Desert Temple Weight" = 8
-		"Dungeon Weight" = 10
+		"Jungle Temple Weight" = 6
+		"Desert Temple Weight" = 6
+		"Dungeon Weight" = 8
 		"Item Quality" = 0
 		"Apply Cost" = 15
-		"Nether Fortress Weight" = 8
+		"Nether Fortress Weight" = 6
 
 	[tools.pickarang]
 		#22.5 is ender chests, 25.0 is monster boxes, 50 is obsidian. Most things are below 5.
@@ -400,7 +400,7 @@
 		"Max Bounces" = 1
 
 [world]
-	"Realistic World Gen" = true
+	"Realistic World Gen" = false
 	"New Stone Types" = true
 	"Lush Underground Biome" = true
 	"Big Dungeon" = true
@@ -427,11 +427,11 @@
 	[world.monster_box]
 		#The chance for the monster box generator to try and place one in a chunk, 1 is 100%
 		#This can be higher than 100% if you want multiple per chunk, , 0 is 0%
-		"Chance Per Chunk" = 0.8
+		"Chance Per Chunk" = 0.6
 		"Min Mob Count" = 5
 		"Min Y" = 5
 		"Max Y" = 42
-		"Max Mob Count" = 8
+		"Max Mob Count" = 7
 		"Enable Extra Loot Table" = true
 
 		[world.monster_box.dimensions]
@@ -452,7 +452,7 @@
 			"Vertical Variation" = 9
 
 			[world.big_stone_clusters.marble.biomes]
-				"Biome Types" = ["PLAINS"]
+				"Biome Types" = ["PLAINS", "PLATEAU"]
 				"Is Blacklist" = false
 
 			[world.big_stone_clusters.marble.dimensions]
@@ -470,7 +470,7 @@
 			"Vertical Variation" = 9
 
 			[world.big_stone_clusters.limestone.biomes]
-				"Biome Types" = ["SWAMP", "OCEAN"]
+				"Biome Types" = ["SWAMP", "OCEAN", "WATER"]
 				"Is Blacklist" = false
 
 			[world.big_stone_clusters.limestone.dimensions]
@@ -542,7 +542,7 @@
 			"Vertical Variation" = 9
 
 			[world.big_stone_clusters.slate.biomes]
-				"Biome Types" = ["COLD"]
+				"Biome Types" = ["COLD", "SNOWY"]
 				"Is Blacklist" = false
 
 			[world.big_stone_clusters.slate.dimensions]
@@ -602,7 +602,7 @@
 			"Vertical Variation" = 8
 
 			[world.cave_crystal_underground_biome.biome_settings.biomes]
-				"Biome Types" = ["OCEAN"]
+				"Biome Types" = ["OCEAN", "MAGICAL"]
 				"Is Blacklist" = true
 
 			[world.cave_crystal_underground_biome.biome_settings.dimensions]
@@ -621,7 +621,7 @@
 			"Vertical Variation" = 6
 
 			[world.overgrown_underground_biome.biome_settings.biomes]
-				"Biome Types" = ["FOREST"]
+				"Biome Types" = ["FOREST", "DENSE"]
 				"Is Blacklist" = false
 
 			[world.overgrown_underground_biome.biome_settings.dimensions]
@@ -651,7 +651,7 @@
 			"Vertical Variation" = 6
 
 			[world.permafrost_underground_biome.biome_settings.biomes]
-				"Biome Types" = ["COLD"]
+				"Biome Types" = ["COLD", "SNOWY"]
 				"Is Blacklist" = false
 
 			[world.permafrost_underground_biome.biome_settings.dimensions]
@@ -670,7 +670,7 @@
 			"Vertical Variation" = 6
 
 			[world.sandstone_underground_biome.biome_settings.biomes]
-				"Biome Types" = ["SANDY"]
+				"Biome Types" = ["SANDY", "DESERT"]
 				"Is Blacklist" = false
 
 			[world.sandstone_underground_biome.biome_settings.dimensions]
@@ -709,16 +709,16 @@
 	[world.crevices]
 
 		[world.crevices.spawn_settings]
-			"Horizontal Size" = 60
-			Rarity = 120
+			"Horizontal Size" = 50
+			Rarity = 150
 			"Min Y Level" = 15
-			"Horizontal Variation" = 20
-			"Max Y Level" = 50
+			"Horizontal Variation" = 10
+			"Max Y Level" = 45
 			"Vertical Size" = 4
 			"Vertical Variation" = 1
 
 			[world.crevices.spawn_settings.biomes]
-				"Biome Types" = ["OCEAN", "BEACH"]
+				"Biome Types" = ["OCEAN", "BEACH", "WATER"]
 				"Is Blacklist" = true
 
 			[world.crevices.spawn_settings.dimensions]
@@ -741,7 +741,7 @@
 			"Vertical Variation" = 6
 
 			[world.lush_underground_biome.biome_settings.biomes]
-				"Biome Types" = ["JUNGLE"]
+				"Biome Types" = ["JUNGLE", "LUSH"]
 				"Is Blacklist" = false
 
 			[world.lush_underground_biome.biome_settings.dimensions]
@@ -838,7 +838,7 @@
 			"Vertical Variation" = 6
 
 			[world.spider_nest_underground_biome.biome_settings.biomes]
-				"Biome Types" = ["PLAINS"]
+				"Biome Types" = ["FOREST", "SPOOKY"]
 				"Is Blacklist" = false
 
 			[world.spider_nest_underground_biome.biome_settings.dimensions]
@@ -867,7 +867,7 @@
 	[world.big_dungeon]
 		"Loot Table" = "minecraft:chests/simple_dungeon"
 		#The chance that a big dungeon spawn candidate will be allowed to spawn. 0.2 is 20%, which is the same as the Pillager Outpost.
-		"Spawn Chance" = 0.01
+		"Spawn Chance" = 0.1
 		"Max Rooms" = 10
 		"Chest Chance" = 0.5
 
@@ -878,25 +878,25 @@
 	[world.blossom_trees]
 
 		[world.blossom_trees.orange]
-			Rarity = 100
+			Rarity = 150
 
 			[world.blossom_trees.orange.dimensions]
 				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 			[world.blossom_trees.orange.biome_types]
-				"Biome Types" = ["SAVANNA"]
+				"Biome Types" = ["SAVANNA", "MESA", "MAGICAL"]
 				"Is Blacklist" = false
 
 		[world.blossom_trees.pink]
-			Rarity = 100
+			Rarity = 175
 
 			[world.blossom_trees.pink.dimensions]
 				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 			[world.blossom_trees.pink.biome_types]
-				"Biome Types" = ["MOUNTAIN"]
+				"Biome Types" = ["MOUNTAIN", "PLATEAU", "MAGICAL"]
 				"Is Blacklist" = false
 
 		[world.blossom_trees.blue]
@@ -907,7 +907,7 @@
 				"Is Blacklist" = false
 
 			[world.blossom_trees.blue.biome_types]
-				"Biome Types" = ["COLD"]
+				"Biome Types" = ["COLD", "SNOWY", "MAGICAL"]
 				"Is Blacklist" = false
 
 		[world.blossom_trees.yellow]
@@ -918,7 +918,7 @@
 				"Is Blacklist" = false
 
 			[world.blossom_trees.yellow.biome_types]
-				"Biome Types" = ["PLAINS"]
+				"Biome Types" = ["PLAINS", "LUSH", "MAGICAL"]
 				"Is Blacklist" = false
 
 		[world.blossom_trees.lavender]
@@ -929,20 +929,20 @@
 				"Is Blacklist" = false
 
 			[world.blossom_trees.lavender.biome_types]
-				"Biome Types" = ["SWAMP"]
+				"Biome Types" = ["SWAMP", "MAGICAL"]
 				"Is Blacklist" = false
 
 	[world.underground_clay]
 
 		[world.underground_clay.dimensions]
-			Dimensions = ["minecraft:overworld"]
+			Dimensions = ["minecraft:overworld", "rats:ratlantis"]
 			"Is Blacklist" = false
 
 		[world.underground_clay.ore_settings]
 			"Max Height" = 60
 			"Cluster Count" = 2
-			"Min Height" = 20
-			"Cluster Size" = 10
+			"Min Height" = 30
+			"Cluster Size" = 8
 
 	[world.slime_underground_biome]
 
@@ -967,12 +967,12 @@
 
 		[world.mega_caves.spawn_settings]
 			"Horizontal Size" = 80
-			Rarity = 800
+			Rarity = 600
 			"Min Y Level" = 10
-			"Horizontal Variation" = 30
-			"Max Y Level" = 20
+			"Horizontal Variation" = 10
+			"Max Y Level" = 15
 			"Vertical Size" = 25
-			"Vertical Variation" = 10
+			"Vertical Variation" = 5
 
 			[world.mega_caves.spawn_settings.biomes]
 				"Biome Types" = ["OCEAN", "BEACH"]
@@ -1061,7 +1061,7 @@
 		"Max Y Level" = 32
 
 		[mobs.toretoise.spawn_config]
-			"Spawn Weight" = 40
+			"Spawn Weight" = 30
 			"Min Group Size" = 1
 			"Max Group Size" = 1
 
@@ -1162,7 +1162,7 @@
 		"Affect Leaves" = true
 
 [oddities]
-	"Totem Of Holding" = true
+	"Totem Of Holding" = false
 	Backpack = false
 	"Matrix Enchanting" = false
 	Magnets = true

@@ -1,5 +1,5 @@
 #CONFIG ONLY OPTIONS
-ignoreUpdate:253
+ignoreUpdate:254
 updateNotification:true
 settingsButton:false
 allowWrongWorldTeleportation:false
@@ -48,7 +48,7 @@ keepWaypointNames:false
 waypointsDistance:0.0
 waypointsDistanceMin:0.0
 waypointTp:tp @s
-arrowScale:1.5
+arrowScale:1.2000000476837158
 arrowColour:0
 smoothDots:true
 playerHeads:false

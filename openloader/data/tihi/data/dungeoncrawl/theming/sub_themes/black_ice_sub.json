@@ -1,0 +1,32 @@
+{
+	"type": "sub_theme",
+	"id": 224,
+	"theme": {
+		"pillar": {
+			"type": "block",
+			"block": "byg:soapstone_slab",
+			"data": {
+				"type": "double"
+			}
+		},
+		"trapdoor": {
+			"type": "block",
+			"block": "byg:ebony_trapdoor"
+		},
+		"door": {
+			"type": "block",
+			"block": "byg:ebony_door"
+		},
+		"material": {
+			"type": "block",
+			"block": "byg:stripped_ebony_wood",
+			"data": {
+				"axis": "z"
+			}
+		},
+		"stairs": {
+			"type": "block",
+			"block": "byg:ebony_stairs"
+		}
+	}	
+}

@@ -1,0 +1,49 @@
+{
+	"type": "theme",
+	"id": 224,
+	"theme": {
+		"normal": {
+			"type": "random_block",
+			"blocks": [
+				{
+					"block": "byg:packed_black_ice",
+					"weight": 1
+				},
+				{
+					"block": "byg:soapstone_slab",
+					"data": {
+						"type": "double"
+					},
+					"weight": 1
+				}
+			]
+		},
+		"solid": {
+			"type": "block",
+			"block": "minecraft:piston",
+			"data": {
+				"facing": "up"
+			}
+		},
+		"floor": {
+			"type": "block",
+			"block": "byg:black_ice"
+		},
+		"stairs": {
+			"type": "block",
+			"block": "byg:soapstone_stairs"
+		},
+		"solid_stairs": {
+			"type": "block",
+			"block": "byg:soapstone_brick_stairs"
+		},
+		"material": {
+			"type": "block",
+			"block": "byg:black_ice"
+		},
+		"wall": {
+			"type": "block",
+			"block": "byg:soapstone_wall"
+		}
+	}
+}

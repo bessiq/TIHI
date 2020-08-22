@@ -11,6 +11,8 @@
 	ultimatePotionsEnabled = true
 	#Whether or not Scroll of Postmortal Recall should be enabled.
 	escapeScrollEnabled = true
+	#If true, only original owner of Extradimensional Vessel will be able to pick it up.
+	ownerOnlyVessel = false
 	#Whether or not Etherium Tools should be enabled.
 	etheriumToolsEnabled = true
 	#Whether or not Axe of Executioner should be enabled.
@@ -51,6 +53,8 @@
 	superMagnetRingEnabled = true
 	#Whether or not Extrapolated Megasponge should be enabled.
 	megaSpongeEnabled = true
+	#Whether or not Enigmatic Amulet should be summoning Extradimensional Vessel on owner's death.
+	enigmaticAmuletVesselEnabled = true
 	#Whether or not Etherium Ore should generate among dungeon loot.
 	etheriumOreEnabled = true
 	#Whether or not Will of the Ocean should be enabled.
@@ -152,6 +156,9 @@
 	#The radius in which Dislocation Ring will collect items.
 	#Range: 1 ~ 128
 	superMagnetRingRange = 16
+	#The damage bonus stat provided by Enigmatic Amulet.
+	#Range: -32768.0 ~ 32768.0
+	enigmaticAmuletDamageBonus = 1.5
 	#Damage multiplier against agressive creatures for Emblem of Monster Slayer. Defined as percentage.
 	#Range: 0 ~ 1000
 	monsterCharmAgressiveDamage = 10

@@ -9,12 +9,16 @@
 	invHalign = "MIDDLE"
 	#Toggle on by default
 	byDefault = false
+	#Inventory HUD vertical mode
+	invVert = false
 	#Inventory HUD position (X)
 	#Range: -9999 ~ 9999
 	xPos = 0
 	#Inventory HUD vertical align
 	#Allowed Values: TOP, CENTER, BOTTOM
 	invValign = "BOTTOM"
+	#Inventory HUD mini mode
+	invMini = false
 
 #Settings for ArmorStatus HUD
 [armorhud]
@@ -45,10 +49,13 @@
 #Settings for Potions HUD
 [potionshud]
 	#Is Potions HUD enabled
-	Potions = false
+	Potions = true
+	#Potion HUD gap
+	#Range: -5 ~ 5
+	potGap = 0
 	#Potion HUD position (Y)
 	#Range: -9999 ~ 9999
-	yPotionPos = 47
+	yPotionPos = 48
 	#Potion HUD vertical align
 	#Allowed Values: TOP, CENTER, BOTTOM
 	potValign = "CENTER"
@@ -56,7 +63,7 @@
 	potMini = true
 	#Potion HUD position (X)
 	#Range: -9999 ~ 9999
-	xPotionPos = 62
+	xPotionPos = 45
 	#Potion HUD alpha
 	#Range: 0 ~ 100
 	potAlpha = 90

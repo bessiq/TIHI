@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:enriching",
+    "input": {
+        "ingredient": {
+            "item": "mekanism:fluorite_ore"
+        }
+    },
+    "output": {
+        "item": "mekanism:fluorite_gem",
+        "count": 6
+    }
+}

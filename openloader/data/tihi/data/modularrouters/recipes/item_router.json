@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aea",
+    "bcb",
+    "ada"
+  ],
+  "key": {
+    "a": {
+      "item": "powah:steel_energized"
+    },
+    "b": {
+      "item": "silents_mechanisms:battery"
+    },
+    "c": {
+      "item": "modularrouters:blank_module"
+    },
+    "d": {
+      "item": "immersiveengineering:circuit_board"
+    },
+    "e": {
+      "item": "rsgauges:switchlink_pearl"
+    }
+  },
+  "result": {
+    "item": "modularrouters:item_router",
+    "count": 2
+  }
+}

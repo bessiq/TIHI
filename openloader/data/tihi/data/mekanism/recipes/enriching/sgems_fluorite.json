@@ -1,0 +1,6 @@
+{
+    "type":"mekanism:enriching",
+    "input":
+      {"ingredient":{"item":"silentgems:fluorite_ore"}},
+    "output":{"item":"silentgems:fluorite","count":2}
+}

@@ -11,7 +11,7 @@
 	# RS's mineshafts to spawn in. Separate each ID with a comma ,
 	#
 	#Example: "minecraft:ice_spikes,awesome_mod:awesome_biome"
-	blacklistedMineshaftBiomes = "mining_dimension:mining_biome"
+	blacklistedMineshaftBiomes = ""
 
 	[Mineshaft."Max height"]
 		#
@@ -67,7 +67,7 @@
 		# Note: The mineshaft will spawn between min and max y height set in config.
 		# Setting this to below min height config will make mineshaft spawn only at min height.
 		#Range: 5 ~ 255
-		netherMineshaftMaxHeight = 22
+		netherMineshaftMaxHeight = 120
 		#
 		# Minimum Y height that this mineshaft can spawn at. Default is 50.
 		# Note: The mineshaft will spawn between min and max y height set in config.
@@ -88,35 +88,35 @@
 
 	[Mineshaft."Min height"]
 		#
-		# Minimum Y height that this mineshaft can spawn at. Default is 5.
+		# Minimum Y height that this mineshaft can spawn at. Default is 8.
 		# Note: The mineshaft will spawn between min and max y height set in config.
 		#
 		#Range: 5 ~ 255
-		netherMineshaftMinHeight = 5
+		netherMineshaftMinHeight = 85
 		#
-		# Minimum Y height that this mineshaft can spawn at. Default is 5.
+		# Minimum Y height that this mineshaft can spawn at. Default is 8.
 		# Note: The mineshaft will spawn between min and max y height set in config.
 		#
 		#Range: 5 ~ 255
-		oceanMineshaftMinHeight = 5
+		oceanMineshaftMinHeight = 8
 		#
-		# Minimum Y height that this mineshaft can spawn at. Default is 5.
+		# Minimum Y height that this mineshaft can spawn at. Default is 8.
 		# Note: The mineshaft will spawn between min and max y height set in config.
 		#
 		#Range: 5 ~ 255
-		savannaMineshaftMinHeight = 5
+		savannaMineshaftMinHeight = 8
 		#
-		# Minimum Y height that this mineshaft can spawn at. Default is 5.
+		# Minimum Y height that this mineshaft can spawn at. Default is 8.
 		# Note: The mineshaft will spawn between min and max y height set in config.
 		#
 		#Range: 5 ~ 255
-		icyMineshaftMinHeight = 5
+		icyMineshaftMinHeight = 8
 		#
-		# Minimum Y height that this mineshaft can spawn at. Default is 5.
+		# Minimum Y height that this mineshaft can spawn at. Default is 8.
 		# Note: The mineshaft will spawn between min and max y height set in config.
 		#
 		#Range: 5 ~ 255
-		jungleMineshaftMinHeight = 5
+		jungleMineshaftMinHeight = 8
 		#
 		# Minimum Y height that this mineshaft can spawn at. Default is 30.
 		# Note: The mineshaft will spawn between min and max y height set in config.
@@ -124,35 +124,35 @@
 		#Range: 5 ~ 255
 		endMineshaftMinHeight = 30
 		#
-		# Minimum Y height that this mineshaft can spawn at. Default is 0.
+		# Minimum Y height that this mineshaft can spawn at. Default is 8.
 		# Note: The mineshaft will spawn between min and max y height set in config.
 		# Setting this to below min height config will make mineshaft spawn only at min height.
 		#Range: 5 ~ 255
-		birchMineshaftMinHeight = 5
+		birchMineshaftMinHeight = 8
 		#
-		# Minimum Y height that this mineshaft can spawn at. Default is 5.
+		# Minimum Y height that this mineshaft can spawn at. Default is 8.
 		# Note: The mineshaft will spawn between min and max y height set in config.
 		#
 		#Range: 5 ~ 255
-		stoneMineshaftMinHeight = 5
+		stoneMineshaftMinHeight = 8
 		#
-		# Minimum Y height that this mineshaft can spawn at. Default is 5.
+		# Minimum Y height that this mineshaft can spawn at. Default is 8.
 		# Note: The mineshaft will spawn between min and max y height set in config.
 		#
 		#Range: 5 ~ 255
-		desertMineshaftMinHeight = 5
+		desertMineshaftMinHeight = 8
 		#
-		# Minimum Y height that this mineshaft can spawn at. Default is 5.
+		# Minimum Y height that this mineshaft can spawn at. Default is 8.
 		# Note: The mineshaft will spawn between min and max y height set in config.
 		#
 		#Range: 5 ~ 255
-		taigaMineshaftMinHeight = 5
+		taigaMineshaftMinHeight = 8
 		#
-		# Minimum Y height that this mineshaft can spawn at. Default is 5.
+		# Minimum Y height that this mineshaft can spawn at. Default is 8.
 		# Note: The mineshaft will spawn between min and max y height set in config.
 		#
 		#Range: 5 ~ 255
-		swampAndDarkForestMineshaftMinHeight = 5
+		swampAndDarkForestMineshaftMinHeight = 8
 
 	[Mineshaft.Spawnrate]
 		#

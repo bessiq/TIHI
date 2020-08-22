@@ -1,8 +1,8 @@
 {
   "name": "singularity.extendedcrafting.nickel",
   "colors": [
-    "beb482",
-    "beb482"
+    "D5CD8C",
+    "F3F3CF"
   ],
   "ingredient": {
     "tag": "forge:ingots/nickel"

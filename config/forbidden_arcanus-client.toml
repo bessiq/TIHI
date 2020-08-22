@@ -2,9 +2,14 @@
 [items]
 
 	[items.xpetrified_orb]
-		#Experience Points the Orb grants on use [default: 72]
+		#Experience Points the Orb grants on use [default: 91]
 		#Range: 1 ~ 120000
 		experience_points = 72
+
+	[items.eternal_stella]
+		#How many times the Eternal Stella can be used before breaking [default: 3]
+		#Range: 1 ~ 100
+		uses = 3
 
 	[items.edelwood_bucket]
 		#How much Milk the Edelwood Bucket can store [default: 4]
@@ -60,4 +65,12 @@
 		x_position = 1
 		#Should the Orb of Temporary Flight Overlay be rendered? [default: true]
 		render = true
+
+[enchantments]
+
+	[enchantments.indestructible]
+		#Damageable Items that shouldn't be able to contain the Indestructible Enchantment
+		item_blacklist = []
+		#Enchantments that cannot be applied together with the Indestructible Enchantment
+		enchantment_blacklist = ["minecraft:unbreaking", "minecraft:mending"]
 

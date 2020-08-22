@@ -1,0 +1,12 @@
+{
+    "mobs": [
+        {
+            "name": "minecraft:silverfish",
+            "weight": 10
+        },
+        {
+            "name": "nasty:skeleton",
+            "weight": 5
+        }
+    ]
+}
