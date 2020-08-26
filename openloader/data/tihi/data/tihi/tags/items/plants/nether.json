@@ -1,0 +1,15 @@
+{
+    "replace": false,
+    "values": [
+        "byg:nether_bristle", 
+        "minecraft:nether_sprouts", 
+        "byg:warped_bush", 
+        "byg:embur_lily", 
+        "byg:sythian_sprout", 
+        "minecraft:crimson_roots", 
+        "minecraft:warped_roots", 
+        "byg:sythian_roots", 
+        "byg:embur_roots", 
+        "byg:tall_embur_roots"
+    ]
+  }

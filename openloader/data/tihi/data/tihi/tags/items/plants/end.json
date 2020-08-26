@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "endergetic:poise_bush", 
+        "endergetic:tall_poise_bush", 
+        "byg:ivis_sprout", 
+        "byg:ivis_roots"
+    ]
+  }

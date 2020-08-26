@@ -1,0 +1,93 @@
+{
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:ingots/endorium",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "availability": {
+    "tier": 3,
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "tag": "forge:ingots/endorium"
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.endorium"
+  },
+  "stats": {
+    "main": {
+      "durability": 1100.0,
+      "armor_durability": 31.0,
+      "repair_value": 1.08,
+      "enchantability": 12.0,
+      "harvest_level": 3.0,
+      "harvest_speed": 16.0,
+      "melee_damage": 5.0,
+      "magic_damage": 3.0,
+      "attack_speed": 0.0,
+      "armor": 21.0,
+      "armor_toughness": 3.5,
+      "magic_armor": 7.0,
+      "ranged_damage": 2.0,
+      "ranged_speed": 0.0,
+      "rarity": 70.0,
+      "silentgems:chargeability": 1.0
+    },
+    "rod": {
+      "magic_damage": {
+        "mul2": 0.2
+      },
+      "harvest_speed": {
+        "mul2": 0.2
+      },
+      "ranged_speed": {
+        "mul2": 0.2
+      },
+      "rarity": 55.0
+    },
+    "tip": {
+      "harvest_speed": {
+        "add": 1.0
+      },
+      "magic_damage": {
+        "add": 1.0
+      },
+      "ranged_speed": {
+        "add": 1.0
+      },
+      "rarity": {
+        "add": 5.0
+      }
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:malleable",
+        "level": 2
+      },
+      {
+        "name": "silentgear:ancient",
+        "level": 2
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:malleable",
+        "level": 1
+      },
+      {
+        "name": "silentgear:ancient",
+        "level": 1
+      }
+    ]
+  }
+}

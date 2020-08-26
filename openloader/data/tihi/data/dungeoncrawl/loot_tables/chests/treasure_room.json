@@ -255,18 +255,36 @@
 		},
 		{
 			"rolls": {
-        		"min": 0,
+				"min": 0,
 				"max": 1
 			},
 			"entries": [
-			  {
-				"type": "minecraft:loot_table",
-				"name": "minecraft:chests/nether_bridge"
-			  },
-			  {
-				"type": "minecraft:loot_table",
-				"name": "minecraft:gameplay/fishing/treasure"
-			  }
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/nether_bridge"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:gameplay/fishing/treasure"
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 0,
+				"max": 1
+			},
+			"entries": [
+				{
+					"type": "minecraft:tag",
+					"name": "ringsofascension:rings",
+					"expand": true,
+					"weight": 1
+				},
+				{
+					"type": "empty",
+					"weight": 99
+				}
 			]
 		}
 	]

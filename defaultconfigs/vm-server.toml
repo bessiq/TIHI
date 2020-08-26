@@ -5,17 +5,17 @@ UseFixedItems = false
 #Fixed items
 FixedItems = "minecraft:air;minecraft:air;minecraft:air;minecraft:air;minecraft:air;minecraft:air;minecraft:air"
 #Include Mods
-IncludeMods = "toolbelt;chanceglobe;curios;potionofbees;randomloot;jmc;backpacked;packingtape;lootbagmod;mystictools;torchmaster;clef;locks;trumpetskeleton;mysterymilk;levelhearts;ender_bags;naturescompass;bagofyurting;clickmachine;kiwi"
+IncludeMods = "chanceglobe;curios;potionofbees;randomloot;jmc;backpacked;packingtape;lootbagmod;mystictools;torchmaster;clef;locks;trumpetskeleton;mysterymilk;levelhearts;ender_bags;naturescompass;bagofyurting;clickmachine;kiwi;rangedpumps"
 #Exclude Mods
 ExcludeMods = "*"
 #Exclude Items
-ExcludeItems = "minecraft:nether_star;minecraft:beacon;minecraft:shulker_box;minecraft:colorset*shulker_box;minecraft:elytra;minecraft:end_portal_frame;vm:vending_machine;randomloot:pickaxe;randomloot:sword;curios:amulet;curios:knuckles;curios:crown;packingtape:packaged_block;jmc:cheese;jmc:golden_apple_cake;jmc:birthday_cake;jmc:christmas_cake;jmc:triple_decker_cake;jmc:cupcake;randomloot:trait_holder;randomloot;randomloot:editor;randomloot:random_cluster;randomloot:random_chunk;randomloot:random_shard;mystictools:cauldron;mystictools:shard;mystictools:weaponbow;mystictools:loot_pickaxe;mystictools:loot_shovel;mystictools:loot_axe;mystictools:loot_sword;locks:master_key;locks:key;locks:key_blank;locks:key_ring;trumpetskeleton:trumpet_skeleton_spawn_egg;mystictools:dice;mystictools:charm;mystictools:upgrader"
+ExcludeItems = "minecraft:nether_star;minecraft:beacon;minecraft:shulker_box;minecraft:colorset*shulker_box;minecraft:elytra;minecraft:end_portal_frame;vm:vending_machine;randomloot:pickaxe;randomloot:sword;packingtape:packaged_block;jmc:cheese;jmc:golden_apple_cake;jmc:birthday_cake;jmc:christmas_cake;jmc:triple_decker_cake;jmc:cupcake;randomloot:trait_holder;randomloot:editor;randomloot:random_cluster;randomloot:random_chunk;randomloot:random_shard;mystictools:cauldron;mystictools:shard;mystictools:weaponbow;mystictools:loot_pickaxe;mystictools:loot_shovel;mystictools:loot_axe;mystictools:loot_sword;locks:master_key;locks:key;locks:key_blank;locks:key_ring;trumpetskeleton:trumpet_skeleton_spawn_egg;mystictools:dice;mystictools:charm;mystictools:upgrader"
 #Include Creative Tab Groups
 IncludeGroups = "*"
 #Exclude Creative Tab Groups
 ExcludeGroups = "!"
 #Change item rarity value for pricing
-ItemRarity = "randomloot:golden_case=1;randomloot:titan_case=2;curios:ring=2;lootbagmod:lootbag=2;mystictools:loot_case=2;locks:lock=1;levelhearts:heart_piece=1;levelhearts:heart_container=3;ender_bags:black_bag=1;ender_bags:blue_bag=1;ender_bags:brown_bag=1;ender_bags:cyan_bag=1;ender_bags:gray_bag=1;ender_bags:green_bag=1;ender_bags:light_blue_bag=1;ender_bags:light_gray_bag=1;ender_bags:lime_bag=1;ender_bags:magenta_bag=1;ender_bags:orange_bag=1;ender_bags:pink_bag=1;ender_bags:purple_bag=1;ender_bags:red_bag=1;ender_bags:white_bag=1;ender_bags:yellow_bag=1;bagofyurting:bag_of_yurting=2;clickmachine:auto_clicker=2"
+ItemRarity = "randomloot:golden_case=1;randomloot:titan_case=3;curios:ring=2;curios:amulet=1;curios:knuckles=2;curios:crown=1;lootbagmod:lootbag=2;mystictools:loot_case=2;locks:lock=1;levelhearts:heart_piece=1;levelhearts:heart_container=3;ender_bags:black_bag=1;ender_bags:blue_bag=1;ender_bags:brown_bag=1;ender_bags:cyan_bag=1;ender_bags:gray_bag=1;ender_bags:green_bag=1;ender_bags:light_blue_bag=1;ender_bags:light_gray_bag=1;ender_bags:lime_bag=1;ender_bags:magenta_bag=1;ender_bags:orange_bag=1;ender_bags:pink_bag=1;ender_bags:purple_bag=1;ender_bags:red_bag=1;ender_bags:white_bag=1;ender_bags:yellow_bag=1;bagofyurting:bag_of_yurting=2;clickmachine:auto_clicker=2;rangedpumps:pump=1"
 
 [RarityData]
 	#Uncommon Item

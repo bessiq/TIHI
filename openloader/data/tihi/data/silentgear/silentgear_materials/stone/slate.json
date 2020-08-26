@@ -1,0 +1,11 @@
+{
+  "parent": "silentgear:stone",
+  "crafting_items": {
+    "main": {
+      "item": "quark:slate"
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.stone.slate"
+  }
+}

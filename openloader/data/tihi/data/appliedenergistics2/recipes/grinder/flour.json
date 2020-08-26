@@ -1,0 +1,12 @@
+{
+  "type": "appliedenergistics2:grinder",
+  "input": {
+    "tag": "forge:crops/wheat"
+  },
+  "result": {
+    "primary": {
+      "item": "pamhc2foodcore:flouritem"
+    }
+  },
+  "turns": 4
+}

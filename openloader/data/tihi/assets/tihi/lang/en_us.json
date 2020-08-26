@@ -14,10 +14,13 @@
 	"entity.sfl.end_mimic": "End Mimic",
 	"entity.sfl.nether_mimic": "Nether Mimic",
 	"entity.sfl.water_mimic": "Water Mimic",
+	"singularity.extendedcrafting.gold": "Gold Singularity",
 	"singularity.extendedcrafting.bismuth": "Bismuth Singularity",
 	"singularity.extendedcrafting.osmium": "Osmium Singularity",
 	"singularity.extendedcrafting.quartz": "Quartz Singularity",
 	"singularity.extendedcrafting.fluorite": "Fluorite Singularity",
-	"singularity.extendedcrafting.zinc": "Zinc Singularity"
-
+	"singularity.extendedcrafting.zinc": "Zinc Singularity",
+	"neat.keybind.toggle": "Nameplate Toggle",
+	"key.tanknull.mode": "Mode",
+	"mystictools.key.activateeffect": "Activate Effect"
 }

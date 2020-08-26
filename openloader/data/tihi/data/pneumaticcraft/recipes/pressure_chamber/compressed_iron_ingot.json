@@ -1,0 +1,14 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "tag": "forge:ingots/iron"
+    }
+  ],
+  "pressure": 2.0,
+  "results": [
+    {
+      "item": "silents_mechanisms:compressed_iron_ingot"
+    }
+  ]
+}

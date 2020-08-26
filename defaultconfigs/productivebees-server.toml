@@ -23,7 +23,7 @@
 	#Comma separated list of block names to exclude from the list of woodchips
 	woodChipLogsBlacklist = "atmospheric:crustose_log,forbidden_arcanus:edelwood_log"
 	#A priority list of Mod IDs that results of comb output should stem from, aka which mod you want the copper to come from. Eg: mekanism,silents_mekanism,immersiveengineering
-	preferredOres = ["productivebees"]
+	preferredOres = ["mekanism", "silents_mechanisms"]
 	#How many bees can fit in a bee bom. Default is 10
 	#Range: 1 ~ 50
 	numberOfBeesPerBomb = 10
@@ -32,7 +32,7 @@
 	#Spawn skeletal and zombie bees as night?
 	spawnUndeadBees = true
 	#Range: 0.0 ~ 1.0
-	spawnUndeadBeesChance = 0.01
+	spawnUndeadBeesChance = 0.02
 	#Production chance for vanilla bees
 	#Range: 0.0 ~ 1.0
 	"minecraft:bee" = 0.65

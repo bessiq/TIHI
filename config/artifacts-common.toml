@@ -14,7 +14,7 @@
 	campsite_mimic_chance = 0.2
 	#Per-chunk chance a campsite is attempted to be generated. Not every attempt succeeds, this also depends on the density and shape of caves
 	#Range: 0.0 ~ 1.0
-	campsite_chance = 0.01
+	campsite_chance = 0.001
 
 [items]
 	#Cooldown in ticks for the Everlasting Beef and Eternal Steak items

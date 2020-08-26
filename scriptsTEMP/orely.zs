@@ -93,6 +93,10 @@ craftingTable.addShapeless("electrum_block_ie_to_sm", <item:silents_mechanisms:e
 <tag:silentgems:gems>.removeItems([<item:mekanism:fluorite_gem>]);
 <tag:silentgems:gems/light>.removeItems([<item:mekanism:fluorite_gem>]);
 
+craftingTable.removeRecipe(<item:silentgems:fluorite_return_home_charm>);
+craftingTable.removeRecipe(<item:silentgems:fluorite_lamp>);
+<recipetype:appliedenergistics2:grinder>.removeRecipe(<item:mekanism:dust_fluorite>);
+
 // Gold
 craftingTable.removeRecipe(<item:silents_mechanisms:gold_dust>);
 mods.jei.JEI.hideItem(<item:silents_mechanisms:gold_dust>);

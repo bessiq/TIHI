@@ -17,16 +17,16 @@ blacklistedOutpostBiomes = ""
 	#
 	# Add Crimson Outposts to modded Nether Warped biomes.
 	#Range: 1 ~ 1001
-	crimsonOutpostSpawnrate = 35
+	crimsonOutpostSpawnrate = 36
 	#
 	# Add Nether Brick Outposts to modded Nether biomes
 	# that other nether outposts don't fit in.
 	#Range: 1 ~ 1001
-	netherBrickOutpostSpawnrate = 35
+	netherBrickOutpostSpawnrate = 36
 	#
 	# Add Warped Outposts to modded Nether Warped biomes.
 	#Range: 1 ~ 1001
-	warpedOutpostSpawnrate = 35
+	warpedOutpostSpawnrate = 36
 	#
 	# How rare are Crimson Outposts in Warped Nether biomes.
 	# 1 for spawning in most chunks and 1001 for none.

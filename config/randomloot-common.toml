@@ -117,10 +117,10 @@
 	titan_fg = 5
 	#Chance of another drop check respective to mob type.
 	#Range: 0 ~ 100
-	total_chance = 5
+	total_chance = 1
 	#Gold rairity from gold case.
 	#Range: 35 ~ 100
-	gold_fg = 35
+	gold_fg = 90
 	#Weight of a titan case dropping
 	#Range: 0 ~ 100
 	titan_chance = 5
@@ -129,16 +129,16 @@
 	basic_fb = 95
 	#Basic rairity from gold case.
 	#Range: 0 ~ 100
-	basic_fg = 60
+	basic_fg = 5
 	#Titan rairity from titan case.
 	#Range: 0 ~ 100
-	titan_ft = 15
+	titan_ft = 85
 	#Weight of a basic case dropping
 	#Range: 0 ~ 100
-	basic_chance = 70
+	basic_chance = 75
 	#Gold rairity from basic case.
 	#Range: 0 ~ 100
-	gold_fb = 5
+	gold_fb = 4
 	#Monsters drop chance
 	#Range: 0 ~ 100
 	monster_drops = 5
@@ -147,10 +147,10 @@
 	animal_drops = 0
 	#Titan rairity from basic case.
 	#Range: 0 ~ 100
-	titan_fb = 0
+	titan_fb = 1
 	#Basic rairity from titan case.
 	#Range: 0 ~ 100
-	basic_ft = 30
+	basic_ft = 1
 
 #Tool Settings
 [tools]

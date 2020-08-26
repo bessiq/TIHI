@@ -51,16 +51,16 @@ orechidPriorityMods = []
 		patchChance = 20
 		#The chance for a Botania flower generated in a patch to be a tall flower. 0.1 is 10%, 1 is 100%. Defaults to 0.05
 		#Range: 0.0 ~ 1.0
-		tallChance = 0.05
+		tallChance = 0.04
 		#The quantity of Botania flower patches to generate in the world, defaults to 2, the lower the number the less patches generate.
 		#Range: > 0
 		quantity = 2
 		#The density of each Botania flower patch generated, defaults to 2, the lower the number, the less each patch will have.
 		#Range: > 0
-		density = 2
+		density = 1
 		#The size of each Botania flower patch, defaults to 6. The larger this is the farther the each patch can spread
 		#Range: > 0
-		patchSize = 4
+		patchSize = 3
 
 [gardenOfGlass]
 	#The multiplier for island distances for multiplayer Garden of Glass worlds.

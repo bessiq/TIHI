@@ -37,6 +37,8 @@
 	hastePotionEnabled = true
 	#Whether or not Magnetic Ring should be enabled.
 	magnetRingEnabled = true
+	#If true, tools with area of effect abilities will not have those abilities disabled when player holds Shift (crouches).
+	disableAOEShiftSuppression = false
 	#Whether or not Ender Ring should be enabled.
 	enderRingEnabled = true
 	#Whether or not new conventional potions should be enabled. This includes only Haste potions, currently.
@@ -164,7 +166,7 @@
 	monsterCharmAgressiveDamage = 10
 	#Multiplier for experience consumption by Gift of the Heaven.
 	#Range: 0.0 ~ 1000.0
-	heavenScrollXPCostModifier = 3.0
+	heavenScrollXPCostModifier = 4.0
 	#Hard cap for Keystone of The Oblivion. When it's reached, you will no longer be able to add new items to it's list via crafting. Required to prevent potential perfomance issues with ridiculously large lists.
 	#Range: 1 ~ 32768
 	oblivionStoneHardcap = 100

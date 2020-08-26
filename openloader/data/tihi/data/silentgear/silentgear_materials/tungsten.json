@@ -1,0 +1,81 @@
+{
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:ingots/tungsten",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "availability": {
+    "tier": 4,
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "tag": "forge:ingots/tungsten"
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.tungsten"
+  },
+  "stats": {
+    "main": {
+      "durability": 1400.0,
+      "armor_durability": 35.0,
+      "repair_value": 1.1,
+      "enchantability": 12.0,
+      "harvest_level": 4.0,
+      "harvest_speed": 12.0,
+      "melee_damage": 6.0,
+      "magic_damage": 2.0,
+      "attack_speed": 0.0,
+      "armor": 23.0,
+      "armor_toughness": 4.0,
+      "magic_armor": 6.0,
+      "ranged_damage": 2.0,
+      "ranged_speed": -0.2,
+      "rarity": 80.0,
+      "silentgems:chargeability": 1.1
+    },
+    "rod": {
+      "durability": {
+        "mul2": 0.1
+      },
+      "melee_damage": [
+        {
+          "mul2": 0.2
+        },
+        {
+          "add": 2.0
+        }
+      ],
+      "rarity": 70.0
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:malleable",
+        "level": 2
+      },
+      {
+        "name": "silentgear:hard",
+        "level": 4
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:flexible",
+        "level": 2
+      },
+      {
+        "name": "silentgear:hard",
+        "level": 4
+      }
+    ]
+  }
+}

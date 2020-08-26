@@ -191,7 +191,7 @@
 
 [management]
 	"Chests In Boats" = true
-	"Inventory Sorting" = true
+	"Inventory Sorting" = false
 	"Shulker Box Right Click" = true
 	"F To Switch" = true
 	"Hotbar Changer" = true
@@ -447,7 +447,7 @@
 			"Min Y Level" = 20
 			"Horizontal Variation" = 9
 			Enabled = true
-			"Max Y Level" = 80
+			"Max Y Level" = 250
 			"Vertical Size" = 14
 			"Vertical Variation" = 9
 
@@ -465,7 +465,7 @@
 			"Min Y Level" = 20
 			"Horizontal Variation" = 9
 			Enabled = true
-			"Max Y Level" = 80
+			"Max Y Level" = 250
 			"Vertical Size" = 14
 			"Vertical Variation" = 9
 
@@ -483,7 +483,7 @@
 			"Min Y Level" = 20
 			"Horizontal Variation" = 9
 			Enabled = true
-			"Max Y Level" = 80
+			"Max Y Level" = 250
 			"Vertical Size" = 14
 			"Vertical Variation" = 9
 
@@ -519,7 +519,7 @@
 			"Min Y Level" = 20
 			"Horizontal Variation" = 9
 			Enabled = true
-			"Max Y Level" = 80
+			"Max Y Level" = 250
 			"Vertical Size" = 14
 			"Vertical Variation" = 9
 
@@ -537,7 +537,7 @@
 			"Min Y Level" = 20
 			"Horizontal Variation" = 9
 			Enabled = true
-			"Max Y Level" = 80
+			"Max Y Level" = 250
 			"Vertical Size" = 14
 			"Vertical Variation" = 9
 
@@ -555,7 +555,7 @@
 			"Min Y Level" = 20
 			"Horizontal Variation" = 9
 			Enabled = true
-			"Max Y Level" = 80
+			"Max Y Level" = 250
 			"Vertical Size" = 14
 			"Vertical Variation" = 9
 
@@ -573,7 +573,7 @@
 			"Min Y Level" = 20
 			"Horizontal Variation" = 9
 			Enabled = true
-			"Max Y Level" = 80
+			"Max Y Level" = 250
 			"Vertical Size" = 14
 			"Vertical Variation" = 9
 
@@ -1109,7 +1109,7 @@
 	"Improved Tooltips" = true
 	"Improved Mount Hud" = true
 	"Usage Ticker" = true
-	"Chest Searching" = true
+	"Chest Searching" = false
 
 	[client.usage_ticker]
 		#Switch the armor display to the off hand side and the hand display to the main hand side

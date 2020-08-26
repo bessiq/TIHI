@@ -1,0 +1,11 @@
+{
+  "parent": "silentgear:wool",
+  "crafting_items": {
+    "main": {
+      "item": "earthtojavamobs:rainbow_wool"
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.wool.rainbow"
+  }
+}

@@ -13,7 +13,3 @@ mods.jei.JEI.hideItem(<item:mininggadgets:minerslight>);
 mods.jei.JEI.hideItem(<item:quark:backpack>);
 mods.jei.JEI.hideItem(<item:quark:pipe>);
 mods.jei.JEI.hideItem(<item:quark:magnet>);
-craftingTable.removeByName("buildersaddition:iron_rod");
-mods.jei.JEI.hideItem(<item:buildersaddition:iron_rod>);
-craftingTable.removeByName("silentgear:iron_rod");
-mods.jei.JEI.hideItem(<item:silentgear:iron_rod>);

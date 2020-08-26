@@ -1,0 +1,11 @@
+{
+  "parent": "silentgear:stone",
+  "crafting_items": {
+    "main": {
+      "item": "byg:soapstone"
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.stone.soapstone"
+  }
+}

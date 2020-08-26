@@ -1,0 +1,17 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:fern", 
+        "minecraft:large_fern",   
+        "byg:winter_succulent", 
+        "byg:horseweed", 
+        "byg:mini_cactus", 
+        "byg:leaf_pile", 
+        "byg:water_silk", 
+        "byg:tiny_lilypads", 
+        "byg:clover_patch", 
+        "byg:flower_patch", 
+        "byg:cattail", 
+        "byg:reeds"
+    ]
+  }

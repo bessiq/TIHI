@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" J ",
+		"I I",
+		" J "
+	],
+	"key": {
+		"I": {
+			"tag": "forge:nuggets/iron"
+		},
+		"J": {
+			"tag": "forge:nuggets/gold"
+		}
+	},
+	"result": {
+		"item": "locks:key_ring"
+	}
+}

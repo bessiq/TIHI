@@ -46,7 +46,7 @@
 			maxHeight = 20
 			#Size of veins
 			#Range: 0 ~ 100
-			veinSize = 5
+			veinSize = 6
 
 		[world.ores.tin]
 			#Minimum Y-coordinate (base height) of veins
@@ -88,7 +88,7 @@
 			maxHeight = 90
 			#Size of veins
 			#Range: 0 ~ 100
-			veinSize = 6
+			veinSize = 7
 
 		[world.ores.silver]
 			#Minimum Y-coordinate (base height) of veins
@@ -102,7 +102,7 @@
 			maxHeight = 45
 			#Size of veins
 			#Range: 0 ~ 100
-			veinSize = 4
+			veinSize = 5
 
 		[world.ores.uranium]
 			#Minimum Y-coordinate (base height) of veins
@@ -121,7 +121,7 @@
 		[world.ores.zinc]
 			#Minimum Y-coordinate (base height) of veins
 			#Range: 0 ~ 255
-			minHeight = 22
+			minHeight = 21
 			#Number of veins per chunk
 			#Range: > 0
 			veinCount = 4
@@ -130,7 +130,7 @@
 			maxHeight = 54
 			#Size of veins
 			#Range: 0 ~ 100
-			veinSize = 5
+			veinSize = 6
 
 		[world.ores.lead]
 			#Minimum Y-coordinate (base height) of veins
@@ -158,7 +158,7 @@
 			maxHeight = 95
 			#Size of veins
 			#Range: 0 ~ 100
-			veinSize = 6
+			veinSize = 7
 
 	[world.oilLake]
 		#Chance of oil lakes spawning (1 in chance). Higher numbers = less common. Set 0 to disable.

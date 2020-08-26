@@ -16,51 +16,51 @@
 		#
 		#  1 for spawning in most chunks and 1001 for no spawn.
 		#Range: 1 ~ 1001
-		badlandsVillageSpawnrate = 19
+		badlandsVillageSpawnrate = 27
 		#
 		# How rare are Dark Forest Villages in Dark Forest biomes.
 		#
 		#  1 for spawning in most chunks and 1001 for no spawn.
 		#Range: 1 ~ 1001
-		darkForestVillageSpawnrate = 26
+		darkForestVillageSpawnrate = 32
 		#
 		# How rare are Swamp Villages in Swamp biomes.
 		#
 		#  1 for spawning in most chunks and 1001 for no spawn.
 		#Range: 1 ~ 1001
-		swampVillageSpawnrate = 26
+		swampVillageSpawnrate = 32
 		#
 		# How rare are Warped Village in Warped Forest biomes.
 		# 1 for spawning in most chunks and 1001 for none.
 		#Range: 1 ~ 1001
-		warpedVillageSpawnrate = 29
+		warpedVillageSpawnrate = 32
 		#
 		# How rare are Jungle Villages in Jungle biomes.
 		#
 		#  1 for spawning in most chunks and 1001 for no spawn.
 		#Range: 1 ~ 1001
-		jungleVillageSpawnrate = 28
+		jungleVillageSpawnrate = 32
 		#
 		# How rare are Giant Taiga Villages in Giant Taiga biomes.
 		#
 		#  1 for spawning in most chunks and 1001 for no spawn.
 		#Range: 1 ~ 1001
-		giantTaigaVillageSpawnrate = 26
+		giantTaigaVillageSpawnrate = 32
 		#
 		# How rare are Birch Villages in Birch biomes.
 		#
 		#  1 for spawning in most chunks and 1001 for no spawn.
 		#Range: 1 ~ 1001
-		birchVillageSpawnrate = 26
+		birchVillageSpawnrate = 32
 		#
 		# How rare are Mountains Villages in Mountains biomes.
 		#
 		#  1 for spawning in most chunks and 1001 for no spawn.
 		#Range: 1 ~ 1001
-		mountainsVillageSpawnrate = 26
+		mountainsVillageSpawnrate = 32
 		#
 		# How rare are Crimson Village in Crimson Forest biomes.
 		# 1 for spawning in most chunks and 1001 for none.
 		#Range: 1 ~ 1001
-		crimsonVillageSpawnrate = 29
+		crimsonVillageSpawnrate = 32
 

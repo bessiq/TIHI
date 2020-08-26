@@ -1,0 +1,112 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "   abc   ",
+    "  dyeyf  ",
+    " g     h ",
+    "i/  &  #j",
+    "kl %^% mn",
+    "o/  &  #p",
+    " q     r ",
+    "  sztzu  ",
+    "   vwx   "
+  ],
+  "key": {
+    "a": {
+      "item": "ringsofascension:ring_fire_resistance"
+    },
+    "b": {
+      "item": "ringsofascension:ring_invisibility"
+    },
+    "c": {
+      "item": "ringsofascension:ring_regeneration"
+    },
+    "d": {
+      "item": "ringsofascension:ring_slow_falling"
+    },
+    "e": {
+      "item": "ringsofascension:ring_strength"
+    },
+    "f": {
+      "item": "ringsofascension:ring_water_breathing"
+    },
+    "g": {
+      "item": "ringsofascension:ring_speed"
+    },
+    "h": {
+      "item": "ringsofascension:ring_night_vision"
+    },
+    "i": {
+      "item": "ringsofascension:ring_jump_boost"
+    },
+    "j": {
+      "item": "ringsofascension:ring_magnetism"
+    },
+    "k": {
+      "item": "ringsofascension:ring_poison_resistance"
+    },
+    "l": {
+      "item": "ringsofascension:ring_hungerless"
+    },
+    "m": {
+      "item": "ringsofascension:ring_growth"
+    },
+    "n": {
+      "item": "ringsofascension:ring_knockback_resistance"
+    },
+    "o": {
+      "item": "ringsofascension:ring_health"
+    },
+    "p": {
+      "item": "ringsofascension:ring_sponge"
+    },
+    "q": {
+      "item": "ringsofascension:ring_experience"
+    },
+    "r": {
+      "item": "ringsofascension:ring_water_walking"
+    },
+    "s": {
+      "item": "ringsofascension:ring_mining"
+    },
+    "t": {
+      "item": "ringsofascension:ring_luck"
+    },
+    "u": {
+      "item": "ringsofascension:ring_wither"
+    },
+    "v": {
+      "item": "ringsofascension:ring_undying"
+    },
+    "w": {
+      "item": "ringsofascension:ring_slow_resistance"
+    },
+    "x": {
+      "item": "ringsofascension:ring_dolphin"
+    },
+    "y": {
+      "item": "multibeds:feather_pile"
+    },
+    "z": {
+      "item": "forbidden_arcanus:golden_feather"
+    },
+    "/": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "#": {
+      "item": "forbidden_arcanus:bat_wing"
+    },
+    "&": {
+      "item": "minecraft:firework_rocket"
+    },
+    "%": {
+      "item": "quark:bottled_cloud"
+    },
+    "^": {
+      "item": "enigmaticlegacy:fabulous_scroll"
+    }
+  },
+  "result": {
+    "item": "ringsofascension:ring_flight"
+  }
+}

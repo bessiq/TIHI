@@ -25,3 +25,15 @@ craftingTable.removeByName("comforts:sleeping_bag_yellow");
 
 // Burn your game plan
 <recipetype:mekanism:crushing>.removeByRegex("mekanism:crushing/biofuel/.*");
+
+// Rod steward
+craftingTable.removeByName("buildersaddition:iron_rod");
+mods.jei.JEI.hideItem(<item:buildersaddition:iron_rod>);
+craftingTable.removeByName("silentgear:iron_rod");
+mods.jei.JEI.hideItem(<item:silentgear:iron_rod>);
+
+// Too many bakers
+craftingTable.removeByName("pneumaticcraft:wheat_flour");
+mods.jei.JEI.hideItem(<item:pneumaticcraft:wheat_flour>);
+craftingTable.removeByName("appliedenergistics2:flour");
+mods.jei.JEI.hideItem(<item:appliedenergistics2:flour>);

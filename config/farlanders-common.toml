@@ -2,7 +2,7 @@
 #Server and Client side changes.
 [common]
 	#Obsidian Spire rarity (higher number = lower spawnrate)
-	obsidianSpireSpawnRate = 6
+	obsidianSpireSpawnRate = 7
 	#Disables the Looter's ability to take the player's weapon (This makes them spawn with a random weapon, good and bad)
 	disableLooterStealing = false
 	#Farlander Loot Well rarity (higher number = lower spawnrate)
@@ -11,7 +11,7 @@
 	[common.small_house]
 		#Spacing between structures
 		#Range: > 1
-		spacing = 35
+		spacing = 36
 		#Offsets the spacing of the structures randomly
 		#Range: > 0
 		offset = 12
@@ -22,7 +22,7 @@
 	[common.farlander_village]
 		#Spacing between structures
 		#Range: > 1
-		spacing = 42
+		spacing = 44
 		#Offsets the spacing of the structures randomly
 		#Range: > 0
 		offset = 16

@@ -10,7 +10,7 @@
 	#Range: 0 ~ 1000
 	instantConvertAmount = 100
 	#The amount of prevent-spread-blocks (defined) needed within the radius of the nether portal to prevent spread.
-	preventSpreadBlockAmountNeeded = 4
+	preventSpreadBlockAmountNeeded = 100
 	#When enabled, sends a message to players around the portal that the nether spread has stopped when the portal detects new 'preventSpreadBlockString' blocks.
 	sendMessageOnPortalBroken = true
 	#When enabled, blocks the spread effect when there are n (defined) prevent-spread-blocks (defined) within the radius.
@@ -26,5 +26,5 @@
 	#When enabled, sends a message to players around the portal that the nether is spreading and that you can stop the spread with 'preventSpreadBlockAmountNeeded' of the 'preventSpreadBlockString' block.
 	sendMessageOnPortalCreation = true
 	#The block which prevents the nether portal from spreading. By default a coal block (minecraft:coal_block is the namespace ID).
-	preventSpreadBlockString = "minecraft:sea_lantern"
+	preventSpreadBlockString = "extendedcrafting:crystaltine_block"
 

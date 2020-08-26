@@ -93,15 +93,29 @@ craftingTable.addShapeless("electrum_block_ie_to_sm", <item:silents_mechanisms:e
 <tag:silentgems:gems>.removeItems([<item:mekanism:fluorite_gem>]);
 <tag:silentgems:gems/light>.removeItems([<item:mekanism:fluorite_gem>]);
 
+craftingTable.removeByName("minecraft:lamp/fluorite");
+craftingTable.removeByName("minecraft:return_home_charm/fluorite");
+
+
 // Gold
 craftingTable.removeRecipe(<item:silents_mechanisms:gold_dust>);
 mods.jei.JEI.hideItem(<item:silents_mechanisms:gold_dust>);
+craftingTable.removeRecipe(<item:appliedenergistics2:gold_dust>);
+mods.jei.JEI.hideItem(<item:appliedenergistics2:gold_dust>);
+craftingTable.removeRecipe(<item:immersiveengineering:dust_gold>);
+mods.jei.JEI.hideItem(<item:immersiveengineering:dust_gold>);
 
 <recipetype:silents_mechanisms:crushing>.removeRecipe(<item:silents_mechanisms:gold_dust>);
 
 // Iron
 craftingTable.removeRecipe(<item:silents_mechanisms:iron_dust>);
 mods.jei.JEI.hideItem(<item:silents_mechanisms:iron_dust>);
+craftingTable.removeRecipe(<item:appliedenergistics2:iron_dust>);
+mods.jei.JEI.hideItem(<item:appliedenergistics2:iron_dust>);
+craftingTable.removeRecipe(<item:immersiveengineering:dust_iron>);
+mods.jei.JEI.hideItem(<item:immersiveengineering:dust_iron>);
+craftingTable.removeRecipe(<item:pneumaticcraft:ingot_iron_compressed>);
+mods.jei.JEI.hideItem(<item:pneumaticcraft:ingot_iron_compressed>);
 
 <recipetype:silents_mechanisms:crushing>.removeRecipe(<item:silents_mechanisms:iron_dust>);
 
@@ -148,7 +162,14 @@ craftingTable.addShapeless("nickel_block_sm_to_ie", <item:immersiveengineering:s
 craftingTable.addShapeless("nickel_block_ie_to_sm", <item:silents_mechanisms:nickel_block>,
  [<item:immersiveengineering:storage_nickel>]);
 
+// Quartz
+craftingTable.removeByName("appliedenergistics2:nether_quartz_dust");
+mods.jei.JEI.hideItem(<item:appliedenergistics2:nether_quartz_dust>);
+
 // Ruby...in the sky with diamonds
+<tag:silentgems:gems>.removeItems([<item:earthtojavamobs:ruby>]);
+<tag:silentgems:gems/classic>.removeItems([<item:earthtojavamobs:ruby>]);
+
 craftingTable.removeRecipe(<item:earthtojavamobs:ruby>);
 mods.jei.JEI.hideItem(<item:earthtojavamobs:ruby>);
 mods.jei.JEI.hideItem(<item:earthtojavamobs:ruby_ore>);
@@ -216,6 +237,9 @@ craftingTable.addShapeless("steel_block_meka_to_ie", <item:immersiveengineering:
  [<item:mekanism:block_steel>]);
 craftingTable.addShapeless("steel_block_ie_to_meka", <item:mekanism:block_steel>,
  [<item:immersiveengineering:storage_steel>]);
+
+// Sulfur
+mods.jei.JEI.hideItem(<item:immersiveengineering:dust_sulfur>);
 
 // Tin...der lovin' recipe-tweakin'
 mods.jei.JEI.hideItem(<item:silents_mechanisms:tin_ore>);

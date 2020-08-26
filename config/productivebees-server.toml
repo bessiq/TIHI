@@ -72,7 +72,7 @@
 	#Range: 0.0 ~ 1.0
 	"productivebees:glowing_bee" = 0.65
 	#Range: 0.0 ~ 1.0
-	spawnUndeadBeesChance = 0.01
+	spawnUndeadBeesChance = 0.02
 	#Production chance for productivebees:gold_bee
 	#Range: 0.0 ~ 1.0
 	"productivebees:gold_bee" = 0.65

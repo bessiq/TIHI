@@ -1,7 +1,23 @@
 
 #Some more different stuff
 ["Generic Config"]
+	#Whether or not integrated World Name Randomizer should be enabled.
+	enableWorldNameRandomizer = true
+	#Allows to set offset for Ender Chest button on Y axis.
+	#Range: -32768 ~ 32768
+	enderChestButtonOffsetY = 0
+	#Allows to set offset for Ender Chest button on X axis.
+	#Range: -32768 ~ 32768
+	enderChestButtonOffsetX = 0
+	#Whether or not button for accessing Ender Chest should be added to inventory GUI when player has Ring of Ender equipped.
+	enderChestButtonEnabled = true
 	#Controls how obscured your vision is in lava when Blazing Core is equipped. Lower value equals more visibility.
 	#Range: 0.0 ~ 1024.0
 	magmaHeartLavaDensity = 0.3
+	#Allows to set offset for Ender Chest button on X axis, for creative inventory specifically.
+	#Range: -32768 ~ 32768
+	enderChestButtonOffsetXCreative = 0
+	#Allows to set offset for Ender Chest button on Y axis, for creative inventory specifically.
+	#Range: -32768 ~ 32768
+	enderChestButtonOffsetYCreative = 0
 
