@@ -1,0 +1,30 @@
+{
+    "type": "interactio:item_fluid_transform",
+    "inputs": [
+        {
+            "item": "minecraft:obsidian",
+            "count": 2
+        },
+        {
+            "item": "mekanism:block_salt",
+            "count": 2
+        }
+    ],
+    "fluid": {
+        "fluid": "water"
+    },
+    "output": {
+        "entries": [
+            {
+                "result": {
+                    "item": "minecraft:crying_obsidian",
+                    "count": 1
+                },
+                "weight": 3
+            }
+        ],
+        "empty_weight": 97,
+        "rolls": 1
+    },
+    "consume_fluid": 0.1
+}
