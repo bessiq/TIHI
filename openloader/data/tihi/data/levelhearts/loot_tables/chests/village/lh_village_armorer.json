@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+			"rolls": {
+				"min": 0,
+				"max": 1
+			},
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "levelhearts:heart_piece",
+                    "weight": 1
+                },
+                {
+                    "type": "empty",
+                    "weight": 99
+                }
+            ]
+        }
+    ]
+}

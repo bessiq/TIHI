@@ -456,6 +456,18 @@
                     "name": "minecraft:nether_wart"
                 }
             ]
-        }
+        },
+        {
+			"rolls": {
+				"min": 0,
+				"max": 1
+			},
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/simple_dungeon"
+				}
+			]
+		}
     ]
 }
