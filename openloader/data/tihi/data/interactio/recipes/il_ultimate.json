@@ -1,0 +1,40 @@
+{
+    "type": "interactio:item_lightning",
+    "inputs": [
+      {
+        "item": "extendedcrafting:crystaltine_ingot",
+        "count": 1,
+        "return_chance": 0.1
+      },
+      {
+        "item": "extendedcrafting:enhanced_ender_ingot",
+        "count": 1,
+        "return_chance": 0.1
+      },
+      {
+        "tag": "teletubbies:sticks",
+        "count": 1,
+        "return_chance": 0.2
+      }
+    ],
+    "output": {
+      "entries": [
+        {
+          "result": {
+            "item": "extendedcrafting:the_ultimate_nugget",
+            "count": 3
+          },
+          "weight": 7
+        },
+        {
+            "result": {
+              "item": "extendedcrafting:the_ultimate_ingot",
+              "count": 1
+            },
+            "weight": 3
+          }
+      ],
+      "empty_weight": 90,
+      "rolls": 1
+    }
+  }
