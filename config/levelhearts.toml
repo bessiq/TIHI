@@ -7,7 +7,7 @@
 	#When disabled, LevelHearts' items' functionality will be disabled.
 	Items = true
 	#When disabled, LevelHearts will not spawn heart pieces and heart containers in chests around the world.
-	Loot = false
+	Loot = true
 	#When enabled, an extra level of debugging output will be provided to the logs.
 	Debug = false
 
