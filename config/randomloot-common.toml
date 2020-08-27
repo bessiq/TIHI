@@ -2,7 +2,7 @@
 #General settings
 [general]
 	#Max level for tools to reach.
-	#Range: 0 ~ 10000
+	#Range: -1 ~ 10000
 	max_lvl = 0
 	#Initital Max XP for tools.
 	#Range: 0 ~ 10000
@@ -80,6 +80,8 @@
 	fortified_enabled = true
 	#Double Webbed Enabled?
 	double_webbed_enabled = true
+	#Wisdom Filled Enabled?
+	wisdom_filled_enabled = true
 	#Deep Breathing Enabled?
 	deep_breathing_enabled = true
 	#Withering Enabled?
