@@ -14,13 +14,15 @@
 	"entity.sfl.end_mimic": "End Mimic",
 	"entity.sfl.nether_mimic": "Nether Mimic",
 	"entity.sfl.water_mimic": "Water Mimic",
-	"singularity.extendedcrafting.gold": "Gold Singularity",
-	"singularity.extendedcrafting.bismuth": "Bismuth Singularity",
-	"singularity.extendedcrafting.osmium": "Osmium Singularity",
-	"singularity.extendedcrafting.quartz": "Quartz Singularity",
-	"singularity.extendedcrafting.fluorite": "Fluorite Singularity",
-	"singularity.extendedcrafting.zinc": "Zinc Singularity",
+	"singularity.extendedcrafting.gold": "Gold",
+	"singularity.extendedcrafting.bismuth": "Bismuth",
+	"singularity.extendedcrafting.osmium": "Osmium",
+	"singularity.extendedcrafting.quartz": "Quartz",
+	"singularity.extendedcrafting.fluorite": "Fluorite",
+	"singularity.extendedcrafting.zinc": "Zinc",
 	"neat.keybind.toggle": "Nameplate Toggle",
 	"key.tanknull.mode": "Mode",
-	"mystictools.key.activateeffect": "Activate Effect"
+	"mystictools.key.activateeffect": "Activate Effect",
+	"block.undergarden.undergarden_portal.name": "Undergarden Portal",
+	"container.farmingforblockheads.market": "Le Market"
 }
