@@ -5,11 +5,11 @@
 	spacing = 46
 	#Offsets the spacing of the structures randomly
 	#Range: > 0
-	offset = 14
+	offset = 15
 	#How should the code treate biomes? true = whitelist, false = blacklist. Biomes defined with ! do the opposite.
 	is_whitelist = false
 	#A biome filter to determine where the structure should generate. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
-	biomes = "#nether, #end, #snowy, #ocean, #beach, #river, #water, desert, desert_lakes, desert_hills, byg:dunes, byg:mojave_desert, biomesoplenty:oasis, mining_dimension:mining_biome"
+	biomes = "#nether, #end, #snowy, #ocean, #beach, #river, #water, desert, desert_lakes, desert_hills, byg:dunes, byg:mojave_desert, biomesoplenty:oasis, mining_dimension:mining_biome, undergarden:barren_abyss, undergarden:dense_forest, undergarden:forgotten_field, undergarden:otherside, undergarden:smog_spires, undergarden:smogstem_forest, undergarden:wigglewood_forest, mahoutsukai:marble"
 	#Chance of generating in an allowed chunk
 	#Range: 0.0 ~ 1.0
 	probability = 0.7
@@ -17,7 +17,7 @@
 [leviathan]
 	#Spacing between structures
 	#Range: > 1
-	spacing = 35
+	spacing = 36
 	#Offsets the spacing of the structures randomly
 	#Range: > 0
 	offset = 12
@@ -32,7 +32,7 @@
 [snowy_temple]
 	#Spacing between structures
 	#Range: > 1
-	spacing = 35
+	spacing = 36
 	#Offsets the spacing of the structures randomly
 	#Range: > 0
 	offset = 12
@@ -62,7 +62,7 @@
 [end_ruins]
 	#Spacing between structures
 	#Range: > 1
-	spacing = 25
+	spacing = 27
 	#Offsets the spacing of the structures randomly
 	#Range: > 0
 	offset = 12

@@ -10,7 +10,7 @@
 	# RS's shipwrecks to spawn in. Separate each ID with a comma ,
 	#
 	#Example: "minecraft:ice_spikes,awesome_mod:awesome_biome"
-	blacklistedShipwreckBiomes = ""
+	blacklistedShipwreckBiomes = "undergarden:barren_abyss,undergarden:dense_forest,undergarden:forgotten_field,undergarden:otherside,undergarden:smog_spires,undergarden:smogstem_forest,undergarden:wigglewood_forest,mahoutsukai:marble"
 	#
 	# Add End Shipwreck to modded End biomes.
 	addEndShipwreckToModdedBiomes = true

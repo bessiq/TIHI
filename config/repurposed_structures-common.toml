@@ -4,7 +4,7 @@
 	["Feature Options".Misc]
 		#
 		# Add 2x2 Swamp Trees to modded swamp biomes.
-		addLargeSwampTreeModdedBiomes = true
+		addLargeSwampTreeModdedBiomes = false
 		#
 		# Adds giant boulders to modded Giant Tree Taiga (or Redwood) biomes.
 		addGiantBouldersModdedBiomes = false
@@ -13,17 +13,17 @@
 		# RS's 2x2 Swamp trees to spawn in. Separate each ID with a comma ,
 		#
 		#Example: "minecraft:ice_spikes,awesome_mod:awesome_biome"
-		blacklistedSwampTreeBiomes = ""
+		blacklistedSwampTreeBiomes = "undergarden:barren_abyss,undergarden:dense_forest,undergarden:forgotten_field,undergarden:otherside,undergarden:smog_spires,undergarden:smogstem_forest,undergarden:wigglewood_forest,mahoutsukai:marble"
 		#
 		# Add the ID/resource location of the biome you don't want
 		# RS's boulders to spawn in. Separate each ID with a comma ,
 		#
 		#Example: "minecraft:ice_spikes,awesome_mod:awesome_biome"
-		blacklistedBoulderBiomes = ""
+		blacklistedBoulderBiomes = "undergarden:barren_abyss,undergarden:dense_forest,undergarden:forgotten_field,undergarden:otherside,undergarden:smog_spires,undergarden:smogstem_forest,undergarden:wigglewood_forest,mahoutsukai:marble"
 		#
 		# How many Giant Boulders per chunk. (Can be decimal too)
 		#Range: 0.0 ~ 100.0
-		giantBouldersPerChunk = 1.0
+		giantBouldersPerChunk = 0.1
 		#
 		# Adds tiny boulders to modded Taiga biomes.
 		addTinyBouldersModdedBiomes = false
@@ -59,7 +59,7 @@
 		# RS's Igloos to spawn in. Separate each ID with a comma ,
 		#
 		#Example: "minecraft:ice_spikes,awesome_mod:awesome_biome"
-		blacklistedIglooBiomes = ""
+		blacklistedIglooBiomes = "undergarden:barren_abyss,undergarden:dense_forest,undergarden:forgotten_field,undergarden:otherside,undergarden:smog_spires,undergarden:smogstem_forest,undergarden:wigglewood_forest,mahoutsukai:marble"
 		#
 		# How rare are Stone Igloos in Giant Tree Taiga biomes.
 		# 
@@ -83,7 +83,7 @@
 		# 
 		# 1 for spawning in most chunks and 1001 for no spawn.
 		#Range: 1 ~ 1001
-		jungleFortressSpawnrate = 34
+		jungleFortressSpawnrate = 36
 		#
 		# Controls whether loot chests spawn or not in Jungle Fortresses.
 		lootChestsJF = true
@@ -92,7 +92,7 @@
 		# RS's Jungle Fortresses to spawn in. Separate each ID with a comma ,
 		#
 		#Example: "minecraft:ice_spikes,awesome_mod:awesome_biome"
-		blacklistedFortressBiomes = ""
+		blacklistedFortressBiomes = "undergarden:barren_abyss,undergarden:dense_forest,undergarden:forgotten_field,undergarden:otherside,undergarden:smog_spires,undergarden:smogstem_forest,undergarden:wigglewood_forest,mahoutsukai:marble"
 		#
 		# Add Jungle Fortress to modded jungle biomes.
 		addJungleFortressToModdedBiomes = true

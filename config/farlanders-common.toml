@@ -11,10 +11,10 @@
 	[common.small_house]
 		#Spacing between structures
 		#Range: > 1
-		spacing = 36
+		spacing = 37
 		#Offsets the spacing of the structures randomly
 		#Range: > 0
-		offset = 12
+		offset = 14
 		#Chance of generating in an allowed chunk
 		#Range: 0.0 ~ 1.0
 		probability = 0.8
@@ -22,7 +22,7 @@
 	[common.farlander_village]
 		#Spacing between structures
 		#Range: > 1
-		spacing = 44
+		spacing = 45
 		#Offsets the spacing of the structures randomly
 		#Range: > 0
 		offset = 16

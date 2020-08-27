@@ -5,7 +5,7 @@
 	# temples to spawn in. Separate each ID with a comma ,
 	#
 	#Example: "minecraft:ice_spikes,awesome_mod:awesome_biome"
-	blacklistedTempleBiomes = ""
+	blacklistedTempleBiomes = "undergarden:barren_abyss,undergarden:dense_forest,undergarden:forgotten_field,undergarden:otherside,undergarden:smog_spires,undergarden:smogstem_forest,undergarden:wigglewood_forest,mahoutsukai:marble"
 	#
 	# Add Nether Crimson Temples to modded Nether Crimson Forest biomes.
 	addNetherCrimsonTempleToModdedBiomes = true
@@ -61,13 +61,13 @@
 	# How rare are Badlands Pyramid in non-plateau Badlands biomes.
 	# 1 for spawning in most chunks and 1001 for none.
 	#Range: 1 ~ 1001
-	badlandsPyramidSpawnrate = 24
+	badlandsPyramidSpawnrate = 26
 	#
 	# Add the ID/resource location of the biome you don't want
 	# pyramids to spawn in. Separate each ID with a comma ,
 	#
 	#Example: "minecraft:ice_spikes,awesome_mod:awesome_biome"
-	blacklistedPyramidBiomes = ""
+	blacklistedPyramidBiomes = "undergarden:barren_abyss,undergarden:dense_forest,undergarden:forgotten_field,undergarden:otherside,undergarden:smog_spires,undergarden:smogstem_forest,undergarden:wigglewood_forest,mahoutsukai:marble"
 	#
 	# Add Badlands Pyramid to modded Badlands biomes.
 	addBadlandsPyramidToModdedBiomes = true
