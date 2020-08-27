@@ -10,10 +10,6 @@
         "byg:weed_grass", 
         "byg:wilted_grass", 
         "byg:short_beach_grass", 
-        "byg:beach_grass", 
-        "undergarden:glowing_sea_grass", 
-        "undergarden:tall_deepturf", 
-        "undergarden:ashen_tall_deepturf", 
-        "undergarden:double_deepturf"
+        "byg:beach_grass"
     ]
   }

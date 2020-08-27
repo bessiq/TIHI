@@ -20,10 +20,6 @@
       "botania:red_mushroom",
       "botania:black_mushroom",
       "byg:blue_glowshroom",
-      "byg:purple_glowshroom",
-      "undergarden:indigo_mushroom",
-      "undergarden:ink_mushroom",
-      "undergarden:blood_mushroom",
-      "undergarden:veil_mushroom"
+      "byg:purple_glowshroom"
     ]
   }

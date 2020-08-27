@@ -2,7 +2,7 @@
   "type": "crafting_shaped",
   "group": "tools",
   "pattern": [
-    "ALB",
+    "ALA",
     "EFE",
     "CLD"
   ],
@@ -12,9 +12,6 @@
     },
     "L": {
       "item": "forbidden_arcanus:edelwood_log"
-    },
-    "B": {
-      "item": "undergarden:wigglewood_sapling"
     },
     "C": {
       "tag": "forge:saplings"
