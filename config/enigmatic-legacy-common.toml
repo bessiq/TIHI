@@ -56,7 +56,7 @@
 	#Whether or not Extrapolated Megasponge should be enabled.
 	megaSpongeEnabled = true
 	#Whether or not Enigmatic Amulet should be summoning Extradimensional Vessel on owner's death.
-	enigmaticAmuletVesselEnabled = true
+	enigmaticAmuletVesselEnabled = false
 	#Whether or not Etherium Ore should generate among dungeon loot.
 	etheriumOreEnabled = true
 	#Whether or not Will of the Ocean should be enabled.
