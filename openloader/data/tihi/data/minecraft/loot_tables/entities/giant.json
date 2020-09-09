@@ -91,6 +91,87 @@
           "looting_multiplier": 0.01
         }
       ]
-    }
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "lootbagmod:lootbag",
+          "weight": 2,
+          "conditions": [
+            {
+              "condition": "minecraft:killed_by_player"
+            },
+            {
+              "condition": "minecraft:random_chance_with_looting",
+              "chance": 0.010,
+              "looting_multiplier": 1
+            }
+          ]
+        },
+        {
+          "type": "empty",
+          "weight": 98
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "mystictools:loot_case",
+          "weight": 2,
+          "conditions": [
+            {
+              "condition": "minecraft:killed_by_player"
+            },
+            {
+              "condition": "minecraft:random_chance_with_looting",
+              "chance": 0.010,
+              "looting_multiplier": 1
+            }
+          ]
+        },
+        {
+          "type": "empty",
+          "weight": 98
+        }
+      ]
+    },
+    {
+			"rolls": {
+				"min": 1,
+				"max": 2
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "chanceglobe:chance_globe",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"type": "empty",
+					"weight": 98
+				}
+			]
+		}
   ]
 }

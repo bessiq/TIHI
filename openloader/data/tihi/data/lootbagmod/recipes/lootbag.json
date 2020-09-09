@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "wbw",
+      "bab",
+      "wbw"
+    ],
+    "key": {
+      "w": {
+        "item": "mystictools:shard"
+      },
+      "a": {
+        "item": "teletubbies:tinkywinky_bag"
+      },
+      "b": {
+        "item": "randomloot:random_cluster"
+      }
+    },
+    "result": {
+      "item": "lootbagmod:lootbag"
+    }
+  }
