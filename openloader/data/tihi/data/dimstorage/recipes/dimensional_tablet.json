@@ -13,7 +13,7 @@
       "item": "dimstorage:solid_dim_core"
     },
     "c": {
-      "item": "minecraft:iron_ingot"
+      "item": "mekanism:ingot_refined_obsidian"
     },
     "d": {
       "tag": "forge:glass_panes"

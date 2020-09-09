@@ -7,7 +7,7 @@
   ],
   "key": {
     "a": {
-      "item": "minecraft:iron_ingot"
+      "item": "forbidden_arcanus:obsidian_ingot"
     },
     "b": {
       "item": "dimstorage:dim_core"

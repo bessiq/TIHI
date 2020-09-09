@@ -1,0 +1,25 @@
+{
+  "result": {
+    "item": "buildinggadgets:gadget_exchanging"
+  },
+  "pattern": [
+    "iri",
+    "dld",
+    "ili"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "i": {
+      "tag": "forge:ingots/iron"
+    },
+    "l": {
+      "tag": "forge:dusts/redstone"
+    },
+    "r": {
+      "item": "mininggadgets:upgrade_empty"
+    },
+    "d": {
+      "tag": "forge:gems/diamond"
+    }
+  }
+}

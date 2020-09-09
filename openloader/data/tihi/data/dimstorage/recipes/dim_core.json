@@ -7,13 +7,13 @@
   ],
   "key": {
     "a": {
-      "item": "minecraft:iron_ingot"
+      "item": "mysticalagriculture:prosperity_ingot"
     },
     "b": {
-      "item": "minecraft:redstone"
+      "tag": "forge:dusts/obsidian"
     },
     "c": {
-      "item": "minecraft:diamond"
+      "item": "extendedcrafting:ender_catalyst"
     }
   },
   "result": {
