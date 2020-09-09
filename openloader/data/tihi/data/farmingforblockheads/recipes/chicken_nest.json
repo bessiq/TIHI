@@ -1,0 +1,24 @@
+{
+  "result": {
+    "item": "farmingforblockheads:chicken_nest"
+  },
+  "type": "crafting_shaped",
+  "pattern": [
+    "FEF",
+    "PHP"
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:egg"
+    },
+    "F": {
+      "item": "minecraft:feather"
+    },
+    "H": {
+      "item": "minecraft:hay_block"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    }
+  }
+}

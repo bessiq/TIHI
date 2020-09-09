@@ -3,7 +3,7 @@
   "pattern": [
     "aba",
     "aca",
-    "aaa"
+    "ada"
   ],
   "key": {
     "a": {
@@ -14,6 +14,9 @@
     },
     "c": {
       "item": "backpacked:backpack"
+    },
+    "d": {
+      "item": "appliedenergistics2:sky_stone_chest"
     }
   },
   "result": {

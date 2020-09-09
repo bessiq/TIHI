@@ -1,0 +1,25 @@
+{
+  "result": {
+    "item": "farmingforblockheads:red_fertilizer"
+  },
+  "type": "crafting_shaped",
+  "pattern": [
+    "RRR",
+    "NSN",
+    "BBB"
+  ],
+  "key": {
+    "R": {
+      "tag": "forge:dyes/red"
+    },
+    "N": {
+      "item": "extendedcrafting:redstone_nugget"
+    },
+    "S": {
+      "tag": "forge:seeds"
+    },
+    "B": {
+      "item": "silentgems:glowrose_fertilizer"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "result": {
+    "item": "farmingforblockheads:market"
+  },
+  "type": "crafting_shaped",
+  "pattern": [
+    "DCD",
+    "DAD",
+    "WBW"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:red_carpet"
+    },
+    "B": {
+      "item": "minecraft:spruce_pressure_plate"
+    },
+    "C": {
+      "item": "engineersdecor:halfslab_sheetmetal_iron"
+    },
+    "D": {
+      "item": "engineersdecor:treated_wood_pole"
+    },
+    "W": {
+      "item": "minecraft:dark_oak_log"
+    }
+  }
+}

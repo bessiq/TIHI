@@ -3,7 +3,7 @@
   "pattern": [
     "aba",
     "aca",
-    "ada"
+    "ede"
   ],
   "key": {
     "a": {
@@ -16,6 +16,9 @@
       "item": "backpacked:backpack"
     },
     "d": {
+      "item": "appliedenergistics2:sky_stone_chest"
+    },
+    "e": {
       "tag": "forge:dyes/white"
     }
   },
