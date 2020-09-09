@@ -12,5 +12,5 @@
 "Default Lock Length" = 5
 #All lock pick items which don't have a strength nbt value will have this value set as their strength. The strength of a lock pick can still be changed by edition its nbt
 #Range: 0.0 ~ 1.0
-"Default Lock Pick Strength" = 1.0
+"Default Lock Pick Strength" = 0.9
 
