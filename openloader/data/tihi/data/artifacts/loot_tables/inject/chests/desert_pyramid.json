@@ -7,17 +7,17 @@
         {
           "type": "item",
           "name": "artifacts:flame_pendant",
-          "weight": 7
+          "weight": 6
         },
         {
           "type": "item",
           "name": "artifacts:thorn_pendant",
-          "weight": 7
+          "weight": 6
         },
         {
           "type": "item",
           "name": "artifacts:shock_pendant",
-          "weight": 7
+          "weight": 6
         },
         {
           "type": "item",
@@ -26,17 +26,12 @@
         },
         {
           "type": "item",
-          "name": "artifacts:scarf_of_invisibility",
-          "weight": 2
-        },
-        {
-          "type": "item",
           "name": "artifacts:universal_attractor",
           "weight": 4
         },
         {
           "type": "empty",
-          "weight": 70
+          "weight": 85
         }
       ]
     }

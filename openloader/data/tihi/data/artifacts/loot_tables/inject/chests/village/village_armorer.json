@@ -7,21 +7,21 @@
         {
           "type": "item",
           "name": "artifacts:steadfast_spikes",
-          "weight": 8
+          "weight": 2
         },
         {
           "type": "item",
           "name": "artifacts:superstitious_hat",
-          "weight": 8
+          "weight": 2
         },
         {
           "type": "item",
           "name": "artifacts:running_shoes",
-          "weight": 8
+          "weight": 2
         },
         {
           "type": "empty",
-          "weight": 76
+          "weight": 94
         }
       ]
     }

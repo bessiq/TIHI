@@ -7,11 +7,16 @@
         {
           "type": "loot_table",
           "name": "artifacts:artifact",
-          "weight": 30
+          "weight": 33
+        },
+        {
+          "type": "item",
+          "name": "artifacts:scarf_of_invisibility",
+          "weight": 7
         },
         {
           "type": "empty",
-          "weight": 70
+          "weight": 60
         }
       ]
     }

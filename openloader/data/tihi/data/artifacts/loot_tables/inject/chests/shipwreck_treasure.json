@@ -16,18 +16,13 @@
         },
         {
           "type": "item",
-          "name": "artifacts:scarf_of_invisibility",
-          "weight": 2
-        },
-        {
-          "type": "item",
           "name": "artifacts:steadfast_spikes",
           "weight": 5
         },
         {
           "type": "item",
           "name": "artifacts:universal_attractor",
-          "weight": 7
+          "weight": 6
         },
         {
           "type": "item",
@@ -37,21 +32,11 @@
         {
           "type": "item",
           "name": "artifacts:night_vision_goggles",
-          "weight": 4
-        },
-        {
-          "type": "item",
-          "name": "artifacts:obsidian_skull",
-          "weight": 6
-        },
-        {
-          "type": "item",
-          "name": "artifacts:running_shoes",
-          "weight": 7
+          "weight": 3
         },
         {
           "type": "empty",
-          "weight": 53
+          "weight": 70
         }
       ]
     }
