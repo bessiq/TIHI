@@ -9,7 +9,7 @@
 	disabledGoogly = ["player"]
 	#Googly Eye chance (in %)
 	#Range: 0 ~ 100
-	googlyEyeChance = 7
+	googlyEyeChance = 5
 	#Entity chance override. Each entry should be a resource location and a chance, separated by a comma. EG: "minecraft:pig,100" will make all minecraft pigs have a 100% chance of having Googly Eyes.
 	entityOverrideChance = ["yeeter:tnt_yeeter,80"]
 	#Let them googly eyes be trippin'
