@@ -1,0 +1,15 @@
+{
+  "type": "pneumaticcraft:amadron",
+  "static": true,
+  "input": {
+    "type": "ITEM",
+    "id": "minecraft:emerald",
+    "amount": 1
+  },
+  "output": {
+    "type": "FLUID",
+    "id": "silents_mechanisms:oil",
+    "amount": 1000
+  },
+  "level": 0
+}
