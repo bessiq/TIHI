@@ -6,7 +6,7 @@
 "Min Generated Lock Length" = 3
 #The maximum amount of pins on every generated lock (exclusive)
 #Range: 1 ~ 30
-"Max Generated Lock Length" = 5
+"Max Generated Lock Length" = 6
 #Randomize lock IDs and combinations when loading them from a structure file. Randomization works just like during world generation
 "Randomize Loaded Locks" = false
 
