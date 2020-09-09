@@ -8,7 +8,7 @@
 	chanceSurfaceZombieIsGiant = 0.03
 	#The giant attack damage modifier relative to the base zombie attack damage.
 	#Range: 0.0 ~ 20.0
-	giantAttackDamageModifier = 2.4
+	giantAttackDamageModifier = 2.5
 	#If enabled, a giant will only spawn on the surface.
 	onlySpawnGiantOnSurface = true
 	#If enabled, burns giants when daylight shines upon them.
