@@ -439,7 +439,7 @@
 			"Is Blacklist" = false
 
 	[world.big_stone_clusters]
-		"Blocks To Replace" = ["minecraft:stone", "minecraft:andesite", "minecraft:diorite", "minecraft:granite", "minecraft:netherrack", "minecraft:end_stone", "quark:marble", "quark:limestone", "quark:jasper", "quark:slate", "quark:basalt"]
+		"Blocks To Replace" = ["minecraft:stone", "minecraft:andesite", "minecraft:diorite", "minecraft:granite", "minecraft:netherrack", "minecraft:end_stone", "quark:marble", "quark:limestone", "quark:jasper", "quark:slate", "quark:basalt", "byg:dacite", "byg:mossy_stone"]
 
 		[world.big_stone_clusters.marble]
 			"Horizontal Size" = 14
@@ -629,11 +629,11 @@
 				"Is Blacklist" = false
 
 	[world.speleothems]
-		"Tries Per Chunk In Nether" = 4
-		"Speleothems Per Chunk In Nether" = 8
-		"Speleothems Per Chunk" = 8
+		"Tries Per Chunk In Nether" = 5
+		"Speleothems Per Chunk In Nether" = 10
+		"Speleothems Per Chunk" = 10
 		"Max Ylevel" = 55
-		"Tries Per Chunk" = 24
+		"Tries Per Chunk" = 25
 
 		[world.speleothems.dimensions]
 			Dimensions = []
