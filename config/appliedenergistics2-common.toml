@@ -68,7 +68,7 @@
 [worldGen]
 	meteoriteDimensionWhitelist = ["minecraft:dimension"]
 	quartzOresClusterAmount = 8
-	quartzOresPerCluster = 2
+	quartzOresPerCluster = 3
 	meteoriteMaximumSpawnHeight = 180
 	#Range: 0.0 ~ 1.0
 	spawnChargedChance = 0.05
