@@ -110,7 +110,7 @@
 	gold_ft = 55
 	#Bosses drop chance
 	#Range: 0 ~ 100
-	boss_drops = 50
+	boss_drops = 25
 	#Weight of a golden case dropping
 	#Range: 0 ~ 100
 	gold_chance = 20
@@ -143,7 +143,7 @@
 	gold_fb = 4
 	#Monsters drop chance
 	#Range: 0 ~ 100
-	monster_drops = 5
+	monster_drops = 4
 	#Animals drop chance
 	#Range: 0 ~ 100
 	animal_drops = 0
