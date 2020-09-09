@@ -1,9 +1,9 @@
 {
-    "replace": false,
-    "values": [
-      "simplefarming:barley",
-      "simplefarming:oat",
-      "simplefarming:rye",
-      "simplefarming:rice"
-    ]
-  }
+  "replace": false,
+  "values": [
+    "simplefarming:barley",
+    "simplefarming:oat",
+    "simplefarming:rye",
+    "simplefarming:rice"
+  ]
+}

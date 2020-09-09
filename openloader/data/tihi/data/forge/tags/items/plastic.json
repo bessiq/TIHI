@@ -2,6 +2,7 @@
     "replace": false,
     "values": [
       "silents_mechanisms:plastic_sheet",
-      "mekanism:hdpe_sheet"
+      "mekanism:hdpe_sheet",
+      "pneumaticcraft:plastic"
     ]
   }
