@@ -13,7 +13,7 @@
 	# How rare are Nether Basalt Temples in Nether Basalt Delta biomes.
 	# 1 for spawning in most chunks and 1001 for none.
 	#Range: 1 ~ 1001
-	netherBasaltTempleSpawnrate = 32
+	netherBasaltTempleSpawnrate = 31
 	#
 	# Add Nether Soul Temples to modded Nether Soul Sand Valley biomes.
 	addNetherSoulTempleToModdedBiomes = true
@@ -21,12 +21,12 @@
 	# How rare are Nether Temples in Nether Wastelands.
 	# 1 for spawning in most chunks and 1001 for none.
 	#Range: 1 ~ 1001
-	netherWastelandTempleSpawnrate = 32
+	netherWastelandTempleSpawnrate = 31
 	#
 	# How rare are Nether Soul Temples in Nether Soul Sand Valley.
 	# 1 for spawning in most chunks and 1001 for none.
 	#Range: 1 ~ 1001
-	netherSoulTempleSpawnrate = 32
+	netherSoulTempleSpawnrate = 31
 	#
 	# Add Nether Basalt Temples to modded Nether Basalt biomes.
 	addNetherBasaltTempleToModdedBiomes = true
@@ -38,7 +38,7 @@
 	# How rare are Nether Crimson Temples in Nether Crimson Forest.
 	# 1 for spawning in most chunks and 1001 for none.
 	#Range: 1 ~ 1001
-	netherCrimsonTempleSpawnrate = 32
+	netherCrimsonTempleSpawnrate = 31
 	#
 	# Add Nether Warped Temples to modded Nether Warped Forest biomes.
 	addNetherWarpedTempleToModdedBiomes = true
@@ -46,7 +46,7 @@
 	# How rare are Nether Crimson Temples in Nether Warped Forest.
 	# 1 for spawning in most chunks and 1001 for none.
 	#Range: 1 ~ 1001
-	netherWarpedTempleSpawnrate = 32
+	netherWarpedTempleSpawnrate = 31
 
 [Pyramids]
 	#

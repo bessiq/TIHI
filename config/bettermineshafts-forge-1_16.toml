@@ -3,7 +3,7 @@
 	"Enable Jungle Variant" = true
 	"Enable Snow Variant" = true
 	# Default: .003
-	"Mineshaft Spawn Rate" = 0.003
+	"Mineshaft Spawn Rate" = 0.002
 	"Enable Savanna Variant" = true
 	# The highest the floor of a mineshaft can be.
 	# Be careful, setting this too high can make mineshafts poke through ocean floors.

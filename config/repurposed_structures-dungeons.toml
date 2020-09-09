@@ -190,7 +190,7 @@
 		# them which is unlike the other modded dungeons from this mod
 		# as those would normally replace the Vanilla Dungeons.
 		#Range: 0 ~ 1000
-		oceanDungeonSpawnrate = 6
+		oceanDungeonSpawnrate = 4
 		#
 		# Replace vanilla dungeon in Dark Forest biomes with Dark Forest themed dungeon.
 		# How often dungeons will attempt to spawn per chunk.

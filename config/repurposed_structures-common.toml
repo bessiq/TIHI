@@ -65,13 +65,13 @@
 		# 
 		# 1 for spawning in most chunks and 1001 for no spawn.
 		#Range: 1 ~ 1001
-		stoneIglooSpawnrate = 22
+		stoneIglooSpawnrate = 21
 		#
 		# How rare are Grassy Igloos in Plains and Forests.
 		# 
 		# 1 for spawning in most chunks and 1001 for no spawn.
 		#Range: 1 ~ 1001
-		grassyIglooSpawnrate = 22
+		grassyIglooSpawnrate = 21
 		#
 		# Add Stone Igloos to modded biomes that are
 		# most likely Giant Tree Taiga variants.
@@ -83,7 +83,7 @@
 		# 
 		# 1 for spawning in most chunks and 1001 for no spawn.
 		#Range: 1 ~ 1001
-		jungleFortressSpawnrate = 36
+		jungleFortressSpawnrate = 35
 		#
 		# Controls whether loot chests spawn or not in Jungle Fortresses.
 		lootChestsJF = true
