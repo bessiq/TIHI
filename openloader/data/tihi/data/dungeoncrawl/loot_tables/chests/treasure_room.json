@@ -286,6 +286,32 @@
 					"weight": 99
 				}
 			]
+		},
+		{
+			"rolls": {
+				"min": 0,
+				"max": 1
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "chanceglobe:chance_globe",
+					"weight": 3,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]
+				},
+				{
+					"type": "empty",
+					"weight": 97
+				}
+			]
 		}
 	]
 }
