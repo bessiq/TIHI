@@ -24,5 +24,13 @@
 	"key.tanknull.mode": "Mode",
 	"mystictools.key.activateeffect": "Activate Effect",
 	"block.undergarden.undergarden_portal.name": "Undergarden Portal",
-	"container.farmingforblockheads.market": "Le Market"
+	"key.keyboard.c": "C",
+	"container.farmingforblockheads.market": "",
+	"entity.minecraft.villager.looter": "Looter",
+	"entity.minecraft.villager.pneumaticcraft:mechanic": "Mechanic",
+	"entity.minecraft.villager.immersiveengineering:machinist": "Machinist",
+	"entity.minecraft.villager.immersiveengineering:outfitter": "Outfitter",
+	"entity.minecraft.villager.immersiveengineering:gunsmith": "Gunsmith",
+	"entity.minecraft.villager.immersiveengineering:electrician": "Electrician",
+	"item.silentgems.corrupted_slime_ball": "Corrupted Slime Ball"
 }
