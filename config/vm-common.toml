@@ -18,36 +18,36 @@ ExcludeGroups = "!"
 ItemRarity = "randomloot:golden_case=1;randomloot:titan_case=3;curios:ring=2;curios:amulet=1;curios:knuckles=2;curios:crown=1;lootbagmod:lootbag=2;mystictools:loot_case=2;locks:lock=1;levelhearts:heart_piece=1;levelhearts:heart_container=3;ender_bags:black_bag=1;ender_bags:blue_bag=1;ender_bags:brown_bag=1;ender_bags:cyan_bag=1;ender_bags:gray_bag=1;ender_bags:green_bag=1;ender_bags:light_blue_bag=1;ender_bags:light_gray_bag=1;ender_bags:lime_bag=1;ender_bags:magenta_bag=1;ender_bags:orange_bag=1;ender_bags:pink_bag=1;ender_bags:purple_bag=1;ender_bags:red_bag=1;ender_bags:white_bag=1;ender_bags:yellow_bag=1;bagofyurting:bag_of_yurting=2;clickmachine:auto_clicker=2;rangedpumps:pump=1"
 
 [RarityData]
-	#Common Item
-	CommonItem = "minecraft:emerald"
 	#Uncommon Item
 	UncommonItem = "minecraft:emerald"
 	#Rare Item
 	RareItem = "minecraft:emerald"
-	#Epic Item
-	EpicItem = "minecraft:emerald"
-	#Common Cost
-	#Range: 0 ~ 64
-	CommonCost = 6
 	#Uncommon Cost
 	#Range: 0 ~ 64
 	UncommonCost = 12
-	#Rare Cost
-	#Range: 0 ~ 64
-	RareCost = 18
-	#Epic Cost
-	#Range: 0 ~ 64
-	EpicCost = 24
-	#Common Uses
-	#Range: 0 ~ 32
-	CommonUses = 4
-	#Uncommon Uses
-	#Range: 0 ~ 32
-	UncommonUses = 3
 	#Rare Uses
 	#Range: 0 ~ 32
 	RareUses = 2
 	#Epic Uses
 	#Range: 0 ~ 32
 	EpicUses = 1
+	#Epic Item
+	EpicItem = "minecraft:emerald"
+	#Common Item
+	CommonItem = "minecraft:emerald"
+	#Epic Cost
+	#Range: 0 ~ 64
+	EpicCost = 24
+	#Rare Cost
+	#Range: 0 ~ 64
+	RareCost = 18
+	#Common Uses
+	#Range: 0 ~ 32
+	CommonUses = 4
+	#Uncommon Uses
+	#Range: 0 ~ 32
+	UncommonUses = 3
+	#Common Cost
+	#Range: 0 ~ 64
+	CommonCost = 6
 
