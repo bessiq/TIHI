@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "rrr",
+        "rur",
+        "rrr"
+    ],
+    "key": {
+        "r": {
+            "item": "silents_mechanisms:redstone_alloy_dust"
+        },
+        "u": {
+            "item": "mininggadgets:upgrade_empty"
+        }
+    },
+    "result": {
+        "item": "mininggadgets:upgrade_efficiency_1"
+    }
+}

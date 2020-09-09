@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "bsb",
+        "sus",
+        "dsd"
+    ],
+    "key": {
+        "s": {
+            "item": "powah:charged_snowball"
+        },
+        "u": {
+            "item": "mininggadgets:upgrade_empty"
+        },
+        "b": {
+            "item": "powah:dry_ice"
+        },
+        "d": {
+            "tag": "forge:ices"
+        }
+    },
+    "result": {
+        "item": "mininggadgets:upgrade_freezing"
+    }
+}

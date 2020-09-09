@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "brb",
+        "bub",
+        "brb"
+    ],
+    "key": {
+        "r": {
+            "item": "silents_mechanisms:redstone_alloy_dust"
+        },
+        "u": {
+            "item": "mininggadgets:upgrade_efficiency_3"
+        },
+        "b": {
+            "item": "silents_mechanisms:redstone_alloy_block"
+        }
+    },
+    "result": {
+        "item": "mininggadgets:upgrade_efficiency_4"
+    }
+}

@@ -10,13 +10,13 @@
       "item": "extendedcrafting:redstone_component"
     },
     "b": {
-      "item": "silentgear:azure_electrum_ingot"
-    },
-    "c": {
-      "item": "botania:mana_glass_pane"
+      "item": "silentgear:azure_electrum_nugget"
     },
     "d": {
-      "item": "mysticalagriculture:prosperity_gemstone"
+      "tag": "forge:plastic"
+    },
+    "c": {
+      "item": "silents_mechanisms:circuit_board"
     }
   },
   "result": {

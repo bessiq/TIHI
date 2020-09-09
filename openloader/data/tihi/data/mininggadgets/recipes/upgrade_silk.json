@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "sds",
+        "gug",
+        "sps"
+    ],
+    "key": {
+        "d": {
+            "item": "minecraft:enchanted_golden_apple"
+        },
+        "s": {
+            "tag": "forge:slimeballs"
+        },
+        "g": {
+            "tag": "forge:ingots/gold"
+        },
+        "u": {
+            "item": "mininggadgets:upgrade_empty"
+        },
+        "p": {
+            "item": "forbidden_arcanus:slimec_pickaxe"
+        }
+    },
+    "result": {
+        "item": "mininggadgets:upgrade_silk"
+    }
+}
