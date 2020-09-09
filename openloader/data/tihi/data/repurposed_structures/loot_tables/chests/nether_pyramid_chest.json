@@ -215,25 +215,55 @@
             ]
         },
         {
-            "rolls": {
-                "min": 0,
-                "max": 1
-            },
+            "rolls": 1,
             "entries": [
                 {
 					"type": "minecraft:tag",
 					"name": "ringsofascension:rings",
-					"expand": true
+                    "expand": true,
+                    "weight": 10
 				},
                 {
                     "type": "minecraft:loot_table",
-                    "name": "minecraft:chests/nether_bridge"
+                    "name": "minecraft:chests/nether_bridge",
+                    "weight": 10
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "enigmaticlegacy:magma_heart"
-                }
+                    "name": "enigmaticlegacy:magma_heart",
+                    "weight": 10
+                },
+                {
+					"type": "empty",
+					"weight": 70
+				}
             ]
-        }
+        },
+        {
+			"rolls": {
+				"min": 0,
+				"max": 1
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "chanceglobe:chance_globe",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]
+				},
+				{
+					"type": "empty",
+					"weight": 95
+				}
+			]
+		}
     ]
 }

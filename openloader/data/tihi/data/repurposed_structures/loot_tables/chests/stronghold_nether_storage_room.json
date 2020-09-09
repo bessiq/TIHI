@@ -156,23 +156,27 @@
             ]
         },
         {
-            "rolls": {
-                "min": 0,
-                "max": 1
-            },
+            "rolls": 1,
             "entries": [
                 {
                     "type": "minecraft:tag",
                     "name": "ringsofascension:rings",
-                    "expand": true
+                    "expand": true,
+                    "weight": 10
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "minecraft:chests/bastion_treasure"
+                    "name": "minecraft:chests/bastion_treasure",
+                    "weight": 10
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "artifacts:artifact"
+                    "name": "artifacts:artifact",
+                    "weight": 10
+                },
+                {
+                    "type": "empty",
+                    "weight": 70
                 }
             ]
         }

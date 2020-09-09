@@ -141,23 +141,27 @@
             ]
         },
         {
-            "rolls": {
-                "min": 0,
-                "max": 1
-            },
+            "rolls": 1,
             "entries": [
 				{
 					"type": "minecraft:tag",
 					"name": "ringsofascension:rings",
-					"expand": true
+                    "expand": true,
+                    "weight": 10
 				},
                 {
                     "type": "minecraft:loot_table",
-                    "name": "minecraft:chests/nether_bridge"
+                    "name": "minecraft:chests/nether_bridge",
+                    "weight": 10
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "minecraft:chests/bastion_bridge"
+                    "name": "minecraft:chests/bastion_bridge",
+                    "weight": 10
+                },
+                {
+                    "type": "empty",
+                    "weight": 70
                 }
             ]
         }

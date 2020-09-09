@@ -624,16 +624,18 @@
             ]
         },
         {
-			"rolls": {
-				"min": 0,
-				"max": 1
-			},
-			"entries": [
-				{
-					"type": "minecraft:loot_table",
-					"name": "minecraft:chests/simple_dungeon"
-				}
-			]
-		}
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "minecraft:chests/simple_dungeon",
+                    "weight": 30
+                },
+                {
+                    "type": "empty",
+                    "weight": 70
+                }
+            ]
+        }
     ]
 }

@@ -284,16 +284,18 @@
             ]
         },
         {
-			"rolls": {
-        		"min": 0,
-				"max": 1
-			},
-			"entries": [
-			  {
-				"type": "minecraft:loot_table",
-				"name": "minecraft:chests/abandoned_mineshaft"
-			  }
-			]
-		}
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "minecraft:chests/abandoned_mineshaft",
+                    "weight": 30
+                },
+                {
+                    "type": "empty",
+                    "weight": 70
+                }
+            ]
+        }
     ]
 }
