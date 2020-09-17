@@ -5,7 +5,7 @@
 	Client-Name = "TIHI"
 	#Placeholders:
 	#%ip%  Server IP
-	Server-Text = "Playing on %ip%"
+	Server-Text = "Playing TIHI on %ip%"
 	#Setting this to true disables name changing through GUI
 	Disable-Name-changing = true
 	#No placeholders supported, Text that shows when you are in the main menu
@@ -13,7 +13,7 @@
 	#Placeholders:
 	#%coords% (X:??? Y:??? Z:???)
 	#%world% World name
-	Singleplayer-Text = "Playing on %world% (%coords%)"
+	Singleplayer-Text = "Playing TIHI on %world% (%coords%)"
 	#Do you want to use development commands?
 	Dev-Commands = false
 	#Custom client id, see https://github.com/ErdbeerbaerLP/DiscordRichPresence/wiki/Set-up-custom-Icons-(for-Modpacks) for more info
