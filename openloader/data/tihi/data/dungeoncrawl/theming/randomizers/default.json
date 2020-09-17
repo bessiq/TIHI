@@ -4,7 +4,7 @@
 	"entries": [
 		{
 			"value": 0,
-			"weight": 1
+			"weight": 2
 		},
 		{
 			"value": 48,
@@ -17,30 +17,6 @@
 		{
 			"value": 50,
 			"weight": 1
-		},
-		{
-			"value": 222,
-			"weight": 5
-		},
-		{
-			"value": 224,
-			"weight": 5
-		},
-		{
-			"value": 16,
-			"weight": 3
-		},		
-		{
-			"value": 17,
-			"weight": 3
-		},		
-		{
-			"value": 80,
-			"weight": 3
-		},		
-		{
-			"value": 81,
-			"weight": 3
 		}
 	]
 }

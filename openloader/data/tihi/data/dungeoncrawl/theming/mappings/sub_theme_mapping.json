@@ -36,24 +36,6 @@
 
     "minecraft:desert": 6,
     "minecraft:desert_hills": 6,
-    "minecraft:desert_lakes": 6,
-
-    "byg:snowy_blue_giant_taiga": 222,
-    "byg:snowy_blue_taiga": 222,
-    "byg:snowy_blue_taiga_hills": 222,
-    "byg:snowy_coniferous_clearing": 222,
-    "byg:snowy_coniferous_forest": 222,
-    "byg:snowy_coniferous_forest_hills": 222,
-    "byg:snowy_deciduous_clearing": 222,
-    "byg:snowy_deciduous_forest": 222,
-    "byg:snowy_deciduous_forest_hills": 222,
-    "byg:snowy_evergreen_clearing": 222,
-    "byg:snowy_evergreen_hills": 222,
-    "byg:snowy_evergreen_taiga": 222,
-    "byg:frozen_lake": 222,
-    "byg:alpine_foothills": 222,
-    "byg:alps": 222,
-    
-    "byg:shattered_glacier": 224
+    "minecraft:desert_lakes": 6
   }
 }
