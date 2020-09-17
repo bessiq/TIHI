@@ -1,10 +1,10 @@
 {
 	"pools": [
 	{
-        	"name": "dungeon_chest_stage_1",
+        	"name": "guaranteed_item",
         	"rolls": {
         		"min": 8,
-        		"max": 12
+        		"max": 10
         	},
             "entries": [
 				{
@@ -131,7 +131,7 @@
                             }
                         }
                     ],
-                    "weight": 16
+                    "weight": 7
                 },
                 {
                     "type": "item",
@@ -145,7 +145,7 @@
                             }
                         }
                     ],
-                    "weight": 16
+                    "weight": 7
                 },
                 {
                     "type": "item",
@@ -159,12 +159,12 @@
                             }
                         }
                     ],
-                    "weight": 16
+                    "weight": 7
                 },
                 {
                 	"type": "item",
                 	"name": "minecraft:stick",
-                	"weight": 10,
+                	"weight": 7,
                 	"functions": [
                 		{
                 			"function": "set_count",
@@ -247,7 +247,7 @@
                 {
                 	"type": "item",
                 	"name": "minecraft:iron_nugget",
-                	"weight": 2,
+                	"weight": 4,
                 	"functions": [
                 		{
                 			"function": "set_count",
@@ -303,7 +303,7 @@
                 {
                 	"type": "item",
                 	"name": "minecraft:gunpowder",
-                	"weight": 3,
+                	"weight": 5,
                 	"functions": [
                 		{
                 			"function": "set_count",
@@ -345,7 +345,7 @@
                 {
                 	"type": "item",
                 	"name": "minecraft:glass_bottle",
-                	"weight": 3,
+                	"weight": 2,
                 	"functions": [
                 		{
                 			"function": "set_count",
@@ -387,7 +387,7 @@
                 {
                 	"type": "item",
                 	"name": "minecraft:dead_bush",
-                	"weight": 4,
+                	"weight": 2,
                 	"functions": [
                 		{
                 			"function": "set_count",
@@ -566,12 +566,12 @@
                 {
                 	"type": "item",
                 	"name": "minecraft:fermented_spider_eye",
-                	"weight": 4
+                	"weight": 1
                 },
                 {
                 	"type": "item",
                 	"name": "minecraft:spider_eye",
-                	"weight": 8,
+                	"weight": 2,
                 	"functions": [
                 		{
                 			"function": "set_count",
@@ -585,29 +585,29 @@
                 {
                 	"type": "item",
                 	"name": "minecraft:air",
-                	"weight": 18,
+                	"weight": 3,
                 	"functions": [
                 		{
                 			"function": "dungeoncrawl:random_potion",
-                			"stage": 1
+                			"loot_level": 1
                 		}
                 	]
                 },
                 {
                 	"type": "item",
                 	"name": "minecraft:air",
-                	"weight": 20,
+                	"weight": 3,
                 	"functions": [
                 		{
                 			"function": "dungeoncrawl:random_item",
-                			"stage": 1
+                			"loot_level": 1
                 		}
                 	]
                 },
                 {
                 	"type": "item",
                 	"name": "minecraft:air",
-                	"weight": 8,
+                	"weight": 3,
                 	"functions": [
                 		{
                 			"function": "dungeoncrawl:material_blocks"
