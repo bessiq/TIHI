@@ -205,7 +205,7 @@
 #Allows to enable some features related to others mods
 [compatibility]
 	#Keeps the cosmetic armor when you die [false/true|default:true]
-	keep_cosmetic_armor = true
+	keep_cosmetic_armor = false
 	#Disables to disenchant items from tetra mod [false/true|default:false]
 	disable_disenchantment_for_tetra = false
 	#Allows to auto-equip the slots from Curio mod [false/true|default:true]
