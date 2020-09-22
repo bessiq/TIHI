@@ -90,18 +90,18 @@ uniqueEffectMin = 3
 #Range: 0 ~ 4
 uniqueEffectMax = 4
 #chance that a loot crate will generate a common item
-#Range: 1 ~ 100
+#Range: 0 ~ 100
 commonRarity = 50
 #chance that a loot crate will generate a uncommon item
-#Range: 1 ~ 100
+#Range: 0 ~ 100
 uncommonRarity = 12
 #chance that a loot crate will generate a rare item
-#Range: 1 ~ 100
+#Range: 0 ~ 100
 rareRarity = 10
 #chance that a loot crate will generate a epic item
-#Range: 1 ~ 100
+#Range: 0 ~ 100
 epicRarity = 8
 #chance that a loot crate will generate a unique item
-#Range: 1 ~ 100
+#Range: 0 ~ 100
 uniqueRarity = 6
 
