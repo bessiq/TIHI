@@ -2,7 +2,7 @@
 #Some more different stuff
 ["Generic Config"]
 	#Whether or not integrated World Name Randomizer should be enabled.
-	enableWorldNameRandomizer = true
+	enableWorldNameRandomizer = false
 	#Allows to set offset for Ender Chest button on Y axis.
 	#Range: -32768 ~ 32768
 	enderChestButtonOffsetY = 0
