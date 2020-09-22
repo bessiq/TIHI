@@ -1,0 +1,58 @@
+{
+  "melee": [
+    {
+      "item": "dungeons_gear:stormlander",
+      "weight": 2
+    },
+    {
+      "item": "dungeons_gear:vine_whip",
+      "weight": 2
+    },
+    {
+      "item": "dungeons_gear:heartstealer",
+      "weight": 2
+    },
+    {
+      "item": "dungeons_gear:claymore",
+      "weight": 2
+    },
+    {
+      "item": "mekanismtools:refined_obsidian_sword",
+      "weight": 1
+    },
+    {
+      "item": "dungeons_gear:whirlwind",
+      "weight": 2
+    },
+    {
+      "item": "mysticalagriculture:tertium_sword",
+      "weight": 3
+    },
+    {
+      "item": "forbidden_arcanus:draco_arcanus_sword",
+      "weight": 3
+    },
+    {
+      "item": "wstweaks:lava_blade",
+      "weight": 2
+    },
+    {
+      "item": "byg:pendorite_battleaxe",
+      "weight": 3
+    },
+    {
+      "item": "enigmatic_legacy:etherium_sword",
+      "weight": 1
+    },
+    {
+      "item": "rats:ratlantis_sword",
+      "weight": 2
+    }
+  ],
+  "ranged": [
+    {
+      "item": "minecraft:bow",
+      "weight": 1
+    }
+  ]
+}

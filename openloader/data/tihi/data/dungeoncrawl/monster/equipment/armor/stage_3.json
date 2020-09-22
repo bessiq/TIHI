@@ -1,0 +1,115 @@
+{
+  "helmet": [
+    {
+      "item": "botania:manasteel_helmet"
+    },
+    {
+      "item": "immersiveengineering:armor_steel_head",
+      "weight": 2
+    },
+    {
+      "item": "forbidden_arcanus:mortem_helmet",
+      "weight": 3
+    },
+    {
+      "item": "dungeons_gear:fox_hood",
+      "weight": 3
+    },
+    {
+      "item": "dungeons_gear:spider_hood",
+      "weight": 3
+    },
+    {
+      "item": "dungeons_gear:curious_helmet",
+      "weight": 3
+    },
+    {
+      "item": "dungeons_gear:evocation_hat",
+      "weight": 3
+    },
+    {
+      "item": "farlanders:looter_hood",
+      "weight": 3
+    }
+  ],
+  "chestplate": [
+    {
+      "item": "botania:manasteel_chestplate"
+    },
+    {
+      "item": "immersiveengineering:armor_steel_chest",
+      "weight": 2
+    },
+    {
+      "item": "forbidden_arcanus:mortem_chestplate",
+      "weight": 3
+    },
+    {
+      "item": "dungeons_gear:fox_vest",
+      "weight": 3
+    },
+    {
+      "item": "dungeons_gear:spider_vest",
+      "weight": 3
+    },
+    {
+      "item": "dungeons_gear:curious_chestplate",
+      "weight": 3
+    },
+    {
+      "item": "dungeons_gear:evocation_robe",
+      "weight": 3
+    },
+    {
+      "item": "forbidden_arcanus:mortem_chestplate",
+      "weight": 3
+    }
+  ],
+  "leggings": [
+    {
+      "item": "botania:manasteel_leggings"
+    },
+    {
+      "item": "immersiveengineering:armor_steel_legs",
+      "weight": 2
+    },
+    {
+      "item": "forbidden_arcanus:mortem_leggings",
+      "weight": 3
+    },
+    {
+      "item": "forbidden_arcanus:mortem_leggings",
+      "weight": 3
+    },
+    {
+      "item": "minecraft:iron_leggings"
+    },
+    {
+      "item": "minecraft:golden_leggings"
+    }
+  ],
+  "boots": [
+    {
+      "item": "botania:manasteel_boots",
+      "weight": 2
+    },
+    {
+      "item": "immersiveengineering:armor_steel_feet",
+      "weight": 2
+    },
+    {
+      "item": "forbidden_arcanus:mortem_boots",
+      "weight": 3
+    },
+    {
+      "item": "forbidden_arcanus:mortem_boots",
+      "weight": 3
+    },
+    {
+      "item": "minecraft:iron_boots"
+    },
+    {
+      "item": "minecraft:golden_boots"
+    }
+  ]
+}

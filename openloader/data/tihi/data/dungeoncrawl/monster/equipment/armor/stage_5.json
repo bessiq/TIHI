@@ -1,0 +1,138 @@
+{
+  "helmet": [
+    {
+      "item": "aquaculture:neptunium_helmet",
+      "weight": 3
+    },
+    {
+      "item": "forbidden_arcanus:arcane_gold_helmet",
+      "weight": 3
+    },
+    {
+      "item": "mekanismtools:refined_obsidian_helmet",
+      "weight": 3
+    },
+    {
+      "item": "byg:ametrine_helmet",
+      "weight": 3
+    },
+    {
+      "item": "rats:ratlantis_helmet",
+      "weight": 1
+    },
+    {
+      "item": "botania:terrasteel_helmet",
+      "weight": 1
+    },
+    {
+      "item": "dungeons_gear:stalwart_helmet",
+      "weight": 3
+    },
+    {
+      "item": "dungeons_gear:wither_helmet",
+      "weight": 2
+    },
+    {
+      "item": "dungeons_gear:titans_shroud_helmet",
+      "weight": 1
+    },
+    {
+      "item": "dungeons_gear:ember_hat",
+      "weight": 2
+    }
+  ],
+  "chestplate": [
+    {
+      "item": "aquaculture:neptunium_chestplate",
+      "weight": 3
+    },
+    {
+      "item": "forbidden_arcanus:arcane_gold_chestplate",
+      "weight": 3
+    },
+    {
+      "item": "mekanismtools:refined_obsidian_chestplate",
+      "weight": 3
+    },
+    {
+      "item": "byg:ametrine_chestplate",
+      "weight": 3
+    },
+    {
+      "item": "rats:ratlantis_chestplate",
+      "weight": 1
+    },
+    {
+      "item": "botania:terrasteel_chestplate",
+      "weight": 1
+    },
+    {
+      "item": "dungeons_gear:stalwart_chestplate",
+      "weight": 3
+    },
+    {
+      "item": "dungeons_gear:wither_chestplate",
+      "weight": 2
+    },
+    {
+      "item": "dungeons_gear:titans_shroud_chestplate",
+      "weight": 1
+    },
+    {
+      "item": "dungeons_gear:ember_robe",
+      "weight": 2
+    }
+  ],
+  "leggings": [
+    {
+      "item": "aquaculture:neptunium_leggings",
+      "weight": 3
+    },
+    {
+      "item": "forbidden_arcanus:arcane_gold_leggings",
+      "weight": 3
+    },
+    {
+      "item": "mekanismtools:refined_obsidian_leggings",
+      "weight": 3
+    },
+    {
+      "item": "byg:ametrine_leggings",
+      "weight": 3
+    },
+    {
+      "item": "mrats:ratlantis_leggings",
+      "weight": 1
+    },
+    {
+      "item": "botania:terrasteel_leggings",
+      "weight": 1
+    }
+  ],
+  "boots": [
+    {
+      "item": "aquaculture:neptunium_boots",
+      "weight": 3
+    },
+    {
+      "item": "forbidden_arcanus:arcane_gold_boots",
+      "weight": 3
+    },
+    {
+      "item": "mekanismtools:refined_obsidian_boots",
+      "weight": 3
+    },
+    {
+      "item": "byg:ametrine_boots",
+      "weight": 3
+    },
+    {
+      "item": "rats:ratlantis_boots",
+      "weight": 1
+    },
+    {
+      "item": "botania:terrasteel_boots",
+      "weight": 1
+    }
+  ]
+}

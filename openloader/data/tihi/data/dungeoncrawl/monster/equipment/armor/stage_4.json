@@ -1,0 +1,133 @@
+{
+  "helmet": [
+    {
+      "item": "minecraft:netherite_helmet",
+      "weight": 2
+    },
+    {
+      "item": "farlanders:nightfall_helmet",
+      "weight": 2
+    },
+    {
+      "item": "endreborn:tungsten_helmet",
+      "weight": 2
+    },
+    {
+      "item": "botania:elementium_helmet",
+      "weight": 2
+    },
+    {
+      "item": "savageandravage:griefer_helmet",
+      "weight": 2
+    },
+    {
+      "item": "mutantbeasts:mutant_skeleton_skull",
+      "weight": 2
+    },
+    {
+      "item": "dungeons_gear:grim_helmet",
+      "weight": 2
+    },
+    {
+      "item": "dungeons_gear:dark_helmet",
+      "weight": 2
+    }
+  ],
+  "chestplate": [
+    {
+      "item": "minecraft:netherite_chestplate",
+      "weight": 2
+    },
+    {
+      "item": "farlanders:nightfall_chestplate",
+      "weight": 2
+    },
+    {
+      "item": "endreborn:tungsten_chestplate",
+      "weight": 2
+    },
+    {
+      "item": "botania:elementium_chestplate",
+      "weight": 2
+    },
+    {
+      "item": "savageandravage:griefer_chestplate",
+      "weight": 2
+    },
+    {
+      "item": "mutantbeasts:mutant_skeleton_chestplate",
+      "weight": 2
+    },
+    {
+      "item": "dungeons_gear:grim_chestplate",
+      "weight": 2
+    },
+    {
+      "item": "dungeons_gear:dark_chestplate",
+      "weight": 2
+    },
+    {
+      "item": "dungeons_gear:battle_robe",
+      "weight": 2
+    }
+  ],
+  "leggings": [
+    {
+      "item": "minecraft:netherite_leggings",
+      "weight": 2
+    },
+    {
+      "item": "farlanders:nightfall_leggings",
+      "weight": 2
+    },
+    {
+      "item": "endreborn:tungsten_leggings",
+      "weight": 2
+    },
+    {
+      "item": "botania:elementium_leggings",
+      "weight": 2
+    },
+    {
+      "item": "savageandravage:griefer_leggings",
+      "weight": 2
+    },
+    {
+      "item": "mutantbeasts:mutant_skeleton_leggings",
+      "weight": 2
+    },
+    {
+      "item": "minecraft:diamond_leggings",
+      "weight": 2
+    }
+  ],
+  "boots": [
+    {
+      "item": "minecraft:netherite_boots",
+      "weight": 2
+    },
+    {
+      "item": "farlanders:nightfall_boots",
+      "weight": 2
+    },
+    {
+      "item": "endreborn:tungsten_boots",
+      "weight": 2
+    },
+    {
+      "item": "botania:elementium_boots",
+      "weight": 2
+    },
+    {
+      "item": "savageandravage:griefer_boots",
+      "weight": 2
+    },
+    {
+      "item": "mutantbeasts:mutant_skeleton_boots",
+      "weight": 2
+    },
+    {
+      "item": "minecraft:diamond_boots"
+    }
+  ]
+}

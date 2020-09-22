@@ -240,25 +240,22 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "minecraft:gameplay/fishing/treasure"
+					"name": "minecraft:chests/woodland_mansion"
 				}
 			]
 		},
 		{
-			"rolls": {
-				"min": 0,
-				"max": 1
-			},
+			"rolls": 1,
 			"entries": [
 				{
 					"type": "minecraft:tag",
 					"name": "ringsofascension:rings",
 					"expand": true,
-					"weight": 1
+					"weight": 2
 				},
 				{
 					"type": "empty",
-					"weight": 99
+					"weight": 98
 				}
 			]
 		},

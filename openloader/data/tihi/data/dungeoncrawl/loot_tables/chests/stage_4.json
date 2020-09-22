@@ -468,19 +468,11 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "minecraft:chests/jungle_temple",
-					"weight": 20
+					"name": "minecraft:chests/jungle_temple"
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "minecraft:chests/desert_temple",
-					"weight": 15
-				},
-				{
-					"type": "minecraft:tag",
-					"name": "ringsofascension:rings",
-					"expand": true,
-					"weight": 1
+					"name": "minecraft:chests/desert_temple"
 				}
 			]
 		},

@@ -1,0 +1,47 @@
+{
+  "melee": [
+    {
+      "item": "dungeons_gear:nightmares_bite"
+    },
+    {
+      "item": "forbidden_arcanus:bone_sword"
+    },
+    {
+      "item": "dungeons_gear:whispering_spear"
+    },
+    {
+      "item": "dungeons_gear:dancers_sword",
+      "weight": 3
+    },
+    {
+      "item": "dungeons_gear:jailors_scythe",
+      "weight": 3
+    },
+    {
+      "item": "dungeons_gear:battlestaff_of_terror",
+      "weight": 3
+    },
+    {
+      "item": "dungeons_gear:nameless_blade",
+      "weight": 3
+    },
+    {
+      "item": "mutantbeasts:endersoul_hand"
+    },
+    {
+      "item": "dungeons_gear:hawkbrand"
+    },
+    {
+      "item": "appliedenergistics2:certus_quartz_sword"
+    },
+    {
+      "item": "botania:manasteel_sword"
+    }
+  ],
+  "ranged": [
+    {
+      "item": "minecraft:bow",
+      "weight": 1
+    }
+  ]
+}

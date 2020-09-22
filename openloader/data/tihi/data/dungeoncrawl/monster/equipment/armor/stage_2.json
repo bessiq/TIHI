@@ -1,0 +1,103 @@
+{
+  "helmet": [
+    {
+      "item": "immersiveengineering:armor_faraday_head",
+      "weight": 2
+    },
+    {
+      "item": "mekanismtools:lapis_lazuli_helmet",
+      "weight": 2
+    },
+    {
+      "item": "botania:manaweave_helmet",
+      "weight": 2
+    },
+    {
+      "item": "dungeons_gear:wolf_hood",
+      "weight": 2
+    },
+    {
+      "item": "dungeons_gear:archers_hood",
+      "weight": 2
+    },
+    {
+      "item": "teletubbies:noonoo_eyes",
+      "weight": 1
+    },
+    {
+      "item": "teletubbies:po_helmet",
+      "weight": 1
+    },
+    {
+      "item": "rats:plague_doctor_mask",
+      "weight": 1
+    }
+  ],
+  "chestplate": [
+    {
+      "item": "immersiveengineering:armor_faraday_chest",
+      "weight": 2
+    },
+    {
+      "item": "mekanismtools:lapis_lazuli_chestplate",
+      "weight": 2
+    },
+    {
+      "item": "botania:manaweave_chestplate",
+      "weight": 2
+    },
+    {
+      "item": "dungeons_gear:wolf_vest",
+      "weight": 2
+    },
+    {
+      "item": "dungeons_gear:archers_vest",
+      "weight": 2
+    }
+  ],
+  "leggings": [
+    {
+      "item": "immersiveengineering:armor_faraday_legs",
+      "weight": 2
+    },
+    {
+      "item": "mekanismtools:lapis_lazuli_helmet",
+      "weight": 2
+    },
+    {
+      "item": "botania:manaweave_leggings",
+      "weight": 2
+    },
+    {
+      "item": "minecraft:leather_leggings"
+    },
+    {
+      "item": "minecraft:chainmail_leggings"
+    }
+
+  ],
+  "boots": [
+    {
+      "item": "immersiveengineering:armor_faraday_feet",
+      "weight": 2
+    },
+    {
+      "item": "endreborn:ender_boots",
+      "weight": 2
+    },
+    {
+      "item": "botania:manaweave_boots",
+      "weight": 2
+    },
+    {
+      "item": "mekanismtools:lapis_lazuli_boots",
+      "weight": 2 
+    },
+    {
+      "item": "minecraft:leather_boots"
+    },
+    {
+      "item": "minecraft:chainmail_boots"
+    }
+  ]
+}

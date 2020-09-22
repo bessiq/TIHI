@@ -1,0 +1,31 @@
+{
+  "melee": [
+    {
+      "item": "aquaculture:neptunium_fillet_knife"
+    },
+    {
+      "item": "endreborn:end_stone_sword"
+    },
+    {
+      "item": "dungeons_gear:sickle"
+    },
+    {
+      "item": "dungeons_gear:frost_scythe"
+    },
+    {
+      "item": "dungeons_gear:cutlass"
+    },
+    {
+      "item": "mutantbeasts:creeper_shard"
+    },
+    {
+      "item": "dungeons_gear:dagger"
+    }
+  ],
+  "ranged": [
+    {
+      "item": "minecraft:bow",
+      "weight": 1
+    }
+  ]
+}
