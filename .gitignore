@@ -108,3 +108,4 @@ config/stepup.cfg
 *.csv
 config/chancecubes/custom_rewards/CustomSounds-Resourcepack.zip
 config.json
+dcintegration-common.toml
