@@ -295,16 +295,19 @@
 				{
 					"type": "minecraft:loot_table",
           "name": "minecraft:chests/simple_dungeon",
-          "weight": 20
+          "weight": 5
 				},
 				{
 					"type": "empty",
-					"weight": 80
+					"weight": 95
         }
 			]
     },
     {
-			"rolls": 1,
+			"rolls": {
+				"min": 0,
+				"max": 1
+			},
 			"entries": [
 				{
 					"type": "minecraft:tag",
