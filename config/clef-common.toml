@@ -18,7 +18,7 @@
 	disabledInstruments = []
 	#Chance of the zombies to spawn with an instrument, divided by 10000. 0 to disable
 	#Range: 0 ~ 10000
-	zombieSpawnRate = 50
+	zombieSpawnRate = 100
 	#Only allow hostile mobs to drop instruments when they die.
 	onlyHostileMobSpawn = true
 	#Can zombies use instruments?

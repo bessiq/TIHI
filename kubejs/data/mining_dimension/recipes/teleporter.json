@@ -1,0 +1,56 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    " ABCDE ",
+    "F  G  H",
+    "   I   ",
+    "   J   ",
+    "   K   ",
+    "   L   ",
+    "   M   "
+  ],
+  "key": {
+    "A": {
+      "item": "rats:ratlantis_pickaxe"
+    },
+    "B": {
+      "item": "mekanismtools:bronze_pickaxe"
+    },
+    "C": {
+      "item": "iceandfire:dragonbone_pickaxe"
+    },
+    "D": {
+      "item": "minecraft:netherite_pickaxe"
+    },
+    "E": {
+      "item": "forbidden_arcanus:infernum_pickaxe"
+    },
+    "F": {
+      "item": "cyclic:crystal_pickaxe"
+    },
+    "G": {
+      "item": "aquaculture:neptunium_pickaxe"
+    },
+    "H": {
+      "item": "doomweapon:argent_pickaxe"
+    },
+    "I": {
+      "item": "mysticalagriculture:prudentium_pickaxe"
+    },
+    "J": {
+      "item": "naturesaura:infused_iron_pickaxe"
+    },
+    "K": {
+      "item": "botania:manasteel_pick"
+    },
+    "L": {
+      "item": "byg:pendorite_pickaxe"
+    },
+    "M": {
+      "item": "immersiveengineering:pickaxe_steel"
+    }
+  },
+  "result": {
+    "item": "mining_dimension:teleporter"
+  }
+}

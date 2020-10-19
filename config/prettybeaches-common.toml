@@ -1,8 +1,10 @@
 
 #Configuration for Pretty Beaches
 [common]
+	#Whether buckets should be able to retrieve infinite water without destroying sources as well.
+	infiniteBucketWater = false
 	#Whether the flooding of adjacent air blocks should be animated or instant.
 	animatedFlooding = true
-	#List of blocks that should be affected by the adjusted water physics.
-	affectedBlocks = ["minecraft:sand", "minecraft:gravel", "byg:white_sand", "byg:purple_sand", "byg:blue_sand", "byg:black_sand"]
+	#List of blocks that should be affected by the adjusted water physics. If you want to have all blocks affected, just include "*" in the list.
+	affectedBlocks = ["minecraft:sand", "minecraft:red_sand", "minecraft:gravel", "byg:white_sand", "byg:purple_sand", "byg:blue_sand", "byg:black_sand", "byg:pink_sand"]
 

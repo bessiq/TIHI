@@ -87,7 +87,7 @@
 	#to customize how much ambient reverb a specific dimension has.
 	#The reverb percent should be between 0.0 and 1.0. By default the
 	#nether has 1.0, meaning full reverb without any special blocks.
-	dimensionSpecificReverb = ["0.5 minecraft:the_nether"]
+	dimensionSpecificReverb = ["1.0 minecraft:the_nether"]
 	################################################################################
 	#If this is true, when you're in an area that can see the sky, then
 	#there will be less reverb. This is for aboveground areas with

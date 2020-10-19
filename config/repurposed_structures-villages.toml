@@ -8,7 +8,7 @@
 	# RS's village to spawn in. Separate each ID with a comma ,
 	#
 	#Example: "minecraft:ice_spikes,awesome_mod:awesome_biome"
-	blacklistedVillageBiomes = "undergarden:barren_abyss,undergarden:dense_forest,undergarden:forgotten_field,undergarden:otherside,undergarden:smog_spires,undergarden:smogstem_forest,undergarden:wigglewood_forest,mahoutsukai:marble"
+	blacklistedVillageBiomes = "mining_dimension:mining"
 
 	[Villages.Spawnrate]
 		#

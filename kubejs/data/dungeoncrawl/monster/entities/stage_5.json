@@ -1,0 +1,31 @@
+{
+  "common": [
+    {
+      "entity": "minecraft:zombie",
+      "weight": 2
+    },
+    {
+      "entity": "minecraft:skeleton",
+      "weight": 2
+    },
+    {
+      "entity": "minecraft:wither_skeleton",
+      "weight": 2
+    },
+    {
+      "entity": "mekanismadditions:baby_wither_skeleton",
+      "weight": 1
+    }
+  ],
+  "rare": [
+    {
+      "entity": "lava_monster:lava_monster"
+    },
+    {
+      "entity": "minecraft:zoglin"
+    },
+    {
+      "entity": "mekanismadditions:baby_creeper"
+    }
+  ]
+}

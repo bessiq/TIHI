@@ -1,0 +1,14 @@
+{
+    "name": "Sapphire",
+    "type": "resource",
+    "tier": "mysticalagriculture:5",
+    "ingredient": {
+        "tag": "forge:gems/sapphire"
+    },
+    "color": "1333A2",
+    "textures": {
+        "flower": "mysticalagriculture:block/flower_dust",
+        "essence": "mysticalagriculture:item/essence_dust",
+        "seeds": "mysticalagriculture:item/mystical_seeds"
+    }
+}

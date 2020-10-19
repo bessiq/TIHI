@@ -1,5 +1,0 @@
-
-[general]
-	#The material blacklist of this module.
-	materialBlacklist = ["wood", "salt", "brick", "nether_brick", "dragonstone", "mana_diamond", "flour", "biotite", "certus_quartz"]
-

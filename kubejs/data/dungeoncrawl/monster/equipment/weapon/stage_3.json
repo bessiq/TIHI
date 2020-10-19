@@ -1,0 +1,54 @@
+{
+  "melee": [
+    {
+      "item": "dungeons_gear:mace",
+      "weight": 1
+    },
+    {
+      "item": "mutantbeasts:hulk_hammer",
+      "weight": 1
+    },
+    {
+      "item": "botania:terra_blade",
+      "weight": 1
+    },
+    {
+      "item": "dungeons_gear:highland_axe",
+      "weight": 1
+    },
+    {
+      "item": "minecraft:diamond_sword",
+      "weight": 3
+    },
+    {
+      "item": "farlanders:nightfall_sword",
+      "weight": 2
+    },
+    {
+      "item": "forbidden_arcanus:arcane_golden_sword",
+      "weight": 3
+    },
+    {
+      "item": "mekanismtools:osmium_sword",
+      "weight": 3
+    },
+    {
+      "item": "iceandfire:dragon_bone_sword",
+      "weight": 2
+    },
+    {
+      "item": "good_nights_sleep:negatite_axe",
+      "weight": 1
+    },
+    {
+      "item": "mysticalagriculture:inferium_sword",
+      "weight": 2
+    }
+  ],
+  "ranged": [
+    {
+      "item": "minecraft:bow",
+      "weight": 1
+    }
+  ]
+}

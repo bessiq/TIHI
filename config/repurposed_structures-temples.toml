@@ -5,7 +5,7 @@
 	# temples to spawn in. Separate each ID with a comma ,
 	#
 	#Example: "minecraft:ice_spikes,awesome_mod:awesome_biome"
-	blacklistedTempleBiomes = "undergarden:barren_abyss,undergarden:dense_forest,undergarden:forgotten_field,undergarden:otherside,undergarden:smog_spires,undergarden:smogstem_forest,undergarden:wigglewood_forest,mahoutsukai:marble"
+	blacklistedTempleBiomes = "mining_dimension:mining"
 	#
 	# Add Nether Crimson Temples to modded Nether Crimson Forest biomes.
 	addNetherCrimsonTempleToModdedBiomes = true
@@ -67,7 +67,7 @@
 	# pyramids to spawn in. Separate each ID with a comma ,
 	#
 	#Example: "minecraft:ice_spikes,awesome_mod:awesome_biome"
-	blacklistedPyramidBiomes = "undergarden:barren_abyss,undergarden:dense_forest,undergarden:forgotten_field,undergarden:otherside,undergarden:smog_spires,undergarden:smogstem_forest,undergarden:wigglewood_forest,mahoutsukai:marble"
+	blacklistedPyramidBiomes = "mining_dimension:mining"
 	#
 	# Add Badlands Pyramid to modded Badlands biomes.
 	addBadlandsPyramidToModdedBiomes = true

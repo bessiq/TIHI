@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aba",
+    "dcd",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:ender_pearls"
+    },
+    "b": {
+      "item": "botania:lens_magnet"
+    },
+    "c": {
+      "item": "mininggadgets:upgrade_empty"
+    },
+    "d": {
+      "item": "enigmaticlegacy:magnet_ring"
+    }
+  },
+  "result": {
+    "item": "mininggadgets:upgrade_magnet"
+  }
+}

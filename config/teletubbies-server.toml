@@ -8,21 +8,21 @@
 	#Range: 1 ~ 1000000
 	umpiepumpie_weight = 3
 	#Range: 1 ~ 1000000
-	dipsy_weight = 10
+	dipsy_weight = 8
 	#Range: 1 ~ 1000000
 	nin_weight = 3
 	#Range: 1 ~ 1000000
 	ping_weight = 3
 	#Range: 1 ~ 1000000
-	laalaa_weight = 10
+	laalaa_weight = 8
 	#Range: 1 ~ 1000000
-	po_weight = 10
+	po_weight = 8
 	#Range: 1 ~ 1000000
-	noonoo_weight = 10
+	noonoo_weight = 8
 	#Range: 1 ~ 1000000
 	duggledee_weight = 3
 	#Range: 1 ~ 1000000
-	tinkywinky_weight = 10
+	tinkywinky_weight = 8
 	#Range: 1 ~ 1000000
 	ba_weight = 3
 	#Range: 1 ~ 1000000
@@ -30,12 +30,15 @@
 
 #World Gen settings
 [worldgen]
+	#Min chunks between domes
+	#Range: 1 ~ 1000
+	min = 10
+	#Max chunks between domes
+	#Range: 1 ~ 1000
+	max = 25
 	#Voice Trumpet Probability (%) to reduce chance of actual placement
-	#Range: 1 ~ 100
-	probability = 30
-	#Voice Trumpet Frequency for Placement
-	#Range: 2 ~ 1000
-	frequency = 2
+	#Range: 0 ~ 100
+	probability = 10
 
 #Hostile Entity settings
 ["hostile entities"]

@@ -24,107 +24,73 @@
 	#If you have other mods messing with shift-right clicking villagers or simply don't want it, disable this feature. [true / false]
 	enableSalvaging = true
 
+#Combat Configuration
+[combat_configuration]
+	#Enable area of effects also being applied to players. 
+	#If you do not want area of effects being applied to other players, disable this feature. [true / false]
+	enableAreaOfEffectOnPlayers = true
+
 #Common Loot Table Configuration
 [common_loot_table_configuration]
-	#The decimal chance for a unique weapon to appear in common loot tables [0.0-1.0, default: 0.15]
+	#The decimal chance for a unique item to appear in common loot tables instead of a common one [0.0-1.0, default: 0.15]
 	#Range: 0.0 ~ 1.0
-	uniqueWeaponCommonLoot = 0.05
-	#The decimal chance for a unique armor to appear in common loot tables [0.0-1.0, default: 0.15]
-	#Range: 0.0 ~ 1.0
-	uniqueArmorCommonLoot = 0.05
+	uniqueItemCommonLoot = 0.04
 	#Add gear from this mod to loot tables considered common. 
 	#To do so, enter the full path of the specific loot table, or the path of the folder containing the loot tables.
 	#You can also write an incomplete path, and the mod will add to loot tables containing that incomplete path.
 	commonLootTables = ["minecraft:chests/abandoned_mineshaft", "minecraft:chests/shipwreck", "minecraft:chests/desert_pyramid"]
-	#The decimal chance for a common weapon to appear in common loot tables [0.0-1.0, default: 1.0]
-	#Range: 0.0 ~ 1.0
-	commonWeaponCommonLoot = 0.15
 	#The decimal chance for an artifact to appear in common loot tables [0.0-1.0, default: 0.25]
 	#Range: 0.0 ~ 1.0
-	artifactCommonLoot = 0.1
+	artifactCommonLoot = 0.06
 	#Use this list to prevent specific loot tables from getting common loot. 
-	#To do so, enter the full path of the specific loot table, or the path of the folder containing the loot tables.
-	#You can also write an incomplete path, and the mod will blacklist loot tables containing that incomplete path.
+	#To do so, enter the full path of the specific loot table.
 	commonLootTablesBlacklist = []
-	#The decimal chance for a common armor to appear in common loot tables [0.0-1.0, default: 1.0]
-	#Range: 0.0 ~ 1.0
-	commonArmorCommonLoot = 0.15
 
 #Uncommon Loot Table Configuration
 [uncommon_loot_table_configuration]
-	#The decimal chance for a unique weapon to appear in uncommon loot tables [0.0-1.0, default: 0.3]
+	#The decimal chance for a unique item to appear in uncommon loot tables instead of a common one [0.0-1.0, default: 0.3]
 	#Range: 0.0 ~ 1.0
-	uniqueWeaponUncommonLoot = 0.1
+	uniqueItemUncommonLoot = 0.07
 	#Add gear from this mod to loot tables considered uncommon. 
 	#To do so, enter the full path of the specific loot table, or the path of the folder containing the loot tables.
 	#You can also write an incomplete path, and the mod will add to loot tables containing that incomplete path.
 	uncommonLootTables = ["minecraft:chests/jungle_temple", "minecraft:chests/nether_bridge", "minecraft:chests/bastion"]
 	#Use this list to prevent specific loot tables from getting uncommon loot. 
-	#To do so, enter the full path of the specific loot table, or the path of the folder containing the loot tables.
-	#You can also write an incomplete path, and the mod will blacklist loot tables containing that incomplete path.
+	#To do so, enter the full path of the specific loot table.
 	uncommonLootTablesBlacklist = ["minecraft:chests/jungle_temple_dispenser"]
-	#The decimal chance for a common weapon to appear in uncommon loot tables [0.0-1.0, default: 1.0]
-	#Range: 0.0 ~ 1.0
-	commonWeaponUncommonLoot = 0.2
 	#The decimal chance for an artifact to appear in uncommon loot tables [0.0-1.0, default: 0.5]
 	#Range: 0.0 ~ 1.0
-	artifactUncommonLoot = 0.15
-	#The decimal chance for a unique armor to appear in uncommon loot tables [0.0-1.0, default: 0.3]
-	#Range: 0.0 ~ 1.0
-	uniqueArmorUncommonLoot = 0.1
-	#The decimal chance for a common armor to appear in uncommon loot tables [0.0-1.0, default: 1.0]
-	#Range: 0.0 ~ 1.0
-	commonArmorUncommonLoot = 0.2
+	artifactUncommonLoot = 0.9
 
 #Rare Loot Table Configuration
 [rare_loot_table_configuration]
-	#The decimal chance for a common armor to appear in rare loot tables [0.0-1.0, default: 1.0]
-	#Range: 0.0 ~ 1.0
-	commonArmorRareLoot = 0.25
-	#The decimal chance for a common weapon to appear in rare loot tables [0.0-1.0, default: 1.0]
-	#Range: 0.0 ~ 1.0
-	commonWeaponRareLoot = 0.25
 	#The decimal chance for an artifact to appear in rare loot tables [0.0-1.0, default: 0.75]
 	#Range: 0.0 ~ 1.0
-	artifactRareLoot = 0.2
+	artifactRareLoot = 0.12
 	#Add gear from this mod to loot tables considered rare. 
 	#To do so, enter the full path of the specific loot table, or the path of the folder containing the loot tables.
 	#You can also write an incomplete path, and the mod will add to loot tables containing that incomplete path.
-	rareLootTables = ["minecraft:chests/stronghold", "minecraft:chests/buried_treasure", "minecraft:chests/underwater_ruin", "minecraft:chests/ruined_portal", "minecraft:chests/pillager_outpost", "minecraft:chests/simple_dungeon", "minecraft:chests/end_city_treasure", "minecraft:chests/igloo_chest"]
-	#The decimal chance for a unique weapon to appear in rare loot tables [0.0-1.0, default: 0.45]
+	rareLootTables = ["minecraft:chests/stronghold", "minecraft:chests/underwater_ruin", "minecraft:chests/ruined_portal", "minecraft:chests/pillager_outpost", "minecraft:chests/simple_dungeon", "minecraft:chests/end_city_treasure", "minecraft:chests/igloo_chest"]
+	#The decimal chance for a unique weapon to appear in rare loot table instead of a common ones [0.0-1.0, default: 0.45]
 	#Range: 0.0 ~ 1.0
-	uniqueWeaponRareLoot = 0.15
-	#The decimal chance for a unique armor to appear in rare loot tables [0.0-1.0, default: 0.45]
-	#Range: 0.0 ~ 1.0
-	uniqueArmorRareLoot = 0.15
+	uniqueItemRareLoot = 0.1
 	#Use this list to prevent specific loot tables from getting rare loot. 
-	#To do so, enter the full path of the specific loot table, or the path of the folder containing the loot tables.
-	#You can also write an incomplete path, and the mod will blacklist loot tables containing that incomplete path.
+	#To do so, enter the full path of the specific loot table.
 	rareLootTableBlacklist = []
 
 #Super Rare Loot Table Configuration
 [super_rare_loot_table_configuration]
-	#The decimal chance for a unique weapon to appear in super rare loot tables [0.0-1.0, default: 0.6]
-	#Range: 0.0 ~ 1.0
-	uniqueWeaponSuperRareLoot = 0.2
-	#The decimal chance for an artifact to appear in super rare loot tables [0.0-1.0, default: 1.0]
-	#Range: 0.0 ~ 1.0
-	artifactSuperRareLoot = 0.25
 	#Add gear from this mod to loot tables considered super rare. 
 	#To do so, enter the full path of the specific loot table, or the path of the folder containing the loot tables.
 	#You can also write an incomplete path, and the mod will add to loot tables containing that incomplete path.
 	superRareLootTables = ["minecraft:chests/woodland_mansion", "minecraft:chests/buried_treasure"]
-	#The decimal chance for a common weapon to appear in super rare loot tables [0.0-1.0, default: 1.0]
+	#The decimal chance for an artifact to appear in super rare loot tables [0.0-1.0, default: 1.0]
 	#Range: 0.0 ~ 1.0
-	commonWeaponSuperRareLoot = 0.3
-	#The decimal chance for a common armor to appear in super rare loot tables [0.0-1.0, default: 1.0]
-	#Range: 0.0 ~ 1.0
-	commonArmorSuperRareLoot = 0.3
+	artifactSuperRareLoot = 0.15
 	#Use this list to prevent specific loot tables from getting super rare loot. 
-	#To do so, enter the full path of the specific loot table, or the path of the folder containing the loot tables.
-	#You can also write an incomplete path, and the mod will blacklist loot tables containing that incomplete path.
+	#To do so, enter the full path of the specific loot table.
 	superRareLootTablesBlacklist = []
-	#The decimal chance for a unique armor to appear in super rare loot tables [0.0-1.0, default: 0.6]
+	#The decimal chance for a unique item to appear in super rare loot tables instead of a common one [0.0-1.0, default: 0.6]
 	#Range: 0.0 ~ 1.0
-	uniqueArmorSuperRareLoot = 0.2
+	uniqueItemSuperRareLoot = 0.13
 

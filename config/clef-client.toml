@@ -7,7 +7,7 @@
 	#Do you have a favourite band? Setting this will always set your band when you start playing a song.
 	favoriteBand = ""
 	#Should we show a message of "Now Playing" for songs, similarly to records.
-	showRecordPlayingMessageForTracks = true
+	showRecordPlayingMessageForTracks = false
 	#The distance in blocks that instruments can be heard from.
 	#Range: 16 ~ 48
 	instrumentHearableDistance = 32

@@ -6,13 +6,13 @@
 		#The chance of acid rain that's checked every 5,000 ticks.
 		# Default: 0.25
 		#Range: 0.0 ~ 1.0
-		AcidRainChance = 0.2
+		AcidRainChance = 0.25
 		#Destroy what block materials? Allowed Values: GRASS,LEAVES,PLANTS,CROPS
 		#Default: GRASS,LEAVES,PLANTS,CROPS
 		BlocksToDestroy = "GRASS,LEAVES,PLANTS,CROPS"
 		#The block to change grass to.
-		#Default: "minecraft:coarse_dirt"
-		BlockToChangeFromGrass = "minecraft:coarse_dirt"
+		#Default: "minecraft:dirt"
+		BlockToChangeFromGrass = "minecraft:dirt"
 		#Destroy Blocks?
 		#Default: true
 		DestroyBlocks = true
@@ -22,7 +22,7 @@
 		#How often blocks are destroyed during an acid rain event.
 		#Default: 500
 		#Range: 1 ~ 100000
-		BlockDestroyTickSpeed = 500
+		BlockDestroyTickSpeed = 250
 
 	[Acid_Rain_Settings.Entity_Settings]
 		#Allowed Values: PLAYER, MONSTER, ANIMAL.
@@ -38,7 +38,7 @@
 		#How often are entities(including players) hurt?
 		#Default: 150
 		#Range: 10 ~ 100000
-		EntityDamageTickSpeed = 100
+		EntityDamageTickSpeed = 150
 
 [Blizzard_Settings]
 
@@ -61,7 +61,7 @@
 
 		[Blizzard_Settings.World_Settings.Snow_Generation]
 			#How often is snow and ice placed during blizzards?
-			#Default: 20
+			#Default: 15
 			#Range: 1 ~ 100000
 			SnowAndIceBlockPlaceTickSpeed = 20
 			#Do blizzards appear in and generate snow in deserts?

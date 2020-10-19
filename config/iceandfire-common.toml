@@ -14,7 +14,7 @@
 	"Cyclops Max Health" = 200.0
 	#Dread Lich spawn weight. Lower = lower chance to spawn
 	#Range: 1 ~ 10000
-	"Lich Spawn Weight" = 3
+	"Lich Spawn Weight" = 2
 	#Whether or not sea serpents can break weak blocks in their way
 	"Sea Serpent Griefing" = true
 	#True if pixie villages are allowed to spawn
@@ -42,6 +42,8 @@
 	"Spawn Cockatrices" = true
 	#True if tamed dragons go to sleep at night.
 	"Tamed Dragons Sleep" = true
+	#True if ghosts can rarely spawn from brutal PvP deaths.
+	"Ghost Spawn from PvP deaths" = true
 	#Whether or not cyclops can break logs or leaves in their way
 	"Cyclops Griefing" = true
 	#Disable this to remove easter egg with tinkers installed.
@@ -54,7 +56,7 @@
 	"Spawn Liches" = true
 	#One out of this number chance per chunk to generate a mausoleum.
 	#Range: 1 ~ 10000
-	"Mausoleum Gen Chance" = 1600
+	"Mausoleum Gen Chance" = 1800
 	#Whether to generate copper ore or not
 	"Generate Copper Ore" = false
 	#A more intelligent dragon pathfinding system, but is also laggier. Turn this on if you think dragons are too stupid.
@@ -164,7 +166,7 @@
 	"Spawn Wandering Cyclops Chance" = 900
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Spawn Gorgon Chance" = 75
+	"Spawn Gorgon Chance" = 100
 	#Default durability value of dragonsteel sword.
 	#Range: > 1
 	"Dragonsteel Base Durability" = 8000
@@ -176,12 +178,17 @@
 	#How many ticks it takes for a Myrmex to move from a larva to a pupa, and from a pupa to an adult.
 	#Range: 1 ~ 100000
 	"Myrmex Hatch Length" = 35000
+	#Whether to generate graveyards or not
+	"Generate Graveyards" = true
 	#True if trolls are allowed to spawn
 	"Spawn Trolls" = true
 	#True if amphitheres are allowed to spawn
 	"Spawn Amphitheres" = true
 	#Whether to generate sapphire ore or not
-	"Generate Sapphire Ore" = false
+	"Generate Sapphire Ore" = true
+	#Maximum ghost health.
+	#Range: 1.0 ~ 10000.0
+	"Ghost Max Health" = 35.0
 	#How far away dangerous structures(dragon roosts, cyclops caves, etc.) must be from spawn(0, 0).
 	#Range: 1 ~ 10000
 	"Dangerous World Gen Dist From Spawn" = 666
@@ -197,9 +204,12 @@
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
 	"Generate Dragon Roost Chance" = 540
+	#Maximum ghost attack strength.
+	#Range: 0.0 ~ 10000.0
+	"Ghost Attack Strength" = 4.5
 	#One out of this number chance per chunk to generate a hydra cave.
 	#Range: 1 ~ 10000
-	"Hydra Caves Gen Chance" = 150
+	"Hydra Caves Gen Chance" = 170
 	#Every interval of this number in ticks, dragon allowed to break blocks.
 	#Range: 0 ~ 10000
 	"Dragon Block Break Cooldown" = 5
@@ -258,7 +268,7 @@
 	"Spawn Hippocampus Chance" = 80
 	#Amphithere spawn weight. Lower = lower chance to spawn
 	#Range: 1 ~ 10000
-	"Amphithere Spawn Weight" = 5
+	"Amphithere Spawn Weight" = 50
 	#Dragon Flute Distance - how many chunks away is the dragon flute effective?
 	#Range: 0 ~ 10000
 	"Dragon Flute Distance" = 4
@@ -278,7 +288,7 @@
 	#Range: 0.0 ~ 1.0
 	"Easter Egg Tinkers Tool Disarm chance" = 0.20000000298023224
 	#Whether to generate amethyst ore or not
-	"Generate Amethyst Ore" = false
+	"Generate Amethyst Ore" = true
 	#Ratio of Stone(this number) to Ores in Dragon Caves
 	#Range: 1 ~ 10000
 	"Dragon Cave Ore Ratio" = 45
@@ -333,7 +343,7 @@
 	"Dragon Attack Damage" = 25
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Spawn Sirens Chance" = 666
+	"Spawn Sirens Chance" = 404
 	#Maximum troll health
 	#Range: 1.0 ~ 10000.0
 	"Troll Max Health" = 75.0

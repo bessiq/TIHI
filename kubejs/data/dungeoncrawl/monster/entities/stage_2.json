@@ -1,0 +1,31 @@
+{
+  "common": [
+    {
+      "entity": "minecraft:zombie",
+      "weight": 2
+    },
+    {
+      "entity": "minecraft:skeleton",
+      "weight": 2
+    },
+    {
+      "entity": "minecraft:spider",
+      "weight": 1
+    },
+    {
+      "entity": "minecraft:cave_spider",
+      "weight": 1
+    }
+  ],
+  "rare": [
+    {
+      "entity": "minecraft:creeper"
+    },
+    {
+      "entity": "teletubbies:tinkywinky_zombie"
+    },
+    {
+      "entity": "minecraft:stray"
+    }
+  ]
+}

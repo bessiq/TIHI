@@ -362,75 +362,12 @@
         },
         {
             "output": {
-                "item": "quark:blue_blossom_sapling"
-            },
-            "payment": {
-                "item": "minecraft:emerald"
-            },
-            "category": "farmingforblockheads:saplings"
-        },
-        {
-            "output": {
-                "item": "quark:lavender_blossom_sapling"
-            },
-            "payment": {
-                "item": "minecraft:emerald"
-            },
-            "category": "farmingforblockheads:saplings"
-        },
-        {
-            "output": {
-                "item": "quark:orange_blossom_sapling"
-            },
-            "payment": {
-                "item": "minecraft:emerald"
-            },
-            "category": "farmingforblockheads:saplings"
-        },
-        {
-            "output": {
-                "item": "quark:pink_blossom_sapling"
-            },
-            "payment": {
-                "item": "minecraft:emerald"
-            },
-            "category": "farmingforblockheads:saplings"
-        },
-        {
-            "output": {
-                "item": "quark:yellow_blossom_sapling"
-            },
-            "payment": {
-                "item": "minecraft:emerald"
-            },
-            "category": "farmingforblockheads:saplings"
-        },
-        {
-            "output": {
-                "item": "silentgear:netherwood_sapling"
-            },
-            "payment": {
-                "item": "silentgear:crimson_iron_ingot"
-            },
-            "category": "farmingforblockheads:saplings"
-        },
-        {
-            "output": {
                 "item": "forbidden_arcanus:mysterywood_sapling"
             },
             "payment": {
                 "item": "forbidden_arcanus:arcane_gold_ingot"
             },
             "category": "farmingforblockheads:saplings"
-        },
-        {
-            "output": {
-                "item": "silentgear:flax_seeds"
-            },
-            "payment": {
-                "item": "minecraft:emerald"
-            },
-            "category": "farmingforblockheads:seeds"
         },
         {
             "output": {

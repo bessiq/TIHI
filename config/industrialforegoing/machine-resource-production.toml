@@ -37,13 +37,13 @@
 		#Amount of Power Consumed per Tick - Default: [400FE]
 		powerPerOperation = 1000
 
-	[MachineResourceProductionConfig.SludgeRefinerConfig]
-		#Amount of Power Consumed per Tick - Default: [400FE]
-		powerPerTick = 1000
+	[MachineResourceProductionConfig.SporeRecreatorConfig]
+		#Amount of Power Consumed per Tick - Default: [40FE]
+		powerPerTick = 40
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
-		#Max Amount of Stored Fluid [Sludge] - Default: [8000mB]
-		maxSludgeTankSize = 8000
+		#Max Amount of Stored Fluid [Water] - Default: [8000mB]
+		maxWaterTankSize = 1000
 
 	[MachineResourceProductionConfig.MarineFisherConfig]
 		#Max Stored Power [FE] - Default: [20000 FE]
@@ -53,27 +53,27 @@
 		#Amount of Power Consumed per Tick - Default: [5000FE]
 		powerPerOperation = 5000
 
-	[MachineResourceProductionConfig.SporeRecreatorConfig]
-		#Amount of Power Consumed per Tick - Default: [40FE]
-		powerPerTick = 40
-		#Max Stored Power [FE] - Default: [10000 FE]
-		maxStoredPower = 10000
-		#Max Amount of Stored Fluid [Water] - Default: [8000mB]
-		maxWaterTankSize = 1000
-
-	[MachineResourceProductionConfig.BlockPlacerConfig]
-		#Max Stored Power [FE] - Default: [10000 FE]
-		maxStoredPower = 10000
-		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
-		maxProgress = 100
+	[MachineResourceProductionConfig.SludgeRefinerConfig]
 		#Amount of Power Consumed per Tick - Default: [400FE]
-		powerPerOperation = 1000
+		powerPerTick = 1000
+		#Max Stored Power [FE] - Default: [10000 FE]
+		maxStoredPower = 10000
+		#Max Amount of Stored Fluid [Sludge] - Default: [8000mB]
+		maxSludgeTankSize = 8000
 
 	[MachineResourceProductionConfig.MechanicalDirtConfig]
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 		#Max Amount of Stored Fluid [Meat] - Default: [8000mB]
 		maxMeatTankSize = 4000
+		#Amount of Power Consumed per Tick - Default: [400FE]
+		powerPerOperation = 1000
+
+	[MachineResourceProductionConfig.BlockPlacerConfig]
+		#Max Stored Power [FE] - Default: [10000 FE]
+		maxStoredPower = 10000
+		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
+		maxProgress = 100
 		#Amount of Power Consumed per Tick - Default: [400FE]
 		powerPerOperation = 1000
 

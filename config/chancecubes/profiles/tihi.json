@@ -1,0 +1,12 @@
+{
+    "tihi": {
+        "name": "TIHI",
+        "description": "Thanks! I Hate It",
+        "rewards_to_enable": [
+            "yeet"
+        ],
+        "rewards_to_disable": [
+
+        ]
+   }
+}

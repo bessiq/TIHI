@@ -1,0 +1,32 @@
+{
+  "type": "crafting_shaped",
+  "group": "tools",
+  "pattern": [
+    "ALA",
+    "EFE",
+    "CLD"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:saplings"
+    },
+    "L": {
+      "item": "forbidden_arcanus:edelwood_log"
+    },
+    "C": {
+      "item": "good_nights_sleep:dream_sapling"
+    },
+    "D": {
+      "item": "naturesaura:ancient_sapling"
+    },
+    "E": {
+      "tag": "minecraft:logs"
+    },
+    "F": {
+      "item": "minecraft:compass"
+    }
+  },
+  "result": {
+    "item": "naturescompass:naturescompass"
+  }
+}

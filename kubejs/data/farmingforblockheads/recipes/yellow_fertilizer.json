@@ -1,0 +1,25 @@
+{
+  "result": {
+    "item": "farmingforblockheads:yellow_fertilizer"
+  },
+  "type": "crafting_shaped",
+  "pattern": [
+    "GGG",
+    "NSN",
+    "DDD"
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:dyes/yellow"
+    },
+    "N": {
+      "tag": "forge:nuggets/nickel"
+    },
+    "S": {
+      "tag": "forge:seeds"
+    },
+    "D": {
+      "item": "securitycraft:reinforced_dirt"
+    }
+  }
+}

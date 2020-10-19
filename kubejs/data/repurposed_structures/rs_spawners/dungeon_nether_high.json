@@ -1,0 +1,28 @@
+{
+    "mobs": [
+        {
+            "name": "minecraft:zombified_piglin",
+            "weight": 42
+        },
+        {
+            "name": "minecraft:strider",
+            "weight": 15
+        },
+        {
+            "name": "minecraft:magma_cube",
+            "weight": 26
+        },
+        {
+            "name": "minecraft:blaze",
+            "weight": 10
+        },
+        {
+            "name": "rats:demon_rat",
+            "weight": 2
+        },
+        {
+            "name": "minecraft:zoglin",
+            "weight": 5
+        }
+    ]
+}

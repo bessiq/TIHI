@@ -1,0 +1,62 @@
+{
+  "melee": [
+    {
+      "item": "aquaculture:neptunium_fillet_knife",
+      "weight": 1
+    },
+    {
+      "item": "dungeons_gear:sickle",
+      "weight": 3
+    },
+    {
+      "item": "dungeons_gear:frost_scythe",
+      "weight": 3
+    },
+    {
+      "item": "dungeons_gear:cutlass",
+      "weight": 3
+    },
+    {
+      "item": "mutantbeasts:creeper_shard",
+      "weight": 3
+    },
+    {
+      "item": "iceandfire:copper_sword",
+      "weight": 3
+    },
+    {
+      "item": "iceandfire:silver_sword",
+      "weight": 2
+    },
+    {
+      "item": "iceandfire:stymphalian_bird_dagger",
+      "weight": 2
+    },
+    {
+      "item": "good_nights_sleep:candy_sword",
+      "weight": 1
+    },
+    {
+      "item": "cyclic:sandstone_sword",
+      "weight": 1
+    },
+    {
+      "item": "iceandfire:dread_sword",
+      "weight": 3
+    },
+    {
+      "item": "xreliquary:magicbane",
+      "weight": 1
+    },
+    {
+      "item": "dungeons_gear:dagger",
+      "weight": 3
+    }
+  ],
+  "ranged": [
+    {
+      "item": "minecraft:bow",
+      "weight": 1
+    }
+  ]
+}

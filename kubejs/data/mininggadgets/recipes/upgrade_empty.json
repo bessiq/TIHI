@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aba",
+    "dcd",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "extendedcrafting:redstone_component"
+    },
+    "b": {
+      "item": "rftoolsbase:infused_diamond"
+    },
+    "d": {
+      "tag": "forge:plastic"
+    },
+    "c": {
+      "item": "pneumaticcraft:empty_pcb"
+    }
+  },
+  "result": {
+    "item": "mininggadgets:upgrade_empty"
+  }
+}

@@ -3,12 +3,12 @@
 [common]
 	#If true, lava monsters do not require a source block to spawn.
 	flowingLava = false
+	#Allows you to choose which dimensions the Lava Monster spawns in. Add dimensions by their registry name/id, and separate them with commas, no spaces.
+	dimensionWhitelist = "minecraft:overworld,minecraft:the_nether,good_nights_sleep:nightmare,mining_dimension:mining"
 	#The distance a lava monster will begin attacking. (maximum of 35)
 	monsterRange = 20.0
 	#Number of fireballs shot with each attack.
 	attackShots = 3
-	#Allows you to add to the biomes the Lava Monster can spawn in, this does not change the existing biomes, only adds extra ones. Separate with commas. (By default, the Lava Monster will spawn in biomes tagged as nether or overworld.)
-	extraBiomes = "mining_dimension:mining_biome"
 	#The number of ticks between each lava monster spawn attempt.
 	spawnFrequency = 80
 	#If true, lava monsters will not spawn above layer 16.

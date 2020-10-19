@@ -1,0 +1,66 @@
+{
+  "melee": [
+    {
+      "item": "dungeons_gear:soul_knife",
+      "weight": 1
+    },
+    {
+      "item": "dungeons_gear:masters_katana",
+      "weight": 1
+    },
+    {
+      "item": "dungeons_gear:flail",
+      "weight": 1
+    },
+    {
+      "item": "dungeons_gear:great_hammer",
+      "weight": 2
+    },
+    {
+      "item": "dungeons_gear:venom_glaive",
+      "weight": 1
+    },
+    {
+      "item": "dungeons_gear:firebrand",
+      "weight": 2
+    },
+    {
+      "item": "enigmatic_legacy:forbidden_axe",
+      "weight": 3
+    },
+    {
+      "item": "gobber2:gobber2_sword",
+      "weight": 2
+    },
+    {
+      "item": "doomweapon:argent_sword",
+      "weight": 1
+    },
+    {
+      "item": "aquaculture:neptunium_sword",
+      "weight": 2
+    },
+    {
+      "item": "minecraft:netherite_sword",
+      "weight": 2
+    },
+    {
+      "item": "combustivefishing:searing_sword",
+      "weight": 2
+    },
+    {
+      "item": "mysticalagriculture:prudentium_sword",
+      "weight": 2
+    },
+    {
+      "item": "byg:pendorite_sword",
+      "weight": 2
+    }
+  ],
+  "ranged": [
+    {
+      "item": "minecraft:bow",
+      "weight": 1
+    }
+  ]
+}

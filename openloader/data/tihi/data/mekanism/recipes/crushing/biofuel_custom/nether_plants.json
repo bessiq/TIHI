@@ -1,6 +1,0 @@
-{
-  "type":"mekanism:crushing",
-  "input":
-    {"ingredient":{"tag":"tihi:plants/nether"}},
-  "output":{"item":"mekanism:bio_fuel","count":3}
-}

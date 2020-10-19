@@ -2,8 +2,12 @@
 [general]
 	#True if cheese can be created in cauldrons
 	Cheesemaking = true
+	#Whitelisted demon rat spawn biomes. Use the format like "minecraft:plains" or "rats:ratlantis" 
+	demonRatSpawnBiomes = ["minecraft:basalt_deltas", "minecraft:nether_wastes", "minecraft:crimson_forest", "minecraft:warped_forest"]
 	#True if rats are to spawn naturally
 	"Spawn Rats" = true
+	#Whitelisted piper spawn biomes. Use the format like "minecraft:plains" or "rats:ratlantis" 
+	piperSpawnBiomes = ["minecraft:giant_tree_taiga_hills", "minecraft:giant_tree_taiga_hills", "minecraft:snowy_taiga_mountains", "minecraft:frozen_river", "minecraft:snowy_taiga", "minecraft:forest", "minecraft:gravelly_mountains", "minecraft:dark_forest_hills", "minecraft:wooded_badlands_plateau", "minecraft:ice_spikes", "minecraft:snowy_beach", "minecraft:giant_tree_taiga", "minecraft:taiga", "minecraft:wooded_hills", "minecraft:modified_gravelly_mountains", "minecraft:tall_birch_forest", "minecraft:wooded_mountains", "minecraft:taiga_mountains", "minecraft:mountains", "minecraft:swamp", "minecraft:birch_forest", "minecraft:flower_forest", "minecraft:birch_forest_hills", "minecraft:snowy_taiga_hills", "minecraft:dark_forest", "minecraft:snowy_tundra", "minecraft:snowy_mountains", "minecraft:taiga_hills", "minecraft:giant_spruce_taiga_hills", "minecraft:giant_spruce_taiga", "minecraft:swamp_hills", "minecraft:shattered_savanna_plateau"]
 	#How much kRF (1000 RF) a rat with an extreme energy transfer upgrade can transport at a time.
 	#Range: > 1
 	"Rat RF Transfer Rate Extreme (kRF)" = 100000
@@ -28,6 +32,8 @@
 	#1/This number chance for a rat to drop a Token
 	#Range: > 1
 	"Rat Token Drop Rate" = 15000
+	#Whitelisted rat spawn biomes. Use the format like "minecraft:plains" or "rats:ratlantis" 
+	ratSpawnBiomes = ["minecraft:giant_tree_taiga_hills", "minecraft:snowy_taiga_mountains", "minecraft:frozen_river", "minecraft:snowy_taiga", "minecraft:forest", "minecraft:gravelly_mountains", "minecraft:dark_forest_hills", "minecraft:savanna_plateau", "minecraft:wooded_badlands_plateau", "minecraft:ice_spikes", "minecraft:snowy_beach", "minecraft:giant_tree_taiga", "minecraft:river", "minecraft:beach", "minecraft:desert_lakes", "minecraft:taiga", "minecraft:bamboo_jungle_hills", "minecraft:jungle", "minecraft:wooded_hills", "minecraft:modified_badlands_plateau", "minecraft:modified_jungle", "minecraft:modified_gravelly_mountains", "minecraft:jungle_hills", "minecraft:tall_birch_forest", "minecraft:sunflower_plains", "minecraft:wooded_mountains", "minecraft:desert_hills", "minecraft:shattered_savanna", "minecraft:taiga_mountains", "minecraft:stone_shore", "minecraft:mountains", "minecraft:swamp", "minecraft:birch_forest", "minecraft:mountain_edge", "minecraft:badlands_plateau", "minecraft:flower_forest", "minecraft:birch_forest_hills", "minecraft:modified_wooded_badlands_plateau", "minecraft:desert", "minecraft:eroded_badlands", "minecraft:modified_jungle_edge", "minecraft:snowy_taiga_hills", "minecraft:dark_forest", "minecraft:snowy_tundra", "minecraft:snowy_mountains", "minecraft:jungle_edge", "minecraft:bamboo_jungle", "minecraft:taiga_hills", "minecraft:savanna", "minecraft:giant_spruce_taiga_hills", "minecraft:giant_spruce_taiga", "minecraft:swamp_hills", "minecraft:badlands", "minecraft:shattered_savanna_plateau", "minecraft:plains"]
 	#True if plague doctor huts can spawn in villages
 	"Village Plague Doctors" = true
 	#True if wild rats contaminate food when they steal from chests
@@ -37,13 +43,8 @@
 	"Black Death Max Health" = 400.0
 	#True if loot from rats can spawn in chests
 	"Add Loot" = true
-	#Ratlantis Dimension ID
-	#Range: > -2147483648
-	"Ratlantis Dimension ID" = -8
 	#True if garbage heaps can spawn in villages
 	"Village Garbage Heap" = true
-	#True if Ratlantis dimension is disabled - alternative methods of getting resources will be provided. WARNING: Leave the dimension and restart the game before changing this. You must be fun at parties.
-	"Disable Ratlantis" = false
 	#How much kRF (1000 RF) a rat with a basic energy transfer upgrade can transport at a time.
 	#Range: > 1
 	"Rat RF Transfer Rate Basic (kRF)" = 100
@@ -121,9 +122,6 @@
 	#Rats will conduct expensive CPU operations like looking for crops or chests, once every this number of ticks(with added standard deviation for servers)
 	#Range: 1 ~ 10000
 	"Rat Upgrade Delay" = 100
-	#What Dimension ID you are teleported to upon leaving Ratlantis
-	#Range: > -2147483648
-	"Ratlantis Portal Exit Dimension ID" = 0
 	#True if rats can only spawn in the Overworld(0) dimension.
 	"Rats Spawn In Overworld Only" = false
 	#Largest possible radius for tamed rats conducting their searches for items, harvests, etc.
@@ -153,5 +151,5 @@
 	"Default Rat Radius" = 16
 	#The weight of rats in vanilla's spawn rate
 	#Range: 1 ~ 300
-	"Rat Spawn Weight" = 4
+	"Rat Spawn Weight" = 10
 

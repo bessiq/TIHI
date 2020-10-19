@@ -1,0 +1,49 @@
+{
+    "yeet": {
+        "chance": -10,
+        "Command": [
+            {
+                "command": "/summon yeeter:tnt_yeeter ~4 ~ ~8 {CustomNameVisible:1b,CustomName:'{\"text\":\"Larry\",\"color\":\"red\"}',ActiveEffects:[{Id:1,Amplifier:1,Duration:999999},{Id:22,Amplifier:0,Duration:999999}]}",
+                "delay": 1
+            },
+            {
+                "command": "/summon yeeter:tnt_yeeter ~8 ~ ~4 {CustomNameVisible:1b,CustomName:'{\"text\":\"Moe\",\"color\":\"white\"}',ActiveEffects:[{Id:1,Amplifier:1,Duration:999999},{Id:22,Amplifier:0,Duration:999999}]}",
+                "delay": 1
+            },
+            {
+                "command": "/summon yeeter:tnt_yeeter ~6 ~ ~6 {CustomNameVisible:1b,CustomName:'{\"text\":\"Curly\",\"color\":\"blue\"}',ActiveEffects:[{Id:1,Amplifier:1,Duration:999999},{Id:22,Amplifier:0,Duration:999999}]}",
+                "delay": 1
+            },
+            {
+                "command": "/summon minecraft:cow ~1 ~ ~"
+            },
+            {
+                "command": "/summon minecraft:cow ~1 ~ ~1"
+            },
+            {
+                "command": "/summon minecraft:cow ~ ~ ~1"
+            }
+        ],
+        "Effect": [
+            {
+                "potionid": "slowness",
+                "duration": "%%RND(1,5)%%",
+                "amplifier": 1,
+                "radius": 32,
+                "delay": 1
+            },
+            {
+                "potionid": "blindness",
+                "duration": "%%RND(1,5)%%",
+                "amplifier": 0,
+                "radius": 32,
+                "delay": 1
+            }
+        ],
+        "Message": [
+            {
+                "message": "Nyuck, Nyuck, Nyuck"
+            }
+        ]
+    }
+}

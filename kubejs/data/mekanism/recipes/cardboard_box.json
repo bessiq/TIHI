@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "result": {
+        "item": "mekanism:cardboard_box"
+    },
+    "pattern": [
+        "aba",
+        "bcb",
+        "aba"
+    ],
+    "key": {
+        "a": {
+            "tag": "forge:sawdust"
+        },
+        "b": {
+            "tag": "forge:slimeballs"
+        },
+        "c": {
+            "tag": "forge:heads"
+        }
+    }
+}

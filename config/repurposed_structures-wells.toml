@@ -11,7 +11,7 @@
 	# RS's wells to spawn in. Separate each ID with a comma ,
 	#
 	#Example: "minecraft:ice_spikes,awesome_mod:awesome_biome"
-	blacklistedWellBiomes = "undergarden:barren_abyss,undergarden:dense_forest,undergarden:forgotten_field,undergarden:otherside,undergarden:smog_spires,undergarden:smogstem_forest,undergarden:wigglewood_forest,mahoutsukai:marble"
+	blacklistedWellBiomes = "mining_dimension:mining"
 
 	["Small Wells".Spawnrate]
 		#

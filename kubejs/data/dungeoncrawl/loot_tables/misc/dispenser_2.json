@@ -1,0 +1,65 @@
+{
+	"pools": [
+		{
+			"name": "dungeon_dispenser_2",
+			"rolls": {
+				"min": 3,
+				"max": 5
+			},
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:arrow",
+					"functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 6
+                            }
+                        }
+                    ],
+                    "weight": 2
+				},
+				{
+                	"type": "item",
+                	"name": "minecraft:splash_potion",
+                	"weight": 3,
+                	"functions": [
+                		{
+                			"function": "set_nbt",
+                			"tag": "{Potion:\"rats:plague\"}"
+                		}
+                	
+                	]
+                },
+                {
+                	"type": "item",
+                	"name": "minecraft:splash_potion",
+                	"weight": 3,
+                	"functions": [
+                		{
+                			"function": "set_nbt",
+                			"tag": "{Potion:\"minecraft:harming\"}"
+                		}
+                	
+                	]
+				},
+				{
+					"type": "item",
+					"name": "appliedenergistics2:tiny_tnt",
+					"functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ],
+                    "weight": 2
+				}
+			]
+		}
+	]
+}

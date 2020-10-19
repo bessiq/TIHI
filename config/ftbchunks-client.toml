@@ -1,9 +1,27 @@
 #Noise added to map to make it look less plastic
 #Range: 0.0 ~ 0.5
-noise = 0.05
+noise = 0.05000000074505806
+#Shadow intensity
+#Range: 0.0 ~ 0.3
+shadows = 0.10000000149011612
+#Chunk grid overlay in large map
+chunk_grid = false
+#Reduces color palette to 256 colors
+reduced_color_palette = false
+#Color intensity
+#Range: 0.0 ~ 1.0
+saturation = 1.0
+#Show claimed chunks on the map
+claimed_chunks_on_map = true
+#Show your own claimed chunks on the map
+own_claimed_chunks_on_map = true
+#Show waypoints in world
+in_world_waypoints = true
+#Show waypoints in world
+topography_mode = false
 #Enables minimap to show up in corner
 #Allowed Values: DISABLED, BOTTOM_LEFT, LEFT, TOP_LEFT, TOP_RIGHT, RIGHT, BOTTOM_RIGHT
-minimap = "DISABLED"
+minimap = "TOP_RIGHT"
 #Scale of minimap
 #Range: 0.25 ~ 4.0
 minimap_scale = 1.0
@@ -27,19 +45,11 @@ minimap_biome = true
 minimap_blur = true
 #Adds NWSE compass inside minimap
 minimap_compass = true
-#Shadow intensity
-#Range: 0.0 ~ 0.3
-shadows = 0.1
-#Chunk grid overlay in large map
-chunk_grid = false
-#Reduces color palette to 256 colors
-reduced_color_palette = false
-#Color intensity
-#Range: 0.0 ~ 1.0
-saturation = 1.0
 #Minimap visibility
 #Range: 0 ~ 255
 minimap_visibility = 255
+#Show zone (claimed chunk or wilderness) under minimap
+minimap_zone = true
 #Enables debug info
 debug_info = false
 

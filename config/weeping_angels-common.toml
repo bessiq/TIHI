@@ -1,0 +1,71 @@
+
+[world_gen]
+	#Config to toggle the generation of arms in snow biomes
+	arms = true
+	#Configure whether the mods ores spawn. This MAY require a restart when changed.
+	genOres = true
+
+[spawn]
+	#Note: A list of biomes where angels should spawn.
+	allowedBiomes = ["mining_dimension:mining", "good_nights_sleep:nightmare_hills", "good_nights_sleep:shameful_plains", "minecraft:soul_sand_valley"]
+	#This will only accept: MONSTER || CREATURE || AMBIENT || MISC || Anything else WILL crash your game.
+	spawnType = "MONSTER"
+	#The maximum amount of angels per biome
+	#Range: 1 ~ 100
+	maximumSpawn = 2
+	#The angel spawn spawn weight
+	#Range: 1 ~ 100
+	spawnWeight = 5
+	#The minimum amount of angels per biome
+	#Range: 1 ~ 100
+	minimumSpawn = 1
+
+[angel]
+	#if enabled, Only pickaxes and generators will work on the angels
+	pickaxeOnly = true
+	#The damage dealt by an angel
+	#Range: 1.0 ~ 1.7976931348623157E308
+	damage = 8.0
+	#XP gained from angels
+	#Range: > 1
+	xpGained = 25
+	#Determines the range the angels will look for players within, personally, I'd stay under 100
+	#Range: 1 ~ 100
+	stalkRange = 65
+	#The maximum range a angel can break blocks within
+	#Range: > 1
+	blockBreakRange = 15
+	#If this is enabled, baby angels will blow out light items from the players hand
+	torchBlowOut = true
+	#if enabled, No way to attack/kill angels. Just running.
+	hardcoreMode = false
+	#if enabled, angels will freeze when they see one another. (Impacts performance a bit)
+	freezeOnAngel = false
+	#If this is enabled, angels will break blocks (If gamerules allow)
+	blockBreaking = true
+	#Determines the angels move speed
+	#Range: 1.0 ~ 1.7976931348623157E308
+	moveSpeed = 1.5
+	#Toggle seen sounds
+	playSeenSounds = true
+	#If this is enabled, the timey wimey detector can blow up chickens when in use randomly
+	chickenGoboom = true
+	#Non-child angels play scraping sounds when moving, this toggles that
+	playScrapeSound = true
+	#List of blocks that you should be able to see angels through.
+	#Format for entries: ModID:BlockRegistryName
+	transparentBlocks = []
+
+[teleport]
+	#Note: This a list of dimensions that angels should NOT teleport you to.
+	notAllowedDimensions = ["minecraft:the_end"]
+	#The maximum range a user can be teleported by the Angels
+	#Range: > 1
+	teleportRange = 450
+	#If this is enabled, angel teleporting can also tp the player to other dimensions
+	angelDimTeleport = true
+	#Teleport type, Acceptable entries: RANDOM_PLACE, DONT, STRUCTURES
+	teleportType = "RANDOM_PLACE"
+	#just teleport. no damage.
+	justTeleport = false
+

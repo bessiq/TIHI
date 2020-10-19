@@ -1,78 +1,64 @@
 
-[Stone_Settings]
-
-	[Stone_Settings.Soapstone]
-		#Range: 0 ~ 100
-		SoapstoneChance = 10
-		#Range: 0 ~ 256
-		SoapstoneMaxY = 30
-		#Range: 0 ~ 35
-		SoapstoneSize = 24
-
-	[Stone_Settings.Scoria_Stone]
-		#Range: 0 ~ 100
-		ScoriaStoneChance = 10
-		#Range: 0 ~ 256
-		ScoriaStoneMaxY = 20
-		#Range: 0 ~ 35
-		ScoriaStoneSize = 24
-
-	[Stone_Settings.Rocky_Stone]
-		#Range: 0 ~ 100
-		RockyStoneSize = 0
-		#Range: 0 ~ 100
-		RockyStoneChance = 4
-		#Range: 0 ~ 256
-		RockyStoneMaxY = 256
-
-#External Biomes. World settings for custom nether/end/byg: https://gist.github.com/CorgiTaco/f5716864bc7b63b04aa547ccfc0e846a
-[Dimension_Settings]
-	#Add external End biomes by their registry names in a commented list.
-	ExternalEndBiomes = ""
-	#Add external Nether biomes by their registry names in a commented list.
+[The_End]
+	#
+	#Does BYG control The End?
+	ControlEnd = true
+	#
+	#Is the list of biomes a blacklist or whitelist?
+	#When this list is a blacklist, the values in the list will not be in world generation.
+	#When this list is a whitelist, Adding a biome several times gives it more weight in generation and it must contain at least 1 value.
+	#When set to true, datapack biomes will work automatically!
+	#Default: true
+	isBlacklistEnd = true
+	#
+	#End Biome Size.
+	#Default: 3
+	#Range: 0 ~ 10
+	IslandBiomeSize = 3
+	#
+	#This works as a whitelist or blacklist depending on the "isBlacklistEnd" value.
+	#DOES NOT ACCEPT DATAPACK VALUES!
+	#Default: "byg:viscal_isles,byg:shattered_viscal_isles,minecraft:small_end_islands,minecraft:the_end,minecraft:end_barrens"
+	BlacklistEnd = "byg:viscal_isles,byg:shattered_viscal_isles,minecraft:small_end_islands,minecraft:the_end,minecraft:end_barrens"
+	#
+	#End Biome Size
+	#Default: 3
 	#Range: 0 ~ 10
 	EndBiomeSize = 3
-	#Add external Nether biomes by their registry names in a commented list.
+
+	[The_End.Void]
+		#
+		#Add biomes by their registry String ID's in a commented list.
+		#Adding a biome several times gives it more weight in generation.
+		#NO SPACES AFTER COMMAS!
+		#DOES NOT ACCEPT DATAPACK VALUES!
+		#Default: "byg:viscal_isles,byg:shattered_viscal_isles,minecraft:small_end_islands"
+		VoidBiomes = "byg:viscal_isles,byg:shattered_viscal_isles,minecraft:small_end_islands"
+		#
+		#Void Biome(where small end islands generate in vanilla) size.
+		#Default: 3
+		#Range: 0 ~ 10
+		VoidBiomeSize = 2
+
+[The_Nether]
+	#
+	#Is the list of biomes a blacklist or whitelist?
+	#When this list is a blacklist, the values in the list will not be in world generation.
+	#When this list is a whitelist, Adding a biome several times gives it more weight in generation and it must contain at least 1 value.
+	#When set to true, datapack biomes will work automatically!
+	#Default: true
+	isBlacklistNether = true
+	#
+	#Nether Biome Size
+	#Default: 3
 	#Range: 0 ~ 10
 	NetherBiomeSize = 3
-	#Add Nether biomes by their registry names(IDs) in a commented list.
-	# Adding a biome several times gives it more weight in generation.
-	# Default: "byg:embur_bog,byg:glowstone_gardens,byg:sythian_torrids,byg:warped_desert,minecraft:basalt_deltas,minecraft:crimson_forest,minecraft:nether_wastes,minecraft:soul_sand_valley,minecraft:warped_forest".
-	NetherBiomes = "byg:embur_bog,byg:glowstone_gardens,byg:sythian_torrids,byg:warped_desert,minecraft:basalt_deltas,minecraft:crimson_forest,minecraft:nether_wastes,minecraft:soul_sand_valley,minecraft:warped_forest"
-
-[Ore_Settings]
-
-	#Pendorite is exclusive to Forest Fault!
-	[Ore_Settings.Pendorite]
-		#Range: 0 ~ 256
-		PendoriteMaxY = 56
-		#Range: 0 ~ 16
-		PendoriteSize = 4
-		#Range: 0 ~ 100
-		PendoriteChance = 10
-
-	#Ametrine is exclusive to Guiana Shield!
-	[Ore_Settings.Ametrine]
-		#Range: 0 ~ 100
-		AmetrineChance = 10
-		#Range: 0 ~ 256
-		AmetrineMaxY = 56
-		#Range: 0 ~ 16
-		AmetrineSize = 4
-
-#BYG WorldType Settings
-[World_Settings]
-	#Vanilla BiomeSounds. Default is true
-	VanillaBiomes = true
-	#Add external COOL biomes by their registry names in a commented list.
-	ExternalCOOLBiomes = ""
-	#Add external ICY biomes by their registry names in a commented list.
-	ExternalICYBiomes = ""
-	#Biome Size, Default 1.
-	#Range: 0 ~ 25
-	BiomeSize = 4
-	#Add external WARM biomes by their registry names in a commented list.
-	ExternalWARMBiomes = ""
-	#Add external HOT biomes by their registry names in a commented list.
-	ExternalHOTBiomes = ""
+	#
+	#Does BYG control The Nether?
+	ControlNether = true
+	#
+	#This works as a whitelist or blacklist depending on the "isBlacklistNether" value.
+	#DOES NOT ACCEPT DATAPACK VALUES!
+	#Default: ""
+	BlacklistNether = ""
 

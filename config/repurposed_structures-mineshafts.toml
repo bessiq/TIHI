@@ -11,41 +11,41 @@
 	# RS's mineshafts to spawn in. Separate each ID with a comma ,
 	#
 	#Example: "minecraft:ice_spikes,awesome_mod:awesome_biome"
-	blacklistedMineshaftBiomes = "undergarden:barren_abyss,undergarden:dense_forest,undergarden:forgotten_field,undergarden:otherside,undergarden:smog_spires,undergarden:smogstem_forest,undergarden:wigglewood_forest,mahoutsukai:marble"
+	blacklistedMineshaftBiomes = "byg:dead_sea"
 
 	[Mineshaft."Max height"]
 		#
-		# Minimum Y height that this mineshaft can spawn at. Default is 50.
+		# Minimum Y height that this mineshaft can spawn at. Default is 37.
 		# Note: The mineshaft will spawn between min and max y height set in config.
 		# Setting this to below min height config will make mineshaft spawn only at min height.
 		#Range: 5 ~ 255
 		endMineshaftMaxHeight = 40
 		#
-		# Minimum Y height that this mineshaft can spawn at. Default is 50.
+		# Minimum Y height that this mineshaft can spawn at. Default is 45.
 		# Note: The mineshaft will spawn between min and max y height set in config.
 		# Setting this to below min height config will make mineshaft spawn only at min height.
 		#Range: 5 ~ 255
 		desertMineshaftMaxHeight = 50
 		#
-		# Minimum Y height that this mineshaft can spawn at. Default is 50.
+		# Minimum Y height that this mineshaft can spawn at. Default is 45.
 		# Note: The mineshaft will spawn between min and max y height set in config.
 		# Setting this to below min height config will make mineshaft spawn only at min height.
 		#Range: 5 ~ 255
 		taigaMineshaftMaxHeight = 50
 		#
-		# Minimum Y height that this mineshaft can spawn at. Default is 50.
+		# Minimum Y height that this mineshaft can spawn at. Default is 45.
 		# Note: The mineshaft will spawn between min and max y height set in config.
 		# Setting this to below min height config will make mineshaft spawn only at min height.
 		#Range: 5 ~ 255
 		swampAndDarkForestMineshaftMaxHeight = 50
 		#
-		# Minimum Y height that this mineshaft can spawn at. Default is 50.
+		# Minimum Y height that this mineshaft can spawn at. Default is 45.
 		# Note: The mineshaft will spawn between min and max y height set in config.
 		# Setting this to below min height config will make mineshaft spawn only at min height.
 		#Range: 5 ~ 255
 		stoneMineshaftMaxHeight = 50
 		#
-		# Minimum Y height that this mineshaft can spawn at. Default is 50.
+		# Minimum Y height that this mineshaft can spawn at. Default is 45.
 		# Note: The mineshaft will spawn between min and max y height set in config.
 		# Setting this to below min height config will make mineshaft spawn only at min height.
 		#Range: 5 ~ 255
@@ -57,25 +57,25 @@
 		#Range: 5 ~ 255
 		oceanMineshaftMaxHeight = 25
 		#
-		# Minimum Y height that this mineshaft can spawn at. Default is 50.
+		# Minimum Y height that this mineshaft can spawn at. Default is 45.
 		# Note: The mineshaft will spawn between min and max y height set in config.
 		# Setting this to below min height config will make mineshaft spawn only at min height.
 		#Range: 5 ~ 255
 		birchMineshaftMaxHeight = 50
 		#
-		# Minimum Y height that this mineshaft can spawn at. Default is 22.
+		# Minimum Y height that this mineshaft can spawn at. Default is 13.
 		# Note: The mineshaft will spawn between min and max y height set in config.
 		# Setting this to below min height config will make mineshaft spawn only at min height.
 		#Range: 5 ~ 255
 		netherMineshaftMaxHeight = 22
 		#
-		# Minimum Y height that this mineshaft can spawn at. Default is 50.
+		# Minimum Y height that this mineshaft can spawn at. Default is 45.
 		# Note: The mineshaft will spawn between min and max y height set in config.
 		# Setting this to below min height config will make mineshaft spawn only at min height.
 		#Range: 5 ~ 255
 		jungleMineshaftMaxHeight = 50
 		#
-		# Minimum Y height that this mineshaft can spawn at. Default is 50.
+		# Minimum Y height that this mineshaft can spawn at. Default is 45.
 		# Note: The mineshaft will spawn between min and max y height set in config.
 		# Setting this to below min height config will make mineshaft spawn only at min height.
 		#Range: 5 ~ 255

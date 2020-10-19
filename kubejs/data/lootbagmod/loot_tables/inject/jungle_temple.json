@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "name": "mainpool",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "lootbagmod:lootbag",
+                    "weight": 3
+                },
+                {
+                  "type": "empty",
+                  "weight": 97
+                }
+            ]
+        }
+    ]
+}
+

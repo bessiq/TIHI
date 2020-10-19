@@ -12,7 +12,7 @@
 	fertilizedEssenceChance = 0.1
 	#The percentage chance that a passive or hostile mob will drop an Inferium Essence when killed.
 	#Range: 0.0 ~ 1.0
-	inferiumDropChance = 0.1
+	inferiumDropChance = 0.05
 
 #World generation options.
 [World]
@@ -33,10 +33,10 @@
 	prosperitySpawnRate = 9
 	#The maximum Y level that Soulstone veins can spawn.
 	#Range: 0 ~ 128
-	inferiumSpawnHeight = 128
+	inferiumSpawnHeight = 45
 	#The maximum Y level that Prosperity Ore veins can spawn.
 	#Range: 0 ~ 256
-	prosperitySpawnHeight = 50
+	prosperitySpawnHeight = 39
 	#Should Inferium Ore generate in the world?
 	generateInferiumOre = true
 	#The maximum amount of Soulstone blocks that can spawn in a vein.

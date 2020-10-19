@@ -4,7 +4,7 @@
 	[items.xpetrified_orb]
 		#Experience Points the Orb grants on use [default: 91]
 		#Range: 1 ~ 120000
-		experience_points = 72
+		experience_points = 91
 
 	[items.eternal_stella]
 		#How many times the Eternal Stella can be used before breaking [default: 3]
