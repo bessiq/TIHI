@@ -163,7 +163,7 @@
     B:RingofEnderEnabled=true
 
     # Whether or not Ring of the Seven Curses should be enabled. [default: true, synchronized: yes]
-    B:RingoftheSevenCursesEnabled=true
+    B:RingoftheSevenCursesEnabled=false
 
     # Whether or not Scroll of Ageless Wisdom should be enabled. [default: true, synchronized: yes]
     B:ScrollofAgelessWisdomEnabled=true
@@ -253,7 +253,7 @@
     D:EnigmaticAmuletDamageBonus=1.5
 
     # Whether or not Enigmatic Amulet should be summoning Extradimensional Vessel on owner's death. [default: true, synchronized: yes]
-    B:EnigmaticAmuletenigmaticAmuletVesselEnabled=true
+    B:EnigmaticAmuletenigmaticAmuletVesselEnabled=false
 
     # If true, only original owner of Extradimensional Vessel will be able to pick it up. [default: false, synchronized: yes]
     B:EnigmaticAmuletownerOnlyVessel=false
