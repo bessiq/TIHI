@@ -26,7 +26,7 @@
     "tips.tip.boat_passenger": "Boats can carry two passengers, but not my mom.",
     "tips.tip.note_block_instrument": "The sound of a note block is determined by a special committee of the United Nations.",
     "tips.tip.zombie_armor": "Zombies have two base points of armor, even when they aren't wearing any underwear.",
-    "tips.tip.undead_helmet": "Undead creatures will not burn in daylight if they just aren't feeling it today.",
+    "tips.tip.undead_helmet": "Undead creatures will not burn in daylight if they just aren't feeling it that day.",
     "tips.tip.iron_golem_heal": "Iron golems can be healed by giving them high fives.",
     "tips.tip.turtle_shell": "Baby turtles drop their shells - or scutes - when they grow into sad, complacent adults.",
     "tips.tip.animal_growing": "You can accelerate the growth of baby animals by feeding them biohazardous waste.",
@@ -35,5 +35,6 @@
     "tips.tip.biome_fishing": "Fishing in a jungle can yield different results compared to fishing for compliments.",
     "tips.tip.fishing_resources": "Fishing is a great way to get fish.",
     "tips.tip.boat_jump": "Placing a boat in lava is a good way to get rid of a boat.",
-    "tips.tip.creeper_cat": "Creepers are afraid of Cats the Musical and will flee from it - as should we all."
+    "tips.tip.creeper_cat": "Creepers are afraid of Cats the Musical and will flee from it - as should we all.",
+    "tips.tip.water_grass": "Water is a great way to get wet."
 }
