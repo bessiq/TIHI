@@ -1,0 +1,18 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"name": "riskofrainmod:uncommon_infusion"
+				},
+				{
+					"type": "minecraft:empty",
+					"weight": 96
+				}
+			]
+		}
+	]
+}

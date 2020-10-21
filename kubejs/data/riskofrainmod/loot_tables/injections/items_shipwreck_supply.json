@@ -1,0 +1,25 @@
+{
+	"pools": [
+	{	"rolls": {
+		"min": 1.0,
+		"max": 2.0
+		},
+		"entries": [
+			{
+			"type": "minecraft:item",
+			"weight": 5,
+			"name": "riskofrainmod:common_bustling_fungus"
+			},
+			{
+			"type": "minecraft:item",
+			"weight": 5,
+			"name": "riskofrainmod:common_goat_hoof"
+			},
+			{
+			"type": "minecraft:empty",
+			"weight": 90
+			}
+		]
+	}
+	]
+}

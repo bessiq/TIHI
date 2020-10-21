@@ -1,0 +1,21 @@
+{
+	"pools": [
+		{
+			"rolls": {
+			"min": 0.0,
+			"max": 1.0
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 9,
+					"name": "riskofrainmod:common_goat_hoof"
+				},
+				{
+					"type": "minecraft:empty",
+					"weight": 91
+				}
+			]
+		}
+	]
+}
