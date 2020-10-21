@@ -20,7 +20,7 @@
   "forge:ingots/titanium": "null",
   "forge:rubber": "industrialforegoing:dryrubber",
   "forge:ingots/platinum": "null",
-  "forge:dusts/sulfur": "immersiveengineering:dust_sulfur",
+  "forge:dusts/sulfur": "mekanism:dust_sulfur",
   "forge:ingots/lead": "mekanism:ingot_lead",
   "forge:ingots/graphite": "immersiveengineering:ingot_hop_graphite",
   "forge:ingots/uranium": "mekanism:ingot_uranium",
