@@ -45,5 +45,7 @@
 	"block.iceandfire.sea_serpent_scale_block_green": "Green Sea Serpent Scale Block",
 	"block.iceandfire.sea_serpent_scale_block_purple": "Purple Sea Serpent Scale Block",
 	"block.iceandfire.sea_serpent_scale_block_red": "Red Sea Serpent Scale Block",
-	"block.iceandfire.sea_serpent_scale_block_teal": "Teal Sea Serpent Scale Block"
+	"block.iceandfire.sea_serpent_scale_block_teal": "Teal Sea Serpent Scale Block",
+	"key.categories.ftbquests": "FTB Quests",
+	"key.categories.losttrinkets": "Lost Trinkets"
 }
