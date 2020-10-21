@@ -1,0 +1,526 @@
+{
+  "sub-biomes": {
+    "byg:alpine_foothills": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:araucaria_forest": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:aspen_clearing": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:aspen_forest_hills": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:bamboo_forest": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:basalt_barrera": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:black_forest_clearing": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:black_forest_hills": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:blue_giant_taiga": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:blue_taiga_hills": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:bluff_peaks": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:bog": {
+      "dictionary": "OVERWORLD",
+      "river": "byg:bog",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:boreal_clearing": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:boreal_forest_hills": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:canyon_edge": {
+      "dictionary": "OVERWORLD",
+      "river": "",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:cherry_blossom_clearing": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:cika_mountains": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:coniferous_clearing": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:coniferous_forest_hills": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:coral_mangroves": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:deciduous_clearing": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:deciduous_forest_hills": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:ebony_hills": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:enchanted_forest_hills": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:evergreen_clearing": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:evergreen_hills": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:flowering_ancient_forest": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:flowering_enchanted_grove": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:flowering_grove": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:flowering_meadow": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:forest_fault": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:fresh_water_lake": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:frozen_lake": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:fungal_patch": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:glowing_ancient_forest": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:great_lake_isles": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:guiana_clearing": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:jacaranda_clearing": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:jacaranda_forest_hills": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:lush_red_desert": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:maple_hills": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:marshlands": {
+      "dictionary": "OVERWORLD",
+      "river": "byg:marshlands",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:northern_forest": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:oasis": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:pointed_stone_forest": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:polluted_lake": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:prairie_clearing": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:pumpkin_forest": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:rainbow_beach": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:red_desert_dunes": {
+      "dictionary": "OVERWORLD",
+      "river": "byg:red_desert_dunes",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:red_oak_forest_hills": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:red_rock_highlands": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:red_rock_lowlands": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:red_spruce_taiga": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:redwood_clearing": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:redwood_mountains": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:rocky_beach": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:seasonal_birch_forest_hills": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:seasonal_deciduous_clearing": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:seasonal_deciduous_forest_hills": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:seasonal_forest_hills": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:seasonal_giant_taiga": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:seasonal_taiga_hills": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:sierra_range": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:snowy_black_beach": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:snowy_blue_giant_taiga": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:snowy_blue_taiga_hills": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:snowy_coniferous_clearing": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:snowy_coniferous_forest_hills": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:snowy_deciduous_clearing": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:snowy_deciduous_forest_hills": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:snowy_evergreen_clearing": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:snowy_evergreen_hills": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:snowy_rocky_black_beach": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:tropical_fungal_rainforest_hills": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:tropical_island_clearing": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:tropical_island_mountains": {
+      "dictionary": "OVERWORLD",
+      "river": "byg:tropical_island_mountains",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:tropical_islands": {
+      "dictionary": "OVERWORLD",
+      "river": "byg:tropical_islands",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:tropical_rainforest_hills": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:twilight_valley_hills": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:weeping_witch_clearing": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:white_beach": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:wooded_grassland_plateau": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:wooded_meadow": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:wooded_red_rock_mountains": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:zelkova_clearing": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:zelkova_forest_hills": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    }
+  }
+}
