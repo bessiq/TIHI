@@ -11,7 +11,7 @@
                     "predicate_type": "minecraft:tag_match"
                   },
                   "state": {
-                    "Name": "minecraft:ice"
+                    "Name": "byg:meadow_dirt"
                   },
                   "size": 64
                 },
@@ -19,7 +19,7 @@
               },
               "decorator": {
                 "config": {
-                  "bottom_offset": 220,
+                  "bottom_offset": 65,
                   "top_offset": 0,
                   "maximum": 5
                 },
@@ -37,7 +37,7 @@
       },
       "decorator": {
         "config": {
-          "count": 16
+          "count": 8
         },
         "type": "minecraft:count"
       }

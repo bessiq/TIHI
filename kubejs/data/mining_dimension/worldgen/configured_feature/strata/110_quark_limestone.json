@@ -11,7 +11,7 @@
                     "predicate_type": "minecraft:tag_match"
                   },
                   "state": {
-                    "Name": "byg:meadow_dirt"
+                    "Name": "quark:limestone"
                   },
                   "size": 64
                 },
@@ -19,7 +19,7 @@
               },
               "decorator": {
                 "config": {
-                  "bottom_offset": 250,
+                  "bottom_offset": 110,
                   "top_offset": 0,
                   "maximum": 5
                 },

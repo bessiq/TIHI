@@ -11,7 +11,7 @@
                     "predicate_type": "minecraft:tag_match"
                   },
                   "state": {
-                    "Name": "byg:peat"
+                    "Name": "quark:marble"
                   },
                   "size": 64
                 },
@@ -19,7 +19,7 @@
               },
               "decorator": {
                 "config": {
-                  "bottom_offset": 65,
+                  "bottom_offset": 250,
                   "top_offset": 0,
                   "maximum": 5
                 },
@@ -37,7 +37,7 @@
       },
       "decorator": {
         "config": {
-          "count": 8
+          "count": 16
         },
         "type": "minecraft:count"
       }
