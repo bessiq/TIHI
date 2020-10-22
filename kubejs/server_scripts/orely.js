@@ -13,6 +13,8 @@ events.listen('recipes', function (event) {
     event.replaceOutput({}, 'immersiveengineering:ingot_copper', 'mekanism:ingot_copper')
     event.replaceOutput({}, 'immersiveengineering:storage_copper', 'mekanism:block_copper')
     event.replaceOutput({}, 'immersiveengineering:dust_copper', 'mekanism:dust_copper')
+    event.replaceOutput({}, 'forge:dusts/copper', 'mekanism:dust_copper')
+    event.replaceOutput({}, 'forge:ingots/copper', 'mekanism:ingot_copper')
     event.replaceInput({}, 'iceandfire:copper_ore', 'mekanism:copper_ore')
     event.replaceInput({}, 'iceandfire:copper_nugget', 'mekanism:nugget_copper')
     event.replaceInput({}, 'iceandfire:copper_ingot', 'mekanism:ingot_copper')
@@ -37,6 +39,8 @@ events.listen('recipes', function (event) {
     event.replaceOutput({}, 'immersiveengineering:ingot_lead', 'mekanism:ingot_lead')
     event.replaceOutput({}, 'immersiveengineering:storage_lead', 'mekanism:block_lead')
     event.replaceOutput({}, 'immersiveengineering:dust_lead', 'mekanism:dust_lead')
+    event.replaceOutput({}, 'forge:dusts/lead', 'mekanism:dust_lead')
+    event.replaceOutput({}, 'forge:ingots/lead', 'mekanism:ingot_lead')
     event.replaceInput({}, 'immersiveengineering:ore_lead', 'mekanism:lead_ore')
     event.replaceInput({}, 'immersiveengineering:nugget_lead', 'mekanism:nugget_lead')
     event.replaceInput({}, 'immersiveengineering:ingot_lead', 'mekanism:ingot_lead')
@@ -62,6 +66,8 @@ events.listen('recipes', function (event) {
     event.replaceOutput({}, 'immersiveengineering:ingot_steel', 'mekanism:ingot_steel')
     event.replaceOutput({}, 'immersiveengineering:storage_steel', 'mekanism:block_steel')
     event.replaceOutput({}, 'immersiveengineering:dust_steel', 'mekanism:dust_steel')
+    event.replaceOutput({}, 'forge:dusts/steel', 'mekanism:dust_steel')
+    event.replaceOutput({}, 'forge:ingots/steel', 'mekanism:ingot_steel')
     event.replaceInput({}, 'immersiveengineering:nugget_steel', 'mekanism:nugget_steel')
     event.replaceInput({}, 'immersiveengineering:ingot_steel', 'mekanism:ingot_steel')
     event.replaceInput({}, 'immersiveengineering:storage_steel', 'mekanism:block_steel')
@@ -69,6 +75,7 @@ events.listen('recipes', function (event) {
 
     // Sulfur, so good
     event.replaceOutput({}, 'immersiveengineering:dust_sulfur', 'mekanism:dust_sulfur')
+    event.replaceOutput({}, 'forge:dusts/sulfur', 'mekanism:dust_sulfur')
     event.replaceInput({}, 'immersiveengineering:dust_sulfur', 'mekanism:dust_sulfur')
 
     // Uranium is HEAVY METAL \m/
@@ -77,6 +84,8 @@ events.listen('recipes', function (event) {
     event.replaceOutput({}, 'immersiveengineering:ingot_uranium', 'mekanism:ingot_uranium')
     event.replaceOutput({}, 'immersiveengineering:storage_uranium', 'mekanism:block_uranium')
     event.replaceOutput({}, 'immersiveengineering:dust_uranium', 'mekanism:dust_uranium')
+    event.replaceOutput({}, 'forge:dusts/uranium', 'mekanism:dust_uranium')
+    event.replaceOutput({}, 'forge:ingots/uranium', 'mekanism:ingot_uranium')
     event.replaceInput({}, 'immersiveengineering:ore_uranium', 'mekanism:uranium_ore')
     event.replaceInput({}, 'immersiveengineering:nugget_uranium', 'mekanism:nugget_uranium')
     event.replaceInput({}, 'immersiveengineering:ingot_uranium', 'mekanism:ingot_uranium')

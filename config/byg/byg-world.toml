@@ -17,8 +17,7 @@
 	IslandBiomeSize = 3
 	#
 	#This works as a whitelist or blacklist depending on the "isBlacklistEnd" value.
-	#NO SPACES AFTER COMMAS!
-	#DOES NOT ACCEPT DATAPACK VALUES!
+	#NO SPACES AFTER COMMAS!nDOES NOT ACCEPT DATAPACK VALUES!
 	#Default: "byg:viscal_isles,byg:shattered_viscal_isles,minecraft:small_end_islands,minecraft:the_end,minecraft:end_barrens"
 	BlacklistEnd = "byg:viscal_isles,byg:shattered_viscal_isles,minecraft:small_end_islands,minecraft:the_end,minecraft:end_barrens"
 	#
