@@ -47,5 +47,6 @@
 	"block.iceandfire.sea_serpent_scale_block_red": "Red Sea Serpent Scale Block",
 	"block.iceandfire.sea_serpent_scale_block_teal": "Teal Sea Serpent Scale Block",
 	"key.categories.ftbquests": "FTB Quests",
-	"key.categories.losttrinkets": "Lost Trinkets"
+	"key.categories.losttrinkets": "Lost Trinkets",
+	"entity.doomweapon.gore_nest": "Gore Nest"
 }
