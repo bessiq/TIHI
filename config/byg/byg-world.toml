@@ -17,7 +17,8 @@
 	IslandBiomeSize = 3
 	#
 	#This works as a whitelist or blacklist depending on the "isBlacklistEnd" value.
-	#NO SPACES AFTER COMMAS!nDOES NOT ACCEPT DATAPACK VALUES!
+	#NO SPACES AFTER COMMAS!
+	#DOES NOT ACCEPT DATAPACK VALUES!
 	#Default: "byg:viscal_isles,byg:shattered_viscal_isles,minecraft:small_end_islands,minecraft:the_end,minecraft:end_barrens"
 	BlacklistEnd = "byg:viscal_isles,byg:shattered_viscal_isles,minecraft:small_end_islands,minecraft:the_end,minecraft:end_barrens"
 	#
@@ -39,6 +40,114 @@
 		#Default: 3
 		#Range: 0 ~ 10
 		VoidBiomeSize = 2
+
+[Overworld]
+
+	[Overworld.Ores]
+
+		[Overworld.Ores.Pendorite]
+			#
+			#Number of times to spawn per chunk.
+			#Default: 10
+			#Range: 1 ~ 100
+			PendoritePerChunk = 10
+			#
+			#Generate Pendorite Ore? Only spawns in Forest Fault.
+			GeneratePendorite = true
+			#
+			#Y level to start generating at.
+			#Default: 56
+			#Range: 1 ~ 256
+			PendoriteY = 56
+			#
+			#Size of the clusters.
+			#Default: 4
+			#Range: 1 ~ 100
+			PendoriteSize = 4
+
+		#Datapacks can and will override all values in the "Ore" category so keep that in mind!
+		[Overworld.Ores.Ametrine]
+			#
+			#Number of times to spawn per chunk.
+			#Default: 10
+			#Range: 1 ~ 100
+			AmetrinePerChunk = 10
+			#
+			#Size of the clusters.
+			#Default: 4
+			#Range: 1 ~ 100
+			AmetrineSize = 4
+			#
+			#Generate Ametrine Ore? Only spawns in Guiana Shield, Stone Forest, and Pointed Stone Forest!
+			GenerateAmetrine = true
+			#
+			#Y level to start generating at.
+			#Default: 56
+			#Range: 1 ~ 256
+			AmetrineY = 56
+
+	[Overworld.Stones]
+
+		[Overworld.Stones.Scoria_Stone]
+			#
+			#Number of times to spawn per chunk.
+			#Default: 10
+			#Range: 1 ~ 100
+			ScoriaStonePerChunk = 10
+			#
+			#Y level to start generating at.
+			#Default: 63
+			#Range: 1 ~ 256
+			ScoriaStoneY = 12
+			#
+			#Size of the clusters.
+			#Default: 20
+			#Range: 1 ~ 100
+			ScoriaStoneSize = 20
+			#
+			#Generate Scoria Stone?
+			GenerateScoriaStone = true
+
+		[Overworld.Stones.Soap_Stone]
+			#
+			#Number of times to spawn per chunk.
+			#Default: 10
+			#Range: 1 ~ 100
+			SoapStonePerChunk = 10
+			#
+			#Size of the clusters.
+			#Default: 20
+			#Range: 1 ~ 100
+			SoapStoneSize = 20
+			#
+			#Generate Soap Stone?
+			GenerateSoapStone = true
+			#
+			#Y level to start generating at.
+			#Default: 63
+			#Range: 1 ~ 256
+			SoapStoneY = 12
+
+		#Datapacks can and will override all values in the "Stone" category so keep that in mind!
+		[Overworld.Stones.Rocky_Stone]
+			#
+			#Y level to start generating at.
+			#Default: 63
+			#Range: 1 ~ 256
+			RockyStoneY = 256
+			#
+			#Size of the clusters.
+			#Default: 20
+			#Range: 1 ~ 100
+			RockyStoneSize = 10
+			#
+			#Number of times to spawn per chunk.
+			#Default: 10
+			#Range: 1 ~ 100
+			RockyStonePerChunk = 5
+			#
+			#Generate Rocky Stone?
+			GenerateRockyStone = true
 
 [The_Nether]
 	#

@@ -186,6 +186,50 @@
 	#Whether or not this attribute should be modified.
 	enabled = true
 
+#Values for the doggytalents:generic.jump_power attribute.
+[doggytalents_generic_jump_power]
+	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	min = 4.9E-324
+	#The maximum value for the attribute.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+	#Whether or not this attribute should be modified.
+	enabled = true
+
+#Values for the doggytalents:generic.crit_chance attribute.
+[doggytalents_generic_crit_chance]
+	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	min = 4.9E-324
+	#The maximum value for the attribute.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+	#Whether or not this attribute should be modified.
+	enabled = true
+
+#Values for the doggytalents:generic.crit_bonus attribute.
+[doggytalents_generic_crit_bonus]
+	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	min = 4.9E-324
+	#The maximum value for the attribute.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+	#Whether or not this attribute should be modified.
+	enabled = true
+
+#Values for the botania:pixie_spawn_chance attribute.
+[botania_pixie_spawn_chance]
+	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	min = 4.9E-324
+	#The maximum value for the attribute.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+	#Whether or not this attribute should be modified.
+	enabled = true
+
 #Values for the apotheosis:draw_speed attribute.
 [apotheosis_draw_speed]
 	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
@@ -287,61 +331,6 @@
 
 #Values for the apotheosis:overhealing attribute.
 [apotheosis_overhealing]
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-	#Whether or not this attribute should be modified.
-	enabled = true
-
-#Values for the dungeons_gear:attack_reach attribute.
-[dungeons_gear_attack_reach]
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-	#Whether or not this attribute should be modified.
-	enabled = true
-
-#Values for the botania:pixie_spawn_chance attribute.
-[botania_pixie_spawn_chance]
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-	#Whether or not this attribute should be modified.
-	enabled = true
-
-#Values for the doggytalents:generic.jump_power attribute.
-[doggytalents_generic_jump_power]
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-	#Whether or not this attribute should be modified.
-	enabled = true
-
-#Values for the doggytalents:generic.crit_chance attribute.
-[doggytalents_generic_crit_chance]
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-	#Whether or not this attribute should be modified.
-	enabled = true
-
-#Values for the doggytalents:generic.crit_bonus attribute.
-[doggytalents_generic_crit_bonus]
 	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
 	min = 4.9E-324

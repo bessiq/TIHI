@@ -1,6 +1,6 @@
 # Configuration File
 
-@CONFIG_VERSION: 2.0
+@CONFIG_VERSION: 2.1
 
 ##########################################################################################################
 # Accessibility Options
@@ -114,6 +114,9 @@
     # Whether or not Eye of Nebula should be enabled. [default: true, synchronized: yes]
     B:EyeofNebulaEnabled=true
 
+    # Whether or not Forbidden Fruit should be enabled. [default: true, synchronized: yes]
+    B:ForbiddenFruitEnabled=true
+
     # Whether or not Gem of Binding should be enabled. [default: true, synchronized: yes]
     B:GemofBindingEnabled=true
 
@@ -123,11 +126,20 @@
     # Whether or not Grace of the Creator should be enabled. [default: true, synchronized: yes]
     B:GraceoftheCreatorEnabled=true
 
+    # Whether or not Guide to Feral Hunt should be enabled. [default: true, synchronized: yes]
+    B:GuidetoFeralHuntEnabled=true
+
+    # Whether or not Guite to Animal Companionship should be enabled. [default: true, synchronized: yes]
+    B:GuitetoAnimalCompanionshipEnabled=true
+
     # Whether or not Heart of the Earth should be enabled. [default: true, synchronized: yes]
     B:HeartoftheEarthEnabled=true
 
     # Whether or not Heart of the Golem should be enabled. [default: true, synchronized: yes]
     B:HeartoftheGolemEnabled=true
+
+    # Whether or not Heart of the Guardian should be enabled. [default: true, synchronized: yes]
+    B:HeartoftheGuardianEnabled=true
 
     # Whether or not Iron Ring should be enabled. [default: true, synchronized: yes]
     B:IronRingEnabled=true
@@ -147,6 +159,9 @@
     # Whether or not Mending Mixture should be enabled. [default: true, synchronized: yes]
     B:MendingMixtureEnabled=true
 
+    # Whether or not Nefarious Essence should be enabled. [default: true, synchronized: yes]
+    B:NefariousEssenceEnabled=true
+
     # Whether or not Pearl of the Void should be enabled. [default: true, synchronized: yes]
     B:PearloftheVoidEnabled=true
 
@@ -163,7 +178,7 @@
     B:RingofEnderEnabled=true
 
     # Whether or not Ring of the Seven Curses should be enabled. [default: true, synchronized: yes]
-    B:RingoftheSevenCursesEnabled=false
+    B:RingoftheSevenCursesEnabled=true
 
     # Whether or not Scroll of Ageless Wisdom should be enabled. [default: true, synchronized: yes]
     B:ScrollofAgelessWisdomEnabled=true
@@ -182,6 +197,9 @@
 
     # Whether or not The Architect's Inkwell should be enabled. [default: true, synchronized: yes]
     B:TheArchitectsInkwellEnabled=true
+
+    # Whether or not The Twist should be enabled. [default: true, synchronized: yes]
+    B:TheTwistEnabled=true
 
     # Whether or not Tome of Hungering Knowledge should be enabled. [default: true, synchronized: yes]
     B:TomeofHungeringKnowledgeEnabled=true
@@ -234,6 +252,18 @@
     # The radius of Astral Breaker AOE mining. Set to -1 to disable the feature. [range: -1 ~ 127, default: 3, synchronized: yes]
     I:AstralBreakerMiningRadius=3
 
+    # Attack speed increase provided by Emblem of Bloodstained Valor for each missing percent of health. Measured as percentage. [range: 0.0 ~ 32768.0, default: 1.0, synchronized: yes]
+    D:BerserkEmblemAttackSpeedBoost=1.0
+
+    # Damage increase provided by Emblem of Bloodstained Valor for each missing percent of health. Measured as percentage. [range: 0.0 ~ 32768.0, default: 1.0, synchronized: yes]
+    D:BerserkEmblemDamageBoost=1.0
+
+    # Damage resistance provided by Emblem of Bloodstained Valor for each missing percent of health. Measured as percentage. [range: 0.0 ~ 32768.0, default: 0.5, synchronized: yes]
+    D:BerserkEmblemResistanceBoost=0.5
+
+    # Movement speed increase provided by Emblem of Bloodstained Valor for each missing percent of health. Measured as percentage. [range: 0.0 ~ 32768.0, default: 0.5, synchronized: yes]
+    D:BerserkEmblemSpeedBoost=0.5
+
     # Active ability cooldown for Blazing Core. Measured in ticks. 20 ticks equal to 1 second. [range: 0 ~ 32768, default: 0, synchronized: yes]
     I:BlazingCoreCooldown=0
 
@@ -243,23 +273,35 @@
     # How how many seconds any creature that attacks bearer of the Blazing Core will be set on fire. [range: 0 ~ 512, default: 4, synchronized: yes]
     I:BlazingCoreIgnitionFeedback=4
 
-    # Any damage bearers of the Ring of the Seven Curses deal to monsters will be multiplied by this value. [range: 0.0 ~ 32768.0, default: 0.5, synchronized: yes]
-    D:CursedRingDamageMultiplier=0.5
+    # Whether or not crossbows with Ceaseless should be able to shoot basic arrows even if there are none in player's inventory. [default: true, synchronized: yes]
+    B:CeaselessEnchantmentAllowNoArrow=true
 
-    # Any damage received by bearers of the Ring of the Seven Curses will be multiplied by this value. [range: 0.0 ~ 32768.0, default: 2.0, synchronized: yes]
-    D:CursedRingPainMultiplier=2.0
+    # Damage increase provided by Scroll of a Thousand Curses for each curse, as percentage. [range: 0 ~ 32768, default: 4, synchronized: yes]
+    I:CursedScrollDamageBoost=4
 
-    # The damage bonus stat provided by Enigmatic Amulet. [range: -32768.0 ~ 32768.0, default: 1.5, synchronized: yes]
+    # Mining speed increase provided by Scroll of a Thousand Curses for each curse, as percentage. [range: 0 ~ 32768, default: 7, synchronized: yes]
+    I:CursedScrollMiningBoost=7
+
+    # Health regeneration increase provided by Scroll of a Thousand Curses for each curse, as percentage. [range: 0 ~ 32768, default: 4, synchronized: yes]
+    I:CursedScrollRegenBoost=4
+
+    # The damage bonus stat provided by red Enigmatic Amulet. [range: -32768.0 ~ 32768.0, default: 1.5, synchronized: yes]
     D:EnigmaticAmuletDamageBonus=1.5
 
     # Whether or not Enigmatic Amulet should be summoning Extradimensional Vessel on owner's death. [default: true, synchronized: yes]
-    B:EnigmaticAmuletenigmaticAmuletVesselEnabled=false
+    B:EnigmaticAmuletEnigmaticAmuletVesselEnabled=true
+
+    # Whether or not it should be possible to equip multiple Enigmatic Amulets, granted player somehow gets more than one charm slot. [default: false, synchronized: yes]
+    B:EnigmaticAmuletMultiequip=false
 
     # If true, only original owner of Extradimensional Vessel will be able to pick it up. [default: false, synchronized: yes]
-    B:EnigmaticAmuletownerOnlyVessel=false
+    B:EnigmaticAmuletOwnerOnlyVessel=false
+
+    # If true, color of Enigmatic Amulet will be assigned using player's name as seed for generating it, instead of randomly - so that every player will always receive one specific color. [default: false, synchronized: yes]
+    B:EnigmaticAmuletSeededColorGen=false
 
     # Active ability cooldown for Heart of Creation. Measured in ticks. 20 ticks equal to 1 second. [range: 0 ~ 32768, default: 3, synchronized: yes]
-    I:EnigmaticItemCooldown=5
+    I:EnigmaticItemCooldown=3
 
     # Damage reduction of shield generated by Etherium Armor. Defined as percentage. [range: 0 ~ 100, default: 50, synchronized: yes]
     I:EtheriumArmorShieldReduction=50
@@ -309,6 +351,9 @@
     # Bonus percantage to beheading chance from each Looting level applied to Axe of Executioner. [range: 0 ~ 100, default: 5, synchronized: yes]
     I:ForbiddenAxeBeheadingBonus=5
 
+    # How much should be subtracted from regeneration of player who have consumed The Forbidden Fruit.  [range: 0 ~ 100, default: 80, synchronized: yes]
+    I:ForbiddenFruitRegenerationSubtraction=80
+
     # Active ability cooldown for Heart of the Golem. Measured in ticks. 20 ticks equal to 1 second. [range: 0 ~ 32768, default: 0, synchronized: yes]
     I:GolemHeartCooldown=0
 
@@ -333,8 +378,23 @@
     # Modifier for Magic Damage vulnerability applied by Heart of the Golem. Default value of 2.0 means that player will receive twice as much damage from magic. [range: 1.0 ~ 256.0, default: 2.0, synchronized: yes]
     D:GolemHeartVulnerabilityModifier=2.0
 
+    # Range of active/passive abilities of Heart of the Guardian. [range: 0 ~ 32768, default: 24, synchronized: yes]
+    I:GuardianHeartAbilityRange=24
+
+    # Cooldown of enraging ability of Heart of the Guardian. Measured in ticks. [range: 0 ~ 32768, default: 200, synchronized: yes]
+    I:GuardianHeartActiveAbilityCooldown=200
+
+    # Range in which monster enraged by active ability of Heart of the Guardian will seek new target. Monsters within this range will target enraged monster back. [range: 0 ~ 32768, default: 12, synchronized: yes]
+    I:GuardianHeartEnrageRange=12
+
     # Multiplier for experience consumption by Gift of the Heaven. [range: 0.0 ~ 32768.0, default: 1.0, synchronized: yes]
-    D:HeavenScrollXPCostModifier=2.0
+    D:HeavenScrollXPCostModifier=1.0
+
+    # The range in which Guide to Feral Hunt will redirect damage from pet to it's owner. [range: 0 ~ 32768, default: 24, synchronized: yes]
+    I:HunterGuideEffectiveDistance=24
+
+    # The percantage subtracted from damage redirected by Guide to Feral Hunt, if Guide to Animal Companionship is also possessed. [range: 0 ~ 100, default: 50, synchronized: yes]
+    I:HunterGuideSynergyDamageReduction=50
 
     # Inverts the Shift behaviour of Magnetic Ring and Dislocation Ring. [default: false, synchronized: yes]
     B:MagnetRingInvertShift=false
@@ -381,11 +441,26 @@
     # Multiplier for experience consumption by active ability of Will of the Ocean. [range: 0.0 ~ 1000.0, default: 1.0, synchronized: yes]
     D:OceanStoneXPCostModifier=1.0
 
+    # Whether or not it should be allowed to equip multiple spellstones if they are different items, granted player somehow gets more than one spellstone slot. [default: false, synchronized: yes]
+    B:SpellstonesMultiequip=false
+
     # The radius in which Dislocation Ring will collect items. [range: 1 ~ 256, default: 16, synchronized: yes]
     I:SuperMagnetRingRange=16
 
     # Whether or not Dislocation Ring should play sound effect when teleporting items to player. [default: false, synchronized: yes]
     B:SuperMagnetRingSound=false
+
+    # Attack damage of The Twist, actual damage shown in tooltip will be is 1 + this_value. [range: 0.0 ~ 32768.0, default: 8.0, synchronized: yes]
+    D:TheTwistAttackDamage=8.0
+
+    # Attack speed of The Twist. [range: -32768.0 ~ 32768.0, default: -1.8, synchronized: yes]
+    D:TheTwistAttackSpeed=-1.8
+
+    # Attack damage bonus of The Twist against players and bossess. [range: 0 ~ 32768, default: 300, synchronized: yes]
+    I:TheTwistBossDamageBonus=300
+
+    # Knockback bonus of The Twist. For Phantoms, this value is multiplied by 1.5. [range: 0 ~ 32768, default: 300, synchronized: yes]
+    I:TheTwistKnockbackPowerBonus=300
 
     # Base damage dealt by Darkness every half a second, when it devours a creature in proximity of bearer of the pearl. [range: 0.0 ~ 1000.0, default: 4.0, synchronized: yes]
     D:VoidPearlBaseDarknessDamage=4.0
@@ -425,6 +500,64 @@
 
     # Soul Crystals mechanic mode. 0 - disabled unless enforced by specific in-game items; 1 - also enabled when keepInventory is true; 2 - always enabled. [range: 0 ~ 2, default: 0, synchronized: no]
     I:SoulCrystalsMode=0
+}
+
+
+##########################################################################################################
+# Save the Bees
+#--------------------------------------------------------------------------------------------------------#
+# This category exists solely because of Jusey1z who really wanted to protect his bees.
+# Btw Jusey, when I said 'very cute though', I meant you. Bees are cute either of course.
+##########################################################################################################
+
+"Save the Bees" {
+    # If true, bees will never affected by the Second Curse of Ring of the Seven Curses. [default: false, synchronized: yes]
+    B:CursedRingDontTouchMyBees=false
+}
+
+
+##########################################################################################################
+# The Seven Curses
+#--------------------------------------------------------------------------------------------------------#
+# Config options directly affecting Ring of the Seven Curses
+##########################################################################################################
+
+"The Seven Curses" {
+    # How much less effective armor will be for those who bear the ring. Measured as percetage. [range: 0 ~ 100, default: 30, synchronized: yes]
+    I:CursedRingArmorDebuff=30
+
+    # How much additional Enchanting Power ring provides in Enchanting Table. [range: 0 ~ 32768, default: 10, synchronized: yes]
+    I:CursedRingEnchantingBonus=10
+
+    # Allows to adjust how frequently Endermen will try to randomly teleport to player bearing the ring, even if they can't see the player and are not angered yet. Lower value = less probability of this happening. [range: 0.01 ~ 32768.0, default: 1.0, synchronized: yes]
+    D:CursedRingEndermenRandomportFrequency=1.0
+
+    # Range in which Endermen can try to randomly teleport to bearers of the ring. [range: 8.0 ~ 32768.0, default: 32.0, synchronized: yes]
+    D:CursedRingEndermenRandomportRange=32.0
+
+    # How much experience will drop from mobs to bearers of the ring, measured in percents. [range: 0 ~ 32768, default: 400, synchronized: yes]
+    I:CursedRingExperienceBonus=400
+
+    # How many bonus Fortune levels ring provides [range: 0 ~ 32768, default: 1, synchronized: yes]
+    I:CursedRingFortuneBonus=1
+
+    # How much knockback bearers of the ring take, measured in percents. [range: 0 ~ 32768, default: 200, synchronized: yes]
+    I:CursedRingKnockbackDebuff=200
+
+    # How many bonus Looting levels ring provides [range: 0 ~ 32768, default: 1, synchronized: yes]
+    I:CursedRingLootingBonus=1
+
+    # How much damage monsters receive from bearers of the ring will be decreased, in percents. [range: 0 ~ 32768, default: 50, synchronized: yes]
+    I:CursedRingMonsterDamageDebuff=50
+
+    # Range in which neutral creatures are angered against bearers of the ring. [range: 4.0 ~ 32768.0, default: 24.0, synchronized: yes]
+    D:CursedRingNeutralAngerRange=24.0
+
+    # Range in which neutral creatures can see and target bearers of the ring even if they can't directly see them. [range: 0.0 ~ 32768.0, default: 4.0, synchronized: yes]
+    D:CursedRingNeutralXRayRange=4.0
+
+    # Defines how much damage bearers of the ring receive from any source. Measured as percentage. [range: 0 ~ 32768, default: 200, synchronized: yes]
+    I:CursedRingPainModifier=200
 }
 
 
