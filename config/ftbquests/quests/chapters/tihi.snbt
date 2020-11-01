@@ -1,0 +1,44 @@
+{
+	id: 2,
+	filename: "tihi",
+	order_index: 1,
+	title: "TIHI",
+	icon: {
+		ForgeCaps: {
+			"dungeons_gear:weapon": {
+				lastFiredTime: 0,
+				fuseShotCounter: 0,
+				crossbowChargeTime: 0,
+				bowChargeTime: 0.0f
+			}
+		},
+		id: "teletubbies:toast",
+		Count: 1
+	},
+	subtitle: ["Thanks! I Hate It"],
+	quests: [{
+		x: 0.0d,
+		y: 0.0d,
+		shape: "hexagon",
+		subtitle: "Well, you might not hate it...yet.",
+		id: 5,
+		tasks: [{
+			id: 6,
+			type: "observation",
+			title: "Thanks for hating it!",
+			icon: {
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0,
+						fuseShotCounter: 0,
+						crossbowChargeTime: 0,
+						bowChargeTime: 0.0f
+					}
+				},
+				id: "teletubbies:toast",
+				Count: 1
+			},
+			ticks: 0
+		}]
+	}]
+}
