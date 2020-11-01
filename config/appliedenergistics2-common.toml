@@ -67,11 +67,11 @@
 
 [worldGen]
 	meteoriteDimensionWhitelist = ["minecraft:overworld"]
-	quartzOresClusterAmount = 8
-	quartzOresPerCluster = 3
+	quartzOresClusterAmount = 0
+	quartzOresPerCluster = 1
 	meteoriteMaximumSpawnHeight = 200
 	#Range: 0.0 ~ 1.0
-	spawnChargedChance = 0.05
+	spawnChargedChance = 0.03
 
 [wireless]
 	wirelessTerminalDrainMultiplier = 1.0
