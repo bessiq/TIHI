@@ -1,0 +1,22 @@
+{
+    "pools": [
+        {
+			"rolls": {
+				"min": 1,
+				"max": 4
+			},
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:nether_star"
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:survives_explosion"
+                }
+            ]
+        }
+    ],
+    "type": "minecraft:block"
+}

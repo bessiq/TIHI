@@ -397,6 +397,29 @@
     },
     {
       "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "name": "forge:crops",
+          "expand": true,
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
         "min": 0,
         "max": 1
       },

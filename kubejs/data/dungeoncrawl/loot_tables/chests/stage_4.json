@@ -483,6 +483,33 @@
 			},
 			"entries": [
 				{
+					"type": "minecraft:tag",
+					"name": "tihi:loot",
+					"expand": true,
+					"weight": 5,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"type": "empty",
+					"weight": 95
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 0,
+				"max": 1
+			},
+			"entries": [
+				{
 					"type": "minecraft:item",
 					"name": "chanceglobe:chance_globe",
 					"weight": 1,

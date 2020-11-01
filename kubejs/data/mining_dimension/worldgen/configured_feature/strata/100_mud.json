@@ -11,7 +11,7 @@
                     "predicate_type": "minecraft:tag_match"
                   },
                   "state": {
-                    "Name": "byg:mud_block"
+                    "Name": "byg:mud"
                   },
                   "size": 64
                 },

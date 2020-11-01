@@ -14,7 +14,7 @@
       "item": "forbidden_arcanus:edelwood_log"
     },
     "C": {
-      "item": "good_nights_sleep:dream_sapling"
+      "tag": "quark:saplings"
     },
     "D": {
       "item": "naturesaura:ancient_sapling"

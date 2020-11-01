@@ -1,7 +1,8 @@
 {
     "replace": false,
     "values": [
-        "minecraft:sugar_cane", 
+        "minecraft:sugar_cane",
+        "minecraft:bamboo", 
         "byg:pink_glowcane", 
         "byg:red_glowcane", 
         "byg:blue_glowcane", 

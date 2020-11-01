@@ -665,8 +665,23 @@
 			},
 			"entries": [
 				{
-					"type": "minecraft:loot_table",
-					"name": "minecraft:chests/simple_dungeon"
+					"type": "minecraft:tag",
+					"name": "tihi:loot",
+					"expand": true,
+					"weight": 2,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"type": "empty",
+					"weight": 98
 				}
 			]
 		},
@@ -677,14 +692,8 @@
 			},
 			"entries": [
 				{
-					"type": "minecraft:tag",
-					"name": "ringsofascension:rings",
-					"expand": true,
-					"weight": 1
-				},
-				{
-					"type": "empty",
-					"weight": 99
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/simple_dungeon"
 				}
 			]
 		}

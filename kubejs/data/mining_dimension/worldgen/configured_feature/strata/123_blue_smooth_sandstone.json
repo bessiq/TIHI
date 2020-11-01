@@ -21,7 +21,7 @@
                 "config": {
                   "bottom_offset": 123,
                   "top_offset": 0,
-                  "maximum": 5
+                  "maximum": 2
                 },
                 "type": "minecraft:range"
               }

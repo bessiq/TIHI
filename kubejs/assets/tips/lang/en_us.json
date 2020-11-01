@@ -36,5 +36,12 @@
     "tips.tip.fishing_resources": "Fishing is a great way to get fish.",
     "tips.tip.boat_jump": "Placing a boat in lava is a good way to get rid of a boat.",
     "tips.tip.creeper_cat": "Creepers are afraid of Cats the Musical and will flee from it - as should we all.",
-    "tips.tip.water_grass": "Water is a great way to get wet."
+    "tips.tip.water_grass": "Water is a great way to get wet.",
+    "tips.tip.gravity_torch": "If you quickly put a torch under blocks affected by gravity, they will breakdance.",
+    "tips.tip.string_wool": "String can be crafted in a 2x2 to make wool. Because fighting spiders is, like, way easier than finding sheep, amirite?",
+    "tips.tip.barrel": "Barrels can sadly not perform a barrel roll.",
+    "tips.tip.job_site_dimension": "Villagers lose their freaking MINDS when changing dimensions.",
+    "tips.tip.villager_sweat": "Villagers sweat when trying to trade with them during a raid.",
+    "tips.tip.wandering_invis": "Wandering traders drink invisibility potions at night. But you can still hear them, and they never leave. EVER.",
+    "tips.tip.fortress_triangulation": "You can use basic triangulation to locate strongholds more efficiently. But this is modded Minecraft, so there's probably an even cheatier way to do it."
 }

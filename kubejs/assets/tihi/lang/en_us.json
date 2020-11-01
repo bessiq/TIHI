@@ -48,5 +48,7 @@
 	"block.iceandfire.sea_serpent_scale_block_teal": "Teal Sea Serpent Scale Block",
 	"key.categories.ftbquests": "FTB Quests",
 	"key.categories.losttrinkets": "Lost Trinkets",
-	"entity.doomweapon.gore_nest": "Gore Nest"
+	"entity.doomweapon.gore_nest": "Gore Nest",
+	"entity.corgis.creeper_corgi": "Creeper Corgi",
+	"entity.corgis.zombie_corgi": "Zombie Corgi"
 }
