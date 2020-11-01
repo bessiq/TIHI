@@ -92,7 +92,7 @@
 			# 
 			# 1 for spawning in most chunks and 1001 for no spawn.
 			#Range: 1 ~ 1001
-			jungleFortressSpawnrate = 35
+			jungleFortressSpawnrate = 36
 			#
 			# Controls whether loot chests spawn or not in Jungle Fortresses.
 			lootChestsJF = true

@@ -7,12 +7,12 @@
 
 [spawn]
 	#Note: A list of biomes where angels should spawn.
-	allowedBiomes = ["mining_dimension:mining", "good_nights_sleep:nightmare_hills", "good_nights_sleep:shameful_plains", "minecraft:soul_sand_valley"]
+	allowedBiomes = ["mining_dimension:mining", "byg:shattered_glacier", "byg:subzero_hypogeal", "byg:alps", "byg:frozen_lake", "byg:viscal_isles", "byg:weeping_mire", "byg:pumpkin_forest", "byg:bluff_peaks", "minecraft:ice_spikes", "minecraft:frozen_ocean"]
 	#This will only accept: MONSTER || CREATURE || AMBIENT || MISC || Anything else WILL crash your game.
 	spawnType = "MONSTER"
 	#The maximum amount of angels per biome
 	#Range: 1 ~ 100
-	maximumSpawn = 2
+	maximumSpawn = 1
 	#The angel spawn spawn weight
 	#Range: 1 ~ 100
 	spawnWeight = 5

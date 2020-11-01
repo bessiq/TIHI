@@ -1,16 +1,16 @@
+#The Infusion max health cap
+#Range: 20 ~ 200
+"Infusion cap" = 60
 #True if Lemurians are to spawn naturally
 "Spawn Lemurians" = true
 #True if Stone Golems are to spawn naturally
 "Spawn Stone Golems" = true
 #The weight of Lemurians in vanilla's spawn rate
 #Range: 1 ~ 100
-"Lemurian spawn weight" = 18
+"Lemurian spawn weight" = 24
 #The weight of Stone Golems in vanilla's spawn rate
 #Range: 1 ~ 100
-"Stone Golem spawn weight" = 6
+"Stone Golem spawn weight" = 8
 #Whitelisted RoR spawn biomes. Use the format like "minecraft:plains" 
-riskOfRainSpawnBiomes = ["good_nights_sleep:nightmare_hills", "good_nights_sleep:shameful_plains", "mining_dimension:mining", "byg:warped_desert", "byg:ivis_fields", "byg:jacaranda_forest", "byg:jacaranda_forest_hills", "byg:shattered_glacier", "byg:crag_gardens", "byg:alps"]
-#The Infusion max health cap
-#Range: 20 ~ 200
-"Infusion cap" = 60
+riskOfRainSpawnBiomes = ["byg:twilight_valley_hills", "byg:basalt_barrera", "byg:fungal_patch", "byg:jacaranda_forest_hills", "byg:ivis_fields", "byg:wailing_garth", "byg:crag_gardens", "minecraft:warped_forest"]
 

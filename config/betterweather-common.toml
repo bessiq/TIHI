@@ -66,14 +66,14 @@
 			SnowAndIceBlockPlaceTickSpeed = 20
 			#Do blizzards appear in and generate snow in deserts?
 			#Default: false.
-			BlizzardsInDeserts = false
+			BlizzardsInDeserts = true
 			#Do blizzards generate snow and ice?
 			#Default: true
 			SpawnSnowAndIce = true
 			#The chance of a blizzard that's checked every 5,000 ticks.
 			# Default: 0.1
 			#Range: 0.0 ~ 1.0
-			BlizzardChance = 0.1
+			BlizzardChance = 0.15
 			#Do blizzards destroy plants?
 			#Default: false
 			BlizzardsDestroyPlants = false

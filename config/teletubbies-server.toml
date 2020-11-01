@@ -2,57 +2,57 @@
 #Friendly Entity settings
 ["friendly entities"]
 	#Range: 1 ~ 1000000
-	mimi_weight = 3
+	mimi_weight = 2
 	#Range: 1 ~ 1000000
-	daadaa_weight = 3
+	daadaa_weight = 2
 	#Range: 1 ~ 1000000
-	umpiepumpie_weight = 3
+	umpiepumpie_weight = 2
 	#Range: 1 ~ 1000000
-	dipsy_weight = 8
+	dipsy_weight = 6
 	#Range: 1 ~ 1000000
-	nin_weight = 3
+	nin_weight = 2
 	#Range: 1 ~ 1000000
-	ping_weight = 3
+	ping_weight = 2
 	#Range: 1 ~ 1000000
-	laalaa_weight = 8
+	laalaa_weight = 6
 	#Range: 1 ~ 1000000
-	po_weight = 8
+	po_weight = 6
 	#Range: 1 ~ 1000000
-	noonoo_weight = 8
+	noonoo_weight = 6
 	#Range: 1 ~ 1000000
-	duggledee_weight = 3
+	duggledee_weight = 2
 	#Range: 1 ~ 1000000
-	tinkywinky_weight = 8
+	tinkywinky_weight = 6
 	#Range: 1 ~ 1000000
-	ba_weight = 3
+	ba_weight = 2
 	#Range: 1 ~ 1000000
-	ruru_weight = 3
+	ruru_weight = 2
 
 #World Gen settings
 [worldgen]
 	#Min chunks between domes
 	#Range: 1 ~ 1000
-	min = 10
+	min = 12
 	#Max chunks between domes
 	#Range: 1 ~ 1000
-	max = 25
-	#Voice Trumpet Probability (%) to reduce chance of actual placement
+	max = 30
+	#Voice Trumpet Spawnrate (%)
 	#Range: 0 ~ 100
-	probability = 10
+	probability = 4
 
 #Hostile Entity settings
 ["hostile entities"]
 	#Range: 1 ~ 1000000
-	po_zombie_weight = 75
+	po_zombie_weight = 65
 	#Chance of Teletubby transforming into zombie Teletubby
 	#Range: 1 ~ 100
 	transformation_probability = 25
 	#Range: 1 ~ 1000000
-	laalaa_zombie_weight = 75
+	laalaa_zombie_weight = 65
 	#Range: 1 ~ 1000000
-	tinkywinky_zombie_weight = 75
+	tinkywinky_zombie_weight = 65
 	#Range: 1 ~ 1000000
-	dipsy_zombie_weight = 75
+	dipsy_zombie_weight = 65
 
 #Food settings
 [food]
