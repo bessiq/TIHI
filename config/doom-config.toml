@@ -1,5 +1,9 @@
 
 [extra]
-	#Do you want to In-fighting of the mobs?
+	#Do you want to allow In-fighting of the mobs?
 	IN_FIGHTING = true
+
+[gear]
+	#Crucible Sword/Maruader Axe Max Damage
+	CRUCIBLE_MARUADER_MAXDAMAGE = 5
 

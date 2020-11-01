@@ -1,0 +1,3 @@
+#Set to true to disable The Otherside's void teleportation when entities are below y 0
+disableOthersideTeleportation = false
+
