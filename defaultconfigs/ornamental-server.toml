@@ -1,0 +1,49 @@
+#Should Iron blocks be obtainable as items. Will not remove existing blocks from worlds.
+showIronBlocks = true
+#Should Gold blocks be obtainable as items. Will not remove existing blocks from worlds.
+showGoldBlocks = true
+#Should Diamond blocks be obtainable as items. Will not remove existing blocks from worlds.
+showDiamondBlocks = true
+#Should Emerald blocks be obtainable as items. Will not remove existing blocks from worlds.
+showEmeraldBlocks = true
+#Should Lapis Lazuli blocks be obtainable as items. Will not remove existing blocks from worlds.
+showLapisBlocks = true
+#Should Obsidian blocks be obtainable as items. Will not remove existing blocks from worlds.
+showObsidianBlocks = true
+#Should Coal blocks be obtainable as items. Will not remove existing blocks from worlds.
+showCoalBlocks = true
+#Should Redstone blocks be obtainable as items. Will not remove existing blocks from worlds.
+showRedstoneBlocks = true
+#Should Missingno blocks be obtainable as items. Will not remove existing blocks from worlds.
+showMissingnoBlocks = true
+#Should Clay blocks be obtainable as items. Will not remove existing blocks from worlds.
+showClayBlocks = true
+#Should Dirt blocks be obtainable as items. Will not remove existing blocks from worlds.
+showDirtBlocks = true
+#Should Grass blocks be obtainable as items. Will not remove existing blocks from worlds.
+showGrassBlocks = true
+#Should Hay blocks be obtainable as items. Will not remove existing blocks from worlds.
+showHayBlocks = true
+#Should Path blocks be obtainable as items. Will not remove existing blocks from worlds.
+showPathBlocks = true
+#Should Brick blocks be obtainable as items. Will not remove existing blocks from worlds.
+showBrickBlocks = true
+#Should Quartz blocks be obtainable as items. Will not remove existing blocks from worlds.
+showQuartzBlocks = true
+#Should Bone blocks be obtainable as items. Will not remove existing blocks from worlds.
+showBoneBlocks = true
+#Should Nether Brick blocks be obtainable as items. Will not remove existing blocks from worlds.
+showNetherBrickBlocks = true
+#Should Red Nether Brick blocks be obtainable as items. Will not remove existing blocks from worlds.
+showRedNetherBrickBlocks = true
+#Should Snow blocks be obtainable as items. Will not remove existing blocks from worlds.
+showSnowBlocks = true
+#Should Ice blocks be obtainable as items. Will not remove existing blocks from worlds.
+showIceBlocks = true
+#Should Packed Ice blocks be obtainable as items. Will not remove existing blocks from worlds.
+showPackedIceBlocks = true
+#Should Blue Ice blocks be obtainable as items. Will not remove existing blocks from worlds.
+showBlueIceBlocks = true
+#Should Netherite blocks be obtainable as items. Will not remove existing blocks from worlds.
+showNetheriteBlocks = true
+
