@@ -4,8 +4,9 @@
 events.listen('jei.information', function (event) {
 
     event.add('byg:pendorite_ore', ['Forest Faults are rumored to be a source of Pendorite.'])
-    event.add('byg:ametrine_ore', ['Ametrine can be found in the Guiana Shield region.'])
+    event.add('byg:ametrine_ore', ['Ametrine can be found in stone forests and the Guiana Shield region.'])
     event.add('farlanders:endumium_ore', ['Endumium is usually found in mountainous regions.'])
+    event.add('tihi:tihinium_ore', ["This ore is strange and doesn't have any friends. I'd avoid it."])
 
 })
 
@@ -18,6 +19,6 @@ events.listen('jei.add.items', function (event) {
 // J-E-bye
 events.listen('jei.hide.items', function (event) {
 
-    event.hide('appliedenergistics2:facade')
-    event.hide('buildersaddition:iron_rod')
+    //event.hide('/appliedenergistics2:facade/')
+    
 })
