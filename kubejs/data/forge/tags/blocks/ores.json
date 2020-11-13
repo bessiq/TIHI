@@ -1,7 +1,17 @@
 {
     "replace": false,
     "values": [
+        "#forge:ores/amethyst",
+        "#forge:ores/bauxite",
         "#forge:ores/copper",
-        "#forge:ores/quartz"
+        "#forge:ores/fluorite",
+        "#forge:ores/lead",
+        "#forge:ores/nickel",
+        "#forge:ores/osmium",
+        "#forge:ores/quartz",
+        "#forge:ores/sapphire",
+        "#forge:ores/silver",
+        "#forge:ores/tin",
+        "#forge:ores/uranium"
     ]
 }

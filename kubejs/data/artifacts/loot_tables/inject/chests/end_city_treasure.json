@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "artifacts:artifact",
+          "weight": 30
+        },
+        {
+          "type": "item",
+          "name": "artifacts:crystal_heart",
+          "weight": 10
+        },
+        {
+          "type": "empty",
+          "weight": 60
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"name": "chest",
+			"rolls": {
+				"min": 6,
+				"max": 8
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "farlanders:endumium_crystal"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:emerald"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gold_ingot"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_ingot"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:blaze_powder"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:blaze_rod"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:coal"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:experience_bottle"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:spider_eye"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:slime_ball"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:nether_wart"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:magma_cream"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gunpowder"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:ghast_tear"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gold_nugget"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:fermented_spider_eye"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:fire_charge"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:flint"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:ender_pearl"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:ender_eye"
+				},
+				{
+					"type": "minecraft:tag",
+					"name": "minecraft:music_discs",
+					"expand": true,
+					"weight": 3
+				},
+				{
+					"type": "minecraft:item",
+					"name": "farlanders:ender_horn"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "farlanders:titan_hide"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "farlanders:mystic_wand_fire_small"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "farlanders:mystic_wand_fire_large"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "farlanders:mystic_wand_invisible"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "farlanders:mystic_wand_ore"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "farlanders:mystic_wand_regen"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "farlanders:mystic_wand_teleport"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:name_tag"
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 0,
+				"max": 1
+			},
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/simple_dungeon"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/buried_treasure"
+				}
+			]
+		}
+	]
+}

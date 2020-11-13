@@ -2,13 +2,13 @@
     "pools": [
         {
 			"rolls": {
-				"min": 1,
-				"max": 4
+				"min": 3,
+				"max": 6
 			},
             "entries": [
                 {
-                    "type": "minecraft:item",
-                    "name": "minecraft:nether_star"
+                    "type": "minecraft:tag",
+                    "name": "forge:ores"
                 }
             ],
             "conditions": [

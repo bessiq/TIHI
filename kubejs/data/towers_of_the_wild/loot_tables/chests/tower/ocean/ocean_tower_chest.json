@@ -1,0 +1,281 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 4.0,
+        "max": 8.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:prismarine_shard"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:emerald"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:gold_nugget"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "minecraft:ender_pearl"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:compass"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:heart_of_the_sea"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/spawn_bonus_chest"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "name": "mekanismadditions:balloons",
+          "expand": true,
+          "weight": 1
+        },
+        {
+          "type": "empty",
+          "weight": 99
+        }
+      ]
+    },
+    {
+      "name": "mainpool",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "lootbagmod:lootbag",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "mystictools:loot_case",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "randomloot:basic_case",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "randomloot:titan_case",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "randomloot:golden_case",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "ringsofascension:ring_dolphin",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "ringsofascension:ring_water_breathing",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "chanceglobe:chance_globe",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "empty",
+          "weight": 85
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:leather_chestplate",
+          "weight": 40,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Hero's Tunic",
+                "color": "green"
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{RepairCost:3,Damage:0,display:{color:8439583},Enchantments:[{lvl:2s,id:\"minecraft:unbreaking\"},{lvl:2s,id:\"minecraft:protection\"}]}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "levels": 15,
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:leather_chestplate",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Champion's Tunic",
+                "color": "light_blue"
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Damage:0,Enchantments:[{lvl:3s,id:\"minecraft:protection\"},{lvl:3s,id:\"minecraft:unbreaking\"}],display:{color:3847130}}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "levels": 25,
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:leather_helmet",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Zora Helm",
+                "color": "blue"
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Damage:0,display:{color:2123944},Enchantments:[{lvl:3s,id:\"minecraft:unbreaking\"},{lvl:3s,id:\"minecraft:aqua_affinity\"},{lvl:3s,id:\"minecraft:respiration\"}]}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "levels": 20,
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "empty",
+          "weight": 35
+        }
+      ]
+    }
+  ]
+}

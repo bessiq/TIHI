@@ -1,7 +1,17 @@
 {
     "replace": false,
     "values": [
-        "byg:ivis_sprout", 
-        "byg:ivis_roots"
+        "byg:ivis_sprout",
+        "byg:ivis_roots",
+        "byg:nightshade_sprouts",
+        "byg:nightshade_roots",
+        "byg:ether_bush",
+        "byg:oddity_bush",
+        "byg:ender_lily",
+        "byg:purple_bulbis_oddity",
+        "byg:bulbis_oddity",
+        "byg:ender_lily",
+        "byg:vermilion_sculk_growth",
+        "byg:shulkren_moss_blanket"
     ]
-  }
+}

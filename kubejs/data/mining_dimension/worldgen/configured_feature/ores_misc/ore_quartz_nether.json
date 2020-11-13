@@ -13,15 +13,15 @@
                 "state": {
                   "Name": "minecraft:nether_quartz_ore"
                 },
-                "size": 14
+                "size": 8
               },
               "type": "minecraft:ore"
             },
             "decorator": {
               "config": {
-                "bottom_offset": 205,
+                "bottom_offset": 0,
                 "top_offset": 0,
-                "maximum": 5
+                "maximum": 256
               },
               "type": "minecraft:range"
             }
@@ -37,7 +37,7 @@
     },
     "decorator": {
       "config": {
-        "count": 16
+        "count": 10
       },
       "type": "minecraft:count"
     }

@@ -7,6 +7,11 @@
         "byg:skyris_vine",
         "byg:embur_gel_vines",
         "byg:poison_ivy",
-        "byg:weeping_roots_plant"
+        "byg:weeping_roots",
+        "byg:shulkren_vine",
+        "byg:whaling_vine",
+        "byg:lament_vine",
+        "quark:root",
+        "byg:hanging_sythian_roots"
     ]
 }

@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        "industrialforegoing:dryrubber"
+        "industrialforegoing:dryrubber",
+        "thermal:rubber"
     ]
 }

@@ -1,0 +1,40 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "artifacts:artifact",
+          "weight": 11
+        },
+        {
+          "type": "item",
+          "name": "lootbagmod:lootbag",
+          "weight": 7
+        },
+        {
+          "type": "item",
+          "name": "mystictools:loot_case",
+          "weight": 9
+        },
+        {
+          "type": "item",
+          "name": "randomloot:basic_case",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "randomloot:titan_case",
+          "weight": 6
+        },
+        {
+          "type": "item",
+          "name": "randomloot:golden_case",
+          "weight": 8
+        }
+      ]
+    }
+  ]
+}

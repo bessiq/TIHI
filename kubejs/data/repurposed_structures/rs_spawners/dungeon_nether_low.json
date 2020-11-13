@@ -19,10 +19,6 @@
         {
             "name": "minecraft:wither_skeleton",
             "weight": 1
-        },
-        {
-            "name": "lava_monster:lava_monster",
-            "weight": 5
         }
     ]
 }

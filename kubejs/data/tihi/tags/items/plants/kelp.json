@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        "minecraft:kelp"
+        "minecraft:kelp",
+        "undergarden:glowing_kelp"
     ]
   }

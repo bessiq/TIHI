@@ -1,0 +1,29 @@
+{
+	"replace": false,
+	"values":
+	[
+		"minecraft:bat",
+		"minecraft:cow",
+		"minecraft:pig",
+		"minecraft:sheep",
+		"minecraft:chicken",
+		"minecraft:rabbit",
+		"ars_nouveau:carbuncle",
+		"ars_nouveau:sylph",
+		"direbats:direbat",
+		"quark:frog",
+		"quark:crab",
+		"good_nights_sleep:gummy_bear",
+		"iceandfire:pixie",
+		"farlanders:enderminion",
+		"rats:rat",
+		"teletubbies:ba",
+		"teletubbies:daadaa",
+		"teletubbies:duggledee",
+		"teletubbies:mimi",
+		"teletubbies:nin",
+		"teletubbies:ping",
+		"teletubbies:ruru",
+		"teletubbies:umpiepumpie"
+	]
+}
