@@ -6,7 +6,7 @@
 	# Separate multiple entries with a comma.
 	#
 	#Example: "minecraft:the_end,awesome_mod:awesome_dimension"
-	blacklistedDimensions = "the_bumblezone:the_bumblezone"
+	blacklistedDimensions = "the_bumblezone:the_bumblezone,undergarden:undergarden,mahoutsukai:reality_marble,good_nights_sleep:nightmare"
 
 	["Mod-wide Impacting Options"."Feature Options"]
 

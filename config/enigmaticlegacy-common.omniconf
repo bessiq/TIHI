@@ -78,6 +78,9 @@
     # Whether or not Emblem of Monster Slayer should be enabled. [default: true, synchronized: yes]
     B:EmblemofMonsterSlayerEnabled=true
 
+    # Whether or not Enchanter's Pearl should be enabled. [default: true, synchronized: yes]
+    B:EnchantersPearlEnabled=true
+
     # Whether or not Ender Rod should be enabled. [default: true, synchronized: yes]
     B:EnderRodEnabled=true
 
@@ -107,6 +110,9 @@
 
     # Whether or not Etherium Warxe should be enabled. [default: true, synchronized: yes]
     B:EtheriumWarxeEnabled=true
+
+    # Whether or not Exquisite Ring should be enabled. [default: true, synchronized: yes]
+    B:ExquisiteRingEnabled=true
 
     # Whether or not Extradimensional Eye should be enabled. [default: true, synchronized: yes]
     B:ExtradimensionalEyeEnabled=true
@@ -215,6 +221,9 @@
 
     # Whether or not Unholy Grail should be enabled. [default: true, synchronized: yes]
     B:UnholyGrailEnabled=true
+
+    # Whether or not Unholy Stone should be enabled. [default: true, synchronized: yes]
+    B:UnholyStoneEnabled=true
 
     # Whether or not Will of the Ocean should be enabled. [default: true, synchronized: yes]
     B:WilloftheOceanEnabled=true
@@ -558,6 +567,9 @@
 
     # Defines how much damage bearers of the ring receive from any source. Measured as percentage. [range: 0 ~ 32768, default: 200, synchronized: yes]
     I:CursedRingPainModifier=200
+
+    # If true, Ring of the Seven Curses will be equipped into player's ring slot right away when entering a new world, instead of just being added to their inventory. [default: false, synchronized: yes]
+    B:CursedRingUltraHardcode=false
 }
 
 

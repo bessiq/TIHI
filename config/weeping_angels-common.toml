@@ -2,8 +2,10 @@
 [world_gen]
 	#Config to toggle the generation of arms in snow biomes
 	arms = true
+	#Configure whether Graveyard Structures spawn. This will require a restart when changed.
+	genGraveyard = true
 	#Configure whether the mods ores spawn. This MAY require a restart when changed.
-	genOres = true
+	genOres = false
 
 [spawn]
 	#Note: A list of biomes where angels should spawn.
@@ -33,7 +35,7 @@
 	#Range: 1 ~ 100
 	stalkRange = 65
 	#The maximum range a angel can break blocks within
-	#Range: > 1
+	#Range: 1 ~ 120
 	blockBreakRange = 15
 	#If this is enabled, baby angels will blow out light items from the players hand
 	torchBlowOut = true
@@ -43,15 +45,15 @@
 	freezeOnAngel = false
 	#If this is enabled, angels will break blocks (If gamerules allow)
 	blockBreaking = true
-	#Determines the angels move speed
-	#Range: 1.0 ~ 1.7976931348623157E308
-	moveSpeed = 1.5
 	#Toggle seen sounds
 	playSeenSounds = true
 	#If this is enabled, the timey wimey detector can blow up chickens when in use randomly
 	chickenGoboom = true
 	#Non-child angels play scraping sounds when moving, this toggles that
 	playScrapeSound = true
+	#Determines the angels move speed
+	#Range: 0.1 ~ 1.7976931348623157E308
+	angelMovementSpeed = 0.5
 	#List of blocks that you should be able to see angels through.
 	#Format for entries: ModID:BlockRegistryName
 	transparentBlocks = []

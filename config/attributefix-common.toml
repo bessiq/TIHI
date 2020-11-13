@@ -340,3 +340,25 @@
 	#Whether or not this attribute should be modified.
 	enabled = true
 
+#Values for the dungeons_gear:attack_reach attribute.
+[dungeons_gear_attack_reach]
+	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	min = 4.9E-324
+	#The maximum value for the attribute.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+	#Whether or not this attribute should be modified.
+	enabled = true
+
+#Values for the weeping_angels:block_break_range attribute.
+[weeping_angels_block_break_range]
+	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	min = 4.9E-324
+	#The maximum value for the attribute.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+	#Whether or not this attribute should be modified.
+	enabled = true
+

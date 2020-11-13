@@ -43,6 +43,7 @@
 	"Ender Watcher" = true
 	"Endermites Form Shulkers" = true
 	"Color Slime" = true
+	"Chains Connect Blocks" = true
 	"Dispensers Place Blocks" = true
 	"Redstone Circuit" = true
 	"Chain Linkage" = true
@@ -107,6 +108,7 @@
 	"Nether Brick Fence Gate" = true
 	"Item Frames" = true
 	"Stained Planks" = true
+	"Wooden Posts" = true
 	"Leaf Carpet" = true
 	"Lit Lamp" = true
 	"Vertical Planks" = true
@@ -356,6 +358,8 @@
 		"Bent Recipes" = true
 		#Can Rotten Flesh and Poisonous Potatoes be composted?
 		"Compostable Toxins" = true
+		#Can bones be smelted down to bone meal?
+		"Bone Meal Utility" = true
 		#Can any wool color be dyed?
 		"Dye Any Wool" = true
 		#Can Coral be crafted into dye?
@@ -451,21 +455,21 @@
 	[world.monster_box]
 		#The chance for the monster box generator to try and place one in a chunk, 1 is 100%
 		#This can be higher than 100% if you want multiple per chunk, , 0 is 0%
-		"Chance Per Chunk" = 0.6
+		"Chance Per Chunk" = 0.2
 		"Min Mob Count" = 5
 		"Min Y" = 5
-		"Max Y" = 255
+		"Max Y" = 35
 		"Max Mob Count" = 7
 		"Enable Extra Loot Table" = true
 
 		[world.monster_box.dimensions]
-			Dimensions = ["mining_dimension:mining"]
+			Dimensions = ["minecraft:overworld"]
 			"Is Blacklist" = false
 
 	[world.big_stone_clusters]
 		#Blocks that stone clusters can replace. If you want to make it so it only replaces in one dimension,
 		#do "block|dimension", as we do for netherrack and end stone by default.
-		"Blocks To Replace" = ["minecraft:stone", "minecraft:andesite", "minecraft:diorite", "minecraft:granite", "minecraft:netherrack|minecraft:the_nether", "minecraft:end_stone|minecraft:the_end", "quark:marble", "quark:limestone", "quark:jasper", "quark:slate", "quark:basalt"]
+		"Blocks To Replace" = ["minecraft:stone", "minecraft:andesite", "minecraft:diorite", "minecraft:granite", "minecraft:netherrack|minecraft:the_nether", "minecraft:end_stone|minecraft:the_end", "quark:marble", "quark:limestone", "quark:jasper", "quark:slate", "quark:basalt", "embellishcraft:basalt", "embellishcraft:slate", "embellishcraft:marble", "embellishcraft:gneiss", "embellishcraft:jade", "embellishcraft:larvikite"]
 
 		[world.big_stone_clusters.marble]
 			#Allowed values: [0,)
@@ -476,9 +480,9 @@
 			"Min Y Level" = 20
 			#Allowed values: [0,)
 			"Horizontal Variation" = 9
-			Enabled = false
+			Enabled = true
 			#Allowed values: [0,255]
-			"Max Y Level" = 80
+			"Max Y Level" = 255
 			#Allowed values: [0,)
 			"Vertical Size" = 14
 			#Allowed values: [0,)
@@ -486,8 +490,8 @@
 
 			[world.big_stone_clusters.marble.biomes]
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
-				# theend, beach, forest, ocean, desert, river, swamp, mushroom,
-				# nether]
+				# the_end, beach, forest, ocean, desert, river, swamp,
+				# mushroom, nether]
 				"Biome Categories" = ["plains"]
 				"Is Blacklist" = false
 
@@ -504,9 +508,9 @@
 			"Min Y Level" = 20
 			#Allowed values: [0,)
 			"Horizontal Variation" = 9
-			Enabled = false
+			Enabled = true
 			#Allowed values: [0,255]
-			"Max Y Level" = 80
+			"Max Y Level" = 255
 			#Allowed values: [0,)
 			"Vertical Size" = 14
 			#Allowed values: [0,)
@@ -514,8 +518,8 @@
 
 			[world.big_stone_clusters.limestone.biomes]
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
-				# theend, beach, forest, ocean, desert, river, swamp, mushroom,
-				# nether]
+				# the_end, beach, forest, ocean, desert, river, swamp,
+				# mushroom, nether]
 				"Biome Categories" = ["swamp", "ocean"]
 				"Is Blacklist" = false
 
@@ -532,9 +536,9 @@
 			"Min Y Level" = 20
 			#Allowed values: [0,)
 			"Horizontal Variation" = 9
-			Enabled = false
+			Enabled = true
 			#Allowed values: [0,255]
-			"Max Y Level" = 80
+			"Max Y Level" = 255
 			#Allowed values: [0,)
 			"Vertical Size" = 14
 			#Allowed values: [0,)
@@ -542,8 +546,8 @@
 
 			[world.big_stone_clusters.granite.biomes]
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
-				# theend, beach, forest, ocean, desert, river, swamp, mushroom,
-				# nether]
+				# the_end, beach, forest, ocean, desert, river, swamp,
+				# mushroom, nether]
 				"Biome Categories" = ["extreme_hills"]
 				"Is Blacklist" = false
 
@@ -570,8 +574,8 @@
 
 			[world.big_stone_clusters.voidstone.biomes]
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
-				# theend, beach, forest, ocean, desert, river, swamp, mushroom,
-				# nether]
+				# the_end, beach, forest, ocean, desert, river, swamp,
+				# mushroom, nether]
 				"Biome Categories" = ["the_end"]
 				"Is Blacklist" = false
 
@@ -588,9 +592,9 @@
 			"Min Y Level" = 20
 			#Allowed values: [0,)
 			"Horizontal Variation" = 9
-			Enabled = false
+			Enabled = true
 			#Allowed values: [0,255]
-			"Max Y Level" = 80
+			"Max Y Level" = 255
 			#Allowed values: [0,)
 			"Vertical Size" = 14
 			#Allowed values: [0,)
@@ -598,8 +602,8 @@
 
 			[world.big_stone_clusters.andesite.biomes]
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
-				# theend, beach, forest, ocean, desert, river, swamp, mushroom,
-				# nether]
+				# the_end, beach, forest, ocean, desert, river, swamp,
+				# mushroom, nether]
 				"Biome Categories" = ["forest"]
 				"Is Blacklist" = false
 
@@ -616,9 +620,9 @@
 			"Min Y Level" = 20
 			#Allowed values: [0,)
 			"Horizontal Variation" = 9
-			Enabled = false
+			Enabled = true
 			#Allowed values: [0,255]
-			"Max Y Level" = 80
+			"Max Y Level" = 255
 			#Allowed values: [0,)
 			"Vertical Size" = 14
 			#Allowed values: [0,)
@@ -626,8 +630,8 @@
 
 			[world.big_stone_clusters.slate.biomes]
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
-				# theend, beach, forest, ocean, desert, river, swamp, mushroom,
-				# nether]
+				# the_end, beach, forest, ocean, desert, river, swamp,
+				# mushroom, nether]
 				"Biome Categories" = ["icy"]
 				"Is Blacklist" = false
 
@@ -644,9 +648,9 @@
 			"Min Y Level" = 20
 			#Allowed values: [0,)
 			"Horizontal Variation" = 9
-			Enabled = false
+			Enabled = true
 			#Allowed values: [0,255]
-			"Max Y Level" = 80
+			"Max Y Level" = 255
 			#Allowed values: [0,)
 			"Vertical Size" = 14
 			#Allowed values: [0,)
@@ -654,8 +658,8 @@
 
 			[world.big_stone_clusters.diorite.biomes]
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
-				# theend, beach, forest, ocean, desert, river, swamp, mushroom,
-				# nether]
+				# the_end, beach, forest, ocean, desert, river, swamp,
+				# mushroom, nether]
 				"Biome Categories" = ["savanna", "jungle", "mushroom"]
 				"Is Blacklist" = false
 
@@ -672,9 +676,9 @@
 			"Min Y Level" = 20
 			#Allowed values: [0,)
 			"Horizontal Variation" = 9
-			Enabled = false
+			Enabled = true
 			#Allowed values: [0,255]
-			"Max Y Level" = 80
+			"Max Y Level" = 255
 			#Allowed values: [0,)
 			"Vertical Size" = 14
 			#Allowed values: [0,)
@@ -682,8 +686,8 @@
 
 			[world.big_stone_clusters.jasper.biomes]
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
-				# theend, beach, forest, ocean, desert, river, swamp, mushroom,
-				# nether]
+				# the_end, beach, forest, ocean, desert, river, swamp,
+				# mushroom, nether]
 				"Biome Categories" = ["mesa", "desert"]
 				"Is Blacklist" = false
 
@@ -717,13 +721,13 @@
 
 			[world.cave_crystal_underground_biome.biome_settings.biomes]
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
-				# theend, beach, forest, ocean, desert, river, swamp, mushroom,
-				# nether]
+				# the_end, beach, forest, ocean, desert, river, swamp,
+				# mushroom, nether]
 				"Biome Categories" = ["ocean"]
 				"Is Blacklist" = true
 
 			[world.cave_crystal_underground_biome.biome_settings.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 	[world.overgrown_underground_biome]
@@ -746,8 +750,8 @@
 
 			[world.overgrown_underground_biome.biome_settings.biomes]
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
-				# theend, beach, forest, ocean, desert, river, swamp, mushroom,
-				# nether]
+				# the_end, beach, forest, ocean, desert, river, swamp,
+				# mushroom, nether]
 				"Biome Categories" = ["forest"]
 				"Is Blacklist" = false
 
@@ -786,8 +790,8 @@
 
 			[world.permafrost_underground_biome.biome_settings.biomes]
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
-				# theend, beach, forest, ocean, desert, river, swamp, mushroom,
-				# nether]
+				# the_end, beach, forest, ocean, desert, river, swamp,
+				# mushroom, nether]
 				"Biome Categories" = ["icy"]
 				"Is Blacklist" = false
 
@@ -815,8 +819,8 @@
 
 			[world.sandstone_underground_biome.biome_settings.biomes]
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
-				# theend, beach, forest, ocean, desert, river, swamp, mushroom,
-				# nether]
+				# the_end, beach, forest, ocean, desert, river, swamp,
+				# mushroom, nether]
 				"Biome Categories" = ["desert"]
 				"Is Blacklist" = false
 
@@ -877,8 +881,8 @@
 
 			[world.crevices.spawn_settings.biomes]
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
-				# theend, beach, forest, ocean, desert, river, swamp, mushroom,
-				# nether]
+				# the_end, beach, forest, ocean, desert, river, swamp,
+				# mushroom, nether]
 				"Biome Categories" = ["ocean", "beach"]
 				"Is Blacklist" = true
 
@@ -910,8 +914,8 @@
 
 			[world.lush_underground_biome.biome_settings.biomes]
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
-				# theend, beach, forest, ocean, desert, river, swamp, mushroom,
-				# nether]
+				# the_end, beach, forest, ocean, desert, river, swamp,
+				# mushroom, nether]
 				"Biome Categories" = ["jungle"]
 				"Is Blacklist" = false
 
@@ -922,19 +926,19 @@
 	[world.cave_roots]
 		"Min Y" = 15
 		"Chunk Attempts" = 120
-		"Max Y" = 255
+		"Max Y" = 60
 		"Enable Brewing" = true
 
 		[world.cave_roots.dimensions]
-			Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+			Dimensions = ["minecraft:overworld"]
 			"Is Blacklist" = false
 
 	[world.new_stone_types]
-		"Enable Marble" = true
-		"Enable Jasper" = true
+		"Enable Marble" = false
+		"Enable Jasper" = false
 		"Enable Voidstone" = true
-		"Enable Slate" = true
-		"Enable Limestone" = true
+		"Enable Slate" = false
+		"Enable Limestone" = false
 
 		[world.new_stone_types.marble]
 
@@ -1037,8 +1041,8 @@
 
 			[world.spider_nest_underground_biome.biome_settings.biomes]
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
-				# theend, beach, forest, ocean, desert, river, swamp, mushroom,
-				# nether]
+				# the_end, beach, forest, ocean, desert, river, swamp,
+				# mushroom, nether]
 				"Biome Categories" = ["plains"]
 				"Is Blacklist" = false
 
@@ -1066,8 +1070,8 @@
 
 			[world.brimstone_underground_biome.biome_settings.biomes]
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
-				# theend, beach, forest, ocean, desert, river, swamp, mushroom,
-				# nether]
+				# the_end, beach, forest, ocean, desert, river, swamp,
+				# mushroom, nether]
 				"Biome Categories" = ["mesa"]
 				"Is Blacklist" = false
 
@@ -1084,10 +1088,10 @@
 
 		[world.big_dungeon.biome_types]
 			#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
-			# theend, beach, forest, ocean, desert, river, swamp, mushroom,
-			# nether]
-			"Biome Categories" = ["ocean", "beach", "nether"]
-			"Is Blacklist" = true
+			# the_end, beach, forest, ocean, desert, river, swamp,
+			# mushroom, nether]
+			"Biome Categories" = ["taiga", "extreme_hills", "jungle", "mesa", "plains", "savanna", "forest", "desert", "swamp"]
+			"Is Blacklist" = false
 
 	[world.blossom_trees]
 
@@ -1100,8 +1104,8 @@
 
 			[world.blossom_trees.orange.biome_types]
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
-				# theend, beach, forest, ocean, desert, river, swamp, mushroom,
-				# nether]
+				# the_end, beach, forest, ocean, desert, river, swamp,
+				# mushroom, nether]
 				"Biome Categories" = ["savanna"]
 				"Is Blacklist" = false
 
@@ -1114,8 +1118,8 @@
 
 			[world.blossom_trees.pink.biome_types]
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
-				# theend, beach, forest, ocean, desert, river, swamp, mushroom,
-				# nether]
+				# the_end, beach, forest, ocean, desert, river, swamp,
+				# mushroom, nether]
 				"Biome Categories" = ["extreme_hills"]
 				"Is Blacklist" = false
 
@@ -1128,8 +1132,8 @@
 
 			[world.blossom_trees.blue.biome_types]
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
-				# theend, beach, forest, ocean, desert, river, swamp, mushroom,
-				# nether]
+				# the_end, beach, forest, ocean, desert, river, swamp,
+				# mushroom, nether]
 				"Biome Categories" = ["icy"]
 				"Is Blacklist" = false
 
@@ -1142,8 +1146,8 @@
 
 			[world.blossom_trees.yellow.biome_types]
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
-				# theend, beach, forest, ocean, desert, river, swamp, mushroom,
-				# nether]
+				# the_end, beach, forest, ocean, desert, river, swamp,
+				# mushroom, nether]
 				"Biome Categories" = ["plains"]
 				"Is Blacklist" = false
 
@@ -1156,8 +1160,8 @@
 
 			[world.blossom_trees.lavender.biome_types]
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
-				# theend, beach, forest, ocean, desert, river, swamp, mushroom,
-				# nether]
+				# the_end, beach, forest, ocean, desert, river, swamp,
+				# mushroom, nether]
 				"Biome Categories" = ["swamp"]
 				"Is Blacklist" = false
 
@@ -1206,8 +1210,8 @@
 
 			[world.slime_underground_biome.biome_settings.biomes]
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
-				# theend, beach, forest, ocean, desert, river, swamp, mushroom,
-				# nether]
+				# the_end, beach, forest, ocean, desert, river, swamp,
+				# mushroom, nether]
 				"Biome Categories" = ["swamp"]
 				"Is Blacklist" = false
 
@@ -1235,8 +1239,8 @@
 
 			[world.mega_caves.spawn_settings.biomes]
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
-				# theend, beach, forest, ocean, desert, river, swamp, mushroom,
-				# nether]
+				# the_end, beach, forest, ocean, desert, river, swamp,
+				# mushroom, nether]
 				"Biome Categories" = ["ocean", "beach"]
 				"Is Blacklist" = true
 
@@ -1272,8 +1276,8 @@
 
 			[world.elder_prismarine_underground_biome.biome_settings.biomes]
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
-				# theend, beach, forest, ocean, desert, river, swamp, mushroom,
-				# nether]
+				# the_end, beach, forest, ocean, desert, river, swamp,
+				# mushroom, nether]
 				"Biome Categories" = ["ocean"]
 				"Is Blacklist" = false
 
@@ -1307,8 +1311,8 @@
 
 			[world.glowshroom_underground_biome.biome_settings.biomes]
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
-				# theend, beach, forest, ocean, desert, river, swamp, mushroom,
-				# nether]
+				# the_end, beach, forest, ocean, desert, river, swamp,
+				# mushroom, nether]
 				"Biome Categories" = ["extreme_hills", "mushroom"]
 				"Is Blacklist" = false
 
@@ -1326,7 +1330,7 @@
 	[mobs.stonelings]
 		"Cautious Stonelings" = true
 		"Enable Diamond Heart" = true
-		"Max Y Level" = 250
+		"Max Y Level" = 25
 		"Tamable Stonelings" = true
 
 		[mobs.stonelings.spawn_config]
@@ -1339,18 +1343,18 @@
 
 			[mobs.stonelings.spawn_config.biomes]
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
-				# theend, beach, forest, ocean, desert, river, swamp, mushroom,
-				# nether]
+				# the_end, beach, forest, ocean, desert, river, swamp,
+				# mushroom, nether]
 				"Biome Categories" = ["nether"]
 				"Is Blacklist" = true
 
 		[mobs.stonelings.dimensions]
-			Dimensions = ["mining_dimension:mining"]
+			Dimensions = ["minecraft:overworld"]
 			"Is Blacklist" = false
 
 	[mobs.toretoise]
 		"Disable Iron Farms" = false
-		"Max Y Level" = 250
+		"Max Y Level" = 25
 
 		[mobs.toretoise.spawn_config]
 			#Allowed values: (0,)
@@ -1362,13 +1366,13 @@
 
 			[mobs.toretoise.spawn_config.biomes]
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
-				# theend, beach, forest, ocean, desert, river, swamp, mushroom,
-				# nether]
+				# the_end, beach, forest, ocean, desert, river, swamp,
+				# mushroom, nether]
 				"Biome Categories" = ["nether"]
 				"Is Blacklist" = true
 
 		[mobs.toretoise.dimensions]
-			Dimensions = ["mining_dimension:mining"]
+			Dimensions = ["minecraft:overworld"]
 			"Is Blacklist" = false
 
 	[mobs.crabs]
@@ -1384,8 +1388,8 @@
 
 			[mobs.crabs.spawn_config.biomes]
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
-				# theend, beach, forest, ocean, desert, river, swamp, mushroom,
-				# nether]
+				# the_end, beach, forest, ocean, desert, river, swamp,
+				# mushroom, nether]
 				"Biome Categories" = ["beach"]
 				"Is Blacklist" = false
 
@@ -1404,7 +1408,7 @@
 			"Max Group Size" = 1
 
 			[mobs.foxhound.lesser_spawn_config.biomes]
-				Biomes = ["minecraft:soul_sand_valley", "mining_dimension:mining"]
+				Biomes = ["minecraft:soul_sand_valley"]
 				"Is Blacklist" = false
 
 		[mobs.foxhound.spawn_config]
@@ -1425,7 +1429,7 @@
 
 		[mobs.frogs.spawn_config]
 			#Allowed values: (0,)
-			"Spawn Weight" = 40
+			"Spawn Weight" = 30
 			#Allowed values: [1,)
 			"Min Group Size" = 1
 			#Allowed values: [1,)
@@ -1433,8 +1437,8 @@
 
 			[mobs.frogs.spawn_config.biomes]
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
-				# theend, beach, forest, ocean, desert, river, swamp, mushroom,
-				# nether]
+				# the_end, beach, forest, ocean, desert, river, swamp,
+				# mushroom, nether]
 				"Biome Categories" = ["swamp"]
 				"Is Blacklist" = false
 

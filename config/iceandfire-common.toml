@@ -98,7 +98,7 @@
 	#Range: > 10
 	"Max Stymphalian Bird Flight Height" = 200
 	#Whitelist structure gen dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis" 
-	blacklistDimensions = ["minecraft:overworld"]
+	blacklistDimensions = ["minecraft:overworld", "minecraft:the_end", "minecraft:the_nether", "mining_dimension:mining", "the_bumblezone:the_bumblezone", "rats:ratlantis", "good_nights_sleep:nightmare", "undergarden:undergarden"]
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
 	"Spawn Sea Serpent Chance" = 333
@@ -163,7 +163,7 @@
 	"Dragon Flight Speed Modifier" = 1.0
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Spawn Wandering Cyclops Chance" = 900
+	"Spawn Wandering Cyclops Chance" = 800
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
 	"Spawn Gorgon Chance" = 100
@@ -203,7 +203,7 @@
 	"Hippogryph Spawn Weight" = 2
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Generate Dragon Roost Chance" = 540
+	"Generate Dragon Roost Chance" = 555
 	#Maximum ghost attack strength.
 	#Range: 0.0 ~ 10000.0
 	"Ghost Attack Strength" = 4.5
@@ -245,7 +245,7 @@
 	"Death Worms Target Monsters" = true
 	#How far away dangerous structures(dragon roosts, cyclops caves, etc.) must be from the last generated structure.
 	#Range: 1 ~ 10000
-	"Dangerous World Gen Dist Seperation" = 333
+	"Dangerous World Gen Dist Seperation" = 444
 	#True if dragons fire/ice charges create secondary explosions that launch blocks everywhere. Turn this to true if you like unfair explosions. Or lag.
 	"Explosive Dragon Breath" = false
 	#Base Myrmex(worker) attack strength
@@ -296,7 +296,7 @@
 	#Range: 1 ~ 10000
 	"Spawn Stymhphalian Bird Chance" = 80
 	#A double check to see if the game can spawn trolls. Higher number = lower chance to spawn.
-	#Range: 1 ~ 10000
+	#Range: 0 ~ 10000
 	"Troll Spawn Check Chance" = 30
 	#1/this number chance for a stymphalian feather to turn into an item before despawning. Zero means never.
 	#Range: 0 ~ 10000

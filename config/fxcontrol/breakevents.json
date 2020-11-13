@@ -1,1 +1,11 @@
-[]
+[
+    {
+        "block": "tihi:tihinium_ore",
+        "random": 0.666,
+        "setblock": {
+            "block": "minecraft:lava"
+          },      
+        "potion": "minecraft:mining_fatigue,20,5",
+        "result": "allow"
+    }
+]

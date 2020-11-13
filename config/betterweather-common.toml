@@ -6,7 +6,7 @@
 		#The chance of acid rain that's checked every 5,000 ticks.
 		# Default: 0.25
 		#Range: 0.0 ~ 1.0
-		AcidRainChance = 0.25
+		AcidRainChance = 0.1
 		#Destroy what block materials? Allowed Values: GRASS,LEAVES,PLANTS,CROPS
 		#Default: GRASS,LEAVES,PLANTS,CROPS
 		BlocksToDestroy = "GRASS,LEAVES,PLANTS,CROPS"
@@ -73,7 +73,7 @@
 			#The chance of a blizzard that's checked every 5,000 ticks.
 			# Default: 0.1
 			#Range: 0.0 ~ 1.0
-			BlizzardChance = 0.15
+			BlizzardChance = 0.1
 			#Do blizzards destroy plants?
 			#Default: false
 			BlizzardsDestroyPlants = false

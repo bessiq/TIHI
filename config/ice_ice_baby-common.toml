@@ -1,7 +1,7 @@
 
 #Mob Configuration
 [mob_configuration]
-	#Enable Iceologers to spawn snowy or icy biomes. 
+	#Enable Iceologers to spawn in snowy or icy biomes. 
 	#If you have an alternative way to spawn them, disable this feature. [true / false]
 	enableIceologerSpawns = true
 	#Spawn weight of iceologers in snowy or icy biomes.

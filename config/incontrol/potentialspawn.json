@@ -1,1 +1,108 @@
-[]
+[
+    {
+        "mobs": [
+            {
+                "dimension": [
+                    "minecraft:overworld"
+                ],
+                "structure": [
+                    "village",
+                    "repurposed_structures:village_swamp",
+                    "repurposed_structures:village_birch",
+                    "repurposed_structures:village_mountains",
+                    "repurposed_structures:village_giant_taiga",
+                    "repurposed_structures:village_jungle",
+                    "repurposed_structures:village_badlands",
+                    "repurposed_structures:village_dark_oak",
+                    "valhelsia_structures:castle",
+                    "valhelsia_structures:forge",
+                    "valhelsia_structures:player_house",
+                    "valhelsia_structures:desert_house",
+                    "valhelsia_structures:forge",
+                    "valhelsia_structures:small_castle"
+                ],
+                "mincount": {
+                    "amount": 1,
+                    "mob": "ornamental:diamond_golem"
+                },
+                "mob": "ornamental:diamond_golem",
+                "weight": 20,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            }
+        ]
+    },
+    {
+        "mobs": [
+            {
+                "structure": [
+                    "valhelsia_structures:castle"
+                ],
+                "mincount": "3,minecraft:villager",
+                "mob": "minecraft:villager",
+                "weight": 20,
+                "groupcountmin": 2,
+                "groupcountmax": 3
+            }
+        ]
+    },
+    {
+        "mobs": [
+            {
+                "structure": [
+                    "valhelsia_structures:forge",
+                    "valhelsia_structures:player_house",
+                    "valhelsia_structures:desert_house",
+                    "valhelsia_structures:forge",
+                    "valhelsia_structures:small_castle"
+                ],
+                "mincount": "2,minecraft:villager",
+                "mob": "minecraft:villager",
+                "weight": 20,
+                "groupcountmin": 1,
+                "groupcountmax": 2
+            }
+        ]
+    },
+    {
+        "mobs": [
+            {
+                "biome": "mining_dimension:mining",
+                "mob": "golems:golem_bedrock",
+                "weight": 10,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            }
+        ]
+    },
+    {
+        "mobs": [
+            {
+                "dimension": "mining_dimension:mining",
+                "biome": "mining_dimension:mining",
+                "mob": "minecraft:slime",
+                "weight": 40,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            }
+        ]
+    },
+    {
+        "mobs": [
+            {
+                "biome": "mining_dimension:mining",
+                "mob": "ice_ice_baby:iceologer",
+                "block": [
+                    "minecraft:snow_block",
+                    "minecraft:ice",
+                    "minecraft:packed_ice",
+                    "byg:black_ice",
+                    "byg:packed_black_ice"
+                ],
+                "weight": 5,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            }
+        ]
+    }
+]

@@ -19,7 +19,7 @@
 		# Note: The mineshaft will spawn between min and max y height set in config.
 		# Setting this to below min height config will make mineshaft spawn only at min height.
 		#Range: 5 ~ 255
-		endMineshaftMaxHeight = 40
+		endMineshaftMaxHeight = 35
 		#
 		# Minimum Y height that this mineshaft can spawn at. Default is 45.
 		# Note: The mineshaft will spawn between min and max y height set in config.
@@ -122,7 +122,7 @@
 		# Note: The mineshaft will spawn between min and max y height set in config.
 		#
 		#Range: 5 ~ 255
-		endMineshaftMinHeight = 30
+		endMineshaftMinHeight = 15
 		#
 		# Minimum Y height that this mineshaft can spawn at. Default is 8.
 		# Note: The mineshaft will spawn between min and max y height set in config.

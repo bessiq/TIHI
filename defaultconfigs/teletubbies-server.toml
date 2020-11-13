@@ -3,7 +3,7 @@
 [worldgen]
 	#Voice Trumpet Probability (%) to reduce chance of actual placement
 	#Range: 0 ~ 100
-	probability = 4
+	probability = 3
 
 #Friendly Entity settings
 ["friendly entities"]

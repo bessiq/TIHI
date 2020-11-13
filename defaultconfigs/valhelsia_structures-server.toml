@@ -1,7 +1,7 @@
 
 [structures]
 	#Biomes in which Structures cant generate in
-	blacklisted_biomes = ["minecraft:ocean", "minecraft:river", "minecraft:frozen_ocean", "minecraft:frozen_river", "minecraft:deep_ocean", "minecraft:warm_ocean", "minecraft:lukewarm_ocean", "minecraft:cold_ocean", "minecraft:deep_warm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:deep_cold_ocean", "minecraft:deep_frozen_ocean", "mining_dimension:mining", "byg:great_lakes", "byg:fresh_water_lake", "byg:dead_sea"]
+	blacklisted_biomes = ["minecraft:ocean", "minecraft:river", "minecraft:frozen_ocean", "minecraft:frozen_river", "minecraft:deep_ocean", "minecraft:warm_ocean", "minecraft:lukewarm_ocean", "minecraft:cold_ocean", "minecraft:deep_warm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:deep_cold_ocean", "minecraft:deep_frozen_ocean", "mining_dimension:mining", "byg:dead_sea", "byg:polluted_lake", "byg:great_lakes", "byg:fresh_water_lake", "byg:frozen_lake"]
 
 	[structures.tower_ruin]
 		#Tower Ruin Distance (in chunks) [default: 25]

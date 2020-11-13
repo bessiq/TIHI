@@ -32,13 +32,13 @@
 [worldgen]
 	#Min chunks between domes
 	#Range: 1 ~ 1000
-	min = 12
+	min = 15
 	#Max chunks between domes
 	#Range: 1 ~ 1000
 	max = 30
 	#Voice Trumpet Spawnrate (%)
 	#Range: 0 ~ 100
-	probability = 4
+	probability = 3
 
 #Hostile Entity settings
 ["hostile entities"]
