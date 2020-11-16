@@ -163,7 +163,7 @@
         },
         {
           "type": "item",
-          "name": "immersiveengineering:ore_silver",
+          "name": "thermal:silver_ore",
           "functions": [
             {
               "function": "set_count",

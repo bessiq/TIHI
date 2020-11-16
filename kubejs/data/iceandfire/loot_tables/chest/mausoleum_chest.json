@@ -233,7 +233,7 @@
         },
         {
           "type": "item",
-          "name": "immersiveengineering:ingot_silver",
+          "name": "thermal:silver_ingot",
           "functions": [
             {
               "function": "set_count",

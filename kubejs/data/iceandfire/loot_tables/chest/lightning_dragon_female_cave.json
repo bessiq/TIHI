@@ -107,7 +107,7 @@
         },
         {
           "type": "item",
-          "name": "mekanism:ingot_copper",
+          "name": "thermal:copper_ingot",
           "functions": [
             {
               "function": "set_count",
@@ -121,7 +121,7 @@
         },
         {
           "type": "item",
-          "name": "mekanism:nugget_copper",
+          "name": "thermal:copper_nugget",
           "functions": [
             {
               "function": "set_count",

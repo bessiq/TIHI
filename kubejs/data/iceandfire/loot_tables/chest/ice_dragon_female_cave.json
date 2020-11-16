@@ -107,7 +107,7 @@
         },
         {
           "type": "item",
-          "name": "immersiveengineering:ingot_silver",
+          "name": "thermal:silver_ingot",
           "functions": [
             {
               "function": "set_count",
@@ -121,7 +121,7 @@
         },
         {
           "type": "item",
-          "name": "immersiveengineering:nugget_silver",
+          "name": "thermal:silver_nugget",
           "functions": [
             {
               "function": "set_count",
