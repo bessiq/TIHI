@@ -19,13 +19,7 @@
         "spacing": 40,
         "separation": 15,
         "salt": 34222645
-      },
-      "repurposed_structures:mineshaft_stone": {
-        "spacing": 1,
-        "separation": 0,
-        "salt": 0
       }
-
     }
   },
   "noise": {
