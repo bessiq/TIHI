@@ -1,11 +1,11 @@
 {
     "replace": false,
     "values": [
-        "byg:compat/dacite_copper_ore",
-        "byg:compat/mossy_stone_copper_ore",
-        "byg:compat/red_rock_copper_ore",
-        "byg:compat/rocky_stone_copper_ore",
-        "byg:compat/scoria_stone_copper_ore",
-        "byg:compat/soapstone_copper_ore"
+        "tihi:byg/dacite_copper_ore",
+        "tihi:byg/mossy_stone_copper_ore",
+        "tihi:byg/red_rock_copper_ore",
+        "tihi:byg/rocky_stone_copper_ore",
+        "tihi:byg/scoria_stone_copper_ore",
+        "tihi:byg/soapstone_copper_ore"
     ]
 }

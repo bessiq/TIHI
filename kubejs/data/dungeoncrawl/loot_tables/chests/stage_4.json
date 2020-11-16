@@ -473,6 +473,10 @@
 				{
 					"type": "minecraft:loot_table",
 					"name": "minecraft:chests/desert_temple"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/simple_dungeon"
 				}
 			]
 		},
@@ -495,10 +499,6 @@
 							}
 						}
 					]
-				},
-				{
-					"type": "empty",
-					"weight": 99
 				}
 			]
 		}

@@ -438,7 +438,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "minecraft:gameplay/fishing/treasure"
+					"name": "minecraft:chests/nether_bridge"
 				}
 			]
 		},
@@ -461,10 +461,6 @@
 							}
 						}
 					]
-				},
-				{
-					"type": "empty",
-					"weight": 98
 				}
 			]
 		}

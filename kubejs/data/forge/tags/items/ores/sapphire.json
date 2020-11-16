@@ -2,6 +2,6 @@
     "replace": false,
     "values": [
         "iceandfire:sapphire_ore",
-        "byg:compat/mossy_stone_sapphire_ore"
+        "tihi:byg/mossy_stone_sapphire_ore"
     ]
 }

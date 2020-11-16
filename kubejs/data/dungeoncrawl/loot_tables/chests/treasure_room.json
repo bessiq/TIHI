@@ -236,7 +236,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "minecraft:chests/nether_bridge"
+					"name": "minecraft:gameplay/fishing/treasure"
 				},
 				{
 					"type": "minecraft:loot_table",
