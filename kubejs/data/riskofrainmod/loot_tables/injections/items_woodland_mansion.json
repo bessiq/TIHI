@@ -8,7 +8,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 8,
+          "weight": 1,
           "name": "riskofrainmod:common_bustling_fungus",
           "functions": [
             {
@@ -22,7 +22,21 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 8,
+          "weight": 1,
+          "name": "riskofrainmod:common_crowbar",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
           "name": "riskofrainmod:common_goat_hoof",
           "functions": [
             {
@@ -35,8 +49,64 @@
           ]
         },
         {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "riskofrainmod:common_lens_makers_glasses",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "riskofrainmod:common_soldiers_syringe",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "riskofrainmod:common_topaz_brooch",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "riskofrainmod:common_tougher_times",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
           "type": "minecraft:empty",
-          "weight": 84
+          "weight": 28
         }
       ]
     },
@@ -45,12 +115,17 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 9,
+          "weight": 1,
           "name": "riskofrainmod:uncommon_infusion"
         },
         {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "riskofrainmod:uncommon_rose_buckler"
+        },
+        {
           "type": "minecraft:empty",
-          "weight": 91
+          "weight": 18
         }
       ]
     }

@@ -3,40 +3,110 @@
     {
       "rolls": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 5,
+          "weight": 1,
           "name": "riskofrainmod:common_bustling_fungus",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 2
+                "max": 1
               }
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
+          "weight": 1,
+          "name": "riskofrainmod:common_crowbar",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
           "name": "riskofrainmod:common_goat_hoof",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 2
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "riskofrainmod:common_lens_makers_glasses",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "riskofrainmod:common_soldiers_syringe",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "riskofrainmod:common_topaz_brooch",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "riskofrainmod:common_tougher_times",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
               }
             }
           ]
         },
         {
           "type": "minecraft:empty",
-          "weight": 90
+          "weight": 43
         }
       ]
     },
@@ -49,8 +119,13 @@
           "name": "riskofrainmod:uncommon_infusion"
         },
         {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "riskofrainmod:uncommon_rose_buckler"
+        },
+        {
           "type": "minecraft:empty",
-          "weight": 98
+          "weight": 96
         }
       ]
     }
