@@ -2,11 +2,11 @@
     "mobs": [
         {
             "name": "minecraft:silverfish",
-            "weight": 8
+            "weight": 10
         },
         {
-            "name": "yeeter:tnt_yeeter",
-            "weight": 12
+            "name": "minecraft:slime",
+            "weight": 1
         }
     ]
 }
