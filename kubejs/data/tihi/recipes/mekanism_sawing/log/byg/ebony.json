@@ -1,0 +1,15 @@
+{
+    "type":
+        "mekanism:sawing",
+    "input":{
+        "ingredient":{"tag":"byg:ebony_logs"}
+    },
+    "mainOutput":{
+        "item":"byg:ebony_planks",
+        "count":6
+    },
+    "secondaryOutput":{
+        "item":"mekanism:sawdust"
+    },
+    "secondaryChance":0.25
+}

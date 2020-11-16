@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "tag": "forge:mushroom_caps"
+    }
+  },
+  "output": {
+    "item": "mekanism:bio_fuel",
+    "count": 7
+  }
+}

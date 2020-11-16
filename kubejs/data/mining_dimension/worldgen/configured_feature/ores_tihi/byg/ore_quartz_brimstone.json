@@ -11,7 +11,7 @@
                   "predicate_type": "minecraft:block_match"
                 },
                 "state": {
-                  "Name": "byg:brimstone_quartz_ore"
+                  "Name": "tihi:byg/brimstone_quartz_ore"
                 },
                 "size": 10
               },

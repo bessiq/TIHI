@@ -7,13 +7,13 @@
             "feature": {
               "config": {
                 "target": {
-                  "block": "byg:rocky_stone",
+                  "block": "byg:soapstone",
                   "predicate_type": "minecraft:block_match"
                 },
                 "state": {
-                  "Name": "byg:compat/rocky_stone_copper_ore"
+                  "Name": "tihi:byg/soapstone_copper_ore"
                 },
-                "size": 11
+                "size": 22
               },
               "type": "minecraft:ore"
             },

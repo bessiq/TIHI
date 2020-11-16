@@ -7,11 +7,11 @@
             "feature": {
               "config": {
                 "target": {
-                  "block": "byg:mossy_stone",
+                  "block": "byg:rocky_stone",
                   "predicate_type": "minecraft:block_match"
                 },
                 "state": {
-                  "Name": "byg:compat/mossy_stone_copper_ore"
+                  "Name": "tihi:byg/rocky_stone_copper_ore"
                 },
                 "size": 11
               },

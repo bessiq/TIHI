@@ -7,11 +7,11 @@
             "feature": {
               "config": {
                 "target": {
-                  "block": "byg:dacite",
+                  "block": "byg:scoria_stone",
                   "predicate_type": "minecraft:block_match"
                 },
                 "state": {
-                  "Name": "byg:compat/dacite_copper_ore"
+                  "Name": "tihi:byg/scoria_stone_copper_ore"
                 },
                 "size": 22
               },

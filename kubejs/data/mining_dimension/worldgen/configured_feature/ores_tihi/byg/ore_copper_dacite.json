@@ -7,11 +7,11 @@
             "feature": {
               "config": {
                 "target": {
-                  "block": "byg:red_rock",
+                  "block": "byg:dacite",
                   "predicate_type": "minecraft:block_match"
                 },
                 "state": {
-                  "Name": "byg:compat/red_rock_copper_ore"
+                  "Name": "tihi:byg/dacite_copper_ore"
                 },
                 "size": 22
               },

@@ -11,7 +11,7 @@
                   "predicate_type": "minecraft:block_match"
                 },
                 "state": {
-                  "Name": "byg:blue_netherrack_quartz_ore"
+                  "Name": "tihi:byg/blue_netherrack_quartz_ore"
                 },
                 "size": 8
               },

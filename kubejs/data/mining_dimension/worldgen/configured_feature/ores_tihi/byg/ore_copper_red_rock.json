@@ -7,11 +7,11 @@
             "feature": {
               "config": {
                 "target": {
-                  "block": "byg:soapstone",
+                  "block": "byg:red_rock",
                   "predicate_type": "minecraft:block_match"
                 },
                 "state": {
-                  "Name": "byg:compat/soapstone_copper_ore"
+                  "Name": "tihi:byg/red_rock_copper_ore"
                 },
                 "size": 22
               },

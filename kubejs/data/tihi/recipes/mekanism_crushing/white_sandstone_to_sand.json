@@ -1,0 +1,29 @@
+{
+    "type": "mekanism:crushing",
+    "input": [
+        {
+            "ingredient": {
+                "item": "byg:white_sandstone"
+            }
+        },
+        {
+            "ingredient": {
+                "item": "byg:white_chiseled_sandstone"
+            }
+        },
+        {
+            "ingredient": {
+                "item": "byg:white_cut_sandstone"
+            }
+        },
+        {
+            "ingredient": {
+                "item": "byg:white_smooth_sandstone"
+            }
+        }
+    ],
+    "output": {
+        "item": "byg:white_sand",
+        "count": 2
+    }
+}

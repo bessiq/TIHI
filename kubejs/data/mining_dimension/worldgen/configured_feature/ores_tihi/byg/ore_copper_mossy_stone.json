@@ -7,13 +7,13 @@
             "feature": {
               "config": {
                 "target": {
-                  "block": "byg:scoria_stone",
+                  "block": "byg:mossy_stone",
                   "predicate_type": "minecraft:block_match"
                 },
                 "state": {
-                  "Name": "byg:compat/scoria_stone_copper_ore"
+                  "Name": "tihi:byg/mossy_stone_copper_ore"
                 },
-                "size": 22
+                "size": 11
               },
               "type": "minecraft:ore"
             },
