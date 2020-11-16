@@ -24,6 +24,7 @@
     "tips.tip.cooked_drops": "Animals killed by fire will sometimes drop it like it's hot.",
     "tips.tip.nether_sponge": "Wet sponges will immediately dry after hearing a pun.",
     "tips.tip.boat_passenger": "Boats can carry two passengers, but not my mom.",
+    "tips.tip.shulker_golem": "Shulkers are magical space clams, and if prepared properly, they're quite tasty.",
     "tips.tip.note_block_instrument": "The sound of a note block is determined by a special committee of the United Nations.",
     "tips.tip.zombie_armor": "Zombies have two base points of armor, even when they aren't wearing any underwear.",
     "tips.tip.undead_helmet": "Undead creatures will not burn in daylight if they just aren't feeling it that day.",
@@ -39,9 +40,12 @@
     "tips.tip.water_grass": "Water is a great way to get wet.",
     "tips.tip.gravity_torch": "If you quickly put a torch under blocks affected by gravity, they will breakdance.",
     "tips.tip.string_wool": "String can be crafted in a 2x2 to make wool. Because fighting spiders is, like, way easier than finding sheep, amirite?",
-    "tips.tip.barrel": "Barrels can sadly not perform a barrel roll.",
+    "tips.tip.barrel": "Barrels sadly cannot perform a barrel roll.",
     "tips.tip.job_site_dimension": "Villagers lose their freaking MINDS when changing dimensions.",
-    "tips.tip.villager_sweat": "Villagers sweat when trying to trade with them during a raid.",
+    "tips.tip.villager_sweat": "Villagers sweat when trying to trade with them during a rave.",
     "tips.tip.wandering_invis": "Wandering traders drink invisibility potions at night. But you can still hear them, and they never leave. EVER.",
-    "tips.tip.fortress_triangulation": "You can use basic triangulation to locate strongholds more efficiently. But this is modded Minecraft, so there's probably an even cheatier way to do it."
+    "tips.tip.fortress_triangulation": "To locate strongholds more efficiently, throw Ender eyes wildly in all directions - works even better if you're in a cave!",
+    "tips.tip.baby_panda_slimeball": "Baby pandas have a chance to startle an adult panda when they sneeze. Also, they're heckin' adorable.",
+    "tips.tip.creeper_drops_disc": "If a skeleton's arrow kills a creeper, the creeper drops a fresh, new track on Spotify.",
+    "tips.tip.mooshroom_lightning": "A mooshroom will switch between red and brown when struck by lightning. Or die. It might die."
 }
