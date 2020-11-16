@@ -12,40 +12,33 @@
 ["Accessibility Config"]
 	#Whether or not Halo should be enabled.
 	haloEnabled = true
-	#Whether or not Bunny Ears should be enabled.
-	bunnyEarsEnabled = true
-	#Whether or not Chopping Hat should be enabled.
-	choppingHatEnabled = true
-	#Whether or not Aquanaut Helmet should be enabled.
-	aquanautHelmetEnabled = true
 	#Whether or not Straw Hat should be enabled.
 	strawHatEnabled = true
-	#Whether or not Mushroom Hat should be enabled.
-	mushroomHatEnabled = true
-	#Whether or not Mining Hat should be enabled.
-	miningHatEnabled = true
 	#Whether or not Postman Hat should be enabled.
 	postmanHatEnabled = true
-	#Whether or not Lucky Hat should be enabled.
-	luckyHatEnabled = true
 	#Whether or not Shulker Helmet should be enabled.
 	shulkerHelmetEnabled = true
 	#Whether or not Wing Helmet should be enabled.
 	wingHelmetEnabled = true
 	#Whether or not Stocking Cap should be enabled.
 	stockingCapEnabled = true
+	#Whether or not Bunny Ears should be enabled.
+	bunnyEarsEnabled = true
+	#Whether or not Chopping Hat should be enabled.
+	choppingHatEnabled = true
+	#Whether or not Aquanaut Helmet should be enabled.
+	aquanautHelmetEnabled = true
+	#Whether or not Mushroom Hat should be enabled.
+	mushroomHatEnabled = true
+	#Whether or not Mining Hat should be enabled.
+	miningHatEnabled = true
+	#Whether or not Lucky Hat should be enabled.
+	luckyHatEnabled = true
+	#Whether or not Ender Helmet should be enabled.
+	enderHelmetEnabled = true
 
 #Various options that affect individual hats.
 ["Balance Options"]
-
-	["Balance Options"."Lucky Hat"]
-		#Lucky Hat durability.
-		#Range: 1 ~ 10000
-		luckyHatDurability = 300
-		#Whether or not damaging of Lucky Hat should be enabled.
-		luckyHatDamageEnabled = true
-		#Whether or not Hunger effect of Lucky Hat should be enabled while running.
-		luckyHatUnluckEnabled = true
 
 	["Balance Options"."Mushroom Hat"]
 		#Mushroom Hat durability.
@@ -155,6 +148,31 @@
 		#Whether or not damaging of Aquanaut Helmet should be enabled.
 		aquanautHelmetDamageEnabled = true
 
+	["Balance Options"."Ender Helmet"]
+		#Ender Helmet durability.
+		#Range: 1 ~ 10000
+		enderHelmetDurability = 80
+		#Whether or not damaging of Ender Helmet should be enabled.
+		enderHelmetDamageEnabled = true
+		#Whether or not interdimensional teleporting with the Ender Helmet should be enabled.
+		enderHelmetInterdimensionalEnabled = true
+
+	["Balance Options"."Shulker Helmet"]
+		#Whether or not damaging of Shulker Helmet should be enabled.
+		shulkerHelmetDamageEnabled = true
+		#Shulker Helmet durability.
+		#Range: 1 ~ 10000
+		shulkerHelmetDurability = 600
+
+	["Balance Options"."Lucky Hat"]
+		#Lucky Hat durability.
+		#Range: 1 ~ 10000
+		luckyHatDurability = 300
+		#Whether or not damaging of Lucky Hat should be enabled.
+		luckyHatDamageEnabled = true
+		#Whether or not Hunger effect of Lucky Hat should be enabled while running.
+		luckyHatUnluckEnabled = true
+
 	["Balance Options"."Postman Hat"]
 		#Whether or not Hunger effect of Postman Hat should be enabled while running.
 		postmanHatHungerEnabled = true
@@ -177,13 +195,6 @@
 		#Stocking Cap durability.
 		#Range: 1 ~ 10000
 		stockingCapDurability = 600
-
-	["Balance Options"."Shulker Helmet"]
-		#Whether or not damaging of Shulker Helmet should be enabled.
-		shulkerHelmetDamageEnabled = true
-		#Shulker Helmet durability.
-		#Range: 1 ~ 10000
-		shulkerHelmetDurability = 600
 
 	["Balance Options"."Wing Helmet"]
 		#Whether or not Levitation effect of Wing Helmet should be enabled.
