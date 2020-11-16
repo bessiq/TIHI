@@ -14,6 +14,9 @@ events.listen('recipes', function (event) {
     event.replaceInput({}, 'pneumaticcraft:wheat_flour', 'appliedenergistics2:flour')
     event.replaceInput({}, 'simplefarming:cheese_slice', '#forge:cheese')
 
+    event.remove({ output: 'mekanism:bio_fuel', mod: 'mekanism' })
+
+    /* 
     event.remove({
         id: [
             'mekanism:crushing/biofuel/acacia_leaves',
@@ -97,4 +100,5 @@ events.listen('recipes', function (event) {
             'mekanism:crushing/biofuel/wither_rose'
         ]
     })
+    */
 })

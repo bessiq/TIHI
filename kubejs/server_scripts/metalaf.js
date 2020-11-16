@@ -2,40 +2,62 @@
 
 // Recipes for disaster
 events.listen('recipes', function (event) {
-
-    const metalaf = (name, dustYep, ingotYep, nuggetYep, blockYep) => {
-        event.replaceOutput('#forge:dusts/' + name, dustYep)
-        event.replaceOutput('#forge:ingots/' + name, ingotYep)
-        event.replaceOutput('#forge:nuggets/' + name, nuggetYep)
-        event.replaceOutput('#forge:storage_blocks/' + name, blockYep)
+    const metalaf = (name, dustY, ingotY, nuggetY, blockY, plateY, gearY) => {
+        event.replaceOutput('#forge:dusts/' + name, dustY)
+        event.replaceOutput('#forge:ingots/' + name, ingotY)
+        event.replaceOutput('#forge:nuggets/' + name, nuggetY)
+        event.replaceOutput('#forge:storage_blocks/' + name, blockY)
+        event.replaceOutput('#forge:plates/' + name, plateY)
+        event.replaceOutput('#forge:gears/' + name, gearY)
     }
+
     metalaf(
         'bronze',
         'thermal:bronze_dust',
         'thermal:bronze_ingot',
         'thermal:bronze_nugget',
-        'thermal:bronze_block'
+        'thermal:bronze_block',
+    )
+    metalaf(
+        'coal',
+        'mekanism:dust_coal',
     )
     metalaf(
         'constantan',
         'thermal:constantan_dust',
         'thermal:constantan_ingot',
         'thermal:constantan_nugget',
-        'thermal:constantan_block'
+        'thermal:constantan_block',
+        'thermal:constantan_plate',
     )
     metalaf(
         'copper',
         'thermal:copper_dust',
         'thermal:copper_ingot',
         'thermal:copper_nugget',
-        'thermal:copper_block'
+        'thermal:copper_block',
+        'thermal:copper_plate',
+    )
+    metalaf(
+        'diamond',
+        'thermal:diamond_dust',
+        '',
+        '',
+        'minecraft:diamond_block',
+        '',
+        'thermal:diamond_gear',
     )
     metalaf(
         'electrum',
         'thermal:electrum_dust',
         'thermal:electrum_ingot',
         'thermal:electrum_nugget',
-        'thermal:electrum_block'
+        'thermal:electrum_block',
+        'thermal:electrum_plate',
+    )
+    metalaf(
+        'emerald',
+        'thermal:emerald_dust',
     )
     metalaf(
         'gold',
@@ -43,6 +65,8 @@ events.listen('recipes', function (event) {
         'minecraft:gold_ingot',
         'minecraft:gold_nugget',
         'minecraft:gold_block',
+        'thermal:gold_plate',
+        'thermal:gold_gear',
     )
     metalaf(
         'iron',
@@ -50,6 +74,12 @@ events.listen('recipes', function (event) {
         'minecraft:iron_ingot',
         'minecraft:iron_nugget',
         'minecraft:iron_block',
+        'thermal:iron_plate',
+        'thermal:iron_gear',
+    )
+    metalaf(
+        'lapis',
+        'thermal:lapis_dust',
     )
     metalaf(
         'lead',
@@ -57,6 +87,7 @@ events.listen('recipes', function (event) {
         'thermal:lead_ingot',
         'thermal:lead_nugget',
         'thermal:lead_block',
+        'thermal:lead_plate',
     )
     metalaf(
         'nickel',
@@ -64,6 +95,11 @@ events.listen('recipes', function (event) {
         'thermal:nickel_ingot',
         'thermal:nickel_nugget',
         'thermal:nickel_block',
+        'thermal:nickel_plate',
+    )
+    metalaf(
+        'saltpeter',
+        'immersiveengineering:dust_saltpeter',
     )
     metalaf(
         'silver',
@@ -71,6 +107,7 @@ events.listen('recipes', function (event) {
         'thermal:silver_ingot',
         'thermal:silver_nugget',
         'thermal:silver_block',
+        'thermal:silver_plate',
     )
     metalaf(
         'steel',
@@ -78,6 +115,10 @@ events.listen('recipes', function (event) {
         'mekanism:ingot_steel',
         'mekanism:nugget_steel',
         'mekanism:block_steel'
+    )
+    metalaf(
+        'sulfur',
+        'thermal:sulfur_dust',
     )
     metalaf(
         'tin',
@@ -91,116 +132,7 @@ events.listen('recipes', function (event) {
         'mekanism:dust_uranium',
         'mekanism:ingot_uranium',
         'mekanism:nugget_uranium',
-        'mekanism:block_uranium'
-    )
-
-    const orely = (name, oreYep) => {
-        event.replaceOutput('#forge:ores/' + name, oreYep)
-        event.replaceInput(oreYep, '#forge:ores/' + name)
-    }
-    orely(
-        'aluminum',
-        'immersiveengineering:ore_aluminum',
-    )
-    orely(
-        'amethyst',
-        'iceandfire:amythest_ore',
-    )
-    orely(
-        'ametrine',
-        'byg:ametrine_ore',
-    )
-    orely(
-        'apatite',
-        'thermal:apatite_ore',
-    )
-    orely(
-        'cinnabar',
-        'thermal:cinnabar_ore',
-    )
-    orely(
-        'coal',
-        'minecraft:coal_ore',
-    )
-    orely(
-        'copper',
-        'thermal:copper_ore',
-    )
-    orely(
-        'diamond',
-        'minecraft:diamond_ore',
-    )
-    orely(
-        'emerald',
-        'minecraft:emerald_ore',
-    )
-    orely(
-        'fluorite',
-        'thermal:fluorite_ore',
-    )
-    orely(
-        'gold',
-        'minecraft:gold_ore',
-    )
-    orely(
-        'inferium',
-        'mysticalagriculture:inferium_ore',
-    )
-    orely(
-        'iron',
-        'minecraft:iron_ore',
-    )
-    orely(
-        'lapis',
-        'minecraft:lapis_ore',
-    )
-    orely(
-        'lead',
-        'thermal:lead_ore',
-    )
-    orely(
-        'nickel',
-        'thermal:nickel_ore',
-    )
-    orely(
-        'osmium',
-        'mekanism:osmium_ore',
-    )
-    orely(
-        'pendorite',
-        'byg:pendorite_ore',
-    )
-    orely(
-        'prosperity',
-        'mysticalagriculture:prosperity_ore',
-    )
-    orely(
-        'quartz',
-        'minecraft:nether_quartz_ore',
-    )
-    orely(
-        'redstone',
-        'minecraft:redstone_ore',
-    )
-    orely(
-        'sapphire',
-        'iceandfire:sapphire_ore',
-    )
-    orely(
-        'silver',
-        'thermal:silver_ore',
-    )
-    orely(
-        'sulfur',
-        'thermal:sulfur_ore',
-    )
-    orely(
-        'tin',
-        'thermal:tin_ore',
-    )
-    orely(
-        'uranium',
-        'mekanism:uranium_ore',
+        'mekanism:block_uranium',
     )
 
     /*            
