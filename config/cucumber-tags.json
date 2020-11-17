@@ -29,5 +29,8 @@
   "forge:gems/fluorite": "mekanism:fluorite_gem",
   "forge:gems/sapphire": "iceandfire:sapphire_gem",
   "forge:gems/amethyst": "iceandfire:amythest_gem",
-  "forge:gems/quartz": "minecraft:quartz"
+  "forge:gems/quartz": "minecraft:quartz",
+  "forge:ingots/lumium": "thermal:lumium_ingot",
+  "forge:ingots/signalum": "thermal:signalum_ingot",
+  "forge:ingots/enderium": "thermal:enderium_ingot"
 }

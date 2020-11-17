@@ -1146,44 +1146,44 @@
 		"Allow Special: Extra Knockback" = true
 
 [golem_salt]
-	#Disables in-world building of the golem.
-	enabled = true
-	#Range: 1.0 ~ 999.0
-	health = 48.0
 	#Range: 1.0 ~ 999.0
 	attack = 2.6
+	#Range: 1.0 ~ 999.0
+	health = 48.0
+	#Disables in-world building of the golem.
+	enabled = true
 
 [golem_hv_coil]
-	#Disables in-world building of the golem.
-	enabled = true
-	#Range: 1.0 ~ 999.0
-	health = 78.0
 	#Range: 1.0 ~ 999.0
 	attack = 6.6
+	#Range: 1.0 ~ 999.0
+	health = 78.0
+	#Disables in-world building of the golem.
+	enabled = true
 
 [golem_copper_coil]
-	#Disables in-world building of the golem.
-	enabled = true
-	#Range: 1.0 ~ 999.0
-	health = 64.0
 	#Range: 1.0 ~ 999.0
 	attack = 4.6
+	#Range: 1.0 ~ 999.0
+	health = 64.0
+	#Disables in-world building of the golem.
+	enabled = true
 
 [golem_sapphire]
-	#Disables in-world building of the golem.
-	enabled = true
-	#Range: 1.0 ~ 999.0
-	health = 70.0
 	#Range: 1.0 ~ 999.0
 	attack = 6.5
-
-[golem_uranium]
+	#Range: 1.0 ~ 999.0
+	health = 70.0
 	#Disables in-world building of the golem.
 	enabled = true
-	#Range: 1.0 ~ 999.0
-	health = 72.0
+
+[golem_uranium]
 	#Range: 1.0 ~ 999.0
 	attack = 5.75
+	#Range: 1.0 ~ 999.0
+	health = 72.0
+	#Disables in-world building of the golem.
+	enabled = true
 
 	[golem_uranium.specials]
 		#Whether this golem can poison nearby creatures
@@ -1196,28 +1196,28 @@
 		"Poison Area of Effect" = 1.75
 
 [golem_steel]
-	#Disables in-world building of the golem.
-	enabled = true
-	#Range: 1.0 ~ 999.0
-	health = 140.0
 	#Range: 1.0 ~ 999.0
 	attack = 8.5
+	#Range: 1.0 ~ 999.0
+	health = 140.0
+	#Disables in-world building of the golem.
+	enabled = true
 
 [golem_cushion]
-	#Disables in-world building of the golem.
-	enabled = true
+	#Range: 1.0 ~ 999.0
+	attack = 2.6
 	#Range: 1.0 ~ 999.0
 	health = 44.0
-	#Range: 1.0 ~ 999.0
-	attack = 2.6
-
-[golem_refined_glowstone]
 	#Disables in-world building of the golem.
 	enabled = true
-	#Range: 1.0 ~ 999.0
-	health = 48.0
+
+[golem_refined_glowstone]
 	#Range: 1.0 ~ 999.0
 	attack = 2.6
+	#Range: 1.0 ~ 999.0
+	health = 48.0
+	#Disables in-world building of the golem.
+	enabled = true
 
 	[golem_refined_glowstone.specials]
 		#Whether the golem can emit light
@@ -1226,64 +1226,64 @@
 		"Allow Special: Resistance" = true
 
 [golem_ruby]
-	#Disables in-world building of the golem.
-	enabled = true
-	#Range: 1.0 ~ 999.0
-	health = 76.0
 	#Range: 1.0 ~ 999.0
 	attack = 6.25
+	#Range: 1.0 ~ 999.0
+	health = 76.0
+	#Disables in-world building of the golem.
+	enabled = true
 
 [golem_aluminum]
-	#Disables in-world building of the golem.
-	enabled = true
-	#Range: 1.0 ~ 999.0
-	health = 48.0
 	#Range: 1.0 ~ 999.0
 	attack = 4.25
+	#Range: 1.0 ~ 999.0
+	health = 48.0
+	#Disables in-world building of the golem.
+	enabled = true
 
 [golem_electrum_coil]
-	#Disables in-world building of the golem.
-	enabled = true
-	#Range: 1.0 ~ 999.0
-	health = 71.0
 	#Range: 1.0 ~ 999.0
 	attack = 5.6
+	#Range: 1.0 ~ 999.0
+	health = 71.0
+	#Disables in-world building of the golem.
+	enabled = true
 
 [golem_osmium]
-	#Disables in-world building of the golem.
-	enabled = true
-	#Range: 1.0 ~ 999.0
-	health = 106.0
 	#Range: 1.0 ~ 999.0
 	attack = 6.0
-
-[golem_silver]
+	#Range: 1.0 ~ 999.0
+	health = 106.0
 	#Disables in-world building of the golem.
 	enabled = true
-	#Range: 1.0 ~ 999.0
-	health = 94.0
+
+[golem_silver]
 	#Range: 1.0 ~ 999.0
 	attack = 5.5
+	#Range: 1.0 ~ 999.0
+	health = 94.0
+	#Disables in-world building of the golem.
+	enabled = true
 
 	[golem_silver.specials]
 		#Whether the golem is immune to magic damage
 		"Immune to Magic" = true
 
 [golem_insulating_glass]
-	#Disables in-world building of the golem.
-	enabled = true
-	#Range: 1.0 ~ 999.0
-	health = 20.0
 	#Range: 1.0 ~ 999.0
 	attack = 8.9
-
-[golem_refined_obsidian]
+	#Range: 1.0 ~ 999.0
+	health = 20.0
 	#Disables in-world building of the golem.
 	enabled = true
-	#Range: 1.0 ~ 999.0
-	health = 120.0
+
+[golem_refined_obsidian]
 	#Range: 1.0 ~ 999.0
 	attack = 18.0
+	#Range: 1.0 ~ 999.0
+	health = 120.0
+	#Disables in-world building of the golem.
+	enabled = true
 
 	[golem_refined_obsidian.specials]
 		#Whether this golem reduces incoming damage
@@ -1292,12 +1292,12 @@
 		"Allow Special: Light" = true
 
 [golem_leaded_concrete]
-	#Disables in-world building of the golem.
-	enabled = true
-	#Range: 1.0 ~ 999.0
-	health = 67.0
 	#Range: 1.0 ~ 999.0
 	attack = 5.2
+	#Range: 1.0 ~ 999.0
+	health = 67.0
+	#Disables in-world building of the golem.
+	enabled = true
 
 	[golem_leaded_concrete.specials]
 		#Whether this golem reduces damage it takes
