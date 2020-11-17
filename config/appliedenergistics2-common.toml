@@ -66,12 +66,12 @@
 	matterCannon = 200000
 
 [worldGen]
-	meteoriteDimensionWhitelist = ["minecraft:overworld"]
-	quartzOresClusterAmount = 0
-	quartzOresPerCluster = 1
+	meteoriteDimensionWhitelist = ["minecraft:dimension"]
+	quartzOresClusterAmount = 2
+	quartzOresPerCluster = 2
 	meteoriteMaximumSpawnHeight = 200
 	#Range: 0.0 ~ 1.0
-	spawnChargedChance = 0.03
+	spawnChargedChance = 0.02
 
 [wireless]
 	wirelessTerminalDrainMultiplier = 1.0
