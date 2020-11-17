@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "byg:compat/mossy_stone_nickel_ore"
+                    "name": "tihi:byg/mossy_stone_nickel_ore"
                 }
             ],
             "conditions": [

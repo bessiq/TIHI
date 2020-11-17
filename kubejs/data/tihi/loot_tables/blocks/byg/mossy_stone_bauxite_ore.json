@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "byg:compat/mossy_stone_bauxite_ore"
+                    "name": "tihi:byg/mossy_stone_bauxite_ore"
                 }
             ],
             "conditions": [

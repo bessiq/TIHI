@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "byg:compat/dacite_copper_ore"
+                    "name": "tihi:byg/dacite_copper_ore"
                 }
             ],
             "conditions": [

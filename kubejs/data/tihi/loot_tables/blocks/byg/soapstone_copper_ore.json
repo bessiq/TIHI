@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "byg:compat/soapstone_copper_ore"
+                    "name": "tihi:byg/soapstone_copper_ore"
                 }
             ],
             "conditions": [

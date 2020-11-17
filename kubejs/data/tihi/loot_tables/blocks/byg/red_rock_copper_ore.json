@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "byg:compat/red_rock_copper_ore"
+                    "name": "tihi:byg/red_rock_copper_ore"
                 }
             ],
             "conditions": [

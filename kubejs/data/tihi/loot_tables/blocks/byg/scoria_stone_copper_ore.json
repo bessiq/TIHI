@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "byg:compat/scoria_stone_copper_ore"
+                    "name": "tihi:byg/scoria_stone_copper_ore"
                 }
             ],
             "conditions": [
