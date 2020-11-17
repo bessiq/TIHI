@@ -8,8 +8,20 @@
             "entries": [
                 {
                     "type": "minecraft:tag",
-                    "name": "forge:ores"
+                    "name": "forge:ores",
+                    "weight": 50
+                },
+                {
+                    "type": "minecraft:tag",
+                    "name": "tihi:loot",
+                    "weight": 49
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bedrock",
+                    "weight": 1
                 }
+
             ],
             "conditions": [
                 {
