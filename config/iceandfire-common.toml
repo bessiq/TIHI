@@ -137,7 +137,7 @@
 	"Experimental Dragon path Finder" = false
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Generate Dragon Skeleton Chance" = 300
+	"Generate Dragon Skeleton Chance" = 350
 	#True if villagers should run away and hide from dragons and other hostile Ice and Fire mobs.
 	"Villagers Fear Dragons" = true
 	#1 out of this number chance per 6000 ticks for a chicken to lay a cockatrice egg.
@@ -191,7 +191,7 @@
 	"Ghost Max Health" = 35.0
 	#How far away dangerous structures(dragon roosts, cyclops caves, etc.) must be from spawn(0, 0).
 	#Range: 1 ~ 10000
-	"Dangerous World Gen Dist From Spawn" = 666
+	"Dangerous World Gen Dist From Spawn" = 555
 	#Damage dealt from a successful lightning breath attack. Attack Damage is scaled to by age, so a stage 5 dragon will deal 5x as much as this number
 	#Range: 0.0 ~ 10000.0
 	"Dragon Attack Damage(Lightning breath)" = 5.0

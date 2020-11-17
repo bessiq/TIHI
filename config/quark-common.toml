@@ -727,7 +727,7 @@
 				"Is Blacklist" = true
 
 			[world.cave_crystal_underground_biome.biome_settings.dimensions]
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 				"Is Blacklist" = false
 
 	[world.overgrown_underground_biome]
@@ -1177,16 +1177,16 @@
 	[world.underground_clay]
 
 		[world.underground_clay.dimensions]
-			Dimensions = ["minecraft:overworld"]
+			Dimensions = ["mining_dimension:mining"]
 			"Is Blacklist" = false
 
 		[world.underground_clay.ore_settings]
 			#Allowed values: [0,255]
-			"Max Height" = 88
+			"Max Height" = 200
 			#Allowed values: [0,)
 			"Cluster Count" = 2
 			#Allowed values: [0,255]
-			"Min Height" = 42
+			"Min Height" = 100
 			#Allowed values: [0,)
 			"Cluster Size" = 10
 

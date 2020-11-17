@@ -12,12 +12,12 @@
 #Range: 1 ~ 100
 "Stone Golem spawn weight" = 8
 #Whitelisted RoR spawn biomes. Use the format like "minecraft:plains" 
-riskOfRainSpawnBiomes = ["byg:twilight_valley_hills", "byg:basalt_barrera", "byg:fungal_patch", "byg:jacaranda_forest_hills", "byg:crag_gardens", "minecraft:warped_forest", "byg:shulkren_forest", "byg:araucaria_forest", "byg:flowering_ancient_forest", "byg:glowshroom_bayou", "byg:guiana_shield", "byg:tropical_islands", "byg:vibrant_swamplands"]
+riskOfRainSpawnBiomes = ["byg:twilight_valley_hills", "byg:basalt_barrera", "byg:fungal_patch", "byg:jacaranda_forest_hills", "byg:crag_gardens", "minecraft:warped_forest", "byg:shulkren_forest", "byg:araucaria_forest", "byg:flowering_ancient_forest", "byg:glowshroom_bayou", "byg:guiana_shield", "byg:tropical_islands", "byg:vibrant_swamplands", "mining_dimension:mining"]
 #False to disable RoR sounds
 "Activate RoR sounds" = true
 #True if Gunner Drones are to spawn naturally
 "Spawn Gunner Drones" = true
 #The weight of Gunner Drones in vanilla spawn rate
 #Range: 1 ~ 100
-"Gunner Drone spawn weight" = 1
+"Gunner Drone spawn weight" = 2
 

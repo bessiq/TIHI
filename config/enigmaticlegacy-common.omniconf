@@ -301,7 +301,7 @@
     D:EnigmaticAmuletDamageBonus=1.5
 
     # Whether or not Enigmatic Amulet should be summoning Extradimensional Vessel on owner's death. [default: true, synchronized: yes]
-    B:EnigmaticAmuletEnigmaticAmuletVesselEnabled=true
+    B:EnigmaticAmuletEnigmaticAmuletVesselEnabled=false
 
     # Whether or not it should be possible to equip multiple Enigmatic Amulets, granted player somehow gets more than one charm slot. [default: false, synchronized: yes]
     B:EnigmaticAmuletMultiequip=false

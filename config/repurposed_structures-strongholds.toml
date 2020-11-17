@@ -5,7 +5,7 @@
 	# RS's strongholds to spawn in. Separate each ID with a comma ,
 	#
 	#Example: "minecraft:ice_spikes,awesome_mod:awesome_biome"
-	blacklistedStrongholdBiomes = "mining_dimension:mining,byg:bulbis_gardens,byg:ethereal_islands,byg:ivis_fields,byg:nightshade_forest,byg:purpur_peaks,byg:shattered_desert,byg:shulkren_forest,byg:viscal_isles"
+	blacklistedStrongholdBiomes = "mining_dimension:mining,byg:bulbis_gardens,byg:ethereal_islands,byg:ivis_fields,byg:nightshade_forest,byg:purpur_peaks,byg:shattered_desert,byg:shulkren_forest,byg:viscal_isles,the_bumblezone:hive_pillar,the_bumblezone:hive_wall,the_bumblezone:sugar_water_floor"
 	#
 	# Make Mob Spawners generate in rooms other than the Portal Room in Strongholds.
 	# Note: Spawners in Portal Room will always remain.
