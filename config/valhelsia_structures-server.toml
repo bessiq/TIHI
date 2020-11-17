@@ -6,10 +6,10 @@
 	[structures.tower_ruin]
 		#Tower Ruin Distance (in chunks) [default: 25]
 		#Range: 1 ~ 500
-		distance = 25
+		distance = 27
 		#Tower Ruin Minimum Separation (in chunks) [default: 8]
 		#Range: 1 ~ 500
-		separation = 8
+		separation = 10
 		#Biomes the Tower Ruin can NOT generate in
 		biome_blacklist = []
 		#Generate Tower Ruins?
@@ -26,7 +26,7 @@
 		distance = 40
 		#Castle Minimum Separation (in chunks) [default: 8]
 		#Range: 1 ~ 500
-		separation = 8
+		separation = 10
 		#Biomes the Castle can NOT generate in
 		biome_blacklist = []
 		#Generate Castles?
@@ -40,10 +40,10 @@
 	[structures.player_house]
 		#Desert House Distance (in chunks) [default: 30]
 		#Range: 1 ~ 500
-		distance = 30
+		distance = 32
 		#Desert House Minimum Separation (in chunks) [default: 8]
 		#Range: 1 ~ 500
-		separation = 8
+		separation = 10
 		#Biomes the Player House can NOT generate in
 		biome_blacklist = []
 		#Generate Player Houses?
@@ -57,10 +57,10 @@
 	[structures.forge]
 		#Forge Distance (in chunks) [default: 30]
 		#Range: 1 ~ 500
-		distance = 30
+		distance = 32
 		#Forge Minimum Separation (in chunks) [default: 8]
 		#Range: 1 ~ 500
-		separation = 8
+		separation = 10
 		#Biomes the Forge can NOT generate in
 		biome_blacklist = []
 		#Generate Forges?
@@ -74,10 +74,10 @@
 	[structures.small_dungeon]
 		#Small Dungeon Distance (in chunks) [default: 30]
 		#Range: 1 ~ 500
-		distance = 30
+		distance = 32
 		#Small Dungeon Minimum Separation (in chunks) [default: 8]
 		#Range: 1 ~ 500
-		separation = 8
+		separation = 10
 		#Biomes the Small Dungeon can NOT generate in
 		biome_blacklist = []
 		#Generate Small Dungeons?
@@ -91,10 +91,10 @@
 	[structures.desert_house]
 		#Desert House Distance (in chunks) [default: 30]
 		#Range: 1 ~ 500
-		distance = 30
+		distance = 32
 		#Desert House Minimum Separation (in chunks) [default: 8]
 		#Range: 1 ~ 500
-		separation = 8
+		separation = 10
 		#Biomes the Desert House can NOT generate in
 		biome_blacklist = []
 		#Generate Desert Houses?
@@ -113,10 +113,10 @@
 	[structures.castle_ruin]
 		#Castle Ruin Distance (in chunks) [default: 35]
 		#Range: 1 ~ 500
-		distance = 35
+		distance = 36
 		#Castle Ruin Minimum Separation (in chunks) [default: 8]
 		#Range: 1 ~ 500
-		separation = 8
+		separation = 9
 		#Biomes the Castle Ruin can NOT generate in
 		biome_blacklist = []
 		#Generate Castle Ruins?
