@@ -10,6 +10,6 @@ events.listen('item.registry', event => {
 events.listen('block.registry', event => {
 
   // Let the hate flow through you
-  event.create('tihi:tihinium_ore').material('rock').hardness(666.0).displayName('Tihinium "Ore"').requiresTool(true).harvestTool('pickaxe', 4)
+  event.create('tihi:tihinium_ore').material('rock').hardness(666.0).displayName('Tihinium "Ore"').requiresTool(true).harvestTool('pickaxe', 5)
 
 })

@@ -13,7 +13,7 @@
                 "state": {
                   "Name": "minecraft:sea_lantern"
                 },
-                "size": 1
+                "size": 2
               },
               "type": "minecraft:ore"
             },
@@ -37,7 +37,7 @@
     },
     "decorator": {
       "config": {
-        "count": 25
+        "count": 100
       },
       "type": "minecraft:count"
     }

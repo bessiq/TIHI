@@ -19,9 +19,9 @@
               },
               "decorator": {
                 "config": {
-                  "bottom_offset": 251,
+                  "bottom_offset": 249,
                   "top_offset": 0,
-                  "maximum": 4
+                  "maximum": 2
                 },
                 "type": "minecraft:range"
               }
@@ -37,7 +37,7 @@
       },
       "decorator": {
         "config": {
-          "count": 13
+          "count": 10
         },
         "type": "minecraft:count"
       }
