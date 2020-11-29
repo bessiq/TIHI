@@ -1,6 +1,6 @@
 
 [general]
-	"spawn blocks" = ["minecraft:grass_block"]
+	"spawn blocks" = ["minecraft:grass_block", "minecraft:snow_block"]
 	#Enable that penguins drop fish (0 - 2 Raw Cod)
 	dropFish = false
 	#Penguins should drop experience?
@@ -9,7 +9,7 @@
 ["spawn chances"]
 	#Configure penguins spawn weight & min/max group size. Set weight to 0 to disable.
 	#Range: 0 ~ 64
-	min = 1
+	min = 2
 	#Range: 0 ~ 64
 	max = 4
 	#Range: 0 ~ 100
