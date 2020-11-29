@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "tihi:red_clay_ball"
+    }
+  },
+  "result": {
+    "item": "tihi:red_clay"
+  }
+}
