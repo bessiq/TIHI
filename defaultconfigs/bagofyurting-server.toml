@@ -7,5 +7,5 @@
 ["Creative Mode"]
 	#Number of bag sizes to display in creative tabs and JEI
 	#Range: > 0
-	creative_upgrade_iteration = 7
+	creative_upgrade_iteration = 3
 

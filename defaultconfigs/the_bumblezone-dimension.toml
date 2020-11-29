@@ -17,66 +17,6 @@
 	# 
 	#-----------------------------------------------------
 	#
-	# If a resource location of a block is specified here,
-	#  then teleporting to Bumblezone will need that block under
-	# the Bee Nest/Beehive you threw the Enderpearl at.
-	# 
-	# Example: minecraft:emerald_block will require you to place an
-	# Emerald Block under the Bee Nest/Beehive and then throw an
-	# Enderpearl at it to teleport to Bumblezone dimension.
-	# 
-	# By default, no resource location is specified so any
-	# block can be under the Bee Nest/Beehive to teleport to dimension.
-	#
-	requiredBlockUnderHive = ""
-	# 
-	#-----------------------------------------------------
-	#
-	# Will a Beenest generate if no Beenest is  
-	# found when leaving The Bumblezone dimension.
-	# 
-	# ONLY FOR TELEPORTATION MODE 1.
-	#
-	generateBeenest = true
-	# 
-	#-----------------------------------------------------
-	#
-	# Should exiting The Bumblezone always try and place you 
-	# above sealevel in the target dimension? (Will only look 
-	# for beehives above sealevel as well when placing you) 
-	# ONLY FOR TELEPORTATION MODE 1 AND 3.
-	#
-	seaLevelOrHigherExitTeleporting = true
-	# 
-	#-----------------------------------------------------
-	#
-	# If requiredBlockUnderHive has a block specified and this config
-	#  is set to true, then player will get a warning if they throw 
-	# an Enderpearl at a Bee Nest/Beehive but the block under it is 
-	# not the correct required block. It will also tell the player what 
-	# block is needed under the Bee Nest/Beehive to teleport to the dimension.
-	#
-	warnPlayersOfWrongBlockUnderHive = true
-	# 
-	#-----------------------------------------------------
-	#
-	# Makes leaving The Bumblezone dimension always places you back
-	#  at the Overworld regardless of which dimension you originally 
-	# came from. Use this option if this dimension becomes locked in  
-	# with another dimension so you are stuck teleporting between the 
-	# two and cannot get back to the Overworld.
-	#
-	forceExitToOverworld = false
-	# 
-	#-----------------------------------------------------
-	#
-	# Should teleporting to and from The Bumblezone work 
-	# with modded Bee Nests and modded Beehives as well. 
-	#
-	allowTeleportationWithModdedBeehives = true
-	# 
-	#-----------------------------------------------------
-	#
 	# Which mode of teleportation should be used when 
 	# leaving The Bumblezone dimension. 
 	# 
@@ -95,4 +35,64 @@
 	#
 	#Range: 1 ~ 3
 	teleportationMode = 1
+	# 
+	#-----------------------------------------------------
+	#
+	# Will a Beenest generate if no Beenest is  
+	# found when leaving The Bumblezone dimension.
+	# 
+	# ONLY FOR TELEPORTATION MODE 1.
+	#
+	generateBeenest = true
+	# 
+	#-----------------------------------------------------
+	#
+	# Makes leaving The Bumblezone dimension always places you back
+	#  at the Overworld regardless of which dimension you originally 
+	# came from. Use this option if this dimension becomes locked in  
+	# with another dimension so you are stuck teleporting between the 
+	# two and cannot get back to the Overworld.
+	#
+	forceExitToOverworld = false
+	# 
+	#-----------------------------------------------------
+	#
+	# Should exiting The Bumblezone always try and place you 
+	# above sealevel in the target dimension? (Will only look 
+	# for beehives above sealevel as well when placing you) 
+	# ONLY FOR TELEPORTATION MODE 1 AND 3.
+	#
+	seaLevelOrHigherExitTeleporting = true
+	# 
+	#-----------------------------------------------------
+	#
+	# If a resource location of a block is specified here,
+	#  then teleporting to Bumblezone will need that block under
+	# the Bee Nest/Beehive you threw the Enderpearl at.
+	# 
+	# Example: minecraft:emerald_block will require you to place an
+	# Emerald Block under the Bee Nest/Beehive and then throw an
+	# Enderpearl at it to teleport to Bumblezone dimension.
+	# 
+	# By default, no resource location is specified so any
+	# block can be under the Bee Nest/Beehive to teleport to dimension.
+	#
+	requiredBlockUnderHive = ""
+	# 
+	#-----------------------------------------------------
+	#
+	# If requiredBlockUnderHive has a block specified and this config
+	#  is set to true, then player will get a warning if they throw 
+	# an Enderpearl at a Bee Nest/Beehive but the block under it is 
+	# not the correct required block. It will also tell the player what 
+	# block is needed under the Bee Nest/Beehive to teleport to the dimension.
+	#
+	warnPlayersOfWrongBlockUnderHive = true
+	# 
+	#-----------------------------------------------------
+	#
+	# Should teleporting to and from The Bumblezone work 
+	# with modded Bee Nests and modded Beehives as well. 
+	#
+	allowTeleportationWithModdedBeehives = true
 

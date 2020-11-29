@@ -23,5 +23,5 @@
 	# 0 is no spawners, 1 is maximum spawners, and default is 0.2D
 	#
 	#Range: 0.0 ~ 1.0
-	spawnerRateSpiderBeeDungeon = 0.2
+	spawnerRateSpiderBeeDungeon = 0.3
 
