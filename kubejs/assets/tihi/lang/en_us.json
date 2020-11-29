@@ -1,6 +1,7 @@
 {
 	"biome.good_nights_sleep.shameful_plains": "Shameful Plains",
 	"biome.good_nights_sleep.sleepy_hills": "Sleepy Hills",
+	"biome.good_nights_sleep.dreamy_forest": "Dreamy Forest",
 	"biome.mining_dimension.mining": "Mining and More",
 	"block.iceandfire.sea_serpent_scale_block_blue": "Blue Sea Serpent Scale Block",
 	"block.iceandfire.sea_serpent_scale_block_bronze": "Bronze Sea Serpent Scale Block",
@@ -65,5 +66,7 @@
 	"singularity.extendedcrafting.osmium": "Osmium",
 	"singularity.extendedcrafting.quartz": "Quartz",
 	"singularity.extendedcrafting.sapphire": "Sapphire",
-	"singularity.extendedcrafting.zinc": "Zinc"
+	"singularity.extendedcrafting.zinc": "Zinc",
+	"block.productivebees.nether_gold_nest": "Nether Gold Nest",
+	"item.productivebees.sugarbag_honeycomb": "Sugarbag Comb"
 }
