@@ -362,3 +362,14 @@
 	#Whether or not this attribute should be modified.
 	enabled = true
 
+#Values for the minecolonies:mc_mob_damage attribute.
+[minecolonies_mc_mob_damage]
+	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	min = 1.0
+	#The maximum value for the attribute.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+	#Whether or not this attribute should be modified.
+	enabled = true
+
