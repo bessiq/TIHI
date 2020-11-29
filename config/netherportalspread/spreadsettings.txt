@@ -150,6 +150,7 @@ quark:brimstone; [basalt>1 + magma_block>1 + lava>1 + air>1],
 quark:glowcelium; [warped_nylium>2 + shroomlight>1 + lava>3 + air>1],
 
 appliedenergistics2:sky_stone_block; [crying_obsidian>1 + mysticalagriculture:soulstone>5 + lava>1 + air>1],
+astralsorcery:marble; [netherrack>5 + magma_block>2 + lava>1 + air>1],
 earthtojavamobs:mud_fluid; [lava>1 + air>1],
 pneumaticcraft:oil; [lava>1 + air>1],
 forbidden_arcanus:darkstone; [netherrack>70 + magma_block>20 + lava>5 + air>4 + bedrock>1],

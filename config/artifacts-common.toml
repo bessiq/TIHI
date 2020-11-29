@@ -1,11 +1,13 @@
 
+#To disable items or to change the frequency at which artifacts appear, override the loot tables from this mod with a datapack
+#Cosmetic slots are disabled by default, they can be enabled using the Curios config, see https://github.com/TheIllusiveC4/Curios/wiki/How-to-Use:-Users#creating-a-new-slot-type
 [campsite]
 	#Probability for an ore vein to generate underneath a campsite
 	#Range: 0 ~ 100
 	campsite_ore_chance = 20
 	#The minimum y-level at which a campsite can generate
-	#Range: 0 ~ 255
-	campsite_min_y = 0
+	#Range: 1 ~ 255
+	campsite_min_y = 1
 	#The maximum y-level at which a campsite can generate
 	#Range: 0 ~ 255
 	campsite_max_y = 255
@@ -18,7 +20,7 @@
 	biome_blacklist = ["minecraft:void", "mahoutsukai:marble", "the_bumblezone:hive_pillar", "the_bumblezone:hive_wall", "the_bumblezone:sugar_water_floor", "good_nights_sleep:dreamy_forest", "good_nights_sleep:good_dream_plains", "good_nights_sleep:hopeful_fields", "good_nights_sleep:lollipop_lands"]
 	#Per-chunk probability (as a percentage) a campsite is attempted to be generated. Not every attempt succeeds, this also depends on the density and shape of caves
 	#Range: 0 ~ 100
-	campsite_chance = 4
+	campsite_chance = 2
 
 [items]
 	#Cooldown in ticks for the Everlasting Beef and Eternal Steak items

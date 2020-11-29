@@ -69,6 +69,9 @@
     # Whether or not Dark Armor should be enabled. [default: true, synchronized: yes]
     B:DarkArmorEnabled=true
 
+    # Whether or not Darkest Scroll should be enabled. [default: true, synchronized: yes]
+    B:DarkestScrollEnabled=true
+
     # If true, tools with area of effect abilities will not have those abilities disabled when player holds Shift (crouches). [default: false, synchronized: yes]
     B:DisableAOEShiftSuppression=false
 
@@ -86,6 +89,9 @@
 
     # Whether or not Enigmatic Amulet should be enabled. [default: true, synchronized: yes]
     B:EnigmaticAmuletEnabled=true
+
+    # Whether or not Essence of Raging Life should be enabled. [default: true, synchronized: yes]
+    B:EssenceofRagingLifeEnabled=true
 
     # Whether or not Etherium Armor should be enabled. [default: true, synchronized: yes]
     B:EtheriumArmorEnabled=true
@@ -170,6 +176,9 @@
 
     # Whether or not Nefarious Essence should be enabled. [default: true, synchronized: yes]
     B:NefariousEssenceEnabled=true
+
+    # Whether or not Pact of Infinite Avarice should be enabled. [default: true, synchronized: yes]
+    B:PactofInfiniteAvariceEnabled=true
 
     # Whether or not Pearl of the Void should be enabled. [default: true, synchronized: yes]
     B:PearloftheVoidEnabled=true
@@ -300,9 +309,6 @@
     # The damage bonus stat provided by red Enigmatic Amulet. [range: -32768.0 ~ 32768.0, default: 1.5, synchronized: yes]
     D:EnigmaticAmuletDamageBonus=1.5
 
-    # Whether or not Enigmatic Amulet should be summoning Extradimensional Vessel on owner's death. [default: true, synchronized: yes]
-    B:EnigmaticAmuletEnigmaticAmuletVesselEnabled=false
-
     # Whether or not it should be possible to equip multiple Enigmatic Amulets, granted player somehow gets more than one charm slot. [default: false, synchronized: yes]
     B:EnigmaticAmuletMultiequip=false
 
@@ -311,6 +317,9 @@
 
     # If true, color of Enigmatic Amulet will be assigned using player's name as seed for generating it, instead of randomly - so that every player will always receive one specific color. [default: false, synchronized: yes]
     B:EnigmaticAmuletSeededColorGen=false
+
+    # Whether or not Enigmatic Amulet should be summoning Extradimensional Vessel on owner's death. [default: true, synchronized: yes]
+    B:EnigmaticAmuletVesselEnabled=false
 
     # Active ability cooldown for Heart of Creation. Measured in ticks. 20 ticks equal to 1 second. [range: 0 ~ 32768, default: 3, synchronized: yes]
     I:EnigmaticItemCooldown=3

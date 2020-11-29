@@ -5,17 +5,17 @@ UseFixedItems = false
 #Fixed items; item or item,amount,pay_item,cost,uses
 FixedItems = "minecraft:air;minecraft:air;minecraft:air;minecraft:air;minecraft:air;minecraft:air;minecraft:air"
 #Include Mods
-IncludeMods = "chanceglobe;chancecubes;curios;potionofbees;randomloot;backpacked;lootbagmod;clef;mysterymilk;naturescompass;bagofyurting;toolbelt;dads_sewing;enderthing;neverenoughcandy;randomite;tacobell;usefulhats;wstweaks;yeeter;waystones;direbats"
+IncludeMods = "chanceglobe;chancecubes;curios;potionofbees;randomloot;lootbagmod;clef;mysterymilk;naturescompass;bagofyurting;toolbelt;dads_sewing;enderstorage;neverenoughcandy;tacobell;usefulhats;wstweaks;yeeter;waystones"
 #Exclude Mods
 ExcludeMods = "*"
 #Exclude Items
-ExcludeItems = "minecraft:nether_star;minecraft:beacon;minecraft:shulker_box;minecraft:colorset*shulker_box;minecraft:elytra;minecraft:end_portal_frame;vm:vending_machine;randomloot:pickaxe;randomloot:sword;randomloot:trait_holder;randomloot:editor;randomloot:random_cluster;randomloot:random_chunk;randomloot:random_shard;dads_sewing:carpet_black;dads_sewing:carpet_blue;dads_sewing:carpet_checkered;dads_sewing:carpet_note;dads_sewing:carpet_orange;dads_sewing:carpet_red;dads_sewing:carpet_sunflowers;dads_sewing:carpet_trader;dads_sewing:carpet_wave;dads_sewing:sewing_machine;dads_sewing:sewing_machine_white;chancecubes:chance_pendant_tier1;chancecubes:chance_pendant_tier2;chancecubes:chance_pendant_tier3;chancecubes:giant_chance_cube;chancecubes:creative_pendant;chancecubes:cube_dispenser;chancecubes:reward_selector_pendant;chancecubes:scanner;chancecubes:silk_touch_pendant;chancecubes:single_use_reward_selector_pendant;clef:instrument_player;neverenoughcandy:mob_candy;direbats:direbat_fang_arrow"
+ExcludeItems = "minecraft:nether_star;minecraft:beacon;minecraft:shulker_box;minecraft:colorset*shulker_box;minecraft:elytra;minecraft:end_portal_frame;vm:vending_machine;randomloot:pickaxe;randomloot:sword;randomloot:trait_holder;randomloot:editor;randomloot:random_cluster;randomloot:random_chunk;randomloot:random_shard;dads_sewing:carpet_black;dads_sewing:carpet_blue;dads_sewing:carpet_checkered;dads_sewing:carpet_note;dads_sewing:carpet_orange;dads_sewing:carpet_red;dads_sewing:carpet_sunflowers;dads_sewing:carpet_trader;dads_sewing:carpet_wave;dads_sewing:sewing_machine;dads_sewing:sewing_machine_white;chancecubes:chance_pendant_tier1;chancecubes:chance_pendant_tier2;chancecubes:chance_pendant_tier3;chancecubes:giant_chance_cube;chancecubes:creative_pendant;chancecubes:cube_dispenser;chancecubes:reward_selector_pendant;chancecubes:scanner;chancecubes:silk_touch_pendant;chancecubes:single_use_reward_selector_pendant;clef:instrument_player;neverenoughcandy:mob_candy"
 #Include Creative Tab Groups
 IncludeGroups = "*"
 #Exclude Creative Tab Groups
 ExcludeGroups = "!"
 #Change item rarity value for pricing
-ItemRarity = "randomloot:golden_case=1;randomloot:titan_case=3;curios:ring=2;curios:amulet=1;curios:knuckles=2;curios:crown=1;lootbagmod:lootbag=2;mystictools:loot_case=2;bagofyurting:bag_of_yurting=2;chancecubes:chance_cube=1;chancecubes:compact_giant_chance_cube=2;chancecubes:chance_icosahedron=3;usefulhats:aquanaut_helmet=2;usefulhats:bunny_ears=2;usefulhats:chopping_hat=1;usefulhats:halo=3;usefulhats:lucky_hat=2;usefulhats:mining_hat=2;usefulhats:mushroom_hat=2;usefulhats:postman_hat=1;usefulhats:shulker_helmet=3;usefulhats:straw_hat=1;usefulhats:wing_helmet=2;wstweaks:blaze_blade=3;wstweaks:fragment=1;wstweaks:lava_blade=3;yeeter:tnt_yeeter_spawn_egg=3;waystones:bound_scroll=1;waystones:mossy_waystone=3;waystones:sandy_waystone=3;waystones:warp_scroll=2;waystones:warp_stone=3;waystones:waystone=3;direbats:direbat_spawn_egg=3;enderthing:pack=2;enderthing:key=1;enderthing:lock=1"
+ItemRarity = "randomloot:golden_case=1;randomloot:titan_case=3;curios:ring=2;curios:amulet=1;curios:knuckles=2;curios:crown=1;lootbagmod:lootbag=2;mystictools:loot_case=2;bagofyurting:bag_of_yurting=2;chancecubes:chance_cube=1;chancecubes:compact_giant_chance_cube=2;chancecubes:chance_icosahedron=3;usefulhats:aquanaut_helmet=2;usefulhats:bunny_ears=2;usefulhats:chopping_hat=1;usefulhats:halo=3;usefulhats:lucky_hat=2;usefulhats:mining_hat=2;usefulhats:mushroom_hat=2;usefulhats:postman_hat=1;usefulhats:shulker_helmet=3;usefulhats:straw_hat=1;usefulhats:wing_helmet=2;usefulhats:ender_helmet=3;wstweaks:blaze_blade=3;wstweaks:fragment=1;wstweaks:lava_blade=3;yeeter:tnt_yeeter_spawn_egg=3;waystones:bound_scroll=1;waystones:mossy_waystone=3;waystones:sandy_waystone=3;waystones:warp_scroll=2;waystones:warp_stone=3;waystones:waystone=3;enderstorage:ender_chest=3;enderstorage:ender_tank=3;enderstorage:ender_pouch=2"
 
 [RarityData]
 	#Uncommon Item
@@ -37,10 +37,10 @@ ItemRarity = "randomloot:golden_case=1;randomloot:titan_case=3;curios:ring=2;cur
 	CommonItem = "minecraft:emerald"
 	#Epic Cost
 	#Range: 0 ~ 64
-	EpicCost = 24
+	EpicCost = 32
 	#Rare Cost
 	#Range: 0 ~ 64
-	RareCost = 32
+	RareCost = 24
 	#Common Uses
 	#Range: 0 ~ 32
 	CommonUses = 4

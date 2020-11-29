@@ -18,31 +18,31 @@
 	fertilizedEssenceChance = 0.1
 	#The percentage chance that a passive or hostile mob will drop an Inferium Essence when killed.
 	#Range: 0.0 ~ 1.0
-	inferiumDropChance = 0.05
+	inferiumDropChance = 0.01
 
 #World generation options.
 [World]
 	#The percentage chance a Soulium Ore spawns in a Soulstone cluster.
 	#Range: 0.0 ~ 1.0
-	souliumOreChance = 0.04
+	souliumOreChance = 0.03
 	#The maximum amount of Prosperity Ore blocks that can spawn in a vein.
 	#Range: > 0
-	prosperitySpawnSize = 6
+	prosperitySpawnSize = 2
 	#How many Inferium Ore veins should spawn in a chunk.
 	#Range: > 0
-	inferiumSpawnRate = 11
+	inferiumSpawnRate = 1
 	#The maximum amount of Inferium Ore blocks that can spawn in a vein.
 	#Range: > 0
-	inferiumSpawnSize = 6
+	inferiumSpawnSize = 2
 	#How many Prosperity Ore veins should spawn in a chunk.
 	#Range: > 0
-	prosperitySpawnRate = 9
+	prosperitySpawnRate = 1
 	#The maximum Y level that Soulstone veins can spawn.
 	#Range: 0 ~ 128
-	inferiumSpawnHeight = 45
+	inferiumSpawnHeight = 20
 	#The maximum Y level that Prosperity Ore veins can spawn.
 	#Range: 0 ~ 256
-	prosperitySpawnHeight = 39
+	prosperitySpawnHeight = 20
 	#Should Inferium Ore generate in the world?
 	generateInferiumOre = true
 	#The maximum amount of Soulstone blocks that can spawn in a vein.
@@ -54,5 +54,5 @@
 	generateSoulstone = true
 	#How many Soulstone veins should spawn in a chunk.
 	#Range: > 0
-	soulstoneSpawnRate = 4
+	soulstoneSpawnRate = 3
 

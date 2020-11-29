@@ -5,7 +5,7 @@
 	spacing = 25
 	#Offsets the spacing of the structures randomly
 	#Range: > 0
-	offset = 6
+	offset = 7
 	#How should the code treate biomes? true = whitelist, false = blacklist. Biomes defined with ! do the opposite.
 	is_whitelist = true
 	#A biome filter to determine where the structure should generate. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
@@ -20,7 +20,7 @@
 	spacing = 36
 	#Offsets the spacing of the structures randomly
 	#Range: > 0
-	offset = 8
+	offset = 9
 	#How should the code treate biomes? true = whitelist, false = blacklist. Biomes defined with ! do the opposite.
 	is_whitelist = true
 	#A biome filter to determine where the structure should generate. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
@@ -73,4 +73,28 @@
 	#Chance of generating in an allowed chunk
 	#Range: 0.0 ~ 1.0
 	probability = 0.8
+
+[warped_garden]
+	#Spacing between structures
+	#Range: > 1
+	spacing = 36
+	#Offsets the spacing of the structures randomly
+	#Range: > 0
+	offset = 9
+	#How should the code treate biomes? true = whitelist, false = blacklist. Biomes defined with ! do the opposite.
+	is_whitelist = true
+	#A biome filter to determine where the structure should generate. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+	biomes = "#forge:ocean, !#forge:snowy, !byg:dead_sea"
+
+[soul_prison]
+	#Spacing between structures
+	#Range: > 1
+	spacing = 25
+	#Offsets the spacing of the structures randomly
+	#Range: > 0
+	offset = 7
+	#How should the code treate biomes? true = whitelist, false = blacklist. Biomes defined with ! do the opposite.
+	is_whitelist = true
+	#A biome filter to determine where the structure should generate. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+	biomes = "minecraft:soul_sand_valley, byg:quartz_desert"
 
