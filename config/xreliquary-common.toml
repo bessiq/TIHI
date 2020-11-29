@@ -125,10 +125,10 @@ mobDropsEnabled = true
 	[items.rendingGale]
 		#Number of feathers the rending gale can hold
 		#Range: > 0
-		chargeLimit = 30000
+		chargeLimit = 1000
 		#Number of feathers that get added to the rending gale per one that's consumed from player's inventory
 		#Range: 1 ~ 250
-		chargeFeatherWorth = 100
+		chargeFeatherWorth = 1
 		#Cost per second of buffing players with flight
 		#Range: 1 ~ 20
 		pedestalCostPerSecond = 5
@@ -143,13 +143,13 @@ mobDropsEnabled = true
 		pushableEntitiesBlacklist = []
 		#Number of feathers used when the rending gale is cast in flight mode
 		#Range: 0 ~ 3
-		castChargeCost = 1
+		castChargeCost = 3
 		#Range from pedestals at which players will get buffed with flight
 		#Range: 10 ~ 100
 		pedestalFlightRange = 30
 		#Number of feathers used to cast a lightning bolt
 		#Range: 0 ~ 250
-		boltChargeCost = 100
+		boltChargeCost = 88
 		#Radius in which entities can be pushed/pulled
 		#Range: 1 ~ 20
 		pushPullRadius = 10
