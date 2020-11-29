@@ -8,13 +8,30 @@
             "entries": [
                 {
                     "type": "minecraft:tag",
-                    "name": "forge:ores",
-                    "weight": 50
+                    "name": "teletubbies:sticks",
+					"expand": true,
+                    "weight": 14
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "extendedcrafting:the_ultimate_nugget",
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "extendedcrafting:crystaltine_ingot",
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "extendedcrafting:enhanced_ender_ingot",
+                    "weight": 10
                 },
                 {
                     "type": "minecraft:tag",
                     "name": "tihi:loot",
-                    "weight": 49
+					"expand": true,
+                    "weight": 55
                 },
                 {
                     "type": "minecraft:item",
