@@ -7,13 +7,13 @@
             "feature": {
               "config": {
                 "target": {
-                  "block": "minecraft:magma_block",
+                  "block": "byg:red_rock",
                   "predicate_type": "minecraft:block_match"
                 },
                 "state": {
-                  "Name": "rftoolsbase:dimensionalshard_nether"
+                  "Name": "tihi:red_clay"
                 },
-                "size": 3
+                "size": 12
               },
               "type": "minecraft:ore"
             },
