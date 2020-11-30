@@ -34,6 +34,8 @@
 		"aquaculture:smallmouth_bass",
 		"aquaculture:synodontis",
 		"aquaculture:tambaqui",
-		"aquaculture:tuna"
+		"aquaculture:tuna",
+		"#jellyfishing:jellyfish",
+		"charm:coral_squid"
 	]
 }
