@@ -1,0 +1,71 @@
+{
+    "pools": [
+        {
+            "name": "main",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "xreliquary:withered_rib",
+                    "weight": 17,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "xreliquary:slime_pearl",
+                    "weight": 6,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "xreliquary:molten_core",
+                    "weight": 6,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "xreliquary:void_tear",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xreliquary:salamander_eye",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xreliquary:interdiction_torch",
+                    "weight": 1
+                },
+                {
+                    "type": "empty",
+                    "weight": 68
+                }
+            ]
+        }
+    ]
+}
