@@ -1,5 +1,5 @@
 {
-    "type": "minecraft:crafting_shapeless",
+    "type": "minecraft:crafting_shaped",
     "pattern": [
         "jj",
         "jj"
@@ -10,6 +10,6 @@
         }
     },
     "result": {
-        "item": "minecraft:slimeball"
+        "item": "minecraft:slime_ball"
     }
 }

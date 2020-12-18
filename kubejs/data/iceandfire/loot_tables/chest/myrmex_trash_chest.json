@@ -3,7 +3,7 @@
     {
       "name": "myrmex_trash_chest",
       "rolls": {
-        "min": 1,
+        "min": 2,
         "max": 4
       },
       "entries": [
@@ -244,6 +244,11 @@
             }
           ],
           "weight": 30
+        },
+        {
+          "type": "item",
+          "name": "artifacts:whoopee_cushion",
+          "weight": 1
         }
       ]
     }

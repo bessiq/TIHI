@@ -20,9 +20,9 @@
 		"iceandfire:pixie",
 		"farlanders:enderminion",
 		"farlanders:mystic_enderminion",
-		"mekanism:baby_creeper",
-		"mekanism:baby_skeleton",
-		"mekanism:baby_stray",
+		"mekanismadditions:baby_creeper",
+		"mekanismadditions:baby_skeleton",
+		"mekanismadditions:baby_stray",
 		"rats:rat",
 		"rats:ratfish",
 		"teletubbies:ba",
@@ -36,6 +36,16 @@
 		"undergarden:gwibling",
 		"undergarden:rotling",
 		"waddles:adelie_penguin",
-		"charm:moobloom"
+		"charm:moobloom",
+		"alexsmobs:lobster",
+		"alexsmobs:gazelle",
+		"alexsmobs:roadrunner",
+		"alexsmobs:fly",
+		"alexsmobs:hummingbird",
+		"alexsmobs:rattlesnake",
+		"alexsmobs:capuchin_monkey",
+		"alexsmobs:endergrade",
+		"alexsmobs:crimson_mosquito"
+
 	]
 }

@@ -129,7 +129,6 @@
       ]
     },
     {
-      "name": "mainpool",
       "rolls": 1,
       "entries": [
         {

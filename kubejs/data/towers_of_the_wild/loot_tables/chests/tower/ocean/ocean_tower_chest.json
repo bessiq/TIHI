@@ -129,22 +129,6 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:tag",
-          "name": "mekanismadditions:balloons",
-          "expand": true,
-          "weight": 1
-        },
-        {
-          "type": "empty",
-          "weight": 99
-        }
-      ]
-    },
-    {
-      "name": "mainpool",
-      "rolls": 1,
-      "entries": [
-        {
           "type": "item",
           "name": "lootbagmod:lootbag",
           "weight": 2

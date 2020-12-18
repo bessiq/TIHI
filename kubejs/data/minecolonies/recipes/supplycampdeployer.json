@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " P ",
+    "BTB",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "tag": "forge:chests"
+    },
+    "B": {
+      "item": "rats:pied_wool"
+    },
+    "P": {
+      "item": "simplefarming:whiskey"
+    },
+    "T": {
+      "item": "immersiveengineering:reinforced_crate"
+    }
+  },
+  "result": {
+    "item": "minecolonies:supplycampdeployer"
+  }
+}
