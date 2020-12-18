@@ -33,7 +33,7 @@
 		#Allow Nether-styled Stronghold to
 		#generate in modded Nether biomes.
 		#
-		"addNetherStrongholdToModdedBiomes " = true
+		"addNetherStrongholdToModdedBiomes " = false
 		#
 		# How rare are Chains in this Stronghold. (Can have Soul Lantern attached)
 		#
@@ -42,7 +42,7 @@
 		#
 		# Allow Nether-styled Strongholds to spawn in Nether category biomes.
 		# Note: Eyes of Ender will work and show the closest Nether Stronghold too.
-		allowNetherStronghold = true
+		allowNetherStronghold = false
 		#
 		# Minimum Y height that Nether stronghold's starting point can spawn at. 
 		#Default is 40.
@@ -62,7 +62,7 @@
 		#even if they have don't have vanilla Strongholds. It will replace
 		#the vanilla Strongholds in those biomes if this option is on.
 		#
-		addStonebrickStrongholdToModdedBiomes = true
+		addStonebrickStrongholdToModdedBiomes = false
 		#
 		# How rare are Chains in this Stronghold. (Can have Lantern attached)
 		#
@@ -80,7 +80,7 @@
 		#off, vanilla Strongholds will generate again but Repurposed Structures's
 		#Nether Strongholds will still be active.
 		#
-		allowStonebrickStrongholdToVanillaBiomes = true
+		allowStonebrickStrongholdToVanillaBiomes = false
 		#
 		# Minimum Y height that normal stronghold's starting point can spawn at. 
 		#Default is 0.

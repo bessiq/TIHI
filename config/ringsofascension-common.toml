@@ -72,70 +72,89 @@
 	#1 = Rare
 	#2 = Epic
 	#3 = Legendary
+	#4 = Mythic
 	["Rings Tier".Tiers]
+		#Range: 0 ~ 4
 		ringTierWaterBreathing = 0
+		#Range: 0 ~ 4
 		ringTierKnockbackResistance = 0
+		#Range: 0 ~ 4
 		ringTierNightVision = 0
-		ringTierPoisonResistance = 1
+		#Range: 0 ~ 4
+		ringTierPoisonResistance = 2
+		#Range: 0 ~ 4
 		ringTierSlowFalling = 0
+		#Range: 0 ~ 4
 		ringTierMagnetism = 2
+		#Range: 0 ~ 4
 		ringTierSponge = 1
+		#Range: 0 ~ 4
 		ringTierSpeed = 1
+		#Range: 0 ~ 4
 		ringTierWither = 1
+		#Range: 0 ~ 4
 		ringTierHealth = 3
-		ringTierLuck = 2
-		ringTierRegeneration = 1
+		#Range: 0 ~ 4
+		ringTierLuck = 3
+		#Range: 0 ~ 4
+		ringTierRegeneration = 3
+		#Range: 0 ~ 4
 		ringTierDolphin = 1
+		#Range: 0 ~ 4
 		ringTierWaterWalking = 0
+		#Range: 0 ~ 4
 		ringTierInvisibility = 1
+		#Range: 0 ~ 4
 		ringTierGrowth = 2
+		#Range: 0 ~ 4
 		ringTierMining = 2
-		ringTierUndying = 3
+		#Range: 0 ~ 4
+		ringTierUndying = 4
+		#Range: 0 ~ 4
 		ringTierFireResistance = 0
-		ringTierStrength = 1
+		#Range: 0 ~ 4
+		ringTierStrength = 2
+		#Range: 0 ~ 4
 		ringTierHungerless = 3
+		#Range: 0 ~ 4
 		ringTierJumpBoost = 0
+		#Range: 0 ~ 4
 		ringTierSlowResistance = 1
-		ringTierFlight = 3
+		#Range: 0 ~ 4
+		ringTierFlight = 4
+		#Range: 0 ~ 4
 		ringTierExperience = 0
 
 ["Rings Loot"]
 	#The maximum number of rings that can be found inside a single chest.
-	ringMaxLoot = 0
-	#The minimum number of rings that can be found inside a single chest.
-	ringMinLoot = 0
+	ringMaxLoot = 1
+	#The minimum number of rings that can be found inside a single chest. Values below 0 decrease the chance of the rings appearing.
+	ringMinLoot = -5
 
-["Rings Loot Chests"]
-	#Generate rings in woodland mansion chests
-	ringWoodlandChests = false
-	#Generate rings in village toolsmith chests
-	ringToolsmithChests = false
-	#Generate rings in dungeon chests
-	ringDungeonChests = false
-	#Generate rings in pillager outpost chests
-	ringPillagerChests = false
-	#Generate rings in village armorer chests
-	ringArmorerChests = false
-	#Generate rings in abandoned mineshaft chests
-	ringMineshaftChests = false
-	#Generate rings in desert pyramid chests
-	ringPyramidChests = false
-	#Generate rings in end city chests
-	ringEndCityChests = false
-	#Generate rings in stronghold library chests
-	ringStrongholdChests = false
-	#Generate rings in village weaponsmith chests
-	ringWeaponsmithChests = false
-	#Generate rings in buried treasure chests
-	ringBuriedTreasureChests = false
-	#Generate rings in igloo chests
-	ringIglooChests = false
-	#Generate rings in nether bridge chests
-	ringNetherChests = false
-	#Generate rings in spawn bonus chests
-	ringBonusChests = false
-	#Generate rings in shipwreck treasure chests
-	ringShipwreckChests = false
-	#Generate rings in jungle temple chests
-	ringJungleChests = false
+["Rings Locations"]
+	ringLocationPoisonResistance = "minecraft:chests/jungle_temple;minecraft:chests/end_city_treasure;minecraft:chests/shipwreck_treasure;minecraft:chests/bastion_treasure;minecraft:chests/bastion_bridge"
+	ringLocationKnockbackResistance = "minecraft:chests/end_city_treasure;minecraft:chests/bastion_bridge;minecraft:chests/nether_bridge"
+	ringLocationJumpBoost = "minecraft:chests/end_city_treasure;minecraft:chests/igloo_chest;minecraft:chests/desert_pyramid"
+	ringLocationDolphin = "minecraft:chests/underwater_ruin_big;minecraft:chests/underwater_run_small;minecraft:chests/buried_treasure"
+	ringLocationGrowth = "minecraft:chests/jungle_temple"
+	ringLocationFlight = ""
+	ringLocationWaterWalking = "minecraft:chests/underwater_ruin_big;minecraft:chests/underwater_run_small;minecraft:chests/buried_treasure"
+	ringLocationLuck = "minecraft:chests/simple_dungeon;minecraft:chests/jungle_temple"
+	ringLocationUndying = "minecraft:chests/woodland_mansion"
+	ringLocationRegeneration = "minecraft:chests/stronghold_corridor;minecraft:chests/stronghold_library"
+	ringLocationMining = "minecraft:chests/simple_dungeon;minecraft:chests/abandoned_mineshaft"
+	ringLocationSpeed = "minecraft:chests/spawn_bonus_chest;minecraft:chests/simple_dungeon;minecraft:chests/buried_treasure"
+	ringLocationHealth = "minecraft:chests/end_city_treasure;minecraft:chests/bastion_treasure;minecraft:chests/stronghold_library"
+	ringLocationHungerless = "minecraft:chests/village/village_butcher;minecraft:chests/end_city_treasure;minecraft:chests/woodland_mansion"
+	ringLocationSlowResistance = "minecraft:chests/end_city_treasure;minecraft:chests/shipwreck_treasure;minecraft:chests/bastion_treasure;minecraft:chests/bastion_bridge"
+	ringLocationFireResistance = "minecraft:chests/nether_bridge;minecraft:chests/ruined_portal;minecraft:chests/bastion_treasure"
+	ringLocationStrength = "minecraft:chests/stronghold_library;minecraft:chests/stronghold_corridor;minecraft:chests/stronghold_crossing;minecraft:chests/bastion_treasure;minecraft:chests/bastion_bridge;minecraft:chests/pillager_outpost"
+	ringLocationNightVision = "minecraft:chests/spawn_bonus_chest;minecraft:chests/simple_dungeon;minecraft:chests/abandoned_mineshaft"
+	ringLocationWaterBreathing = "minecraft:chests/spawn_bonus_chest;minecraft:chests/underwater_ruin_big;minecraft:chests/underwater_run_small;minecraft:chests/buried_treasure"
+	ringLocationExperience = "minecraft:chests/spawn_bonus_chest;minecraft:chests/simple_dungeon;minecraft:chests/buried_treasure;minecraft:chests/ruined_portal"
+	ringLocationWither = "minecraft:chests/bastion_treasure"
+	ringLocationSlowFalling = "minecraft:chests/simple_dungeon;minecraft:chests/buried_treasure;minecraft:chests/end_city_treasure"
+	ringLocationInvisibility = "minecraft:chests/abandoned_mineshaft;minecraft:chests/buried_treasure"
+	ringLocationMagnetism = "minecraft:chests/spawn_bonus_chest;minecraft:chests/simple_dungeon;minecraft:chests/buried_treasure;minecraft:chests/ruined_portal"
+	ringLocationSponge = "minecraft:chests/underwater_ruin_big;minecraft:chests/underwater_run_small"
 

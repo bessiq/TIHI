@@ -11,12 +11,14 @@
 	fuel_bucket_efficiency = 0.05
 	#Should dyes be used up when coloring things (Drones, Logistics Modules, Redstone Modules)?
 	use_up_dyes_when_coloring = false
+	#Oil worldgen blacklist by biome category: add biome categories to this list if you don't want oil worldgen to happen there. Accepted categories are: beach, desert, extreme_hills, forest, icy, jungle, mesa, mushroom, nether, none, ocean, plains, river, savanna, swamp, taiga, the_end.  This works in conjunction with 'oil_world_gen_blacklist' - if a biome matches either, then no oil lakes will generate there.
+	oil_world_gen_category_blacklist = ["none"]
 	#Maximum number of blocks in the area defined in an Area Programming Puzzle Piece
 	#Range: > 1
 	max_programming_area = 250000
 	#Are drones allowed to import Experience Orbs and convert them to Memory Essence fluid?
 	drones_can_import_xp_orbs = true
-	#Oil worldgen blacklist: add biome IDs to this list if you don't want oil worldgen to happen there.
+	#Oil worldgen blacklist: add biome IDs to this list if you don't want oil worldgen to happen there.  This works in conjunction with 'oil_world_gen_category_blacklist' - if a biome matches either, then no oil lakes will generate there.
 	oil_world_gen_blacklist = ["minecraft:the_end", "minecraft:nether", "minecraft:small_end_islands", "minecraft:end_midlands", "minecraft:end_highlands", "minecraft:end_barrens", "minecraft:the_void", "biomesoplenty:ashen_inferno", "biomesopenty:undergarden", "biomesoplenty:boneyard", "biomesoplenty:visceral_heap", "minecraft:soul_sand_valley", "minecraft:warped_forest", "minecraft:crimson_forest", "minecraft:basalt_deltas", "minecraft:nether_wastes", "biomesoplenty:crystalline_chasm", "biomesopenty:undergrowth", "biomesoplenty:withered_abyss", "biomesoplenty:visceral_heap", "byg:embur_bog", "byg:glowstone_gardens", "byg:ivis_fields", "byg:brimstone_caverns", "byg:bulbis_gardens", "byg:crimson_gardens", "byg:ethereal_islands", "byg:magma_wastes", "byg:nightshade_forest", "byg:quartz_desert", "byg:shattered_desert", "byg:subzero_hypogeal", "byg:viscal_isles", "byg:wailing_garth", "byg:weeping_mire", "byg:withering_woods", "byg:sythian_torrids", "byg:warped_desert", "endergetic:chorus_plains", "endergetic:end_highlands", "endergetic:end_midlands", "endergetic:poise_forest", "undergarden:barren_abyss", "undergarden:dense_forest", "undergarden:forgotten_field", "undergarden:otherside", "undergarden:smog_spires", "undergarden:smogstem_forest", "undergarden:wigglewood_forest", "mahoutsukai:marble", "rats:ratlantis_biome", "good_nights_sleep:dreamy_forest", "good_nights_sleep:good_dream_plains", "good_nights_sleep:hopeful_fields", "good_nights_sleep:lollipop_lands", "good_nights_sleep:nightmare_hills", "good_nights_sleep:shameful_plains", "good_nights_sleep:sleepy_hills", "good_nights_sleep:wasted_forest", "the_bumblezone:hive_pillar", "the_bumblezone:hive_wall", "the_bumblezone:sugar_water_floor"]
 	#Chance per chunk in percentage to generate an Oil Lake (although a surface lake is 4 times rarer). Set to 0 for no oil lakes.
 	#Range: 0 ~ 100
@@ -52,7 +54,7 @@
 	#The ratio of liquid plastic to solid plastic sheets in the Plastic Mixer, in mB per sheet.  If set to 0, no default liquid->solid plastic recipe will be added (but CraftTweaker or API can be used to add recipes)
 	#Range: > 0
 	plastic_mixer_plastic_ratio = 1000
-	#The max height of an elevator per stacked Elevator Base.
+	#The max height of an elevator per stacked Elevator Base block.
 	#Range: 1 ~ 256
 	elevator_base_blocks_per_base = 4
 	#The amount of air produced by using 100 FE (Forge Energy) in the flux compressor
@@ -113,6 +115,11 @@
 	#The minimum interval in ticks between which fluid tank contents should be synced to clients. Smaller values mean smoother visual tank updates, but more of a performance cost in terms of network syncing. Note that fluid tank sync packets are also only sent when a fluid tank changes by more than 1% of its capacity, or 1000mB, whichever is smaller.
 	#Range: 1 ~ 100
 	fluid_tank_update_rate = 10
+	#Don't remove a water source block when picking up (drones, liquid hoppers, gas lift) if it has at least two water source neighbours. This can reduce lag due to frequent block updates, and can also potentially make water import much faster. Set this to false if you want no-infinite-water rules in a world, or want to limit the speed of water importing to vanilla block update rates.
+	dont_update_infinite_water_sources = true
+	#How far will a drone go to find a Charging Station when it's low on air? Note: drones will teleport, possibly across the world to someone else's base, if this range is very large.
+	#Range: > 16
+	max_drone_charging_station_search_range = 80
 
 ["Micromissile Properties"]
 	#Base explosion damage (modified by missile setup)
@@ -230,15 +237,18 @@
 	#Range: > 1000
 	reshuffleInterval = 24000
 	#Max number of custom trades a player may add
-	#Range: > 1
+	#Range: > 0
 	max_trades_per_player = 50
 	#Broadcast a notification when player adds a custom trade
 	notify_of_trade_addition = true
 	#Broadcast a notification when player removes a custom trade
 	notify_of_trade_removal = true
-	#Broadcast a notification when an Amadron trade is made
+	#Broadcast a notification when a custom Amadron trade is made
 	notify_of_deal_made = true
-	#Number of periodic offers randomly selected for the 'live' offer list
+	#Number of villager offers randomly selected for the 'live' offer list. Note: this a maximum, and the actual number chosen each time may be less.
+	#Range: > 0
+	numVillagerOffers = 20
+	#Number of periodic offers randomly selected for the 'live' offer list. Note: this a maximum, and the actual number chosen each time may be less.
 	#Range: > 0
 	numPeriodicOffers = 20
 

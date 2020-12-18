@@ -8,7 +8,7 @@
 	# RS's village to spawn in. Separate each ID with a comma ,
 	#
 	#Example: "minecraft:ice_spikes,awesome_mod:awesome_biome"
-	blacklistedVillageBiomes = "mining_dimension:mining"
+	blacklistedVillageBiomes = "mining_dimension:mining,byg:crag_gardens,byg:fresh_water_lake,byg:great_lakes,byg:polluted_lake"
 
 	[Villages.MaxChunkDistance]
 		#

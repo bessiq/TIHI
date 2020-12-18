@@ -210,6 +210,7 @@
 	"F To Switch" = true
 	"Hotbar Changer" = true
 	"Item Sharing" = true
+	"Right Click Armor" = true
 	"Easy Transfering" = true
 
 	[management.inventory_sorting]
@@ -222,6 +223,7 @@
 
 [tools]
 	Pickarang = true
+	"Seed Pouch" = true
 	"Pathfinder Maps" = true
 	"Bottled Cloud" = true
 	"Color Runes" = true
@@ -268,6 +270,10 @@
 		Customs = []
 		"Xp From Trade" = 5
 
+	[tools.seed_pouch]
+		"Show All Variants In Creative" = true
+		"Max Items" = 640
+
 	[tools.color_runes]
 		"Jungle Temple Weight" = 6
 		"Desert Temple Weight" = 6
@@ -307,9 +313,10 @@
 	"Reacharound Placing" = true
 	"Villagers Follow Emeralds" = true
 	"Compasses Work Everywhere" = true
+	"Skull Pikes" = true
 	"Note Block Mob Sounds" = true
 	"Double Door Opening" = true
-	"Automatic Recipe Unlock" = true
+	"Automatic Recipe Unlock" = false
 	"Poison Potato Usage" = true
 	"Improved Sleeping" = true
 	"Infinity Bucket" = true
@@ -337,6 +344,9 @@
 
 	[tweaks.hoe_harvesting]
 		"Hoes Can Have Fortune" = true
+
+	[tweaks.skull_pikes]
+		"Pike Range" = 5.0
 
 	[tweaks.infinity_bucket]
 		#Set this to false to prevent dispensers from using infinite water buckets
@@ -451,6 +461,7 @@
 	"Monster Box" = true
 	"Nether Obsidian Spikes" = true
 	"Mega Caves" = true
+	"Spiral Spires" = true
 
 	[world.monster_box]
 		#The chance for the monster box generator to try and place one in a chunk, 1 is 100%
@@ -1319,6 +1330,21 @@
 			[world.glowshroom_underground_biome.biome_settings.dimensions]
 				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
+
+	[world.spiral_spires]
+		Rarity = 200
+		Radius = 15
+		#Set to 0 to turn off Myalite Conduits
+		"Myalite Conduit Distance" = 24
+		"Renewable Myalite" = true
+
+		[world.spiral_spires.dimensions]
+			"Is Blacklist" = false
+			Dimensions = ["minecraft:the_end"]
+
+		[world.spiral_spires.biomes]
+			Biomes = ["minecraft:end_highlands"]
+			"Is Blacklist" = false
 
 [mobs]
 	Frogs = true

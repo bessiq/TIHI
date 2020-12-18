@@ -201,7 +201,7 @@
 		# Replace Mineshafts in Ocean biomes with an Ocean themed Mineshaft.
 		# Note: Vanilla Mineshafts will start spawning when this is set to 0 and game is restarted.
 		#Range: 0 ~ 1000
-		oceanMineshaftSpawnrate = 30
+		oceanMineshaftSpawnrate = 27
 		#
 		# Controls how often Mineshafts will spawn. 1000 is max spawnrate.
 		# 
