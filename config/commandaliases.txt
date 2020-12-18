@@ -1,0 +1,2 @@
+nv | effect give @s minecraft:night_vision 999999
+nvc | effect clear @s minecraft:night_vision
