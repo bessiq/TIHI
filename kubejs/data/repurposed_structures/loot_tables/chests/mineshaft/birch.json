@@ -34,11 +34,6 @@
                     "name": "minecraft:iron_pickaxe"
                 },
                 {
-                    "type": "minecraft:item",
-                    "weight": 1,
-                    "name": "ringsofascension:ring_mining"
-                },
-                {
                     "type": "minecraft:empty",
                     "weight": 5
                 }

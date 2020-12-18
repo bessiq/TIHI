@@ -2,7 +2,7 @@
     "mobs": [
         {
             "name": "minecraft:husk",
-            "weight": 48
+            "weight": 47
         },
         {
             "name": "minecraft:cave_spider",
@@ -15,6 +15,10 @@
         {
             "name": "minecraft:spider",
             "weight": 8
+        },
+        {
+            "name": "thermal:basalz",
+            "weight": 1
         },
         {
             "name": "minecraft:illusioner",

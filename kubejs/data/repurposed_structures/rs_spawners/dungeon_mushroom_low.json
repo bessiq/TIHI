@@ -2,7 +2,11 @@
     "mobs": [
         {
             "name": "minecraft:bat",
-            "weight": 96
+            "weight": 94
+        },
+        {
+            "name": "charm:moobloom",
+            "weight": 2
         },
         {
             "name": "minecraft:mooshroom",

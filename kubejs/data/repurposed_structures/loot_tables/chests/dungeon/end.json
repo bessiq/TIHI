@@ -55,11 +55,6 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "weight": 1,
-                    "name": "ringsofascension:ring_knockback_resistance"
-                },
-                {
-                    "type": "minecraft:item",
                     "weight": 15,
                     "functions": [
                         {

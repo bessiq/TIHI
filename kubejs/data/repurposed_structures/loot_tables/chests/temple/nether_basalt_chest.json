@@ -233,18 +233,13 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "minecraft:item",
-                    "name": "ringsofascension:ring_fire_resistance",
-                    "weight": 15
-                },
-                {
                     "type": "minecraft:loot_table",
                     "name": "minecraft:chests/ruined_portal",
-                    "weight": 15
+                    "weight": 25
                 },
                 {
 					"type": "empty",
-					"weight": 70
+					"weight": 75
 				}
             ]
         },

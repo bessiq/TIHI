@@ -6,7 +6,15 @@
         },
         {
             "name": "minecraft:slime",
-            "weight": 1
-        }
+            "weight": 3
+        },
+        {
+            "name": "dungeons_mobs:jungle_zombie",
+            "weight": 5
+        },
+        {
+            "name": "dungeons_mobs:mossy_skeleton",
+            "weight": 5
+        }      
     ]
 }

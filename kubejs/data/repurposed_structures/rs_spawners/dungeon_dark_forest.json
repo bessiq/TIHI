@@ -2,7 +2,7 @@
     "mobs": [
         {
             "name": "minecraft:zombie",
-            "weight": 43
+            "weight": 44
         },
         {
             "name": "minecraft:spider",

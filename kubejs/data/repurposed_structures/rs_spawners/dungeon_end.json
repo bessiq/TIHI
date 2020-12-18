@@ -2,15 +2,19 @@
     "mobs": [
         {
             "name": "minecraft:endermite",
-            "weight": 86
+            "weight": 79
         },
         {
             "name": "minecraft:enderman",
             "weight": 12
         },
         {
+            "name": "mekanismadditions:baby_enderman",
+            "weight": 6
+        },
+        {
             "name": "minecraft:phantom",
-            "weight": 2
+            "weight": 3
         }
     ]
 }

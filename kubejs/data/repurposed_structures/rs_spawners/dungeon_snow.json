@@ -2,19 +2,31 @@
     "mobs": [
         {
             "name": "minecraft:stray",
-            "weight": 37
+            "weight": 31
         },
         {
             "name": "minecraft:cave_spider",
-            "weight": 25
+            "weight": 22
         },
         {
             "name": "minecraft:zombie",
-            "weight": 24
+            "weight": 22
         },
         {
             "name": "minecraft:spider",
-            "weight": 12
+            "weight": 10
+        },
+        {
+            "name": "thermal:blizz",
+            "weight": 4
+        },
+        {
+            "name": "dungeons_mobs:icy_creeper",
+            "weight": 5
+        },
+        {
+            "name": "dungeons_mobs:frozen_zombie",
+            "weight": 5
         },
         {
             "name": "minecraft:snow_golem",

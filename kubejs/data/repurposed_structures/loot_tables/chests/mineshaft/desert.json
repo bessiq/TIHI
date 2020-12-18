@@ -44,11 +44,6 @@
                     "name": "minecraft:golden_shovel"
                 },
                 {
-                    "type": "minecraft:item",
-                    "weight": 1,
-                    "name": "ringsofascension:ring_mining"
-                },
-                {
                     "type": "minecraft:empty",
                     "weight": 5
                 }

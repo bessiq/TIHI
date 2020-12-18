@@ -218,20 +218,14 @@
             "rolls": 1,
             "entries": [
                 {
-					"type": "minecraft:tag",
-					"name": "ringsofascension:rings",
-                    "expand": true,
-                    "weight": 10
-				},
-                {
                     "type": "minecraft:loot_table",
                     "name": "minecraft:chests/nether_bridge",
-                    "weight": 10
+                    "weight": 15
                 },
                 {
                     "type": "minecraft:item",
                     "name": "enigmaticlegacy:magma_heart",
-                    "weight": 10
+                    "weight": 15
                 },
                 {
 					"type": "empty",

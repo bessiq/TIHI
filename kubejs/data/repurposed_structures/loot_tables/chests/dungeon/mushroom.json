@@ -50,11 +50,6 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "weight": 1,
-                    "name": "ringsofascension:ring_regeneration"
-                },
-                {
-                    "type": "minecraft:item",
                     "weight": 20,
                     "functions": [
                         {

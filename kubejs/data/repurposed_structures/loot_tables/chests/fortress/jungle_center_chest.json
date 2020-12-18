@@ -421,24 +421,6 @@
 			},
 			"entries": [
 				{
-					"type": "minecraft:tag",
-					"name": "ringsofascension:rings",
-					"expand": true,
-					"weight": 5
-				},
-				{
-					"type": "empty",
-					"weight": 95
-				}
-			]
-        },
-        {
-			"rolls": {
-				"min": 0,
-				"max": 1
-			},
-			"entries": [
-				{
 					"type": "minecraft:item",
 					"name": "chanceglobe:chance_globe",
 					"weight": 5,

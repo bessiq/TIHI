@@ -2,7 +2,7 @@
     "mobs": [
         {
             "name": "minecraft:zombified_piglin",
-            "weight": 42
+            "weight": 40
         },
         {
             "name": "minecraft:strider",
@@ -17,7 +17,15 @@
             "weight": 10
         },
         {
-            "name": "rats:demon_rat",
+            "name": "doomweapon:possessed_soldier",
+            "weight": 1
+        },
+        {
+            "name": "quark:foxhound",
+            "weight": 1
+        },
+        {
+            "name": "alexsmobs:crimson_mosquito",
             "weight": 2
         },
         {

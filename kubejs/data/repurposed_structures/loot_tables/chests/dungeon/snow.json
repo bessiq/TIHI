@@ -55,11 +55,6 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "weight": 1,
-                    "name": "ringsofascension:ring_jump_boost"
-                },
-                {
-                    "type": "minecraft:item",
                     "weight": 10,
                     "functions": [
                         {
