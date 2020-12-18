@@ -3,7 +3,7 @@
     {
       "name": "myrmex_jungle_food_chest",
       "rolls": {
-        "min": 1,
+        "min": 2,
         "max": 4
       },
       "entries": [
@@ -314,6 +314,11 @@
             }
           ],
           "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "bountifulbaubles:apple",
+          "weight": 1
         }
       ]
     }

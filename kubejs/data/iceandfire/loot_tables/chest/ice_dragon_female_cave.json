@@ -3,7 +3,7 @@
     {
       "name": "ice_dragon_cave",
       "rolls": {
-        "min": 1,
+        "min": 2,
         "max": 4
       },
       "entries": [
@@ -262,36 +262,62 @@
       ]
     },
     {
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:loot_table",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "lootbagmod:lootbag",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "mystictools:loot_case",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "randomloot:basic_case",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "randomloot:titan_case",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "randomloot:golden_case",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "ringsofascension:ring_slow_resistance",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "chanceglobe:chance_globe",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
           "name": "minecraft:chests/simple_dungeon",
-          "weight": 5
-				},
-				{
-					"type": "empty",
-					"weight": 95
+          "weight": 2
+        },
+        {
+          "type": "empty",
+          "weight": 66
         }
-			]
-    },
-    {
-			"rolls": {
-				"min": 0,
-				"max": 1
-			},
-			"entries": [
-				{
-					"type": "minecraft:tag",
-					"name": "ringsofascension:rings",
-					"expand": true,
-					"weight": 1
-				},
-				{
-					"type": "empty",
-					"weight": 99
-				}
-			]
-		}
+      ]
+    }
   ]
 }
