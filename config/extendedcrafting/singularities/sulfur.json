@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.sulfur",
+  "colors": [
+    "f1f372",
+    "e3d167"
+  ],
+  "ingredient": {
+    "tag": "forge:gems/sulfur"
+  }
+}
