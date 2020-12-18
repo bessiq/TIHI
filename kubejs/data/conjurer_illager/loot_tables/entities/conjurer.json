@@ -93,12 +93,6 @@
       },
       "entries": [
         {
-          "type": "minecraft:tag",
-          "name": "ringsofascension:rings",
-          "weight": 1,
-          "expand": true
-        },
-        {
           "type": "minecraft:item",
           "name": "minecraft:totem_of_undying",
           "weight": 1

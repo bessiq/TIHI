@@ -1,0 +1,187 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 3.0,
+        "max": 5.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 18,
+          "name": "astralsorcery:constellation_paper"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "astralsorcery:aquamarine"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:bone"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:gold_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:diamond"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:glowstone_dust"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:ender_pearl"
+        }
+      ],
+      "bonus_rolls": {
+        "min": 1.0,
+        "max": 2.0
+      }
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "lootbagmod:lootbag",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "mystictools:loot_case",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "randomloot:basic_case",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "randomloot:titan_case",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "randomloot:golden_case",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "mekanism:nugget_osmium",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "ringsofascension:ring_night_vision",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "chanceglobe:chance_globe",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "empty",
+          "weight": 85
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/igloo_chest",
+          "weight": 50
+        },
+        {
+          "type": "empty",
+          "weight": 50
+        }
+      ]
+    }
+  ]
+}
