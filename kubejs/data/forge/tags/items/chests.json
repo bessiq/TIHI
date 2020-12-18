@@ -1,16 +1,22 @@
 {
     "replace": false,
     "values": [
-        "ironchest:copper_chest",
-        "ironchest:crystal_chest",
-        "ironchest:diamond_chest",
-        "ironchest:dirt_chest",
-        "ironchest:gold_chest",
-        "ironchest:iron_chest",
-        "ironchest:obsidian_chest",
-        "ironchest:silver_chest",
         "appliedenergistics2:sky_stone_chest",
         "appliedenergistics2:smooth_sky_stone_chest",
-        "aquaculture:treasure_chest"
+        "aquaculture:treasure_chest",
+        "expandedstorage:christmas_chest",
+        "expandedstorage:diamond_chest",
+        "expandedstorage:gold_chest",
+        "expandedstorage:iron_chest",
+        "expandedstorage:netherite_chest",
+        "expandedstorage:obsidian_chest",
+        "expandedstorage:old_diamond_chest",
+        "expandedstorage:old_gold_chest",
+        "expandedstorage:old_iron_chest",
+        "expandedstorage:old_netherite_chest",
+        "expandedstorage:old_obsidian_chest",
+        "expandedstorage:old_wood_chest",
+        "expandedstorage:pumpkin_chest",
+        "expandedstorage:wood_chest"
     ]
 }

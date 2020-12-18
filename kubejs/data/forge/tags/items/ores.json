@@ -3,17 +3,8 @@
     "values": [
         "#forge:ores/amethyst",
         "#forge:ores/ametrine",
-        "#forge:ores/aluminum",
-        "#forge:ores/copper",
-        "#forge:ores/fluorite",
-        "#forge:ores/lead",
-        "#forge:ores/nickel",
-        "#forge:ores/osmium",
         "#forge:ores/pendorite",
         "#forge:ores/quartz",
-        "#forge:ores/sapphire",
-        "#forge:ores/silver",
-        "#forge:ores/tin",
-        "#forge:ores/uranium"
+        "#forge:ores/sapphire"
     ]
 }

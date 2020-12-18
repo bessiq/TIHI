@@ -1,7 +1,6 @@
 {
     "replace": false,
     "values": [
-        "iceandfire:amythest_ore",
-        "tihi:byg/mossy_stone_amethyst_ore"
+        "iceandfire:amythest_ore"
     ]
 }
