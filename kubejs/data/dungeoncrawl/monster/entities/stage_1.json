@@ -26,6 +26,12 @@
     },
     {
       "entity": "teletubbies:dipsy_zombie"
+    },
+    {
+      "entity": "dungeons_mobs:armored_zombie"
+    },
+    {
+      "entity": "dungeons_mobs:armored_skeleton"
     }
-  ]
+ ]
 }

@@ -245,21 +245,6 @@
 			]
 		},
 		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:tag",
-					"name": "ringsofascension:rings",
-					"expand": true,
-					"weight": 1
-				},
-				{
-					"type": "empty",
-					"weight": 99
-				}
-			]
-		},
-		{
 			"rolls": {
 				"min": 1,
 				"max": 2

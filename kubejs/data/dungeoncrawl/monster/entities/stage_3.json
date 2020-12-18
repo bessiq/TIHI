@@ -25,6 +25,12 @@
       "entity": "teletubbies:laalaa_zombie"
     },
     {
+      "entity": "dungeons_mobs:whisperer"
+    },
+    {
+      "entity": "dungeons_mobs:geomancer"
+    },
+    {
       "entity": "minecraft:drowned"
     }
   ]

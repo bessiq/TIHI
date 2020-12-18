@@ -25,6 +25,12 @@
       "entity": "minecraft:zoglin"
     },
     {
+      "entity": "dungeons_mobs:necromancer"
+    },
+    {
+      "entity": "dungeons_mobs:royal_guard"
+    },
+    {
       "entity": "mekanismadditions:baby_creeper"
     }
   ]
