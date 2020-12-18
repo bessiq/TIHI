@@ -5,11 +5,11 @@
   },
   "result": {
     "primary": {
-      "item": "mekanism:dust_iron"
+      "item": "thermal:iron_dust"
     },
     "optional": [
       {
-        "item": "mekanism:dust_iron"
+        "item": "thermal:iron_dust"
       }
     ]
   },

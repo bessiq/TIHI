@@ -1,11 +1,11 @@
 {
   "type": "appliedenergistics2:grinder",
   "input": {
-    "tag": "forge:ingots/iron"
+    "tag": "forge:ender_pearls"
   },
   "result": {
     "primary": {
-      "item": "thermal:iron_dust"
+      "item": "thermal:ender_pearl_dust"
     }
   },
   "turns": 4

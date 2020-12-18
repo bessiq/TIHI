@@ -5,11 +5,11 @@
   },
   "result": {
     "primary": {
-      "item": "mekanism:dust_gold"
+      "item": "thermal:gold_dust"
     },
     "optional": [
       {
-        "item": "mekanism:dust_gold"
+        "item": "thermal:gold_dust"
       }
     ]
   },
