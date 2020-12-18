@@ -54,9 +54,6 @@
 	#Determines the angels move speed
 	#Range: 0.1 ~ 1.7976931348623157E308
 	angelMovementSpeed = 0.5
-	#List of blocks that you should be able to see angels through.
-	#Format for entries: ModID:BlockRegistryName
-	transparentBlocks = []
 
 [teleport]
 	#Note: This a list of dimensions that angels should NOT teleport you to.

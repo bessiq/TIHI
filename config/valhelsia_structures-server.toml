@@ -6,10 +6,10 @@
 	[structures.tower_ruin]
 		#Tower Ruin Distance (in chunks) [default: 25]
 		#Range: 1 ~ 500
-		distance = 27
+		distance = 24
 		#Tower Ruin Minimum Separation (in chunks) [default: 8]
 		#Range: 1 ~ 500
-		separation = 10
+		separation = 9
 		#Biomes the Tower Ruin can NOT generate in
 		biome_blacklist = []
 		#Generate Tower Ruins?
@@ -23,10 +23,10 @@
 	[structures.castle]
 		#Castle Distance (in chunks) [default: 40]
 		#Range: 1 ~ 500
-		distance = 40
+		distance = 38
 		#Castle Minimum Separation (in chunks) [default: 8]
 		#Range: 1 ~ 500
-		separation = 10
+		separation = 8
 		#Biomes the Castle can NOT generate in
 		biome_blacklist = []
 		#Generate Castles?
@@ -35,12 +35,12 @@
 		biome_categories = ["PLAINS", "FOREST", "TAIGA"]
 		#Castle Spawn Chance [default: 0.5]
 		#Range: 0.0 ~ 1.0
-		spawn_chance = 0.5
+		spawn_chance = 0.6
 
 	[structures.player_house]
 		#Desert House Distance (in chunks) [default: 30]
 		#Range: 1 ~ 500
-		distance = 32
+		distance = 28
 		#Desert House Minimum Separation (in chunks) [default: 8]
 		#Range: 1 ~ 500
 		separation = 10
@@ -57,10 +57,10 @@
 	[structures.forge]
 		#Forge Distance (in chunks) [default: 30]
 		#Range: 1 ~ 500
-		distance = 32
+		distance = 28
 		#Forge Minimum Separation (in chunks) [default: 8]
 		#Range: 1 ~ 500
-		separation = 10
+		separation = 9
 		#Biomes the Forge can NOT generate in
 		biome_blacklist = []
 		#Generate Forges?
@@ -74,7 +74,7 @@
 	[structures.small_dungeon]
 		#Small Dungeon Distance (in chunks) [default: 30]
 		#Range: 1 ~ 500
-		distance = 32
+		distance = 29
 		#Small Dungeon Minimum Separation (in chunks) [default: 8]
 		#Range: 1 ~ 500
 		separation = 10
@@ -91,10 +91,10 @@
 	[structures.desert_house]
 		#Desert House Distance (in chunks) [default: 30]
 		#Range: 1 ~ 500
-		distance = 32
+		distance = 28
 		#Desert House Minimum Separation (in chunks) [default: 8]
 		#Range: 1 ~ 500
-		separation = 10
+		separation = 8
 		#Biomes the Desert House can NOT generate in
 		biome_blacklist = []
 		#Generate Desert Houses?
@@ -113,10 +113,10 @@
 	[structures.castle_ruin]
 		#Castle Ruin Distance (in chunks) [default: 35]
 		#Range: 1 ~ 500
-		distance = 36
+		distance = 34
 		#Castle Ruin Minimum Separation (in chunks) [default: 8]
 		#Range: 1 ~ 500
-		separation = 9
+		separation = 8
 		#Biomes the Castle Ruin can NOT generate in
 		biome_blacklist = []
 		#Generate Castle Ruins?
@@ -125,5 +125,5 @@
 		biome_categories = ["PLAINS", "FOREST", "TAIGA"]
 		#Castle Ruin Spawn Chance [default: 0.6]
 		#Range: 0.0 ~ 1.0
-		spawn_chance = 0.6
+		spawn_chance = 0.7
 

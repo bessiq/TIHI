@@ -7,7 +7,7 @@
 	delswords = true
 	#The 1/n chance for a wither skeleton to drop a fragment.
 	#Range: 1 ~ 32767
-	fragchance = 20
+	fragchance = 42
 	#The 1/n chance for wither skeletons outside hell to be transformed.  Requires allbiomes == true.
 	#Range: 1 ~ 32767
 	allbiomechance = 2000

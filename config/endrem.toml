@@ -1,0 +1,9 @@
+
+[endrem]
+	#Enable/Disable usage of Ender Eyes
+	enable_ender_eyes = true
+	#Minimum distance in chunks between End Castles
+	min_castle_distance = 111
+	#Maximum distance in chunks between End Castles
+	max_castle_distance = 222
+

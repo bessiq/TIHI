@@ -1,0 +1,69 @@
+
+#Biome config
+#To filter biomes by registry name "mod_id:biome_id"
+#To filter biomes by category "@category"
+#To filter biomes by tags "#tag"
+#	Examples:
+#		"minecraft:plains"
+#		"@desert"
+#		"#overworld"
+#
+#If you want to exclude biomes put a ! before the biome identifier
+#	Examples:
+#		"!minecraft:plains"
+#		"!@desert"
+#		"!#nether"
+#
+#If you want to include biomes that would be satisfied by any in a set use |
+#	Examples:
+#		"|minecraft:plains"
+#		"|@desert"
+#		"|#nether"
+#
+#If you want a condition that MUST be satisfied use an & before the biome identifier
+#Please note using this on a registry name wouldn't be that useful
+#	Examples:
+#		"&minecraft:plains"
+#		"&@forest"
+#		"&#overworld"
+#
+#NOTE: Any entry without a !, |, or & symbol has a higher precedence
+#A list like ["!minecraft:plains", "#overworld"] would still see the plains as a viable biome
+#
+#Finally, you can create a expression that can be evaluated by itself using a + to combine identifiers
+#	Examples:
+#		"!#hot+!#dry+!#mountain"
+#
+#These expressions can be used to filter biomes in a lot of ways
+#Lets say we don't want anything to spawn in any place dry and sandy
+#	"!#dry+!#sandy"
+#
+#But there is a hot place we want them to spawn that's also wet
+#	"#hot+#wet"
+#
+#We just put them as separate values in the list and that'll work out
+#	["!#dry+!#sandy","#hot+#wet"]
+#
+#NOTE: Any entry that's an expression will not be affected by anything else in the list
+[biome_configs]
+	rattlesnake = ["&#overworld+|#mesa+|@desert+|#sandy+|byg:sierra_valley+|byg:red_rock_highlands+|byg:red_rock_lowlands"]
+	crocodile = ["&#overworld+|#swamp+|#river+!#cold", "|undergarden:mushroom_bog"]
+	gorilla = ["&#overworld+|#jungle+!minecraft:bamboo_jungle+!minecraft:bamboo_jungle_hills+!byg:bamboo_forest+!byg:jacaranda_forest+!byg:jacaranda_forest_hills+!byg:jacaranda_clearing"]
+	komodoDragon = ["&#overworld+|#mesa+|byg:sierra_valley+|byg:red_rock_highlands+|byg:red_rock_lowlands"]
+	lobster = ["&#overworld+|#beach", "|more_jellyfish:rock_bottom"]
+	sunbird = ["byg:guiana_clearing+|gaiadimension:shining_grove+|byg:tropical_islands+|byg:oasis+|byg:skyris_highlands"]
+	boneSerpent = ["|#nether+|good_nights_sleep:shameful_plains+|gaiadimension:fossil_woodland"]
+	moose = ["&#overworld+|#snowy+&#wasteland", "&#overworld+|#snowy+&#forest"]
+	gazelle = ["&#overworld+|@savanna+|#savanna", "|good_nights_sleep:good_dream_plains"]
+	hammerheadShark = ["&#overworld+|#ocean+!#cold", "|more_jellyfish:kelp_forest"]
+	caveCentipede = ["#overworld+!#water+!#mushroom", "|mining_dimension:mining"]
+	warpedToad = ["|minecraft:warped_forest+|byg:glowstone_gardens"]
+	fly = ["&#overworld+!@ocean+!#ocean+!#cold", "|undergarden:gronglegrowth+|the_bumblezone:hive_pillar"]
+	orca = ["&#overworld+|#ocean+!#hot"]
+	hummingbird = ["|minecraft:flower_forest+|minecraft:sunflower_plains+|byg:allium_fields+|byg:amaranth_fields+|byg:rose_fields+|byg:flowering_ancient_forest+|byg:flowering_enchanted_grove+|byg:flowering_grove+|byg:flowering_meadow+|byg:enchanted_forest+|byg:enchanted_forest_hills+|byg:enchanted_grove+|good_nights_sleep:lollipop_lands+|gaiadimension:green_agate_jungle+|#jungle"]
+	grizzlyBear = ["&#overworld+|@forest+!#hot|#forest+!#hot"]
+	endergrade = ["&#end+!minecraft:the_end"]
+	capuchinMonkey = ["&#overworld+|#jungle+!minecraft:bamboo_jungle+!minecraft:bamboo_jungle_hills+!byg:bamboo_forest"]
+	crimsonMosquito = ["|minecraft:crimson_forest+|byg:crimson_gardens"]
+	roadrunner = ["&#overworld+|@desert+|#sandy"]
+
