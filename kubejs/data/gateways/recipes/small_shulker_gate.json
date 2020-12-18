@@ -1,0 +1,30 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "gateways",
+  "pattern": [
+    " # ",
+    "#A#",
+    " X "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:shulker_shell"
+    },
+    "A": {
+      "item": "minecraft:ender_pearl"
+    },
+    "X": {
+      "item": "bountifulbaubles:shulker_heart"
+    }
+  },
+  "result": {
+    "item": "gateways:small_gate_opener",
+    "gateway": {
+      "name": "gateways.small_shulker_gate",
+      "entity": "minecraft:shulker",
+      "completion_xp": 480,
+      "max_wave_time": 1000,
+      "color": "purple"
+    }
+  }
+}

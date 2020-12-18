@@ -1,0 +1,30 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "gateways",
+  "pattern": [
+    " # ",
+    "#A#",
+    " X "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:blaze_rod"
+    },
+    "A": {
+      "item": "minecraft:ender_pearl"
+    },
+    "X": {
+      "item": "xreliquary:molten_core"
+    }
+  },
+  "result": {
+    "item": "gateways:small_gate_opener",
+    "gateway": {
+      "name": "gateways.small_blaze_gate",
+      "entity": "minecraft:blaze",
+      "completion_xp": 300,
+      "max_wave_time": 750,
+      "color": "red"
+    }
+  }
+}
