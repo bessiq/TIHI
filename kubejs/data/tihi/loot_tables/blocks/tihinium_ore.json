@@ -1,44 +1,45 @@
 {
+    "type": "minecraft:block",
     "pools": [
         {
-			"rolls": {
-				"min": 3,
-				"max": 6
-			},
+            "name": "tihi:tihinium_ore",
+            "rolls": {
+                "min": 4,
+                "max": 8
+            },
             "entries": [
-                {
-                    "type": "minecraft:tag",
-                    "name": "teletubbies:sticks",
-					"expand": true,
-                    "weight": 14
-                },
                 {
                     "type": "minecraft:item",
                     "name": "extendedcrafting:the_ultimate_nugget",
-                    "weight": 10
+                    "weight": 6
                 },
                 {
                     "type": "minecraft:item",
                     "name": "extendedcrafting:crystaltine_ingot",
-                    "weight": 10
+                    "weight": 7
                 },
                 {
                     "type": "minecraft:item",
                     "name": "extendedcrafting:enhanced_ender_ingot",
-                    "weight": 10
+                    "weight": 8
                 },
                 {
                     "type": "minecraft:tag",
                     "name": "tihi:loot",
-					"expand": true,
-                    "weight": 55
+                    "expand": true,
+                    "weight": 44
+                },
+                {
+                    "type": "minecraft:tag",
+                    "name": "tihi:spawn_eggs",
+                    "expand": true,
+                    "weight": 32
                 },
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:bedrock",
-                    "weight": 1
+                    "weight": 3
                 }
-
             ],
             "conditions": [
                 {
@@ -46,6 +47,5 @@
                 }
             ]
         }
-    ],
-    "type": "minecraft:block"
+    ]
 }
