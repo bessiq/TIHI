@@ -15,7 +15,7 @@
   "forge:silicon": "appliedenergistics2:silicon",
   "forge:ingots/brass": "null",
   "forge:ingots/silver": "thermal:silver_ingot",
-  "forge:dusts/saltpeter": "immersiveengineering:dust_saltpeter",
+  "forge:dusts/saltpeter": "thermal:niter_dust",
   "forge:ingots/steel": "mekanism:ingot_steel",
   "forge:ingots/titanium": "null",
   "forge:rubber": "thermal:rubber",
@@ -32,5 +32,9 @@
   "forge:gems/quartz": "minecraft:quartz",
   "forge:ingots/lumium": "thermal:lumium_ingot",
   "forge:ingots/signalum": "thermal:signalum_ingot",
-  "forge:ingots/enderium": "thermal:enderium_ingot"
+  "forge:ingots/enderium": "thermal:enderium_ingot",
+  "forge:gems/apatite": "thermal:apatite",
+  "forge:gems/cinnabar": "thermal:cinnabar",
+  "forge:gems/sulfur": "thermal:sulfur",
+  "forge:gems/niter": "thermal:niter"
 }

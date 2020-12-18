@@ -65,7 +65,7 @@
 #Adds decoration and more ores to mineshafts.
 "MineshaftImprovements enabled" = true
 #Villages can spawn in swamps and jungles.
-"MoreVillageBiomes enabled" = true
+"MoreVillageBiomes enabled" = false
 #Playing a record in a jukebox stops background music from playing at the same.
 #Creative music tracks may also play in survival mode.
 "MusicImprovements enabled" = true
@@ -132,7 +132,13 @@
 #Increases snow layers in cold biomes during thunderstorms.
 "SnowStorms enabled" = true
 #When applied, this enchantment lets you change the color of the enchanted glint using dye on an anvil. Requires Core 'Enchantment glint override' to be true.
-"Tinted enabled" = true
+"Tinted enabled" = false
+#Refills your hotbar from your inventory.
+"AutoRestock enabled" = false
+#A map storage.
+"Atlas enabled" = true
+#Allows stews to stack.
+"StackableStews enabled" = true
 
 [AnvilImprovements]
 	#If true, removes the maximum cost of 40 XP when working items on the anvil.
@@ -192,7 +198,7 @@
 	#Set the default glint color for all enchanted items.
 	"Enchantment glint color" = "purple"
 	#If true, replaces vanilla glint color rendering with Charm's, allowing for multiple enchantment glint colors.
-	"Enchantment glint override" = true
+	"Enchantment glint override" = false
 	#If true, routes additional debug messages into the standard game log.
 	"Debug mode" = false
 	#If inventory crafting or inventory ender chest modules are enabled, pressing escape or inventory key returns you to the inventory rather than closing the window.
@@ -223,8 +229,6 @@
 [ExtractEnchantments]
 	#Initial XP cost before adding XP equivalent to the enchantment level(s) of the item.
 	"Initial XP cost" = 2
-	#If the enchantment is a treasure enchantment, such as Mending, this cost will be added.
-	"Treasure XP cost" = 15
 
 [GoldBars]
 	#This module is automatically disabled if Quark is present. Set true to force enable.
@@ -345,8 +349,6 @@
 [WanderingTraderImprovements]
 	#If true, makes wandering traders more likely to spawn after one Minecraft day.
 	"Frequent spawning" = false
-	#If true, wandering traders will only spawn if the player is near a signal fire.
-	"Spawn near signal fire" = true
 	#If true, wandering traders will sell maps to biomes.
 	"Trade biome maps" = true
 	#If true, wandering traders will sell maps to structures.
@@ -361,6 +363,8 @@
 	"Trigger distance" = 16
 
 [RaidHorns]
+	#Volume of the raid horn sound effect when used.  1.0 is maximum volume.
+	Volume = 0.75
 	#Chance (out of 1.0) of a patrol captain dropping a raid horn when killed by the player.
 	"Drop chance" = 0.05
 
@@ -373,4 +377,14 @@
 [Tinted]
 	#Number of levels required to change a tinted item using dye on an anvil.
 	"XP cost" = 0
+
+[Atlas]
+	#The atlas will create maps of this size (0-4).
+	"Map Size" = 2
+
+[StackableStews]
+	#Maximum stew stack size.
+	"Stack size" = 16
+	#Also apply to suspicious stew.
+	"Enable suspicious stew" = false
 

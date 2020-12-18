@@ -5,12 +5,14 @@
 	enable_tools = false
 	#This option will make pre-2.0.0 worlds playable with version 2.0.0 and later.
 	enable_dummy_pieces = false
+	#Enables extended debug logging to help detecting potential errors. This is enabled by default.
+	extended_debug = true
 
 #World Generation Settings
 [world_generation]
 	#The probability of a dungeon getting generated on each fitting chunk.
 	#Range: 1.0E-4 ~ 1.0
-	dungeon_probability = 0.1
+	dungeon_probability = 0.12
 	#If this is set to false, no dungeons can be generated outside the overworld.
 	ignore_dimension = true
 	#Makes the entire dungeon solid, preventing caves, ravines, etc... from interfering with the dungeon.
