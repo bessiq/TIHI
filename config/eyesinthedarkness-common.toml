@@ -16,7 +16,7 @@
 	#  To disable spawning in the nether biome: [ "!minecraft:nether" ]
 	#  To disable spawning in forest areas, but allow them in dark fores: [ "minecraft:dark_forest", "!#FOREST" ]
 	#NOTE: VOID type biomes are disabled by default, internally. You can explicitly enable those by adding "#VOID" to the rules, but this is not recommended.
-	biomeRules = ["minecraft:small_end_islands", "byg:bayou", "byg:polluted_lake", "byg:embur_bog", "byg:cypress_swamplands", "byg:mangrove_marshes", "byg:pointed_stone_forest", "byg:forest_fault", "byg:dead_sea", "good_nights_sleep:nightmare_hills", "undergarden:dense_forest", "the_bumblezone:hive_pillar", "!*"]
+	biomeRules = ["minecraft:small_end_islands", "byg:bayou", "byg:polluted_lake", "byg:embur_bog", "byg:cypress_swamplands", "byg:mangrove_marshes", "byg:pointed_stone_forest", "byg:forest_fault", "byg:dead_sea", "good_nights_sleep:nightmare_hills", "undergarden:dense_forest", "the_bumblezone:hive_pillar", "gaiadimension:goldstone_lands", "byg:basalt_barrera", "!*"]
 	#Range: > 1
 	maximumPackSize = 1
 	#If false, the eyes entity will not spawn naturally during the night-

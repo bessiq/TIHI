@@ -5,7 +5,7 @@
 	"Amphithere Flight Speed" = 1.75
 	#how long(in ticks) a siren has to wait after failing to lure in a player
 	#Range: 100 ~ 24000
-	"Siren Time Between Songs" = 1800
+	"Siren Time Between Songs" = 2000
 	#Troll attack strength
 	#Range: 1.0 ~ 10000.0
 	"Troll Attack Strength" = 15.0
@@ -78,7 +78,7 @@
 	"Stymphalian Bird Flock Length" = 40
 	#How many maximum individuals a myrmex colony can have.
 	#Range: 10 ~ 10000
-	"Myrmex Colony Max Size" = 100
+	"Myrmex Colony Max Size" = 80
 	#1 out of this number chance per block that gold will generate in dragon lairs.
 	#Range: 1 ~ 10000
 	"Dragon Den Gold Amount" = 4
@@ -86,7 +86,7 @@
 	"Generate Dragon Skeletons" = true
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Spawn Cyclops Cave Chance" = 170
+	"Spawn Cyclops Cave Chance" = 120
 	#True if myrmex colonies are allowed to spawn
 	"Spawn Myrmex" = true
 	#Default attack strength of a dragonsteel sword.
@@ -97,8 +97,8 @@
 	#How high stymphalian birds can fly, in Y height.
 	#Range: > 10
 	"Max Stymphalian Bird Flight Height" = 200
-	#Whitelist structure gen dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis" 
-	blacklistDimensions = ["minecraft:overworld", "minecraft:the_end", "minecraft:the_nether", "mining_dimension:mining", "the_bumblezone:the_bumblezone", "rats:ratlantis", "good_nights_sleep:nightmare", "undergarden:undergarden"]
+	#Whitelist mob spawn (troll, hippogryph, etc) dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis" 
+	blacklistDimensions = ["minecraft:overworld", "minecraft:the_end", "minecraft:the_nether", "mining_dimension:mining", "the_bumblezone:the_bumblezone", "rats:ratlantis", "good_nights_sleep:nightmare", "undergarden:undergarden", "gaiadimension:gaia_dimension"]
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
 	"Spawn Sea Serpent Chance" = 333
@@ -127,10 +127,10 @@
 	"Death Worm Base Attack Strength" = 4.0
 	#Maximum hydra health
 	#Range: 1.0 ~ 10000.0
-	"Hydra Max Health" = 350.0
+	"Hydra Max Health" = 300.0
 	#Maximum gorgon health
 	#Range: 1.0 ~ 10000.0
-	"Gorgon Max Health" = 150.0
+	"Gorgon Max Health" = 120.0
 	#Whether to generate silver ore or not
 	"Generate Silver Ore" = false
 	#Turning this to true simplifies the dragon's pathfinding process, making them dumber when finding a path, but better for servers with many loaded dragons.
@@ -163,7 +163,7 @@
 	"Dragon Flight Speed Modifier" = 1.0
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Spawn Wandering Cyclops Chance" = 800
+	"Spawn Wandering Cyclops Chance" = 100
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
 	"Spawn Gorgon Chance" = 100
@@ -191,7 +191,7 @@
 	"Ghost Max Health" = 35.0
 	#How far away dangerous structures(dragon roosts, cyclops caves, etc.) must be from spawn(0, 0).
 	#Range: 1 ~ 10000
-	"Dangerous World Gen Dist From Spawn" = 555
+	"Dangerous World Gen Dist From Spawn" = 666
 	#Damage dealt from a successful lightning breath attack. Attack Damage is scaled to by age, so a stage 5 dragon will deal 5x as much as this number
 	#Range: 0.0 ~ 10000.0
 	"Dragon Attack Damage(Lightning breath)" = 5.0
@@ -203,13 +203,13 @@
 	"Hippogryph Spawn Weight" = 2
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Generate Dragon Roost Chance" = 555
+	"Generate Dragon Roost Chance" = 500
 	#Maximum ghost attack strength.
 	#Range: 0.0 ~ 10000.0
 	"Ghost Attack Strength" = 4.5
 	#One out of this number chance per chunk to generate a hydra cave.
 	#Range: 1 ~ 10000
-	"Hydra Caves Gen Chance" = 170
+	"Hydra Caves Gen Chance" = 150
 	#Every interval of this number in ticks, dragon allowed to break blocks.
 	#Range: 0 ~ 10000
 	"Dragon Block Break Cooldown" = 5
@@ -224,13 +224,13 @@
 	"Trolls Drop Weapon" = true
 	#Troll spawn weight. Lower = lower chance to spawn
 	#Range: 1 ~ 10000
-	"Troll Spawn Weight" = 60
+	"Troll Spawn Weight" = 6
 	#Glacier Spawn Weight. Higher number = more common
 	#Range: 1 ~ 10000
 	"Glacier Spawn Weight" = 4
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Generate Dragon Cave Chance" = 270
+	"Generate Dragon Cave Chance" = 250
 	#Dragon griefing - 2 is no griefing, 1 is breaking weak blocks, 0 is default
 	#Range: 0 ~ 2
 	"Dragon Griefing" = 0
@@ -245,9 +245,12 @@
 	"Death Worms Target Monsters" = true
 	#How far away dangerous structures(dragon roosts, cyclops caves, etc.) must be from the last generated structure.
 	#Range: 1 ~ 10000
-	"Dangerous World Gen Dist Seperation" = 444
+	"Dangerous World Gen Dist Seperation" = 500
 	#True if dragons fire/ice charges create secondary explosions that launch blocks everywhere. Turn this to true if you like unfair explosions. Or lag.
 	"Explosive Dragon Breath" = false
+	#Maximum threads to use for dragon/myrmex pathfinding. Increase this number if pathing is slow and you have many cores.
+	#Range: > 1
+	"Dragon Pathfinding Threads" = 3
 	#Base Myrmex(worker) attack strength
 	#Range: 1.0 ~ 10000.0
 	"Myrmex Base Attack Strength" = 4.5
@@ -265,7 +268,7 @@
 	blacklistedBreakBlocks = []
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Spawn Hippocampus Chance" = 80
+	"Spawn Hippocampus Chance" = 88
 	#Amphithere spawn weight. Lower = lower chance to spawn
 	#Range: 1 ~ 10000
 	"Amphithere Spawn Weight" = 50
@@ -297,10 +300,10 @@
 	"Spawn Stymhphalian Bird Chance" = 80
 	#A double check to see if the game can spawn trolls. Higher number = lower chance to spawn.
 	#Range: 0 ~ 10000
-	"Troll Spawn Check Chance" = 30
+	"Troll Spawn Check Chance" = 0
 	#1/this number chance for a stymphalian feather to turn into an item before despawning. Zero means never.
 	#Range: 0 ~ 10000
-	"Stymphalian Bird Feather Drop Chance" = 30
+	"Stymphalian Bird Feather Drop Chance" = 88
 	#How long it takes(in ticks) for a dragon egg to hatch
 	#Range: > 1
 	"Dragon Egg Hatch Time" = 7200
@@ -330,6 +333,9 @@
 	"Dragons Drop Skull" = true
 	#True if sea serpents are allowed to spawn
 	"Spawn Sea Serpents" = true
+	#Maximum nodes for dragons/myrmex to path too. Decrease this is dragon pathfinding is super slow or intensive.
+	#Range: > 1
+	"Dragon Max Pathfinding Nodes" = 5000
 	#True if the summon crystal can load chunks to find dragons.
 	"Chunk Load Summon Crystal" = true
 	#Amount of damage done with cyclops bite attack.
@@ -338,12 +344,15 @@
 	#Amphithere attack strength
 	#Range: 1.0 ~ 10000.0
 	"Amphithere Attack Strength" = 7.0
+	#Graveyard rarity.
+	#Range: 2 ~ 10000
+	"Graveyard Chance" = 88
 	#Max dragon attack damage. Attack Damage is scaled to this
 	#Range: 1 ~ 10000
 	"Dragon Attack Damage" = 25
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Spawn Sirens Chance" = 404
+	"Spawn Sirens Chance" = 444
 	#Maximum troll health
 	#Range: 1.0 ~ 10000.0
 	"Troll Max Health" = 75.0

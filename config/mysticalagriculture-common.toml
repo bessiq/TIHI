@@ -47,12 +47,12 @@
 	generateInferiumOre = true
 	#The maximum amount of Soulstone blocks that can spawn in a vein.
 	#Range: > 0
-	soulstoneSpawnSize = 60
+	soulstoneSpawnSize = 64
 	#Should Prosperity Ore generate in the world?
 	generateProsperityOre = true
 	#How many Soulstone veins should spawn in a chunk.
 	generateSoulstone = true
 	#How many Soulstone veins should spawn in a chunk.
 	#Range: > 0
-	soulstoneSpawnRate = 3
+	soulstoneSpawnRate = 4
 
