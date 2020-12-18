@@ -77,7 +77,7 @@
 	# By default, no resource location is specified so any
 	# block can be under the Bee Nest/Beehive to teleport to dimension.
 	#
-	requiredBlockUnderHive = ""
+	requiredBlockUnderHive = "mekanism:block_osmium"
 	# 
 	#-----------------------------------------------------
 	#

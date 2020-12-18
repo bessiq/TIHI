@@ -43,16 +43,16 @@
 #Hostile Entity settings
 ["hostile entities"]
 	#Range: 1 ~ 1000000
-	tinkywinky_zombie_weight = 65
+	tinkywinky_zombie_weight = 50
 	#Range: 1 ~ 1000000
-	dipsy_zombie_weight = 65
+	dipsy_zombie_weight = 50
 	#Range: 1 ~ 1000000
-	laalaa_zombie_weight = 65
+	laalaa_zombie_weight = 50
 	#Range: 1 ~ 1000000
-	po_zombie_weight = 65
+	po_zombie_weight = 50
 	#Chance of Teletubby transforming into zombie Teletubby
 	#Range: 1 ~ 100
-	transformation_probability = 25
+	transformation_probability = 20
 
 #Food settings
 [food]

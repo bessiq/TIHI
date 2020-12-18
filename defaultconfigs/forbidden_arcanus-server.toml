@@ -8,7 +8,7 @@
 	[gen.dark_runestone]
 		#Maximum size of Dark Runestone veins [default: 3]
 		#Range: 0 ~ 100
-		max_vein_size = 3
+		max_vein_size = 2
 		#Maximum Dark Runestone veins per chunk [default: 2]
 		#Range: 1 ~ 100
 		count = 2
@@ -21,26 +21,26 @@
 	[gen.stella_arcanum]
 		#Maximum size of Stella Arcanum veins [default: 3]
 		#Range: 0 ~ 100
-		max_vein_size = 3
+		max_vein_size = 1
 		#Maximum Stella Arcanum veins per chunk [default: 2]
 		#Range: 1 ~ 100
-		count = 2
+		count = 1
 		#Maximum height for Stella Arcanum to generate [default: 50]
 		#Range: 1 ~ 256
-		max_height = 50
+		max_height = 42
 		#Generate Should Stella Arcanum? [default: true]
 		generate = true
 
 	[gen.arcane_crystal]
 		#Maximum size of Arcane Crystal Ore veins [default: 6]
 		#Range: 0 ~ 100
-		max_vein_size = 5
+		max_vein_size = 3
 		#Maximum Arcane Crystal Ore veins per chunk [default: 3]
 		#Range: 1 ~ 100
-		count = 3
+		count = 2
 		#Maximum height for Arcane Crystal Ore to generate [default: 25]
 		#Range: 1 ~ 256
-		max_height = 25
+		max_height = 24
 		#Generate Arcane Crystal Ore? [default: true]
 		generate = true
 
@@ -51,10 +51,10 @@
 	[gen.darkstone]
 		#Maximum size of Darkstone veins [default: 20]
 		#Range: 0 ~ 100
-		max_vein_size = 20
+		max_vein_size = 18
 		#Maximum Darkstone veins per chunk [default: 20]
 		#Range: 1 ~ 100
-		count = 20
+		count = 18
 		#Maximum height for Darkstone to generate [default: 8]
 		#Range: 1 ~ 256
 		max_height = 8
@@ -68,10 +68,10 @@
 	[gen.arcane_gilded_darkstone]
 		#Maximum size of Arcane Gilded Darkstone veins [default: 4]
 		#Range: 0 ~ 100
-		max_vein_size = 4
+		max_vein_size = 3
 		#Maximum Arcane Gilded Darkstone veins per chunk [default: 4]
 		#Range: 1 ~ 100
-		count = 4
+		count = 3
 		#Maximum height for Arcane Gilded Darkstone to generate [default: 8]
 		#Range: 1 ~ 256
 		max_height = 8
@@ -89,7 +89,7 @@
 	[gen.runestone]
 		#Maximum size of Runestone veins [default: 3]
 		#Range: 0 ~ 100
-		max_vein_size = 3
+		max_vein_size = 2
 		#Maximum Runestone veins per chunk [default: 2]
 		#Range: 1 ~ 100
 		count = 2

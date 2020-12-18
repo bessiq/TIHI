@@ -1477,15 +1477,6 @@
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-	[mobdata.ice_ice_baby]
-
-		[mobdata.ice_ice_baby.iceologer]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
 	[mobdata.mahoutsukai]
 
 		[mobdata.mahoutsukai.fae]
