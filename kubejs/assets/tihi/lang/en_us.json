@@ -67,6 +67,17 @@
 	"singularity.extendedcrafting.quartz": "Quartz",
 	"singularity.extendedcrafting.sapphire": "Sapphire",
 	"singularity.extendedcrafting.zinc": "Zinc",
+	"singularity.extendedcrafting.apatite": "Apatite",
+	"singularity.extendedcrafting.sulfur": "Sulfur",
+	"singularity.extendedcrafting.cinnabar": "Cinnabar",
+	"singularity.extendedcrafting.niter": "Niter",
 	"block.productivebees.nether_gold_nest": "Nether Gold Nest",
-	"item.productivebees.sugarbag_honeycomb": "Sugarbag Comb"
+	"item.productivebees.sugarbag_honeycomb": "Sugarbag Comb",
+	"entity.charm.moobloom": "Moobloom",
+	"gateways.small_wither_skeleton_gate": "Small Wither Skeleton Gateway",
+	"gateways.small_yeeter_gate": "Gateway of Yee",
+	"gateways.small_drowned_gate": "Small Drowned Gateway",
+	"gateways.small_phantom_gate": "Small Phantom Gateway",
+	"item.minecraft.splash_potion.effect.flight": "Splash Potion of Flight",
+	"item.minecraft.lingering_potion.effect.flight": "Lingering Potion of Flight"
 }
