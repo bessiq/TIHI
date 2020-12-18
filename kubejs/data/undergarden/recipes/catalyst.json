@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GIG",
+    "IDI",
+    "GIG"
+  ],
+  "key": {
+    "G": {
+      "item": "thermal:electrum_gear"
+    },
+    "I": {
+      "item": "pneumaticcraft:ingot_iron_compressed"
+    },
+    "D": {
+      "item": "gobber2:gobber2_ingot"
+    }
+  },
+  "result": {
+    "item": "undergarden:catalyst"
+  }
+}

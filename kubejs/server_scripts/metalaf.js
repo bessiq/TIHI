@@ -22,6 +22,13 @@ events.listen('recipes', function (event) {
         event.replaceOutput('appliedenergistics2:ender_dust', 'thermal:ender_pearl_dust')
         event.replaceInput('appliedenergistics2:ender_dust', '#forge:dusts/ender_pearl')
 
+        event.replaceOutput('gaiadimension:cinnabar', 'thermal:cinnabar')
+        event.replaceInput('gaiadimension:cinnabar', '#forge:gems/cinnabar')
+        event.replaceOutput('gaiadimension:cinnabar_block', 'thermal:cinnabar_block')
+        event.replaceInput('gaiadimension:cinnabar_block', '#forge:storage_blocks/cinnabar')
+        event.replaceOutput('gaiadimension:cinnabar_powder', 'thermal:cinnabar_dust')
+        event.replaceInput('gaiadimension:cinnabar_powder', '#forge:dusts/cinnabar')
+
         event.replaceOutput('#forge:storage_blocks/coal_coke', 'thermal:coal_coke_block')
         event.replaceInput('immersiveengineering:coke', '#forge:storage_blocks/coal_coke')
         event.replaceOutput('#forge:coal_coke', 'thermal:coal_coke')
