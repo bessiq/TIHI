@@ -6,16 +6,16 @@
 				{
 					"type": "minecraft:item",
 					"weight": 1,
-					"name": "riskofrainmod:uncommon_infusion"
+					"name": "riskofrainmod:infusion"
 				},
 				{
 					"type": "minecraft:item",
 					"weight": 1,
-					"name": "riskofrainmod:uncommon_rose_buckler"
+					"name": "riskofrainmod:rose_buckler"
 				},
 				{
-					"type": "minecraft:empty",
-					"weight": 18
+					"type": "empty",
+					"weight": 88
 				}
 			]
 		}

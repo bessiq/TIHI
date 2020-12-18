@@ -3,19 +3,19 @@
     {
       "rolls": {
         "min": 1,
-        "max": 1
+        "max": 2
       },
       "entries": [
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "riskofrainmod:common_bustling_fungus",
+          "name": "riskofrainmod:bustling_fungus",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 1
+                "max": 2
               }
             }
           ]
@@ -23,13 +23,13 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "riskofrainmod:common_crowbar",
+          "name": "riskofrainmod:crowbar",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 1
+                "max": 2
               }
             }
           ]
@@ -37,13 +37,13 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "riskofrainmod:common_goat_hoof",
+          "name": "riskofrainmod:goat_hoof",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 1
+                "max": 2
               }
             }
           ]
@@ -51,13 +51,13 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "riskofrainmod:common_lens_makers_glasses",
+          "name": "riskofrainmod:lens_makers_glasses",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 1
+                "max": 2
               }
             }
           ]
@@ -65,13 +65,13 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "riskofrainmod:common_soldiers_syringe",
+          "name": "riskofrainmod:soldiers_syringe",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 1
+                "max": 2
               }
             }
           ]
@@ -79,13 +79,13 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "riskofrainmod:common_topaz_brooch",
+          "name": "riskofrainmod:topaz_brooch",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 1
+                "max": 2
               }
             }
           ]
@@ -93,20 +93,20 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "riskofrainmod:common_tougher_times",
+          "name": "riskofrainmod:tougher_times",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 1
+                "max": 2
               }
             }
           ]
         },
         {
-          "type": "minecraft:empty",
-          "weight": 43
+          "type": "empty",
+          "weight": 90
         }
       ]
     },
@@ -115,17 +115,17 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 2,
-          "name": "riskofrainmod:uncommon_infusion"
+          "weight": 1,
+          "name": "riskofrainmod:infusion"
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
-          "name": "riskofrainmod:uncommon_rose_buckler"
+          "weight": 1,
+          "name": "riskofrainmod:rose_buckler"
         },
         {
-          "type": "minecraft:empty",
-          "weight": 96
+          "type": "empty",
+          "weight": 92
         }
       ]
     }
