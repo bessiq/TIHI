@@ -11,7 +11,7 @@
                     "predicate_type": "minecraft:tag_match"
                   },
                   "state": {
-                    "Name": "minecraft:snow_block"
+                    "Name": "quark:elder_prismarine"
                   },
                   "size": 64
                 },
@@ -19,9 +19,9 @@
               },
               "decorator": {
                 "config": {
-                  "bottom_offset": 235,
+                  "bottom_offset": 238,
                   "top_offset": 0,
-                  "maximum": 3
+                  "maximum": 4
                 },
                 "type": "minecraft:range"
               }
@@ -37,7 +37,7 @@
       },
       "decorator": {
         "config": {
-          "count": 13
+          "count": 4
         },
         "type": "minecraft:count"
       }

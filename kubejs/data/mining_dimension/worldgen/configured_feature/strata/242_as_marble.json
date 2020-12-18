@@ -11,7 +11,7 @@
                     "predicate_type": "minecraft:tag_match"
                   },
                   "state": {
-                    "Name": "minecraft:snow_block"
+                    "Name": "astralsorcery:marble_raw"
                   },
                   "size": 64
                 },
@@ -19,7 +19,7 @@
               },
               "decorator": {
                 "config": {
-                  "bottom_offset": 235,
+                  "bottom_offset": 242,
                   "top_offset": 0,
                   "maximum": 3
                 },

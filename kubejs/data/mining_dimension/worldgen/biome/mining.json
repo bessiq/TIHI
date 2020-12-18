@@ -25,7 +25,8 @@
     [],
     [
       "minecraft:lake_lava",
-      "minecraft:lake_water"
+      "minecraft:lake_water",
+      "byg:wide_lake"
     ],
     [],
     [
@@ -49,6 +50,7 @@
       "mining_dimension:strata/016_mossy_stone",
       "mining_dimension:strata/016_rocky_stone",
       "mining_dimension:strata/024_depthrock",
+      "mining_dimension:strata/028_gaia_stone",
       "mining_dimension:strata/032_brimstone",
       "mining_dimension:strata/040_soulstone",
       "mining_dimension:strata/048_honey_infused_stone",
@@ -111,36 +113,23 @@
       "mining_dimension:strata/225_packed_ice",
       "mining_dimension:strata/230_permafrost",
       "mining_dimension:strata/235_snow_block",
-      "mining_dimension:strata/240_elder_prismarine",
-      "mining_dimension:strata/240_prismarine",
+      "mining_dimension:strata/238_elder_prismarine",
+      "mining_dimension:strata/238_prismarine",
+      "mining_dimension:strata/242_as_marble",
       "mining_dimension:strata/245_livingrock",
       "mining_dimension:strata/247_purpur_stone",
       "mining_dimension:strata/249_ether_stone",
       "mining_dimension:strata/251_bedrock",
-      "mining_dimension:ores_misc/ore_dim_shard_end",
-      "mining_dimension:ores_misc/ore_dim_shard_nether",
-      "mining_dimension:ores_misc/ore_gobber2_end",
-      "mining_dimension:ores_misc/ore_gobber2_nether",
       "mining_dimension:ores_misc/ore_gold_nether",
       "mining_dimension:ores_misc/ore_quartz_nether",
       "mining_dimension:ores_tihi/ore_tihinium",
-      "mining_dimension:ores_tihi/byg/ore_copper_dacite",
-      "mining_dimension:ores_tihi/byg/ore_copper_mossy_stone",
-      "mining_dimension:ores_tihi/byg/ore_copper_red_rock",
-      "mining_dimension:ores_tihi/byg/ore_copper_rocky_stone",
-      "mining_dimension:ores_tihi/byg/ore_copper_scoria_stone",
-      "mining_dimension:ores_tihi/byg/ore_copper_soapstone",
-      "mining_dimension:ores_tihi/byg/ore_quartz_blue_netherrack",
-      "mining_dimension:ores_tihi/byg/ore_quartz_brimstone"
+      "mining_dimension:ores_tihi/ore_red_clay"
     ]
   ],
   "starts": [
     "minecraft:nether_fossil",
-    "bettermineshafts:mineshaft",
+    "minecraft:mineshaft",
     "minecraft:ruined_portal",
-    "repurposed_structures:mineshaft_stone",
-    "quark:big_dungeon",
-    "valhelsia_structures:small_dungeon",
     "dungeons_plus:bigger_dungeon"
   ],
   "spawners": {
@@ -212,6 +201,114 @@
         "maxCount": 2
       },
       {
+        "type": "thermal:basalz",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "thermal:blizz",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "thermal:blitz",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "undergarden:stoneborn",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "dungeons_mobs:necromancer",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "dungeons_mobs:wraith",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "farlanders:mystic_enderman",
+        "weight": 14,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "dungeons_mobs:windcaller",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "dungeons_mobs:geomancer",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "dungeons_mobs:iceologer",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "dungeons_mobs:icy_creeper",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "dungeons_mobs:squall_golem",
+        "weight": 6,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "dungeons_mobs:redstone_golem",
+        "weight": 6,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "good_nights_sleep:tormenter",
+        "weight": 12,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "gaiadimension:archaic_warrior",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "iceandfire:ghost",
+        "weight": 8,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "iceandfire:dread_lich",
+        "weight": 6,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "gaiadimension:cavern_tick",
+        "weight": 16,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
         "type": "yeeter:tnt_yeeter",
         "weight": 100,
         "minCount": 2,
@@ -224,7 +321,14 @@
         "maxCount": 1
       }
     ],
-    "creature": [],
+    "creature": [
+      {
+        "type": "goblintraders:goblin_trader",
+        "weight": 9,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
     "ambient": [
       {
         "type": "minecraft:bat",
