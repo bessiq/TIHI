@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        "mahoutsukai:powdered_iron"
+        "mahoutsukai:powdered_iron",
+        "create:crushed_iron_ore"
     ]
 }

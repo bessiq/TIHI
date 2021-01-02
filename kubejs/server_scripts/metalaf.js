@@ -1,19 +1,27 @@
 // throw up the horns
 
-events.listen('recipes', function (event) {
-    const metalaf = (name, dustY, ingotY, nuggetY, blockY, plateY) => {
+onEvent('recipes', event => {
+    
+    const metalaf = (name, dustY, ingotY, nuggetY, blockY, plateY, gemY) => {
         event.replaceOutput('#forge:dusts/' + name, dustY)
         event.replaceOutput('#forge:ingots/' + name, ingotY)
         event.replaceOutput('#forge:nuggets/' + name, nuggetY)
         event.replaceOutput('#forge:storage_blocks/' + name, blockY)
         event.replaceOutput('#forge:plates/' + name, plateY)
-
+        event.replaceOutput('#forge:gems/' + name, gemY)
+/* 
         event.replaceInput(dustY, '#forge:dusts/' + name)
         event.replaceInput(ingotY, '#forge:ingots/' + name)
         event.replaceInput(nuggetY, '#forge:nuggets/' + name)
         event.replaceInput(blockY, '#forge:storage_blocks/' + name)
         event.replaceInput(plateY, '#forge:plates/' + name)
+        event.replaceInput(gemY, '#forge:gems/' + name)
 
+        event.replaceInput('mysticalworld:' + name + '_block', '#forge:storage_blocks/' + name)
+        event.replaceOutput('mysticalworld:' + name + '_block', blockY)
+        event.replaceInput('mysticalworld:amethyst', '#forge:gems/amethyst')
+        event.replaceOutput('mysticalworld:amethyst', 'iceandfire:amythest_gem')
+*/
         event.replaceOutput('mahoutsukai:powdered_' + name, dustY)
         event.replaceInput('mahoutsukai:powdered_' + name, '#forge:dusts/' + name)
         event.replaceOutput('mahoutsukai:powdered_ender', 'thermal:ender_pearl_dust')
@@ -38,6 +46,15 @@ events.listen('recipes', function (event) {
         event.replaceInput('naturesaura:' + name + '_powder', '#forge:dusts/' + name)
     }
 
+    metalaf(
+        'amethyst',
+        '',
+        '',
+        '',
+        'iceandfire:amythest_block',
+        '',
+        'iceandfire:amythest_gem'
+    )
     metalaf(
         'bronze',
         'thermal:bronze_dust',

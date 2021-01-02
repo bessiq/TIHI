@@ -2,6 +2,7 @@
     "replace": false,
     "values": [
         "mahoutsukai:powdered_gold",
-        "naturesaura:gold_powder"
+        "naturesaura:gold_powder",
+        "create:crushed_gold_ore"
     ]
 }

@@ -6,11 +6,11 @@
     },
     {
       "item": "dungeons_gear:masters_katana",
-      "weight": 1
+      "weight": 2
     },
     {
       "item": "dungeons_gear:flail",
-      "weight": 1
+      "weight": 2
     },
     {
       "item": "dungeons_gear:great_hammer",
@@ -18,6 +18,14 @@
     },
     {
       "item": "dungeons_gear:venom_glaive",
+      "weight": 2
+    },
+    {
+      "item": "dungeons_mobs:diamond_mountaineer_axe",
+      "weight": 3
+    },
+    {
+      "item": "jellyfishing:golden_spatula",
       "weight": 1
     },
     {
@@ -30,10 +38,18 @@
     },
     {
       "item": "gobber2:gobber2_sword",
+      "weight": 1
+    },
+    {
+      "item": "good_nights_sleep:necrum_sword",
+      "weight": 3
+    },
+    {
+      "item": "good_nights_sleep:candy_sword",
       "weight": 2
     },
     {
-      "item": "doomweapon:argent_sword",
+      "item": "doomweapon:argent_axe",
       "weight": 1
     },
     {
@@ -45,12 +61,24 @@
       "weight": 2
     },
     {
-      "item": "combustivefishing:searing_sword",
+      "item": "mysticalagriculture:prudentium_sword",
       "weight": 2
     },
     {
-      "item": "mysticalagriculture:prudentium_sword",
-      "weight": 2
+      "item": "iceandfire:dragon_bone_sword",
+      "weight": 3
+    },
+    {
+      "item": "undergarden:cloggrum_sword",
+      "weight": 3
+    },
+    {
+      "item": "gaiadimension:apex_predator_mace",
+      "weight": 1
+    },
+    {
+      "item": "gaiadimension:euclase_sword",
+      "weight": 3
     },
     {
       "item": "byg:pendorite_sword",

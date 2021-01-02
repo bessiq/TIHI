@@ -1,0 +1,12 @@
+{
+  "type": "appliedenergistics2:grinder",
+  "input": {
+    "tag": "forge:crops/wheat"
+  },
+  "result": {
+    "primary": {
+      "item": "create:wheat_flour"
+    }
+  },
+  "turns": 4
+}

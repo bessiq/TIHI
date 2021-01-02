@@ -110,22 +110,6 @@
                     "name": "minecraft:warped_fungus_on_a_stick"
                 }
             ]
-        },
-        {
-			"rolls": {
-        		"min": 0,
-				"max": 1
-			},
-			"entries": [
-			  {
-				"type": "minecraft:loot_table",
-				"name": "combustivefishing:gameplay/lava_fishing"
-              },
-              {
-				"type": "minecraft:loot_table",
-				"name": "combustivefishing:gameplay/nether_fishing"
-              }
-			]
-		}
+        }
     ]
 }

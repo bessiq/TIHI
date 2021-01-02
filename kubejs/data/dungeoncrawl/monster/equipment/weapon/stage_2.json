@@ -10,6 +10,10 @@
     },
     {
       "item": "dungeons_gear:whispering_spear",
+      "weight": 2
+    },
+    {
+      "item": "dungeons_gear:spear",
       "weight": 3
     },
     {
@@ -25,6 +29,42 @@
       "weight": 3
     },
     {
+      "item": "dungeons_gear:growing_staff",
+      "weight": 3
+    },
+    {
+      "item": "dungeons_gear:sword",
+      "weight": 4
+    },
+    {
+      "item": "gaiadimension:gaia_baron_dagger",
+      "weight": 1
+    },
+    {
+      "item": "gaiadimension:agate_sword",
+      "weight": 2
+    },
+    {
+      "item": "iceandfire:myrmex_desert_sword",
+      "weight": 2
+    },
+    {
+      "item": "iceandfire:myrmex_jungle_sword",
+      "weight": 2
+    },
+    {
+      "item": "dungeons_gear:pickaxe",
+      "weight": 4
+    },
+    {
+      "item": "dungeons_mobs:mountaineer_axe",
+      "weight": 4
+    },
+    {
+      "item": "dungeons_mobs:gold_mountaineer_axe",
+      "weight": 3
+    },
+    {
       "item": "iceandfire:hippocampus_slapper",
       "weight": 1
     },
@@ -34,6 +74,10 @@
     },
     {
       "item": "mutantbeasts:endersoul_hand",
+      "weight": 2
+    },
+    {
+      "item": "jellyfishing:karate_glove",
       "weight": 2
     },
     {
@@ -51,6 +95,14 @@
     {
       "item": "iceandfire:hippogryph_sword",
       "weight": 2
+    },
+    {
+      "item": "mekanismtools:lapis_lazuli_sword",
+      "weight": 2
+    },
+    {
+      "item": "doomweapon:chainsaw",
+      "weight": 1
     },
     {
       "item": "botania:manasteel_sword",

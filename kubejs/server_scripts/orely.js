@@ -1,6 +1,6 @@
 // what a chORE
 
-events.listen('recipes', function (event) {
+onEvent('recipes', event => {
 
     const orely = (name, oreY) => {
         event.replaceOutput('#forge:ores/' + name, oreY)

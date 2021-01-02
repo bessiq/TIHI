@@ -2,7 +2,11 @@
   "melee": [
     {
       "item": "dungeons_gear:mace",
-      "weight": 1
+      "weight": 2
+    },
+    {
+      "item": "dungeons_gear:diamond_pickaxe",
+      "weight": 3
     },
     {
       "item": "mutantbeasts:hulk_hammer",
@@ -14,11 +18,15 @@
     },
     {
       "item": "dungeons_gear:highland_axe",
-      "weight": 1
+      "weight": 2
+    },
+    {
+      "item": "dungeons_gear:axe",
+      "weight": 3
     },
     {
       "item": "minecraft:diamond_sword",
-      "weight": 3
+      "weight": 4
     },
     {
       "item": "farlanders:nightfall_sword",
@@ -29,12 +37,36 @@
       "weight": 3
     },
     {
-      "item": "mekanismtools:osmium_sword",
+      "item": "mekanismtools:steel_sword",
       "weight": 3
     },
     {
-      "item": "iceandfire:dragon_bone_sword",
+      "item": "jellyfishing:master_karate_glove",
       "weight": 2
+    },
+    {
+      "item": "iceandfire:myrmex_desert_sword_venom",
+      "weight": 2
+    },
+    {
+      "item": "iceandfire:myrmex_jungle_sword_venom",
+      "weight": 2
+    },
+    {
+      "item": "iceandfire:amphithere_macuahuitl",
+      "weight": 2
+    },
+    {
+      "item": "gaiadimension:gaia_duchess_khopesh",
+      "weight": 1
+    },
+    {
+      "item": "gaiadimension:sugilite_sword",
+      "weight": 3
+    },
+    {
+      "item": "doomweapon:chainsaw64",
+      "weight": 1
     },
     {
       "item": "mysticalagriculture:inferium_sword",

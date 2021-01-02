@@ -29,6 +29,26 @@
       "weight": 1
     },
     {
+      "item": "dungeons_mobs:chef_hat",
+      "weight": 2
+    },
+    {
+      "item": "usefulhats:chopping_hat",
+      "weight": 1
+    },
+    {
+      "item": "dads_sewing:scarf_hat",
+      "weight": 2
+    },
+    {
+      "item": "dads_sewing:bow_red_hat",
+      "weight": 2
+    },
+    {
+      "item": "gaiadimension:sugilite_helmet",
+      "weight": 1
+    },
+    {
       "item": "farlanders:rebel_farlander_helmet",
       "weight": 1
     }

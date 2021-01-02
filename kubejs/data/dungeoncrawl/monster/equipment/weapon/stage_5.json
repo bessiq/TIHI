@@ -25,6 +25,10 @@
       "weight": 2
     },
     {
+      "item": "dungeons_gear:great_axeblade",
+      "weight": 2
+    },
+    {
       "item": "mysticalagriculture:tertium_sword",
       "weight": 3
     },
@@ -35,6 +39,30 @@
     {
       "item": "wstweaks:lava_blade",
       "weight": 2
+    },
+    {
+      "item": "jellyfishing:power_karate_glove",
+      "weight": 1
+    },
+    {
+      "item": "doomweapon:argent_sword",
+      "weight": 1
+    },
+    {
+      "item": "undergarden:cloggrum_battleaxe",
+      "weight": 2
+    },
+    {
+      "item": "good_nights_sleep:zitrite_sword",
+      "weight": 3
+    },
+    {
+      "item": "good_nights_sleep:rainbow_sword",
+      "weight": 2
+    },
+    {
+      "item": "gaiadimension:spinel_princess_flamberge",
+      "weight": 1
     },
     {
       "item": "iceandfire:troll_weapon_trunk",

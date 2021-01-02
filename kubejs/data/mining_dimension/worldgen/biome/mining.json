@@ -136,31 +136,31 @@
     "monster": [
       {
         "type": "minecraft:spider",
-        "weight": 65,
+        "weight": 60,
         "minCount": 3,
         "maxCount": 4
       },
       {
         "type": "minecraft:cave_spider",
-        "weight": 55,
+        "weight": 50,
         "minCount": 3,
         "maxCount": 4
       },
       {
         "type": "minecraft:zombie",
-        "weight": 65,
+        "weight": 60,
         "minCount": 3,
         "maxCount": 4
       },
       {
         "type": "minecraft:skeleton",
-        "weight": 65,
+        "weight": 60,
         "minCount": 3,
         "maxCount": 4
       },
       {
         "type": "minecraft:creeper",
-        "weight": 60,
+        "weight": 55,
         "minCount": 3,
         "maxCount": 4
       },
@@ -237,6 +237,12 @@
         "maxCount": 2
       },
       {
+        "type": "alexsmobs:centipede_head",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
         "type": "farlanders:mystic_enderman",
         "weight": 14,
         "minCount": 1,
@@ -261,6 +267,12 @@
         "maxCount": 1
       },
       {
+        "type": "iceandfire:troll",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
         "type": "dungeons_mobs:icy_creeper",
         "weight": 15,
         "minCount": 1,
@@ -268,19 +280,19 @@
       },
       {
         "type": "dungeons_mobs:squall_golem",
-        "weight": 6,
+        "weight": 9,
         "minCount": 1,
         "maxCount": 1
       },
       {
         "type": "dungeons_mobs:redstone_golem",
-        "weight": 6,
+        "weight": 9,
         "minCount": 1,
         "maxCount": 1
       },
       {
         "type": "good_nights_sleep:tormenter",
-        "weight": 12,
+        "weight": 13,
         "minCount": 1,
         "maxCount": 1
       },
@@ -292,13 +304,13 @@
       },
       {
         "type": "iceandfire:ghost",
-        "weight": 8,
+        "weight": 5,
         "minCount": 1,
         "maxCount": 1
       },
       {
         "type": "iceandfire:dread_lich",
-        "weight": 6,
+        "weight": 9,
         "minCount": 1,
         "maxCount": 1
       },
@@ -319,12 +331,24 @@
         "weight": 35,
         "minCount": 1,
         "maxCount": 1
+      },
+      {
+        "type": "doomweapon:revenant",
+        "weight": 35,
+        "minCount": 1,
+        "maxCount": 1
       }
     ],
     "creature": [
       {
         "type": "goblintraders:goblin_trader",
-        "weight": 9,
+        "weight": 3,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "mutantbeasts:spider_pig",
+        "weight": 3,
         "minCount": 1,
         "maxCount": 1
       }

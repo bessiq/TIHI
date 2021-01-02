@@ -1,0 +1,29 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "GGG",
+    "D E",
+    "PRP"
+  ],
+  "key": {
+    "G": {
+      "item": "quark:framed_glass"
+    },
+    "D": {
+      "tag": "forge:gems/diamond"
+    },
+    "E": {
+      "tag": "forge:gems/emerald"
+    },
+    "P": {
+      "item": "ornamental:obsidian_slab"
+    },
+    "R": {
+      "tag": "thermal:red_rockwool"
+    }
+  },
+  "result": {
+    "item": "chanceglobe:chance_globe",
+    "count": 3
+  }
+}

@@ -1,0 +1,24 @@
+{
+    "replace": false,
+    "values": [
+        "#forge:dusts/aluminum",
+        "#forge:dusts/brass",
+        "#forge:dusts/copper",
+        "#forge:dusts/diamond",
+        "#forge:dusts/emerald",
+        "#forge:dusts/ender_pearl",
+        "#forge:dusts/flour",
+        "#forge:dusts/gold",
+        "#forge:dusts/iron",
+        "#forge:dusts/lead",
+        "#forge:dusts/nickel",
+        "#forge:dusts/niter",
+        "#forge:dusts/osmium",
+        "#forge:dusts/quartz",
+        "#forge:dusts/saltpeter",
+        "#forge:dusts/silver",
+        "#forge:dusts/tin",
+        "#forge:dusts/uranium",
+        "#forge:dusts/zinc"
+    ]
+}

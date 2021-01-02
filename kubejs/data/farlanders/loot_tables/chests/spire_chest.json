@@ -133,18 +133,21 @@
 			]
 		},
 		{
-			"rolls": {
-				"min": 0,
-				"max": 1
-			},
+			"rolls": 1,
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "minecraft:chests/simple_dungeon"
+					"name": "minecraft:chests/simple_dungeon",
+					"weight": 15
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "minecraft:chests/buried_treasure"
+					"name": "minecraft:chests/buried_treasure",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:empty",
+					"weight": 80
 				}
 			]
 		}
