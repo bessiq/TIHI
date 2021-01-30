@@ -1,0 +1,182 @@
+{
+	id: 20,
+	title: "loot",
+	icon: {
+		ForgeCaps: {
+			"dungeons_gear:weapon": {
+				lastFiredTime: 0L,
+				fuseShotCounter: 0,
+				crossbowChargeTime: 0,
+				bowChargeTime: 0.0f
+			}
+		},
+		id: "randomloot:golden_case",
+		Count: true
+	},
+	loot_size: 1,
+	rewards: [
+		{
+			item: {
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L,
+						fuseShotCounter: 0,
+						crossbowChargeTime: 0,
+						bowChargeTime: 0.0f
+					}
+				},
+				id: "randomloot:basic_case",
+				Count: true
+			},
+			weight: 5
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L,
+						fuseShotCounter: 0,
+						crossbowChargeTime: 0,
+						bowChargeTime: 0.0f
+					}
+				},
+				id: "randomloot:golden_case",
+				Count: true
+			},
+			weight: 3
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L,
+						fuseShotCounter: 0,
+						crossbowChargeTime: 0,
+						bowChargeTime: 0.0f
+					}
+				},
+				id: "randomloot:titan_case",
+				Count: true
+			}
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L,
+						fuseShotCounter: 0,
+						crossbowChargeTime: 0,
+						bowChargeTime: 0.0f
+					}
+				},
+				id: "mystictools:common_case",
+				Count: true
+			},
+			weight: 5
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L,
+						fuseShotCounter: 0,
+						crossbowChargeTime: 0,
+						bowChargeTime: 0.0f
+					}
+				},
+				id: "mystictools:uncommon_case",
+				Count: true
+			},
+			weight: 4
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L,
+						fuseShotCounter: 0,
+						crossbowChargeTime: 0,
+						bowChargeTime: 0.0f
+					}
+				},
+				id: "mystictools:rare_case",
+				Count: true
+			},
+			weight: 3
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L,
+						fuseShotCounter: 0,
+						crossbowChargeTime: 0,
+						bowChargeTime: 0.0f
+					}
+				},
+				id: "mystictools:epic_case",
+				Count: true
+			},
+			weight: 2
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L,
+						fuseShotCounter: 0,
+						crossbowChargeTime: 0,
+						bowChargeTime: 0.0f
+					}
+				},
+				id: "mystictools:unique_case",
+				Count: true
+			}
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L,
+						fuseShotCounter: 0,
+						crossbowChargeTime: 0,
+						bowChargeTime: 0.0f
+					}
+				},
+				id: "lootbagmod:lootbag",
+				Count: true
+			},
+			weight: 2
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L,
+						fuseShotCounter: 0,
+						crossbowChargeTime: 0,
+						bowChargeTime: 0.0f
+					}
+				},
+				id: "chanceglobe:chance_globe",
+				Count: true
+			},
+			count: 3,
+			weight: 4
+		},
+		{
+			item: {
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L,
+						fuseShotCounter: 0,
+						crossbowChargeTime: 0,
+						bowChargeTime: 0.0f
+					}
+				},
+				id: "chancecubes:chance_cube",
+				Count: true
+			}
+		}
+	]
+}
