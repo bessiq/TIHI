@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "a a",
+    "aba",
+    "cdc"
+  ],
+  "key": {
+    "a": {
+      "item": "create:dark_scoria"
+    },
+    "b": {
+      "item": "mysticalagriculture:inferium_furnace"
+    },
+    "c": {
+      "tag": "forge:ingots/arcane_gold"
+    },
+    "d": {
+      "tag": "forge:dusts/sulfur"
+    }
+  },
+  "result": {
+    "item": "bloodmagic:altar"
+  }
+}

@@ -1,10 +1,6 @@
 {
   "helmet": [
     {
-      "item": "aquaculture:neptunium_helmet",
-      "weight": 3
-    },
-    {
       "item": "forbidden_arcanus:arcane_gold_helmet",
       "weight": 3
     },
@@ -42,10 +38,6 @@
     }
   ],
   "chestplate": [
-    {
-      "item": "aquaculture:neptunium_chestplate",
-      "weight": 3
-    },
     {
       "item": "forbidden_arcanus:arcane_gold_chestplate",
       "weight": 3
@@ -85,10 +77,6 @@
   ],
   "leggings": [
     {
-      "item": "aquaculture:neptunium_leggings",
-      "weight": 3
-    },
-    {
       "item": "forbidden_arcanus:arcane_gold_leggings",
       "weight": 3
     },
@@ -110,10 +98,6 @@
     }
   ],
   "boots": [
-    {
-      "item": "aquaculture:neptunium_boots",
-      "weight": 3
-    },
     {
       "item": "forbidden_arcanus:arcane_gold_boots",
       "weight": 3

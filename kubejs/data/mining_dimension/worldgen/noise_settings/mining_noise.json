@@ -15,15 +15,45 @@
         "separation": 0,
         "salt": 0
       },
+      "bettermineshafts:mineshaft": {
+        "spacing": 1,
+        "separation": 0,
+        "salt": 0
+      },
+      "repurposed_structures:mineshaft_stone": {
+        "spacing": 1,
+        "separation": 0,
+        "salt": 0
+      },
       "minecraft:ruined_portal": {
-        "spacing": 40,
-        "separation": 15,
+        "spacing": 32,
+        "separation": 14,
         "salt": 34222645
       },
       "dungeons_plus:bigger_dungeon": {
-        "spacing": 28,
-        "separation": 12,
+        "spacing": 25,
+        "separation": 10,
         "salt": 8675309
+      },
+      "eidolon:catacomb": {
+        "spacing": 22,
+        "separation": 9,
+        "salt": 10387312
+      },
+      "inventorypets:underground_dungeon": {
+        "spacing": 20,
+        "separation": 11,
+        "salt": 10387311
+      },
+      "eidolon:lab": {
+        "spacing": 27,
+        "separation": 13,
+        "salt": 10387313
+      },
+      "inventorypets:space_dungeon": {
+        "spacing": 30,
+        "separation": 12,
+        "salt": 10387315
       }
     }
   },

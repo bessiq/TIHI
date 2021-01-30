@@ -1,9 +1,0 @@
-{
-  "input": {
-    "item": "minecraft:ink_sac",
-    "count": 10
-  },
-  "result": {
-    "id": "minecraft:guardian"
-  }
-}

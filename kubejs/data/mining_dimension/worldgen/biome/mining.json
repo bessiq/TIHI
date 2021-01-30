@@ -12,7 +12,7 @@
     "water_color": 12840163,
     "water_fog_color": 12840163
   },
-  "surface_builder": "mining_dimension:mining_surf",
+  "surface_builder": "mining_dimension:mining",
   "carvers": {
     "air": [
       "mining_dimension:cave",
@@ -45,28 +45,34 @@
       "minecraft:fossil"
     ],
     [
-      "mining_dimension:strata/000_soapstone",
-      "mining_dimension:strata/008_scoria_stone",
-      "mining_dimension:strata/016_mossy_stone",
-      "mining_dimension:strata/016_rocky_stone",
-      "mining_dimension:strata/024_depthrock",
-      "mining_dimension:strata/028_gaia_stone",
-      "mining_dimension:strata/032_brimstone",
-      "mining_dimension:strata/040_soulstone",
-      "mining_dimension:strata/048_honey_infused_stone",
-      "mining_dimension:strata/056_dacite",
+      "mining_dimension:strata/000_brimstone",
+      "mining_dimension:strata/006_soapstone",
+      "mining_dimension:strata/012_depthrock",
+      "mining_dimension:strata/018_gabbro",
+      "mining_dimension:strata/024_scoria_stone",
+      "mining_dimension:strata/030_marble",
+      "mining_dimension:strata/036_limestone",
+      "mining_dimension:strata/036_weathered_limestone",
+      "mining_dimension:strata/042_dolomite",
+      "mining_dimension:strata/048_dark_scoria",
+      "mining_dimension:strata/054_dacite",
+      "mining_dimension:strata/060_blackened_stone",
+      "mining_dimension:strata/060_cracked_stone",
       "mining_dimension:strata/064_coarse_dirt",
       "mining_dimension:strata/064_meadow_dirt",
+      "mining_dimension:strata/064_mossy_stone",
       "mining_dimension:strata/064_mud",
       "mining_dimension:strata/064_peat",
+      "mining_dimension:strata/064_rocky_stone",
       "mining_dimension:strata/067_red_rock",
-      "mining_dimension:strata/074_limestone",
-      "mining_dimension:strata/081_jasper",
-      "mining_dimension:strata/088_marble",
-      "mining_dimension:strata/095_slate",
-      "mining_dimension:strata/103_andesite",
-      "mining_dimension:strata/107_granite",
-      "mining_dimension:strata/111_diorite",
+      "mining_dimension:strata/073_limestone",
+      "mining_dimension:strata/079_jasper",
+      "mining_dimension:strata/085_marble",
+      "mining_dimension:strata/091_slate",
+      "mining_dimension:strata/097_andesite",
+      "mining_dimension:strata/101_granite",
+      "mining_dimension:strata/105_diorite",
+      "mining_dimension:strata/109_scoria",
       "mining_dimension:strata/115_white_smooth_sandstone",
       "mining_dimension:strata/117_purple_smooth_sandstone",
       "mining_dimension:strata/119_black_smooth_sandstone",
@@ -84,7 +90,7 @@
       "mining_dimension:strata/143_pink_terracotta",
       "mining_dimension:strata/145_gray_terracotta",
       "mining_dimension:strata/147_light_gray_terracotta",
-      "mining_dimension:strata/149_terracotta",
+      "mining_dimension:strata/149_tremblecrust",
       "mining_dimension:strata/151_cyan_terracotta",
       "mining_dimension:strata/153_purple_terracotta",
       "mining_dimension:strata/155_blue_terracotta",
@@ -92,7 +98,8 @@
       "mining_dimension:strata/159_green_terracotta",
       "mining_dimension:strata/161_red_terracotta",
       "mining_dimension:strata/163_black_terracotta",
-      "mining_dimension:strata/165_black_ice",
+      "mining_dimension:strata/165_soulstone",
+      "mining_dimension:strata/170_black_ice",
       "mining_dimension:strata/170_packed_black_ice",
       "mining_dimension:strata/174_voidstone",
       "mining_dimension:strata/178_blackstone",
@@ -109,58 +116,74 @@
       "mining_dimension:strata/205_netherrack",
       "mining_dimension:strata/210_blue_netherrack",
       "mining_dimension:strata/215_frost_magma",
+      "mining_dimension:strata/215_permafrost",
       "mining_dimension:strata/220_ice",
-      "mining_dimension:strata/225_packed_ice",
-      "mining_dimension:strata/230_permafrost",
-      "mining_dimension:strata/235_snow_block",
+      "mining_dimension:strata/220_packed_ice",
+      "mining_dimension:strata/220_snow_block",
+      "mining_dimension:strata/226_delusion_stone",
+      "mining_dimension:strata/226_dream_dirt",
+      "mining_dimension:strata/232_gaia_stone",
+      "mining_dimension:strata/232_wasteland_stone",
       "mining_dimension:strata/238_elder_prismarine",
       "mining_dimension:strata/238_prismarine",
-      "mining_dimension:strata/242_as_marble",
+      "mining_dimension:strata/242_smooth_glowdust_sandstone",
       "mining_dimension:strata/245_livingrock",
       "mining_dimension:strata/247_purpur_stone",
       "mining_dimension:strata/249_ether_stone",
       "mining_dimension:strata/251_bedrock",
-      "mining_dimension:ores_misc/ore_gold_nether",
-      "mining_dimension:ores_misc/ore_quartz_nether",
-      "mining_dimension:ores_tihi/ore_tihinium",
-      "mining_dimension:ores_tihi/ore_red_clay"
+      "mining_dimension:misc/elder_sea_lantern",
+      "mining_dimension:misc/glowstone",
+      "mining_dimension:misc/red_clay",
+      "mining_dimension:misc/sea_lantern",
+      "mining_dimension:ores/ore_fluorite",
+      "mining_dimension:ores/ore_gold_nether",
+      "mining_dimension:ores/ore_quartz_nether",
+      "mining_dimension:ores/ore_soulium",
+      "mining_dimension:ores/ore_stella_arcanum",
+      "mining_dimension:ores/ore_tihinium"
     ]
   ],
   "starts": [
     "minecraft:nether_fossil",
     "minecraft:mineshaft",
     "minecraft:ruined_portal",
-    "dungeons_plus:bigger_dungeon"
+    "dungeons_plus:bigger_dungeon",
+    "eidolon:catacomb",
+    "eidolon:lab",
+    "inventorypets:underground_dungeon",
+    "inventorypets:space_dungeon",
+    "bettermineshafts:mineshaft",
+    "repurposed_structures:mineshaft_stone"
   ],
   "spawners": {
     "monster": [
       {
         "type": "minecraft:spider",
-        "weight": 60,
-        "minCount": 3,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:cave_spider",
         "weight": 50,
         "minCount": 3,
         "maxCount": 4
       },
       {
+        "type": "minecraft:cave_spider",
+        "weight": 40,
+        "minCount": 3,
+        "maxCount": 4
+      },
+      {
         "type": "minecraft:zombie",
-        "weight": 60,
+        "weight": 50,
         "minCount": 3,
         "maxCount": 4
       },
       {
         "type": "minecraft:skeleton",
-        "weight": 60,
+        "weight": 50,
         "minCount": 3,
         "maxCount": 4
       },
       {
         "type": "minecraft:creeper",
-        "weight": 55,
+        "weight": 45,
         "minCount": 3,
         "maxCount": 4
       },
@@ -201,6 +224,18 @@
         "maxCount": 2
       },
       {
+        "type": "eidolon:wraith",
+        "weight": 16,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "eidolon:zombie_brute",
+        "weight": 17,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
         "type": "thermal:basalz",
         "weight": 15,
         "minCount": 1,
@@ -232,12 +267,6 @@
       },
       {
         "type": "dungeons_mobs:wraith",
-        "weight": 15,
-        "minCount": 1,
-        "maxCount": 2
-      },
-      {
-        "type": "alexsmobs:centipede_head",
         "weight": 15,
         "minCount": 1,
         "maxCount": 2
@@ -304,7 +333,7 @@
       },
       {
         "type": "iceandfire:ghost",
-        "weight": 5,
+        "weight": 1,
         "minCount": 1,
         "maxCount": 1
       },
@@ -321,6 +350,12 @@
         "maxCount": 3
       },
       {
+        "type": "infernalexp:embody",
+        "weight": 12,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
         "type": "yeeter:tnt_yeeter",
         "weight": 100,
         "minCount": 2,
@@ -334,7 +369,7 @@
       },
       {
         "type": "doomweapon:revenant",
-        "weight": 35,
+        "weight": 30,
         "minCount": 1,
         "maxCount": 1
       }
@@ -343,12 +378,18 @@
       {
         "type": "goblintraders:goblin_trader",
         "weight": 3,
+        "minCount": 0,
+        "maxCount": 1
+      },
+      {
+        "type": "golems:golem_bedrock",
+        "weight": 200,
         "minCount": 1,
         "maxCount": 1
       },
       {
-        "type": "mutantbeasts:spider_pig",
-        "weight": 3,
+        "type": "ornamental:obsidian_golem",
+        "weight": 200,
         "minCount": 1,
         "maxCount": 1
       }
@@ -356,7 +397,7 @@
     "ambient": [
       {
         "type": "minecraft:bat",
-        "weight": 9,
+        "weight": 8,
         "minCount": 2,
         "maxCount": 3
       }

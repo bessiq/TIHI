@@ -1,46 +1,46 @@
 {
-    "config": {
-      "feature": {
-        "config": {
-          "feature": {
-            "config": {
-              "feature": {
-                "config": {
-                  "target": {
-                    "tag": "minecraft:base_stone_overworld",
-                    "predicate_type": "minecraft:tag_match"
-                  },
-                  "state": {
-                    "Name": "minecraft:bedrock"
-                  },
-                  "size": 64
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "target": {
+                  "tag": "minecraft:base_stone_overworld",
+                  "predicate_type": "minecraft:tag_match"
                 },
-                "type": "minecraft:ore"
+                "state": {
+                  "Name": "minecraft:bedrock"
+                },
+                "size": 64
               },
-              "decorator": {
-                "config": {
-                  "bottom_offset": 251,
-                  "top_offset": 0,
-                  "maximum": 4
-                },
-                "type": "minecraft:range"
-              }
+              "type": "minecraft:ore"
             },
-            "type": "minecraft:decorated"
+            "decorator": {
+              "config": {
+                "bottom_offset": 251,
+                "top_offset": 0,
+                "maximum": 4
+              },
+              "type": "minecraft:range"
+            }
           },
-          "decorator": {
-            "config": {},
-            "type": "minecraft:square"
-          }
+          "type": "minecraft:decorated"
         },
-        "type": "minecraft:decorated"
+        "decorator": {
+          "config": {},
+          "type": "minecraft:square"
+        }
       },
-      "decorator": {
-        "config": {
-          "count": 13
-        },
-        "type": "minecraft:count"
-      }
+      "type": "minecraft:decorated"
     },
-    "type": "minecraft:decorated"
-  }
+    "decorator": {
+      "config": {
+        "count": 13
+      },
+      "type": "minecraft:count"
+    }
+  },
+  "type": "minecraft:decorated"
+}

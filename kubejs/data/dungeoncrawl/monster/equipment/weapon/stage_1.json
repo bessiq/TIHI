@@ -1,10 +1,6 @@
 {
   "melee": [
     {
-      "item": "aquaculture:diamond_fillet_knife",
-      "weight": 1
-    },
-    {
       "item": "dungeons_gear:sickle",
       "weight": 4
     },
