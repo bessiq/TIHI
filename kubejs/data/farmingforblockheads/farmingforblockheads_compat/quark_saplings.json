@@ -1,0 +1,32 @@
+{
+  "modId": "quark",
+  "group": {
+    "name": "Quark Saplings",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "botania:manasteel_nugget",
+      "count": 12
+    },
+    "defaultCategory": "tihi:exotic_saplings"
+  },
+  "customEntries": [
+    {
+      "output": "quark:blue_blossom_sapling"
+    },
+    {
+      "output": "quark:lavender_blossom_sapling"
+    },
+    {
+      "output": "quark:orange_blossom_sapling"
+    },
+    {
+      "output": "quark:pink_blossom_sapling"
+    },
+    {
+      "output": "quark:yellow_blossom_sapling"
+    },
+    {
+      "output": "quark:red_blossom_sapling"
+    }
+  ]
+}

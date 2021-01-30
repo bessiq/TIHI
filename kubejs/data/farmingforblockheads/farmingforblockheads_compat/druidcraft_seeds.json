@@ -1,0 +1,17 @@
+{
+  "modId": "druidcraft",
+  "group": {
+    "name": "Druidcraft Seeds",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "druidcraft:fiery_glass",
+      "count": 5
+    },
+    "defaultCategory": "tihi:common_seeds"
+  },
+  "customEntries": [
+    {
+      "output": "druidcraft:hemp_seeds"
+    }
+  ]
+}

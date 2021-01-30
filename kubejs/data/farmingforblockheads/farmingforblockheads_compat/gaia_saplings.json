@@ -1,0 +1,41 @@
+{
+  "modId": "gaiadimension",
+  "group": {
+    "name": "Gaia Saplings",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "gaiadimension:bismuth_crystal",
+      "count": 5
+    },
+    "defaultCategory": "tihi:exotic_saplings"
+  },
+  "customEntries": [
+    {
+      "output": "gaiadimension:pink_agate_sapling"
+    },
+    {
+      "output": "gaiadimension:blue_agate_sapling"
+    },
+    {
+      "output": "gaiadimension:green_agate_sapling"
+    },
+    {
+      "output": "gaiadimension:purple_agate_sapling"
+    },
+    {
+      "output": "gaiadimension:fossilized_sapling"
+    },
+    {
+      "output": "gaiadimension:corrupted_sapling"
+    },
+    {
+      "output": "gaiadimension:burnt_sapling"
+    },
+    {
+      "output": "gaiadimension:burning_sapling"
+    },
+    {
+      "output": "gaiadimension:aura_sapling"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "modId": "druidcraft",
+  "group": {
+    "name": "Druidcraft Saplings",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "druidcraft:amber",
+      "count": 5
+    },
+    "defaultCategory": "tihi:exotic_saplings"
+  },
+  "customEntries": [
+    {
+      "output": "druidcraft:darkwood_sapling"
+    },
+    {
+      "output": "druidcraft:elder_sapling"
+    }
+  ]
+}

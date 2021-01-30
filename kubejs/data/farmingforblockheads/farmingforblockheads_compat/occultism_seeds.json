@@ -1,0 +1,17 @@
+{
+  "modId": "occultism",
+  "group": {
+    "name": "Occultism Seeds",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "thermal:silver_coin",
+      "count": 12
+    },
+    "defaultCategory": "tihi:exotic_seeds"
+  },
+  "customEntries": [
+    {
+      "output": "occultism:datura_seeds"
+    }
+  ]
+}

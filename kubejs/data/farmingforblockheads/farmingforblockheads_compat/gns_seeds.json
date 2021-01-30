@@ -1,0 +1,17 @@
+{
+  "modId": "good_nights_sleep",
+  "group": {
+    "name": "GNS Seeds",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "good_nights_sleep:candy",
+      "count": 3
+    },
+    "defaultCategory": "tihi:exotic_seeds"
+  },
+  "customEntries": [
+    {
+      "output": "good_nights_sleep:rainbow_seeds"
+    }
+  ]
+}

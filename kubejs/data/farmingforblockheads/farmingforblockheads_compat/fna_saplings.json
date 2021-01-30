@@ -1,0 +1,24 @@
+{
+  "modId": "forbidden_arcanus",
+  "group": {
+    "name": "FnA Saplings",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "eidolon:arcane_gold_nugget",
+      "count": 5
+    },
+    "defaultCategory": "tihi:exotic_saplings"
+  },
+  "customEntries": [
+    {
+      "output": "forbidden_arcanus:cherrywood_sapling"
+    },
+    {
+      "output": "good_nights_sleep:dream_sapling",
+      "payment": {
+        "item": "eidolon:arcane_gold_nugget",
+        "count": 15
+      }
+    }
+  ]
+}

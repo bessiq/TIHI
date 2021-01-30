@@ -1,0 +1,17 @@
+{
+  "modId": "forbidden_arcanus",
+  "group": {
+    "name": "FnA Seeds",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "eidolon:arcane_gold_nugget",
+      "count": 15
+    },
+    "defaultCategory": "tihi:exotic_seeds"
+  },
+  "customEntries": [
+    {
+      "output": "forbidden_arcanus:golden_orchid_seeds"
+    }
+  ]
+}

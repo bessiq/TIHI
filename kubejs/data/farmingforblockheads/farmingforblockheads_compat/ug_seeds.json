@@ -1,0 +1,17 @@
+{
+  "modId": "undergarden",
+  "group": {
+    "name": "Undergarden Seeds",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "undergarden:cloggrum_nugget",
+      "count": 12
+    },
+    "defaultCategory": "tihi:exotic_seeds"
+  },
+  "customEntries": [
+    {
+      "output": "undergarden:gloomgourd_seeds"
+    }
+  ]
+}

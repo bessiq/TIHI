@@ -1,0 +1,20 @@
+{
+  "modId": "undergarden",
+  "group": {
+    "name": "Undergarden Saplings",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "undergarden:cloggrum_nugget",
+      "count": 15
+    },
+    "defaultCategory": "tihi:exotic_saplings"
+  },
+  "customEntries": [
+    {
+      "output": "undergarden:smogstem_sapling"
+    },
+    {
+      "output": "undergarden:wigglewood_sapling"
+    }
+  ]
+}

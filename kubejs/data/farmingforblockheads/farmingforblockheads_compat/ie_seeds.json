@@ -1,0 +1,17 @@
+{
+  "modId": "immersiveengineering",
+  "group": {
+    "name": "IE Seeds",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "thermal:copper_coin",
+      "count": 15
+    },
+    "defaultCategory": "tihi:common_seeds"
+  },
+  "customEntries": [
+    {
+      "output": "immersiveengineering:seed"
+    }
+  ]
+}

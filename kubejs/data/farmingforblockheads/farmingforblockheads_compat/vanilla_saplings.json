@@ -1,0 +1,40 @@
+{
+  "modId": "minecraft",
+  "group": {
+    "name": "Vanilla Saplings",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "thermal:copper_coin",
+      "count": 9
+    },
+    "defaultCategory": "tihi:common_saplings"
+  },
+  "customEntries": [
+    {
+      "output": "minecraft:spruce_sapling"
+    },
+    {
+      "output": "minecraft:acacia_sapling"
+    },
+    {
+      "output": "minecraft:oak_sapling"
+    },
+    {
+      "output": "minecraft:birch_sapling"
+    },
+    {
+      "output": "minecraft:jungle_sapling",
+      "payment": {
+        "item": "thermal:copper_coin",
+        "count": 12
+      }
+    },
+    {
+      "output": "minecraft:dark_oak_sapling",
+      "payment": {
+        "item": "thermal:copper_coin",
+        "count": 12
+      }
+    }
+  ]
+}

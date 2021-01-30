@@ -1,0 +1,17 @@
+{
+  "modId": "naturesaura",
+  "group": {
+    "name": "Nature's Aura Saplings",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "ars_nouveau:carbuncle_shards",
+      "count": 3
+    },
+    "defaultCategory": "tihi:exotic_saplings"
+  },
+  "customEntries": [
+    {
+      "output": "naturesaura:ancient_sapling"
+    }
+  ]
+}
