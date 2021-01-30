@@ -37,7 +37,7 @@ showTankSetting = "EXTENDED"
 #Show brewing stand setting (0 = not, 1 = always, 2 = sneak)
 showBrewStandSetting = "NORMAL"
 #Show mob spawner setting (0 = not, 1 = always, 2 = sneak)
-showMobSpawnerSetting = "NORMAL"
+showMobSpawnerSetting = "EXTENDED"
 #Show animal owner setting (0 = not, 1 = always, 2 = sneak)
 showAnimalOwnerSetting = "EXTENDED"
 #Show horse stats setting (0 = not, 1 = always, 2 = sneak)
@@ -82,6 +82,8 @@ chestContentsBorderColor = "ffC3ECE3"
 showBreakProgress = 1
 #true means shows harvestability with vanilla style icons
 harvestStyleVanilla = true
+#This is a list of entities that will not be rendered by TOP. This option also works if it is set client-side alone
+renderBlacklist = []
 
 [style]
 	#Text style. Use a comma delimited list with colors like: 'red', 'green', 'blue', ... or style codes like 'underline', 'bold', 'italic', 'strikethrough', ..."

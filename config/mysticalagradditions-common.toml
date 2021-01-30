@@ -17,7 +17,7 @@
 [World]
 	#How many Nether Inferium Ore veins should spawn in a chunk.
 	#Range: > 0
-	netherInferiumSpawnRate = 2
+	netherInferiumSpawnRate = 3
 	#The maximum amount of Nether Inferium Ore blocks that can spawn in a vein.
 	#Range: > 0
 	netherInferiumSpawnSize = 3
@@ -26,7 +26,7 @@
 	endInferiumSpawnRate = 3
 	#The maximum Y level that Nether Inferium Ore veins can spawn.
 	#Range: 0 ~ 128
-	netherInferiumSpawnHeight = 100
+	netherInferiumSpawnHeight = 128
 	#Should End Prosperity Ore generate in the world?
 	generateEndProsperityOre = true
 	#The maximum amount of End Inferium Ore blocks that can spawn in a vein.
@@ -34,14 +34,14 @@
 	endInferiumSpawnSize = 4
 	#The maximum Y level that End Inferium Ore veins can spawn.
 	#Range: 0 ~ 128
-	endInferiumSpawnHeight = 100
+	endInferiumSpawnHeight = 128
 	#Should Nether Prosperity Ore generate in the world?
 	generateNetherProsperityOre = true
 	#Should Nether Inferium Ore generate in the world?
 	generateNetherInferiumOre = true
 	#The maximum Y level that Prosperity Ore veins can spawn.
 	#Range: 0 ~ 128
-	endProsperitySpawnHeight = 100
+	endProsperitySpawnHeight = 128
 	#How many End Prosperity Ore veins should spawn in a chunk.
 	#Range: > 0
 	endProsperitySpawnRate = 3
@@ -53,10 +53,10 @@
 	netherProsperitySpawnSize = 3
 	#How many Nether Prosperity Ore veins should spawn in a chunk.
 	#Range: > 0
-	netherProsperitySpawnRate = 2
+	netherProsperitySpawnRate = 3
 	#The maximum Y level that Nether Prosperity Ore veins can spawn.
 	#Range: 0 ~ 128
-	netherProsperitySpawnHeight = 100
+	netherProsperitySpawnHeight = 128
 	#Should End Inferium Ore generate in the world?
 	generateEndInferiumOre = true
 

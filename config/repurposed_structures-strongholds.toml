@@ -30,11 +30,6 @@
 		#Range: 0 ~ 255
 		netherStrongholdMinHeight = 33
 		#
-		#Allow Nether-styled Stronghold to
-		#generate in modded Nether biomes.
-		#
-		"addNetherStrongholdToModdedBiomes " = false
-		#
 		# How rare are Chains in this Stronghold. (Can have Soul Lantern attached)
 		#
 		#Range: 0 ~ 1000
@@ -42,7 +37,7 @@
 		#
 		# Allow Nether-styled Strongholds to spawn in Nether category biomes.
 		# Note: Eyes of Ender will work and show the closest Nether Stronghold too.
-		allowNetherStronghold = false
+		allowNetherStronghold = true
 		#
 		# Minimum Y height that Nether stronghold's starting point can spawn at. 
 		#Default is 40.
@@ -54,7 +49,12 @@
 		# How rare are Nether-styled Strongholds in Nether-category biomes.
 		# 1 for spawning in most chunks and 1001 for no spawn.
 		#Range: 1 ~ 1001
-		netherStrongholdMaxChunkDistance = 85
+		netherStrongholdMaxChunkDistance = 1000
+		#
+		#Allow Nether-styled Stronghold to
+		#generate in modded Nether biomes.
+		#
+		addNetherStrongholdToModdedBiomes = true
 
 	[Stronghold.Stonebrick]
 		#
@@ -62,7 +62,7 @@
 		#even if they have don't have vanilla Strongholds. It will replace
 		#the vanilla Strongholds in those biomes if this option is on.
 		#
-		addStonebrickStrongholdToModdedBiomes = false
+		addStonebrickStrongholdToModdedBiomes = true
 		#
 		# How rare are Chains in this Stronghold. (Can have Lantern attached)
 		#
@@ -80,7 +80,7 @@
 		#off, vanilla Strongholds will generate again but Repurposed Structures's
 		#Nether Strongholds will still be active.
 		#
-		allowStonebrickStrongholdToVanillaBiomes = false
+		allowStonebrickStrongholdToVanillaBiomes = true
 		#
 		# Minimum Y height that normal stronghold's starting point can spawn at. 
 		#Default is 0.
@@ -92,7 +92,7 @@
 		# How rare are Stonebrick-styled Strongholds.
 		# 1 for spawning in most chunks and 1001 for no spawn.
 		#Range: 1 ~ 1001
-		stonebrickStrongholdMaxChunkDistance = 85
+		stonebrickStrongholdMaxChunkDistance = 1000
 		#
 		# Minimum Y height that normal stronghold's starting point can spawn at.
 		# Default is 50.

@@ -131,42 +131,42 @@
 		#  0 for no Dungeons at all and 1000 for max Dungeon spawnrate.
 		# Note: Vanilla Dungeons will spawn again when this is set to 0.
 		#Range: 0 ~ 1000
-		jungleDungeonAttemptsPerChunk = 8
+		jungleDungeonAttemptsPerChunk = 7
 		#
 		# Replace vanilla dungeon in Mushroom biomes with Mushroom themed dungeon.
 		# How often dungeons will attempt to spawn per chunk.
 		#  0 for no Dungeons at all and 1000 for max Dungeon spawnrate.
 		# Note: Vanilla Dungeons will spawn again when this is set to 0.
 		#Range: 0 ~ 1000
-		mushroomDungeonAttemptsPerChunk = 8
+		mushroomDungeonAttemptsPerChunk = 7
 		#
 		# Replace vanilla dungeon in Dark Forest biomes with Dark Forest themed dungeon.
 		# How often dungeons will attempt to spawn per chunk.
 		#  0 for no Dungeons at all and 1000 for max Dungeon spawnrate.
 		# Note: Vanilla Dungeons will spawn again when this is set to 0.
 		#Range: 0 ~ 1000
-		darkForestDungeonAttemptsPerChunk = 8
+		darkForestDungeonAttemptsPerChunk = 7
 		#
 		# Replace vanilla dungeon in Desert biomes with Desert themed dungeon.
 		# How often dungeons will attempt to spawn per chunk.
 		#  0 for no Dungeons at all and 1000 for max Dungeon spawnrate.
 		# Note: Vanilla Dungeons will spawn again when this is set to 0.
 		#Range: 0 ~ 1000
-		desertDungeonAttemptsPerChunk = 8
+		desertDungeonAttemptsPerChunk = 7
 		#
 		# Replace vanilla dungeon in icy/snow biomes with icy/snow themed dungeon.
 		# How often dungeons will attempt to spawn per chunk.
 		#  0 for no Dungeons at all and 1000 for max Dungeon spawnrate.
 		# Note: Vanilla Dungeons will spawn again when this is set to 0.
 		#Range: 0 ~ 1000
-		snowDungeonAttemptsPerChunk = 8
+		snowDungeonAttemptsPerChunk = 7
 		#
 		# Replace vanilla dungeon in Badlands biomes with Badlands themed dungeon.
 		# How often dungeons will attempt to spawn per chunk.
 		#  0 for no Dungeons at all and 1000 for max Dungeon spawnrate.
 		# Note: Vanilla Dungeons will spawn again when this is set to 0.
 		#Range: 0 ~ 1000
-		badlandsDungeonAttemptsPerChunk = 8
+		badlandsDungeonAttemptsPerChunk = 7
 		#
 		# Add ocean themed dungeon to ocean biomes. These will spawn on
 		# the ocean's floor and inside water filled caves and ravines.
@@ -184,18 +184,18 @@
 		# How often dungeons will attempt to spawn per chunk.
 		#  0 for no Dungeons at all and 1000 for max Dungeon spawnrate.
 		#Range: 0 ~ 1000
-		endDungeonAttemptsPerChunk = 8
+		endDungeonAttemptsPerChunk = 7
 		#
 		# Add Nether themed dungeon to Nether biomes.
 		# How often dungeons will attempt to spawn per chunk.
 		#  0 for no Dungeons at all and 1000 for max Dungeon spawnrate.
 		#Range: 0 ~ 1000
-		netherDungeonAttemptsPerChunk = 8
+		netherDungeonAttemptsPerChunk = 7
 		#
 		# Replace vanilla dungeon in Swamp biomes with Swamp themed dungeon.
 		# How often dungeons will attempt to spawn per chunk.
 		#  0 for no Dungeons at all and 1000 for max Dungeon spawnrate.
 		# Note: Vanilla Dungeons will spawn again when this is set to 0.
 		#Range: 0 ~ 1000
-		swampDungeonAttemptsPerChunk = 8
+		swampDungeonAttemptsPerChunk = 7
 

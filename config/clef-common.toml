@@ -13,7 +13,7 @@
 	lootSpawnRate = 0
 	#Chance for mobs to drop an instrument, divided by 10000. 0 to disable. Affected by looting level.
 	#Range: 0 ~ 10000
-	mobDropRate = 50
+	mobDropRate = 500
 	#Disabled instruments by their item name.
 	disabledInstruments = []
 	#Chance of the zombies to spawn with an instrument, divided by 10000. 0 to disable

@@ -1,7 +1,7 @@
 
 [towers]
 	#A list of biomes where the towers will not spawn. Default: Rivers, Beaches
-	biomeBlackList = ["minecraft:river", "minecraft:frozen_river", "minecraft:beach", "minecraft:stone_shore", "minecraft:snowy_beach", "biomesoplenty:gravel_beach", "biomesoplenty:white_beach", "byg:dead_sea", "byg:white_beach", "byg:rainbow_beach", "byg:rocky_beach", "byg:snowy_rocky_black_beach", "byg:vibrant_swamplands", "byg:cold_swamplands", "byg:fresh_water_lake", "byg:great_lakes"]
+	biomeBlackList = ["minecraft:river", "minecraft:frozen_river", "minecraft:beach", "minecraft:stone_shore", "minecraft:snowy_beach", "biomesoplenty:gravel_beach", "biomesoplenty:white_beach", "byg:dead_sea", "byg:white_beach", "byg:rainbow_beach", "byg:rocky_beach", "byg:snowy_rocky_black_beach", "byg:vibrant_swamplands", "byg:cold_swamplands", "byg:fresh_water_lake", "byg:great_lakes", "byg:mangrove_marshes", "byg:cypress_swamplands", "byg:coral_mangroves", "byg:bayou", "minecraft:swamp", "byg:frozen_lake"]
 	#Make towers spawn in the ocean. Default: true
 	spawnOceanTowers = true
 	#If the Waytones mod is installed and this is set to true, towers will spawn with a waystone at the top. If the Waystone mod is not installed, this will have no effect. Default: true
@@ -10,11 +10,11 @@
 	allModBiomesBlackList = ["midnight", "the_bumblezone", "good_nights_sleep", "mining_dimension", "undergarden", "gaiadimension"]
 	#How rarely the towers will spawn (low: common, high: rare). Default: 20
 	#Range: 3 ~ 200
-	towerRarity = 26
+	towerRarity = 28
 	#How rarely the derelict towers will spawn (low: common, high: rare). Default: 72
 	#Range: 3 ~ 200
 	derelictTowerRarity = 72
 	#How rarely the ocean towers will spawn (low: common, high: rare). Default: 32
 	#Range: 3 ~ 200
-	oceanTowerRarity = 34
+	oceanTowerRarity = 33
 

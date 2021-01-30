@@ -186,17 +186,6 @@
 	#Whether or not this attribute should be modified.
 	enabled = true
 
-#Values for the minecolonies:mc_mob_damage attribute.
-[minecolonies_mc_mob_damage]
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 1.0
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-	#Whether or not this attribute should be modified.
-	enabled = true
-
 #Values for the botania:pixie_spawn_chance attribute.
 [botania_pixie_spawn_chance]
 	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
@@ -243,17 +232,6 @@
 
 #Values for the dungeons_gear:attack_reach attribute.
 [dungeons_gear_attack_reach]
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-	#Whether or not this attribute should be modified.
-	enabled = true
-
-#Values for the weeping_angels:block_break_range attribute.
-[weeping_angels_block_break_range]
 	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
 	min = 4.9E-324
@@ -372,4 +350,48 @@
 	max = 65536.0
 	#Whether or not this attribute should be modified.
 	enabled = true
+
+#Values for the mysticalworld:blessed attribute.
+[mysticalworld_blessed]
+	#Whether or not this attribute should be modified.
+	enabled = true
+	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	min = 4.9E-324
+	#The maximum value for the attribute.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+
+#Values for the mysticalworld:smite attribute.
+[mysticalworld_smite]
+	#Whether or not this attribute should be modified.
+	enabled = true
+	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	min = 4.9E-324
+	#The maximum value for the attribute.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+
+#Values for the mysticalworld:serendipity attribute.
+[mysticalworld_serendipity]
+	#Whether or not this attribute should be modified.
+	enabled = true
+	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	min = 4.9E-324
+	#The maximum value for the attribute.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+
+#Values for the weeping_angels:block_break_range attribute.
+[weeping_angels_block_break_range]
+	#Whether or not this attribute should be modified.
+	enabled = true
+	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	min = 4.9E-324
+	#The maximum value for the attribute.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
 

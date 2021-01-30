@@ -49,7 +49,7 @@
 			# a block in giant Boulders. Lower number = more common.
 			# Enter 0 to disable Diamond Ores completely.
 			#Range: 0 ~ 1000000
-			diamondChanceInGiantBoulders = 7000
+			diamondChanceInGiantBoulders = 1000
 			#
 			# Replaces boulders in Giant Tree Taiga Hills and Giant Spruce Taiga Hills
 			# biomes with a larger boulder that can contain Coal, Iron, and extremely

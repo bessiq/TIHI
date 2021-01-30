@@ -40,6 +40,10 @@
 		containerClass = "mcjty.rftoolsutility.modules.crafter.blocks.CrafterContainer"
 		sortRange = ""
 
+	[[sorting.containerOverrides]]
+		containerClass = "net.blay09.mods.farmingforblockheads.client.gui.screen.MarketScreen"
+		sortRange = ""
+
 	#Categor(y/ies) for sorting
 	#
 	#name: the name of the category
@@ -92,7 +96,7 @@
 	#2 = buttons for external sorting only
 	#3 = all buttons enabled (default)
 	#Range: 0 ~ 3
-	enableButtons = 3
+	enableButtons = 0
 	#Enable auto-refill
 	autoRefill = true
 	#0 = disable sorting

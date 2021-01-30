@@ -9,7 +9,7 @@
 
 [spawn]
 	#Note: A list of biomes where angels should spawn.
-	allowedBiomes = ["byg:alpine_foothills", "byg:alps", "byg:bluff_peaks", "byg:bluff_steeps", "byg:frozen_lake", "byg:lush_tundra", "byg:northern_forest", "byg:shattered_glacier", "byg:snowy_black_beach", "byg:snowy_blue_giant_taiga", "byg:snowy_blue_taiga", "byg:snowy_blue_taiga_hills", "byg:snowy_coniferous_clearing", "byg:snowy_coniferous_forest", "byg:snowy_coniferous_forest_hills", "byg:snowy_deciduous_clearing", "byg:snowy_deciduous_forest", "byg:snowy_deciduous_forest_hills", "byg:snowy_evergreen_clearing", "byg:snowy_evergreen_hills", "byg:snowy_rocky_black_beach", "byg:subzero_hypogeal", "minecraft:frozen_ocean", "minecraft:frozen_river", "minecraft:ice_spikes", "minecraft:snowy_beach", "minecraft:snowy_mountains", "minecraft:snowy_taiga", "minecraft:snowy_taiga_hills", "minecraft:snowy_taiga_mountains", "minecraft:snowy_tundra"]
+	allowedBiomes = ["byg:alps", "byg:bluff_peaks", "byg:frozen_lake", "byg:lush_tundra", "byg:shattered_glacier", "byg:snowy_black_beach", "byg:snowy_coniferous_clearing", "byg:snowy_deciduous_clearing", "byg:snowy_evergreen_clearing", "byg:snowy_rocky_black_beach", "byg:subzero_hypogeal", "minecraft:ice_spikes", "minecraft:snowy_taiga_mountains"]
 	#This will only accept: MONSTER || CREATURE || AMBIENT || MISC || Anything else WILL crash your game.
 	spawnType = "MONSTER"
 	#The maximum amount of angels per biome
@@ -17,7 +17,7 @@
 	maximumSpawn = 1
 	#The angel spawn spawn weight
 	#Range: 1 ~ 100
-	spawnWeight = 5
+	spawnWeight = 1
 	#The minimum amount of angels per biome
 	#Range: 1 ~ 100
 	minimumSpawn = 1
@@ -27,7 +27,7 @@
 	pickaxeOnly = true
 	#The damage dealt by an angel
 	#Range: 1.0 ~ 1.7976931348623157E308
-	damage = 8.0
+	damage = 10.0
 	#XP gained from angels
 	#Range: > 1
 	xpGained = 25

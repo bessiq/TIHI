@@ -1,10 +1,10 @@
 
 [General]
 	#Should Caught and Released Jellyfish sting?
-	caught_jellyfish_sting = false
+	caught_jellyfish_sting = true
 	#Biome Weight of Jellyfish Fields
 	#Range: 1 ~ 100
-	jellyfish_fields_weight = 3
+	jellyfish_fields_weight = 2
 	#Should Jellyfish be fishable with a fishing rod?
 	jellyfish_fishable = true
 	#Should Jellyfish Nets be fishable with a fishing rod?
@@ -28,4 +28,12 @@
 		#Damage of the Karate Glove
 		#Range: 1 ~ 1000
 		karate_damage = 4
+
+	[General.Biome]
+		#Enable Flower Clouds?
+		flower_clouds = true
+
+	[General.Optimization]
+		#With this enabled, right clicking will produce a few of the jellyfish's jelly item and destroy the jellyfish item
+		no_place_jellyfish = false
 

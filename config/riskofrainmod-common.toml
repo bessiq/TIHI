@@ -18,7 +18,7 @@
 	"Stone Golem weight" = 20
 	#The weight of Lemurians in vanilla spawn rate
 	#Range: 1 ~ 100
-	"Lemurian weight" = 80
+	"Lemurian weight" = 50
 
 ["Withelisted overworld spawn biomes"]
 	#Use the format "mod_ID:biome" like "minecraft:plains" or "rats:ratlantis". You can see a mod's ID by clicking the 'Mods' button on the main screen and clicking on the mod's name on the left 
@@ -35,5 +35,5 @@
 
 ["Sound settings"]
 	#Wheter to allow RoR sounds or not
-	"Allow RoR sounds" = true
+	"Allow RoR sounds" = false
 

@@ -91,17 +91,20 @@ enableFireResistance = true
 enableMobDropCrate = true
 #chance that a loot crate will generate a common item
 #Range: 0 ~ 100
-commonRarity = 50
+commonRarity = 70
 #chance that a loot crate will generate a uncommon item
 #Range: 0 ~ 100
-uncommonRarity = 20
+uncommonRarity = 15
 #chance that a loot crate will generate a rare item
 #Range: 0 ~ 100
-rareRarity = 12
+rareRarity = 10
 #chance that a loot crate will generate a epic item
 #Range: 0 ~ 100
-epicRarity = 10
+epicRarity = 4
 #chance that a loot crate will generate a unique item
 #Range: 0 ~ 100
-uniqueRarity = 8
+uniqueRarity = 1
+#amount of unique items that can be found in a world
+#Range: 1 ~ 50
+uniqueCount = 42
 

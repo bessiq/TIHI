@@ -75,7 +75,7 @@
 	"Death Worm Target Search Length" = 64
 	#How far away stymphalian birds will consider other birds to be in the same flock.
 	#Range: 1 ~ 10000
-	"Stymphalian Bird Flock Length" = 40
+	"Stymphalian Bird Flock Length" = 32
 	#How many maximum individuals a myrmex colony can have.
 	#Range: 10 ~ 10000
 	"Myrmex Colony Max Size" = 80
@@ -137,7 +137,7 @@
 	"Experimental Dragon path Finder" = false
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Generate Dragon Skeleton Chance" = 350
+	"Generate Dragon Skeleton Chance" = 400
 	#True if villagers should run away and hide from dragons and other hostile Ice and Fire mobs.
 	"Villagers Fear Dragons" = true
 	#1 out of this number chance per 6000 ticks for a chicken to lay a cockatrice egg.
@@ -172,7 +172,7 @@
 	"Dragonsteel Base Durability" = 8000
 	#How many blocks away can stymphalian birds spot potential prey. Note that increasing this could cause lag.
 	#Range: 1 ~ 10000
-	"Stymphalian Bird Target Search Length" = 64
+	"Stymphalian Bird Target Search Length" = 32
 	#True if stymphalian birds are allowed to target and attack animals
 	"Stymphalian Birds Target Animals" = true
 	#How many ticks it takes for a Myrmex to move from a larva to a pupa, and from a pupa to an adult.
@@ -197,19 +197,19 @@
 	"Dragon Attack Damage(Lightning breath)" = 5.0
 	#One out of this number chance per chunk to generate a myrmex hive.
 	#Range: 1 ~ 10000
-	"Myrmex Colony Gen Chance" = 150
+	"Myrmex Colony Gen Chance" = 160
 	#Hippogryph spawn weight. Lower = lower chance to spawn.
 	#Range: 1 ~ 10000
 	"Hippogryph Spawn Weight" = 2
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Generate Dragon Roost Chance" = 500
+	"Generate Dragon Roost Chance" = 666
 	#Maximum ghost attack strength.
 	#Range: 0.0 ~ 10000.0
 	"Ghost Attack Strength" = 4.5
 	#One out of this number chance per chunk to generate a hydra cave.
 	#Range: 1 ~ 10000
-	"Hydra Caves Gen Chance" = 150
+	"Hydra Caves Gen Chance" = 165
 	#Every interval of this number in ticks, dragon allowed to break blocks.
 	#Range: 0 ~ 10000
 	"Dragon Block Break Cooldown" = 5
@@ -230,7 +230,7 @@
 	"Glacier Spawn Weight" = 4
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Generate Dragon Cave Chance" = 250
+	"Generate Dragon Cave Chance" = 333
 	#Dragon griefing - 2 is no griefing, 1 is breaking weak blocks, 0 is default
 	#Range: 0 ~ 2
 	"Dragon Griefing" = 0
@@ -286,7 +286,7 @@
 	"Amphithere Villager Search Length" = 64
 	#Deathworm spawn weight. Lower = lower chance to spawn
 	#Range: 1 ~ 10000
-	"Death Worm Spawn Weight" = 30
+	"Death Worm Spawn Weight" = 25
 	#Percentage of critical strike that will disarm with easter egg tinkers material.
 	#Range: 0.0 ~ 1.0
 	"Easter Egg Tinkers Tool Disarm chance" = 0.20000000298023224
@@ -297,7 +297,7 @@
 	"Dragon Cave Ore Ratio" = 45
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Spawn Stymhphalian Bird Chance" = 80
+	"Spawn Stymhphalian Bird Chance" = 88
 	#A double check to see if the game can spawn trolls. Higher number = lower chance to spawn.
 	#Range: 0 ~ 10000
 	"Troll Spawn Check Chance" = 0
@@ -346,13 +346,13 @@
 	"Amphithere Attack Strength" = 7.0
 	#Graveyard rarity.
 	#Range: 2 ~ 10000
-	"Graveyard Chance" = 88
+	"Graveyard Chance" = 80
 	#Max dragon attack damage. Attack Damage is scaled to this
 	#Range: 1 ~ 10000
 	"Dragon Attack Damage" = 25
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Spawn Sirens Chance" = 444
+	"Spawn Sirens Chance" = 300
 	#Maximum troll health
 	#Range: 1.0 ~ 10000.0
 	"Troll Max Health" = 75.0
@@ -370,5 +370,5 @@
 	"Spawn Death Worms" = true
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Spawn Pixies Chance" = 60
+	"Spawn Pixies Chance" = 80
 

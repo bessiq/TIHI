@@ -11,7 +11,7 @@
 	# RS's mineshafts to spawn in. Separate each ID with a comma ,
 	#
 	#Example: "minecraft:ice_spikes,awesome_mod:awesome_biome"
-	blacklistedMineshaftBiomes = "byg:dead_sea,mining_dimension:mining"
+	blacklistedMineshaftBiomes = "byg:dead_sea"
 
 	[Mineshaft."Max height"]
 		#
@@ -161,40 +161,40 @@
 		# Replace Mineshafts in Swamps and Dark Forests with a swampy/dark oak themed Mineshaft.
 		# Note: Vanilla Mineshafts will start spawning when this is set to 0 and game is restarted.
 		#Range: 0 ~ 1000
-		swampAndDarkForestMineshaftSpawnrate = 40
+		swampAndDarkForestMineshaftSpawnrate = 27
 		#
 		# Controls how often Mineshafts will spawn. 1000 is max spawnrate.
 		# 
 		# Replace Mineshafts in Jungle biomes with a Jungle themed Mineshaft.
 		# Note: Vanilla Mineshafts will start spawning when this is set to 0 and game is restarted.
 		#Range: 0 ~ 1000
-		jungleMineshaftSpawnrate = 40
+		jungleMineshaftSpawnrate = 27
 		#
 		# Controls how often Mineshafts will spawn. 1000 is max spawnrate.
 		# 
 		# Replace Mineshafts in Taiga biomes with a Taiga themed Mineshaft. Note: Vanilla Mineshafts will start spawning when this is set to 0 and game is restarted.
 		#Range: 0 ~ 1000
-		taigaMineshaftSpawnrate = 40
+		taigaMineshaftSpawnrate = 27
 		#
 		# Controls how often Mineshafts will spawn. 1000 is max spawnrate.
 		# 
 		# Replace Mineshafts in Birch biomes with a Birch themed Mineshaft.
 		# Note: Vanilla Mineshafts will start spawning when this is set to 0 and game is restarted.
 		#Range: 0 ~ 1000
-		birchMineshaftSpawnrate = 40
+		birchMineshaftSpawnrate = 27
 		#
 		# Controls how often Mineshafts will spawn.
 		# 
 		# Add Nether themed Mineshafts to Nether biomes.0 for no Mineshafts and 1000 for max spawnrate.
 		#Range: 0 ~ 1000
-		netherMineshaftSpawnrate = 40
+		netherMineshaftSpawnrate = 27
 		#
 		# Controls how often Mineshafts will spawn. 1000 is max spawnrate.
 		# 
 		# Replace Mineshafts in Desert biomes with a Desert themed Mineshaft.
 		# Note: Vanilla Mineshafts will start spawning when this is set to 0 and game is restarted.
 		#Range: 0 ~ 1000
-		desertMineshaftSpawnrate = 40
+		desertMineshaftSpawnrate = 27
 		#
 		# Controls how often Mineshafts will spawn. 1000 is max spawnrate.
 		# 
@@ -208,20 +208,20 @@
 		# Replace Mineshafts in Savanna biomes with a Savanna themed Mineshaft.
 		# Note: Vanilla Mineshafts will start spawning when this is set to 0 and game is restarted.
 		#Range: 0 ~ 1000
-		savannaMineshaftSpawnrate = 40
+		savannaMineshaftSpawnrate = 27
 		#
 		# Controls how often Mineshafts will spawn.
 		# 
 		# Add End themed Mineshafts to End biomes outside the Enderdragon island.0 for no Mineshafts and 1000 for max spawnrate.
 		#Range: 0 ~ 1000
-		endMineshaftSpawnrate = 40
+		endMineshaftSpawnrate = 27
 		#
 		# Controls how often Mineshafts will spawn. 1000 is max spawnrate.
 		# 
 		# Replace Mineshafts in Mountain (Extreme Hills) biomes with a Stone themed Mineshaft.
 		# Note: Vanilla Mineshafts will start spawning when this is set to 0 and game is restarted.
 		#Range: 0 ~ 1000
-		stoneMineshaftSpawnrate = 40
+		stoneMineshaftSpawnrate = 27
 		#
 		# Controls how often Mineshafts will spawn. 1000 is max spawnrate.
 		# 
@@ -229,5 +229,5 @@
 		# Note: Snowy Taiga Biomes will get Ice Mineshaft instead of Taiga theme.
 		# Note: Vanilla Mineshafts will start spawning when this is set to 0 and game is restarted.
 		#Range: 0 ~ 1000
-		icyMineshaftSpawnrate = 40
+		icyMineshaftSpawnrate = 27
 

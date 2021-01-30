@@ -6,7 +6,7 @@
 	[structures.tower_ruin]
 		#Tower Ruin Distance (in chunks) [default: 25]
 		#Range: 1 ~ 500
-		distance = 24
+		distance = 22
 		#Tower Ruin Minimum Separation (in chunks) [default: 8]
 		#Range: 1 ~ 500
 		separation = 9
@@ -23,7 +23,7 @@
 	[structures.castle]
 		#Castle Distance (in chunks) [default: 40]
 		#Range: 1 ~ 500
-		distance = 38
+		distance = 37
 		#Castle Minimum Separation (in chunks) [default: 8]
 		#Range: 1 ~ 500
 		separation = 8
@@ -40,7 +40,7 @@
 	[structures.player_house]
 		#Desert House Distance (in chunks) [default: 30]
 		#Range: 1 ~ 500
-		distance = 28
+		distance = 27
 		#Desert House Minimum Separation (in chunks) [default: 8]
 		#Range: 1 ~ 500
 		separation = 10
@@ -57,7 +57,7 @@
 	[structures.forge]
 		#Forge Distance (in chunks) [default: 30]
 		#Range: 1 ~ 500
-		distance = 28
+		distance = 27
 		#Forge Minimum Separation (in chunks) [default: 8]
 		#Range: 1 ~ 500
 		separation = 9
@@ -74,7 +74,7 @@
 	[structures.small_dungeon]
 		#Small Dungeon Distance (in chunks) [default: 30]
 		#Range: 1 ~ 500
-		distance = 29
+		distance = 27
 		#Small Dungeon Minimum Separation (in chunks) [default: 8]
 		#Range: 1 ~ 500
 		separation = 10
@@ -91,7 +91,7 @@
 	[structures.desert_house]
 		#Desert House Distance (in chunks) [default: 30]
 		#Range: 1 ~ 500
-		distance = 28
+		distance = 27
 		#Desert House Minimum Separation (in chunks) [default: 8]
 		#Range: 1 ~ 500
 		separation = 8
@@ -113,7 +113,7 @@
 	[structures.castle_ruin]
 		#Castle Ruin Distance (in chunks) [default: 35]
 		#Range: 1 ~ 500
-		distance = 34
+		distance = 32
 		#Castle Ruin Minimum Separation (in chunks) [default: 8]
 		#Range: 1 ~ 500
 		separation = 8

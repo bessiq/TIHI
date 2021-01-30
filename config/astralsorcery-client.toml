@@ -12,4 +12,7 @@
 	skyRenderingEnabled = ["minecraft:overworld"]
 	#If a dimension is listed here, the skyrender will only render constellations on top of the existing skybox.
 	skyRenderingConstellations = []
+	#Defines the minimum y-level the fosic resonator will display the fosic field on.
+	#Range: 0 ~ 256
+	minYFosicDisplay = 0
 

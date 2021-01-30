@@ -3,7 +3,7 @@
 [general]
 	#Weight of a golden case dropping
 	#Range: 0 ~ 100
-	gold_chance = 20
+	gold_chance = 15
 	#Range: 0 ~ 100
 	gold_rolls = 5
 	#Weight for a throwable weapon to drop from case
@@ -11,7 +11,7 @@
 	throwing_weight = 6
 	#Weight of a titan case dropping
 	#Range: 0 ~ 100
-	titan_chance = 10
+	titan_chance = 5
 	#Weight for a shovel to drop from case
 	#Range: 0 ~ 100
 	spade_weight = 8
@@ -68,7 +68,7 @@
 	armor = 4
 	#Weight of a basic case dropping
 	#Range: 0 ~ 100
-	basic_chance = 70
+	basic_chance = 80
 	#Weight for and axe to drop from case
 	#Range: 0 ~ 100
 	axe_weight = 10
@@ -79,7 +79,7 @@
 	titan_rolls = 9
 	#Monsters drop chance
 	#Range: 0 ~ 100
-	monster_drops = 4
+	monster_drops = 1
 	#Weight for a bow to drop from case
 	#Range: 0 ~ 100
 	bow_weight = 8

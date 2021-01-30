@@ -45,6 +45,9 @@
     # Whether or not Corrupted Tome should be enabled. [default: true, synchronized: yes]
     B:CorruptedTomeEnabled=true
 
+    # Whether or not Enigmatic Legacy should purposefully crash client whenever any mod tries to inject unnamed LootPool into any loot table. If false, stacktraces will be printed to log but game will proceed as normal. [default: true, synchronized: no]
+    B:CrashOnUnnamedPool=false
+
     # Whether or not Crying Netherite Armor should be enabled. [default: true, synchronized: yes]
     B:CryingNetheriteArmorEnabled=true
 
@@ -196,7 +199,7 @@
     B:RingofEnderEnabled=true
 
     # Whether or not Ring of the Seven Curses should be enabled. [default: true, synchronized: yes]
-    B:RingoftheSevenCursesEnabled=true
+    B:RingoftheSevenCursesEnabled=false
 
     # Whether or not Scroll of Ageless Wisdom should be enabled. [default: true, synchronized: yes]
     B:ScrollofAgelessWisdomEnabled=true

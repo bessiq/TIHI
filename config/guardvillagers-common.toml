@@ -1,11 +1,13 @@
 #Illagers In Raids Attack Animals?
-"Illagers In Raids Attack Animals?" = false
+"Illagers in raids attack animals?" = false
 #Witches Attack Villagers?
-"Witches Attack Villagers?" = true
+"Witches attack villagers?" = true
 #This will make Illusioners get involved in raids
-"Have Illusioners in Raids?" = true
+"Have Illusioners in raids?" = true
 #Guards will attack all hostiles with this option
-"Guards Attack All Mobs?" = false
+"Guards attack all mobs?" = false
+#Guards won't attack mobs in this list if AttackAllMobs is enabled, for example, putting minecraft:creeper in this list will make guards ignore creepers.
+"Mob BlackList" = []
 #This option makes guards run from ravagers when low on health
 "Have Guards be run from ravagers when on low health?" = true
 #This makes villagers run from polar bears, as anyone with common sense would.
@@ -21,5 +23,9 @@
 #This makes guards form a phalanx
 "Have guards form a phalanx?" = true
 #This will make guards attempt to avoid friendly fire.
-"Have guards avoid friendly fire?" = true
+"Have guards avoid friendly fire? (Experimental)" = false
+#This will make it so villagers will only be converted into guards if the player has hero of the village
+"Make it so players have to have hero of the village to convert villagers into guards?" = false
+"Have it so blacksmiths heal golems under 60 health?" = false
+"Have it so clerics heal guards and players with hero of the village?" = true
 
