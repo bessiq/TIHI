@@ -1,0 +1,30 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "config": "showMissingnoBlocks",
+          "type": "ornamental:config"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "#  ",
+          "## ",
+          "###"
+        ],
+        "key": {
+          "#": {
+            "item": "tihi:missingno_block"
+          }
+        },
+        "result": {
+          "item": "ornamental:missingno_stairs",
+          "count": 8
+        }
+      }
+    }
+  ]
+}
