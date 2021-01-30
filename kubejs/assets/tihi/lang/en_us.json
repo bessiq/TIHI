@@ -2,6 +2,8 @@
 	"biome.good_nights_sleep.shameful_plains": "Shameful Plains",
 	"biome.good_nights_sleep.sleepy_hills": "Sleepy Hills",
 	"biome.good_nights_sleep.dreamy_forest": "Dreamy Forest",
+	"biome.good_nights_sleep.wasted_forest": "Wasted Forest",
+	"biome.good_nights_sleep.lollipop_lands": "Lollipop Lands",
 	"biome.mining_dimension.mining": "Mining and More",
 	"block.iceandfire.sea_serpent_scale_block_blue": "Blue Sea Serpent Scale Block",
 	"block.iceandfire.sea_serpent_scale_block_bronze": "Bronze Sea Serpent Scale Block",
@@ -73,11 +75,13 @@
 	"singularity.extendedcrafting.niter": "Niter",
 	"block.productivebees.nether_gold_nest": "Nether Gold Nest",
 	"item.productivebees.sugarbag_honeycomb": "Sugarbag Comb",
-	"entity.charm.moobloom": "Moobloom",
 	"gateways.small_wither_skeleton_gate": "Small Wither Skeleton Gateway",
 	"gateways.small_yeeter_gate": "Gateway of Yee",
 	"gateways.small_drowned_gate": "Small Drowned Gateway",
 	"gateways.small_phantom_gate": "Small Phantom Gateway",
 	"item.minecraft.splash_potion.effect.flight": "Splash Potion of Flight",
-	"item.minecraft.lingering_potion.effect.flight": "Lingering Potion of Flight"
+	"item.minecraft.lingering_potion.effect.flight": "Lingering Potion of Flight",
+	"item.forbidden_arcanus.pixie_spawn_egg": "Pixie Spawn Egg",
+	"entity.forbidden_arcanus.pixie": "Pixie",
+	"block.druidcraft.elder_fruit": "Elder Fruit"
 }
