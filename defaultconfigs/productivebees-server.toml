@@ -1,11 +1,11 @@
 
 [General]
-	#[UNUSED] Use items to change the type of a bee.
-	#If false, productive bees can only be obtained through breeding. Default false.
-	enableItemConverting = false
 	#How often should a bee attempt to generate items while in the hive. Default 500.
 	#Range: > 20
 	itemTickRate = 1500
+	#How long time a bee should stay in the hive when having delivered honey. Default 2400.
+	#Range: > 20
+	timeInHive = 2400
 	#How many ticks it takes for process a recipe in the centrifuge. Default 300.
 	#Range: > 20
 	centrifugeProcessingTime = 300
@@ -15,13 +15,8 @@
 	#How much FE to use per tick for a powered centrifuge when processing an item. Default 10.
 	#Range: > 1
 	centrifugePowerUse = 10
-	#[DEPRECATED] Bees will create combs instead of raw resource. Combs will need to be processed in a centrifuge. Default true.
-	enableCombProduce = true
-	#Deprecated: Moved to spawning recipe.
-	#Range: > 20
-	nestRepopulationCooldown = 3600
-	#A priority list of Mod IDs that results of comb output should stem from, aka which mod you want the copper to come from. Eg: mekanism,silents_mekanism,immersiveengineering
-	preferredOres = ["thermal", "mekanism", "minecraft", "immersiveengineering"]
+	#A priority list of Mod IDs that results of comb output should stem from, aka which mod you want the copper to come from.
+	preferredTagSource = ["thermal", "mekanism", "immersiveengineering", "create"]
 	#How many bees can fit in a bee bomb. Default is 10
 	#Range: 1 ~ 50
 	numberOfBeesPerBomb = 10
@@ -30,7 +25,7 @@
 	#Spawn skeletal and zombie bees as night?
 	spawnUndeadBees = true
 	#Range: 0.0 ~ 1.0
-	spawnUndeadBeesChance = 0.02
+	spawnUndeadBeesChance = 0.01
 	#How many animals a CuBee can breed per pollination
 	#Range: > 0
 	cupidBeeAnimalsPerPollination = 5

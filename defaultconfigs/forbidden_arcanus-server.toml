@@ -8,10 +8,10 @@
 	[gen.dark_runestone]
 		#Maximum size of Dark Runestone veins [default: 3]
 		#Range: 0 ~ 100
-		max_vein_size = 2
+		max_vein_size = 1
 		#Maximum Dark Runestone veins per chunk [default: 2]
 		#Range: 1 ~ 100
-		count = 2
+		count = 1
 		#Maximum height for Dark Runestone to generate [default: 8]
 		#Range: 1 ~ 256
 		max_height = 8
@@ -27,34 +27,34 @@
 		count = 1
 		#Maximum height for Stella Arcanum to generate [default: 50]
 		#Range: 1 ~ 256
-		max_height = 42
+		max_height = 8
 		#Generate Should Stella Arcanum? [default: true]
 		generate = true
 
 	[gen.arcane_crystal]
 		#Maximum size of Arcane Crystal Ore veins [default: 6]
 		#Range: 0 ~ 100
-		max_vein_size = 3
+		max_vein_size = 1
 		#Maximum Arcane Crystal Ore veins per chunk [default: 3]
 		#Range: 1 ~ 100
-		count = 2
+		count = 1
 		#Maximum height for Arcane Crystal Ore to generate [default: 25]
 		#Range: 1 ~ 256
-		max_height = 24
+		max_height = 21
 		#Generate Arcane Crystal Ore? [default: true]
 		generate = true
 
 	[gen.xpetrified_ore]
 		#Generate Xpetrified Ore? [default: true]
-		generate = true
+		generate = false
 
 	[gen.darkstone]
 		#Maximum size of Darkstone veins [default: 20]
 		#Range: 0 ~ 100
-		max_vein_size = 18
+		max_vein_size = 17
 		#Maximum Darkstone veins per chunk [default: 20]
 		#Range: 1 ~ 100
-		count = 18
+		count = 17
 		#Maximum height for Darkstone to generate [default: 8]
 		#Range: 1 ~ 256
 		max_height = 8
@@ -68,10 +68,10 @@
 	[gen.arcane_gilded_darkstone]
 		#Maximum size of Arcane Gilded Darkstone veins [default: 4]
 		#Range: 0 ~ 100
-		max_vein_size = 3
+		max_vein_size = 2
 		#Maximum Arcane Gilded Darkstone veins per chunk [default: 4]
 		#Range: 1 ~ 100
-		count = 3
+		count = 1
 		#Maximum height for Arcane Gilded Darkstone to generate [default: 8]
 		#Range: 1 ~ 256
 		max_height = 8
@@ -92,10 +92,10 @@
 		max_vein_size = 2
 		#Maximum Runestone veins per chunk [default: 2]
 		#Range: 1 ~ 100
-		count = 2
+		count = 1
 		#Maximum height for the Runestone to generate [default: 20]
 		#Range: 1 ~ 256
-		max_height = 20
+		max_height = 18
 		#Generate Runestone? [default: true]
 		generate = true
 

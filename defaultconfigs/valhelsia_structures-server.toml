@@ -1,7 +1,7 @@
 
 [structures]
 	#Biomes in which Structures cant generate in
-	blacklisted_biomes = ["minecraft:ocean", "minecraft:river", "minecraft:frozen_ocean", "minecraft:frozen_river", "minecraft:deep_ocean", "minecraft:warm_ocean", "minecraft:lukewarm_ocean", "minecraft:cold_ocean", "minecraft:deep_warm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:deep_cold_ocean", "minecraft:deep_frozen_ocean", "byg:dead_sea", "byg:polluted_lake", "byg:great_lakes", "byg:fresh_water_lake", "byg:frozen_lake"]
+	blacklisted_biomes = ["minecraft:ocean", "minecraft:river", "minecraft:frozen_ocean", "minecraft:frozen_river", "minecraft:deep_ocean", "minecraft:warm_ocean", "minecraft:lukewarm_ocean", "minecraft:cold_ocean", "minecraft:deep_warm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:deep_cold_ocean", "minecraft:deep_frozen_ocean", "byg:dead_sea", "byg:polluted_lake", "byg:great_lakes", "byg:fresh_water_lake", "byg:frozen_lake", "jellyfishing:jellyfish_fields", "more_jellyfish:kelp_forest", "more_jellyfish:rock_bottom"]
 
 	[structures.global]
 		#How flat does terrain need to be for surface structures to spawn? (in blocks) [default: 4]
@@ -13,13 +13,13 @@
 		generate = true
 		#Castle Spawn Chance [default: 0.5]
 		#Range: 0.0 ~ 1.0
-		spawn_chance = 0.6
+		spawn_chance = 0.7
 		#Castle Distance (in chunks) [default: 40]
 		#Range: 1 ~ 500
-		distance = 38
+		distance = 36
 		#Castle Minimum Separation (in chunks) [default: 8]
 		#Range: 1 ~ 500
-		separation = 8
+		separation = 11
 		#Biome Types the Castle can generate in
 		biome_categories = ["PLAINS", "FOREST", "TAIGA"]
 		#Biomes the Castle can NOT generate in
@@ -30,13 +30,13 @@
 		generate = true
 		#Castle Ruin Spawn Chance [default: 0.6]
 		#Range: 0.0 ~ 1.0
-		spawn_chance = 0.7
+		spawn_chance = 0.75
 		#Castle Ruin Distance (in chunks) [default: 35]
 		#Range: 1 ~ 500
-		distance = 34
+		distance = 33
 		#Castle Ruin Minimum Separation (in chunks) [default: 8]
 		#Range: 1 ~ 500
-		separation = 8
+		separation = 10
 		#Biome Types the Castle Ruin can generate in
 		biome_categories = ["PLAINS", "FOREST", "TAIGA"]
 		#Biomes the Castle Ruin can NOT generate in
@@ -47,13 +47,13 @@
 		generate = true
 		#Desert House Spawn Chance [default: 0.7]
 		#Range: 0.0 ~ 1.0
-		spawn_chance = 0.7
+		spawn_chance = 0.75
 		#Desert House Distance (in chunks) [default: 30]
 		#Range: 1 ~ 500
-		distance = 28
+		distance = 27
 		#Desert House Minimum Separation (in chunks) [default: 8]
 		#Range: 1 ~ 500
-		separation = 8
+		separation = 9
 		#Biome Types the Desert House can generate in
 		biome_categories = ["DESERT"]
 		#Biomes the Desert House can NOT generate in
@@ -64,13 +64,13 @@
 		generate = true
 		#Forge Spawn Chance [default: 0.7]
 		#Range: 0.0 ~ 1.0
-		spawn_chance = 0.7
+		spawn_chance = 0.75
 		#Forge Distance (in chunks) [default: 30]
 		#Range: 1 ~ 500
-		distance = 28
+		distance = 26
 		#Forge Minimum Separation (in chunks) [default: 8]
 		#Range: 1 ~ 500
-		separation = 9
+		separation = 8
 		#Biome Types the Forge can generate in
 		biome_categories = ["PLAINS", "FOREST", "EXTREME_HILLS", "TAIGA"]
 		#Biomes the Forge can NOT generate in
@@ -81,10 +81,10 @@
 		generate = true
 		#Player House Spawn Chance [default: 0.7]
 		#Range: 0.0 ~ 1.0
-		spawn_chance = 0.7
+		spawn_chance = 0.75
 		#Desert House Distance (in chunks) [default: 30]
 		#Range: 1 ~ 500
-		distance = 28
+		distance = 26
 		#Desert House Minimum Separation (in chunks) [default: 8]
 		#Range: 1 ~ 500
 		separation = 10
@@ -98,13 +98,13 @@
 		generate = true
 		#Small Dungeon Spawn Chance [default: 0.7]
 		#Range: 0.0 ~ 1.0
-		spawn_chance = 0.7
+		spawn_chance = 0.75
 		#Small Dungeon Distance (in chunks) [default: 30]
 		#Range: 1 ~ 500
-		distance = 29
+		distance = 26
 		#Small Dungeon Minimum Separation (in chunks) [default: 8]
 		#Range: 1 ~ 500
-		separation = 10
+		separation = 8
 		#Biome Types the Small Dungeon can generate in
 		biome_categories = ["PLAINS", "FOREST", "EXTREME_HILLS", "TAIGA", "DESERT", "MESA", "SAVANNA", "JUNGLE", "ICY", "SWAMP"]
 		#Biomes the Small Dungeon can NOT generate in
@@ -115,10 +115,10 @@
 		generate = true
 		#Tower Ruin Spawn Chance [default: 0.8]
 		#Range: 0.0 ~ 1.0
-		spawn_chance = 0.8
+		spawn_chance = 0.85
 		#Tower Ruin Distance (in chunks) [default: 25]
 		#Range: 1 ~ 500
-		distance = 24
+		distance = 22
 		#Tower Ruin Minimum Separation (in chunks) [default: 8]
 		#Range: 1 ~ 500
 		separation = 9
