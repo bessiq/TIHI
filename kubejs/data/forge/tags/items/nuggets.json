@@ -1,0 +1,12 @@
+{
+    "replace": false,
+    "values": [
+        "#forge:nuggets/bismuth",
+        "#forge:nuggets/coal",
+        "#forge:nuggets/diamond",
+        "#forge:nuggets/emerald",
+        "#forge:nuggets/ender_pearl",
+        "#forge:nuggets/lapis",
+        "#forge:nuggets/obsidian"
+    ]
+}
