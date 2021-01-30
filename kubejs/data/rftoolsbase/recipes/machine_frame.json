@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ili",
+    "g g",
+    "ili"
+  ],
+  "key": {
+    "g": {
+      "item": "create:andesite_alloy"
+    },
+    "i": {
+      "tag": "forge:ingots/steel"
+    },
+    "l": {
+      "tag": "forge:gems/biotite"
+    }
+  },
+  "result": {
+    "item": "rftoolsbase:machine_frame"
+  }
+}
