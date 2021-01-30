@@ -1,19 +1,19 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "bsb",
+        "dsd",
         "sus",
-        "dsd"
+        "dbd"
     ],
     "key": {
-        "s": {
-            "item": "powah:charged_snowball"
+        "b": {
+            "item": "xreliquary:frozen_core"
         },
         "u": {
             "item": "mininggadgets:upgrade_empty"
         },
-        "b": {
-            "item": "powah:dry_ice"
+        "s": {
+            "tag": "forge:ingots/osmium"
         },
         "d": {
             "tag": "forge:ices"

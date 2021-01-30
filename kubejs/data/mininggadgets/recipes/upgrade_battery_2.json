@@ -10,7 +10,7 @@
             "item": "appliedenergistics2:purified_nether_quartz_crystal"
         },
         "b": {
-            "item": "powah:battery_basic"
+            "item": "mekanism:basic_energy_cube"
         },
         "u": {
             "item": "mininggadgets:upgrade_battery_1"
