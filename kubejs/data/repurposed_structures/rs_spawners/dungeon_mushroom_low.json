@@ -5,10 +5,6 @@
             "weight": 94
         },
         {
-            "name": "charm:moobloom",
-            "weight": 2
-        },
-        {
             "name": "minecraft:mooshroom",
             "weight": 4
         }
