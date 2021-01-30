@@ -44,7 +44,7 @@ onEvent('recipes', event => {
     )
     orely(
         'fluorite',
-        'thermal:fluorite_ore',
+        'mekanism:fluorite_ore',
     )
     orely(
         'gold',

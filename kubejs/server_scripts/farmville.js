@@ -1,78 +1,79 @@
 // future farmers of minecraft
 
 onEvent('recipes', event => {
-    
-    const yeehaw = (name, cropY, seedY, vegetableY, fruitY) => {
-        event.replaceOutput('#forge:crops/' + name, cropY)
-        event.replaceOutput('#forge:seeds/' + name, seedY)
-        event.replaceOutput('#forge:vegetables/' + name, vegetableY)
-        event.replaceOutput('#forge:fruits/' + name, fruitY)
 
-        event.replaceInput(cropY, '#forge:crops/' + name)
-        event.replaceInput(seedY, '#forge:seeds/' + name)
-        event.replaceInput(vegetableY, '#forge:vegetables/' + name)
-        event.replaceInput(fruitY, '#forge:fruits/' + name)
+    const yeehaw = (name, crop, seed) => {
+        event.replaceOutput('#forge:crops/' + name, crop)
+        event.replaceOutput('#forge:seeds/' + name, seed)
+
+        event.replaceInput({ mod: 'thermal' }, 'thermal:' + name, '#forge:crops/' + name)
+        event.replaceInput({ mod: 'thermal' }, 'thermal:strawberry', '#forge:crops/strawberry')
+        event.replaceInput({ mod: 'druidcraft' }, 'druidcraft:blueberries', '#forge:fruits/blueberries')
+        event.replaceInput({ mod: 'druidcraft' }, 'druidcraft:elderberries', '#forge:fruits/elderberry')
+        event.replaceInput({ mod: 'mysticalworld' }, 'mysticalworld:aubergine', '#forge:crops/eggplant')
+
+        var modname = ['minecraft', 'mysticalworld', 'pneumaticcraft', 'gobber2', 'thermal', 'enigmaticlegacy', 'astralsorcery', 'naturesaura', 'eidolon', 'botania', 'xreliquary', 'immersiveengineering']
+        event.replaceInput({ mod: modname }, 'minecraft:apple', '#forge:fruits/apple')
     }
 
     yeehaw(
         'barley',
-        'simplefarming:barley',
-        'simplefarming:barley_seeds',
+        'pamhc2crops:barleyitem',
+        'pamhc2crops:barleyseeditem',
+    )
+    yeehaw(
+        'bell_pepper',
+        'pamhc2crops:bellpepperitem',
+        'pamhc2crops:bellpepperseeditem',
+    )
+    yeehaw(
+        'coffee',
+        'pamhc2crops:coffeebeanitem',
+        'pamhc2crops:coffeebeanseeditem',
     )
     yeehaw(
         'corn',
-        'simplefarming:corn',
-        'simplefarming:corn_seeds',
-        'simplefarming:corn',
-    )
-    yeehaw(
-        'onion',
-        'simplefarming:onion',
-        'simplefarming:onion_seeds',
-        'simplefarming:onion',
-    )
-    yeehaw(
-        'radish',
-        'simplefarming:radish',
-        'simplefarming:radish_seeds',
-        'simplefarming:radish',
-    )
-    yeehaw(
-        'rice',
-        'simplefarming:rice',
-        'simplefarming:rice_seeds',
-    )
-    yeehaw(
-        'spinach',
-        'simplefarming:spinach',
-        'simplefarming:spinach_seeds',
-        'simplefarming:spinach',
-    )
-    yeehaw(
-        'pepper',
-        'simplefarming:pepper',
-        'simplefarming:pepper_seeds',
-        'simplefarming:pepper',
+        'pamhc2crops:cornitem',
+        'pamhc2crops:cornseeditem',
     )
     yeehaw(
         'eggplant',
-        'simplefarming:eggplant',
-        'simplefarming:eggplant_seeds',
-        'simplefarming:eggplant',
+        'pamhc2crops:eggplantitem',
+        'pamhc2crops:eggplantseeditem',
+    )
+    yeehaw(
+        'onion',
+        'pamhc2crops:onionitem',
+        'pamhc2crops:onionseeditem',
     )
     yeehaw(
         'peanut',
-        'simplefarming:peanut',
-        'simplefarming:peanut_seeds',
+        'pamhc2crops:peanutitem',
+        'pamhc2crops:peanutseeditem',
     )
     yeehaw(
-        'strawberry',
-        'simplefarming:strawberries',
+        'radish',
+        'pamhc2crops:radishitem',
+        'pamhc2crops:radishseeditem',
+    )
+    yeehaw(
+        'rice',
+        'pamhc2crops:riceitem',
+        'pamhc2crops:riceseeditem',
+    )
+    yeehaw(
+        'spinach',
+        'pamhc2crops:spinachitem',
+        'pamhc2crops:spinachseeditem',
+    )
+    yeehaw(
+        'tea',
+        'pamhc2crops:tealeafitem',
+        'pamhc2crops:tealeafseeditem',
     )
     yeehaw(
         'tomato',
-        'simplefarming:tomato',
-        'simplefarming:tomato_seeds',
-        'simplefarming:tomato',
+        'pamhc2crops:tomatoitem',
+        'pamhc2crops:tomatoseeditem',
     )
 })
