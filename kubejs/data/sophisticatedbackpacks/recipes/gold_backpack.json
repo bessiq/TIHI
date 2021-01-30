@@ -1,0 +1,28 @@
+{
+    "type": "sophisticatedbackpacks:backpack_upgrade",
+    "conditions": [
+        {
+            "itemRegistryName": "gold_backpack",
+            "type": "sophisticatedbackpacks:item_enabled"
+        }
+    ],
+    "pattern": [
+        "GNG",
+        "GBG",
+        "GGG"
+    ],
+    "key": {
+        "G": {
+            "tag": "forge:ingots/gold"
+        },
+        "B": {
+            "item": "sophisticatedbackpacks:iron_backpack"
+        },
+        "N": {
+            "item": "byg:ametrine_gems"
+        }
+    },
+    "result": {
+        "item": "sophisticatedbackpacks:gold_backpack"
+    }
+}
