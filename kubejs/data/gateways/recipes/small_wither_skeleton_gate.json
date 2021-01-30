@@ -8,13 +8,13 @@
   ],
   "key": {
     "#": {
-      "item": "wstweaks:fragment"
+      "item": "xreliquary:withered_rib"
     },
     "A": {
       "item": "minecraft:ender_pearl"
     },
     "X": {
-      "item": "xreliquary:withered_rib"
+      "item": "minecraft:wither_skeleton_skull"
     }
   },
   "result": {
