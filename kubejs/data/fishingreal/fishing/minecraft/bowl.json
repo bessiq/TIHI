@@ -1,0 +1,8 @@
+{
+  "input": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "id": "minecraft:spider"
+  }
+}

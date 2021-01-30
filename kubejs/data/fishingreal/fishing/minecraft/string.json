@@ -1,0 +1,8 @@
+{
+  "input": {
+    "item": "minecraft:string"
+  },
+  "result": {
+    "id": "sfl:water_mimic"
+  }
+}
