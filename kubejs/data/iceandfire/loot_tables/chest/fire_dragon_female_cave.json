@@ -311,11 +311,11 @@
         {
           "type": "minecraft:loot_table",
           "name": "minecraft:chests/simple_dungeon",
-          "weight": 2
+          "weight": 3
         },
         {
           "type": "empty",
-          "weight": 66
+          "weight": 42
         }
       ]
     }
