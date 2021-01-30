@@ -1,0 +1,19 @@
+{
+  "type": "occultism:append_loot",
+  "conditions": [
+    {
+      "condition": "occultism:match_block",
+      "tag": "occultism:datura_seed_sources"
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "item": "minecraft:shears"
+        }
+      }
+    }
+  ],
+  "add_loot": "occultism:blocks/datura_seed_additions"
+}
