@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "naturesaura:gold_powder"
+        }
+    ],
+    "result": {
+        "item": "thermal:gold_dust"
+    }
+}

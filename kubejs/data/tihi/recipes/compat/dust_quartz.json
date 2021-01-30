@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "mahoutsukai:powdered_quartz"
+        }
+    ],
+    "result": {
+        "item": "thermal:quartz_dust"
+    }
+}

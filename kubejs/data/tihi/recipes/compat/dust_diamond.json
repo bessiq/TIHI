@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "mahoutsukai:powdered_diamond"
+        }
+    ],
+    "result": {
+        "item": "thermal:diamond_dust"
+    }
+}
