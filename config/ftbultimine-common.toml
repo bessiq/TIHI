@@ -7,7 +7,7 @@ exhaustion_per_block = 66.6
 #Doesn't stop at different types of stones
 merge_stone = true
 #Tools that won't let you active ultimine when held
-tool_blacklist = ["mininggadgets:mininggadget", "mekanism:atomic_disassembler", "immersiveengineering:drill", "industrialforegoing:infinity_drill", "thermal:flux_drill"]
+tool_blacklist = ["mininggadgets:mininggadget", "mekanism:atomic_disassembler", "immersiveengineering:drill"]
 #Required for some modpacks
 #Range: -1 ~ 8
 render_text_manually = 8

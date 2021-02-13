@@ -84,8 +84,6 @@ key_key.ars_nouveau.open_book:key.keyboard.c:NONE
 key_key.ars_nouveau.selection_hud:key.keyboard.v:NONE
 key_key.ars_nouveau.previous_slot:key.keyboard.z:NONE
 key_key.ars_nouveau.next_slot:key.keyboard.x:NONE
-key_key.drawMahoujin:key.keyboard.m:NONE
-key_key.changeMysticCode:key.keyboard.y:NONE
 key_gui.xaero_switch_waypoint_set:key.keyboard.unknown:NONE
 key_gui.xaero_instant_waypoint:key.keyboard.keypad.add:NONE
 key_gui.xaero_toggle_slime:key.keyboard.unknown:NONE

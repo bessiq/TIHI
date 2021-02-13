@@ -141,6 +141,7 @@
 	Grate = true
 	"Variant Bookshelves" = true
 	Stools = true
+	Hedges = true
 
 	[building.rope]
 		"Enable Dispenser Behavior" = true
@@ -167,11 +168,11 @@
 	[building.compressed_blocks]
 		"Enable Cocoa Bean Sack" = true
 		"Enable Cactus Block" = true
-		"Enable Apple Crate" = false
+		"Enable Apple Crate" = true
 		"Charcoal Block and Blaze Lantern Stay On Fire Forever" = true
 		"Enable Bonded Rabbit Hide" = true
 		"Enable Charcoal Block" = false
-		"Enable Gunpowder Sack" = false
+		"Enable Gunpowder Sack" = true
 		"Enable Potato Crate" = false
 		"Enable Stick Block" = true
 		"Enable Carrot Crate" = false
@@ -179,10 +180,10 @@
 		"Enable Nether Wart Sack" = true
 		"Enable Chorus Fruit Block" = true
 		"Enable Blaze Lantern" = true
-		"Enable Bamboo Block" = false
+		"Enable Bamboo Block" = true
 		"Enable Berry Sack" = true
 		"Enable Golden Apple Crate" = true
-		"Enable Sugar Cane Block" = false
+		"Enable Sugar Cane Block" = true
 		"Enable Bonded Leather" = true
 		#
 		#Allowed values: [0,)
@@ -193,6 +194,9 @@
 		#
 		#Allowed values: [0,)
 		"Stick Block Fuel Time" = 900
+		#
+		#Allowed values: [0,)
+		"Bamboo Bundle Fuel Time" = 500
 
 	[building.variant_chests]
 		"Replace Worldgen Chests" = true
@@ -390,6 +394,7 @@
 	"Snow Golem Player Heads" = true
 	"Glass Shard" = true
 	"Campfires Boost Elytra" = true
+	"Lava Bucket As Trash" = true
 
 	[tweaks.sign_editing]
 		"Requires Empty Hand" = false
@@ -575,7 +580,7 @@
 		#
 		#Blocks that stone clusters can replace. If you want to make it so it only replaces in one dimension,
 		#do "block|dimension", as we do for netherrack and end stone by default.
-		"Blocks To Replace" = ["minecraft:stone", "minecraft:andesite", "minecraft:diorite", "minecraft:granite", "minecraft:netherrack|minecraft:the_nether", "minecraft:end_stone|minecraft:the_end", "quark:marble", "quark:limestone", "quark:jasper", "quark:slate", "quark:basalt", "embellishcraft:basalt", "embellishcraft:slate", "embellishcraft:marble", "embellishcraft:gneiss", "embellishcraft:jade", "embellishcraft:larvikite", "byg:dacite", "byg:red_rock", "byg:rocky_stone", "byg:mossy_stone", "byg:blue_netherrack|minecraft:the_nether", "byg:brimstone|minecraft:the_nether"]
+		"Blocks To Replace" = ["minecraft:stone", "minecraft:andesite", "minecraft:diorite", "minecraft:granite", "minecraft:netherrack|minecraft:the_nether", "minecraft:end_stone|minecraft:the_end", "quark:marble", "quark:limestone", "quark:jasper", "quark:slate", "quark:basalt", "byg:dacite", "byg:red_rock", "byg:rocky_stone", "byg:mossy_stone", "byg:blue_netherrack|minecraft:the_nether", "byg:brimstone|minecraft:the_nether"]
 
 		[world.big_stone_clusters.marble]
 			#
@@ -583,7 +588,7 @@
 			"Horizontal Size" = 14
 			#
 			#Allowed values: [0,)
-			Rarity = 4
+			Rarity = 3
 			#
 			#Allowed values: [0,255]
 			"Min Y Level" = 20
@@ -606,7 +611,7 @@
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
 				# icy, the_end, beach, forest, ocean, desert, river, swamp,
 				# mushroom, nether]
-				"Biome Categories" = ["plains", "river"]
+				"Biome Categories" = ["plains", "beach"]
 				"Is Blacklist" = false
 
 			[world.big_stone_clusters.marble.dimensions]
@@ -619,7 +624,7 @@
 			"Horizontal Size" = 14
 			#
 			#Allowed values: [0,)
-			Rarity = 4
+			Rarity = 3
 			#
 			#Allowed values: [0,255]
 			"Min Y Level" = 20
@@ -642,7 +647,7 @@
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
 				# icy, the_end, beach, forest, ocean, desert, river, swamp,
 				# mushroom, nether]
-				"Biome Categories" = ["swamp", "ocean"]
+				"Biome Categories" = ["swamp", "ocean", "river"]
 				"Is Blacklist" = false
 
 			[world.big_stone_clusters.limestone.dimensions]
@@ -655,7 +660,7 @@
 			"Horizontal Size" = 14
 			#
 			#Allowed values: [0,)
-			Rarity = 4
+			Rarity = 3
 			#
 			#Allowed values: [0,255]
 			"Min Y Level" = 20
@@ -691,7 +696,7 @@
 			"Horizontal Size" = 19
 			#
 			#Allowed values: [0,)
-			Rarity = 20
+			Rarity = 18
 			#
 			#Allowed values: [0,255]
 			"Min Y Level" = 0
@@ -711,7 +716,7 @@
 
 			[world.big_stone_clusters.voidstone.biomes]
 				"Is Blacklist" = false
-				Biomes = ["minecraft:end_highlands", "minecraft:end_midlands", "minecraft:end_barrens", "byg:ivis_fields"]
+				Biomes = ["minecraft:end_highlands", "minecraft:end_midlands", "minecraft:end_barrens", "byg:ivis_fields", "byg:purpur_peaks", "byg:nightshade_forest"]
 
 			[world.big_stone_clusters.voidstone.dimensions]
 				Dimensions = ["minecraft:the_end"]
@@ -723,7 +728,7 @@
 			"Horizontal Size" = 14
 			#
 			#Allowed values: [0,)
-			Rarity = 4
+			Rarity = 3
 			#
 			#Allowed values: [0,255]
 			"Min Y Level" = 20
@@ -759,7 +764,7 @@
 			"Horizontal Size" = 14
 			#
 			#Allowed values: [0,)
-			Rarity = 4
+			Rarity = 3
 			#
 			#Allowed values: [0,255]
 			"Min Y Level" = 20
@@ -795,7 +800,7 @@
 			"Horizontal Size" = 14
 			#
 			#Allowed values: [0,)
-			Rarity = 4
+			Rarity = 3
 			#
 			#Allowed values: [0,255]
 			"Min Y Level" = 20
@@ -831,7 +836,7 @@
 			"Horizontal Size" = 14
 			#
 			#Allowed values: [0,)
-			Rarity = 4
+			Rarity = 3
 			#
 			#Allowed values: [0,255]
 			"Min Y Level" = 20
@@ -866,7 +871,7 @@
 			Enabled = true
 			#
 			#Allowed values: [0,)
-			Rarity = 100
+			Rarity = 80
 			#
 			#Allowed values: [0,255]
 			"Min Y Level" = 58
@@ -891,7 +896,7 @@
 				Dimensions = ["minecraft:the_end"]
 
 			[world.big_stone_clusters.myalite.biomes]
-				Biomes = ["minecraft:end_highlands"]
+				Biomes = ["minecraft:end_highlands", "betterendforge:crystal_mountains"]
 				"Is Blacklist" = false
 
 	[world.cave_crystal_underground_biome]
@@ -910,7 +915,7 @@
 			"Horizontal Size" = 42
 			#
 			#Allowed values: [0,)
-			Rarity = 400
+			Rarity = 350
 			#
 			#Allowed values: [0,255]
 			"Min Y Level" = 0
@@ -947,7 +952,7 @@
 			"Horizontal Size" = 26
 			#
 			#Allowed values: [0,)
-			Rarity = 80
+			Rarity = 60
 			#
 			#Allowed values: [0,255]
 			"Min Y Level" = 0
@@ -995,7 +1000,7 @@
 			"Horizontal Size" = 26
 			#
 			#Allowed values: [0,)
-			Rarity = 80
+			Rarity = 60
 			#
 			#Allowed values: [0,255]
 			"Min Y Level" = 0
@@ -1032,7 +1037,7 @@
 			"Horizontal Size" = 26
 			#
 			#Allowed values: [0,)
-			Rarity = 80
+			Rarity = 60
 			#
 			#Allowed values: [0,255]
 			"Min Y Level" = 0
@@ -1109,7 +1114,7 @@
 			"Horizontal Size" = 50
 			#
 			#Allowed values: [0,)
-			Rarity = 150
+			Rarity = 130
 			#
 			#Allowed values: [0,255]
 			"Min Y Level" = 15
@@ -1150,7 +1155,7 @@
 			"Horizontal Size" = 26
 			#
 			#Allowed values: [0,)
-			Rarity = 80
+			Rarity = 60
 			#
 			#Allowed values: [0,255]
 			"Min Y Level" = 0
@@ -1363,7 +1368,7 @@
 			"Horizontal Size" = 26
 			#
 			#Allowed values: [0,)
-			Rarity = 80
+			Rarity = 60
 			#
 			#Allowed values: [0,255]
 			"Min Y Level" = 0
@@ -1405,8 +1410,8 @@
 			#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
 			# icy, the_end, beach, forest, ocean, desert, river, swamp,
 			# mushroom, nether]
-			"Biome Categories" = ["taiga", "extreme_hills", "jungle", "mesa", "plains", "savanna", "forest", "desert", "swamp"]
-			"Is Blacklist" = false
+			"Biome Categories" = ["the_end", "nether", "mushroom", "ocean", "beach", "river"]
+			"Is Blacklist" = true
 
 	[world.blossom_trees]
 
@@ -1537,7 +1542,7 @@
 			"Horizontal Size" = 26
 			#
 			#Allowed values: [0,)
-			Rarity = 120
+			Rarity = 70
 			#
 			#Allowed values: [0,255]
 			"Min Y Level" = 0
@@ -1574,7 +1579,7 @@
 			"Horizontal Size" = 80
 			#
 			#Allowed values: [0,)
-			Rarity = 600
+			Rarity = 400
 			#
 			#Allowed values: [0,255]
 			"Min Y Level" = 10
@@ -1621,7 +1626,7 @@
 			"Horizontal Size" = 26
 			#
 			#Allowed values: [0,)
-			Rarity = 200
+			Rarity = 140
 			#
 			#Allowed values: [0,255]
 			"Min Y Level" = 0
@@ -1666,7 +1671,7 @@
 			"Horizontal Size" = 26
 			#
 			#Allowed values: [0,)
-			Rarity = 80
+			Rarity = 70
 			#
 			#Allowed values: [0,255]
 			"Min Y Level" = 0
@@ -1696,7 +1701,7 @@
 				"Is Blacklist" = false
 
 	[world.spiral_spires]
-		Rarity = 200
+		Rarity = 180
 		Radius = 15
 		#
 		#Set to 0 to turn off Myalite Conduits
@@ -1708,7 +1713,7 @@
 			Dimensions = ["minecraft:the_end"]
 
 		[world.spiral_spires.biomes]
-			Biomes = ["minecraft:end_highlands"]
+			Biomes = ["minecraft:end_highlands", "byg:ivis_fields"]
 			"Is Blacklist" = false
 
 	[world.chorus_vegetation]
@@ -1717,7 +1722,7 @@
 		"Chunk Attempts" = 120
 		"Highlands Chance" = 1.0
 		"Midlands Chance" = 0.2
-		"Other End Biomes Chance" = 0.0
+		"Other End Biomes Chance" = 0.05
 		"Passive Teleport Chance" = 0.2
 		"Endermite Spawn Chance" = 0.01
 		"Teleport Duplication Chance" = 0.01
@@ -1728,6 +1733,8 @@
 	Stonelings = true
 	Foxhound = true
 	Toretoise = true
+	Forgotten = true
+	Wraith = true
 
 	[mobs.stonelings]
 		"Cautious Stonelings" = true
@@ -1864,6 +1871,35 @@
 				# icy, the_end, beach, forest, ocean, desert, river, swamp,
 				# mushroom, nether]
 				"Biome Categories" = ["swamp"]
+				"Is Blacklist" = false
+
+	[mobs.forgotten]
+		#
+		#1 in this many Skeletons that spawn under the threshold are replaced with Forgotten.
+		"Forgotten Spawn Rate" = 0.05
+		"Max Height For Spawn" = 20
+
+	[mobs.wraith]
+		#
+		#List of sound sets to use with wraiths.
+		#Three sounds must be provided per entry, separated by | (in the format idle|hurt|death). Leave blank for no sound (i.e. if a mob has no ambient noise)
+		"Wraith Sounds" = ["entity.sheep.ambient|entity.sheep.hurt|entity.sheep.death", "entity.cow.ambient|entity.cow.hurt|entity.cow.death", "entity.pig.ambient|entity.pig.hurt|entity.pig.death", "entity.chicken.ambient|entity.chicken.hurt|entity.chicken.death", "entity.horse.ambient|entity.horse.hurt|entity.horse.death", "entity.cat.ambient|entity.cat.hurt|entity.cat.death", "entity.wolf.ambient|entity.wolf.hurt|entity.wolf.death", "entity.villager.ambient|entity.villager.hurt|entity.villager.death", "entity.polar_bear.ambient|entity.polar_bear.hurt|entity.polar_bear.death", "entity.zombie.ambient|entity.zombie.hurt|entity.zombie.death", "entity.skeleton.ambient|entity.skeleton.hurt|entity.skeleton.death", "entity.spider.ambient|entity.spider.hurt|entity.spider.death", "|entity.creeper.hurt|entity.creeper.death", "entity.endermen.ambient|entity.endermen.hurt|entity.endermen.death", "entity.zombie_pig.ambient|entity.zombie_pig.hurt|entity.zombie_pig.death", "entity.witch.ambient|entity.witch.hurt|entity.witch.death", "entity.blaze.ambient|entity.blaze.hurt|entity.blaze.death", "entity.llama.ambient|entity.llama.hurt|entity.llama.death", "|quark:entity.stoneling.cry|quark:entity.stoneling.die", "quark:entity.frog.idle|quark:entity.frog.hurt|quark:entity.frog.die"]
+
+		[mobs.wraith.spawn_config]
+			"Max Cost" = 0.7
+			"Spawn Cost" = 0.15
+			#
+			#Allowed values: (0,)
+			"Spawn Weight" = 8
+			#
+			#Allowed values: [1,)
+			"Min Group Size" = 1
+			#
+			#Allowed values: [1,)
+			"Max Group Size" = 3
+
+			[mobs.wraith.spawn_config.biomes]
+				Biomes = ["minecraft:soul_sand_valley", "mining_dimension:mining"]
 				"Is Blacklist" = false
 
 [client]

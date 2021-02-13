@@ -1,29 +1,29 @@
 
 #Statue drop Settings
 [drops]
-	#Source of death that determines how the Statues drop [player statue has it's own config option]
+	#Source of death that determines how the Statues drop (Default: "PLAYER") [player statue has it's own config option]
 	#ALL = All sources
 	#PLAYER = Player only
 	#PLAYER_FAKEPLAYER = Players / Fake players only
 	#Allowed Values: ALL, PLAYER, PLAYER_FAKEPLAYER
 	statueKillSource = "PLAYER"
-	#The drop chance of statues when statue drops is true
+	#The drop chance of statues when statue drops is true (Default: 0.01)
 	#Range: 0.0 ~ 1.0
 	statueDropChance = 0.01
 
 #Player Statue Settings
 [player]
-	#When true players will drop Player Statues when killed
+	#When true players will drop Player Statues when killed (Default: true)
 	playerDropsStatue = true
-	#Source of death that determines how the Player Statue drops [player statue has it's own config option]
+	#Source of death that determines how the Player Statue drops (Default: "PLAYER") [player statue has it's own config option]
 	#ALL = All sources
 	#PLAYER = Player only
 	#PLAYER_FAKEPLAYER = Players / Fake players only
 	#Allowed Values: ALL, PLAYER, PLAYER_FAKEPLAYER
 	playerDropsKillSource = "ALL"
-	#When true Statues will add a player compass
+	#When true Statues will add a player compass (Default: true)
 	playerCompass = true
-	#The drop chance of player statues when playerDropsStatue is enabled
+	#The drop chance of player statues when playerDropsStatue is enabled (Default: 1.0)
 	#Range: 0.0 ~ 1.0
 	statueDropChance = 0.05
 
@@ -36,4 +36,9 @@
 [lucky_players]
 	#Adding usernames will make these users have less luck with getting statues
 	lucky_players = ["iskall85"]
+
+#General settings
+[general]
+	#Setting this to false disables the statue bat from spawning naturally (Default: true)
+	statueBatSpawning = false
 

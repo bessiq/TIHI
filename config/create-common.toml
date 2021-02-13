@@ -17,16 +17,16 @@
 			enable = false
 			#
 			#Range: > 0
-			clusterSize = 18
+			clusterSize = 12
 			#
 			#Range: > 0
-			clusterCount = 2
+			clusterCount = 3
 			#
 			#Range: > 0
-			minHeight = 40
+			minHeight = 42
 			#
 			#Range: > 0
-			maxHeight = 86
+			maxHeight = 255
 
 		[worldgen.v1.copper_ore_ocean]
 			#
@@ -34,21 +34,21 @@
 			enable = false
 			#
 			#Range: > 0
-			clusterSize = 15
+			clusterSize = 14
 			#
 			#Range: > 0
 			clusterCount = 4
 			#
 			#Range: > 0
-			minHeight = 20
+			minHeight = 18
 			#
 			#Range: > 0
-			maxHeight = 55
+			maxHeight = 54
 
 		[worldgen.v1.zinc_ore]
 			#
 			#Whether to spawn this in your World
-			enable = true
+			enable = false
 			#
 			#Range: > 0
 			clusterSize = 7
@@ -65,7 +65,7 @@
 		[worldgen.v1.zinc_ore_desert]
 			#
 			#Whether to spawn this in your World
-			enable = true
+			enable = false
 			#
 			#Range: > 0
 			clusterSize = 8
@@ -88,7 +88,7 @@
 			clusterSize = 100
 			#
 			#Range: 0.0 ~ 1.0
-			clusterChance = 0.04
+			clusterChance = 0.06
 			#
 			#Range: > 0
 			minHeight = 42
@@ -105,7 +105,7 @@
 			clusterSize = 100
 			#
 			#Range: 0.0 ~ 1.0
-			clusterChance = 0.04
+			clusterChance = 0.06
 			#
 			#Range: > 0
 			minHeight = 12
@@ -122,7 +122,7 @@
 			clusterSize = 100
 			#
 			#Range: 0.0 ~ 1.0
-			clusterChance = 0.02
+			clusterChance = 0.04
 			#
 			#Range: > 0
 			minHeight = 20
@@ -139,7 +139,7 @@
 			clusterSize = 100
 			#
 			#Range: 0.0 ~ 1.0
-			clusterChance = 0.02
+			clusterChance = 0.04
 			#
 			#Range: > 0
 			minHeight = 20
@@ -156,7 +156,7 @@
 			clusterSize = 100
 			#
 			#Range: 0.0 ~ 1.0
-			clusterChance = 0.04
+			clusterChance = 0.06
 			#
 			#Range: > 0
 			minHeight = 0

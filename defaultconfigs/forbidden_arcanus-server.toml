@@ -27,9 +27,9 @@
 		count = 1
 		#Maximum height for Stella Arcanum to generate [default: 50]
 		#Range: 1 ~ 256
-		max_height = 8
+		max_height = 5
 		#Generate Should Stella Arcanum? [default: true]
-		generate = true
+		generate = false
 
 	[gen.arcane_crystal]
 		#Maximum size of Arcane Crystal Ore veins [default: 6]
@@ -42,7 +42,7 @@
 		#Range: 1 ~ 256
 		max_height = 21
 		#Generate Arcane Crystal Ore? [default: true]
-		generate = true
+		generate = false
 
 	[gen.xpetrified_ore]
 		#Generate Xpetrified Ore? [default: true]

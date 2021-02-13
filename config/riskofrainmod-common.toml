@@ -8,6 +8,10 @@
 	"Nether spawns" = true
 	#Whether to spawn Lemurians or not
 	"Spawn Lemurians" = true
+	#Wheter to allow Stone Golems spawn persistence or not
+	"Stone Golem spawn persistence" = false
+	#Wheter to allow Stone Golems laser to knockback players or not (crash risk)
+	"Stone Golem laser knockback" = false
 
 ["Entity spawn rates"]
 	#The weight of Gunner Drones in vanilla spawn rate
@@ -15,14 +19,14 @@
 	"Gunner Drone weight" = 1
 	#The weight of Stone Golems in vanilla spawn rate
 	#Range: 1 ~ 100
-	"Stone Golem weight" = 20
+	"Stone Golem weight" = 18
 	#The weight of Lemurians in vanilla spawn rate
 	#Range: 1 ~ 100
-	"Lemurian weight" = 50
+	"Lemurian weight" = 32
 
 ["Withelisted overworld spawn biomes"]
 	#Use the format "mod_ID:biome" like "minecraft:plains" or "rats:ratlantis". You can see a mod's ID by clicking the 'Mods' button on the main screen and clicking on the mod's name on the left 
-	"Overworld whitelist" = ["minecraft:bamboo_jungle_hills", "byg:redwood_tropics", "byg:tropical_rainforest_hills", "byg:jacaranda_forest_hills", "byg:crag_gardens", "byg:basalt_barrera", "byg:tropical_fungal_rainforest_hills", "byg:ivis_fields", "mining_dimension:mining", "gaiadimension:purple_agate_swamp"]
+	"Overworld whitelist" = ["minecraft:bamboo_jungle_hills", "byg:redwood_tropics", "byg:tropical_rainforest_hills", "byg:jacaranda_forest_hills", "byg:crag_gardens", "byg:basalt_barrera", "byg:tropical_fungal_rainforest_hills", "byg:ivis_fields", "mining_dimension:mining", "gaiadimension:purple_agate_swamp", "more_jellyfish:rock_bottom", "undergarden:gronglegrowth", "byg:purpur_peaks", "minecraft:mushroom_field_shore", "byg:coral_mangroves", "byg:glowing_ancient_forest", "minecraft:jungle_edge"]
 
 ["Withelisted nether spawn biomes"]
 	#Use the format like "minecraft:nether_wastes" 

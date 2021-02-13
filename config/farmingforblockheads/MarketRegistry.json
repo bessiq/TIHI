@@ -9,7 +9,7 @@
         "tihi:exotic_seeds": {
             "name": "Exotic Seeds",
             "icon": {
-                "item": "thermal:frost_melon_seeds"
+                "item": "good_nights_sleep:rainbow_seeds"
             }
         },
         "tihi:common_saplings": {
@@ -24,10 +24,28 @@
                 "item": "gaiadimension:pink_agate_sapling"
             }
         },
+        "tihi:common_fruit": {
+            "name": "Common Fruit",
+            "icon": {
+                "item": "minecraft:apple"
+            }
+        },
+        "tihi:exotic_fruit": {
+            "name": "Exotic Fruit",
+            "icon": {
+                "item": "minecraft:golden_apple"
+            }
+        },
         "tihi:common_flowers": {
             "name": "Common Flowers",
             "icon": {
                 "item": "minecraft:dandelion"
+            }
+        },
+        "tihi:exotic_flowers": {
+            "name": "Exotic Flowers",
+            "icon": {
+                "item": "botania:magenta_mystical_flower"
             }
         },
         "tihi:misc": {

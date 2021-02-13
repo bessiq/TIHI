@@ -30,19 +30,19 @@
 	prosperitySpawnSize = 2
 	#How many Inferium Ore veins should spawn in a chunk.
 	#Range: 0 ~ 128
-	inferiumSpawnRate = 0
+	inferiumSpawnRate = 2
 	#The maximum amount of Inferium Ore blocks that can spawn in a vein.
 	#Range: 0 ~ 64
 	inferiumSpawnSize = 2
 	#How many Prosperity Ore veins should spawn in a chunk.
 	#Range: 0 ~ 128
-	prosperitySpawnRate = 0
+	prosperitySpawnRate = 2
 	#The maximum Y level that Soulstone veins can spawn.
 	#Range: 0 ~ 128
-	inferiumSpawnHeight = 20
+	inferiumSpawnHeight = 16
 	#The maximum Y level that Prosperity Ore veins can spawn.
 	#Range: 0 ~ 256
-	prosperitySpawnHeight = 20
+	prosperitySpawnHeight = 14
 	#Should Inferium Ore generate in the world?
 	generateInferiumOre = true
 	#The maximum amount of Soulstone blocks that can spawn in a vein.

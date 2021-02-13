@@ -1,7 +1,15 @@
-tmbso | tellme block-stats output-data to-file csv by-block sort-by-name
+122 | tp ~ 122 ~
+255 | tp ~ 255 ~
+day | time set day
+gm0 | gamemode survival
+gm1 | gamemode creative
+gm2 | gamemode adventure
+gm3 | gamemode spectator
+night | time set night
 nv | effect give @s minecraft:night_vision 999999
 nvc | effect clear @s minecraft:night_vision
-tmbs.ow | tellme block-stats count loaded-chunks minecraft:overworld
 tmbs.amd | tellme block-stats count loaded-chunks mining_dimension:mining
-tmbs.nether | tellme block-stats count loaded-chunks minecraft:the_nether
 tmbs.end | tellme block-stats count loaded-chunks minecraft:the_end
+tmbs.nether | tellme block-stats count loaded-chunks minecraft:the_nether
+tmbs.ow | tellme block-stats count loaded-chunks minecraft:overworld
+tmbso | tellme block-stats output-data to-file csv by-block sort-by-name

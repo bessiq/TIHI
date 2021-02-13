@@ -12,14 +12,14 @@
 	"Funny Rat Flute Sound" = true
 	#A seperate random roll that only spawns rats if a one-out-of-X chance, x being this number. raise this number to make them more rare.
 	#Range: > 0
-	"Rat Spawn Decrease" = 5
+	"Rat Spawn Decrease" = 10
 	#True if plague rats are to spawn naturally
 	"Plague Rats" = true
 	#True if Pied Pipers are to spawn naturally
 	"Spawn Piper" = true
 	#A seperate random roll that only spawns pipers if a one-out-of-X chance, x being this number. raise this number to make them more rare.
 	#Range: > 0
-	"Piper Spawn Decrease" = 5
+	"Piper Spawn Decrease" = 10
 	#The weight of rats in vanilla's spawn rate
 	#Range: 1 ~ 300
 	"Rat Spawn Weight" = 80
@@ -28,13 +28,13 @@
 	"Pied Piper Spawn Weight" = 6
 	#percent chance for piper to drop hat on death
 	#Range: 0.0 ~ 1.0
-	"Pied Piper Hat Drop Rate" = 0.09000000357627869
+	"Pied Piper Hat Drop Rate" = 0.1
 	#percent chance for plague rat to drop plague essence on death
 	#Range: 0.0 ~ 1.0
-	"Plague Essence Drop Rate" = 0.10000000149011612
+	"Plague Essence Drop Rate" = 0.1
 	#percent chance for plague rat to drop plague tome on death
 	#Range: 0.0 ~ 1.0
-	"Plague Tome Drop Rate" = 0.0035000001080334187
+	"Plague Tome Drop Rate" = 0.0035
 	#True if wild rats will destroy and eat crops
 	"Rats Raid Crops" = true
 	#True if wild rats will steal from chests
@@ -89,16 +89,16 @@
 	"Black Death Max Health" = 400.0
 	#Black Death Attack Damage
 	#Range: 0.0 ~ 3.4028234663852886E38
-	"Black Death Automaton Attack Damage" = 4.0
+	"Black Death Automaton Attack Damage" = 6.0
 	#Distance that untamed rats will immediately despawn. For Vanilla mobs, this is 128 blocks.
 	#Range: 0.0 ~ 3.4028234663852886E38
-	"Rat Immediate Despawn Distance" = 144.0
+	"Rat Immediate Despawn Distance" = 128.0
 	#Distance that untamed rats could possibly despawn. For Vanilla mobs, this is 32 blocks.
 	#Range: 0.0 ~ 3.4028234663852886E38
 	"Rat Potential Despawn Distance" = 32.0
 	#When a rat is farther than its potential despawn distance, a random roll is taken to see if it despawns. Lower this number will make rats more likely to despawn.
 	#Range: > 1
-	"Rat Potential Despawn Chance" = 800
+	"Rat Potential Despawn Chance" = 666
 	#How much kRF (1000 RF) a rat with a basic energy transfer upgrade can transport at a time.
 	#Range: > 1
 	"Rat RF Transfer Rate Basic (kRF)" = 100
@@ -124,26 +124,32 @@
 	"Max Rat Radius" = 32
 	#Percentage for every random tick to spawn a rat for a garbage pile.
 	#Range: 0.0 ~ 1.0
-	"Garbage Pile Spawn Chance" = 0.15000000596046448
+	"Garbage Pile Spawn Chance" = 0.15
 	#percent chance for a husk or jungle skeleton to spawn with an archeologist hat
 	#Range: 0.0 ~ 1.0
-	"Archeologist Hat Spawn Rate" = 0.11999999731779099
+	"Archeologist Hat Spawn Rate" = 0.12
 	#Ratlantean Automaton Max Health
 	#Range: 0.0 ~ 3.4028234663852886E38
-	"Ratlantean Automaton Max Health" = 600.0
+	"Ratlantean Automaton Max Health" = 800.0
 	#Ratlantean Automaton Attack Damage
 	#Range: 0.0 ~ 3.4028234663852886E38
-	"Ratlantean Automaton Attack Damage" = 6.0
+	"Ratlantean Automaton Attack Damage" = 8.0
 	#Neo-Ratlantean Max Health
 	#Range: 0.0 ~ 3.4028234663852886E38
-	"Neo-Ratlantean Max Health" = 300.0
+	"Neo-Ratlantean Max Health" = 400.0
 	#Neo-Ratlantean Attack Damage
 	#Range: 0.0 ~ 3.4028234663852886E38
-	"Neo-Ratlantean Automaton Attack Damage" = 8.0
+	"Neo-Ratlantean Automaton Attack Damage" = 10.0
 	#Flying Dutchrat Max Health
 	#Range: 0.0 ~ 3.4028234663852886E38
-	"Flying Dutchrat Max Health" = 400.0
+	"Flying Dutchrat Max Health" = 555.0
 	#Flying Dutchrat Attack Damage
 	#Range: 0.0 ~ 3.4028234663852886E38
-	"Flying Dutchrat Automaton Attack Damage" = 10.0
+	"Flying Dutchrat Automaton Attack Damage" = 12.0
+	#Every time this number of ticks passes, a plague doctor may spawn.
+	#Range: > 1
+	"Plague Doctor Spawn Delay" = 42000
+	#Random number roll for plague doctor spawning, increase to make them rarer.
+	#Range: > 1
+	"Plague Doctor Spawn Chance" = 20
 

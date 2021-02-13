@@ -3,7 +3,7 @@
 ["Footstep Options"]
 	#Footstep master volume scale
 	#Range: 0 ~ 100
-	"Footstep Volume Scale" = 50
+	"Footstep Volume Scale" = 35
 	#Enable replacement of footstep sounds with acoustic versions
 	"Enable Footprint Sound Effects" = true
 	#Enable Footprint particle effects
@@ -15,8 +15,12 @@
 	"Player Footprint Style" = "LOWRES_SQUARE"
 	#Generate footsteps as a quadruped (horse)
 	"Footsteps as Quadruped" = false
-	#Enable armor rustle and rain splash accents for footstep acoustics
-	"Enable Footstep Accents" = true
+	#Enable armor rustle accents for footstep acoustics
+	"Enable Armor Accents" = true
+	#Enable rain splash accents for footstep acoustics
+	"Enable Rain Splash Accents" = true
+	#Enable water logged accents for footstep acoustics
+	"Enable Waterlogged Accents" = true
 
 #Options for mob effect generation
 ["Mob Effect Options"]

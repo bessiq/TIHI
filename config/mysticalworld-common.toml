@@ -17,24 +17,24 @@
 		#Range: 0 ~ 256
 		maxY = 76
 		#The dimensions that this ore should spawn in as a list (default ["minecraft:overworld"])
-		dimensions = ["minecraft:overworld"]
+		dimensions = ["minecraft:overworld", "mining_dimension:mining", "rats:ratlantis"]
 
 	#Tin ore generation.
 	[oregen.Tin_oregen]
 		#Number of veins per chunk (set to 0 to disable).
 		#Range: 0 ~ 256
-		oreChances = 0
+		oreChances = 8
 		#Max size of the vein.
 		#Range: 1 ~ 256
 		veinSize = 8
 		#Number of veins per chunk (set to 0 to disable).
 		#Range: 0 ~ 256
-		minY = 24
+		minY = 40
 		#Number of veins per chunk (set to 0 to disable).
 		#Range: 0 ~ 256
-		maxY = 64
+		maxY = 255
 		#The dimensions that this ore should spawn in as a list (default ["minecraft:overworld"])
-		dimensions = ["minecraft:overworld"]
+		dimensions = ["minecraft:overworld", "mining_dimension:mining", "rats:ratlantis"]
 
 	#Silver ore generation.
 	[oregen.Silver_oregen]
@@ -51,7 +51,7 @@
 		#Range: 0 ~ 256
 		maxY = 24
 		#The dimensions that this ore should spawn in as a list (default ["minecraft:overworld"])
-		dimensions = ["minecraft:overworld"]
+		dimensions = ["minecraft:overworld", "mining_dimension:mining", "rats:ratlantis"]
 
 	#Lead ore generation.
 	[oregen.Lead_oregen]
@@ -68,7 +68,7 @@
 		#Range: 0 ~ 256
 		maxY = 32
 		#The dimensions that this ore should spawn in as a list (default ["minecraft:overworld"])
-		dimensions = ["minecraft:overworld"]
+		dimensions = ["minecraft:overworld", "mining_dimension:mining", "rats:ratlantis"]
 
 	#Quicksilver ore generation.
 	[oregen.Quicksilver_oregen]
@@ -85,24 +85,41 @@
 		#Range: 0 ~ 256
 		maxY = 16
 		#The dimensions that this ore should spawn in as a list (default ["minecraft:overworld"])
-		dimensions = ["minecraft:overworld"]
+		dimensions = ["minecraft:overworld", "mining_dimension:mining", "rats:ratlantis"]
 
 	#Amethyst ore generation.
 	[oregen.Amethyst_oregen]
 		#Number of veins per chunk (set to 0 to disable).
 		#Range: 0 ~ 256
+		oreChances = 1
+		#Max size of the vein.
+		#Range: 1 ~ 256
+		veinSize = 2
+		#Number of veins per chunk (set to 0 to disable).
+		#Range: 0 ~ 256
+		minY = 2
+		#Number of veins per chunk (set to 0 to disable).
+		#Range: 0 ~ 256
+		maxY = 12
+		#The dimensions that this ore should spawn in as a list (default ["minecraft:overworld"])
+		dimensions = ["minecraft:overworld", "mining_dimension:mining", "rats:ratlantis"]
+
+	#Quartz ore generation.
+	[oregen.Quartz_oregen]
+		#Number of veins per chunk (set to 0 to disable).
+		#Range: 0 ~ 256
 		oreChances = 0
 		#Max size of the vein.
 		#Range: 1 ~ 256
-		veinSize = 3
+		veinSize = 2
 		#Number of veins per chunk (set to 0 to disable).
 		#Range: 0 ~ 256
-		minY = 0
+		minY = 5
 		#Number of veins per chunk (set to 0 to disable).
 		#Range: 0 ~ 256
-		maxY = 24
+		maxY = 15
 		#The dimensions that this ore should spawn in as a list (default ["minecraft:overworld"])
-		dimensions = ["minecraft:overworld"]
+		dimensions = ["minecraft:overworld", "mining_dimension:mining", "rats:ratlantis"]
 
 #Mob Spawn Configuration
 [mob_spawns]
@@ -111,13 +128,13 @@
 	[mob_spawns.Deer_spawn]
 		#Chance to spawn (set to 0 to disable).
 		#Range: 0 ~ 256
-		spawnChance = 7
+		spawnChance = 6
 		#Min to spawn in a group.
 		#Range: 0 ~ 256
 		min = 2
 		#Max to spawn in a group.
 		#Range: 0 ~ 256
-		max = 4
+		max = 3
 		#List of biome types to spawn.
 		biomes = "forest,icy,taiga,plains,"
 
@@ -184,15 +201,15 @@
 	[mob_spawns.Frog_spawn]
 		#Chance to spawn (set to 0 to disable).
 		#Range: 0 ~ 256
-		spawnChance = 7
+		spawnChance = 6
 		#Min to spawn in a group.
 		#Range: 0 ~ 256
 		min = 2
 		#Max to spawn in a group.
 		#Range: 0 ~ 256
-		max = 4
+		max = 3
 		#List of biome types to spawn.
-		biomes = "swamp,jungle,beach,river,"
+		biomes = "swamp,jungle,river,"
 
 	#Endermini spawn config.
 	[mob_spawns.Endermini_spawn]
@@ -212,13 +229,13 @@
 	[mob_spawns.Owl_spawn]
 		#Chance to spawn (set to 0 to disable).
 		#Range: 0 ~ 256
-		spawnChance = 10
+		spawnChance = 9
 		#Min to spawn in a group.
 		#Range: 0 ~ 256
 		min = 1
 		#Max to spawn in a group.
 		#Range: 0 ~ 256
-		max = 3
+		max = 2
 		#List of biome types to spawn.
 		biomes = "taiga,extreme_hills,forest,icy,"
 
@@ -300,7 +317,7 @@
 	[feature_spawns.stone_petal]
 		#Number of tries per chunk to try placing stonepetals on stone (set to 0 to disable).
 		#Range: 0 ~ 256
-		tries = 10
+		tries = 9
 		#Number of times per chunk to repeat trying to place stonepetals on stone
 		#Range: 1 ~ 256
 		repeats = 1
@@ -312,14 +329,161 @@
 	#Structure Generation
 	[feature_spawns.hut]
 		#List of biome types to spawn (default [SAVANNA,PLAINS], pass empty list for every biome
-		biomes = "SAVANNA,PLAINS"
+		biomes = "SAVANNA,PLAINS,SPARSE,HILLS"
 		#Which biome types this structure shouldn't spawn in (default END, NETHER)
-		biomeRestrictions = "NETHER,END"
+		biomeRestrictions = "NETHER,END,WATER,SANDY"
 
 	#Structure Generation
 	[feature_spawns.barrow]
 		#List of biome types to spawn (default [SAVANNA,PLAINS], pass empty list for every biome
-		biomes = "SAVANNA,PLAINS"
+		biomes = "WASTELAND,DEAD,SPOOKY,LUSH"
 		#Which biome types this structure shouldn't spawn in (default END, NETHER)
-		biomeRestrictions = "NETHER,END"
+		biomeRestrictions = "NETHER,END,WATER,SANDY"
+
+#Armor Configuration
+[armor_config]
+
+	#Configuration for carapace armor
+	[armor_config.carapace_armor]
+		#Armor value for chest piece
+		#Range: > 0
+		chest_armor = 0
+		#Armor value for feet piece
+		#Range: > 0
+		feet_armor = 3
+		#Armor value for head piece
+		#Range: > 0
+		head_armor = 0
+		#Armor value for legs piece
+		#Range: > 0
+		legs_armor = 0
+		#Toughness for armor made of this material
+		#Range: 0.0 ~ 1.7976931348623157E308
+		toughness = 1.0
+
+	#Configuration for quicksilver armor
+	[armor_config.quicksilver_armor]
+		#Armor value for chest piece
+		#Range: > 0
+		chest_armor = 5
+		#Armor value for feet piece
+		#Range: > 0
+		feet_armor = 1
+		#Armor value for head piece
+		#Range: > 0
+		head_armor = 2
+		#Armor value for legs piece
+		#Range: > 0
+		legs_armor = 3
+		#Toughness for armor made of this material
+		#Range: 0.0 ~ 1.7976931348623157E308
+		toughness = 0.0
+
+	#Configuration for tin armor
+	[armor_config.tin_armor]
+		#Armor value for chest piece
+		#Range: > 0
+		chest_armor = 5
+		#Armor value for feet piece
+		#Range: > 0
+		feet_armor = 1
+		#Armor value for head piece
+		#Range: > 0
+		head_armor = 2
+		#Armor value for legs piece
+		#Range: > 0
+		legs_armor = 4
+		#Toughness for armor made of this material
+		#Range: 0.0 ~ 1.7976931348623157E308
+		toughness = 0.0
+
+	#Configuration for antler armor
+	[armor_config.antler_armor]
+		#Armor value for chest piece
+		#Range: > 0
+		chest_armor = 0
+		#Armor value for feet piece
+		#Range: > 0
+		feet_armor = 3
+		#Armor value for head piece
+		#Range: > 0
+		head_armor = 0
+		#Armor value for legs piece
+		#Range: > 0
+		legs_armor = 0
+		#Toughness for armor made of this material
+		#Range: 0.0 ~ 1.7976931348623157E308
+		toughness = 1.0
+
+	#Configuration for copper armor
+	[armor_config.copper_armor]
+		#Armor value for chest piece
+		#Range: > 0
+		chest_armor = 6
+		#Armor value for feet piece
+		#Range: > 0
+		feet_armor = 2
+		#Armor value for head piece
+		#Range: > 0
+		head_armor = 2
+		#Armor value for legs piece
+		#Range: > 0
+		legs_armor = 5
+		#Toughness for armor made of this material
+		#Range: 0.0 ~ 1.7976931348623157E308
+		toughness = 0.0
+
+	#Configuration for silver armor
+	[armor_config.silver_armor]
+		#Armor value for chest piece
+		#Range: > 0
+		chest_armor = 5
+		#Armor value for feet piece
+		#Range: > 0
+		feet_armor = 1
+		#Armor value for head piece
+		#Range: > 0
+		head_armor = 2
+		#Armor value for legs piece
+		#Range: > 0
+		legs_armor = 3
+		#Toughness for armor made of this material
+		#Range: 0.0 ~ 1.7976931348623157E308
+		toughness = 0.0
+
+	#Configuration for amethyst armor
+	[armor_config.amethyst_armor]
+		#Armor value for chest piece
+		#Range: > 0
+		chest_armor = 8
+		#Armor value for feet piece
+		#Range: > 0
+		feet_armor = 3
+		#Armor value for head piece
+		#Range: > 0
+		head_armor = 3
+		#Armor value for legs piece
+		#Range: > 0
+		legs_armor = 6
+		#Toughness for armor made of this material
+		#Range: 0.0 ~ 1.7976931348623157E308
+		toughness = 2.0
+
+	#Configuration for lead armor
+	[armor_config.lead_armor]
+		#Armor value for chest piece
+		#Range: > 0
+		chest_armor = 6
+		#Armor value for feet piece
+		#Range: > 0
+		feet_armor = 2
+		#Armor value for head piece
+		#Range: > 0
+		head_armor = 2
+		#Armor value for legs piece
+		#Range: > 0
+		legs_armor = 5
+		#Toughness for armor made of this material
+		#Range: 0.0 ~ 1.7976931348623157E308
+		toughness = 1.0
 

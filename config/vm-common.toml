@@ -5,26 +5,26 @@ UseFixedItems = false
 #Fixed items; item or item,amount,pay_item,cost,uses
 FixedItems = "minecraft:air;minecraft:air;minecraft:air;minecraft:air;minecraft:air;minecraft:air;minecraft:air"
 #Include Mods
-IncludeMods = "chanceglobe;chancecubes;potionofbees;randomloot;lootbagmod;clef;mysterymilk;naturescompass;bagofyurting;neverenoughcandy;yeeter;golems;mystictools"
+IncludeMods = "chanceglobe;chancecubes;potionofbees;randomloot;lootbagmod;clef;mysterymilk;naturescompass;bagofyurting;neverenoughcandy;yeeter;golems;mystictools;bellybutton"
 #Exclude Mods
 ExcludeMods = "*"
 #Exclude Items
-ExcludeItems = "minecraft:nether_star;minecraft:beacon;minecraft:shulker_box;minecraft:colorset*shulker_box;minecraft:elytra;minecraft:end_portal_frame;vm:vending_machine;randomloot:trait_holder;randomloot:editor;randomloot:random_cluster;randomloot:random_chunk;randomloot:random_shard;randomloot:titan_case;chancecubes:chance_pendant_tier1;chancecubes:chance_pendant_tier2;chancecubes:chance_pendant_tier3;chancecubes:giant_chance_cube;chancecubes:creative_pendant;chancecubes:cube_dispenser;chancecubes:reward_selector_pendant;chancecubes:scanner;chancecubes:silk_touch_pendant;chancecubes:single_use_reward_selector_pendant;chancecubes:chance_icosahedron;clef:instrument_player;neverenoughcandy:mob_candy;golems:spawn_bedrock_golem;golems:golem_paper;golems:info_book;mystictools:loot_sword;mystictools:loot_axe;mystictools:loot_shovel;mystictools:loot_pickaxe;mystictools:weaponbow;mystictools:upgrader;mystictools:cauldron;mystictools:dice;mystictools:shard;mystictools:unique_case"
+ExcludeItems = "minecraft:nether_star;minecraft:beacon;minecraft:shulker_box;minecraft:colorset*shulker_box;minecraft:elytra;minecraft:end_portal_frame;vm:vending_machine;randomloot:trait_holder;randomloot:editor;randomloot:random_cluster;randomloot:random_chunk;randomloot:random_shard;randomloot:titan_case;chancecubes:chance_pendant_tier1;chancecubes:chance_pendant_tier2;chancecubes:chance_pendant_tier3;chancecubes:giant_chance_cube;chancecubes:creative_pendant;chancecubes:cube_dispenser;chancecubes:reward_selector_pendant;chancecubes:scanner;chancecubes:silk_touch_pendant;chancecubes:single_use_reward_selector_pendant;chancecubes:chance_icosahedron;clef:instrument_player;neverenoughcandy:mob_candy;golems:spawn_bedrock_golem;golems:golem_paper;golems:info_book;mystictools:loot_sword;mystictools:loot_axe;mystictools:loot_shovel;mystictools:loot_pickaxe;mystictools:weaponbow;mystictools:upgrader;mystictools:cauldron;mystictools:dice;mystictools:shard;mystictools:unique_case;bellybutton:dust_bunny_spawn_egg;bellybutton:dust_bunny;bellybutton:vacuum"
 #Include Creative Tab Groups
 IncludeGroups = "*"
 #Exclude Creative Tab Groups
 ExcludeGroups = "!"
 #Change item rarity value for pricing
-ItemRarity = "randomloot:golden_case=2;lootbagmod:lootbag=2;bagofyurting:bag_of_yurting=2;chancecubes:chance_cube=2;chancecubes:compact_giant_chance_cube=3;yeeter:tnt_yeeter_spawn_egg=3;golems:golem_head=1;mystictools:uncommon_case=1;mystictools:rare_case=2;mystictools:epic_case=3;mystictools:loot_case=1;mystictools:pickaxe_case=2;mystictools:axe_case=1;mystictools:shovel_case=1;mystictools:bow_case=2;mystictools:sword_case=2;"
+ItemRarity = "randomloot:golden_case=2;lootbagmod:lootbag=2;bagofyurting:bag_of_yurting=2;chancecubes:chance_cube=2;chancecubes:compact_giant_chance_cube=3;yeeter:tnt_yeeter_spawn_egg=3;golems:golem_head=1;mystictools:uncommon_case=1;mystictools:rare_case=2;mystictools:epic_case=3;mystictools:loot_case=1;mystictools:pickaxe_case=2;mystictools:axe_case=1;mystictools:shovel_case=1;mystictools:bow_case=2;mystictools:sword_case=2;bellybutton:lint_block=1"
 
 [RarityData]
 	#Uncommon Item
-	UncommonItem = "thermal:iron_coin"
+	UncommonItem = "minecraft:emerald"
 	#Rare Item
-	RareItem = "thermal:silver_coin"
+	RareItem = "minecraft:emerald"
 	#Uncommon Cost
 	#Range: 0 ~ 64
-	UncommonCost = 24
+	UncommonCost = 15
 	#Rare Uses
 	#Range: 0 ~ 32
 	RareUses = 2
@@ -32,15 +32,15 @@ ItemRarity = "randomloot:golden_case=2;lootbagmod:lootbag=2;bagofyurting:bag_of_
 	#Range: 0 ~ 32
 	EpicUses = 1
 	#Epic Item
-	EpicItem = "thermal:gold_coin"
+	EpicItem = "minecraft:emerald"
 	#Common Item
-	CommonItem = "thermal:copper_coin"
+	CommonItem = "minecraft:emerald"
 	#Epic Cost
 	#Range: 0 ~ 64
-	EpicCost = 48
+	EpicCost = 15
 	#Rare Cost
 	#Range: 0 ~ 64
-	RareCost = 36
+	RareCost = 15
 	#Common Uses
 	#Range: 0 ~ 32
 	CommonUses = 4
@@ -49,5 +49,5 @@ ItemRarity = "randomloot:golden_case=2;lootbagmod:lootbag=2;bagofyurting:bag_of_
 	UncommonUses = 3
 	#Common Cost
 	#Range: 0 ~ 64
-	CommonCost = 12
+	CommonCost = 15
 

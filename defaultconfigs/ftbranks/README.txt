@@ -1406,14 +1406,6 @@ command.loot.spawn.targetPos.mine.pos.mainhand
 command.loot.spawn.targetPos.mine.pos.offhand
 command.loot.spawn.targetPos.mine.pos.tool
 command.maereload
-command.mahoucancel
-command.mahoucancel.player
-command.mahoukodoku
-command.mahoukodoku.player
-command.mahoukodoku.player.kodoku
-command.maxmahou
-command.maxmahou.player
-command.maxmahou.player.mana
 command.mc
 command.mc.backup
 command.mc.citizens
@@ -1650,10 +1642,6 @@ command.replaceitem.entity.targets
 command.replaceitem.entity.targets.slot
 command.replaceitem.entity.targets.slot.item
 command.replaceitem.entity.targets.slot.item.count
-command.rftoolsstorage
-command.rftoolsstorage.list
-command.rftoolsstorage.restore
-command.rftoolsstorage.restore.uuid
 command.rndtp
 command.rpreload
 command.runelic
@@ -1745,7 +1733,6 @@ command.setspawn
 command.setworldspawn
 command.setworldspawn.pos
 command.setworldspawn.pos.angle
-command.showmahou
 command.spawn
 command.spawninfernal
 command.spawninfernal.x

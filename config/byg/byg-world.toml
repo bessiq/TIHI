@@ -73,7 +73,7 @@
 			#Number of times to spawn per chunk.
 			#Default: 10
 			#Range: 1 ~ 100
-			ScoriaStonePerChunk = 10
+			ScoriaStonePerChunk = 12
 			#
 			#Y level to start generating at.
 			#Default: 63
@@ -83,7 +83,7 @@
 			#Size of the clusters.
 			#Default: 20
 			#Range: 1 ~ 100
-			ScoriaStoneSize = 20
+			ScoriaStoneSize = 24
 			#
 			#Generate Scoria Stone?
 			GenerateScoriaStone = true
@@ -93,12 +93,12 @@
 			#Number of times to spawn per chunk.
 			#Default: 10
 			#Range: 1 ~ 100
-			SoapStonePerChunk = 10
+			SoapStonePerChunk = 12
 			#
 			#Size of the clusters.
 			#Default: 20
 			#Range: 1 ~ 100
-			SoapStoneSize = 20
+			SoapStoneSize = 24
 			#
 			#Generate Soap Stone?
 			GenerateSoapStone = true
@@ -119,12 +119,12 @@
 			#Size of the clusters.
 			#Default: 20
 			#Range: 1 ~ 100
-			RockyStoneSize = 10
+			RockyStoneSize = 12
 			#
 			#Number of times to spawn per chunk.
 			#Default: 10
 			#Range: 1 ~ 100
-			RockyStonePerChunk = 5
+			RockyStonePerChunk = 6
 			#
 			#Generate Rocky Stone?
 			GenerateRockyStone = true

@@ -291,7 +291,7 @@
 	#Range: 0.0 ~ 1.0
 	"Easter Egg Tinkers Tool Disarm chance" = 0.20000000298023224
 	#Whether to generate amethyst ore or not
-	"Generate Amethyst Ore" = true
+	"Generate Amethyst Ore" = false
 	#Ratio of Stone(this number) to Ores in Dragon Caves
 	#Range: 1 ~ 10000
 	"Dragon Cave Ore Ratio" = 45

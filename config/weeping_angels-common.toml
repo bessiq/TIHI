@@ -1,7 +1,7 @@
 
 [world_gen]
 	#Config to toggle the generation of arms in snow biomes
-	arms = true
+	arms = false
 	#Configure whether Graveyard Structures spawn. This will require a restart when changed.
 	genGraveyard = true
 	#Configure whether the mods ores spawn. This MAY require a restart when changed.
@@ -9,7 +9,7 @@
 
 [spawn]
 	#Note: A list of biomes where angels should spawn.
-	allowedBiomes = ["byg:alps", "byg:bluff_peaks", "byg:frozen_lake", "byg:lush_tundra", "byg:shattered_glacier", "byg:snowy_black_beach", "byg:snowy_coniferous_clearing", "byg:snowy_deciduous_clearing", "byg:snowy_evergreen_clearing", "byg:snowy_rocky_black_beach", "byg:subzero_hypogeal", "minecraft:ice_spikes", "minecraft:snowy_taiga_mountains"]
+	allowedBiomes = ["byg:frozen_lake", "byg:shattered_glacier", "byg:snowy_black_beach", "byg:snowy_coniferous_clearing", "byg:snowy_deciduous_clearing", "byg:snowy_evergreen_clearing", "byg:snowy_rocky_black_beach", "byg:subzero_hypogeal", "minecraft:ice_spikes", "undergarden:frostfields"]
 	#This will only accept: MONSTER || CREATURE || AMBIENT || MISC || Anything else WILL crash your game.
 	spawnType = "MONSTER"
 	#The maximum amount of angels per biome
@@ -60,7 +60,7 @@
 	notAllowedDimensions = ["minecraft:the_end", "mining_dimension:mining", "appliedenergistics2:spatial_storage"]
 	#The maximum range a user can be teleported by the Angels
 	#Range: > 1
-	teleportRange = 450
+	teleportRange = 666
 	#If this is enabled, angel teleporting can also tp the player to other dimensions
 	angelDimTeleport = true
 	#Teleport type, Acceptable entries: RANDOM_PLACE, DONT, STRUCTURES

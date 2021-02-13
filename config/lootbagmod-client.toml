@@ -21,10 +21,10 @@
 	enablewhitelist = true
 	#BlackList (Syntax "minecraft or modid : item or block name"; example "minecraft:air" or "lootbagmod:lootbag")
 	blacklist = ["minecraft:air", "minecraft:command_block", "minecraft:structure_block", "minecraft:knowledge_book", "minecraft:chain_command_block", "minecraft:repeating_command_block", "minecraft:barrier", "minecraft:enchanted_book", "minecraft:written_book", "minecraft:potion", "minecraft:splash_potion", "minecraft:lingering_potion", "minecraft:spawn_egg", "minecraft:structure_void", "minecraft:mob_spawner", "minecraft:bedrock", "vm:vending_machine", "minecraft:end_portal_frame", "minecraft:command_block_minecart", "quarryplus:quarry_pickaxe"]
-	#Mod blacklist (Syntax " modid ")
-	modblacklist = ["tconstruct"]
 	#WhiteList Syntax "minecraft or modid : item or block name"; example minecraft:air or lootbagmod:lootbag)
 	whitelist = ["minecraft:emerald"]
 	#TagList (Syntax "minecraft, forge or modid : tag name"; example "minecraft:planks" or "forge:planks")
 	taglist = ["curios:curio", "curios:statue", "tihi:loot"]
+	#Mod black/whitelist (Syntax " modid ")
+	modlist = ["tconstruct"]
 
