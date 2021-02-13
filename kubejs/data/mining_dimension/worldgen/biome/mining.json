@@ -1,16 +1,26 @@
 {
   "scale": 1,
   "effects": {
+    "sky_color": 0,
+    "fog_color": 42113,
+    "water_color": 12840163,
+    "water_fog_color": 12840163,
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000,
       "block_search_extent": 8,
       "offset": 2.0
     },
-    "sky_color": 0,
-    "fog_color": 42113,
-    "water_color": 12840163,
-    "water_fog_color": 12840163
+    "additions_sound": {
+      "sound": "tihi:ambient.tihi_hehe",
+      "tick_chance": 0.0005
+    },
+    "music": {
+      "sound": "tihi:music.tihi_lofi",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": true
+    }
   },
   "surface_builder": "mining_dimension:mining",
   "carvers": {
@@ -47,10 +57,10 @@
     [
       "mining_dimension:strata/000_brimstone",
       "mining_dimension:strata/006_soapstone",
-      "mining_dimension:strata/012_depthrock",
+      "mining_dimension:strata/012_marble",
       "mining_dimension:strata/018_gabbro",
       "mining_dimension:strata/024_scoria_stone",
-      "mining_dimension:strata/030_marble",
+      "mining_dimension:strata/030_depthrock",
       "mining_dimension:strata/036_limestone",
       "mining_dimension:strata/036_weathered_limestone",
       "mining_dimension:strata/042_dolomite",
@@ -126,7 +136,7 @@
       "mining_dimension:strata/232_wasteland_stone",
       "mining_dimension:strata/238_elder_prismarine",
       "mining_dimension:strata/238_prismarine",
-      "mining_dimension:strata/242_smooth_glowdust_sandstone",
+      "mining_dimension:strata/242_shiverstone",
       "mining_dimension:strata/245_livingrock",
       "mining_dimension:strata/247_purpur_stone",
       "mining_dimension:strata/249_ether_stone",
@@ -140,7 +150,25 @@
       "mining_dimension:ores/ore_quartz_nether",
       "mining_dimension:ores/ore_soulium",
       "mining_dimension:ores/ore_stella_arcanum",
-      "mining_dimension:ores/ore_tihinium"
+      "mining_dimension:ores/ore_tihinium",
+      "mining_dimension:ores/ore_gaia_cinnabar",
+      "mining_dimension:ores/ore_gaia_hematite",
+      "mining_dimension:ores/ore_gaia_labradorite",
+      "mining_dimension:ores/ore_gaia_moonstone",
+      "mining_dimension:ores/ore_gaia_opal_blue",
+      "mining_dimension:ores/ore_gaia_opal_green",
+      "mining_dimension:ores/ore_gaia_opal_red",
+      "mining_dimension:ores/ore_gaia_opal_white",
+      "mining_dimension:ores/ore_gaia_pyrite",
+      "mining_dimension:ores/ore_gaia_sugilite",
+      "mining_dimension:ores/ore_ug_cloggrum",
+      "mining_dimension:ores/ore_ug_coal",
+      "mining_dimension:ores/ore_ug_diamond",
+      "mining_dimension:ores/ore_ug_froststeel",
+      "mining_dimension:ores/ore_ug_gold",
+      "mining_dimension:ores/ore_ug_iron",
+      "mining_dimension:ores/ore_ug_regalium",
+      "mining_dimension:ores/ore_ug_utherium"      
     ]
   ],
   "starts": [
@@ -165,27 +193,27 @@
       },
       {
         "type": "minecraft:cave_spider",
-        "weight": 40,
-        "minCount": 3,
-        "maxCount": 4
+        "weight": 30,
+        "minCount": 2,
+        "maxCount": 3
       },
       {
         "type": "minecraft:zombie",
-        "weight": 50,
-        "minCount": 3,
-        "maxCount": 4
+        "weight": 40,
+        "minCount": 2,
+        "maxCount": 3
       },
       {
         "type": "minecraft:skeleton",
-        "weight": 50,
-        "minCount": 3,
-        "maxCount": 4
+        "weight": 40,
+        "minCount": 2,
+        "maxCount": 3
       },
       {
         "type": "minecraft:creeper",
-        "weight": 45,
-        "minCount": 3,
-        "maxCount": 4
+        "weight": 35,
+        "minCount": 2,
+        "maxCount": 3
       },
       {
         "type": "minecraft:slime",
@@ -232,24 +260,6 @@
       {
         "type": "eidolon:zombie_brute",
         "weight": 17,
-        "minCount": 1,
-        "maxCount": 2
-      },
-      {
-        "type": "thermal:basalz",
-        "weight": 15,
-        "minCount": 1,
-        "maxCount": 2
-      },
-      {
-        "type": "thermal:blizz",
-        "weight": 15,
-        "minCount": 1,
-        "maxCount": 2
-      },
-      {
-        "type": "thermal:blitz",
-        "weight": 15,
         "minCount": 1,
         "maxCount": 2
       },
@@ -377,20 +387,8 @@
     "creature": [
       {
         "type": "goblintraders:goblin_trader",
-        "weight": 3,
+        "weight": 1,
         "minCount": 0,
-        "maxCount": 1
-      },
-      {
-        "type": "golems:golem_bedrock",
-        "weight": 200,
-        "minCount": 1,
-        "maxCount": 1
-      },
-      {
-        "type": "ornamental:obsidian_golem",
-        "weight": 200,
-        "minCount": 1,
         "maxCount": 1
       }
     ],
@@ -400,6 +398,12 @@
         "weight": 8,
         "minCount": 2,
         "maxCount": 3
+      },
+      {
+        "type": "statues:statue_bat",
+        "weight": 6,
+        "minCount": 1,
+        "maxCount": 2
       }
     ],
     "water_creature": [],

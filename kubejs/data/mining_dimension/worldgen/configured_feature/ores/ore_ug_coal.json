@@ -7,11 +7,11 @@
             "feature": {
               "config": {
                 "target": {
-                  "block": "mysticalagriculture:soulstone",
+                  "block": "undergarden:depthrock",
                   "predicate_type": "minecraft:block_match"
                 },
                 "state": {
-                  "Name": "mysticalagriculture:soulium_ore"
+                  "Name": "undergarden:coal_ore"
                 },
                 "size": 8
               },
@@ -37,7 +37,7 @@
     },
     "decorator": {
       "config": {
-        "count": 32
+        "count": 24
       },
       "type": "minecraft:count"
     }

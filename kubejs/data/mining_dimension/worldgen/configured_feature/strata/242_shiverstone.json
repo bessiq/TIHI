@@ -11,7 +11,7 @@
                     "predicate_type": "minecraft:tag_match"
                   },
                   "state": {
-                    "Name": "infernalexp:smooth_glowdust_sandstone"
+                    "Name": "undergarden:shiverstone"
                   },
                   "size": 64
                 },
