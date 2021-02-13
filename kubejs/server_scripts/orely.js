@@ -12,19 +12,11 @@ onEvent('recipes', event => {
     )
     orely(
         'amethyst',
-        'iceandfire:amythest_ore',
+        'mysticalworld:amethyst_ore',
     )
     orely(
         'ametrine',
         'byg:ametrine_ore',
-    )
-    orely(
-        'apatite',
-        'thermal:apatite_ore',
-    )
-    orely(
-        'cinnabar',
-        'thermal:cinnabar_ore',
     )
     orely(
         'coal',
@@ -32,7 +24,7 @@ onEvent('recipes', event => {
     )
     orely(
         'copper',
-        'thermal:copper_ore',
+        'create:copper_ore',
     )
     orely(
         'diamond',
@@ -64,11 +56,11 @@ onEvent('recipes', event => {
     )
     orely(
         'lead',
-        'thermal:lead_ore',
+        'eidolon:lead_ore',
     )
     orely(
         'nickel',
-        'thermal:nickel_ore',
+        'immersiveengineering:ore_nickel',
     )
     orely(
         'osmium',
@@ -87,6 +79,10 @@ onEvent('recipes', event => {
         'minecraft:nether_quartz_ore',
     )
     orely(
+        'quicksilver',
+        'mysticalworld:quicksilver_ore',
+    )
+    orely(
         'redstone',
         'minecraft:redstone_ore',
     )
@@ -96,15 +92,11 @@ onEvent('recipes', event => {
     )
     orely(
         'silver',
-        'thermal:silver_ore',
-    )
-    orely(
-        'sulfur',
-        'thermal:sulfur_ore',
+        'occultism:silver_ore',
     )
     orely(
         'tin',
-        'thermal:tin_ore',
+        'mysticalworld:tin_ore',
     )
     orely(
         'uranium',

@@ -1,79 +1,57 @@
 // future farmers of minecraft
 
 onEvent('recipes', event => {
+    // Possibly pointless future-proofing for this purple potato
+    event.replaceInput({ mod: 'mysticalworld' }, 'mysticalworld:aubergine', '#forge:crops/eggplant')
 
+    // The Carb Suite
+    event.replaceOutput({}, '#forge:flour', 'create:wheat_flour')
+    event.replaceOutput({}, '#forge:dough', 'create:dough')
+    event.replaceInput({}, 'pneumaticcraft:wheat_flour', '#forge:flour')
+    event.replaceInput({}, 'appliedenergistics2:flour', '#forge:flour')
+    event.replaceInput({}, 'create:wheat_flour', '#forge:flour')
+    event.replaceInput({}, 'farmersdelight:wheat_dough', '#forge:dough')
+    event.replaceInput({ mod: 'farmersdelight' }, 'minecraft:wheat', '#forge:dough')
+    event.replaceInput({ output: 'druidcraft:apple_elderberry_crumble' }, 'minecraft:wheat', '#forge:dough')
+    event.replaceInput({ output: 'druidcraft:blueberry_muffin' }, 'minecraft:wheat', '#forge:dough')
+    event.replaceInput({ output: 'minecraft:cake' }, 'minecraft:wheat', '#forge:dough')
+    event.replaceInput({ output: 'minecraft:cookie' }, 'minecraft:wheat', '#forge:dough')
+    event.replaceInput({ id: 'minecolonies:blockhutbaker' }, 'minecraft:wheat', '#forge:dough')
+    event.replaceInput({ id: 'rats:rat_cage' }, 'minecraft:wheat', 'farmersdelight:straw')
+    event.remove({ type: 'minecraft:crafting_shaped', output: 'minecraft:bread' })
+    event.remove({ type: 'minecraft:crafting_shapeless', output: 'minecraft:bread' })
+    event.remove({ type: 'minecraft:crafting_shaped', output: 'create:dough' })
+    event.remove({ type: 'minecraft:crafting_shapeless', output: 'create:dough' })
+    event.remove({ id: 'appliedenergistics2:smelting/bread' })
+
+    // Not much left after yeeting all the other crop mods; I don't miss Pam really (cries in rainbow bacon)
     const yeehaw = (name, crop, seed) => {
         event.replaceOutput('#forge:crops/' + name, crop)
         event.replaceOutput('#forge:seeds/' + name, seed)
-
-        event.replaceInput({ mod: 'thermal' }, 'thermal:' + name, '#forge:crops/' + name)
-        event.replaceInput({ mod: 'thermal' }, 'thermal:strawberry', '#forge:crops/strawberry')
-        event.replaceInput({ mod: 'druidcraft' }, 'druidcraft:blueberries', '#forge:fruits/blueberries')
-        event.replaceInput({ mod: 'druidcraft' }, 'druidcraft:elderberries', '#forge:fruits/elderberry')
-        event.replaceInput({ mod: 'mysticalworld' }, 'mysticalworld:aubergine', '#forge:crops/eggplant')
-
-        var modname = ['minecraft', 'mysticalworld', 'pneumaticcraft', 'gobber2', 'thermal', 'enigmaticlegacy', 'astralsorcery', 'naturesaura', 'eidolon', 'botania', 'xreliquary', 'immersiveengineering']
-        event.replaceInput({ mod: modname }, 'minecraft:apple', '#forge:fruits/apple')
     }
-
     yeehaw(
-        'barley',
-        'pamhc2crops:barleyitem',
-        'pamhc2crops:barleyseeditem',
-    )
-    yeehaw(
-        'bell_pepper',
-        'pamhc2crops:bellpepperitem',
-        'pamhc2crops:bellpepperseeditem',
-    )
-    yeehaw(
-        'coffee',
-        'pamhc2crops:coffeebeanitem',
-        'pamhc2crops:coffeebeanseeditem',
-    )
-    yeehaw(
-        'corn',
-        'pamhc2crops:cornitem',
-        'pamhc2crops:cornseeditem',
+        'cabbage',
+        'farmersdelight:cabbage',
+        'farmersdelight:cabbage_seeds',
     )
     yeehaw(
         'eggplant',
-        'pamhc2crops:eggplantitem',
-        'pamhc2crops:eggplantseeditem',
+        'mysticalworld:aubergine',
+        'mysticalworld:aubergine_seeds',
     )
     yeehaw(
         'onion',
-        'pamhc2crops:onionitem',
-        'pamhc2crops:onionseeditem',
-    )
-    yeehaw(
-        'peanut',
-        'pamhc2crops:peanutitem',
-        'pamhc2crops:peanutseeditem',
-    )
-    yeehaw(
-        'radish',
-        'pamhc2crops:radishitem',
-        'pamhc2crops:radishseeditem',
+        'farmersdelight:onion',
+        '',
     )
     yeehaw(
         'rice',
-        'pamhc2crops:riceitem',
-        'pamhc2crops:riceseeditem',
-    )
-    yeehaw(
-        'spinach',
-        'pamhc2crops:spinachitem',
-        'pamhc2crops:spinachseeditem',
-    )
-    yeehaw(
-        'tea',
-        'pamhc2crops:tealeafitem',
-        'pamhc2crops:tealeafseeditem',
+        'farmersdelight:rice',
+        'farmersdelight:rice',
     )
     yeehaw(
         'tomato',
-        'pamhc2crops:tomatoitem',
-        'pamhc2crops:tomatoseeditem',
+        'farmersdelight:tomato',
+        'farmersdelight:tomato_seeds',
     )
 })
