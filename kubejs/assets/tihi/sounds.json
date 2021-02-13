@@ -1,0 +1,42 @@
+{
+	"ambient.tihi_hehe": {
+		"category": "biomes",
+		"sounds": [
+			"tihi:ambient/diamond_01",
+			"tihi:ambient/diamond_02",
+			"tihi:ambient/diamond_03",
+			"tihi:ambient/diamond_04",
+			"tihi:ambient/diamond_05",
+			"tihi:ambient/diamond_06",
+			"tihi:ambient/diamond_07",
+			"tihi:ambient/diamond_08",
+			"tihi:ambient/diamond_09",
+			"tihi:ambient/diamond_10",
+			"tihi:ambient/diamond_11",
+			"tihi:ambient/diamond_12",
+			"tihi:ambient/diamond_13",
+			"tihi:ambient/diamond_14",
+			"tihi:ambient/diamond_15",
+			"tihi:ambient/floor",
+			"tihi:ambient/mytown",
+			"tihi:ambient/oohwahahahah",
+			"tihi:ambient/pizza",
+			"tihi:ambient/sein1",
+			"tihi:ambient/sein2",
+			"tihi:ambient/sein3",
+			"tihi:ambient/sein4",
+			"tihi:ambient/sein5",
+			"tihi:ambient/whistle",
+			"tihi:ambient/you"
+		]
+	},
+  "music.tihi_lofi": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "tihi:music/tdziewiecdz",
+        "stream": true
+      }
+    ]
+  }
+}
