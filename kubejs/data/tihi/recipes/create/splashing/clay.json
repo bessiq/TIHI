@@ -1,0 +1,18 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "tihi:red_clay"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:clay",
+      "chance": 1
+    },
+    {
+      "item": "tihi:red_clay",
+      "chance": 0.2
+    }
+  ]
+}
