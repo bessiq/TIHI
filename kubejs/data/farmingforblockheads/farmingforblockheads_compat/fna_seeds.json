@@ -1,7 +1,7 @@
 {
   "modId": "forbidden_arcanus",
   "group": {
-    "name": "FnA Seeds",
+    "name": "Forbidden & Arcanus Seeds",
     "enabledByDefault": true,
     "defaultPayment": {
       "item": "eidolon:arcane_gold_nugget",

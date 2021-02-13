@@ -1,0 +1,26 @@
+{
+  "modId": "farmersdelight",
+  "group": {
+    "name": "Farmer's Delight Crops",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "minecraft:emerald",
+      "count": 2
+    },
+    "defaultCategory": "tihi:exotic_seeds"
+  },
+  "customEntries": [
+    {
+      "output": "farmersdelight:cabbage_seeds"
+    },
+    {
+      "output": "farmersdelight:onion"
+    },
+    {
+      "output": "farmersdelight:rice"
+    },
+    {
+      "output": "farmersdelight:tomato_seeds"
+    }
+  ]
+}

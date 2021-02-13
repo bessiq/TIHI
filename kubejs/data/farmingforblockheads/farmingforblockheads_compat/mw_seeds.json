@@ -1,17 +1,17 @@
 {
-  "modId": "occultism",
+  "modId": "mysticalworld",
   "group": {
-    "name": "Occultism Seeds",
+    "name": "Mystical World Seeds",
     "enabledByDefault": true,
     "defaultPayment": {
-      "item": "minecraft:emerald",
+      "item": "mysticalworld:quicksilver_nugget",
       "count": 3
     },
     "defaultCategory": "tihi:exotic_seeds"
   },
   "customEntries": [
     {
-      "output": "occultism:datura_seeds"
+      "output": "mysticalworld:aubergine_seeds"
     }
   ]
 }

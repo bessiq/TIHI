@@ -4,8 +4,8 @@
     "name": "Vanilla Seeds",
     "enabledByDefault": true,
     "defaultPayment": {
-      "item": "thermal:copper_coin",
-      "count": 9
+      "item": "minecraft:emerald",
+      "count": 1
     },
     "defaultCategory": "tihi:common_seeds"
   },
@@ -20,24 +20,20 @@
       "output": "minecraft:beetroot_seeds"
     },
     {
-      "output": "minecraft:wheat_seeds",
-      "payment": {
-        "item": "thermal:copper_coin",
-        "count": 6
-      }
+      "output": "minecraft:wheat_seeds"
     },
     {
       "output": "minecraft:carrot",
       "payment": {
-        "item": "thermal:copper_coin",
-        "count": 12
+        "item": "minecraft:emerald",
+        "count": 2
       }
     },
     {
       "output": "minecraft:potato",
       "payment": {
-        "item": "thermal:copper_coin",
-        "count": 12
+        "item": "minecraft:emerald",
+        "count": 2
       }
     }
   ]

@@ -1,0 +1,21 @@
+{
+  "modId": "minecraft",
+  "group": {
+    "name": "Vanilla Fruit",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "minecraft:emerald",
+      "count": 1
+    },
+    "defaultCategory": "tihi:common_fruit"
+  },
+  "customEntries": [
+    {
+      "output": "minecraft:apple",
+      "payment": {
+        "item": "byg:green_apple",
+        "count": 1
+      }
+    }
+  ]
+}

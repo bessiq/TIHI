@@ -4,8 +4,8 @@
     "name": "Vanilla Saplings",
     "enabledByDefault": true,
     "defaultPayment": {
-      "item": "thermal:copper_coin",
-      "count": 9
+      "item": "minecraft:emerald",
+      "count": 1
     },
     "defaultCategory": "tihi:common_saplings"
   },
@@ -25,15 +25,15 @@
     {
       "output": "minecraft:jungle_sapling",
       "payment": {
-        "item": "thermal:copper_coin",
-        "count": 12
+        "item": "minecraft:emerald",
+        "count": 2
       }
     },
     {
       "output": "minecraft:dark_oak_sapling",
       "payment": {
-        "item": "thermal:copper_coin",
-        "count": 12
+        "item": "minecraft:emerald",
+        "count": 2
       }
     }
   ]

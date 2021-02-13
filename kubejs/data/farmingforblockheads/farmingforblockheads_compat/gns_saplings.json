@@ -1,7 +1,7 @@
 {
   "modId": "good_nights_sleep",
   "group": {
-    "name": "GNS Saplings",
+    "name": "Good Night's Sleep Saplings",
     "enabledByDefault": true,
     "defaultPayment": {
       "item": "good_nights_sleep:candy",

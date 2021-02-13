@@ -1,7 +1,7 @@
 {
   "modId": "ars_nouveau",
   "group": {
-    "name": "Ars Saplings",
+    "name": "Ars Nouveau Saplings",
     "enabledByDefault": true,
     "defaultPayment": {
       "item": "ars_nouveau:carbuncle_shards",

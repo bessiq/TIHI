@@ -4,8 +4,8 @@
     "name": "BYG Saplings",
     "enabledByDefault": true,
     "defaultPayment": {
-      "item": "thermal:copper_coin",
-      "count": 15
+      "item": "minecraft:emerald",
+      "count": 2
     },
     "defaultCategory": "tihi:common_saplings"
   },
@@ -43,8 +43,8 @@
     {
       "output": "byg:ether_sapling",
       "payment": {
-        "item": "thermal:enderium_coin",
-        "count": 12
+        "item": "byg:ametrine_gems",
+        "count": 2
       },
       "category": "tihi:exotic_saplings"
     },
@@ -69,8 +69,8 @@
     {
       "output": "byg:lament_sapling",
       "payment": {
-        "item": "thermal:lumium_coin",
-        "count": 15
+        "item": "byg:ametrine_gems",
+        "count": 1
       },
       "category": "tihi:exotic_saplings"
     },
@@ -86,8 +86,8 @@
     {
       "output": "byg:nightshade_sapling",
       "payment": {
-        "item": "thermal:enderium_coin",
-        "count": 12
+        "item": "byg:ametrine_gems",
+        "count": 2
       },
       "category": "tihi:exotic_saplings"
     },

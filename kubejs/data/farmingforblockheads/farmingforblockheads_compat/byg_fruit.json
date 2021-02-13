@@ -1,0 +1,21 @@
+{
+  "modId": "byg",
+  "group": {
+    "name": "BYG Fruit",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "minecraft:emerald",
+      "count": 1
+    },
+    "defaultCategory": "tihi:common_fruit"
+  },
+  "customEntries": [
+    {
+      "output": "byg:green_apple",
+      "payment": {
+        "item": "minecraft:apple",
+        "count": 1
+      }
+    }
+  ]
+}
