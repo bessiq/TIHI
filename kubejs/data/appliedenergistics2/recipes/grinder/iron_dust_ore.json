@@ -5,11 +5,11 @@
   },
   "result": {
     "primary": {
-      "item": "thermal:iron_dust"
+      "item": "create:crushed_iron_ore"
     },
     "optional": [
       {
-        "item": "thermal:iron_dust"
+        "item": "create:crushed_iron_ore"
       }
     ]
   },

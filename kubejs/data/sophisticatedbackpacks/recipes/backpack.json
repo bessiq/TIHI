@@ -16,7 +16,7 @@
             "tag": "forge:leather"
         },
         "C": {
-            "item": "druidcraft:travel_backpack"
+            "item": "druidcraft:travel_pack"
         },
         "S": {
             "tag": "forge:string"

@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        "byg:green_apple"
+        "byg:green_apple",
+        "minecraft:apple"
     ]
 }

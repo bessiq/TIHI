@@ -233,7 +233,7 @@
         },
         {
           "type": "item",
-          "name": "thermal:silver_ingot",
+          "name": "occultism:silver_ingot",
           "functions": [
             {
               "function": "set_count",

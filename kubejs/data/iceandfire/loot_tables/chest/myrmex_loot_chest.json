@@ -51,7 +51,7 @@
         },
         {
           "type": "item",
-          "name": "thermal:silver_nugget",
+          "name": "occultism:silver_nugget",
           "functions": [
             {
               "function": "set_count",
@@ -65,7 +65,7 @@
         },
         {
           "type": "item",
-          "name": "thermal:silver_ingot",
+          "name": "occultism:silver_ingot",
           "functions": [
             {
               "function": "set_count",

@@ -5,7 +5,7 @@
   },
   "result": {
     "primary": {
-      "item": "thermal:gold_dust"
+      "item": "create:crushed_gold_ore"
     }
   },
   "turns": 4

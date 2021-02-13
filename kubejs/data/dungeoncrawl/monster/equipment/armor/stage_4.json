@@ -9,15 +9,7 @@
       "weight": 2
     },
     {
-      "item": "endreborn:tungsten_helmet",
-      "weight": 2
-    },
-    {
       "item": "botania:elementium_helmet",
-      "weight": 2
-    },
-    {
-      "item": "savageandravage:griefer_helmet",
       "weight": 2
     },
     {
@@ -43,15 +35,7 @@
       "weight": 2
     },
     {
-      "item": "endreborn:tungsten_chestplate",
-      "weight": 2
-    },
-    {
       "item": "botania:elementium_chestplate",
-      "weight": 2
-    },
-    {
-      "item": "savageandravage:griefer_chestplate",
       "weight": 2
     },
     {
@@ -81,15 +65,11 @@
       "weight": 2
     },
     {
-      "item": "endreborn:tungsten_leggings",
+      "item": "minecolonies:pirate_legs",
       "weight": 2
     },
     {
       "item": "botania:elementium_leggings",
-      "weight": 2
-    },
-    {
-      "item": "savageandravage:griefer_leggings",
       "weight": 2
     },
     {
@@ -111,15 +91,7 @@
       "weight": 2
     },
     {
-      "item": "endreborn:tungsten_boots",
-      "weight": 2
-    },
-    {
       "item": "botania:elementium_boots",
-      "weight": 2
-    },
-    {
-      "item": "savageandravage:griefer_boots",
       "weight": 2
     },
     {

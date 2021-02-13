@@ -2,7 +2,7 @@
     "mobs": [
         {
             "name": "minecraft:zombified_piglin",
-            "weight": 46
+            "weight": 35
         },
         {
             "name": "minecraft:strider",
@@ -18,15 +18,19 @@
         },
         {
             "name": "doomweapon:shotgunguy",
-            "weight": 1
+            "weight": 6
         },
         {
             "name": "rats:demon_rat",
             "weight": 2
         },
         {
+            "name": "infernalexp:embody",
+            "weight": 4
+        },
+        {
             "name": "minecraft:wither_skeleton",
-            "weight": 1
+            "weight": 3
         }
     ]
 }

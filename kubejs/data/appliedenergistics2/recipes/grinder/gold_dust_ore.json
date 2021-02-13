@@ -5,11 +5,11 @@
   },
   "result": {
     "primary": {
-      "item": "thermal:gold_dust"
+      "item": "create:crushed_gold_ore"
     },
     "optional": [
       {
-        "item": "thermal:gold_dust"
+        "item": "create:crushed_gold_ore"
       }
     ]
   },

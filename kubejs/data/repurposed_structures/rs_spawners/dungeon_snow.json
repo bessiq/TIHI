@@ -17,10 +17,6 @@
             "weight": 10
         },
         {
-            "name": "thermal:blizz",
-            "weight": 4
-        },
-        {
             "name": "dungeons_mobs:icy_creeper",
             "weight": 5
         },

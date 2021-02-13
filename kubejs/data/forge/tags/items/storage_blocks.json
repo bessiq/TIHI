@@ -1,7 +1,6 @@
 {
     "replace": false,
     "values": [
-        "#forge:storage_blocks/clay",
-        "#forge:storage_blocks/saltpeter"
+        "#forge:storage_blocks/clay"
     ]
 }

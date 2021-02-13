@@ -5,11 +5,11 @@
   },
   "result": {
     "primary": {
-      "item": "thermal:quartz_dust"
+      "item": "mekanism:dust_quartz"
     },
     "optional": [
       {
-        "item": "thermal:quartz_dust"
+        "item": "mekanism:dust_quartz"
       }
     ]
   },

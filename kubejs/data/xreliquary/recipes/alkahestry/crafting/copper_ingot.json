@@ -20,7 +20,7 @@
     "type": "xreliquary:alkahestry_crafting",
     "charge": 32,
     "ingredient": {
-        "item": "thermal:copper_ingot"
+        "item": "create:copper_ingot"
     },
     "result_count": 2
 }

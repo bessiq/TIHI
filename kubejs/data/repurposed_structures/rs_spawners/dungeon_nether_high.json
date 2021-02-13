@@ -2,7 +2,7 @@
     "mobs": [
         {
             "name": "minecraft:zombified_piglin",
-            "weight": 40
+            "weight": 35
         },
         {
             "name": "minecraft:strider",
@@ -10,27 +10,27 @@
         },
         {
             "name": "minecraft:magma_cube",
-            "weight": 26
+            "weight": 25
         },
         {
             "name": "minecraft:blaze",
             "weight": 10
         },
         {
-            "name": "doomweapon:possessed_soldier",
-            "weight": 1
+            "name": "doomweapon:zombieman",
+            "weight": 6
+        },
+        {
+            "name": "infernalexp:voline",
+            "weight": 3
         },
         {
             "name": "quark:foxhound",
-            "weight": 1
-        },
-        {
-            "name": "alexsmobs:crimson_mosquito",
             "weight": 2
         },
         {
-            "name": "minecraft:zoglin",
-            "weight": 5
+            "name": "alexsmobs:crimson_mosquito",
+            "weight": 4
         }
     ]
 }

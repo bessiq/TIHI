@@ -163,7 +163,7 @@
         },
         {
           "type": "item",
-          "name": "thermal:silver_ore",
+          "name": "occultism:silver_ore",
           "functions": [
             {
               "function": "set_count",

@@ -13,10 +13,10 @@
       "item": "gaiadimension:crystallized_redstone"
     },
     "#": {
-      "item": "rftoolsbase:dimensionalshard"
+      "item": "gobber2:gobber2_glass"
     },
     "k": {
-      "item": "minecraft:gold_ingot"
+      "tag": "forge:ingots/refined_glowstone"
     }
   },
   "result": {

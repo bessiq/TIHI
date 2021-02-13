@@ -1,16 +1,16 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-      "wbw",
+      " w ",
       "bab",
-      "wbw"
+      " w "
     ],
     "key": {
       "w": {
-        "item": "randomloot:random_cluster"
+        "item": "randomloot:random_shard"
       },
       "a": {
-        "item": "teletubbies:tinkywinky_bag"
+        "item": "tihi:red_clay"
       },
       "b": {
         "item": "mystictools:shard"

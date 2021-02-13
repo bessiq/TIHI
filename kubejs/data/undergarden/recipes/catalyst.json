@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "thermal:electrum_gear"
+      "tag": "forge:ingots/brass"
     },
     "I": {
-      "item": "pneumaticcraft:ingot_iron_compressed"
+      "tag": "forge:ingots/compressed_iron"
     },
     "D": {
-      "item": "gobber2:gobber2_ingot"
+      "tag": "forge:gems/moonstone"
     }
   },
   "result": {

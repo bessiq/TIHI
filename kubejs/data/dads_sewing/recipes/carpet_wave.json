@@ -1,0 +1,9 @@
+{
+  "group": "dads_sewing",
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "tag": "minecraft:carpets"
+  },
+  "result": "dads_sewing:carpet_wave"
+}

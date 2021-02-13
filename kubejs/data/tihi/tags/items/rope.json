@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+      "quark:rope",
+      "immersiveengineering:wirecoil_structure_rope",
+      "druidcraft:rope",
+      "farmersdelight:rope"
+  ]
+}

@@ -17,10 +17,6 @@
             "weight": 8
         },
         {
-            "name": "thermal:basalz",
-            "weight": 1
-        },
-        {
             "name": "minecraft:illusioner",
             "weight": 2
         }

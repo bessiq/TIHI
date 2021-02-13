@@ -8,7 +8,7 @@
       "entries": [
         {
           "type": "item",
-          "name": "thermal:copper_ingot",
+          "name": "create:copper_ingot",
           "weight": 1,
           "functions": [
             {
@@ -50,7 +50,7 @@
         },
         {
           "type": "item",
-          "name": "thermal:copper_nugget",
+          "name": "create:copper_nugget",
           "weight": 1,
           "functions": [
             {

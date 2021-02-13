@@ -23,7 +23,7 @@
         },
         {
           "type": "item",
-          "name": "iceandfire:amythest_gem",
+          "name": "mysticalworld:amethyst_gem",
           "functions": [
             {
               "function": "set_count",
@@ -107,7 +107,7 @@
         },
         {
           "type": "item",
-          "name": "thermal:copper_ingot",
+          "name": "create:copper_ingot",
           "functions": [
             {
               "function": "set_count",
@@ -121,7 +121,7 @@
         },
         {
           "type": "item",
-          "name": "thermal:copper_nugget",
+          "name": "create:copper_nugget",
           "functions": [
             {
               "function": "set_count",

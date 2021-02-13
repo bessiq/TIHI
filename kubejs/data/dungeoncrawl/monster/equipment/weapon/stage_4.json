@@ -33,7 +33,7 @@
       "weight": 2
     },
     {
-      "item": "enigmatic_legacy:forbidden_axe",
+      "item": "enigmaticlegacy:forbidden_axe",
       "weight": 3
     },
     {
@@ -61,7 +61,11 @@
       "weight": 2
     },
     {
-      "item": "iceandfire:dragon_bone_sword",
+      "item": "iceandfire:dragonbone_sword",
+      "weight": 3
+    },
+    {
+      "item": "minecolonies:chief_sword",
       "weight": 3
     },
     {
