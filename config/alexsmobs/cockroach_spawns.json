@@ -1,0 +1,71 @@
+{
+  "biomes": [
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "ocean"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "mushroom"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "dry"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "snowy"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "magical"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "undergarden:barren_abyss"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "good_nights_sleep:wasted_forest"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "gaiadimension:volcanic_lands"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:sythian_torrids"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "mining_dimension:mining"
+      }
+    ]
+  ]
+}

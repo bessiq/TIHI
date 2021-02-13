@@ -1,0 +1,48 @@
+{
+  "biomes": [
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "jungle"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "minecraft:bamboo_jungle"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "minecraft:bamboo_jungle_hills"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "byg:bamboo_forest"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "byg:jacaranda_forest_hills"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "byg:jacaranda_forest"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "rats:ratlantis_biome"
+      }
+    ]
+  ]
+}
