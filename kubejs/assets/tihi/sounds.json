@@ -2,41 +2,145 @@
 	"ambient.tihi_hehe": {
 		"category": "biomes",
 		"sounds": [
-			"tihi:ambient/diamond_01",
-			"tihi:ambient/diamond_02",
-			"tihi:ambient/diamond_03",
-			"tihi:ambient/diamond_04",
-			"tihi:ambient/diamond_05",
-			"tihi:ambient/diamond_06",
-			"tihi:ambient/diamond_07",
-			"tihi:ambient/diamond_08",
-			"tihi:ambient/diamond_09",
-			"tihi:ambient/diamond_10",
-			"tihi:ambient/diamond_11",
-			"tihi:ambient/diamond_12",
-			"tihi:ambient/diamond_13",
-			"tihi:ambient/diamond_14",
-			"tihi:ambient/diamond_15",
-			"tihi:ambient/floor",
-			"tihi:ambient/mytown",
-			"tihi:ambient/oohwahahahah",
-			"tihi:ambient/pizza",
-			"tihi:ambient/sein1",
-			"tihi:ambient/sein2",
-			"tihi:ambient/sein3",
-			"tihi:ambient/sein4",
-			"tihi:ambient/sein5",
-			"tihi:ambient/whistle",
-			"tihi:ambient/you"
+			{
+				"name": "tihi:ambient/diamond_01",
+				"volume": 0.8,
+				"weight": 10
+			},
+			{
+				"name": "tihi:ambient/diamond_02",
+				"volume": 0.8,
+				"weight": 9
+			},
+			{
+				"name": "tihi:ambient/diamond_03",
+				"volume": 0.8,
+				"weight": 9
+			},
+			{
+				"name": "tihi:ambient/diamond_04",
+				"volume": 0.8,
+				"weight": 9
+			},
+			{
+				"name": "tihi:ambient/diamond_05",
+				"volume": 0.8,
+				"weight": 9
+			},
+			{
+				"name": "tihi:ambient/diamond_06",
+				"volume": 0.8,
+				"weight": 7
+			},
+			{
+				"name": "tihi:ambient/diamond_07",
+				"volume": 0.8,
+				"weight": 9
+			},
+			{
+				"name": "tihi:ambient/diamond_08",
+				"volume": 0.8,
+				"weight": 9
+			},
+			{
+				"name": "tihi:ambient/diamond_09",
+				"volume": 0.8,
+				"weight": 7
+			},
+			{
+				"name": "tihi:ambient/diamond_10",
+				"volume": 0.8,
+				"weight": 9
+			},
+			{
+				"name": "tihi:ambient/diamond_11",
+				"volume": 0.8,
+				"weight": 9
+			},
+			{
+				"name": "tihi:ambient/diamond_12",
+				"volume": 0.8,
+				"weight": 9
+			},
+			{
+				"name": "tihi:ambient/diamond_13",
+				"volume": 0.8,
+				"weight": 9
+			},
+			{
+				"name": "tihi:ambient/diamond_14",
+				"volume": 0.8,
+				"weight": 9
+			},
+			{
+				"name": "tihi:ambient/diamond_15",
+				"volume": 0.8,
+				"weight": 7
+			},
+			{
+				"name": "tihi:ambient/floor",
+				"volume": 0.9,
+				"weight": 8
+			},
+			{
+				"name": "tihi:ambient/mytown",
+				"volume": 0.9,
+				"weight": 10
+			},
+			{
+				"name": "tihi:ambient/oohwahahahah",
+				"volume": 0.9,
+				"weight": 10
+			},
+			{
+				"name": "tihi:ambient/pizza",
+				"volume": 0.9,
+				"weight": 9
+			},
+			{
+				"name": "tihi:ambient/sein1",
+				"volume": 1.0,
+				"weight": 10
+			},
+			{
+				"name": "tihi:ambient/sein2",
+				"volume": 1.0,
+				"weight": 10
+			},
+			{
+				"name": "tihi:ambient/sein3",
+				"volume": 1.0,
+				"weight": 10
+			},
+			{
+				"name": "tihi:ambient/sein4",
+				"volume": 1.0,
+				"weight": 10
+			},
+			{
+				"name": "tihi:ambient/sein5",
+				"volume": 1.0,
+				"weight": 10
+			},
+			{
+				"name": "tihi:ambient/whistle",
+				"volume": 0.8,
+				"weight": 8
+			},
+			{
+				"name": "tihi:ambient/you",
+				"volume": 0.9,
+				"weight": 10
+			}
 		]
 	},
-  "music.tihi_lofi": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "tihi:music/tdziewiecdz",
-        "stream": true
-      }
-    ]
-  }
+	"music.tihi_lofi": {
+		"category": "music"
+	},
+	"sounds": [
+		{
+			"name": "tihi:music/tdziewiecdz",
+			"stream": true
+		}
+	]
 }

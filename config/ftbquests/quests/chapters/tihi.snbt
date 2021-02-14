@@ -1,7 +1,8 @@
 {
-	id: 2,
+	id: "0000000000000008",
+	group: "",
+	order_index: 0,
 	filename: "tihi",
-	order_index: 1,
 	title: "TIHI",
 	icon: {
 		ForgeCaps: {
@@ -13,7 +14,7 @@
 			}
 		},
 		id: "teletubbies:toast",
-		Count: true
+		Count: 1b
 	},
 	subtitle: ["Thanks! I Hate It"],
 	default_quest_shape: "",
@@ -30,15 +31,15 @@
 					}
 				},
 				id: "tihi:red_clay_ball",
-				Count: true
+				Count: 1b
 			},
 			x: 0.0d,
 			y: -0.3d,
 			shape: "hexagon",
 			subtitle: "Well, you might not hate it...yet.",
-			id: 5,
+			id: "0000000000000009",
 			tasks: [{
-				id: 7,
+				id: "000000000000000A",
 				type: "dimension",
 				title: "Play a modpack of questionable quality.",
 				icon: {
@@ -51,12 +52,12 @@
 						}
 					},
 					id: "tihi:red_clay_ball",
-					Count: true
+					Count: 1b
 				},
 				dimension: "minecraft:overworld"
 			}],
 			rewards: [{
-				id: 66,
+				id: "000000000000000B",
 				type: "item",
 				item: {
 					ForgeCaps: {
@@ -68,69 +69,74 @@
 						}
 					},
 					id: "chanceglobe:chance_globe",
-					Count: true
+					Count: 1b
 				}
 			}]
 		},
 		{
-			title: "Mining & More",
-			x: 0.0d,
-			y: -1.3d,
-			hide_dependency_lines: true,
-			dependencies: [I;
-				5,
-				31,
-				34,
-				37,
-				50,
-				44,
-				47,
-				41
-			],
-			hide: true,
-			id: 23,
-			tasks: [{
-				id: 24,
-				type: "dimension",
-				title: "Visit the mining dimension.",
-				icon: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "mining_dimension:teleporter",
-					Count: true
+			title: "Mining and More",
+			icon: {
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L,
+						fuseShotCounter: 0,
+						crossbowChargeTime: 0,
+						bowChargeTime: 0.0f
+					}
 				},
-				dimension: "mining_dimension:mining"
-			}],
+				id: "mining_dimension:teleporter",
+				Count: 1b
+			},
+			x: 0.0d,
+			y: 1.5d,
+			hide: true,
+			id: "000000000000000C",
+			tasks: [
+				{
+					id: "000000000000000D",
+					type: "item",
+					item: {
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L,
+								fuseShotCounter: 0,
+								crossbowChargeTime: 0,
+								bowChargeTime: 0.0f
+							}
+						},
+						id: "mining_dimension:teleporter",
+						Count: 1b
+					}
+				},
+				{
+					id: "000000000000000E",
+					type: "dimension",
+					title: 'Visit the "mining" dimension.',
+					dimension: "mining_dimension:mining"
+				}
+			],
 			rewards: [{
-				id: 25,
+				id: "459E14901C4DDEBA",
 				type: "loot",
-				table: 0
+				table_id: 52L
 			}]
 		},
 		{
 			title: "Go To Hell!",
-			x: 0.0d,
-			y: 2.1d,
-			hide_dependency_lines: true,
-			dependencies: [I;5],
+			x: -0.5d,
+			y: 0.6d,
 			hide: false,
-			id: 31,
+			id: "0000000000000010",
 			tasks: [{
-				id: 32,
+				id: "0000000000000011",
 				type: "dimension",
 				title: "Travel to the Nether.",
 				dimension: "minecraft:the_nether"
 			}],
 			rewards: [{
-				id: 33,
+				id: "112A5AC691C12871",
 				type: "loot",
-				table: 0
+				table_id: 52L
 			}]
 		},
 		{
@@ -145,15 +151,14 @@
 					}
 				},
 				id: "minecraft:end_crystal",
-				Count: true
+				Count: 1b
 			},
-			x: 2.0d,
-			y: -2.5d,
-			dependencies: [I;31],
+			x: 0.5d,
+			y: -3.0d,
 			hide: true,
-			id: 34,
+			id: "0000000000000013",
 			tasks: [{
-				id: 35,
+				id: "0000000000000014",
 				type: "dimension",
 				title: "Reach The End.",
 				icon: {
@@ -166,29 +171,24 @@
 						}
 					},
 					id: "minecraft:end_portal_frame",
-					Count: true
+					Count: 1b
 				},
 				dimension: "minecraft:the_end"
 			}],
 			rewards: [{
-				id: 36,
-				type: "loot",
-				table: 0
+				id: "0000000000000015",
+				type: "loot"
 			}]
 		},
 		{
 			title: "Haha Funny Rat Dimension",
-			x: -2.8d,
-			y: 0.5d,
-			dependencies: [I;
-				34,
-				41
-			],
+			x: -1.0d,
+			y: -0.3d,
 			hide: true,
 			dependency_requirement: "one_completed",
-			id: 37,
+			id: "0000000000000016",
 			tasks: [{
-				id: 38,
+				id: "0000000000000017",
 				type: "dimension",
 				title: "Visit Ratlantis.",
 				icon: {
@@ -201,29 +201,25 @@
 						}
 					},
 					id: "rats:chunky_cheese_token",
-					Count: true
+					Count: 1b
 				},
 				dimension: "rats:ratlantis"
 			}],
 			rewards: [{
-				id: 40,
+				id: "3A03C8AF1928E942",
 				type: "loot",
-				table: 0
+				table_id: 52L
 			}]
 		},
 		{
 			title: "The Land Down Under",
-			x: 2.8d,
-			y: 0.5d,
-			dependencies: [I;
-				37,
-				44
-			],
+			x: 0.5d,
+			y: 0.6d,
 			hide: true,
 			dependency_requirement: "one_completed",
-			id: 41,
+			id: "0000000000000019",
 			tasks: [{
-				id: 42,
+				id: "000000000000001A",
 				type: "dimension",
 				title: "Travel to the Undergarden.",
 				icon: {
@@ -236,7 +232,7 @@
 						}
 					},
 					id: "undergarden:catalyst",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -244,24 +240,20 @@
 				dimension: "undergarden:undergarden"
 			}],
 			rewards: [{
-				id: 43,
+				id: "694EAFE0D12566D1",
 				type: "loot",
-				table: 0
+				table_id: 52L
 			}]
 		},
 		{
 			title: "Permanent Sunshine",
-			x: -2.0d,
-			y: -2.5d,
-			dependencies: [I;
-				31,
-				41
-			],
+			x: 0.0d,
+			y: -2.1d,
 			hide: true,
 			dependency_requirement: "one_completed",
-			id: 44,
+			id: "000000000000001C",
 			tasks: [{
-				id: 45,
+				id: "000000000000001D",
 				type: "dimension",
 				title: "Go to Gaia.",
 				icon: {
@@ -274,26 +266,24 @@
 						}
 					},
 					id: "gaiadimension:keystone_block",
-					Count: true
+					Count: 1b
 				},
 				dimension: "gaiadimension:gaia_dimension"
 			}],
 			rewards: [{
-				id: 46,
+				id: "2470A484345CF82D",
 				type: "loot",
-				table: 0
+				table_id: 52L
 			}]
 		},
 		{
 			title: "Sweet Dreams",
-			x: -1.1d,
-			y: -0.6d,
-			hide_dependency_lines: true,
-			dependencies: [I;5],
+			x: -0.5d,
+			y: -1.2d,
 			hide: true,
-			id: 47,
+			id: "000000000000001F",
 			tasks: [{
-				id: 48,
+				id: "0000000000000020",
 				type: "dimension",
 				title: "Have a Good Dream.",
 				icon: {
@@ -306,26 +296,24 @@
 						}
 					},
 					id: "good_nights_sleep:candy_block",
-					Count: true
+					Count: 1b
 				},
 				dimension: "good_nights_sleep:good_dream"
 			}],
 			rewards: [{
-				id: 49,
+				id: "0000000000000021",
 				type: "loot",
-				table: 0
+				table_id: 52L
 			}]
 		},
 		{
 			title: "Nightmare Fuel",
-			x: 1.1d,
-			y: -0.6d,
-			hide_dependency_lines: true,
-			dependencies: [I;5],
+			x: 0.5d,
+			y: -1.2d,
 			hide: true,
-			id: 50,
+			id: "0000000000000022",
 			tasks: [{
-				id: 51,
+				id: "0000000000000023",
 				type: "dimension",
 				title: "Experience a Nightmare.",
 				icon: {
@@ -338,25 +326,23 @@
 						}
 					},
 					id: "good_nights_sleep:necrum_block",
-					Count: true
+					Count: 1b
 				},
 				dimension: "good_nights_sleep:nightmare"
 			}],
 			rewards: [{
-				id: 53,
+				id: "3B9489BBDAFB19C0",
 				type: "loot",
-				table: 0
+				table_id: 52L
 			}]
 		},
 		{
 			title: "NOT THE BEES!",
-			x: -0.7d,
-			y: 0.5d,
-			hide_dependency_lines: true,
-			dependencies: [I;5],
-			id: 54,
+			x: 1.0d,
+			y: -0.3d,
+			id: "0000000000000025",
 			tasks: [{
-				id: 55,
+				id: "0000000000000026",
 				type: "dimension",
 				title: "Enter the Bumblezone.",
 				icon: {
@@ -369,45 +355,14 @@
 						}
 					},
 					id: "the_bumblezone:filled_porous_honeycomb_block",
-					Count: true
+					Count: 1b
 				},
 				dimension: "the_bumblezone:the_bumblezone"
 			}],
 			rewards: [{
-				id: 56,
+				id: "14A6D48AD97EA1E1",
 				type: "loot",
-				table: 0
-			}]
-		},
-		{
-			title: "Fallen Swords",
-			x: 0.7d,
-			y: 0.5d,
-			hide_dependency_lines: true,
-			dependencies: [I;5],
-			id: 57,
-			tasks: [{
-				id: 58,
-				type: "dimension",
-				title: "The Reality Marble awaits.",
-				icon: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "mahoutsukai:attuner",
-					Count: true
-				},
-				dimension: "mahoutsukai:reality_marble"
-			}],
-			rewards: [{
-				id: 60,
-				type: "loot",
-				table: 0
+				table_id: 52L
 			}]
 		},
 		{
@@ -422,16 +377,17 @@
 					}
 				},
 				id: "endrem:end_crystal_pearl",
-				Count: true
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
 			},
-			x: 2.5d,
-			y: -1.6d,
-			hide_dependency_lines: true,
-			dependencies: [I;31],
+			x: 1.7d,
+			y: -4.5d,
 			hide: true,
-			id: 67,
+			id: "0000000000000028",
 			tasks: [{
-				id: 68,
+				id: "0000000000000029",
 				type: "advancement",
 				title: "Locate an End...Castle?!",
 				icon: {
@@ -444,10 +400,15 @@
 						}
 					},
 					id: "endrem:end_crystal_pearl",
-					Count: true
+					Count: 1b
 				},
 				advancement: "endrem:main/find_end_castle",
 				criterion: ""
+			}],
+			rewards: [{
+				id: "2DE9A2B3FB4E495B",
+				type: "xp_levels",
+				xp_levels: 3
 			}]
 		},
 		{
@@ -462,15 +423,13 @@
 					}
 				},
 				id: "minecraft:dragon_head",
-				Count: true
+				Count: 1b
 			},
-			x: 3.0d,
-			y: -2.5d,
-			hide_dependency_lines: true,
-			dependencies: [I;34],
-			id: 69,
+			x: 2.0d,
+			y: -3.1d,
+			id: "000000000000002A",
 			tasks: [{
-				id: 70,
+				id: "000000000000002B",
 				type: "advancement",
 				title: "End The Ender Dragon.",
 				icon: {
@@ -483,19 +442,18 @@
 						}
 					},
 					id: "minecraft:dragon_head",
-					Count: true
+					Count: 1b
 				},
 				advancement: "minecraft:end/kill_dragon",
 				criterion: ""
 			}],
 			rewards: [
 				{
-					id: 80,
-					type: "loot",
-					table: 0
+					id: "000000000000002C",
+					type: "loot"
 				},
 				{
-					id: 81,
+					id: "000000000000002D",
 					type: "xp",
 					xp: 100
 				}
@@ -513,16 +471,15 @@
 					}
 				},
 				id: "statues:shulker_statue",
-				Count: true
+				Count: 1b
 			},
-			x: 2.5d,
+			x: -1.5d,
 			y: -3.4d,
 			hide_dependency_lines: true,
-			dependencies: [I;34],
 			hide: true,
-			id: 71,
+			id: "000000000000002E",
 			tasks: [{
-				id: 72,
+				id: "000000000000002F",
 				type: "advancement",
 				title: "Find an End City.",
 				icon: {
@@ -535,13 +492,13 @@
 						}
 					},
 					id: "statues:shulker_statue",
-					Count: true
+					Count: 1b
 				},
 				advancement: "minecraft:end/find_end_city",
 				criterion: ""
 			}],
 			rewards: [{
-				id: 79,
+				id: "0000000000000030",
 				type: "xp",
 				xp: 10
 			}]
@@ -558,15 +515,15 @@
 					}
 				},
 				id: "engineersdecor:metal_crafting_table",
-				Count: true
+				Count: 1b
 			},
-			x: -7.2d,
-			y: -1.5d,
+			x: -4.4d,
+			y: -1.3d,
 			subtitle: "Solve your recipe problems with \\m/etal!",
 			description: ["This crafting table allows you to select the desired recipe output - useful when modpack devs are too lame/lazy/driven-to-insanity to fix recipe conflicts!"],
-			id: 73,
+			id: "0000000000000031",
 			tasks: [{
-				id: 74,
+				id: "0000000000000032",
 				type: "item",
 				item: {
 					ForgeCaps: {
@@ -578,11 +535,11 @@
 						}
 					},
 					id: "engineersdecor:metal_crafting_table",
-					Count: true
+					Count: 1b
 				}
 			}],
 			rewards: [{
-				id: 78,
+				id: "0000000000000033",
 				type: "xp",
 				xp: 10
 			}]

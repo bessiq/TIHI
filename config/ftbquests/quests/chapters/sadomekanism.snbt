@@ -1,7 +1,8 @@
 {
-	id: 9,
+	id: "0000000000000002",
+	group: "",
+	order_index: 1,
 	filename: "sadomekanism",
-	order_index: 2,
 	title: "SadoMekanism",
 	icon: {
 		ForgeCaps: {
@@ -13,7 +14,7 @@
 			}
 		},
 		id: "mekanism:robit",
-		Count: true
+		Count: 1b
 	},
 	subtitle: ["Advanced machinery and tech that will make your ores into mORES!"],
 	default_quest_shape: "",
@@ -30,15 +31,15 @@
 					}
 				},
 				id: "mekanism:osmium_ore",
-				Count: true
+				Count: 1b
 			},
 			x: 0.0d,
 			y: -1.0d,
 			subtitle: "Is it real?!",
 			description: ["Mine some Osmium Ore."],
-			id: 12,
+			id: "0000000000000003",
 			tasks: [{
-				id: 13,
+				id: "0000000000000004",
 				type: "item",
 				item: {
 					ForgeCaps: {
@@ -50,11 +51,11 @@
 						}
 					},
 					id: "mekanism:osmium_ore",
-					Count: true
+					Count: 1b
 				}
 			}],
 			rewards: [{
-				id: 14,
+				id: "0000000000000005",
 				type: "xp_levels",
 				xp_levels: 1
 			}]
@@ -71,15 +72,15 @@
 					}
 				},
 				id: "mekanism:fluorite_gem",
-				Count: true
+				Count: 1b
 			},
 			x: -2.0d,
 			y: -1.0d,
 			subtitle: "Fights cavities!",
 			description: ["Mine some Fluorite Ore."],
-			id: 15,
+			id: "0000000000000006",
 			tasks: [{
-				id: 16,
+				id: "0000000000000007",
 				type: "item",
 				item: {
 					ForgeCaps: {
@@ -91,7 +92,7 @@
 						}
 					},
 					id: "mekanism:fluorite_gem",
-					Count: true
+					Count: 1b
 				}
 			}]
 		}

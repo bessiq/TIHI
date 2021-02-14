@@ -13,7 +13,7 @@
     },
     "additions_sound": {
       "sound": "tihi:ambient.tihi_hehe",
-      "tick_chance": 0.0005
+      "tick_chance": 0.0004
     },
     "music": {
       "sound": "tihi:music.tihi_lofi",
@@ -367,7 +367,7 @@
       },
       {
         "type": "yeeter:tnt_yeeter",
-        "weight": 100,
+        "weight": 80,
         "minCount": 2,
         "maxCount": 3
       },
@@ -384,14 +384,7 @@
         "maxCount": 1
       }
     ],
-    "creature": [
-      {
-        "type": "goblintraders:goblin_trader",
-        "weight": 1,
-        "minCount": 0,
-        "maxCount": 1
-      }
-    ],
+    "creature": [],
     "ambient": [
       {
         "type": "minecraft:bat",
@@ -401,14 +394,21 @@
       },
       {
         "type": "statues:statue_bat",
-        "weight": 6,
-        "minCount": 1,
-        "maxCount": 2
+        "weight": 4,
+        "minCount": 0,
+        "maxCount": 1
       }
     ],
     "water_creature": [],
     "water_ambient": [],
-    "misc": []
+    "misc": [
+      {
+        "type": "goblintraders:goblin_trader",
+        "weight": 1,
+        "minCount": 0,
+        "maxCount": 1
+      }
+    ]
   },
   "spawn_costs": {},
   "player_spawn_friendly": false,
