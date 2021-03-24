@@ -4,8 +4,8 @@
     "name": "Occultism Seeds",
     "enabledByDefault": true,
     "defaultPayment": {
-      "item": "minecraft:emerald",
-      "count": 3
+      "item": "occultism:silver_nugget",
+      "count": 5
     },
     "defaultCategory": "tihi:exotic_seeds"
   },

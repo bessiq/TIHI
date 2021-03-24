@@ -5,7 +5,7 @@
     "enabledByDefault": true,
     "defaultPayment": {
       "item": "undergarden:cloggrum_nugget",
-      "count": 15
+      "count": 12
     },
     "defaultCategory": "tihi:exotic_saplings"
   },
