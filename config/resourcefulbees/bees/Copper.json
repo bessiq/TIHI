@@ -1,0 +1,41 @@
+{
+  "flower": "ALL",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "ores/copper/copper_bee",
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#c76f52",
+    "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutations" : [
+      {
+        "type": "BLOCK",
+        "inputID": "tag:forge:stone",
+        "outputs": [
+          {"outputID": "create:copper_ore", "weight": 10},
+          {"outputID": "minecraft:cobblestone", "weight": 10}
+        ]
+      }
+    ]
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "create:copper_ingot"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:forest",
+    "biomeBlacklist": "tag:water,nether,end,beach",
+    "lightLevel": "DAY",
+    "spawnWeight": 1,
+    "minGroupSize": 1,
+    "maxGroupSize": 1
+  },
+  "BreedData": {
+    "isBreedable": true
+  },
+  "TraitData": {}
+}

@@ -14,9 +14,17 @@
   },
   "MutationData": {
     "hasMutation": true,
-    "mutationInput": "tag:minecraft:lava",
-    "mutationOutput": "minecraft:mossy_cobblestone",
-    "mutationType": "FLUID_TO_BLOCK"
+    "mutations" : [
+      {
+        "type": "BLOCK",
+        "inputID": "minecraft:lava",
+        "chance": 0.75,
+        "outputs": [
+          {"outputID": "minecraft:mossy_cobblestone", "weight": 10},
+          {"outputID": "minecraft:tnt", "weight": 5}
+        ]
+      }
+    ]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
@@ -25,10 +33,12 @@
   },
   "SpawnData": {
     "canSpawnInWorld": true,
-    "biomeWhitelist": "tag:OVERWORLD",
-    "biomeBlacklist": "tag:ocean",
+    "biomeWhitelist": "tag:WASTELAND",
+    "biomeBlacklist": "tag:water,nether,end,beach",
     "lightLevel": "NIGHT",
-    "spawnWeight": 4
+    "spawnWeight": 1,
+    "minGroupSize": 1,
+    "maxGroupSize": 1
   },
   "BreedData": {
     "isBreedable": true

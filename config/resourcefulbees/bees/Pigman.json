@@ -10,9 +10,16 @@
   },
   "MutationData": {
     "hasMutation": true,
-    "mutationInput": "minecraft:netherrack",
-    "mutationOutput": "minecraft:glowstone",
-    "mutationType": "BLOCK_TO_BLOCK"
+    "mutations" : [
+      {
+        "type": "BLOCK",
+        "inputID": "tag:forge:netherrack",
+        "outputs": [
+          {"outputID": "minecraft:glowstone", "weight": 10},
+          {"outputID": "minecraft:netherrack", "weight": 10}
+        ]
+      }
+    ]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
@@ -20,9 +27,11 @@
   },
   "SpawnData": {
     "canSpawnInWorld": true,
-    "biomeWhitelist": "tag:nether",
+    "biomeWhitelist": "minecraft:crimson_forest",
     "lightLevel": "NIGHT",
-    "spawnWeight": 4
+    "spawnWeight": 1,
+    "minGroupSize": 1,
+    "maxGroupSize": 1
   },
   "BreedData": {
     "isBreedable": true

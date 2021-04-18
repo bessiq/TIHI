@@ -1,0 +1,41 @@
+{
+  "flower": "ALL",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "ores/uranium/uranium_bee",
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#85cd85",
+    "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutations" : [
+      {
+        "type": "BLOCK",
+        "inputID": "tag:forge:stone",
+        "outputs": [
+          {"outputID": "mekanism:uranium_ore", "weight": 10},
+          {"outputID": "minecraft:cobblestone", "weight": 10}
+        ]
+      }
+    ]
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "mekanism:ingot_uranium"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:hot",
+    "biomeBlacklist": "tag:water,nether,end,beach",
+    "lightLevel": "DAY",
+    "spawnWeight": 1,
+    "minGroupSize": 1,
+    "maxGroupSize": 1
+  },
+  "BreedData": {
+    "isBreedable": true
+  },
+  "TraitData": {}
+}

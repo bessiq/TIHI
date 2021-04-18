@@ -10,9 +10,16 @@
   },
   "MutationData": {
     "hasMutation": true,
-    "mutationInput": "minecraft:stone",
-    "mutationOutput": "minecraft:cobblestone",
-    "mutationType": "BLOCK_TO_BLOCK"
+    "mutations" : [
+      {
+        "type": "BLOCK",
+        "inputID": "tag:forge:stone",
+        "outputs": [
+          {"outputID": "minecraft:cobblestone", "weight": 10},
+          {"outputID": "minecraft:cobblestone", "weight": 30}
+        ]
+      }
+    ]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
@@ -20,10 +27,12 @@
   },
   "SpawnData": {
     "canSpawnInWorld": true,
-    "biomeWhitelist": "tag:OVERWORLD",
-    "biomeBlacklist": "tag:ocean",
+    "biomeWhitelist": "tag:SPOOKY",
+    "biomeBlacklist": "tag:water,nether,end,beach",
     "lightLevel": "NIGHT",
-    "spawnWeight": 4
+    "spawnWeight": 1,
+    "minGroupSize": 1,
+    "maxGroupSize": 1
   },
   "BreedData": {
     "isBreedable": true

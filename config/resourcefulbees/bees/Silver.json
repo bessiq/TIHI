@@ -1,0 +1,41 @@
+{
+  "flower": "ALL",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "ores/silver/silver_bee",
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#c1c3cb",
+    "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutations" : [
+      {
+        "type": "BLOCK",
+        "inputID": "tag:forge:stone",
+        "outputs": [
+          {"outputID": "occultism:silver_ore", "weight": 10},
+          {"outputID": "minecraft:cobblestone", "weight": 10}
+        ]
+      }
+    ]
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "occultism:silver_ingot"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:coniferous",
+    "biomeBlacklist": "tag:water,nether,end,beach",
+    "lightLevel": "DAY",
+    "spawnWeight": 1,
+    "minGroupSize": 1,
+    "maxGroupSize": 1
+  },
+  "BreedData": {
+    "isBreedable": true
+  },
+  "TraitData": {}
+}

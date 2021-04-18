@@ -10,9 +10,16 @@
   },
   "MutationData": {
     "hasMutation": true,
-    "mutationInput": "tag:forge:stone",
-    "mutationOutput": "minecraft:coal_ore",
-    "mutationType": "BLOCK_TO_BLOCK"
+    "mutations" : [
+      {
+        "type": "BLOCK",
+        "inputID": "tag:forge:stone",
+        "chance": 0.75,
+        "outputs": [
+          {"outputID": "minecraft:coal_ore", "weight": 10}
+        ]
+      }
+    ]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
@@ -21,9 +28,12 @@
   },
   "SpawnData": {
     "canSpawnInWorld": true,
-    "biomeWhitelist": "tag:overworld",
-    "biomeBlacklist": "tag:ocean",
-    "spawnWeight": 4
+    "biomeWhitelist": "tag:plains",
+    "biomeBlacklist": "tag:water,nether,end,beach",
+    "lightLevel": "DAY",
+    "spawnWeight": 1,
+    "minGroupSize": 1,
+    "maxGroupSize": 1
   },
   "BreedData": {
     "feedItem": "minecraft:poppy",

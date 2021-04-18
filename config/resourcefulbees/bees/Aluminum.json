@@ -1,0 +1,41 @@
+{
+  "flower": "ALL",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "ores/aluminum/bauxite_bee",
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#b2babc",
+    "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutations" : [
+      {
+        "type": "BLOCK",
+        "inputID": "tag:forge:stone",
+        "outputs": [
+          {"outputID": "immersiveengineering:ore_aluminum", "weight": 10},
+          {"outputID": "minecraft:cobblestone", "weight": 10}
+        ]
+      }
+    ]
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "immersiveengineering:ingot_aluminum"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:hills",
+    "biomeBlacklist": "tag:water,nether,end,beach",
+    "lightLevel": "DAY",
+    "spawnWeight": 1,
+    "minGroupSize": 1,
+    "maxGroupSize": 1
+  },
+  "BreedData": {
+    "isBreedable": true
+  },
+  "TraitData": {}
+}

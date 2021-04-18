@@ -11,9 +11,16 @@
   },
   "MutationData": {
     "hasMutation": true,
-    "mutationInput": "minecraft:obsidian",
-    "mutationOutput": "minecraft:end_stone",
-    "mutationType": "BLOCK_TO_BLOCK"
+    "mutations" : [
+      {
+        "type": "BLOCK",
+        "inputID": "minecraft:obsidian",
+        "chance": 0.5,
+        "outputs": [
+          {"outputID": "minecraft:end_stone", "weight": 10}
+        ]
+      }
+    ]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
@@ -23,8 +30,11 @@
   "SpawnData": {
     "canSpawnInWorld": true,
     "biomeWhitelist": "TAG:end",
+    "biomeBlacklist": "minecraft:the_end",
     "lightLevel": "NIGHT",
-    "spawnWeight": 10
+    "spawnWeight": 1,
+    "minGroupSize": 1,
+    "maxGroupSize": 1
   },
   "BreedData": {
     "isBreedable": true

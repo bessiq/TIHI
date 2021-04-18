@@ -10,9 +10,16 @@
   },
   "MutationData": {
     "hasMutation": true,
-    "mutationInput": "minecraft:stone",
-    "mutationOutput": "minecraft:lapis_ore",
-    "mutationType": "BLOCK_TO_BLOCK"
+    "mutations" : [
+      {
+        "type": "BLOCK",
+        "inputID": "tag:forge:stone",
+        "outputs": [
+          {"outputID": "minecraft:lapis_ore", "weight": 10},
+          {"outputID": "minecraft:cobblestone", "weight": 10}
+        ]
+      }
+    ]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
@@ -21,9 +28,12 @@
   },
   "SpawnData": {
     "canSpawnInWorld": true,
-    "biomeWhitelist": "tag:OVERWORLD",
-    "biomeBlacklist": "tag:ocean",
-    "spawnWeight": 4
+    "biomeWhitelist": "tag:magical",
+    "biomeBlacklist": "tag:water,nether,end,beach",
+    "lightLevel": "DAY",
+    "spawnWeight": 1,
+    "minGroupSize": 1,
+    "maxGroupSize": 1
   },
   "BreedData": {
     "isBreedable": true

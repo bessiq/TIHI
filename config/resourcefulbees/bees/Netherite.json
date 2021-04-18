@@ -10,9 +10,16 @@
   },
   "MutationData": {
     "hasMutation": true,
-    "mutationInput": "minecraft:blackstone",
-    "mutationOutput": "minecraft:gilded_blackstone",
-    "mutationType": "BLOCK_TO_BLOCK"
+    "mutations" : [
+      {
+        "type": "BLOCK",
+        "inputID": "minecraft:blackstone",
+        "outputs": [
+          {"outputID": "minecraft:gilded_blackstone", "weight": 10},
+          {"outputID": "minecraft:netherrack", "weight": 10}
+        ]
+      }
+    ]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
@@ -21,9 +28,11 @@
   },
   "SpawnData": {
     "canSpawnInWorld": true,
-    "biomeWhitelist": "tag:nether",
+    "biomeWhitelist": "minecraft:basalt_deltas",
     "lightLevel": "NIGHT",
-    "spawnWeight": 4
+    "spawnWeight": 1,
+    "minGroupSize": 1,
+    "maxGroupSize": 1
   },
   "BreedData": {
     "isBreedable": true,

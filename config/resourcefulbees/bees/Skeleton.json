@@ -9,9 +9,15 @@
   },
   "MutationData": {
     "hasMutation": true,
-    "mutationInput": "minecraft:stone",
-    "mutationOutput": "minecraft:gravel",
-    "mutationType": "BLOCK_TO_BLOCK"
+    "mutations" : [
+      {
+        "type": "BLOCK",
+        "inputID": "tag:forge:stone",
+        "outputs": [
+          {"outputID": "minecraft:gravel", "weight": 10}
+        ]
+      }
+    ]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
@@ -19,10 +25,12 @@
   },
   "SpawnData": {
     "canSpawnInWorld": true,
-    "biomeWhitelist": "tag:OVERWORLD",
-    "biomeBlacklist": "tag:ocean",
+    "biomeWhitelist": "tag:dead",
+    "biomeBlacklist": "tag:water,nether,end,beach",
     "lightLevel": "NIGHT",
-    "spawnWeight": 4
+    "spawnWeight": 1,
+    "minGroupSize": 1,
+    "maxGroupSize": 1
   },
   "BreedData": {
     "isBreedable": true,

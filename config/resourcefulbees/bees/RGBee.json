@@ -18,9 +18,13 @@
   },
   "SpawnData": {
     "canSpawnInWorld": true,
-    "biomeWhitelist": "TAG:OVerWorld",
-    "biomeBlacklist": "tag:ocean",
-    "spawnWeight": 4
+    "biomeWhitelist": "TAG:LUSH",
+    "biomeBlacklist": "tag:water,nether,end,beach",
+    "lightLevel": "DAY",
+    "spawnWeight": 1,
+    "minGroupSize": 1,
+    "maxGroupSize": 1,
+    "maxYLevel" : 65
   },
   "BreedData": {
     "isBreedable": true

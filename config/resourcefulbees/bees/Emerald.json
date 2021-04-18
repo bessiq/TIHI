@@ -9,9 +9,16 @@
   },
   "MutationData": {
     "hasMutation": true,
-    "mutationInput": "minecraft:stone",
-    "mutationOutput": "minecraft:lava",
-    "mutationType": "BLOCK_TO_FLUID"
+    "mutations" : [
+      {
+        "type": "BLOCK",
+        "inputID": "tag:forge:stone",
+        "chance": 0.75,
+        "outputs": [
+          {"outputID": "minecraft:lava", "weight": 10}
+        ]
+      }
+    ]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
@@ -19,8 +26,13 @@
   },
   "SpawnData": {
     "canSpawnInWorld": true,
-    "biomeWhitelist": "TAG:Mountain,Hills",
-    "spawnWeight": 4
+    "biomeWhitelist": "tag:mountain",
+    "biomeBlacklist": "tag:water,nether,end,beach",
+    "lightLevel": "DAY",
+    "spawnWeight": 1,
+    "minGroupSize": 1,
+    "maxGroupSize": 1,
+    "minYLevel" : 80
   },
   "BreedData": {
     "isBreedable": true,
