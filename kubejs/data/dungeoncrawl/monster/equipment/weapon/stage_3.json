@@ -65,12 +65,8 @@
       "weight": 3
     },
     {
-      "item": "doomweapon:chainsaw64",
+      "item": "doom:chainsaw64",
       "weight": 1
-    },
-    {
-      "item": "mysticalagriculture:inferium_sword",
-      "weight": 2
     }
   ],
   "ranged": [

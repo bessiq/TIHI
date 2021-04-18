@@ -6,6 +6,11 @@
         "#minecraft:banners",
         "minecraft:spawner",
         "iceandfire:dread_spawner",
+        "inventorypets:cloud_spawn",
+        "inventorypets:nether_spawn",
+        "inventorypets:sand_spawn",
+        "inventorypets:space_spawn",
+        "inventorypets:stone_spawn",
         "valhelsia_structures:special_spawner",
         "quark:monster_box",
         "chancecubes:chance_cube",
@@ -13,7 +18,6 @@
         "chancecubes:compact_giant_chance_cube",
         "chancecubes:cube_dispenser",
         "chancecubes:giant_chance_cube",
-        "chanceglobe:chance_globe",
-        "tihi:tihinium_ore"
+        "tihi:tihinium"
     ]
 }

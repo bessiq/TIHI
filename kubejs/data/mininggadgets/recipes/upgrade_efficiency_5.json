@@ -10,7 +10,7 @@
             "item": "mininggadgets:upgrade_efficiency_4"
         },
         "b": {
-            "item": "extendedcrafting:redstone_ingot_block"
+            "tag": "forge:ingots/dragonsteel_lightning"
         }
     },
     "result": {

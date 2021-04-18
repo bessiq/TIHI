@@ -314,11 +314,6 @@
             }
           ],
           "weight": 3
-        },
-        {
-          "type": "item",
-          "name": "bountifulbaubles:apple",
-          "weight": 1
         }
       ]
     }

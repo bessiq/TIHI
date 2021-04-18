@@ -13,7 +13,7 @@
       "tag": "forge:dyes/red"
     },
     "N": {
-      "item": "extendedcrafting:redstone_nugget"
+      "item": "mekanism:enriched_redstone"
     },
     "S": {
       "tag": "forge:seeds"

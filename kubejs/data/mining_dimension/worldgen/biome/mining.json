@@ -35,8 +35,7 @@
     [],
     [
       "minecraft:lake_lava",
-      "minecraft:lake_water",
-      "byg:wide_lake"
+      "minecraft:lake_water"
     ],
     [],
     [
@@ -108,7 +107,7 @@
       "mining_dimension:strata/159_green_terracotta",
       "mining_dimension:strata/161_red_terracotta",
       "mining_dimension:strata/163_black_terracotta",
-      "mining_dimension:strata/165_soulstone",
+      "mining_dimension:strata/165_deadrock",
       "mining_dimension:strata/170_black_ice",
       "mining_dimension:strata/170_packed_black_ice",
       "mining_dimension:strata/174_voidstone",
@@ -145,12 +144,12 @@
       "mining_dimension:misc/glowstone",
       "mining_dimension:misc/red_clay",
       "mining_dimension:misc/sea_lantern",
+      "mining_dimension:misc/tihinium",
       "mining_dimension:ores/ore_fluorite",
       "mining_dimension:ores/ore_gold_nether",
       "mining_dimension:ores/ore_quartz_nether",
       "mining_dimension:ores/ore_soulium",
       "mining_dimension:ores/ore_stella_arcanum",
-      "mining_dimension:ores/ore_tihinium",
       "mining_dimension:ores/ore_gaia_cinnabar",
       "mining_dimension:ores/ore_gaia_hematite",
       "mining_dimension:ores/ore_gaia_labradorite",
@@ -174,12 +173,9 @@
   "starts": [
     "minecraft:nether_fossil",
     "minecraft:mineshaft",
-    "minecraft:ruined_portal",
     "dungeons_plus:bigger_dungeon",
     "eidolon:catacomb",
-    "eidolon:lab",
     "inventorypets:underground_dungeon",
-    "inventorypets:space_dungeon",
     "bettermineshafts:mineshaft",
     "repurposed_structures:mineshaft_stone"
   ],
@@ -360,25 +356,19 @@
         "maxCount": 3
       },
       {
-        "type": "infernalexp:embody",
-        "weight": 12,
-        "minCount": 1,
-        "maxCount": 2
-      },
-      {
         "type": "yeeter:tnt_yeeter",
         "weight": 80,
         "minCount": 2,
         "maxCount": 3
       },
       {
-        "type": "doomweapon:nightmare_imp",
+        "type": "doom:nightmare_imp",
         "weight": 35,
         "minCount": 1,
         "maxCount": 1
       },
       {
-        "type": "doomweapon:revenant",
+        "type": "doom:revenant",
         "weight": 30,
         "minCount": 1,
         "maxCount": 1

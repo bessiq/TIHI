@@ -7,7 +7,7 @@
     ],
     "key": {
         "r": {
-            "item": "extendedcrafting:redstone_component"
+            "item": "tconstruct:netherite_nugget"
         },
         "u": {
             "item": "mininggadgets:upgrade_empty"

@@ -2,27 +2,12 @@
     "type": "minecraft:block",
     "pools": [
         {
-            "name": "tihi:tihinium_ore",
+            "name": "tihi:tihinium",
             "rolls": {
                 "min": 4,
                 "max": 8
             },
             "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "extendedcrafting:the_ultimate_nugget",
-                    "weight": 6
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "extendedcrafting:crystaltine_ingot",
-                    "weight": 7
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "extendedcrafting:enhanced_ender_ingot",
-                    "weight": 8
-                },
                 {
                     "type": "minecraft:tag",
                     "name": "tihi:loot",

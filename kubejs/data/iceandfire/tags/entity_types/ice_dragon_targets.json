@@ -1,0 +1,13 @@
+{
+  "__comment": "all animal (non villager, non player) mobs that dragons will target.",
+  "replace": false,
+  "values": [
+    "#iceandfire:dragon_targets",
+    "alexsmobs:orca",
+    "dungeons_mobs:frozen_zombie",
+    "dungeons_mobs:iceologer",
+    "dungeons_mobs:icy_creeper",
+    "minecraft:turtle",
+    "twilightforest:penguin"
+  ]
+}

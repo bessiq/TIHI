@@ -17,16 +17,12 @@
             "weight": 10
         },
         {
-            "name": "doomweapon:shotgunguy",
+            "name": "doom:shotgunguy",
             "weight": 6
         },
         {
             "name": "rats:demon_rat",
             "weight": 2
-        },
-        {
-            "name": "infernalexp:embody",
-            "weight": 4
         },
         {
             "name": "minecraft:wither_skeleton",

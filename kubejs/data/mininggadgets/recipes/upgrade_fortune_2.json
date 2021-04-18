@@ -10,7 +10,7 @@
             "item": "minecraft:lapis_block"
         },
         "g": {
-            "item": "gobber2:gobber2_ingot_nether"
+            "item": "tconstruct:cobalt_ingot"
         },
         "u": {
             "item": "mininggadgets:upgrade_fortune_1"

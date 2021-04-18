@@ -17,12 +17,8 @@
             "weight": 10
         },
         {
-            "name": "doomweapon:zombieman",
+            "name": "doom:zombieman",
             "weight": 6
-        },
-        {
-            "name": "infernalexp:voline",
-            "weight": 3
         },
         {
             "name": "quark:foxhound",

@@ -7,7 +7,7 @@
     ],
     "key": {
         "r": {
-            "item": "extendedcrafting:redstone_component"
+            "tag": "forge:ingots/quicksilver"
         },
         "u": {
             "item": "mininggadgets:upgrade_empty"

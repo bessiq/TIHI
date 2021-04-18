@@ -1,0 +1,12 @@
+{
+  "__comment": "villagers that will flee dragons and be targeted by them.",
+  "replace": false,
+  "values": [
+    "goblintraders:goblin_trader",
+    "goblintraders:vein_goblin_trader",
+    "minecolonies:citizen",
+    "minecraft:villager",
+    "minecraft:wandering_trader",
+    "rats:plague_doctor"
+  ]
+}

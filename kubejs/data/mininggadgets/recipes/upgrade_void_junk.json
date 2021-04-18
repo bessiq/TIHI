@@ -7,13 +7,13 @@
     ],
     "key": {
         "r": {
-            "item": "extendedcrafting:redstone_ingot"
+            "tag": "forge:gems/biotite"
         },
         "u": {
             "item": "mininggadgets:upgrade_empty"
         },
         "o": {
-            "item": "minecraft:crying_obsidian"
+            "tag": "good_nights_sleep:gems/negatite"
         },
         "e": {
             "tag": "forge:ender_pearls"

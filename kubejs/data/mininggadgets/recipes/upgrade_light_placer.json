@@ -16,7 +16,7 @@
             "item": "minecraft:shroomlight"
         },
         "a": {
-            "item": "extendedcrafting:luminessence"
+            "tag": "forge:gems/moonstone"
         },
         "u": {
             "item": "mininggadgets:upgrade_empty"

@@ -7,7 +7,7 @@
     ],
     "key": {
         "r": {
-            "item": "extendedcrafting:redstone_ingot_block"
+            "tag": "forge:ingots/iesnium"
         },
         "u": {
             "item": "mininggadgets:upgrade_empty"
@@ -19,7 +19,7 @@
             "item": "immersiveengineering:drillhead_steel"
         },
         "e": {
-            "item": "mysticalagriculture:prudentium_ingot"
+            "item": "tconstruct:rose_gold_ingot"
         }
     },
     "result": {

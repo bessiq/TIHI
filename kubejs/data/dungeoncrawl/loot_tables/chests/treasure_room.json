@@ -246,41 +246,18 @@
 		},
 		{
 			"rolls": {
-				"min": 1,
-				"max": 2
+				"min": 0,
+				"max": 1
 			},
 			"entries": [
 				{
-					"type": "minecraft:item",
-					"name": "chanceglobe:chance_globe",
-					"weight": 7,
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 1,
-								"max": 2
-							}
-						}
-					]
-				},
-				{
 				  "type": "minecraft:item",
 				  "name": "chancecubes:chance_cube",
-				  "weight": 3,
-				  "functions": [
-					{
-					  "function": "set_count",
-					  "count": {
-						"min": 1,
-						"max": 1
-					  }
-					}
-				  ]
+				  "weight": 1
 				},
 				{
 					"type": "empty",
-					"weight": 90
+					"weight": 9
 				}
 			]
 		}

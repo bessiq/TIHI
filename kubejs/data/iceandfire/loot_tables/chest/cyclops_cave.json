@@ -145,11 +145,6 @@
         },
         {
           "type": "item",
-          "name": "mystictools:loot_case",
-          "weight": 2
-        },
-        {
-          "type": "item",
           "name": "randomloot:basic_case",
           "weight": 3
         },
@@ -172,20 +167,6 @@
           "type": "item",
           "name": "rats:pied_wool",
           "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "chanceglobe:chance_globe",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
         },
         {
           "type": "minecraft:loot_table",

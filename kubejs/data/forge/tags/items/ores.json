@@ -4,8 +4,6 @@
         "#forge:ores/amethyst",
         "#forge:ores/ametrine",
         "#forge:ores/pendorite",
-        "#forge:ores/prosperity",
-        "#forge:ores/inferium",
         "#forge:ores/sapphire"
     ]
 }

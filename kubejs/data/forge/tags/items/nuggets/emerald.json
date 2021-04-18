@@ -1,7 +1,6 @@
 {
     "replace": false,
     "values": [
-        "inventorypets:nugget_emerald",
-        "more_jellyfish:emerald_fragment"
+        "inventorypets:nugget_emerald"
     ]
 }

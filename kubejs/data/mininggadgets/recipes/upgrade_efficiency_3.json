@@ -7,13 +7,13 @@
     ],
     "key": {
         "r": {
-            "item": "extendedcrafting:redstone_component"
+            "tag": "forge:ingots/electrum"
         },
         "u": {
             "item": "mininggadgets:upgrade_efficiency_2"
         },
         "b": {
-            "item": "extendedcrafting:redstone_ingot_block"
+            "tag": "forge:ingots/hepatizon"
         }
     },
     "result": {

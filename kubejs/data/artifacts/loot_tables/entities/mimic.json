@@ -16,11 +16,6 @@
         },
         {
           "type": "item",
-          "name": "mystictools:loot_case",
-          "weight": 9
-        },
-        {
-          "type": "item",
           "name": "randomloot:basic_case",
           "weight": 10
         },

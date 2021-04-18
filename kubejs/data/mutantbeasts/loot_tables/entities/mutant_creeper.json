@@ -49,30 +49,6 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "mystictools:loot_case",
-					"weight": 3,
-					"conditions": [
-						{
-							"condition": "minecraft:killed_by_player"
-						},
-						{
-							"condition": "minecraft:random_chance_with_looting",
-							"chance": 0.010,
-							"looting_multiplier": 1
-						}
-					]
-				},
-				{
-					"type": "empty",
-					"weight": 97
-				}
-			]
-		},
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:item",
 					"name": "randomloot:basic_case",
 					"weight": 5,
 					"conditions": [

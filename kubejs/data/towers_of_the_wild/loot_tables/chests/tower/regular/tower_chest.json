@@ -138,11 +138,6 @@
         },
         {
           "type": "item",
-          "name": "mystictools:loot_case",
-          "weight": 2
-        },
-        {
-          "type": "item",
           "name": "randomloot:basic_case",
           "weight": 3
         },
@@ -155,25 +150,6 @@
           "type": "item",
           "name": "randomloot:golden_case",
           "weight": 2
-        },
-        {
-          "type": "item",
-          "name": "bountifulbaubles:balloon",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "name": "chanceglobe:chance_globe",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
         },
         {
           "type": "empty",

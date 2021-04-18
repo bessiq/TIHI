@@ -79,7 +79,7 @@
         },
         {
           "type": "item",
-          "name": "iceandfire:witherbone",
+          "name": "tconstruct:necrotic_bone",
           "functions": [
             {
               "function": "set_count",
@@ -425,11 +425,6 @@
         },
         {
           "type": "item",
-          "name": "mystictools:loot_case",
-          "weight": 2
-        },
-        {
-          "type": "item",
           "name": "randomloot:basic_case",
           "weight": 3
         },
@@ -447,20 +442,6 @@
           "type": "item",
           "name": "dungeons_gear:harvester",
           "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "chanceglobe:chance_globe",
-          "weight": 2,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
         },
         {
           "type": "minecraft:loot_table",

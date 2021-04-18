@@ -37,10 +37,6 @@
       "weight": 3
     },
     {
-      "item": "gobber2:gobber2_sword",
-      "weight": 1
-    },
-    {
       "item": "good_nights_sleep:necrum_sword",
       "weight": 3
     },
@@ -49,15 +45,11 @@
       "weight": 2
     },
     {
-      "item": "doomweapon:argent_axe",
+      "item": "doom:argent_axe",
       "weight": 1
     },
     {
       "item": "minecraft:netherite_sword",
-      "weight": 2
-    },
-    {
-      "item": "mysticalagriculture:prudentium_sword",
       "weight": 2
     },
     {

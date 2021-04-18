@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "expandedstorage:old_wood_chest",
+        "expandedstorage:wood_chest"
+    ]
+}
