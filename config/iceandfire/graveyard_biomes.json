@@ -1,0 +1,36 @@
+{
+  "biomes": [
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "water"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "beach"
+      },
+      {
+        "type": "BIOME_CATEGORY",
+        "negate": true,
+        "value": "beach"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "mushroom"
+      },
+      {
+        "type": "BIOME_CATEGORY",
+        "negate": true,
+        "value": "mushroom"
+      }
+    ]
+  ]
+}

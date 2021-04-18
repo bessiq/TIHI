@@ -4,42 +4,42 @@
       {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "minecraft:deep_ocean"
+        "value": "minecraft:wooded_mountains"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "minecraft:deep_lukewarm_ocean"
+        "value": "byg:cika_mountains"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "minecraft:deep_cold_ocean"
+        "value": "byg:weeping_witch_forest"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "minecraft:deep_frozen_ocean"
+        "value": "byg:weeping_witch_clearing"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "gaiadimension:mineral_reservoir"
+        "value": "byg:wooded_grassland_plateau"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "rats:ratlantis_biome"
+        "value": "byg:pumpkin_forest"
       }
     ]
   ]

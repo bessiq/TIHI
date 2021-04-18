@@ -4,20 +4,6 @@
       {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "minecraft:deep_ocean"
-      }
-    ],
-    [
-      {
-        "type": "REGISTRY_NAME",
-        "negate": false,
-        "value": "minecraft:deep_lukewarm_ocean"
-      }
-    ],
-    [
-      {
-        "type": "REGISTRY_NAME",
-        "negate": false,
         "value": "minecraft:deep_cold_ocean"
       }
     ],
@@ -32,7 +18,21 @@
       {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "gaiadimension:mineral_reservoir"
+        "value": "minecraft:deep_ocean"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:deep_warm_ocean"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:deep_lukewarm_ocean"
       }
     ],
     [

@@ -4,19 +4,21 @@
       {
         "type": "BIOME_DICT",
         "negate": false,
-        "value": "overworld"
-      },
+        "value": "swamp"
+      }
+    ],
+    [
       {
-        "type": "BIOME_DICT",
+        "type": "BIOME_CATEGORY",
         "negate": false,
-        "value": "beach"
+        "value": "swamp"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "byg:great_lakes"
+        "value": "gaiadimension:purple_agate_swamp"
       }
     ]
   ]

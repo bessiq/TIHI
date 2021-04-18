@@ -4,42 +4,56 @@
       {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "minecraft:deep_ocean"
+        "value": "byg:ebony_woods"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "minecraft:deep_lukewarm_ocean"
+        "value": "byg:ebony_hills"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "minecraft:deep_cold_ocean"
+        "value": "byg:the_black_forest"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "minecraft:deep_frozen_ocean"
+        "value": "byg:black_forest_hills"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "gaiadimension:mineral_reservoir"
+        "value": "byg:black_forest_clearing"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "rats:ratlantis_biome"
+        "value": "byg:basalt_barrera"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:twilight_valley"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:twilight_valley_hills"
       }
     ]
   ]

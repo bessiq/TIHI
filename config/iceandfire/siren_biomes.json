@@ -4,7 +4,14 @@
       {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "minecraft:deep_ocean"
+        "value": "minecraft:warm_ocean"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:deep_warm_ocean"
       }
     ],
     [
@@ -18,28 +25,14 @@
       {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "minecraft:deep_cold_ocean"
+        "value": "minecraft:lukewarm_ocean"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "minecraft:deep_frozen_ocean"
-      }
-    ],
-    [
-      {
-        "type": "REGISTRY_NAME",
-        "negate": false,
-        "value": "gaiadimension:mineral_reservoir"
-      }
-    ],
-    [
-      {
-        "type": "REGISTRY_NAME",
-        "negate": false,
-        "value": "rats:ratlantis_biome"
+        "value": "twilightforest:lake"
       }
     ]
   ]

@@ -9,14 +9,12 @@
       {
         "type": "BIOME_DICT",
         "negate": false,
-        "value": "beach"
-      }
-    ],
-    [
+        "value": "river"
+      },
       {
-        "type": "REGISTRY_NAME",
-        "negate": false,
-        "value": "byg:great_lakes"
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "cold"
       }
     ]
   ]

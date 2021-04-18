@@ -1,0 +1,18 @@
+{
+  "biomes": [
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "plains"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_CATEGORY",
+        "negate": false,
+        "value": "plains"
+      }
+    ]
+  ]
+}

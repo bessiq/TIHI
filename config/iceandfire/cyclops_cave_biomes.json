@@ -4,42 +4,42 @@
       {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "minecraft:deep_ocean"
+        "value": "byg:rocky_beach"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "minecraft:deep_lukewarm_ocean"
+        "value": "minecraft:stone_shore"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "minecraft:deep_cold_ocean"
+        "value": "byg:snowy_black_beach"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "minecraft:deep_frozen_ocean"
+        "value": "byg:snowy_rocky_black_beach"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "gaiadimension:mineral_reservoir"
+        "value": "byg:basalt_barrera"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "rats:ratlantis_biome"
+        "value": "minecraft:mushroom_field_shore"
       }
     ]
   ]

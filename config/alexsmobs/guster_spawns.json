@@ -9,14 +9,17 @@
       {
         "type": "BIOME_DICT",
         "negate": false,
-        "value": "beach"
-      }
-    ],
-    [
+        "value": "hot"
+      },
       {
-        "type": "REGISTRY_NAME",
+        "type": "BIOME_DICT",
         "negate": false,
-        "value": "byg:great_lakes"
+        "value": "dry"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "sandy"
       }
     ]
   ]

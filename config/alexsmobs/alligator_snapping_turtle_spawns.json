@@ -9,14 +9,7 @@
       {
         "type": "BIOME_DICT",
         "negate": false,
-        "value": "beach"
-      }
-    ],
-    [
-      {
-        "type": "REGISTRY_NAME",
-        "negate": false,
-        "value": "byg:great_lakes"
+        "value": "swamp"
       }
     ]
   ]

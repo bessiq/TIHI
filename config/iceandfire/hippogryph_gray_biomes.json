@@ -4,42 +4,42 @@
       {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "minecraft:deep_ocean"
+        "value": "byg:stone_forest"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "minecraft:deep_lukewarm_ocean"
+        "value": "byg:pointed_stone_forest"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "minecraft:deep_cold_ocean"
+        "value": "byg:dead_sea"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "minecraft:deep_frozen_ocean"
+        "value": "byg:zelkova_forest"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "gaiadimension:mineral_reservoir"
+        "value": "byg:zelkova_clearing"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "rats:ratlantis_biome"
+        "value": "byg:zelkova_forest_hills"
       }
     ]
   ]
