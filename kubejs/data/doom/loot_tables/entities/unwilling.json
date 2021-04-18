@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "doom:argent_energy",
+                    "weight": 6
+                },
+                {
+                    "type": "minecraft:empty",
+                    "weight": 94
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:killed_by_player"
+                }
+            ]
+        }
+    ]
+}
