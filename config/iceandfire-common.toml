@@ -163,7 +163,7 @@
 	"Dragon Flight Speed Modifier" = 1.0
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Spawn Wandering Cyclops Chance" = 100
+	"Spawn Wandering Cyclops Chance" = 150
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
 	"Spawn Gorgon Chance" = 100
@@ -284,7 +284,7 @@
 	#How many blocks away can ampitheres detect villagers being hurt. Note that increasing this could cause lag.
 	#Range: 1 ~ 10000
 	"Amphithere Villager Search Length" = 64
-	#Deathworm spawn weight. Lower = lower chance to spawn
+	#Deathworm spawn weight. Higher = lower chance to spawn
 	#Range: 1 ~ 10000
 	"Death Worm Spawn Weight" = 25
 	#Percentage of critical strike that will disarm with easter egg tinkers material.
@@ -370,5 +370,5 @@
 	"Spawn Death Worms" = true
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Spawn Pixies Chance" = 80
+	"Spawn Pixies Chance" = 100
 

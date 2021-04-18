@@ -1,15 +1,15 @@
 
 [Entities]
 	#Range: 1 ~ 1000000
-	tinkywinky_weight = 7
+	tinkywinky_weight = 6
 	#Range: 1 ~ 1000000
-	dipsy_weight = 7
+	dipsy_weight = 6
 	#Range: 1 ~ 1000000
-	laalaa_weight = 7
+	laalaa_weight = 6
 	#Range: 1 ~ 1000000
-	po_weight = 7
+	po_weight = 6
 	#Range: 1 ~ 1000000
-	noonoo_weight = 7
+	noonoo_weight = 6
 	#Range: 1 ~ 1000000
 	mimi_weight = 3
 	#Range: 1 ~ 1000000
@@ -27,13 +27,13 @@
 	#Range: 1 ~ 1000000
 	umpiepumpie_weight = 3
 	#Range: 1 ~ 1000000
-	tinkywinky_zombie_weight = 30
+	tinkywinky_zombie_weight = 20
 	#Range: 1 ~ 1000000
-	dipsy_zombie_weight = 30
+	dipsy_zombie_weight = 20
 	#Range: 1 ~ 1000000
-	laalaa_zombie_weight = 30
+	laalaa_zombie_weight = 20
 	#Range: 1 ~ 1000000
-	po_zombie_weight = 30
+	po_zombie_weight = 20
 	#Chance of Teletubby transforming into zombie Teletubby
 	#Range: 1 ~ 100
 	transformation_probability = 20

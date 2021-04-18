@@ -43,10 +43,6 @@ onEvent('recipes', event => {
         'minecraft:gold_ore',
     )
     orely(
-        'inferium',
-        'mysticalagriculture:inferium_ore',
-    )
-    orely(
         'iron',
         'minecraft:iron_ore',
     )
@@ -69,10 +65,6 @@ onEvent('recipes', event => {
     orely(
         'pendorite',
         'byg:pendorite_ore',
-    )
-    orely(
-        'prosperity',
-        'mysticalagriculture:prosperity_ore',
     )
     orely(
         'quartz',

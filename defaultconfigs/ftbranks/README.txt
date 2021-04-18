@@ -316,8 +316,6 @@ command.crashutilities.tp.player.pos
 command.crashutilities.tp.player.pos.dim
 command.crashutilities.unstuck
 command.crashutilities.unstuck.name
-command.cucumber
-command.cucumber.fillenergy
 command.curios
 command.curios.add
 command.curios.add.slot
@@ -1530,9 +1528,6 @@ command.mute
 command.mute.targetPlayer
 command.mute.targetPlayer.time
 command.mute.targetPlayer.time.reason
-command.mysticalcustomization
-command.mysticalcustomization.tiers
-command.mysticalcustomization.types
 command.naaura
 command.naaura.add
 command.naaura.add.amount
@@ -1734,12 +1729,6 @@ command.setworldspawn
 command.setworldspawn.pos
 command.setworldspawn.pos.angle
 command.spawn
-command.spawninfernal
-command.spawninfernal.x
-command.spawninfernal.x.y
-command.spawninfernal.x.y.z
-command.spawninfernal.x.y.z.entClass
-command.spawninfernal.x.y.z.entClass.modifiers
 command.spawnpoint
 command.spawnpoint.targets
 command.spawnpoint.targets.pos

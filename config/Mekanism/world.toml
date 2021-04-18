@@ -100,7 +100,7 @@
 	[world_generation.uranium]
 		#Chance that uranium generates in a chunk.
 		#Range: 1 ~ 128
-		perChunk = 4
+		perChunk = 6
 		#Top offset for calculating height that veins of uranium can spawn. Height is calculated by: random.nextInt(maxHeight - topOffset) + bottomOffset
 		topOffset = 0
 		#Bottom offset for calculating height that veins of uranium can spawn. Height is calculated by: random.nextInt(maxHeight - topOffset) + bottomOffset

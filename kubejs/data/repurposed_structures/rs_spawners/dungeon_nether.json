@@ -1,0 +1,44 @@
+{
+    "mobs": [
+        {
+            "name": "minecraft:zombified_piglin",
+            "weight": 22
+        },
+        {
+            "name": "minecraft:strider",
+            "weight": 12
+        },
+        {
+            "name": "minecraft:magma_cube",
+            "weight": 16
+        },
+        {
+            "name": "minecraft:blaze",
+            "weight": 16
+        },
+        {
+            "name": "minecraft:wither_skeleton",
+            "weight": 12
+        },
+        {
+            "name": "doom:shotgunguy",
+            "weight": 6
+        },
+        {
+            "name": "rats:demon_rat",
+            "weight": 3
+        },
+        {
+            "name": "doom:zombieman",
+            "weight": 6
+        },
+        {
+            "name": "quark:foxhound",
+            "weight": 3
+        },
+        {
+            "name": "alexsmobs:crimson_mosquito",
+            "weight": 4
+        }
+    ]
+}

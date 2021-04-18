@@ -70,100 +70,10 @@
 						bowChargeTime: 0.0f
 					}
 				},
-				id: "mystictools:common_case",
-				Count: 1b
-			},
-			weight: 5
-		},
-		{
-			item: {
-				ForgeCaps: {
-					"dungeons_gear:weapon": {
-						lastFiredTime: 0L,
-						fuseShotCounter: 0,
-						crossbowChargeTime: 0,
-						bowChargeTime: 0.0f
-					}
-				},
-				id: "mystictools:uncommon_case",
-				Count: 1b
-			},
-			weight: 4
-		},
-		{
-			item: {
-				ForgeCaps: {
-					"dungeons_gear:weapon": {
-						lastFiredTime: 0L,
-						fuseShotCounter: 0,
-						crossbowChargeTime: 0,
-						bowChargeTime: 0.0f
-					}
-				},
-				id: "mystictools:rare_case",
-				Count: 1b
-			},
-			weight: 3
-		},
-		{
-			item: {
-				ForgeCaps: {
-					"dungeons_gear:weapon": {
-						lastFiredTime: 0L,
-						fuseShotCounter: 0,
-						crossbowChargeTime: 0,
-						bowChargeTime: 0.0f
-					}
-				},
-				id: "mystictools:epic_case",
-				Count: 1b
-			},
-			weight: 2
-		},
-		{
-			item: {
-				ForgeCaps: {
-					"dungeons_gear:weapon": {
-						lastFiredTime: 0L,
-						fuseShotCounter: 0,
-						crossbowChargeTime: 0,
-						bowChargeTime: 0.0f
-					}
-				},
-				id: "mystictools:unique_case",
-				Count: 1b
-			}
-		},
-		{
-			item: {
-				ForgeCaps: {
-					"dungeons_gear:weapon": {
-						lastFiredTime: 0L,
-						fuseShotCounter: 0,
-						crossbowChargeTime: 0,
-						bowChargeTime: 0.0f
-					}
-				},
 				id: "lootbagmod:lootbag",
 				Count: 1b
 			},
 			weight: 2
-		},
-		{
-			item: {
-				ForgeCaps: {
-					"dungeons_gear:weapon": {
-						lastFiredTime: 0L,
-						fuseShotCounter: 0,
-						crossbowChargeTime: 0,
-						bowChargeTime: 0.0f
-					}
-				},
-				id: "chanceglobe:chance_globe",
-				Count: 1b
-			},
-			count: 3,
-			weight: 4
 		},
 		{
 			item: {

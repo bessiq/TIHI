@@ -48,7 +48,7 @@
 	#Range: 0.0 ~ 1.0
 	probability = 0.9
 	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
-	valid_dimensions = "minecraft:overworld"
+	valid_dimensions = "minecraft:overworld, minecraft:the_nether"
 
 [bigger_dungeon]
 	#Spacing between structures
@@ -65,7 +65,7 @@
 	#Range: 0.0 ~ 1.0
 	probability = 0.4
 	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
-	valid_dimensions = "minecraft:overworld"
+	valid_dimensions = "minecraft:overworld, mining_dimension:mining"
 
 [end_ruins]
 	#Spacing between structures
@@ -94,7 +94,7 @@
 	#How should the code treate biomes? true = whitelist, false = blacklist. Biomes defined with ! do the opposite.
 	is_whitelist = true
 	#A biome filter to determine where the structure should generate. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
-	biomes = "#forge:ocean, !#forge:snowy, !byg:dead_sea"
+	biomes = "minecraft:deep_ocean, minecraft:deep_lukewarm_ocean, minecraft:deep_cold_ocean"
 	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
 	valid_dimensions = "minecraft:overworld"
 

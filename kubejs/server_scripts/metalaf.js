@@ -18,8 +18,6 @@ onEvent('recipes', event => {
         event.replaceInput(gem, '#forge:gems/' + material)
 
         // re.dun.dant.
-        event.remove({ id: 'more_jellyfish:emerald_from_fragments' })
-        event.remove({ id: 'more_jellyfish:diamond_from_fragments' })
         event.remove({ id: 'forbidden_arcanus:ender_pearl' })
         event.remove({ id: 'forbidden_arcanus:ender_pearl_fragment' })
 
@@ -28,6 +26,7 @@ onEvent('recipes', event => {
         event.replaceInput({ mod: 'ars_nouveau' }, '#forge:storage_blocks/' + material, block)
         
         event.replaceInput('appliedenergistics2:ender_dust', '#forge:dusts/ender_pearl')
+        event.replaceInput('betterendforge:ender_dust', '#forge:dusts/ender_pearl')
 
         event.replaceInput('create:powdered_obsidian', '#forge:dusts/obsidian')
 

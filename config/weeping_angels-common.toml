@@ -6,11 +6,14 @@
 	genGraveyard = true
 	#Configure whether the mods ores spawn. This MAY require a restart when changed.
 	genOres = false
+	#Configure whether Catacombs Structures spawn. This will require a restart when changed.
+	genCatacombs = true
 
 [spawn]
 	#Note: A list of biomes where angels should spawn.
 	allowedBiomes = ["byg:frozen_lake", "byg:shattered_glacier", "byg:snowy_black_beach", "byg:snowy_coniferous_clearing", "byg:snowy_deciduous_clearing", "byg:snowy_evergreen_clearing", "byg:snowy_rocky_black_beach", "byg:subzero_hypogeal", "minecraft:ice_spikes", "undergarden:frostfields"]
-	#This will only accept: MONSTER || CREATURE || AMBIENT || MISC || Anything else WILL crash your game.
+	#Angel spawn type
+	#Allowed Values: MONSTER, CREATURE, AMBIENT, WATER_CREATURE, WATER_AMBIENT, MISC, EITD_EYES
 	spawnType = "MONSTER"
 	#The maximum amount of angels per biome
 	#Range: 1 ~ 100
@@ -39,8 +42,6 @@
 	blockBreakRange = 15
 	#If this is enabled, baby angels will blow out light items from the players hand
 	torchBlowOut = true
-	#if enabled, No way to attack/kill angels. Just running.
-	hardcoreMode = false
 	#if enabled, angels will freeze when they see one another. (Impacts performance a bit)
 	freezeOnAngel = false
 	#If this is enabled, angels will break blocks (If gamerules allow)
@@ -54,6 +55,9 @@
 	#Determines the angels move speed
 	#Range: 0.1 ~ 1.7976931348623157E308
 	angelMovementSpeed = 0.5
+	#Damage Type For Angels
+	#Allowed Values: NOTHING, ANY_PICKAXE_AND_GENERATOR_ONLY, ANY_PICKAXE_ONLY, DIAMOND_AND_ABOVE_PICKAXE_ONLY, GENERATOR_ONLY
+	damageType = "ANY_PICKAXE_AND_GENERATOR_ONLY"
 
 [teleport]
 	#Note: This a list of dimensions that angels should NOT teleport you to.
@@ -63,8 +67,15 @@
 	teleportRange = 666
 	#If this is enabled, angel teleporting can also tp the player to other dimensions
 	angelDimTeleport = true
-	#Teleport type, Acceptable entries: RANDOM_PLACE, DONT, STRUCTURES
+	#Teleport Type - STRUCTURES: Teleports you to Structures Only - DONT: No Teleporting, only damage - RANDOM: Anywhere
+	#Allowed Values: STRUCTURES, RANDOM_PLACE, DONT
 	teleportType = "RANDOM_PLACE"
 	#just teleport. no damage.
 	justTeleport = false
+	#Should Angels target creative players?
+	aggroCreative = true
+
+[block]
+	#This config option toggles whether angels can spawn from Statues/Plinths when they receive a redstone signal
+	spawnFromBlocks = true
 

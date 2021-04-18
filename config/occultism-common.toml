@@ -32,10 +32,10 @@
 			fillerBlockTag = "minecraft:base_stone_overworld"
 			#The size of veins for this ore.
 			#Range: 0 ~ 127
-			size = 6
+			size = 4
 			#The count value for the decorator for this ore.
 			#Range: 0 ~ 127
-			count = 3
+			count = 4
 			#Range configuration bottom offset.
 			bottomOffset = 5
 			#Range configuration top offset.

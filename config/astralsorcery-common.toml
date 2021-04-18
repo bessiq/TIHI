@@ -1,54 +1,6 @@
 
 [worldgen]
 
-	[worldgen.rock_crystal]
-		#Set this to false to disable this worldgen feature.
-		enabled = true
-		#Set this to true to let this feature generate in any biome.
-		everyBiome = false
-		#Set this to true to let this feature generate in any world. (Does NOT work for structures!)
-		everyWorld = false
-		#Sets the categories to generate this feature in. Available categories: none,taiga,extreme_hills,jungle,mesa,plains,savanna,icy,the_end,beach,forest,ocean,desert,river,swamp,mushroom,nether
-		biomeCategoryNames = ["extreme_hills"]
-		#Sets the worlds to generate this feature in. (Does NOT work for structures!)
-		worldNames = ["overworld"]
-
-	[worldgen.marble]
-		#Set this to false to disable this worldgen feature.
-		enabled = true
-		#Set this to true to let this feature generate in any biome.
-		everyBiome = false
-		#Set this to true to let this feature generate in any world. (Does NOT work for structures!)
-		everyWorld = true
-		#Sets the categories to generate this feature in. Available categories: none,taiga,extreme_hills,jungle,mesa,plains,savanna,icy,the_end,beach,forest,ocean,desert,river,swamp,mushroom,nether
-		biomeCategoryNames = ["icy"]
-		#Sets the worlds to generate this feature in. (Does NOT work for structures!)
-		worldNames = []
-
-	[worldgen.glow_flower]
-		#Set this to false to disable this worldgen feature.
-		enabled = true
-		#Set this to true to let this feature generate in any biome.
-		everyBiome = false
-		#Set this to true to let this feature generate in any world. (Does NOT work for structures!)
-		everyWorld = false
-		#Sets the categories to generate this feature in. Available categories: none,taiga,extreme_hills,jungle,mesa,plains,savanna,icy,the_end,beach,forest,ocean,desert,river,swamp,mushroom,nether
-		biomeCategoryNames = ["icy", "extreme_hills"]
-		#Sets the worlds to generate this feature in. (Does NOT work for structures!)
-		worldNames = ["overworld"]
-
-	[worldgen.aquamarine]
-		#Set this to false to disable this worldgen feature.
-		enabled = true
-		#Set this to true to let this feature generate in any biome.
-		everyBiome = false
-		#Set this to true to let this feature generate in any world. (Does NOT work for structures!)
-		everyWorld = false
-		#Sets the categories to generate this feature in. Available categories: none,taiga,extreme_hills,jungle,mesa,plains,savanna,icy,the_end,beach,forest,ocean,desert,river,swamp,mushroom,nether
-		biomeCategoryNames = ["ocean"]
-		#Sets the worlds to generate this feature in. (Does NOT work for structures!)
-		worldNames = ["overworld"]
-
 	[worldgen.ancient_shrine]
 		#Set this to false to disable this worldgen feature.
 		enabled = true
@@ -62,28 +14,34 @@
 		worldNames = ["overworld"]
 		#Defines the structure spacing for worldgen
 		#Range: 1 ~ 512
-		spacing = 18
+		spacing = 22
 		#Defines the structure separation for worldgen
 		#Range: 1 ~ 512
-		separation = 4
+		separation = 6
 
-	[worldgen.desert_shrine]
+	[worldgen.rock_crystal]
 		#Set this to false to disable this worldgen feature.
 		enabled = true
 		#Set this to true to let this feature generate in any biome.
-		everyBiome = false
+		everyBiome = true
 		#Set this to true to let this feature generate in any world. (Does NOT work for structures!)
 		everyWorld = false
 		#Sets the categories to generate this feature in. Available categories: none,taiga,extreme_hills,jungle,mesa,plains,savanna,icy,the_end,beach,forest,ocean,desert,river,swamp,mushroom,nether
-		biomeCategoryNames = ["mesa", "desert", "savanna"]
+		biomeCategoryNames = []
 		#Sets the worlds to generate this feature in. (Does NOT work for structures!)
 		worldNames = ["overworld"]
-		#Defines the structure spacing for worldgen
-		#Range: 1 ~ 512
-		spacing = 18
-		#Defines the structure separation for worldgen
-		#Range: 1 ~ 512
-		separation = 4
+
+	[worldgen.aquamarine]
+		#Set this to false to disable this worldgen feature.
+		enabled = true
+		#Set this to true to let this feature generate in any biome.
+		everyBiome = true
+		#Set this to true to let this feature generate in any world. (Does NOT work for structures!)
+		everyWorld = false
+		#Sets the categories to generate this feature in. Available categories: none,taiga,extreme_hills,jungle,mesa,plains,savanna,icy,the_end,beach,forest,ocean,desert,river,swamp,mushroom,nether
+		biomeCategoryNames = []
+		#Sets the worlds to generate this feature in. (Does NOT work for structures!)
+		worldNames = ["overworld"]
 
 	[worldgen.small_shrine]
 		#Set this to false to disable this worldgen feature.
@@ -98,8 +56,50 @@
 		worldNames = ["overworld"]
 		#Defines the structure spacing for worldgen
 		#Range: 1 ~ 512
-		spacing = 18
+		spacing = 22
 		#Defines the structure separation for worldgen
 		#Range: 1 ~ 512
-		separation = 4
+		separation = 6
+
+	[worldgen.glow_flower]
+		#Set this to false to disable this worldgen feature.
+		enabled = true
+		#Set this to true to let this feature generate in any biome.
+		everyBiome = false
+		#Set this to true to let this feature generate in any world. (Does NOT work for structures!)
+		everyWorld = false
+		#Sets the categories to generate this feature in. Available categories: none,taiga,extreme_hills,jungle,mesa,plains,savanna,icy,the_end,beach,forest,ocean,desert,river,swamp,mushroom,nether
+		biomeCategoryNames = ["icy", "extreme_hills"]
+		#Sets the worlds to generate this feature in. (Does NOT work for structures!)
+		worldNames = ["overworld"]
+
+	[worldgen.desert_shrine]
+		#Set this to false to disable this worldgen feature.
+		enabled = true
+		#Set this to true to let this feature generate in any biome.
+		everyBiome = false
+		#Set this to true to let this feature generate in any world. (Does NOT work for structures!)
+		everyWorld = false
+		#Sets the categories to generate this feature in. Available categories: none,taiga,extreme_hills,jungle,mesa,plains,savanna,icy,the_end,beach,forest,ocean,desert,river,swamp,mushroom,nether
+		biomeCategoryNames = ["mesa", "desert", "savanna"]
+		#Sets the worlds to generate this feature in. (Does NOT work for structures!)
+		worldNames = ["overworld"]
+		#Defines the structure spacing for worldgen
+		#Range: 1 ~ 512
+		spacing = 22
+		#Defines the structure separation for worldgen
+		#Range: 1 ~ 512
+		separation = 6
+
+	[worldgen.marble]
+		#Set this to false to disable this worldgen feature.
+		enabled = true
+		#Set this to true to let this feature generate in any biome.
+		everyBiome = true
+		#Set this to true to let this feature generate in any world. (Does NOT work for structures!)
+		everyWorld = true
+		#Sets the categories to generate this feature in. Available categories: none,taiga,extreme_hills,jungle,mesa,plains,savanna,icy,the_end,beach,forest,ocean,desert,river,swamp,mushroom,nether
+		biomeCategoryNames = []
+		#Sets the worlds to generate this feature in. (Does NOT work for structures!)
+		worldNames = []
 

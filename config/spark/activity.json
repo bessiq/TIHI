@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "bessiq",
+      "uniqueId": "1accc651-675d-4502-b6eb-cf5337a98c7d"
+    },
+    "time": 1618700566292,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/Js7HGh1Ito"
+    }
+  }
+]

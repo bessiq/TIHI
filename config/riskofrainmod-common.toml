@@ -26,7 +26,7 @@
 
 ["Withelisted overworld spawn biomes"]
 	#Use the format "mod_ID:biome" like "minecraft:plains" or "rats:ratlantis". You can see a mod's ID by clicking the 'Mods' button on the main screen and clicking on the mod's name on the left 
-	"Overworld whitelist" = ["minecraft:bamboo_jungle_hills", "byg:redwood_tropics", "byg:tropical_rainforest_hills", "byg:jacaranda_forest_hills", "byg:crag_gardens", "byg:basalt_barrera", "byg:tropical_fungal_rainforest_hills", "byg:ivis_fields", "mining_dimension:mining", "gaiadimension:purple_agate_swamp", "more_jellyfish:rock_bottom", "undergarden:gronglegrowth", "byg:purpur_peaks", "minecraft:mushroom_field_shore", "byg:coral_mangroves", "byg:glowing_ancient_forest", "minecraft:jungle_edge", "betterendforge:chorus_forest"]
+	"Overworld whitelist" = ["minecraft:bamboo_jungle_hills", "byg:redwood_tropics", "byg:tropical_rainforest_hills", "byg:jacaranda_forest_hills", "byg:crag_gardens", "byg:basalt_barrera", "byg:tropical_fungal_rainforest_hills", "byg:ivis_fields", "mining_dimension:mining", "gaiadimension:purple_agate_swamp", "undergarden:gronglegrowth", "byg:purpur_peaks", "minecraft:mushroom_field_shore", "byg:coral_mangroves", "byg:glowing_ancient_forest", "minecraft:jungle_edge", "betterendforge:chorus_forest"]
 
 ["Withelisted nether spawn biomes"]
 	#Use the format like "minecraft:nether_wastes" 

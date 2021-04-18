@@ -55,22 +55,6 @@
 					Count: 1b
 				},
 				dimension: "minecraft:overworld"
-			}],
-			rewards: [{
-				id: "000000000000000B",
-				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "chanceglobe:chance_globe",
-					Count: 1b
-				}
 			}]
 		},
 		{
@@ -363,52 +347,6 @@
 				id: "14A6D48AD97EA1E1",
 				type: "loot",
 				table_id: 52L
-			}]
-		},
-		{
-			title: "The End...Remastered",
-			icon: {
-				ForgeCaps: {
-					"dungeons_gear:weapon": {
-						lastFiredTime: 0L,
-						fuseShotCounter: 0,
-						crossbowChargeTime: 0,
-						bowChargeTime: 0.0f
-					}
-				},
-				id: "endrem:end_crystal_pearl",
-				Count: 1b,
-				tag: {
-					Damage: 0
-				}
-			},
-			x: 1.7d,
-			y: -4.5d,
-			hide: true,
-			id: "0000000000000028",
-			tasks: [{
-				id: "0000000000000029",
-				type: "advancement",
-				title: "Locate an End...Castle?!",
-				icon: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "endrem:end_crystal_pearl",
-					Count: 1b
-				},
-				advancement: "endrem:main/find_end_castle",
-				criterion: ""
-			}],
-			rewards: [{
-				id: "2DE9A2B3FB4E495B",
-				type: "xp_levels",
-				xp_levels: 3
 			}]
 		},
 		{

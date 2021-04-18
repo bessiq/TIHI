@@ -1,7 +1,9 @@
 
 [extra]
-	#You can disable disable the lockon feature here.
+	#You can disable the lockon feature here.
 	ENABLE_LOCKON = true
+	#You can enable weapons breaking blocks.
+	ENABLE_BLOCK_BREAKING = true
 
 [gear]
 	#Crucible Sword/Marauder Axe Max Damage
@@ -521,6 +523,40 @@
 			#Range: 0 ~ 255
 			SPECTRE_MAX_Y = 255
 
+		[spawn_weight.individual_spawning."Stone Imp"]
+			#Spawn weight of Stone Imps. Set to 0 to disable.
+			#Range: 0 ~ 9999
+			"STONE IMP_SPAWN_WEIGHT" = 15
+			#Smallest group to spawn.
+			#Range: 1 ~ 9
+			"STONE IMP_MIN_GROUP" = 1
+			#Largest group to spawn.
+			#Range: 1 ~ 9
+			"STONE IMP_MAX_GROUP" = 4
+			#Minimum Y location to spawn at.
+			#Range: 0 ~ 255
+			"STONE IMP_MIN_Y" = 0
+			#Maximum Y location to spawn at.
+			#Range: 0 ~ 255
+			"STONE IMP_MAX_Y" = 255
+
+		[spawn_weight.individual_spawning.Prowler]
+			#Spawn weight of Prowlers. Set to 0 to disable.
+			#Range: 0 ~ 9999
+			PROWLER_SPAWN_WEIGHT = 15
+			#Smallest group to spawn.
+			#Range: 1 ~ 9
+			PROWLER_MIN_GROUP = 1
+			#Largest group to spawn.
+			#Range: 1 ~ 9
+			PROWLER_MAX_GROUP = 4
+			#Minimum Y location to spawn at.
+			#Range: 0 ~ 255
+			PROWLER_MIN_Y = 0
+			#Maximum Y location to spawn at.
+			#Range: 0 ~ 255
+			PROWLER_MAX_Y = 255
+
 [attributes]
 
 	[attributes.Arachnotron]
@@ -888,4 +924,26 @@
 		#General (most likely walking) movement speed of spectres
 		#Range: 0.0 ~ 10.0
 		SPECTRE_GROUND_SPEED = 0.25
+
+	[attributes."Stone Imp"]
+		#Health of Stone Imps
+		#Range: 0.5 ~ 1.7976931348623157E308
+		"STONE IMP_MAX_HEALTH" = 15.0
+		#Average melee damaged caused by Stone Imps when attacking.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"STONE IMP_MELEE_ATTACK_DAMAGE" = 4.0
+		#General (most likely walking) movement speed of Stone Imps
+		#Range: 0.0 ~ 10.0
+		"STONE IMP_GROUND_SPEED" = 0.75
+
+	[attributes.Prowler]
+		#Health of Prowlers
+		#Range: 0.5 ~ 1.7976931348623157E308
+		PROWLER_MAX_HEALTH = 15.0
+		#Average melee damaged caused by Prowlers when attacking.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		PROWLER_MELEE_ATTACK_DAMAGE = 4.0
+		#General (most likely walking) movement speed of Prowlers
+		#Range: 0.0 ~ 10.0
+		PROWLER_GROUND_SPEED = 0.4
 

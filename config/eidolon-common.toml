@@ -14,16 +14,16 @@
 	leadEnabled = true
 	#Minimum Y value for lead ore veins
 	#Range: 0 ~ 254
-	leadOreMinY = 3
+	leadOreMinY = 16
 	#Maximum Y value for lead ore veins
 	#Range: 1 ~ 255
-	leadOreMaxY = 19
+	leadOreMaxY = 32
 	#Maximum number of blocks per lead ore vein
 	#Range: 1 ~ 255
-	leadOreVeinSize = 5
+	leadOreVeinSize = 4
 	#Number of lead ore veins per chunk
 	#Range: 0 ~ 255
-	leadOreVeinCount = 4
+	leadOreVeinCount = 5
 	#Whether the lab structure is enabled. Set to false to disable spawning.
 	labEnabled = true
 	#Rarity of the lab structure. Higher numbers mean rarer structures.

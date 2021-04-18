@@ -16,6 +16,23 @@
 	#Rate of tree spawn per chunk
 	#Range: 0.0 ~ 1.0
 	genTrees = 0.001
+	#How often Wilden Guardians spawn
+	#Range: 0 ~ 200
+	wguardianWeight = 50
+	#How often Wilden Stalkers spawn
+	#Range: 0 ~ 200
+	wstalkerWeight = 50
+	#How often Wilden Hunter spawn
+	#Range: 0 ~ 200
+	whunterWeight = 50
+	#Should the Wilden Hunter attack animals?
+	hunterHuntsAnimals = true
+	#Should the Wilden Stalker attack animals?
+	stalkerHuntsAnimals = false
+	#Should the Wilden Defender attack animals?
+	defenderHuntsAnimals = false
+	#Dimensions where hostile mobs will not spawn. Ex: minecraft:overworld. Run /forge dimensions for a list.
+	dimensionBlacklist = []
 
 #Enabled Spells
 [spells]
@@ -135,6 +152,10 @@
 	cut = true
 	#Fell enabled?
 	fell = true
+	#Summon Steed enabled?
+	summon_steed = true
+	#Summon Wolves enabled?
+	summon_wolves = true
 
 #Mana
 [mana]
@@ -342,6 +363,12 @@
 	#Fell cost
 	#Range: > -2147483648
 	fell_cost = 150
+	#Summon Steed cost
+	#Range: > -2147483648
+	summon_steed_cost = 100
+	#Summon Wolves cost
+	#Range: > -2147483648
+	summon_wolves_cost = 100
 
 #Starting Spells
 ["Starter Spells"]

@@ -266,4 +266,6 @@
 	disableWither = false
 	#Disable the Wolf pet (default:false)
 	disableWolf = false
+	#Enable Loot Pet with FTBUltimine installed (default:false)
+	enableLootWithFTBUltimine = false
 

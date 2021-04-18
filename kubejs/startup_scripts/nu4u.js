@@ -13,7 +13,7 @@ events.listen('item.registry', event => {
 events.listen('block.registry', event => {
 
   // Let the hate flow through you
-  event.create('tihi:tihinium_ore').material('rock').hardness(666.0).displayName('Tihinium "Ore"').requiresTool(true).harvestTool('pickaxe', 5)
+  event.create('tihi:tihinium').material('rock').hardness(666.0).displayName('Tihinium "Ore"').requiresTool(true).harvestTool('pickaxe', 5)
 
   // Georgia on my mind
   event.create('tihi:red_clay').material('clay').hardness(0.6).displayName('Red Clay').requiresTool(true).harvestTool('shovel', 0)

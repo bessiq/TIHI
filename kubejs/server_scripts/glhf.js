@@ -17,6 +17,8 @@ onEvent('recipes', event => {
     event.replaceInput({}, 'mekanism:hdpe_sheet', '#forge:plastic')
     event.remove({ output: 'mekanism:bio_fuel', mod: 'mekanism' })
     event.replaceInput({ mod: 'immersiveengineering' }, '#forge:clay', 'minecraft:clay')
+    event.replaceInput({}, 'iceandfire:witherbone', '#forge:wither_bones')
+    event.replaceInput({}, 'tconstruct:necrotic_bone', '#forge:wither_bones')
 
     // rope-a-dope
     event.remove({ id: 'druidcraft:lead' })

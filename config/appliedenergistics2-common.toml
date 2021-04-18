@@ -6,34 +6,53 @@
 		#Unsupported: Allows whitelisting TileEntity as facades. Could work, have render issues, or corrupt your world. USE AT YOUR OWN RISK.
 		TileEntityFacades = false
 
-	[features.Rendering]
-		AlphaPass = true
-
 	[features.Misc]
-		CraftingLog = false
-		IntegrationLogging = false
-		DebugLogging = false
-		PacketLogging = false
+		#No comment
 		UnsupportedDeveloperTools = false
-		UpdateLogging = false
+		#No comment
+		IntegrationLogging = false
+		#No comment
 		WebsiteRecipes = false
+		#No comment
 		LogSecurityAudits = false
-
-	[features.Commands]
-		ChunkLoggerTrace = false
+		#No comment
+		UpdateLogging = false
+		#No comment
+		PacketLogging = false
+		#No comment
+		CraftingLog = false
+		#No comment
+		DebugLogging = false
 
 	[features.Crafting]
-		EnableDisassemblyCrafting = true
-		InWorldFluix = true
-		InWorldSingularity = true
-		InWorldPurification = true
+		#No comment
 		EnableFacadeCrafting = true
+		#No comment
+		InWorldSingularity = true
+		#No comment
+		InWorldFluix = true
+		#No comment
+		InWorldPurification = true
+		#No comment
+		EnableDisassemblyCrafting = true
 
 	[features.World]
-		CertusQuartzWorldGen = true
-		VillagerTrading = true
-		SpawnPressesInMeteorites = true
+		#No comment
+		CertusQuartzWorldGen = false
+		#No comment
 		MeteoriteWorldGen = true
+		#No comment
+		SpawnPressesInMeteorites = true
+		#No comment
+		VillagerTrading = true
+
+	[features.Rendering]
+		#No comment
+		AlphaPass = true
+
+	[features.Commands]
+		#No comment
+		ChunkLoggerTrace = false
 
 [general]
 	#Will auto-remove items that crash when being loaded from storage. This will destroy those items instead of crashing the game!
@@ -47,10 +66,10 @@
 	craftingCalculationTimePerTick = 5
 
 [spatialio]
+	spatialPowerMultiplier = 1250.0
+	spatialPowerExponent = 1.35
 	#BE CAREFUL, CAN CORRUPT YOUR WORLD! Will use #spatial/whitelist as whitelist.
 	spatialBlockTags = false
-	spatialPowerExponent = 1.35
-	spatialPowerMultiplier = 1250.0
 
 [GrindStone]
 	#Chance to actually get an output with stacksize > 1.
@@ -58,76 +77,75 @@
 	oreDoublePercentage = 90.0
 
 [battery]
-	entropyManipulator = 200000
-	chargedStaff = 8000
 	wirelessTerminal = 1600000
+	chargedStaff = 8000
+	entropyManipulator = 200000
 	portableCell = 20000
 	colorApplicator = 20000
 	matterCannon = 200000
 
 [worldGen]
-	quartzOresClusterAmount = 10
-	meteoriteBiomeBlacklist = []
-	quartzOresPerCluster = 3
-	quartzOresBiomeBlacklist = ["minecraft:badlands", "minecraft:badlands_plateau", "minecraft:bamboo_jungle", "minecraft:bamboo_jungle_hills", "minecraft:beach", "minecraft:birch_forest", "minecraft:birch_forest_hills", "minecraft:cold_ocean", "minecraft:dark_forest", "minecraft:dark_forest_hills", "minecraft:deep_cold_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:deep_ocean", "minecraft:deep_warm_ocean", "minecraft:desert", "minecraft:desert_hills", "minecraft:desert_lakes", "minecraft:eroded_badlands", "minecraft:flower_forest", "minecraft:forest", "minecraft:giant_spruce_taiga", "minecraft:giant_spruce_taiga_hills", "minecraft:giant_tree_taiga", "minecraft:giant_tree_taiga_hills", "minecraft:gravelly_mountains", "minecraft:jungle", "minecraft:jungle_edge", "minecraft:jungle_hills", "minecraft:lukewarm_ocean", "minecraft:modified_badlands_plateau", "minecraft:modified_gravelly_mountains", "minecraft:modified_jungle", "minecraft:modified_jungle_edge", "minecraft:modified_wooded_badlands_plateau", "minecraft:mountain_edge", "minecraft:mountains", "minecraft:mushroom_field_shore", "minecraft:mushroom_fields", "minecraft:ocean", "minecraft:plains", "minecraft:river", "minecraft:savanna", "minecraft:savanna_plateau", "minecraft:shattered_savanna", "minecraft:shattered_savanna_plateau", "minecraft:stone_shore", "minecraft:sunflower_plains", "minecraft:swamp", "minecraft:swamp_hills", "minecraft:taiga", "minecraft:taiga_hills", "minecraft:taiga_mountains", "minecraft:tall_birch_forest", "minecraft:tall_birch_hills", "minecraft:warm_ocean", "minecraft:wooded_badlands_plateau", "minecraft:wooded_hills", "minecraft:wooded_mountains", "jellyfishing:jellyfish_fields", "more_jellyfish:kelp_forest", "more_jellyfish:rock_bottom", "byg:araucaria_forest", "byg:araucaria_savanna", "byg:basalt_barrera", "byg:canyon_edge", "byg:canyons", "byg:pointed_stone_forest", "byg:rose_fields", "byg:stone_forest", "byg:tropical_islands", "byg:twilight_valley", "byg:twilight_valley_hills", "byg:allium_fields", "byg:amaranth_fields", "byg:ancient_forest", "byg:aspen_clearing", "byg:aspen_forest", "byg:aspen_forest_hills", "byg:autumnal_valley", "byg:bamboo_forest", "byg:baobab_savanna", "byg:bayou", "byg:black_forest_clearing", "byg:black_forest_hills", "byg:blue_giant_taiga", "byg:blue_taiga", "byg:blue_taiga_hills", "byg:bog", "byg:boreal_clearing", "byg:boreal_forest", "byg:boreal_forest_hills", "byg:cherry_blossom_clearing", "byg:cherry_blossom_forest", "byg:cika_mountains", "byg:cika_woods", "byg:cold_swamplands", "byg:coniferous_clearing", "byg:coniferous_forest", "byg:coniferous_forest_hills", "byg:coral_mangroves", "byg:crag_gardens", "byg:cypress_swamplands", "byg:dead_sea", "byg:deciduous_clearing", "byg:deciduous_forest", "byg:deciduous_forest_hills", "byg:dover_mountains", "byg:dunes", "byg:ebony_hills", "byg:ebony_woods", "byg:enchanted_forest", "byg:enchanted_forest_hills", "byg:enchanted_grove", "byg:evergreen_clearing", "byg:evergreen_hills", "byg:evergreen_taiga", "byg:flowering_ancient_forest", "byg:flowering_enchanted_grove", "byg:flowering_grove", "byg:flowering_meadow", "byg:forest_fault", "byg:fresh_water_lake", "byg:fungal_patch", "byg:glowing_ancient_forest", "byg:glowshroom_bayou", "byg:grassland_plateau", "byg:great_lake_isles", "byg:great_lakes", "byg:grove", "byg:guiana_clearing", "byg:guiana_shield", "byg:jacaranda_clearing", "byg:jacaranda_forest", "byg:jacaranda_forest_hills", "byg:lush_red_desert", "byg:mangrove_marshes", "byg:maple_hills", "byg:maple_taiga", "byg:marshlands", "byg:meadow", "byg:mojave_desert", "byg:oasis", "byg:orchard", "byg:polluted_lake", "byg:prairie", "byg:prairie_clearing", "byg:pumpkin_forest", "byg:rainbow_beach", "byg:red_desert", "byg:red_desert_dunes", "byg:red_oak_forest", "byg:red_oak_forest_hills", "byg:red_rock_highlands", "byg:red_rock_lowlands", "byg:red_rock_mountains", "byg:red_spruce_taiga", "byg:redwood_clearing", "byg:redwood_mountains", "byg:redwood_tropics", "byg:rocky_beach", "byg:seasonal_birch_forest", "byg:seasonal_birch_forest_hills", "byg:seasonal_deciduous_clearing", "byg:seasonal_deciduous_forest", "byg:seasonal_deciduous_forest_hills", "byg:seasonal_forest", "byg:seasonal_forest_hills", "byg:seasonal_giant_taiga", "byg:seasonal_taiga", "byg:seasonal_taiga_hills", "byg:shrublands", "byg:sierra_range", "byg:sierra_valley", "byg:skyris_highlands", "byg:the_black_forest", "byg:tropical_fungal_forest", "byg:tropical_fungal_rainforest_hills", "byg:tropical_rainforest", "byg:tropical_rainforest_hills", "byg:vibrant_swamplands", "byg:weeping_witch_clearing", "byg:weeping_witch_forest", "byg:white_beach", "byg:wooded_grassland_plateau", "byg:wooded_meadow", "byg:wooded_red_rock_mountains", "byg:woodlands", "byg:zelkova_clearing", "byg:zelkova_forest", "byg:zelkova_forest_hills"]
 	#Range: 0.0 ~ 1.0
-	spawnChargedChance = 0.05
+	spawnChargedChance = 0.08
+	meteoriteBiomeBlacklist = []
+	quartzOresPerCluster = 4
+	quartzOresClusterAmount = 20
+	quartzOresBiomeBlacklist = []
 
 [wireless]
-	wirelessTerminalDrainMultiplier = 1.0
-	wirelessBoosterExp = 1.5
-	wirelessCostMultiplier = 1.0
-	wirelessHighWirelessCount = 64.0
-	wirelessBaseRange = 16.0
 	wirelessBaseCost = 8.0
+	wirelessCostMultiplier = 1.0
+	wirelessBaseRange = 16.0
 	wirelessBoosterRangeMultiplier = 1.0
+	wirelessBoosterExp = 1.5
+	wirelessHighWirelessCount = 64.0
+	wirelessTerminalDrainMultiplier = 1.0
 
 [PowerRatios]
-	IC2 = 2.0
 	ForgeEnergy = 0.5
 	#Range: 0.01 ~ 1.7976931348623157E308
 	UsageMultiplier = 1.0
 
 [Condenser]
-	Singularity = 256000
 	MatterBalls = 256
+	Singularity = 256000
 
 # Min / Max Tickrates for dynamic ticking, most of these components also use sleeping, to prevent constant ticking, adjust with care, non standard rates are not supported or tested.
 [tickRates]
-	ChargerMax = 120
-	IOPortMax = 5
-	METunnelMin = 5
-	StorageBusMax = 60
-	FluidStorageBusMax = 60
-	LightTunnelMax = 60
-	FluidExportBusMax = 60
-	ItemTunnelMin = 5
-	FluidImportBusMax = 40
-	FluidStorageBusMin = 5
-	IOPortMin = 1
+	InterfaceMin = 5
 	InterfaceMax = 120
-	OpenComputersTunnelMax = 5
-	StorageBusMin = 5
-	InscriberMin = 1
+	ImportBusMin = 5
 	ImportBusMax = 40
 	FluidImportBusMin = 5
-	VibrationChamberMax = 40
-	ImportBusMin = 5
-	InterfaceMin = 5
-	OpenComputersTunnelMin = 1
-	AnnihilationPlaneMin = 2
+	FluidImportBusMax = 40
 	ExportBusMin = 5
-	PressureTunnelMax = 120
-	ChargerMin = 10
-	METunnelMax = 20
+	ExportBusMax = 60
+	FluidExportBusMin = 5
+	FluidExportBusMax = 60
+	AnnihilationPlaneMin = 2
 	AnnihilationPlaneMax = 120
+	METunnelMin = 5
+	METunnelMax = 20
+	InscriberMin = 1
 	InscriberMax = 1
+	ChargerMin = 10
+	ChargerMax = 120
+	IOPortMin = 1
+	IOPortMax = 5
+	VibrationChamberMin = 10
+	VibrationChamberMax = 40
+	StorageBusMin = 5
+	StorageBusMax = 60
+	FluidStorageBusMin = 5
+	FluidStorageBusMax = 60
+	ItemTunnelMin = 5
 	ItemTunnelMax = 60
 	LightTunnelMin = 5
-	ExportBusMax = 60
+	LightTunnelMax = 60
+	OpenComputersTunnelMin = 1
+	OpenComputersTunnelMax = 5
 	PressureTunnelMin = 1
-	FluidExportBusMin = 5
-	VibrationChamberMin = 10
+	PressureTunnelMax = 120
 
 #Settings for in-world purification of crystals.
 [inWorldPurification]
