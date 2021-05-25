@@ -2,8 +2,6 @@
     "replace": false,
     "values": [
         "#forge:ores/amethyst",
-        "#forge:ores/ametrine",
-        "#forge:ores/pendorite",
         "#forge:ores/sapphire"
     ]
 }

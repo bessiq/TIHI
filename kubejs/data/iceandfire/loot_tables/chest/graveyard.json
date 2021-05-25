@@ -379,7 +379,7 @@
         },
         {
           "type": "item",
-          "name": "occultism:silver_ingot",
+          "name": "iceandfire:silver_ingot",
           "functions": [
             {
               "function": "set_count",
@@ -443,11 +443,6 @@
           "type": "item",
           "name": "randomloot:golden_case",
           "weight": 2
-        },
-        {
-          "type": "item",
-          "name": "dungeons_gear:ghost_cloak",
-          "weight": 1
         },
         {
           "type": "minecraft:loot_table",

@@ -1,0 +1,22 @@
+{
+    "replace": false,
+    "values": [
+        "byg:cattail",
+        "byg:clover_patch",
+        "byg:flower_patch",
+        "byg:horseweed",
+        "byg:leaf_pile",
+        "byg:mini_cactus",
+        "byg:reeds",
+        "byg:scorched_bush",
+        "byg:tiny_lilypads",
+        "byg:water_silk",
+        "byg:winter_succulent",
+        "minecraft:fern",
+        "minecraft:large_fern",
+        "tconstruct:blood_slime_fern",
+        "tconstruct:earth_slime_fern",
+        "tconstruct:ender_slime_fern",
+        "tconstruct:sky_slime_fern"
+    ]
+}

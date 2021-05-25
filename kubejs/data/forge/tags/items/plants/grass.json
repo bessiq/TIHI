@@ -1,0 +1,29 @@
+{
+    "replace": false,
+    "values": [
+        "byg:beach_grass",
+        "byg:ether_grass",
+        "byg:prairie_grass", 
+        "byg:scorched_grass",
+        "byg:short_beach_grass", 
+        "byg:short_grass", 
+        "byg:tall_prairie_grass", 
+        "byg:weed_grass", 
+        "byg:whaling_grass",
+        "byg:wilted_grass", 
+        "byg:winter_grass", 
+        "good_nights_sleep:dream_grass",
+        "good_nights_sleep:nightmare_grass",
+        "good_nights_sleep:prickly_nightmare_grass",
+        "minecraft:grass", 
+        "minecraft:seagrass", 
+        "minecraft:tall_grass", 
+        "tconstruct:blood_slime_tall_grass",
+        "tconstruct:earth_slime_tall_grass",
+        "tconstruct:ender_slime_tall_grass",
+        "tconstruct:sky_slime_tall_grass",
+        "undergarden:ashen_deepturf",
+        "undergarden:deepturf",
+        "undergarden:tall_deepturf"
+    ]
+  }

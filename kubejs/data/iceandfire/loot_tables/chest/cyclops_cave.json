@@ -160,11 +160,6 @@
         },
         {
           "type": "item",
-          "name": "dungeons_gear:enchanted_grass",
-          "weight": 1
-        },
-        {
-          "type": "item",
           "name": "rats:pied_wool",
           "weight": 1
         },

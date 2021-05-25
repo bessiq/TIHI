@@ -35,7 +35,7 @@
         },
         {
           "type": "item",
-          "name": "mysticalworld:amethyst",
+          "name": "iceandfire:amythest_gem",
           "functions": [
             {
               "function": "set_count",
@@ -425,11 +425,6 @@
           "type": "item",
           "name": "randomloot:golden_case",
           "weight": 2
-        },
-        {
-          "type": "item",
-          "name": "dungeons_gear:lightning_rod",
-          "weight": 1
         },
         {
           "type": "minecraft:loot_table",

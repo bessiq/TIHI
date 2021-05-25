@@ -1,0 +1,22 @@
+{
+    "replace": false,
+    "values": [
+        "byg:bulbis_anomaly",
+        "byg:bulbis_oddity",
+        "byg:bulbis_sprouts",
+        "byg:ender_lily",
+        "byg:ether_bush",
+        "byg:fungal_imparius",
+        "byg:fungal_imparius_filament",
+        "byg:imparius_bush",
+        "byg:ivis_roots",
+        "byg:ivis_sprout",
+        "byg:nightshade_roots",
+        "byg:nightshade_sprouts",
+        "byg:oddity_bush",
+        "byg:purple_bulbis_anomaly",
+        "byg:purple_bulbis_oddity",
+        "byg:shulkren_moss_blanket",
+        "byg:vermilion_sculk_growth"
+    ]
+}

@@ -25,12 +25,6 @@
       "entity": "mekanismadditions:baby_stray"
     },
     {
-      "entity": "dungeons_mobs:armored_pillager"
-    },
-    {
-      "entity": "dungeons_mobs:armored_vindicator"
-    },
-    {
       "entity": "teletubbies:po_zombie"
     }
   ]

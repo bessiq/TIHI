@@ -408,11 +408,6 @@
           "weight": 2
         },
         {
-          "type": "item",
-          "name": "dungeons_gear:freezing_foil",
-          "weight": 1
-        },
-        {
           "type": "minecraft:loot_table",
           "name": "minecraft:chests/simple_dungeon",
           "weight": 3

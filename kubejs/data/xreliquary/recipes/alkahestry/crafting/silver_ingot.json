@@ -20,7 +20,7 @@
     "type": "xreliquary:alkahestry_crafting",
     "charge": 32,
     "ingredient": {
-        "item": "occultism:silver_ingot"
+        "item": "iceandfire:silver_ingot"
     },
     "result_count": 2
 }

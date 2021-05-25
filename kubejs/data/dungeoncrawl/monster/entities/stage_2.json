@@ -25,12 +25,6 @@
       "entity": "teletubbies:tinkywinky_zombie"
     },
     {
-      "entity": "dungeons_mobs:wraith"
-    },
-    {
-      "entity": "dungeons_mobs:windcaller"
-    },
-    {
       "entity": "minecraft:stray"
     }
   ]

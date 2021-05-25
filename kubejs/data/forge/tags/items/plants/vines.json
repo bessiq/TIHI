@@ -1,0 +1,21 @@
+{
+    "replace": false,
+    "values": [
+        "byg:embur_gel_vines",
+        "byg:hanging_sythian_roots",
+        "byg:imparius_vine",
+        "byg:lament_vine",
+        "byg:poison_ivy",
+        "byg:shulkren_vine",
+        "byg:skyris_vine",
+        "byg:weeping_roots",
+        "byg:whaling_vine",
+        "minecraft:twisting_vines",
+        "minecraft:vine",
+        "minecraft:weeping_vines",
+        "quark:root",
+        "tconstruct:ender_slime_vine",
+        "tconstruct:sky_slime_vine",
+        "twilightforest:root_strand"
+    ]
+}

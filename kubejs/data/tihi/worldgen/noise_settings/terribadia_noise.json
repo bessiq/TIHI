@@ -1,0 +1,70 @@
+{
+  "bedrock_roof_position": -1,
+  "bedrock_floor_position": -1,
+  "sea_level": 0,
+  "disable_mob_generation": false,
+  "structures": {
+    "structures": {
+      "quark:big_dungeon": {
+        "spacing": 16,
+        "separation": 13,
+        "salt": 12345
+      },
+      "dungeons_plus:bigger_dungeon": {
+        "spacing": 15,
+        "separation": 9,
+        "salt": 90210
+      },
+      "eidolon:catacomb": {
+        "spacing": 17,
+        "separation": 8,
+        "salt": 8675309
+      },
+      "mowziesmobs:wrought_chamber": {
+        "spacing": 25,
+        "separation": 12,
+        "salt": 314159
+      },
+      "inventorypets:underground_dungeon": {
+        "spacing": 8,
+        "separation": 7,
+        "salt": 4288
+      }
+    }
+  },
+  "noise": {
+    "random_density_offset": true,
+    "amplified": true,
+    "density_factor": 0.2,
+    "density_offset": 0.0,
+    "simplex_surface_noise": false,
+    "bottom_slide": {
+      "target": 15,
+      "size": 2,
+      "offset": 0
+    },
+    "size_horizontal": 1,
+    "size_vertical": 2,
+    "height": 256,
+    "sampling": {
+      "xz_scale": 1.0,
+      "y_scale": 1.0,
+      "xz_factor": 90.0,
+      "y_factor": 90.0
+    },
+    "top_slide": {
+      "target": -1,
+      "size": 2,
+      "offset": 0
+    }
+  },
+  "default_block": {
+    "Name": "minecraft:stone"
+  },
+  "default_fluid": {
+    "Properties": {
+      "level": "0"
+    },
+    "Name": "minecraft:lava"
+  }
+}

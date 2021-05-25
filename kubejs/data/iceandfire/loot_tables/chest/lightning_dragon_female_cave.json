@@ -23,7 +23,7 @@
         },
         {
           "type": "item",
-          "name": "mysticalworld:amethyst",
+          "name": "iceandfire:amythest_gem",
           "functions": [
             {
               "function": "set_count",

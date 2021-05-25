@@ -163,7 +163,7 @@
         },
         {
           "type": "item",
-          "name": "occultism:silver_ore",
+          "name": "iceandfire:silver_ore",
           "functions": [
             {
               "function": "set_count",

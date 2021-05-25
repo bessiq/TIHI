@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+        "#forge:gems/amber",
+        "#forge:gems/emerald",
+        "#forge:gems/pearl",
+        "#forge:gems/ruby",
+        "#forge:gems/sapphire"
+    ]
+}

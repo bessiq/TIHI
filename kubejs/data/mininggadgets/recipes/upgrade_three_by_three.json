@@ -7,19 +7,19 @@
     ],
     "key": {
         "r": {
-            "tag": "forge:ingots/iesnium"
+            "tag": "forge:ingots/oratchalcum"
         },
         "u": {
             "item": "mininggadgets:upgrade_empty"
         },
         "d": {
-            "item": "minecraft:diamond_block"
+            "tag": "forge:storage_blocks/diamond"
         },
         "p": {
             "item": "immersiveengineering:drillhead_steel"
         },
         "e": {
-            "item": "tconstruct:rose_gold_ingot"
+            "tag": "forge:ingots/rose_gold"
         }
     },
     "result": {

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "mb",
+    "bm"
+  ],
+  "key": {
+    "m": {
+      "item": "mekanismadditions:magenta_plastic"
+    },
+    "b": {
+      "item": "mekanismadditions:black_plastic"
+    }
+  },
+  "result": {
+    "item": "tihi:missingno_block",
+    "count": 4
+  }
+}

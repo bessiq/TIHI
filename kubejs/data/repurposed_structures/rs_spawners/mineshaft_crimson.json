@@ -3,6 +3,14 @@
         {
             "name": "minecraft:blaze",
             "weight": 10
+        },
+        {
+            "name": "alexsmobs:crimson_mosquito",
+            "weight": 5
+        },
+        {
+            "name": "rats:demon_rat",
+            "weight": 3
         }
     ]
 }

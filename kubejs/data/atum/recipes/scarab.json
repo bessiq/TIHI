@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " G ",
+        "GDG",
+        "D D"
+    ],
+    "key": {
+        "D": {
+            "tag": "forge:chitin"
+        },
+        "G": {
+            "tag": "forge:gems/amber"
+        }
+    },
+    "result": {
+        "item": "atum:scarab"
+    }
+}

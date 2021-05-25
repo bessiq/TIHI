@@ -1,0 +1,12 @@
+{
+  "generator": {
+    "type": "minecraft:noise",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "tihi:terribadia"
+    },
+    "seed": 0,
+    "settings": "tihi:terribadia_noise"
+  },
+  "type": "tihi:terribadia"
+}

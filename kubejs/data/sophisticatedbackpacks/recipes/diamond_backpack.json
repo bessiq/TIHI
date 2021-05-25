@@ -19,7 +19,7 @@
             "item": "sophisticatedbackpacks:gold_backpack"
         },
         "E": {
-            "tag": "forge:ingots/manasteel"
+            "item": "byg:ametrine_gems"
         }
     },
     "result": {

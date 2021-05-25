@@ -1,0 +1,14 @@
+{
+    "replace": false,
+    "values": [
+        "#forge:plants/cacti",
+        "#forge:plants/coral_living",
+        "#forge:plants/end",
+        "#forge:plants/grass",
+        "#forge:plants/kelp",
+        "#forge:plants/misc",
+        "#forge:plants/nether",
+        "#forge:plants/reeds",
+        "#forge:plants/vines"
+    ]
+}

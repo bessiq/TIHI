@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "rats:chunky_cheese_token"
+        },
+        "title": {
+            "translate": "advancements.rats.ratlantis_root.title"
+        },
+        "description": {
+            "translate": "advancements.rats.ratlantis_root.description"
+        },
+        "background": "rats:textures/block/marbled_cheese_raw.png",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "in_ratlantis": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "ratlantis"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "in_ratlantis"
+        ]
+    ]
+}

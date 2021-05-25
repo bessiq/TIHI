@@ -1,0 +1,63 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "rock_count": 4,
+                "hole_count": 1,
+                "valid_blocks": [
+                  "botania:livingrock",
+                  "byg:quartzite_sand",
+                  "byg:soapstone",
+                  "create:dark_scoria",
+                  "create:dolomite",
+                  "create:gabbro",
+                  "minecraft:blackstone",
+                  "minecraft:andesite",
+                  "minecraft:diorite",
+                  "minecraft:granite",
+                  "minecraft:stone",
+                  "quark:jasper",
+                  "quark:slate",
+                  "twilightforest:deadrock"
+                ],
+                "state": {
+                  "Properties": {
+                    "falling": "true"
+                  },
+                  "Name": "minecraft:lava"
+                },
+                "requires_block_below": true
+              },
+              "type": "minecraft:spring_feature"
+            },
+            "decorator": {
+              "config": {
+                "bottom_offset": 4,
+                "top_offset": 4,
+                "maximum": 256
+              },
+              "type": "minecraft:range_biased"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {},
+          "type": "minecraft:square"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 40
+      },
+      "type": "minecraft:count"
+    }
+  },
+  "type": "minecraft:decorated"
+}

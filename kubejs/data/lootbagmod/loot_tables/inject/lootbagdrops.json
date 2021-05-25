@@ -8,20 +8,19 @@
           "type": "minecraft:item",
           "name": "lootbagmod:lootbag",
           "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ],
           "conditions": [
             {
-              "condition": "minecraft:killed_by_player"
-            },
-            {
               "condition": "minecraft:random_chance_with_looting",
-              "chance": 0.010,
+              "chance": 0.01,
               "looting_multiplier": 1
             }
           ]
-        },
-        {
-          "type": "empty",
-          "weight": 99
         }
       ]
     }

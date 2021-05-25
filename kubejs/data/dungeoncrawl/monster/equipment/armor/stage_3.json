@@ -1,7 +1,16 @@
 {
   "helmet": [
     {
-      "item": "botania:manasteel_helmet"
+      "item": "minecraft:iron_helmet",
+      "weight": 3
+    },
+    {
+      "item": "minecraft:golden_helmet",
+      "weight": 3
+    },
+    {
+      "item": "botania:manasteel_helmet",
+      "weight": 2
     },
     {
       "item": "immersiveengineering:armor_steel_head",
@@ -9,32 +18,33 @@
     },
     {
       "item": "forbidden_arcanus:mortem_helmet",
+      "weight": 2
+    },
+    {
+      "item": "iceandfire:silver_helmet",
       "weight": 3
     },
     {
-      "item": "dungeons_gear:fox_hood",
-      "weight": 3
-    },
-    {
-      "item": "dungeons_gear:spider_hood",
-      "weight": 3
-    },
-    {
-      "item": "dungeons_gear:curious_helmet",
-      "weight": 3
-    },
-    {
-      "item": "dungeons_gear:evocation_hat",
+      "item": "druidcraft:bone_helmet",
       "weight": 3
     },
     {
       "item": "farlanders:looter_hood",
-      "weight": 3
+      "weight": 2
     }
   ],
   "chestplate": [
     {
-      "item": "botania:manasteel_chestplate"
+      "item": "minecraft:iron_chestplate",
+      "weight": 3
+    },
+    {
+      "item": "minecraft:golden_chestplate",
+      "weight": 3
+    },
+    {
+      "item": "botania:manasteel_chestplate",
+      "weight": 2
     },
     {
       "item": "immersiveengineering:armor_steel_chest",
@@ -42,35 +52,25 @@
     },
     {
       "item": "forbidden_arcanus:mortem_chestplate",
+      "weight": 2
+    },
+    {
+      "item": "druidcraft:bone_chestplate",
       "weight": 3
     },
     {
-      "item": "dungeons_gear:fox_vest",
-      "weight": 3
-    },
-    {
-      "item": "dungeons_gear:spider_vest",
-      "weight": 3
-    },
-    {
-      "item": "dungeons_gear:curious_chestplate",
-      "weight": 3
-    },
-    {
-      "item": "dungeons_gear:evocation_robe",
-      "weight": 3
-    },
-    {
-      "item": "forbidden_arcanus:mortem_chestplate",
+      "item": "iceandfire:silver_chestplate",
       "weight": 3
     }
   ],
   "leggings": [
     {
-      "item": "botania:manasteel_leggings"
+      "item": "botania:manasteel_leggings",
+      "weight": 1
     },
     {
-      "item": "minecolonies:pirate_leggins"
+      "item": "minecolonies:pirate_leggins",
+      "weight": 2
     },
     {
       "item": "immersiveengineering:armor_steel_legs",
@@ -78,17 +78,23 @@
     },
     {
       "item": "forbidden_arcanus:mortem_leggings",
+      "weight": 2
+    },
+    {
+      "item": "minecraft:iron_leggings",
       "weight": 3
     },
     {
-      "item": "forbidden_arcanus:mortem_leggings",
+      "item": "minecraft:golden_leggings",
       "weight": 3
     },
     {
-      "item": "minecraft:iron_leggings"
+      "item": "druidcraft:bone_leggings",
+      "weight": 3
     },
     {
-      "item": "minecraft:golden_leggings"
+      "item": "iceandfire:silver_leggings",
+      "weight": 3
     }
   ],
   "boots": [
@@ -102,17 +108,23 @@
     },
     {
       "item": "forbidden_arcanus:mortem_boots",
+      "weight": 2
+    },
+    {
+      "item": "minecraft:iron_boots",
       "weight": 3
     },
     {
-      "item": "forbidden_arcanus:mortem_boots",
+      "item": "minecraft:golden_boots",
       "weight": 3
     },
     {
-      "item": "minecraft:iron_boots"
+      "item": "druidcraft:bone_boots",
+      "weight": 3
     },
     {
-      "item": "minecraft:golden_boots"
+      "item": "iceandfire:silver_boots",
+      "weight": 3
     }
   ]
 }

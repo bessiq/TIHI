@@ -13,14 +13,6 @@
       "weight": 2
     },
     {
-      "item": "dungeons_gear:wolf_hood",
-      "weight": 2
-    },
-    {
-      "item": "dungeons_gear:archers_hood",
-      "weight": 2
-    },
-    {
       "item": "teletubbies:noonoo_eyes",
       "weight": 1
     },
@@ -45,14 +37,6 @@
     {
       "item": "botania:manaweave_chestplate",
       "weight": 2
-    },
-    {
-      "item": "dungeons_gear:wolf_vest",
-      "weight": 2
-    },
-    {
-      "item": "dungeons_gear:archers_vest",
-      "weight": 2
     }
   ],
   "leggings": [
@@ -61,7 +45,7 @@
       "weight": 2
     },
     {
-      "item": "mekanismtools:lapis_lazuli_helmet",
+      "item": "mekanismtools:lapis_lazuli_leggings",
       "weight": 2
     },
     {
@@ -69,12 +53,9 @@
       "weight": 2
     },
     {
-      "item": "minecraft:leather_leggings"
-    },
-    {
-      "item": "minecraft:chainmail_leggings"
+      "item": "minecraft:chainmail_leggings",
+      "weight": 3
     }
-
   ],
   "boots": [
     {
@@ -90,10 +71,8 @@
       "weight": 2 
     },
     {
-      "item": "minecraft:leather_boots"
-    },
-    {
-      "item": "minecraft:chainmail_boots"
+      "item": "minecraft:chainmail_boots",
+      "weight": 3
     }
   ]
 }

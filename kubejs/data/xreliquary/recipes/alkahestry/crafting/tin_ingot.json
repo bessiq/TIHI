@@ -20,7 +20,7 @@
     "type": "xreliquary:alkahestry_crafting",
     "charge": 32,
     "ingredient": {
-        "item": "mysticalworld:tin_ingot"
+        "item": "mekanism:ingot_tin"
     },
     "result_count": 2
 }

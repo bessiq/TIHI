@@ -1,19 +1,17 @@
 {
-    "replace": false,
-    "values": [
-      "byg:yellow_spruce_sapling",
-      "byg:joshua_sapling",
-      "naturesaura:ancient_sapling",
-      "forbidden_arcanus:mysterywood_sapling",
-      "forbidden_arcanus:cherrywood_sapling",
-      "quark:blue_blossom_sapling",
-      "quark:lavender_blossom_sapling",
-      "quark:orange_blossom_sapling",
-      "quark:pink_blossom_sapling",
-      "quark:yellow_blossom_sapling",
-      "undergarden:smogstem_sapling",
-      "undergarden:wigglewood_sapling",
-      "good_nights_sleep:dream_sapling",
-      "good_nights_sleep:candy_sapling"
-    ]
-  }
+  "replace": false,
+  "values": [
+    "forbidden_arcanus:cherrywood_sapling",
+    "forbidden_arcanus:mysterywood_sapling",
+    "good_nights_sleep:candy_sapling",
+    "good_nights_sleep:dream_sapling",
+    "naturesaura:ancient_sapling",
+    "quark:blue_blossom_sapling",
+    "quark:lavender_blossom_sapling",
+    "quark:orange_blossom_sapling",
+    "quark:pink_blossom_sapling",
+    "quark:yellow_blossom_sapling",
+    "undergarden:smogstem_sapling",
+    "undergarden:wigglewood_sapling"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+    "replace": false,
+    "values": [
+        "astralsorcery:marble_raw",
+        "byg:dacite",
+        "byg:mossy_stone",
+        "byg:overgrown_dacite",
+        "byg:overgrown_stone",
+        "byg:podzol_dacite",
+        "byg:red_rock",
+        "byg:rocky_stone",
+        "byg:scoria_stone",
+        "byg:soapstone"
+    ]
+}

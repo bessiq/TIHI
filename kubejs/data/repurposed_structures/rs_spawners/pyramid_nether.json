@@ -3,6 +3,14 @@
         {
             "name": "minecraft:zombified_piglin",
             "weight": 10
+        },
+        {
+            "name": "minecraft:wither_skeleton",
+            "weight": 5
+        },
+        {
+            "name": "minecraft:piglin_brute",
+            "weight": 5
         }
     ]
 }

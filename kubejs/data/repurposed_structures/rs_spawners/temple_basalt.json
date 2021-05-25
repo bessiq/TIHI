@@ -3,6 +3,14 @@
         {
             "name": "minecraft:magma_cube",
             "weight": 10
+        },
+        {
+            "name": "doom:nightmare_imp",
+            "weight": 7
+        },
+        {
+            "name": "rats:demon_rat",
+            "weight": 3
         }
     ]
 }

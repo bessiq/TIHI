@@ -3,6 +3,14 @@
         {
             "name": "minecraft:zoglin",
             "weight": 10
+        },
+        {
+            "name": "minecraft:piglin_brute",
+            "weight": 7
+        },
+        {
+            "name": "rats:demon_rat",
+            "weight": 3
         }
     ]
 }

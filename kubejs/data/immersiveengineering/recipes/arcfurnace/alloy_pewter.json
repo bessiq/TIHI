@@ -1,0 +1,40 @@
+{
+    "type": "immersiveengineering:arc_furnace",
+    "results": [
+        {
+            "count": 4,
+            "base_ingredient": {
+                "tag": "forge:ingots/pewter"
+            }
+        }
+    ],
+    "additives": [
+        {
+            "tag": "forge:ingots/lead"
+        }
+    ],
+    "conditions": [
+        {
+            "value": {
+                "tag": "forge:ingots/pewter",
+                "type": "forge:tag_empty"
+            },
+            "type": "forge:not"
+        },
+        {
+            "value": {
+                "tag": "forge:ingots/lead",
+                "type": "forge:tag_empty"
+            },
+            "type": "forge:not"
+        }
+    ],
+    "input": {
+        "count": 3,
+        "base_ingredient": {
+            "tag": "forge:ingots/iron"
+        }
+    },
+    "time": 100,
+    "energy": 51200
+}

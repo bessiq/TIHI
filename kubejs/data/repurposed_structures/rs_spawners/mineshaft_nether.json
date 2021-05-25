@@ -3,6 +3,14 @@
         {
             "name": "minecraft:blaze",
             "weight": 10
+        },
+        {
+            "name": "doom:lost_soul",
+            "weight": 5
+        },
+        {
+            "name": "rats:demon_rat",
+            "weight": 3
         }
     ]
 }

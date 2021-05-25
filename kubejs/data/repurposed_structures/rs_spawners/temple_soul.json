@@ -3,6 +3,18 @@
         {
             "name": "minecraft:skeleton",
             "weight": 10
+        },
+        {
+            "name": "minecraft:wither_skeleton",
+            "weight": 5
+        },
+        {
+            "name": "mekanismadditions:baby_wither_skeleton",
+            "weight": 7
+        },
+        {
+            "name": "rats:demon_rat",
+            "weight": 3
         }
     ]
 }

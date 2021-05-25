@@ -2,7 +2,7 @@
   "type": "mekanism:crushing",
   "input": {
     "ingredient": {
-      "tag": "tihi:plants/coral_living"
+      "tag": "forge:plants/coral_living"
     }
   },
   "output": {

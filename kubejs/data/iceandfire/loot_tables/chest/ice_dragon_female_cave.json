@@ -107,7 +107,7 @@
         },
         {
           "type": "item",
-          "name": "occultism:silver_ingot",
+          "name": "iceandfire:silver_ingot",
           "functions": [
             {
               "function": "set_count",
@@ -121,7 +121,7 @@
         },
         {
           "type": "item",
-          "name": "occultism:silver_nugget",
+          "name": "iceandfire:silver_nugget",
           "functions": [
             {
               "function": "set_count",

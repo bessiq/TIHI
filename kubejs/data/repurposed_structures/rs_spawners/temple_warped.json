@@ -7,6 +7,14 @@
         {
             "name": "minecraft:enderman",
             "weight": 10
+        },
+        {
+            "name": "mutantbeasts:mutant_enderman",
+            "weight": 4
+        },
+        {
+            "name": "mekanismadditions:baby_enderman",
+            "weight": 7
         }
     ]
 }

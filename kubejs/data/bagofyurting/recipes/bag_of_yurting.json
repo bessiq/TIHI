@@ -1,11 +1,14 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "wbw",
+    "wrw",
     "aEa",
     "bcb"
   ],
   "key": {
+    "r": {
+      "tag": "forge:rope"
+    },
     "w": {
       "tag": "minecraft:wool"
     },

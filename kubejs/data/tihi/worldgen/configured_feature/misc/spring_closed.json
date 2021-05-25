@@ -1,0 +1,57 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "rock_count": 5,
+                "hole_count": 0,
+                "valid_blocks": [
+                  "byg:blue_netherrack",
+                  "byg:brimstone",
+                  "byg:cryptic_magma_block",
+                  "byg:frost_magma",
+                  "byg:magmatic_stone",
+                  "byg:scoria_stone",
+                  "minecraft:netherrack",
+                  "quark:permafrost"
+                ],
+                "state": {
+                  "Properties": {
+                    "falling": "true"
+                  },
+                  "Name": "minecraft:lava"
+                },
+                "requires_block_below": false
+              },
+              "type": "minecraft:spring_feature"
+            },
+            "decorator": {
+              "config": {
+                "bottom_offset": 4,
+                "top_offset": 4,
+                "maximum": 256
+              },
+              "type": "minecraft:range"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {},
+          "type": "minecraft:square"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 16
+      },
+      "type": "minecraft:count"
+    }
+  },
+  "type": "minecraft:decorated"
+}

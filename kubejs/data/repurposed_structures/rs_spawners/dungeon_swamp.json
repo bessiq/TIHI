@@ -21,10 +21,6 @@
             "weight": 9
         },
         {
-            "name": "froglins:froglin",
-            "weight": 4
-        },
-        {
             "name": "minecraft:slime",
             "weight": 1
         }

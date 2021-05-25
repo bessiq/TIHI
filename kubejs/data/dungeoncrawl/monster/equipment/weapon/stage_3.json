@@ -1,11 +1,11 @@
 {
   "melee": [
     {
-      "item": "dungeons_gear:mace",
-      "weight": 2
+      "item": "iceandfire:silver_sword",
+      "weight": 4
     },
     {
-      "item": "dungeons_gear:diamond_pickaxe",
+      "item": "druidcraft:bone_sword",
       "weight": 3
     },
     {
@@ -17,16 +17,8 @@
       "weight": 1
     },
     {
-      "item": "dungeons_gear:highland_axe",
-      "weight": 2
-    },
-    {
-      "item": "dungeons_gear:axe",
-      "weight": 3
-    },
-    {
       "item": "minecraft:diamond_sword",
-      "weight": 4
+      "weight": 3
     },
     {
       "item": "farlanders:nightfall_sword",

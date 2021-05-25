@@ -6,12 +6,23 @@
             "entries": [
                 {
                     "type": "item",
+                    "weight": 1,
                     "name": "lootbagmod:lootbag",
-                    "weight": 4
-                },
-                {
-                  "type": "empty",
-                  "weight": 96
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.20
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        }
+                    ]
                 }
             ]
         }

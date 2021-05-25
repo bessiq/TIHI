@@ -2,7 +2,7 @@
   "helmet": [
     {
       "item": "minecraft:netherite_helmet",
-      "weight": 2
+      "weight": 1
     },
     {
       "item": "farlanders:nightfall_helmet",
@@ -10,25 +10,25 @@
     },
     {
       "item": "botania:elementium_helmet",
-      "weight": 2
+      "weight": 1
     },
     {
       "item": "mutantbeasts:mutant_skeleton_skull",
       "weight": 2
     },
     {
-      "item": "dungeons_gear:grim_helmet",
+      "item": "minecraft:diamond_helmet",
       "weight": 2
     },
     {
-      "item": "dungeons_gear:dark_helmet",
-      "weight": 2
+      "item": "druidcraft:chitin_helmet",
+      "weight": 3
     }
   ],
   "chestplate": [
     {
       "item": "minecraft:netherite_chestplate",
-      "weight": 2
+      "weight": 1
     },
     {
       "item": "farlanders:nightfall_chestplate",
@@ -36,29 +36,25 @@
     },
     {
       "item": "botania:elementium_chestplate",
-      "weight": 2
+      "weight": 1
     },
     {
       "item": "mutantbeasts:mutant_skeleton_chestplate",
       "weight": 2
     },
     {
-      "item": "dungeons_gear:grim_chestplate",
+      "item": "minecraft:diamond_chestplate",
       "weight": 2
     },
     {
-      "item": "dungeons_gear:dark_chestplate",
-      "weight": 2
-    },
-    {
-      "item": "dungeons_gear:battle_robe",
-      "weight": 2
+      "item": "druidcraft:chitin_chestplate",
+      "weight": 3
     }
   ],
   "leggings": [
     {
       "item": "minecraft:netherite_leggings",
-      "weight": 2
+      "weight": 1
     },
     {
       "item": "farlanders:nightfall_leggings",
@@ -70,7 +66,7 @@
     },
     {
       "item": "botania:elementium_leggings",
-      "weight": 2
+      "weight": 1
     },
     {
       "item": "mutantbeasts:mutant_skeleton_leggings",
@@ -79,12 +75,16 @@
     {
       "item": "minecraft:diamond_leggings",
       "weight": 2
+    },
+    {
+      "item": "druidcraft:chitin_leggings",
+      "weight": 3
     }
   ],
   "boots": [
     {
       "item": "minecraft:netherite_boots",
-      "weight": 2
+      "weight": 1
     },
     {
       "item": "farlanders:nightfall_boots",
@@ -92,14 +92,19 @@
     },
     {
       "item": "botania:elementium_boots",
-      "weight": 2
+      "weight": 1
     },
     {
       "item": "mutantbeasts:mutant_skeleton_boots",
       "weight": 2
     },
     {
-      "item": "minecraft:diamond_boots"
+      "item": "minecraft:diamond_boots",
+      "weight": 2
+    },
+    {
+      "item": "druidcraft:chitin_boots",
+      "weight": 3
     }
   ]
 }

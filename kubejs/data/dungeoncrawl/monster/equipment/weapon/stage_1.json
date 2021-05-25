@@ -1,68 +1,16 @@
 {
   "melee": [
     {
-      "item": "dungeons_gear:sickle",
+      "item": "minecraft:wooden_sword",
       "weight": 4
     },
     {
-      "item": "dungeons_gear:frost_scythe",
-      "weight": 3
-    },
-    {
-      "item": "dungeons_gear:rapier",
-      "weight": 3
-    },
-    {
-      "item": "dungeons_gear:the_last_laugh",
-      "weight": 1
-    },
-    {
-      "item": "dungeons_gear:bee_stinger",
-      "weight": 1
-    },
-    {
-      "item": "dungeons_gear:freezing_foil",
-      "weight": 1
-    },
-    {
-      "item": "dungeons_gear:nightmares_bite",
-      "weight": 1
-    },
-    {
-      "item": "dungeons_gear:shear_dagger",
-      "weight": 1
-    },
-    {
-      "item": "dungeons_gear:fang_of_frost",
-      "weight": 1
-    },
-    {
-      "item": "dungeons_gear:moon_dagger",
-      "weight": 1
-    },
-    {
-      "item": "dungeons_gear:battlestaff",
-      "weight": 3
-    },
-    {
-      "item": "dungeons_gear:gauntlet",
+      "item": "minecraft:stone_sword",
       "weight": 4
     },
     {
-      "item": "dungeons_gear:fighters_binding",
+      "item": "iceandfire:copper_sword",
       "weight": 3
-    },
-    {
-      "item": "dungeons_gear:mauler",
-      "weight": 3
-    },
-    {
-      "item": "dungeons_mobs:spatula",
-      "weight": 3
-    },
-    {
-      "item": "dungeons_gear:cutlass",
-      "weight": 2
     },
     {
       "item": "mutantbeasts:creeper_shard",
@@ -87,10 +35,6 @@
     {
       "item": "xreliquary:magicbane",
       "weight": 1
-    },
-    {
-      "item": "dungeons_gear:dagger",
-      "weight": 4
     }
   ],
   "ranged": [

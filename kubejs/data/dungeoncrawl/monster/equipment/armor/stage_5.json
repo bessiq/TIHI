@@ -6,11 +6,11 @@
     },
     {
       "item": "mekanismtools:refined_obsidian_helmet",
-      "weight": 3
+      "weight": 2
     },
     {
       "item": "byg:ametrine_helmet",
-      "weight": 3
+      "weight": 2
     },
     {
       "item": "rats:ratlantis_helmet",
@@ -21,20 +21,8 @@
       "weight": 1
     },
     {
-      "item": "dungeons_gear:stalwart_helmet",
+      "item": "druidcraft:moonstone_helmet",
       "weight": 3
-    },
-    {
-      "item": "dungeons_gear:wither_helmet",
-      "weight": 2
-    },
-    {
-      "item": "dungeons_gear:titans_shroud_helmet",
-      "weight": 1
-    },
-    {
-      "item": "dungeons_gear:ember_hat",
-      "weight": 2
     }
   ],
   "chestplate": [
@@ -44,11 +32,11 @@
     },
     {
       "item": "mekanismtools:refined_obsidian_chestplate",
-      "weight": 3
+      "weight": 2
     },
     {
       "item": "byg:ametrine_chestplate",
-      "weight": 3
+      "weight": 2
     },
     {
       "item": "rats:ratlantis_chestplate",
@@ -59,20 +47,8 @@
       "weight": 1
     },
     {
-      "item": "dungeons_gear:stalwart_chestplate",
+      "item": "druidcraft:moonstone_chestplate",
       "weight": 3
-    },
-    {
-      "item": "dungeons_gear:wither_chestplate",
-      "weight": 2
-    },
-    {
-      "item": "dungeons_gear:titans_shroud_chestplate",
-      "weight": 1
-    },
-    {
-      "item": "dungeons_gear:ember_robe",
-      "weight": 2
     }
   ],
   "leggings": [
@@ -82,11 +58,11 @@
     },
     {
       "item": "mekanismtools:refined_obsidian_leggings",
-      "weight": 3
+      "weight": 2
     },
     {
       "item": "byg:ametrine_leggings",
-      "weight": 3
+      "weight": 2
     },
     {
       "item": "rats:ratlantis_leggings",
@@ -95,6 +71,10 @@
     {
       "item": "botania:terrasteel_leggings",
       "weight": 1
+    },
+    {
+      "item": "druidcraft:moonstone_leggings",
+      "weight": 3
     }
   ],
   "boots": [
@@ -104,11 +84,11 @@
     },
     {
       "item": "mekanismtools:refined_obsidian_boots",
-      "weight": 3
+      "weight": 2
     },
     {
       "item": "byg:ametrine_boots",
-      "weight": 3
+      "weight": 2
     },
     {
       "item": "rats:ratlantis_boots",
@@ -117,6 +97,10 @@
     {
       "item": "botania:terrasteel_boots",
       "weight": 1
+    },
+    {
+      "item": "druidcraft:moonstone_boots",
+      "weight": 3
     }
   ]
 }

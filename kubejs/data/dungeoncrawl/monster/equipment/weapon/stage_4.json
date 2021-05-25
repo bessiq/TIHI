@@ -1,36 +1,12 @@
 {
   "melee": [
     {
-      "item": "dungeons_gear:soul_knife",
-      "weight": 1
-    },
-    {
-      "item": "dungeons_gear:masters_katana",
+      "item": "druidcraft:moonstone_sword",
       "weight": 2
-    },
-    {
-      "item": "dungeons_gear:flail",
-      "weight": 2
-    },
-    {
-      "item": "dungeons_gear:great_hammer",
-      "weight": 2
-    },
-    {
-      "item": "dungeons_gear:venom_glaive",
-      "weight": 2
-    },
-    {
-      "item": "dungeons_mobs:diamond_mountaineer_axe",
-      "weight": 3
     },
     {
       "item": "jellyfishing:golden_spatula",
       "weight": 1
-    },
-    {
-      "item": "dungeons_gear:firebrand",
-      "weight": 2
     },
     {
       "item": "enigmaticlegacy:forbidden_axe",

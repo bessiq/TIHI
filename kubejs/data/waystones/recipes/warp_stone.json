@@ -1,0 +1,22 @@
+{
+  "result": {
+    "item": "waystones:warp_stone"
+  },
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DED",
+    "EGE",
+    "DED"
+  ],
+  "key": {
+    "D": {
+      "item": "ars_nouveau:magic_clay"
+    },
+    "G": {
+      "item": "forbidden_arcanus:chorus_pearl"
+    },
+    "E": {
+      "tag": "forge:gems/amethyst"
+    }
+  }
+}

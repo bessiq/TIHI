@@ -1,0 +1,415 @@
+{
+  "scale": 1,
+  "effects": {
+    "sky_color": 0,
+    "fog_color": 42113,
+    "water_color": 12840163,
+    "water_fog_color": 12840163,
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "additions_sound": {
+      "sound": "tihi:ambient.tb_hehe",
+      "tick_chance": 0.0003
+    },
+    "music": {
+      "sound": "tihi:music.tb_lofi",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": true
+    }
+  },
+  "surface_builder": "tihi:terribadia",
+  "carvers": {
+    "air": [
+      "tihi:cave",
+      "tihi:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [
+      "tihi:misc/lake_lava",
+      "tihi:misc/lake_water"
+    ],
+    [],
+    [
+      "tihi:misc/monster_room"
+    ],
+    [],
+    [],
+    [
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "minecraft:end_island_decorated",
+      "minecraft:ore_infested",
+      "minecraft:fossil"
+    ],
+    [
+      "tihi:strata/000_brimstone",
+      "tihi:strata/006_soapstone",
+      "tihi:strata/012_marble",
+      "tihi:strata/018_gabbro",
+      "tihi:strata/024_scoria_stone",
+      "tihi:strata/030_depthrock",
+      "tihi:strata/036_limestone",
+      "tihi:strata/036_weathered_limestone",
+      "tihi:strata/042_dolomite",
+      "tihi:strata/048_dark_scoria",
+      "tihi:strata/054_dacite",
+      "tihi:strata/060_coralstone",
+      "tihi:strata/060_quartzite_sand",
+      "tihi:strata/064_coarse_dirt",
+      "tihi:strata/064_meadow_dirt",
+      "tihi:strata/064_mossy_stone",
+      "tihi:strata/064_mud",
+      "tihi:strata/064_peat",
+      "tihi:strata/064_rocky_stone",
+      "tihi:strata/067_red_rock",
+      "tihi:strata/073_limestone",
+      "tihi:strata/079_jasper",
+      "tihi:strata/085_marble",
+      "tihi:strata/091_slate",
+      "tihi:strata/097_andesite",
+      "tihi:strata/101_granite",
+      "tihi:strata/105_diorite",
+      "tihi:strata/109_scoria",
+      "tihi:strata/115_white_smooth_sandstone",
+      "tihi:strata/117_purple_smooth_sandstone",
+      "tihi:strata/119_black_smooth_sandstone",
+      "tihi:strata/121_smooth_red_sandstone",
+      "tihi:strata/123_blue_smooth_sandstone",
+      "tihi:strata/125_pink_smooth_sandstone",
+      "tihi:strata/127_smooth_sandstone",
+      "tihi:strata/129_terracotta",
+      "tihi:strata/131_white_terracotta",
+      "tihi:strata/133_orange_terracotta",
+      "tihi:strata/135_magenta_terracotta",
+      "tihi:strata/137_light_blue_terracotta",
+      "tihi:strata/139_yellow_terracotta",
+      "tihi:strata/141_lime_terracotta",
+      "tihi:strata/143_pink_terracotta",
+      "tihi:strata/145_gray_terracotta",
+      "tihi:strata/147_light_gray_terracotta",
+      "tihi:strata/149_tremblecrust",
+      "tihi:strata/151_cyan_terracotta",
+      "tihi:strata/153_purple_terracotta",
+      "tihi:strata/155_blue_terracotta",
+      "tihi:strata/157_brown_terracotta",
+      "tihi:strata/159_green_terracotta",
+      "tihi:strata/161_red_terracotta",
+      "tihi:strata/163_black_terracotta",
+      "tihi:strata/165_deadrock",
+      "tihi:strata/170_black_ice",
+      "tihi:strata/170_packed_black_ice",
+      "tihi:strata/174_voidstone",
+      "tihi:strata/178_blackstone",
+      "tihi:strata/182_sky_stone_block",
+      "tihi:strata/185_darkstone",
+      "tihi:strata/188_soul_sand",
+      "tihi:strata/188_soul_soil",
+      "tihi:strata/191_brimstone",
+      "tihi:strata/195_basalt",
+      "tihi:strata/198_cryptic_magma_block",
+      "tihi:strata/198_cryptic_stone",
+      "tihi:strata/201_magma_block",
+      "tihi:strata/201_magmatic_stone",
+      "tihi:strata/205_netherrack",
+      "tihi:strata/210_blue_netherrack",
+      "tihi:strata/215_frost_magma",
+      "tihi:strata/215_permafrost",
+      "tihi:strata/220_ice",
+      "tihi:strata/220_packed_ice",
+      "tihi:strata/220_snow_block",
+      "tihi:strata/226_delusion_stone",
+      "tihi:strata/226_dream_dirt",
+      "tihi:strata/232_gaia_stone",
+      "tihi:strata/232_wasteland_stone",
+      "tihi:strata/238_elder_prismarine",
+      "tihi:strata/238_prismarine",
+      "tihi:strata/242_shiverstone",
+      "tihi:strata/245_livingrock",
+      "tihi:strata/247_purpur_stone",
+      "tihi:strata/249_ether_stone",
+      "tihi:strata/251_bedrock",
+      "tihi:misc/elder_sea_lantern",
+      "tihi:misc/glowstone",
+      "tihi:misc/red_clay",
+      "tihi:misc/sea_lantern",
+      "tihi:misc/tihinium",
+      "tihi:ores/ore_end_ametrine",
+      "tihi:ores/ore_end_biotite",
+      "tihi:ores/ore_end_lignite",
+      "tihi:ores/ore_end_redstone",
+      "tihi:ores/ore_gaia_cinnabar",
+      "tihi:ores/ore_gaia_hematite",
+      "tihi:ores/ore_gaia_labradorite",
+      "tihi:ores/ore_gaia_moonstone",
+      "tihi:ores/ore_gaia_opal_blue",
+      "tihi:ores/ore_gaia_opal_green",
+      "tihi:ores/ore_gaia_opal_red",
+      "tihi:ores/ore_gaia_opal_white",
+      "tihi:ores/ore_gaia_pyrite",
+      "tihi:ores/ore_gaia_sugilite",
+      "tihi:ores/ore_gns_candy",
+      "tihi:ores/ore_gns_coal",
+      "tihi:ores/ore_gns_lapis",
+      "tihi:ores/ore_gns_positite",
+      "tihi:ores/ore_gns_rainbow",
+      "tihi:ores/ore_nether_anthracite",
+      "tihi:ores/ore_nether_cobalt",
+      "tihi:ores/ore_nether_gold",
+      "tihi:ores/ore_nether_quartz",
+      "tihi:ores/ore_ow_aquamarine",
+      "tihi:ores/ore_ug_cloggrum",
+      "tihi:ores/ore_ug_coal",
+      "tihi:ores/ore_ug_diamond",
+      "tihi:ores/ore_ug_froststeel",
+      "tihi:ores/ore_ug_gold",
+      "tihi:ores/ore_ug_iron",
+      "tihi:ores/ore_ug_regalium",
+      "tihi:ores/ore_ug_utherium"
+    ],
+    [
+      "tihi:misc/fire",
+      "tihi:misc/fire_boric",
+      "tihi:misc/fire_cryptic",
+      "tihi:misc/spring_water",
+      "tihi:misc/spring_lava",
+      "tihi:misc/spring_closed",
+      "tihi:misc/spring_open"
+    ]
+  ],
+  "starts": [
+    "quark:big_dungeon",
+    "dungeons_plus:bigger_dungeon",
+    "eidolon:catacomb",
+    "mowziesmobs:wrought_chamber",
+    "inventorypets:underground_dungeon"
+  ],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:spider",
+        "weight": 40,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:cave_spider",
+        "weight": 30,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:zombie",
+        "weight": 35,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:skeleton",
+        "weight": 35,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:creeper",
+        "weight": 35,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:slime",
+        "weight": 88,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:witch",
+        "weight": 12,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:vex",
+        "weight": 8,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:phantom",
+        "weight": 16,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:ghast",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "eidolon:wraith",
+        "weight": 16,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "eidolon:zombie_brute",
+        "weight": 17,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "eidolon:necromancer",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "iceandfire:troll",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "iceandfire:ghost",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "undergarden:sploogie",
+        "weight": 25,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "rats:pied_piper",
+        "weight": 21,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "rats:rat",
+        "weight": 23,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "rats:demon_rat",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "twilightforest:troll",
+        "weight": 14,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "twilightforest:redcap",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "good_nights_sleep:tormenter",
+        "weight": 13,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "gaiadimension:archaic_warrior",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "atum:mummy",
+        "weight": 14,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "atum:nomad",
+        "weight": 14,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "gaiadimension:cavern_tick",
+        "weight": 16,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "yeeter:tnt_yeeter",
+        "weight": 55,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "goblintraders:goblin_trader",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "creature": [],
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 8,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "statues:statue_bat",
+        "weight": 4,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {
+    "iceandfire:ghost": {
+      "energy_budget": 0.08,
+      "charge": 0.7
+    },
+    "eidolon:necromancer": {
+      "energy_budget": 0.03,
+      "charge": 0.7
+    },
+    "riskofrainmod:lemurian": {
+      "energy_budget": 0.13,
+      "charge": 0.7
+    },
+    "goblintraders:goblin_trader": {
+      "energy_budget": 0.01,
+      "charge": 0.7
+    },
+    "eyesinthedarkness:eyes": {
+      "energy_budget": 0.001,
+      "charge": 0.7
+    },
+    "mowziesmobs:grottol": {
+      "energy_budget": 0.05,
+      "charge": 0.7
+    }
+  },
+  "player_spawn_friendly": false,
+  "precipitation": "none",
+  "temperature": 0.0,
+  "downfall": 0.0,
+  "category": "none",
+  "depth": 0.1
+}

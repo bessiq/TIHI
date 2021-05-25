@@ -1,32 +1,8 @@
 {
   "melee": [
     {
-      "item": "dungeons_gear:stormlander",
-      "weight": 2
-    },
-    {
-      "item": "dungeons_gear:vine_whip",
-      "weight": 2
-    },
-    {
-      "item": "dungeons_gear:heartstealer",
-      "weight": 2
-    },
-    {
-      "item": "dungeons_gear:claymore",
-      "weight": 2
-    },
-    {
       "item": "mekanismtools:refined_obsidian_sword",
       "weight": 1
-    },
-    {
-      "item": "dungeons_gear:whirlwind",
-      "weight": 2
-    },
-    {
-      "item": "dungeons_gear:great_axeblade",
-      "weight": 2
     },
     {
       "item": "forbidden_arcanus:draco_arcanus_sword",

@@ -2,7 +2,7 @@
   "type": "mekanism:crushing",
   "input": {
     "ingredient": {
-      "tag": "tihi:plants/kelp"
+      "tag": "forge:plants/kelp"
     }
   },
   "output": {

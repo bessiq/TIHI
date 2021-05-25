@@ -1,0 +1,62 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "rock_count": 4,
+                "hole_count": 1,
+                "valid_blocks": [
+                  "byg:purpur_stone",
+                  "create:limestone",
+                  "create:scoria",
+                  "jellyfishing:coralstone",
+                  "minecraft:andesite",
+                  "minecraft:diorite",
+                  "minecraft:ice",
+                  "minecraft:prismarine",
+                  "minecraft:smooth_sandstone",
+                  "minecraft:stone",
+                  "quark:elder_prismarine",
+                  "quark:limestone",
+                  "quark:marble"
+                ],
+                "state": {
+                  "Properties": {
+                    "falling": "true"
+                  },
+                  "Name": "minecraft:water"
+                },
+                "requires_block_below": true
+              },
+              "type": "minecraft:spring_feature"
+            },
+            "decorator": {
+              "config": {
+                "bottom_offset": 4,
+                "top_offset": 4,
+                "maximum": 256
+              },
+              "type": "minecraft:range_biased"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {},
+          "type": "minecraft:square"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 60
+      },
+      "type": "minecraft:count"
+    }
+  },
+  "type": "minecraft:decorated"
+}

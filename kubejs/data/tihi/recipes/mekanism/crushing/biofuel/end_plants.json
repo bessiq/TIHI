@@ -2,7 +2,7 @@
   "type": "mekanism:crushing",
   "input": {
     "ingredient": {
-      "tag": "tihi:plants/end"
+      "tag": "forge:plants/end"
     }
   },
   "output": {

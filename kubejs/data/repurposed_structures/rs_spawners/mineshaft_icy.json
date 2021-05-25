@@ -3,10 +3,6 @@
         {
             "name": "minecraft:stray",
             "weight": 10
-        },
-        {
-            "name": "dungeons_mobs:icy_creeper",
-            "weight": 5
         }
     ]
 }

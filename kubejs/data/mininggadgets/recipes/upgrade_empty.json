@@ -16,7 +16,7 @@
       "tag": "forge:plastic"
     },
     "c": {
-      "item": "pneumaticcraft:empty_pcb"
+      "item": "mekanism:elite_control_circuit"
     }
   },
   "result": {
