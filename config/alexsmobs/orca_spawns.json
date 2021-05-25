@@ -13,8 +13,8 @@
       },
       {
         "type": "BIOME_DICT",
-        "negate": false,
-        "value": "cold"
+        "negate": true,
+        "value": "hot"
       },
       {
         "type": "REGISTRY_NAME",

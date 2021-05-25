@@ -14,7 +14,7 @@
 		worldNames = ["overworld"]
 		#Defines the structure spacing for worldgen
 		#Range: 1 ~ 512
-		spacing = 22
+		spacing = 24
 		#Defines the structure separation for worldgen
 		#Range: 1 ~ 512
 		separation = 6
@@ -56,10 +56,10 @@
 		worldNames = ["overworld"]
 		#Defines the structure spacing for worldgen
 		#Range: 1 ~ 512
-		spacing = 22
+		spacing = 25
 		#Defines the structure separation for worldgen
 		#Range: 1 ~ 512
-		separation = 6
+		separation = 7
 
 	[worldgen.glow_flower]
 		#Set this to false to disable this worldgen feature.
@@ -86,10 +86,10 @@
 		worldNames = ["overworld"]
 		#Defines the structure spacing for worldgen
 		#Range: 1 ~ 512
-		spacing = 22
+		spacing = 23
 		#Defines the structure separation for worldgen
 		#Range: 1 ~ 512
-		separation = 6
+		separation = 8
 
 	[worldgen.marble]
 		#Set this to false to disable this worldgen feature.

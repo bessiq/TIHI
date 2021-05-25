@@ -73,11 +73,6 @@ key_key.toggle_focus.desc:key.keyboard.tab:NONE
 key_key.nextDestination:key.keyboard.right.bracket:NONE
 key_key.prevDestination:key.keyboard.left.bracket:NONE
 key_key.openManual:key.keyboard.f1:NONE
-key_pneumaticcraft.armor.options:key.keyboard.u:NONE
-key_pneumaticcraft.helmet.hack:key.keyboard.h:NONE
-key_pneumaticcraft.helmet.debugging.drone:key.keyboard.y:NONE
-key_pneumaticcraft.boots.kick:key.keyboard.x:CONTROL
-key_pneumaticcraft.chestplate.launcher:key.keyboard.c:CONTROL
 key_key.toastcontrol.clear:key.keyboard.j:NONE
 key_mininggadgets.text.open_gui:key.keyboard.unknown:NONE
 key_key.ars_nouveau.open_book:key.keyboard.c:NONE

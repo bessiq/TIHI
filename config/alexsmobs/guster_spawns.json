@@ -4,11 +4,6 @@
       {
         "type": "BIOME_DICT",
         "negate": false,
-        "value": "overworld"
-      },
-      {
-        "type": "BIOME_DICT",
-        "negate": false,
         "value": "hot"
       },
       {
@@ -20,6 +15,21 @@
         "type": "BIOME_DICT",
         "negate": false,
         "value": "sandy"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "water"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "wet"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "beach"
       }
     ]
   ]

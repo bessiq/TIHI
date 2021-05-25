@@ -1,30 +1,42 @@
 
 [Misc]
-	#Stack Size
+	#Maximum possible stack size for dropped items
 	#Range: 1 ~ 64
 	stacksize = 1
 	#How many items drop when a loot bag is used
 	#Range: 1 ~ 1000
 	dropamount = 3
-	#Enable debug mode
-	debugmode = false
+	#Try to place items into inventory before dropping them onto the ground
+	itemsininventory = false
 
-["Mob Drops"]
-	#Mob drops list (Syntax " minecraft or modname : mobregistryname ")
-	mobdropslist = ["minecraft:elder_guardian", "minecraft:evoker", "minecraft:illusioner", "doom:arachnotron", "doom:archvile", "doom:baron", "doom:cacodemon", "doom:cyberdemon", "doom:cyberdemon2016", "doom:hellknight", "doom:iconofsin", "doom:imp", "doom:imp2016", "doom:lost_soul", "doom:mancubus", "doom:marauder", "doom:nightmare_imp", "doom:painelemental", "doom:pinky", "doom:revenant", "doom:shotgunguy", "doom:spiderdemon", "doom:unwilling", "doom:zombieman", "good_nights_sleep:herobrine", "good_nights_sleep:tormenter", "hunterillager:hunterillager", "iceandfire:amphithere", "iceandfire:cockatrice", "iceandfire:cyclops", "iceandfire:deathworm", "iceandfire:dread_beast", "iceandfire:dread_ghoul", "iceandfire:dread_knight", "iceandfire:dread_lich", "iceandfire:dread_scuttler", "iceandfire:fire_dragon", "iceandfire:gorgon", "iceandfire:hydra", "iceandfire:ice_dragon", "iceandfire:lightning_dragon", "iceandfire:myrmex_queen", "iceandfire:myrmex_royal", "iceandfire:myrmex_sentinel", "iceandfire:myrmex_soldier", "iceandfire:sea_serpent", "iceandfire:siren", "iceandfire:stymphalian_bird", "iceandfire:troll", "minecraft:ender_dragon", "minecraft:ravager", "minecraft:piglin_brute", "minecraft:vex", "minecraft:wither", "minecraft:zombie_villager", "mutantbeasts:mutant_creeper", "mutantbeasts:mutant_enderman", "mutantbeasts:mutant_skeleton", "mutantbeasts:mutant_zombie", "rats:black_death", "rats:dutchrat", "rats:pied_piper", "rats:plague_beast", "rats:rat_baron", "rats:feral_ratlantean", "rats:rat_king", "rats:ratlantean_automaton", "conjurer_illager:conjurer", "enchantwithmob:enchanter", "farlanders:ender_golem", "farlanders:mystic_enderman", "farlanders:titan", "riskofrainmod:stone_golem", "undergarden:stoneborn", "undergarden:rotbeast", "undergarden:masticator", "weeping_angels:weeping_angel", "yeeter:tnt_yeeter", "magma_monsters:magma_monster", "alexsmobs:bone_serpent"]
-	#Loot Bag drop chance from mobs (the higher the number the more common they are)
-	#Range: 1 ~ 100
-	dropchance = 10
+["Debug/Modpack tools"]
+	#Print mobs registry name to chat and log file when killed
+	entityname = false
+	#Print list of items dropped to debug.log
+	itemsdropped = false
+	#Print list of items dropped to the chat
+	itemsdroppedchat = false
 
 ["Black And White Lists"]
 	#Use the whitelist
 	enablewhitelist = true
 	#BlackList (Syntax "minecraft or modid : item or block name"; example "minecraft:air" or "lootbagmod:lootbag")
-	blacklist = ["minecraft:air", "minecraft:command_block", "minecraft:structure_block", "minecraft:knowledge_book", "minecraft:chain_command_block", "minecraft:repeating_command_block", "minecraft:barrier", "minecraft:enchanted_book", "minecraft:written_book", "minecraft:potion", "minecraft:splash_potion", "minecraft:lingering_potion", "minecraft:spawn_egg", "minecraft:structure_void", "minecraft:mob_spawner", "minecraft:bedrock", "vm:vending_machine", "minecraft:end_portal_frame", "minecraft:command_block_minecart", "quarryplus:quarry_pickaxe"]
+	blacklist = ["minecraft:air", "minecraft:barrier", "minecraft:bedrock", "minecraft:chain_command_block", "minecraft:command_block_minecart", "minecraft:command_block", "minecraft:enchanted_book", "minecraft:end_portal_frame", "minecraft:knowledge_book", "minecraft:lingering_potion", "minecraft:mob_spawner", "minecraft:potion", "minecraft:repeating_command_block", "minecraft:spawn_egg", "minecraft:splash_potion", "minecraft:structure_block", "minecraft:structure_void", "minecraft:written_book", "vm:vending_machine"]
 	#WhiteList Syntax "minecraft or modid : item or block name"; example minecraft:air or lootbagmod:lootbag)
 	whitelist = ["minecraft:emerald"]
+
+["Tag List"]
 	#TagList (Syntax "minecraft, forge or modid : tag name"; example "minecraft:planks" or "forge:planks")
 	taglist = ["curios:curio", "curios:statue", "tihi:loot"]
+
+["Mod List"]
 	#Mod black/whitelist (Syntax " modid ")
-	modlist = ["tconstruct"]
+	modlist = ["culinaryconstruct"]
+
+["Mob Drops"]
+	#Mob drops list (Syntax " minecraft or modname : mobregistryname ")
+	mobdropslist = ["alexsmobs:bone_serpent", "alexsmobs:dropbear", "alexsmobs:hammerhead_shark", "alexsmobs:mungus", "alexsmobs:soul_vulture", "ars_nouveau:wilden_guardian", "ars_nouveau:wilden_hunter", "ars_nouveau:wilden_stalker", "artifacts:mimic", "bellybutton:evil_dust_bunny", "conjurer_illager:conjurer", "doom:arachnotron", "doom:archvile", "doom:baron", "doom:cacodemon", "doom:chaingunner", "doom:cyberdemon", "doom:cyberdemon2016", "doom:dreadknight", "doom:gargoyle", "doom:hellknight", "doom:hellknight2016", "doom:iconofsin", "doom:imp", "doom:imp2016", "doom:lost_soul", "doom:mancubus", "doom:marauder", "doom:mechazombie", "doom:nightmare_imp", "doom:painelemental", "doom:pinky", "doom:prowler", "doom:revenant", "doom:spectre", "doom:spiderdemon", "doom:stone_imp", "doom:unwilling", "eidolon:necromancer", "eidolon:wraith", "eidolon:zombie_brute", "farlanders:classic_enderman", "farlanders:ender_golem", "farlanders:fanmade_enderman", "farlanders:looter", "farlanders:mystic_enderman", "farlanders:titan", "gaiadimension:archaic_warrior", "gaiadimension:malachite_guard", "gaiadimension:primal_beast", "gaiadimension:shalurker", "good_nights_sleep:herobrine", "good_nights_sleep:tormenter", "hunterillager:hunterillager", "iceandfire:amphithere", "iceandfire:cockatrice", "iceandfire:cyclops", "iceandfire:deathworm", "iceandfire:dread_beast", "iceandfire:dread_ghoul", "iceandfire:dread_knight", "iceandfire:dread_lich", "iceandfire:dread_scuttler", "iceandfire:fire_dragon", "iceandfire:gorgon", "iceandfire:hydra", "iceandfire:ice_dragon", "iceandfire:lightning_dragon", "iceandfire:myrmex_queen", "iceandfire:myrmex_royal", "iceandfire:myrmex_sentinel", "iceandfire:myrmex_soldier", "iceandfire:sea_serpent", "iceandfire:siren", "iceandfire:stymphalian_bird", "iceandfire:troll", "minecolonies:amazon", "minecolonies:amazonchief", "minecolonies:archerbarbarian", "minecolonies:archermummy", "minecolonies:archerpirate", "minecolonies:barbarian", "minecolonies:chiefbarbarian", "minecolonies:chiefpirate", "minecolonies:mummy", "minecolonies:norsemenarcher", "minecolonies:norsemenchief", "minecolonies:pharao", "minecolonies:pirate", "minecolonies:shieldmaiden", "minecraft:elder_guardian", "minecraft:ender_dragon", "minecraft:evoker", "minecraft:illusioner", "minecraft:piglin_brute", "minecraft:ravager", "minecraft:vex", "minecraft:wither", "minecraft:zombie_villager", "mowziesmobs:barako", "mowziesmobs:barakoana", "mowziesmobs:barakoaya", "mowziesmobs:ferrous_wroughtnaut", "mowziesmobs:frostmaw", "mowziesmobs:naga", "mutantbeasts:mutant_creeper", "mutantbeasts:mutant_enderman", "mutantbeasts:mutant_skeleton", "mutantbeasts:mutant_zombie", "quark:wraith", "rats:black_death", "rats:dutchrat", "rats:feral_ratlantean", "rats:pied_piper", "rats:plague_beast", "rats:rat_baron", "rats:rat_king", "rats:ratlantean_automaton", "riskofrainmod:stone_golem", "twilightforest:armored_giant", "twilightforest:giant_miner", "twilightforest:goblin_knight_lower", "twilightforest:goblin_knight_upper", "twilightforest:hydra", "twilightforest:king_spider", "twilightforest:knight_phantom", "twilightforest:lich", "twilightforest:minoshroom", "twilightforest:minotaur", "twilightforest:mist_wolf", "twilightforest:naga", "twilightforest:redcap_sapper", "twilightforest:snow_queen", "twilightforest:tower_ghast", "twilightforest:tower_golem", "twilightforest:troll", "twilightforest:ur_ghast", "twilightforest:yeti_alpha", "undergarden:forgotten_guardian", "undergarden:masticator", "undergarden:nargoyle", "undergarden:rotbeast", "undergarden:rotwalker", "weeping_angels:weeping_angel", "yeeter:tnt_yeeter"]
+	#Loot Bag drop chance from mobs (the higher the number the more common they are)
+	#Range: 1 ~ 100
+	dropchance = 1
 

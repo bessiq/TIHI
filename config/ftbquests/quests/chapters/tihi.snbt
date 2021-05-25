@@ -4,35 +4,13 @@
 	order_index: 0,
 	filename: "tihi",
 	title: "TIHI",
-	icon: {
-		ForgeCaps: {
-			"dungeons_gear:weapon": {
-				lastFiredTime: 0L,
-				fuseShotCounter: 0,
-				crossbowChargeTime: 0,
-				bowChargeTime: 0.0f
-			}
-		},
-		id: "teletubbies:toast",
-		Count: 1b
-	},
+	icon: "teletubbies:toast",
 	subtitle: ["Thanks! I Hate It"],
 	default_quest_shape: "",
 	quests: [
 		{
 			title: "Thanks For Hating It!",
-			icon: {
-				ForgeCaps: {
-					"dungeons_gear:weapon": {
-						lastFiredTime: 0L,
-						fuseShotCounter: 0,
-						crossbowChargeTime: 0,
-						bowChargeTime: 0.0f
-					}
-				},
-				id: "tihi:red_clay_ball",
-				Count: 1b
-			},
+			icon: "tihi:red_clay_ball",
 			x: 0.0d,
 			y: -0.3d,
 			shape: "hexagon",
@@ -42,67 +20,8 @@
 				id: "000000000000000A",
 				type: "dimension",
 				title: "Play a modpack of questionable quality.",
-				icon: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "tihi:red_clay_ball",
-					Count: 1b
-				},
+				icon: "tihi:red_clay_ball",
 				dimension: "minecraft:overworld"
-			}]
-		},
-		{
-			title: "Mining and More",
-			icon: {
-				ForgeCaps: {
-					"dungeons_gear:weapon": {
-						lastFiredTime: 0L,
-						fuseShotCounter: 0,
-						crossbowChargeTime: 0,
-						bowChargeTime: 0.0f
-					}
-				},
-				id: "mining_dimension:teleporter",
-				Count: 1b
-			},
-			x: 0.0d,
-			y: 1.5d,
-			hide: true,
-			id: "000000000000000C",
-			tasks: [
-				{
-					id: "000000000000000D",
-					type: "item",
-					item: {
-						ForgeCaps: {
-							"dungeons_gear:weapon": {
-								lastFiredTime: 0L,
-								fuseShotCounter: 0,
-								crossbowChargeTime: 0,
-								bowChargeTime: 0.0f
-							}
-						},
-						id: "mining_dimension:teleporter",
-						Count: 1b
-					}
-				},
-				{
-					id: "000000000000000E",
-					type: "dimension",
-					title: 'Visit the "mining" dimension.',
-					dimension: "mining_dimension:mining"
-				}
-			],
-			rewards: [{
-				id: "459E14901C4DDEBA",
-				type: "loot",
-				table_id: 52L
 			}]
 		},
 		{
@@ -124,19 +43,8 @@
 			}]
 		},
 		{
-			title: "End It All.",
-			icon: {
-				ForgeCaps: {
-					"dungeons_gear:weapon": {
-						lastFiredTime: 0L,
-						fuseShotCounter: 0,
-						crossbowChargeTime: 0,
-						bowChargeTime: 0.0f
-					}
-				},
-				id: "minecraft:end_crystal",
-				Count: 1b
-			},
+			title: "End It All",
+			icon: "minecraft:end_crystal",
 			x: 0.5d,
 			y: -3.0d,
 			hide: true,
@@ -145,18 +53,7 @@
 				id: "0000000000000014",
 				type: "dimension",
 				title: "Reach The End.",
-				icon: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "minecraft:end_portal_frame",
-					Count: 1b
-				},
+				icon: "minecraft:end_portal_frame",
 				dimension: "minecraft:the_end"
 			}],
 			rewards: [{
@@ -175,18 +72,7 @@
 				id: "0000000000000017",
 				type: "dimension",
 				title: "Visit Ratlantis.",
-				icon: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "rats:chunky_cheese_token",
-					Count: 1b
-				},
+				icon: "rats:chunky_cheese_token",
 				dimension: "rats:ratlantis"
 			}],
 			rewards: [{
@@ -207,14 +93,6 @@
 				type: "dimension",
 				title: "Travel to the Undergarden.",
 				icon: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
 					id: "undergarden:catalyst",
 					Count: 1b,
 					tag: {
@@ -240,18 +118,7 @@
 				id: "000000000000001D",
 				type: "dimension",
 				title: "Go to Gaia.",
-				icon: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "gaiadimension:keystone_block",
-					Count: 1b
-				},
+				icon: "gaiadimension:keystone_block",
 				dimension: "gaiadimension:gaia_dimension"
 			}],
 			rewards: [{
@@ -270,18 +137,7 @@
 				id: "0000000000000020",
 				type: "dimension",
 				title: "Have a Good Dream.",
-				icon: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "good_nights_sleep:candy_block",
-					Count: 1b
-				},
+				icon: "good_nights_sleep:candy_block",
 				dimension: "good_nights_sleep:good_dream"
 			}],
 			rewards: [{
@@ -300,18 +156,7 @@
 				id: "0000000000000023",
 				type: "dimension",
 				title: "Experience a Nightmare.",
-				icon: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "good_nights_sleep:necrum_block",
-					Count: 1b
-				},
+				icon: "good_nights_sleep:necrum_block",
 				dimension: "good_nights_sleep:nightmare"
 			}],
 			rewards: [{
@@ -321,48 +166,8 @@
 			}]
 		},
 		{
-			title: "NOT THE BEES!",
-			x: 1.0d,
-			y: -0.3d,
-			id: "0000000000000025",
-			tasks: [{
-				id: "0000000000000026",
-				type: "dimension",
-				title: "Enter the Bumblezone.",
-				icon: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "the_bumblezone:filled_porous_honeycomb_block",
-					Count: 1b
-				},
-				dimension: "the_bumblezone:the_bumblezone"
-			}],
-			rewards: [{
-				id: "14A6D48AD97EA1E1",
-				type: "loot",
-				table_id: 52L
-			}]
-		},
-		{
 			title: "Dragon Deletion",
-			icon: {
-				ForgeCaps: {
-					"dungeons_gear:weapon": {
-						lastFiredTime: 0L,
-						fuseShotCounter: 0,
-						crossbowChargeTime: 0,
-						bowChargeTime: 0.0f
-					}
-				},
-				id: "minecraft:dragon_head",
-				Count: 1b
-			},
+			icon: "minecraft:dragon_head",
 			x: 2.0d,
 			y: -3.1d,
 			id: "000000000000002A",
@@ -370,18 +175,7 @@
 				id: "000000000000002B",
 				type: "advancement",
 				title: "End The Ender Dragon.",
-				icon: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "minecraft:dragon_head",
-					Count: 1b
-				},
+				icon: "minecraft:dragon_head",
 				advancement: "minecraft:end/kill_dragon",
 				criterion: ""
 			}],
@@ -399,18 +193,7 @@
 		},
 		{
 			title: "Come On Down To Shulkertown",
-			icon: {
-				ForgeCaps: {
-					"dungeons_gear:weapon": {
-						lastFiredTime: 0L,
-						fuseShotCounter: 0,
-						crossbowChargeTime: 0,
-						bowChargeTime: 0.0f
-					}
-				},
-				id: "statues:shulker_statue",
-				Count: 1b
-			},
+			icon: "statues:shulker_statue",
 			x: -1.5d,
 			y: -3.4d,
 			hide_dependency_lines: true,
@@ -420,18 +203,7 @@
 				id: "000000000000002F",
 				type: "advancement",
 				title: "Find an End City.",
-				icon: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "statues:shulker_statue",
-					Count: 1b
-				},
+				icon: "statues:shulker_statue",
 				advancement: "minecraft:end/find_end_city",
 				criterion: ""
 			}],
@@ -443,18 +215,7 @@
 		},
 		{
 			title: "Conflict Resolution",
-			icon: {
-				ForgeCaps: {
-					"dungeons_gear:weapon": {
-						lastFiredTime: 0L,
-						fuseShotCounter: 0,
-						crossbowChargeTime: 0,
-						bowChargeTime: 0.0f
-					}
-				},
-				id: "engineersdecor:metal_crafting_table",
-				Count: 1b
-			},
+			icon: "engineersdecor:metal_crafting_table",
 			x: -4.4d,
 			y: -1.3d,
 			subtitle: "Solve your recipe problems with \\m/etal!",
@@ -463,23 +224,26 @@
 			tasks: [{
 				id: "0000000000000032",
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "engineersdecor:metal_crafting_table",
-					Count: 1b
-				}
+				item: "engineersdecor:metal_crafting_table"
 			}],
 			rewards: [{
 				id: "0000000000000033",
 				type: "xp",
 				xp: 10
+			}]
+		},
+		{
+			title: "Disney's Dark Side",
+			x: 1.0d,
+			y: -0.3d,
+			subtitle: "It's the Twilight Forest, y'all!",
+			id: "481D343575D0587E",
+			tasks: [{
+				id: "3CCD9F3B5CD056EA",
+				type: "dimension",
+				title: "Visit the Twilight Forest",
+				icon: "twilightforest:twilight_portal_miniature_structure",
+				dimension: "twilighforest:twilightforest"
 			}]
 		}
 	]

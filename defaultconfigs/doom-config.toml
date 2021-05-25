@@ -6,7 +6,7 @@
 		[spawn_weight.individual_spawning.Arachnotron]
 			#Spawn weight of Arachnotrons. Set to 0 to disable.
 			#Range: 0 ~ 9999
-			ARACHNOTRON_SPAWN_WEIGHT = 15
+			ARACHNOTRON_SPAWN_WEIGHT = 8
 			#Smallest group to spawn.
 			#Range: 1 ~ 9
 			ARACHNOTRON_MIN_GROUP = 1
@@ -23,7 +23,7 @@
 		[spawn_weight.individual_spawning.Archvile]
 			#Spawn weight of Archviles. Set to 0 to disable.
 			#Range: 0 ~ 9999
-			ARCHVILE_SPAWN_WEIGHT = 5
+			ARCHVILE_SPAWN_WEIGHT = 4
 			#Smallest group to spawn.
 			#Range: 1 ~ 9
 			ARCHVILE_MIN_GROUP = 1
@@ -40,7 +40,7 @@
 		[spawn_weight.individual_spawning.Baron]
 			#Spawn weight of Barons. Set to 0 to disable.
 			#Range: 0 ~ 9999
-			BARON_SPAWN_WEIGHT = 5
+			BARON_SPAWN_WEIGHT = 4
 			#Smallest group to spawn.
 			#Range: 1 ~ 9
 			BARON_MIN_GROUP = 1
@@ -57,7 +57,7 @@
 		[spawn_weight.individual_spawning.Cacodemon]
 			#Spawn weight of Cacodemons. Set to 0 to disable.
 			#Range: 0 ~ 9999
-			CACODEMON_SPAWN_WEIGHT = 15
+			CACODEMON_SPAWN_WEIGHT = 8
 			#Smallest group to spawn.
 			#Range: 1 ~ 9
 			CACODEMON_MIN_GROUP = 1
@@ -74,7 +74,7 @@
 		[spawn_weight.individual_spawning.Chaingunner]
 			#Spawn weight of Chaingunners. Set to 0 to disable.
 			#Range: 0 ~ 9999
-			CHAINGUNNER_SPAWN_WEIGHT = 15
+			CHAINGUNNER_SPAWN_WEIGHT = 8
 			#Smallest group to spawn.
 			#Range: 1 ~ 9
 			CHAINGUNNER_MIN_GROUP = 1
@@ -91,7 +91,7 @@
 		[spawn_weight.individual_spawning.Cueball]
 			#Spawn weight of Cueballs. Set to 0 to disable.
 			#Range: 0 ~ 9999
-			CUEBALL_SPAWN_WEIGHT = 15
+			CUEBALL_SPAWN_WEIGHT = 8
 			#Smallest group to spawn.
 			#Range: 1 ~ 9
 			CUEBALL_MIN_GROUP = 1
@@ -108,7 +108,7 @@
 		[spawn_weight.individual_spawning."Cyber Demon 2016"]
 			#Spawn weight of Cyber Demon 2016s. Set to 0 to disable.
 			#Range: 0 ~ 9999
-			"CYBER DEMON 2016_SPAWN_WEIGHT" = 5
+			"CYBER DEMON 2016_SPAWN_WEIGHT" = 4
 			#Smallest group to spawn.
 			#Range: 1 ~ 9
 			"CYBER DEMON 2016_MIN_GROUP" = 1
@@ -125,7 +125,7 @@
 		[spawn_weight.individual_spawning."Cyber Demon"]
 			#Spawn weight of Cyber Demons. Set to 0 to disable.
 			#Range: 0 ~ 9999
-			"CYBER DEMON_SPAWN_WEIGHT" = 5
+			"CYBER DEMON_SPAWN_WEIGHT" = 4
 			#Smallest group to spawn.
 			#Range: 1 ~ 9
 			"CYBER DEMON_MIN_GROUP" = 1
@@ -142,7 +142,7 @@
 		[spawn_weight.individual_spawning.Gargoyle]
 			#Spawn weight of Gargoyles. Set to 0 to disable.
 			#Range: 0 ~ 9999
-			GARGOYLE_SPAWN_WEIGHT = 15
+			GARGOYLE_SPAWN_WEIGHT = 8
 			#Smallest group to spawn.
 			#Range: 1 ~ 9
 			GARGOYLE_MIN_GROUP = 1
@@ -159,7 +159,7 @@
 		[spawn_weight.individual_spawning."Gore Nest"]
 			#Spawn weight of Gore Nests. Set to 0 to disable.
 			#Range: 0 ~ 9999
-			"GORE NEST_SPAWN_WEIGHT" = 5
+			"GORE NEST_SPAWN_WEIGHT" = 4
 			#Smallest group to spawn.
 			#Range: 1 ~ 9
 			"GORE NEST_MIN_GROUP" = 1
@@ -176,7 +176,7 @@
 		[spawn_weight.individual_spawning."Hell Knight 2016"]
 			#Spawn weight of Hell Knight 2016s. Set to 0 to disable.
 			#Range: 0 ~ 9999
-			"HELL KNIGHT 2016_SPAWN_WEIGHT" = 5
+			"HELL KNIGHT 2016_SPAWN_WEIGHT" = 4
 			#Smallest group to spawn.
 			#Range: 1 ~ 9
 			"HELL KNIGHT 2016_MIN_GROUP" = 1
@@ -193,7 +193,7 @@
 		[spawn_weight.individual_spawning."Hell Knight"]
 			#Spawn weight of Hell Knights. Set to 0 to disable.
 			#Range: 0 ~ 9999
-			"HELL KNIGHT_SPAWN_WEIGHT" = 5
+			"HELL KNIGHT_SPAWN_WEIGHT" = 4
 			#Smallest group to spawn.
 			#Range: 1 ~ 9
 			"HELL KNIGHT_MIN_GROUP" = 1
@@ -210,7 +210,7 @@
 		[spawn_weight.individual_spawning."Icon of Sin"]
 			#Spawn weight of Icon of Sins. Set to 0 to disable.
 			#Range: 0 ~ 9999
-			"ICON OF SIN_SPAWN_WEIGHT" = 5
+			"ICON OF SIN_SPAWN_WEIGHT" = 4
 			#Smallest group to spawn.
 			#Range: 1 ~ 9
 			"ICON OF SIN_MIN_GROUP" = 1
@@ -227,7 +227,7 @@
 		[spawn_weight.individual_spawning."Imp 2016"]
 			#Spawn weight of Imp 2016s. Set to 0 to disable.
 			#Range: 0 ~ 9999
-			"IMP 2016_SPAWN_WEIGHT" = 15
+			"IMP 2016_SPAWN_WEIGHT" = 8
 			#Smallest group to spawn.
 			#Range: 1 ~ 9
 			"IMP 2016_MIN_GROUP" = 1
@@ -241,10 +241,27 @@
 			#Range: 0 ~ 255
 			"IMP 2016_MAX_Y" = 255
 
+		[spawn_weight.individual_spawning."Stone Imp"]
+			#Spawn weight of Stone Imps. Set to 0 to disable.
+			#Range: 0 ~ 9999
+			"STONE IMP_SPAWN_WEIGHT" = 8
+			#Smallest group to spawn.
+			#Range: 1 ~ 9
+			"STONE IMP_MIN_GROUP" = 1
+			#Largest group to spawn.
+			#Range: 1 ~ 9
+			"STONE IMP_MAX_GROUP" = 2
+			#Minimum Y location to spawn at.
+			#Range: 0 ~ 255
+			"STONE IMP_MIN_Y" = 0
+			#Maximum Y location to spawn at.
+			#Range: 0 ~ 255
+			"STONE IMP_MAX_Y" = 255
+
 		[spawn_weight.individual_spawning.Imp]
 			#Spawn weight of Imps. Set to 0 to disable.
 			#Range: 0 ~ 9999
-			IMP_SPAWN_WEIGHT = 15
+			IMP_SPAWN_WEIGHT = 8
 			#Smallest group to spawn.
 			#Range: 1 ~ 9
 			IMP_MIN_GROUP = 1
@@ -261,7 +278,7 @@
 		[spawn_weight.individual_spawning."Lost Soul"]
 			#Spawn weight of Lost Souls. Set to 0 to disable.
 			#Range: 0 ~ 9999
-			"LOST SOUL_SPAWN_WEIGHT" = 15
+			"LOST SOUL_SPAWN_WEIGHT" = 8
 			#Smallest group to spawn.
 			#Range: 1 ~ 9
 			"LOST SOUL_MIN_GROUP" = 1
@@ -278,7 +295,7 @@
 		[spawn_weight.individual_spawning.Mancubus]
 			#Spawn weight of Mancubuss. Set to 0 to disable.
 			#Range: 0 ~ 9999
-			MANCUBUS_SPAWN_WEIGHT = 5
+			MANCUBUS_SPAWN_WEIGHT = 4
 			#Smallest group to spawn.
 			#Range: 1 ~ 9
 			MANCUBUS_MIN_GROUP = 1
@@ -295,7 +312,7 @@
 		[spawn_weight.individual_spawning.Marauder]
 			#Spawn weight of Marauders. Set to 0 to disable.
 			#Range: 0 ~ 9999
-			MARAUDER_SPAWN_WEIGHT = 5
+			MARAUDER_SPAWN_WEIGHT = 4
 			#Smallest group to spawn.
 			#Range: 1 ~ 9
 			MARAUDER_MIN_GROUP = 1
@@ -312,7 +329,7 @@
 		[spawn_weight.individual_spawning."Mecha Zombie"]
 			#Spawn weight of Mecha Zombies. Set to 0 to disable.
 			#Range: 0 ~ 9999
-			"MECHA ZOMBIE_SPAWN_WEIGHT" = 15
+			"MECHA ZOMBIE_SPAWN_WEIGHT" = 8
 			#Smallest group to spawn.
 			#Range: 1 ~ 9
 			"MECHA ZOMBIE_MIN_GROUP" = 1
@@ -329,7 +346,7 @@
 		[spawn_weight.individual_spawning."Nightmare Imp"]
 			#Spawn weight of Nightmare Imps. Set to 0 to disable.
 			#Range: 0 ~ 9999
-			"NIGHTMARE IMP_SPAWN_WEIGHT" = 15
+			"NIGHTMARE IMP_SPAWN_WEIGHT" = 8
 			#Smallest group to spawn.
 			#Range: 1 ~ 9
 			"NIGHTMARE IMP_MIN_GROUP" = 1
@@ -346,7 +363,7 @@
 		[spawn_weight.individual_spawning.Pain]
 			#Spawn weight of Pains. Set to 0 to disable.
 			#Range: 0 ~ 9999
-			PAIN_SPAWN_WEIGHT = 15
+			PAIN_SPAWN_WEIGHT = 8
 			#Smallest group to spawn.
 			#Range: 1 ~ 9
 			PAIN_MIN_GROUP = 1
@@ -363,7 +380,7 @@
 		[spawn_weight.individual_spawning.Pinky]
 			#Spawn weight of Pinkys. Set to 0 to disable.
 			#Range: 0 ~ 9999
-			PINKY_SPAWN_WEIGHT = 15
+			PINKY_SPAWN_WEIGHT = 8
 			#Smallest group to spawn.
 			#Range: 1 ~ 9
 			PINKY_MIN_GROUP = 1
@@ -380,7 +397,7 @@
 		[spawn_weight.individual_spawning."Possessed Scientist"]
 			#Spawn weight of Possessed Scientists. Set to 0 to disable.
 			#Range: 0 ~ 9999
-			"POSSESSED SCIENTIST_SPAWN_WEIGHT" = 15
+			"POSSESSED SCIENTIST_SPAWN_WEIGHT" = 8
 			#Smallest group to spawn.
 			#Range: 1 ~ 9
 			"POSSESSED SCIENTIST_MIN_GROUP" = 1
@@ -397,7 +414,7 @@
 		[spawn_weight.individual_spawning."Possessed Soldier"]
 			#Spawn weight of Possessed Soldiers. Set to 0 to disable.
 			#Range: 0 ~ 9999
-			"POSSESSED SOLDIER_SPAWN_WEIGHT" = 15
+			"POSSESSED SOLDIER_SPAWN_WEIGHT" = 8
 			#Smallest group to spawn.
 			#Range: 1 ~ 9
 			"POSSESSED SOLDIER_MIN_GROUP" = 1
@@ -411,10 +428,27 @@
 			#Range: 0 ~ 255
 			"POSSESSED SOLDIER_MAX_Y" = 255
 
+		[spawn_weight.individual_spawning.Prowler]
+			#Spawn weight of Prowlers. Set to 0 to disable.
+			#Range: 0 ~ 9999
+			PROWLER_SPAWN_WEIGHT = 8
+			#Smallest group to spawn.
+			#Range: 1 ~ 9
+			PROWLER_MIN_GROUP = 1
+			#Largest group to spawn.
+			#Range: 1 ~ 9
+			PROWLER_MAX_GROUP = 2
+			#Minimum Y location to spawn at.
+			#Range: 0 ~ 255
+			PROWLER_MIN_Y = 0
+			#Maximum Y location to spawn at.
+			#Range: 0 ~ 255
+			PROWLER_MAX_Y = 255
+
 		[spawn_weight.individual_spawning.Revenant]
 			#Spawn weight of Revenants. Set to 0 to disable.
 			#Range: 0 ~ 9999
-			REVENANT_SPAWN_WEIGHT = 5
+			REVENANT_SPAWN_WEIGHT = 4
 			#Smallest group to spawn.
 			#Range: 1 ~ 9
 			REVENANT_MIN_GROUP = 1
@@ -431,7 +465,7 @@
 		[spawn_weight.individual_spawning."Shotgun Guy"]
 			#Spawn weight of Shotgun Guys. Set to 0 to disable.
 			#Range: 0 ~ 9999
-			"SHOTGUN GUY_SPAWN_WEIGHT" = 15
+			"SHOTGUN GUY_SPAWN_WEIGHT" = 8
 			#Smallest group to spawn.
 			#Range: 1 ~ 9
 			"SHOTGUN GUY_MIN_GROUP" = 1
@@ -448,7 +482,7 @@
 		[spawn_weight.individual_spawning.spectre]
 			#Spawn weight of spectres. Set to 0 to disable.
 			#Range: 0 ~ 9999
-			SPECTRE_SPAWN_WEIGHT = 15
+			SPECTRE_SPAWN_WEIGHT = 8
 			#Smallest group to spawn.
 			#Range: 1 ~ 9
 			SPECTRE_MIN_GROUP = 1
@@ -465,7 +499,7 @@
 		[spawn_weight.individual_spawning."Spider Mastermind"]
 			#Spawn weight of Spider Masterminds. Set to 0 to disable.
 			#Range: 0 ~ 9999
-			"SPIDER MASTERMIND_SPAWN_WEIGHT" = 5
+			"SPIDER MASTERMIND_SPAWN_WEIGHT" = 4
 			#Smallest group to spawn.
 			#Range: 1 ~ 9
 			"SPIDER MASTERMIND_MIN_GROUP" = 1
@@ -482,7 +516,7 @@
 		[spawn_weight.individual_spawning.Unwilling]
 			#Spawn weight of Unwillings. Set to 0 to disable.
 			#Range: 0 ~ 9999
-			UNWILLING_SPAWN_WEIGHT = 15
+			UNWILLING_SPAWN_WEIGHT = 8
 			#Smallest group to spawn.
 			#Range: 1 ~ 9
 			UNWILLING_MIN_GROUP = 1
@@ -499,7 +533,7 @@
 		[spawn_weight.individual_spawning.Zombieman]
 			#Spawn weight of Zombiemans. Set to 0 to disable.
 			#Range: 0 ~ 9999
-			ZOMBIEMAN_SPAWN_WEIGHT = 15
+			ZOMBIEMAN_SPAWN_WEIGHT = 8
 			#Smallest group to spawn.
 			#Range: 1 ~ 9
 			ZOMBIEMAN_MIN_GROUP = 1
@@ -521,7 +555,7 @@
 		ARACHNOTRON_MAX_HEALTH = 100.0
 		#Average melee damaged caused by Arachnotrons when attacking.
 		#Range: 0.0 ~ 1.7976931348623157E308
-		ARACHNOTRON_MELEE_ATTACK_DAMAGE = 4.0
+		ARACHNOTRON_MELEE_ATTACK_DAMAGE = 3.0
 		#Average RANGED damaged caused by Arachnotrons when attacking.
 		#Range: 0.0 ~ 1.7976931348623157E308
 		ARACHNOTRON_RANGED_ATTACK_DAMAGE = 12.0
@@ -681,6 +715,17 @@
 		#Range: 0.0 ~ 10.0
 		"IMP 2016_GROUND_SPEED" = 0.25
 
+	[attributes."Stone Imp"]
+		#Health of Stone Imps
+		#Range: 0.5 ~ 1.7976931348623157E308
+		"STONE IMP_MAX_HEALTH" = 18.0
+		#Average melee damaged caused by Stone Imps when attacking.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"STONE IMP_MELEE_ATTACK_DAMAGE" = 5.0
+		#General (most likely walking) movement speed of Stone Imps
+		#Range: 0.0 ~ 10.0
+		"STONE IMP_GROUND_SPEED" = 0.75
+
 	[attributes.Imp]
 		#Health of Imps
 		#Range: 0.5 ~ 1.7976931348623157E308
@@ -803,6 +848,17 @@
 		#Range: 0.0 ~ 10.0
 		"POSSESSED SOLDIER_GROUND_SPEED" = 0.25
 
+	[attributes.Prowler]
+		#Health of Prowlers
+		#Range: 0.5 ~ 1.7976931348623157E308
+		PROWLER_MAX_HEALTH = 18.0
+		#Average melee damaged caused by Prowlers when attacking.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		PROWLER_MELEE_ATTACK_DAMAGE = 5.0
+		#General (most likely walking) movement speed of Prowlers
+		#Range: 0.0 ~ 10.0
+		PROWLER_GROUND_SPEED = 0.4
+
 	[attributes.Revenant]
 		#Health of Revenants
 		#Range: 0.5 ~ 1.7976931348623157E308
@@ -886,6 +942,8 @@
 	CRUCIBLE_MARAUDER_MAX_DAMAGE = 5
 
 [extra]
-	#You can disable disable the lockon feature here.
+	#You can disable the lockon feature here.
 	ENABLE_LOCKON = true
+	#You can enable weapons breaking blocks.
+	ENABLE_BLOCK_BREAKING = true
 

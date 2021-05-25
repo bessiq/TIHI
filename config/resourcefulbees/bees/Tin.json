@@ -15,7 +15,7 @@
         "type": "BLOCK",
         "inputID": "tag:forge:stone",
         "outputs": [
-          {"outputID": "mysticalworld:tin_ore", "weight": 10},
+          {"outputID": "mekanism:tin_ore", "weight": 10},
           {"outputID": "minecraft:cobblestone", "weight": 10}
         ]
       }
@@ -23,7 +23,7 @@
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-    "mainOutput": "mysticalworld:tin_ingot"
+    "mainOutput": "mekanism:ingot_tin"
   },
   "SpawnData": {
     "canSpawnInWorld": true,

@@ -2,92 +2,26 @@
 	id: "0000000000000034",
 	order_index: 0,
 	title: "loot",
-	icon: {
-		ForgeCaps: {
-			"dungeons_gear:weapon": {
-				lastFiredTime: 0L,
-				fuseShotCounter: 0,
-				crossbowChargeTime: 0,
-				bowChargeTime: 0.0f
-			}
-		},
-		id: "randomloot:golden_case",
-		Count: 1b
-	},
+	icon: "randomloot:golden_case",
 	loot_size: 1,
 	rewards: [
 		{
-			item: {
-				ForgeCaps: {
-					"dungeons_gear:weapon": {
-						lastFiredTime: 0L,
-						fuseShotCounter: 0,
-						crossbowChargeTime: 0,
-						bowChargeTime: 0.0f
-					}
-				},
-				id: "randomloot:basic_case",
-				Count: 1b
-			},
+			item: "randomloot:basic_case",
 			weight: 5
 		},
 		{
-			item: {
-				ForgeCaps: {
-					"dungeons_gear:weapon": {
-						lastFiredTime: 0L,
-						fuseShotCounter: 0,
-						crossbowChargeTime: 0,
-						bowChargeTime: 0.0f
-					}
-				},
-				id: "randomloot:golden_case",
-				Count: 1b
-			},
+			item: "randomloot:golden_case",
 			weight: 3
 		},
 		{
-			item: {
-				ForgeCaps: {
-					"dungeons_gear:weapon": {
-						lastFiredTime: 0L,
-						fuseShotCounter: 0,
-						crossbowChargeTime: 0,
-						bowChargeTime: 0.0f
-					}
-				},
-				id: "randomloot:titan_case",
-				Count: 1b
-			}
+			item: "randomloot:titan_case"
 		},
 		{
-			item: {
-				ForgeCaps: {
-					"dungeons_gear:weapon": {
-						lastFiredTime: 0L,
-						fuseShotCounter: 0,
-						crossbowChargeTime: 0,
-						bowChargeTime: 0.0f
-					}
-				},
-				id: "lootbagmod:lootbag",
-				Count: 1b
-			},
+			item: "lootbagmod:lootbag",
 			weight: 2
 		},
 		{
-			item: {
-				ForgeCaps: {
-					"dungeons_gear:weapon": {
-						lastFiredTime: 0L,
-						fuseShotCounter: 0,
-						crossbowChargeTime: 0,
-						bowChargeTime: 0.0f
-					}
-				},
-				id: "chancecubes:chance_cube",
-				Count: 1b
-			}
+			item: "chancecubes:chance_cube"
 		}
 	]
 }

@@ -5,23 +5,23 @@
 	"Group Armor (condense 5 iron icons into 1 diamond icon)" = true
 	"Display on Players" = true
 	"Plate Size (Boss)" = 50
-	"Show Max HP" = true
+	"Show Max HP" = false
 	"Max Distance" = 12
 	"Show Attributes" = true
-	"Show Current HP" = true
+	"Show Current HP" = false
 	"Show Debug Info with F3" = true
-	"Background Padding" = 2
+	"Background Padding" = 0
 	"HP Text Height" = 14
 	"Only show the health bar for the entity looked at" = false
-	"Draw Background" = true
-	"Plate Size" = 25
+	"Draw Background" = false
+	"Plate Size" = 12
 	"Display on Bosses" = true
-	"Background Height" = 6
+	"Background Height" = 0
 	"Show Armor" = true
-	"Health Bar Height" = 4
-	"Color Health Bar by Type (instead of health percentage)" = false
-	"Show HP Percentage" = true
+	"Health Bar Height" = 2
+	"Color Health Bar by Type (instead of health percentage)" = true
+	"Show HP Percentage" = false
 	#Blacklist uses entity IDs, not their display names. Use F3 to see them in the Neat bar.
-	Blacklist = ["alexsmobs:blobfish", "alexsmobs:bone_serpent_part", "alexsmobs:centipede_body", "alexsmobs:centipede_tail", "alexsmobs:cockroach", "alexsmobs:crow", "alexsmobs:fly", "alexsmobs:hummingbird", "alexsmobs:lobster", "alexsmobs:rattlesnake", "alexsmobs:roadrunner", "ars_nouveau:sylph", "artifacts:mimic", "bellybutton:dust_bunny", "betterendforge:dragonfly", "druidcraft:lunar_moth", "dungeons_mobs:poison_quill_vine", "dungeons_mobs:quick_growing_vine", "eyesinthedarkness:eyes", "fins:banded_redback_shrimp", "fins:blu_wee", "fins:flatback_leaf_snail", "fins:flatback_sucker", "fins:golden_river_ray", "fins:high_finned_blue", "fins:ornate_bugfish", "fins:pea_wee", "fins:penglil", "fins:phantom_nudibranch", "fins:red_bull_crab", "fins:river_pebble_snail", "fins:siderol_whiskered_snail", "fins:spindly_gem_crab", "fins:swamp_mucker", "fins:teal_arrowfish", "fins:vibra_wee", "fins:wee_wee", "fins:white_bull_crab", "forbidden_arcanus:pixie", "gaiadimension:cavern_tick", "gaiadimension:markuzar_plant", "jellyfishing:blue_jellyfish", "jellyfishing:jellyfish", "minecraft:armor_stand", "minecraft:bat", "minecraft:bee", "minecraft:chicken", "minecraft:cod", "minecraft:cow", "minecraft:creeper", "minecraft:dolphin", "minecraft:endermite", "minecraft:parrot", "minecraft:pig", "minecraft:pufferfish", "minecraft:salmon", "minecraft:sheep", "minecraft:shulker", "minecraft:silverfish", "minecraft:tropical_fish", "mysticalworld:beetle", "mysticalworld:deer", "mysticalworld:frog", "mysticalworld:hell_sprout", "mysticalworld:owl", "mysticalworld:silkworm", "mysticalworld:sprout", "rats:rat", "resourcefulbees:coal_bee", "resourcefulbees:creeper_bee", "resourcefulbees:diamond_bee", "resourcefulbees:dragon_bee", "resourcefulbees:emerald_bee", "resourcefulbees:ender_bee", "resourcefulbees:gold_bee", "resourcefulbees:icy_bee", "resourcefulbees:iron_bee", "resourcefulbees:kitten_bee", "resourcefulbees:lapis_bee", "resourcefulbees:nether_quartz_bee", "resourcefulbees:netherite_bee", "resourcefulbees:oreo_bee", "resourcefulbees:pigman_bee", "resourcefulbees:redstone_bee", "resourcefulbees:rgbee_bee", "resourcefulbees:skeleton_bee", "resourcefulbees:slimy_bee", "resourcefulbees:wither_bee", "resourcefulbees:zombie_bee", "statues:statue_bat", "teletubbies:ba", "teletubbies:daadaa", "teletubbies:duggledee", "teletubbies:mimi", "teletubbies:nin", "teletubbies:noonoo", "teletubbies:ping", "teletubbies:ruru", "teletubbies:umpiepumpie", "undergarden:gwibling", "waddles:adelie_penguin", "weeping_angels:weeping_angel"]
+	Blacklist = ["alexsmobs:blobfish", "alexsmobs:bone_serpent_part", "alexsmobs:centipede_body", "alexsmobs:centipede_tail", "alexsmobs:cockroach", "alexsmobs:crow", "alexsmobs:fly", "alexsmobs:gazelle", "alexsmobs:hummingbird", "alexsmobs:lobster", "alexsmobs:rattlesnake", "alexsmobs:roadrunner", "alexsmobs:seal", "ars_nouveau:carbuncle", "ars_nouveau:sylph", "artifacts:mimic", "bellybutton:dust_bunny", "druidcraft:lunar_moth", "eyesinthedarkness:eyes", "fins:banded_redback_shrimp", "fins:blu_wee", "fins:flatback_leaf_snail", "fins:flatback_sucker", "fins:golden_river_ray", "fins:high_finned_blue", "fins:ornate_bugfish", "fins:pea_wee", "fins:penglil", "fins:phantom_nudibranch", "fins:red_bull_crab", "fins:river_pebble_snail", "fins:siderol_whiskered_snail", "fins:spindly_gem_crab", "fins:swamp_mucker", "fins:teal_arrowfish", "fins:vibra_wee", "fins:wee_wee", "fins:white_bull_crab", "forbidden_arcanus:pixie", "gaiadimension:cavern_tick", "gaiadimension:markuzar_plant", "jellyfishing:blue_jellyfish", "jellyfishing:jellyfish", "minecraft:armor_stand", "minecraft:bat", "minecraft:bee", "minecraft:chicken", "minecraft:cod", "minecraft:cow", "minecraft:creeper", "minecraft:dolphin", "minecraft:endermite", "minecraft:parrot", "minecraft:pig", "minecraft:pufferfish", "minecraft:salmon", "minecraft:sheep", "minecraft:shulker", "minecraft:silverfish", "minecraft:tropical_fish", "rats:rat", "resourcefulbees:aluminum_bee", "resourcefulbees:amethyst_bee", "resourcefulbees:arcane_bee", "resourcefulbees:coal_bee", "resourcefulbees:copper_bee", "resourcefulbees:creeper_bee", "resourcefulbees:diamond_bee", "resourcefulbees:dragon_bee", "resourcefulbees:dungeon_bee", "resourcefulbees:emerald_bee", "resourcefulbees:ender_bee", "resourcefulbees:fluorite_bee", "resourcefulbees:gold_bee", "resourcefulbees:icy_bee", "resourcefulbees:iron_bee", "resourcefulbees:kitten_bee", "resourcefulbees:lapis_bee", "resourcefulbees:lead_bee", "resourcefulbees:nether_quartz_bee", "resourcefulbees:netherite_bee", "resourcefulbees:nickel_bee", "resourcefulbees:oreo_bee", "resourcefulbees:osmium_bee", "resourcefulbees:pigman_bee", "resourcefulbees:redstone_bee", "resourcefulbees:rgbee_bee", "resourcefulbees:sapphire_bee", "resourcefulbees:silver_bee", "resourcefulbees:skeleton_bee", "resourcefulbees:slimy_bee", "resourcefulbees:tin_bee", "resourcefulbees:uranium_bee", "resourcefulbees:wither_bee", "resourcefulbees:zinc_bee", "resourcefulbees:zombie_bee", "statues:statue_bat", "teletubbies:ba", "teletubbies:daadaa", "teletubbies:duggledee", "teletubbies:mimi", "teletubbies:nin", "teletubbies:noonoo", "teletubbies:ping", "teletubbies:ruru", "teletubbies:umpiepumpie", "undergarden:gwibling", "weeping_angels:weeping_angel"]
 	"Render with Interface Disabled (F1)" = false
 

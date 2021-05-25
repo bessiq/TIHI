@@ -15,7 +15,7 @@
         "type": "BLOCK",
         "inputID": "tag:forge:stone",
         "outputs": [
-          {"outputID": "occultism:silver_ore", "weight": 10},
+          {"outputID": "iceandfire:silver_ore", "weight": 10},
           {"outputID": "minecraft:cobblestone", "weight": 10}
         ]
       }
@@ -23,7 +23,7 @@
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-    "mainOutput": "occultism:silver_ingot"
+    "mainOutput": "iceandfire:silver_ingot"
   },
   "SpawnData": {
     "canSpawnInWorld": true,

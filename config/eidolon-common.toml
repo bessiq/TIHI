@@ -3,7 +3,7 @@
 [mobs]
 	#Spawn weight for wraith entity. Set to zero to disable spawning.
 	#Range: 0 ~ 1000
-	wraithSpawnWeight = 30
+	wraithSpawnWeight = 25
 	#Spawn weight for zombie brute entity. Set to zero to disable spawning.
 	#Range: 0 ~ 1000
 	zombieBruteSpawnWeight = 25
@@ -11,7 +11,7 @@
 #World generation settings
 [world]
 	#Whether lead ore is enabled. Set to false to disable spawning.
-	leadEnabled = true
+	leadEnabled = false
 	#Minimum Y value for lead ore veins
 	#Range: 0 ~ 254
 	leadOreMinY = 16
@@ -33,7 +33,7 @@
 	strayTowerEnabled = true
 	#Rarity of the stray tower structure. Higher numbers mean rarer structures.
 	#Range: 1.0 ~ 1000.0
-	strayTowerRarity = 8.0
+	strayTowerRarity = 15.0
 	#Whether the catacomb structure is enabled. Set to false to disable spawning.
 	catacombEnabled = true
 	#Rarity of the catacomb structure. Higher numbers mean rarer structures.

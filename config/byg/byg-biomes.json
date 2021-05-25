@@ -22,9 +22,9 @@
       "climate": "ICY",
       "dictionary": "COLD,MOUNTAIN,OVERWORLD,SNOWY",
       "weight": 5,
-      "river": "byg:alpine_foothills",
+      "river": "byg:alps",
       "beach": "minecraft:beach",
-      "edge": "",
+      "edge": "byg:alpine_foothills",
       "hills": [
         {
           "name": "byg:alpine_foothills",
@@ -96,15 +96,23 @@
       "hills": [
         {
           "name": "byg:aspen_forest_hills",
-          "weight": 4
+          "weight": 6
         },
         {
           "name": "byg:aspen_clearing",
-          "weight": 3
+          "weight": 8
         },
         {
           "name": "byg:fresh_water_lake",
-          "weight": 3
+          "weight": 5
+        },
+        {
+          "name": "byg:flowering_grove",
+          "weight": 1
+        },
+        {
+          "name": "byg:grove",
+          "weight": 7
         }
       ]
     },
@@ -118,7 +126,11 @@
       "hills": [
         {
           "name": "byg:fresh_water_lake",
-          "weight": 10
+          "weight": 8
+        },
+        {
+          "name": "byg:cika_woods",
+          "weight": 5
         }
       ]
     },
@@ -132,7 +144,7 @@
       "hills": [
         {
           "name": "minecraft:savanna",
-          "weight": 3
+          "weight": 5
         }
       ]
     },
@@ -172,7 +184,7 @@
       "dictionary": "COLD,CONIFEROUS,MOUNTAIN,OVERWORLD",
       "weight": 6,
       "river": "byg:bluff_steeps",
-      "beach": "minecraft:beach",
+      "beach": "byg:rocky_beach",
       "edge": "",
       "hills": [
         {
@@ -222,15 +234,23 @@
       "hills": [
         {
           "name": "byg:cherry_blossom_clearing",
-          "weight": 4
+          "weight": 8
         },
         {
           "name": "byg:bamboo_forest",
-          "weight": 3
+          "weight": 2
         },
         {
           "name": "byg:fresh_water_lake",
           "weight": 3
+        },
+        {
+          "name": "byg:flowering_grove",
+          "weight": 1
+        },
+        {
+          "name": "byg:grove",
+          "weight": 5
         }
       ]
     },
@@ -239,16 +259,20 @@
       "dictionary": "COLD,CONIFEROUS,FOREST,OVERWORLD",
       "weight": 6,
       "river": "minecraft:river",
-      "beach": "byg:basalt_barrera",
+      "beach": "byg:rocky_beach",
       "edge": "",
       "hills": [
         {
           "name": "byg:cika_mountains",
-          "weight": 5
+          "weight": 8
         },
         {
           "name": "byg:fresh_water_lake",
           "weight": 5
+        },
+        {
+          "name": "byg:autumnal_valley",
+          "weight": 6
         }
       ]
     },
@@ -302,7 +326,7 @@
       "dictionary": "OVERWORLD,SWAMP",
       "weight": 5,
       "river": "byg:cypress_swamplands",
-      "beach": "minecraft:beach",
+      "beach": "byg:cypress_swamplands",
       "edge": "",
       "hills": []
     },
@@ -325,15 +349,23 @@
       "hills": [
         {
           "name": "byg:deciduous_forest_hills",
-          "weight": 4
+          "weight": 5
         },
         {
           "name": "byg:deciduous_clearing",
-          "weight": 3
+          "weight": 8
         },
         {
           "name": "byg:fresh_water_lake",
-          "weight": 3
+          "weight": 4
+        },
+        {
+          "name": "byg:flowering_grove",
+          "weight": 1
+        },
+        {
+          "name": "byg:grove",
+          "weight": 7
         }
       ]
     },
@@ -342,7 +374,7 @@
       "dictionary": "COLD,CONIFEROUS,MOUNTAIN,OVERWORLD",
       "weight": 3,
       "river": "byg:dover_mountains",
-      "beach": "minecraft:beach",
+      "beach": "byg:white_beach",
       "edge": "",
       "hills": []
     },
@@ -370,11 +402,19 @@
       "hills": [
         {
           "name": "byg:fresh_water_lake",
-          "weight": 5
+          "weight": 3
         },
         {
           "name": "byg:ebony_hills",
-          "weight": 5
+          "weight": 6
+        },
+        {
+          "name": "byg:flowering_grove",
+          "weight": 1
+        },
+        {
+          "name": "byg:grove",
+          "weight": 7
         }
       ]
     },
@@ -392,25 +432,15 @@
         },
         {
           "name": "byg:enchanted_forest_hills",
-          "weight": 8
-        }
-      ]
-    },
-    "byg:enchanted_grove": {
-      "climate": "WARM",
-      "dictionary": "LUSH,MAGICAL,OVERWORLD,PLAINS,RARE",
-      "weight": 1,
-      "river": "minecraft:river",
-      "beach": "minecraft:beach",
-      "edge": "",
-      "hills": [
+          "weight": 6
+        },
         {
-          "name": "byg:fresh_water_lake",
-          "weight": 2
+          "name": "byg:enchanted_grove",
+          "weight": 10
         },
         {
           "name": "byg:flowering_enchanted_grove",
-          "weight": 8
+          "weight": 2
         }
       ]
     },
@@ -449,8 +479,8 @@
       "climate": "WARM",
       "dictionary": "OVERWORLD,PLAINS",
       "weight": 5,
-      "river": "minecraft:river",
-      "beach": "minecraft:beach",
+      "river": "byg:grassland_plateau",
+      "beach": "byg:rocky_beach",
       "edge": "",
       "hills": [
         {
@@ -463,7 +493,7 @@
       "climate": "COOL",
       "dictionary": "CONIFEROUS,FOREST,OVERWORLD,WATER",
       "weight": 3,
-      "river": "byg:great_lake_isles",
+      "river": "byg:great_lakes",
       "beach": "byg:great_lake_isles",
       "edge": "",
       "hills": [
@@ -477,35 +507,21 @@
         }
       ]
     },
-    "byg:grove": {
-      "climate": "WARM",
-      "dictionary": "LUSH,OVERWORLD,PLAINS",
-      "weight": 5,
-      "river": "minecraft:river",
-      "beach": "minecraft:beach",
-      "edge": "",
-      "hills": [
-        {
-          "name": "byg:fresh_water_lake",
-          "weight": 2
-        },
-        {
-          "name": "byg:flowering_grove",
-          "weight": 8
-        }
-      ]
-    },
     "byg:guiana_shield": {
       "climate": "WARM",
       "dictionary": "DENSE,FOREST,HOT,JUNGLE,MOUNTAIN,OVERWORLD",
       "weight": 3,
       "river": "byg:guiana_shield",
       "beach": "minecraft:beach",
-      "edge": "",
+      "edge": "byg:guiana_clearing",
       "hills": [
         {
           "name": "byg:guiana_clearing",
-          "weight": 10
+          "weight": 8
+        },
+        {
+          "name": "byg:guiana_springs",
+          "weight": 2
         }
       ]
     },
@@ -533,10 +549,10 @@
     },
     "byg:lush_tundra": {
       "climate": "ICY",
-      "dictionary": "COLD,LUSH,OVERWORLD,PLAINS,SNOWY",
+      "dictionary": "COLD,LUSH,OVERWORLD,PLAINS",
       "weight": 6,
       "river": "minecraft:river",
-      "beach": "minecraft:beach",
+      "beach": "byg:basalt_barrera",
       "edge": "",
       "hills": [
         {
@@ -556,7 +572,12 @@
       "river": "byg:mangrove_marshes",
       "beach": "byg:mangrove_marshes",
       "edge": "",
-      "hills": []
+      "hills": [
+        {
+          "name": "byg:coral_mangroves",
+          "weight": 10
+        }
+      ]
     },
     "byg:maple_taiga": {
       "climate": "COOL",
@@ -577,11 +598,11 @@
       "hills": [
         {
           "name": "byg:flowering_meadow",
-          "weight": 3
+          "weight": 6
         },
         {
           "name": "byg:wooded_meadow",
-          "weight": 3
+          "weight": 5
         },
         {
           "name": "byg:fresh_water_lake",
@@ -612,12 +633,16 @@
       "edge": "",
       "hills": [
         {
-          "name": "minecraft:flower_forest",
-          "weight": 5
+          "name": "byg:fresh_water_lake",
+          "weight": 4
         },
         {
-          "name": "byg:fresh_water_lake",
-          "weight": 5
+          "name": "byg:flowering_grove",
+          "weight": 1
+        },
+        {
+          "name": "byg:grove",
+          "weight": 6
         }
       ]
     },
@@ -671,7 +696,15 @@
         },
         {
           "name": "byg:fresh_water_lake",
-          "weight": 3
+          "weight": 4
+        },
+        {
+          "name": "byg:flowering_grove",
+          "weight": 1
+        },
+        {
+          "name": "byg:grove",
+          "weight": 6
         }
       ]
     },
@@ -702,7 +735,7 @@
       "dictionary": "DENSE,FOREST,OVERWORLD,RARE",
       "weight": 1,
       "river": "minecraft:river",
-      "beach": "byg:basalt_barrera",
+      "beach": "byg:rocky_beach",
       "edge": "",
       "hills": [
         {
@@ -786,7 +819,7 @@
       "edge": "",
       "hills": [
         {
-          "name": "byg:seasonal_birch_forest_hills",
+          "name": "byg:seasonal_forest",
           "weight": 7
         },
         {
@@ -818,7 +851,7 @@
       "dictionary": "OVERWORLD,RARE,SNOWY",
       "weight": 2,
       "river": "byg:shattered_glacier",
-      "beach": "minecraft:beach",
+      "beach": "byg:basalt_barrera",
       "edge": "",
       "hills": []
     },
@@ -846,7 +879,7 @@
       "weight": 5,
       "river": "minecraft:river",
       "beach": "minecraft:beach",
-      "edge": "",
+      "edge": "byg:sierra_range",
       "hills": [
         {
           "name": "byg:sierra_range",
@@ -864,15 +897,28 @@
       "weight": 2,
       "river": "byg:skyris_highlands",
       "beach": "minecraft:beach",
-      "edge": "",
-      "hills": []
+      "edge": "byg:skyris_steeps",
+      "hills": [
+        {
+          "name": "byg:skyris_highlands_clearing",
+          "weight": 4
+        },
+        {
+          "name": "byg:skyris_peaks",
+          "weight": 5
+        },
+        {
+          "name": "byg:skyris_steeps",
+          "weight": 1
+        }
+      ]
     },
     "byg:snowy_blue_taiga": {
       "climate": "ICY",
       "dictionary": "COLD,CONIFEROUS,FOREST,OVERWORLD",
       "weight": 5,
       "river": "minecraft:frozen_river",
-      "beach": "minecraft:beach",
+      "beach": "byg:snowy_rocky_black_beach",
       "edge": "",
       "hills": [
         {
@@ -890,7 +936,7 @@
       "dictionary": "CONIFEROUS,FOREST,OVERWORLD,SNOWY",
       "weight": 4,
       "river": "minecraft:frozen_river",
-      "beach": "minecraft:beach",
+      "beach": "byg:snowy_rocky_black_beach",
       "edge": "",
       "hills": [
         {
@@ -898,7 +944,7 @@
           "weight": 4
         },
         {
-          "name": "byg:snowy_deciduous_forest_hills",
+          "name": "byg:snowy_coniferous_forest_hills",
           "weight": 3
         },
         {
@@ -920,7 +966,7 @@
           "weight": 4
         },
         {
-          "name": "byg:snowy_coniferous_clearing",
+          "name": "byg:snowy_deciduous_clearing",
           "weight": 3
         },
         {
@@ -934,7 +980,7 @@
       "dictionary": "CONIFEROUS,FOREST,OVERWORLD,SNOWY",
       "weight": 6,
       "river": "minecraft:frozen_river",
-      "beach": "minecraft:beach",
+      "beach": "byg:snowy_rocky_black_beach",
       "edge": "",
       "hills": [
         {
@@ -956,7 +1002,7 @@
       "dictionary": "DENSE,OVERWORLD,PLATEAU",
       "weight": 1,
       "river": "minecraft:river",
-      "beach": "minecraft:beach",
+      "beach": "byg:rocky_beach",
       "edge": "",
       "hills": [
         {
@@ -974,7 +1020,7 @@
       "dictionary": "COLD,CONIFEROUS,FOREST,OVERWORLD",
       "weight": 4,
       "river": "minecraft:river",
-      "beach": "minecraft:beach",
+      "beach": "byg:rocky_beach",
       "edge": "",
       "hills": [
         {
@@ -1019,7 +1065,7 @@
     },
     "byg:tropical_rainforest": {
       "climate": "WARM",
-      "dictionary": "DENSE,HOT,JUNGLE,OVERWORLD,OVERWORLD",
+      "dictionary": "DENSE,HOT,JUNGLE,OVERWORLD",
       "weight": 6,
       "river": "minecraft:river",
       "beach": "minecraft:beach",
@@ -1090,7 +1136,15 @@
       "hills": [
         {
           "name": "byg:fresh_water_lake",
-          "weight": 10
+          "weight": 7
+        },
+        {
+          "name": "byg:flowering_grove",
+          "weight": 1
+        },
+        {
+          "name": "byg:grove",
+          "weight": 8
         }
       ]
     },

@@ -109,7 +109,7 @@
 		#Range: 1 ~ 256
 		maxHeight = 42
 		#Determines if uranium ore should be added to world generation.
-		shouldGenerate = true
+		shouldGenerate = false
 		#Maximum number of blocks in a vein of uranium.
 		#Range: 1 ~ 512
 		maxVeinSize = 7

@@ -2,9 +2,14 @@
   "biomes": [
     [
       {
-        "type": "BIOME_DICT",
+        "type": "BIOME_CATEGORY",
         "negate": false,
-        "value": "snowy"
+        "value": "icy"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "beach"
       },
       {
         "type": "BIOME_DICT",
@@ -14,9 +19,14 @@
     ],
     [
       {
-        "type": "BIOME_CATEGORY",
+        "type": "BIOME_DICT",
         "negate": false,
-        "value": "icy"
+        "value": "snowy"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "beach"
       },
       {
         "type": "BIOME_DICT",
@@ -33,7 +43,17 @@
       {
         "type": "BIOME_DICT",
         "negate": true,
+        "value": "beach"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
         "value": "water"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "end"
       }
     ],
     [
@@ -41,6 +61,13 @@
         "type": "REGISTRY_NAME",
         "negate": false,
         "value": "byg:subzero_hypogeal"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tihi:terribadia"
       }
     ]
   ]

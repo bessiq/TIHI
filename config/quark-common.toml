@@ -21,6 +21,8 @@
 	"Enable Worldgen Watchdog" = false
 	#Should Quark treat anything with 'shulker_box' in its item identifier as a shulker box?
 	"Interpret Shulker Box Like Blocks" = true
+	#Allowed values: (0,)
+	"Advancement Visibility Depth" = 2
 
 [categories]
 	Building = true
@@ -395,7 +397,7 @@
 		#Can Rotten Flesh and Poisonous Potatoes be composted?
 		"Compostable Toxins" = true
 		#Can bones be smelted down to bone meal?
-		"Bone Meal Utility" = true
+		"Bone Meal Utility" = false
 		#Can any wool color be dyed?
 		"Dye Any Wool" = true
 		#Can Coral be crafted into dye?
@@ -462,9 +464,6 @@
 		#How many times the algorithm for finding out where a block would be placed is allowed to turn. If you set this to large values (> 3) it may start producing weird effects.
 		"Max Bounces" = 1
 
-	[tweaks.note_block_mob_sounds]
-		"Enable Vocaloid" = true
-
 [world]
 	"Realistic World Gen" = true
 	"New Stone Types" = true
@@ -496,14 +495,14 @@
 	[world.monster_box]
 		#The chance for the monster box generator to try and place one in a chunk, 1 is 100%
 		#This can be higher than 100% if you want multiple per chunk, , 0 is 0%
-		"Chance Per Chunk" = 0.2
+		"Chance Per Chunk" = 0.15
 		"Min Mob Count" = 5
 		"Min Y" = 5
 		"Max Y" = 35
 		"Max Mob Count" = 7
 		"Enable Extra Loot Table" = true
 		#How many blocks to search vertically from a position before trying to place a block. Higher means you'll get more boxes in open spaces.
-		"Search Range" = 4
+		"Search Range" = 5
 
 		[world.monster_box.dimensions]
 			Dimensions = ["minecraft:overworld"]
@@ -516,7 +515,7 @@
 
 		[world.big_stone_clusters.marble]
 			#Allowed values: [0,)
-			"Horizontal Size" = 16
+			"Horizontal Size" = 18
 			#Allowed values: [0,)
 			Rarity = 3
 			#Allowed values: [0,255]
@@ -527,7 +526,7 @@
 			#Allowed values: [0,255]
 			"Max Y Level" = 255
 			#Allowed values: [0,)
-			"Vertical Size" = 16
+			"Vertical Size" = 18
 			#Allowed values: [0,)
 			"Vertical Variation" = 9
 
@@ -544,7 +543,7 @@
 
 		[world.big_stone_clusters.limestone]
 			#Allowed values: [0,)
-			"Horizontal Size" = 16
+			"Horizontal Size" = 18
 			#Allowed values: [0,)
 			Rarity = 3
 			#Allowed values: [0,255]
@@ -555,7 +554,7 @@
 			#Allowed values: [0,255]
 			"Max Y Level" = 255
 			#Allowed values: [0,)
-			"Vertical Size" = 16
+			"Vertical Size" = 18
 			#Allowed values: [0,)
 			"Vertical Variation" = 9
 
@@ -572,7 +571,7 @@
 
 		[world.big_stone_clusters.granite]
 			#Allowed values: [0,)
-			"Horizontal Size" = 16
+			"Horizontal Size" = 18
 			#Allowed values: [0,)
 			Rarity = 3
 			#Allowed values: [0,255]
@@ -583,7 +582,7 @@
 			#Allowed values: [0,255]
 			"Max Y Level" = 255
 			#Allowed values: [0,)
-			"Vertical Size" = 16
+			"Vertical Size" = 18
 			#Allowed values: [0,)
 			"Vertical Variation" = 9
 
@@ -625,7 +624,7 @@
 
 		[world.big_stone_clusters.andesite]
 			#Allowed values: [0,)
-			"Horizontal Size" = 16
+			"Horizontal Size" = 18
 			#Allowed values: [0,)
 			Rarity = 3
 			#Allowed values: [0,255]
@@ -636,7 +635,7 @@
 			#Allowed values: [0,255]
 			"Max Y Level" = 255
 			#Allowed values: [0,)
-			"Vertical Size" = 16
+			"Vertical Size" = 18
 			#Allowed values: [0,)
 			"Vertical Variation" = 9
 
@@ -653,7 +652,7 @@
 
 		[world.big_stone_clusters.slate]
 			#Allowed values: [0,)
-			"Horizontal Size" = 16
+			"Horizontal Size" = 18
 			#Allowed values: [0,)
 			Rarity = 3
 			#Allowed values: [0,255]
@@ -664,7 +663,7 @@
 			#Allowed values: [0,255]
 			"Max Y Level" = 255
 			#Allowed values: [0,)
-			"Vertical Size" = 16
+			"Vertical Size" = 18
 			#Allowed values: [0,)
 			"Vertical Variation" = 9
 
@@ -681,7 +680,7 @@
 
 		[world.big_stone_clusters.diorite]
 			#Allowed values: [0,)
-			"Horizontal Size" = 16
+			"Horizontal Size" = 18
 			#Allowed values: [0,)
 			Rarity = 3
 			#Allowed values: [0,255]
@@ -692,7 +691,7 @@
 			#Allowed values: [0,255]
 			"Max Y Level" = 255
 			#Allowed values: [0,)
-			"Vertical Size" = 16
+			"Vertical Size" = 18
 			#Allowed values: [0,)
 			"Vertical Variation" = 9
 
@@ -700,7 +699,7 @@
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
 				# icy, the_end, beach, forest, ocean, desert, river, swamp,
 				# mushroom, nether]
-				"Biome Categories" = ["savanna", "jungle", "mushroom"]
+				"Biome Categories" = ["jungle", "mushroom"]
 				"Is Blacklist" = false
 
 			[world.big_stone_clusters.diorite.dimensions]
@@ -709,7 +708,7 @@
 
 		[world.big_stone_clusters.jasper]
 			#Allowed values: [0,)
-			"Horizontal Size" = 16
+			"Horizontal Size" = 18
 			#Allowed values: [0,)
 			Rarity = 3
 			#Allowed values: [0,255]
@@ -720,7 +719,7 @@
 			#Allowed values: [0,255]
 			"Max Y Level" = 255
 			#Allowed values: [0,)
-			"Vertical Size" = 16
+			"Vertical Size" = 18
 			#Allowed values: [0,)
 			"Vertical Variation" = 9
 
@@ -728,7 +727,7 @@
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
 				# icy, the_end, beach, forest, ocean, desert, river, swamp,
 				# mushroom, nether]
-				"Biome Categories" = ["mesa", "desert"]
+				"Biome Categories" = ["mesa", "desert", "savanna"]
 				"Is Blacklist" = false
 
 			[world.big_stone_clusters.jasper.dimensions]
@@ -758,7 +757,7 @@
 				Dimensions = ["minecraft:the_end"]
 
 			[world.big_stone_clusters.myalite.biomes]
-				Biomes = ["minecraft:end_highlands", "betterendforge:crystal_mountains"]
+				Biomes = ["minecraft:end_highlands", "minecraft:end_midlands"]
 				"Is Blacklist" = false
 
 	[world.cave_crystal_underground_biome]
@@ -778,7 +777,7 @@
 			#Allowed values: [0,)
 			"Horizontal Size" = 42
 			#Allowed values: [0,)
-			Rarity = 350
+			Rarity = 400
 			#Allowed values: [0,255]
 			"Min Y Level" = 0
 			#Allowed values: [0,)
@@ -798,7 +797,7 @@
 				"Is Blacklist" = true
 
 			[world.cave_crystal_underground_biome.biome_settings.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld", "tihi:terribadia"]
 				"Is Blacklist" = false
 
 	[world.overgrown_underground_biome]
@@ -938,7 +937,7 @@
 			#Allowed values: [0,)
 			"Horizontal Size" = 50
 			#Allowed values: [0,)
-			Rarity = 130
+			Rarity = 180
 			#Allowed values: [0,255]
 			"Min Y Level" = 15
 			#Allowed values: [0,)
@@ -1005,11 +1004,11 @@
 			"Is Blacklist" = false
 
 	[world.new_stone_types]
-		"Enable Marble" = false
-		"Enable Jasper" = false
+		"Enable Marble" = true
+		"Enable Jasper" = true
 		"Enable Voidstone" = true
-		"Enable Slate" = false
-		"Enable Limestone" = false
+		"Enable Slate" = true
+		"Enable Limestone" = true
 		"Enable Myalite" = true
 
 		[world.new_stone_types.marble]
@@ -1022,7 +1021,7 @@
 				#Allowed values: [0,255]
 				"Min Height" = 0
 				#Allowed values: [0,)
-				"Cluster Size" = 33
+				"Cluster Size" = 44
 
 			[world.new_stone_types.marble.dimensions]
 				Dimensions = ["minecraft:overworld"]
@@ -1038,7 +1037,7 @@
 				#Allowed values: [0,255]
 				"Min Height" = 0
 				#Allowed values: [0,)
-				"Cluster Size" = 33
+				"Cluster Size" = 44
 
 			[world.new_stone_types.limestone.dimensions]
 				Dimensions = ["minecraft:overworld"]
@@ -1054,7 +1053,7 @@
 				#Allowed values: [0,255]
 				"Min Height" = 0
 				#Allowed values: [0,)
-				"Cluster Size" = 33
+				"Cluster Size" = 44
 
 			[world.new_stone_types.voidstone.dimensions]
 				Dimensions = ["minecraft:the_end"]
@@ -1070,7 +1069,7 @@
 				#Allowed values: [0,255]
 				"Min Height" = 0
 				#Allowed values: [0,)
-				"Cluster Size" = 33
+				"Cluster Size" = 44
 
 			[world.new_stone_types.slate.dimensions]
 				Dimensions = ["minecraft:overworld"]
@@ -1086,7 +1085,7 @@
 				#Allowed values: [0,255]
 				"Min Height" = 0
 				#Allowed values: [0,)
-				"Cluster Size" = 33
+				"Cluster Size" = 44
 
 			[world.new_stone_types.jasper.dimensions]
 				Dimensions = ["minecraft:overworld"]
@@ -1104,7 +1103,7 @@
 				#Allowed values: [0,255]
 				"Max Height" = 255
 				#Allowed values: [0,)
-				"Cluster Size" = 33
+				"Cluster Size" = 44
 				#Allowed values: [0,)
 				"Cluster Count" = 10
 
@@ -1135,7 +1134,7 @@
 				"Is Blacklist" = true
 
 			[world.spider_nest_underground_biome.biome_settings.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld", "tihi:terribadia"]
 				"Is Blacklist" = false
 
 	[world.brimstone_underground_biome]
@@ -1269,7 +1268,7 @@
 
 	[world.fairy_rings]
 		"Forest Chance" = 0.004
-		Ores = ["minecraft:emerald_ore", "minecraft:diamond_ore", "ars_nouveau:arcane_ore", "byg:ametrine_ore", "byg:pendorite_ore"]
+		Ores = ["minecraft:emerald_ore", "minecraft:diamond_ore", "ars_nouveau:arcane_ore", "byg:pendorite_ore"]
 		"Plains Chance" = 0.002
 
 		[world.fairy_rings.dimensions]
@@ -1279,7 +1278,7 @@
 	[world.underground_clay]
 
 		[world.underground_clay.dimensions]
-			Dimensions = ["mining_dimension:mining"]
+			Dimensions = ["tihi:terribadia"]
 			"Is Blacklist" = false
 
 		[world.underground_clay.ore_settings]
@@ -1327,7 +1326,7 @@
 			#Allowed values: [0,)
 			"Horizontal Size" = 80
 			#Allowed values: [0,)
-			Rarity = 400
+			Rarity = 500
 			#Allowed values: [0,255]
 			"Min Y Level" = 10
 			#Allowed values: [0,)
@@ -1592,7 +1591,7 @@
 			"Max Group Size" = 3
 
 			[mobs.wraith.spawn_config.biomes]
-				Biomes = ["minecraft:soul_sand_valley", "mining_dimension:mining"]
+				Biomes = ["minecraft:soul_sand_valley", "tihi:terribadia", "dimdungeons:biome_dungeon"]
 				"Is Blacklist" = false
 
 [client]

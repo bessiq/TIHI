@@ -18,13 +18,10 @@
 	sword_weight = 20
 	#Bosses drop chance
 	#Range: 0 ~ 1000
-	boss_drops = 25
+	boss_drops = 666
 	#Weight for any given piece of armor to drop from case
 	#Range: 0 ~ 100
 	armor_weight = 1
-	#Chance of a case dropping #DEPRECATED
-	#Range: 0 ~ 100
-	total_chance = 1
 	#Weight of a basic case dropping
 	#Range: 0 ~ 100
 	basic_chance = 80
@@ -33,7 +30,7 @@
 	axe_weight = 10
 	#Monsters drop chance
 	#Range: 0 ~ 1000
-	monster_drops = 1
+	monster_drops = 42
 	#Weight for a bow to drop from case
 	#Range: 0 ~ 100
 	bow_weight = 8
@@ -41,9 +38,12 @@
 	#Range: 0 ~ 1000
 	animal_drops = 0
 	#Allow anonymous data collection?
-	data = true
+	data = false
 	#Enable certain traits to be craftable.
 	crafting_traits = true
+	#Chance of a case dropping #DEPRECATED
+	#Range: 0 ~ 100
+	total_chance = 0
 
 #Traits Enabled
 [traits]
@@ -141,6 +141,8 @@
 	locked_enabled = true
 	#Egg Hunt Enabled?
 	egg_hunt_enabled = true
+	#Glowing Enabled?
+	glowing_enabled = true
 
 #Case Distribution
 [cases]
@@ -223,4 +225,22 @@
 	#Weight for a throwable weapon to drop from case
 	#Range: 0 ~ 100
 	throwing_weight = 6
+
+#Textures
+[textures]
+	#Sword Textures
+	#Range: 1 ~ 1000
+	sword_textures = 47
+	#Pickaxe Textures
+	#Range: 1 ~ 1000
+	pickaxe_textures = 17
+	#Axe Textures
+	#Range: 1 ~ 1000
+	axe_textures = 11
+	#Shovel Textures
+	#Range: 1 ~ 1000
+	shovel_textures = 8
+	#Bow Textures
+	#Range: 1 ~ 1000
+	bow_textures = 6
 

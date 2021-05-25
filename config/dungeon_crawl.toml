@@ -12,7 +12,7 @@
 [world_generation]
 	#The probability of a dungeon getting generated on each fitting chunk.
 	#Range: 1.0E-4 ~ 1.0
-	dungeon_probability = 0.12
+	dungeon_probability = 0.2
 	#If this is set to false, no dungeons can be generated outside the overworld.
 	ignore_dimension = true
 	#Makes the entire dungeon solid, preventing caves, ravines, etc... from interfering with the dungeon.

@@ -4,11 +4,6 @@
       {
         "type": "BIOME_DICT",
         "negate": false,
-        "value": "overworld"
-      },
-      {
-        "type": "BIOME_DICT",
-        "negate": false,
         "value": "mesa"
       },
       {
@@ -28,11 +23,6 @@
       }
     ],
     [
-      {
-        "type": "BIOME_DICT",
-        "negate": false,
-        "value": "overworld"
-      },
       {
         "type": "BIOME_DICT",
         "negate": false,
@@ -58,11 +48,6 @@
       {
         "type": "BIOME_DICT",
         "negate": false,
-        "value": "overworld"
-      },
-      {
-        "type": "BIOME_DICT",
-        "negate": false,
         "value": "sparse"
       },
       {
@@ -82,11 +67,6 @@
       }
     ],
     [
-      {
-        "type": "BIOME_DICT",
-        "negate": false,
-        "value": "overworld"
-      },
       {
         "type": "BIOME_DICT",
         "negate": false,
@@ -113,6 +93,27 @@
         "type": "REGISTRY_NAME",
         "negate": false,
         "value": "gaiadimension:volcanic_lands"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:magma_wastes"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:brimstone_caverns"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:cryptic_wastes"
       }
     ],
     [

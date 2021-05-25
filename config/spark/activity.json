@@ -5,6 +5,19 @@
       "name": "bessiq",
       "uniqueId": "1accc651-675d-4502-b6eb-cf5337a98c7d"
     },
+    "time": 1619979445693,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/caBIU3AGzq"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "bessiq",
+      "uniqueId": "1accc651-675d-4502-b6eb-cf5337a98c7d"
+    },
     "time": 1618700566292,
     "type": "Profiler",
     "data": {

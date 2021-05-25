@@ -1,30 +1,28 @@
 
-#To disable items or to change the frequency at which artifacts appear, override the loot tables from this mod with a data pack
-#Cosmetic slots are disabled by default, they can be enabled using the Curios config, see https://github.com/TheIllusiveC4/Curios/wiki/How-to-Use:-Users#creating-a-new-slot-type
 [campsite]
-	#Probability for an ore vein to generate underneath a campsite
-	#Range: 0 ~ 100
-	campsite_ore_chance = 15
+	#List of biome IDs in which campsites are not allowed to generate
+	#End and nether biomes are excluded by default
+	#To blacklist all biomes from a single mod, use "modid:*"
+	biome_blacklist = ["minecraft:void", "gaiadimension:*", "jellyfishing:*", "undergarden:*", "the_bumblezone:*", "good_nights_sleep:*", "dimdungeons:*", "atum:dead_oasis", "atum:dried_river", "atum:limestone_crags", "atum:limestone_mountains", "atum:sand_dunes", "atum:sand_hills", "atum:sand_plains", "atum:sparse_woods", "byg:allium_fields", "byg:amaranth_fields", "byg:autumnal_valley", "byg:basalt_barrera", "byg:bayou", "byg:bog", "byg:cold_swamplands", "byg:coral_mangroves", "byg:crag_gardens", "byg:cypress_swamplands", "byg:dead_sea", "byg:dunes", "byg:enchanted_grove", "byg:flowering_enchanted_grove", "byg:flowering_grove", "byg:flowering_meadow", "byg:fresh_water_lake", "byg:frozen_lake", "byg:grassland_plateau", "byg:glowshroom_bayou", "byg:great_lakes", "byg:grove", "byg:lush_tundra", "byg:mangrove_marshes", "byg:marshlands", "byg:meadow", "byg:mojave_desert", "byg:orchard", "byg:polluted_lake", "byg:prairie_clearing", "byg:prairie", "byg:rainbow_beach", "byg:oasis", "byg:red_desert_dunes", "byg:red_desert", "byg:rocky_beach", "byg:rose_fields", "byg:shattered_glacier", "byg:shrublands", "byg:sierra_range", "byg:snowy_black_beach", "byg:snowy_rocky_black_beach", "byg:twilight_valley", "byg:twilight_valley_hills", "byg:vibrant_swamplands", "byg:white_beach", "minecraft:badlands", "minecraft:badlands_plateau", "minecraft:beach", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:deep_frozen_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:deep_ocean", "minecraft:deep_warm_ocean", "minecraft:desert_hills", "minecraft:desert_lakes", "minecraft:desert", "minecraft:frozen_ocean", "minecraft:frozen_river", "minecraft:ice_spikes", "minecraft:lukewarm_ocean", "minecraft:mushroom_field_shore", "minecraft:mushroom_fields", "minecraft:ocean", "minecraft:plains", "minecraft:river", "minecraft:stone_shore", "minecraft:sunflower_plains", "minecraft:swamp", "minecraft:swamp_hills", "twilightforest:dark_forest", "twilightforest:dark_forest_center", "twilightforest:final_plateau", "twilightforest:fire_swamp", "twilightforest:glacier", "twilightforest:lake", "twilightforest:spooky_forest", "twilightforest:stream", "twilightforest:swamp", "twilightforest:thornlands"]
+	#Rarity of campsites generating in the world
+	#The chance a campsite generates in a specific chunk is 1/rarity
+	#A rarity of 1 will generate a campsite in every chunk, while 10000 will generate no campsites
+	#Not every attempt at generating a campsite succeeds, this also depends on the density and shape of caves
+	#Range: 1 ~ 10000
+	rarity = 42
 	#The minimum y-level at which a campsite can generate
 	#Range: 1 ~ 255
-	campsite_min_y = 1
+	min_y = 1
 	#The maximum y-level at which a campsite can generate
-	#Range: 0 ~ 255
-	campsite_max_y = 255
-	#Whether to use wooden chests from other mods when generating campsites, may make it easier to distinguish them from mimics
-	use_modded_chests = true
+	#Range: 1 ~ 255
+	max_y = 255
 	#Probability for a container of a campsite to be replaced by a mimic
-	#Range: 0 ~ 100
-	campsite_mimic_chance = 20
-	#List of biome IDs in which campsites are not allowed to generate. End and nether biomes are excluded by default.
-	# To blacklist all biomes from a single mod, use 'modid:*'
-	biome_blacklist = ["minecraft:beach", "minecraft:plains", "minecraft:desert", "minecraft:desert_hills", "minecraft:desert_lakes", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:deep_frozen_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:deep_ocean", "minecraft:deep_warm_ocean", "minecraft:frozen_ocean", "minecraft:frozen_river", "minecraft:lukewarm_ocean", "minecraft:mushroom_field_shore", "minecraft:mushroom_fields", "minecraft:ocean", "minecraft:river", "minecraft:savanna", "minecraft:stone_shore", "minecraft:sunflower_plains", "minecraft:void", "byg:basalt_barrera", "byg:basalt_barrera", "byg:rose_fields", "byg:allium_fields", "byg:amaranth_fields", "byg:bayou", "byg:crag_gardens", "byg:cypress_swamplands", "byg:mangrove_marshes", "byg:coral_mangroves", "byg:dead_sea", "byg:fresh_water_lake", "byg:frozen_lake", "byg:grassland_plateau", "byg:great_lakes", "byg:meadow", "byg:polluted_lake", "byg:prairie", "byg:prairie_clearing", "byg:rainbow_beach", "byg:red_desert", "byg:red_desert_dunes", "byg:rocky_beach", "byg:sierra_range", "byg:snowy_black_beach", "byg:snowy_rocky_black_beach", "byg:white_beach", "byg:dunes", "byg:flowering_meadow", "the_bumblezone:hive_pillar", "the_bumblezone:hive_wall", "the_bumblezone:sugar_water_floor", "good_nights_sleep:dreamy_forest", "good_nights_sleep:good_dream_plains", "good_nights_sleep:hopeful_fields", "good_nights_sleep:lollipop_lands", "good_nights_sleep:sleepy_hills", "jellyfishing:jellyfish_fields", "gaiadimension:crystal_plains", "gaiadimension:mineral_reservoir", "gaiadimension:mineral_river", "gaiadimension:salt_dunes", "gaiadimension:shining_grove", "gaiadimension:smoldering_bog", "gaiadimension:static_wasteland", "gaiadimension:volcanic_lands", "undergarden:barren_abyss", "undergarden:forgotten_field", "undergarden:mushroom_bog"]
-	#Per-chunk probability (as a percentage) a campsite is attempted to be generated. Not every attempt succeeds, this also depends on the density and shape of caves
-	#Range: 0 ~ 100
-	campsite_chance = 1
-
-[items]
-	#Cooldown in ticks for the Everlasting Beef and Eternal Steak items
-	#Range: > 0
-	eternal_food_cooldown = 300
+	#Range: 0.0 ~ 1.0
+	mimic_chance = 0.2
+	#Probability for an ore vein to generate underneath a campsite
+	#Range: 0.0 ~ 1.0
+	ore_chance = 0.15
+	#Whether to use wooden chests from other mods when generating campsites
+	#(keeping this enabled may make it easier to distinguish them from mimics)
+	use_modded_chests = true
 

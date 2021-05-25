@@ -207,7 +207,7 @@
 	#Chance for nest to spawn when generating chunks in overworld category biomes. [1/x]
 	#A higher value means the nest is less likely to spawn.
 	#Range: 4 ~ 100
-	overworld_nest_generation_chance = 84
+	overworld_nest_generation_chance = 100
 	#
 	#Chance for nest to spawn when generating chunks in nether category biomes. [1/x]
 	#A higher value means the nest is less likely to spawn.

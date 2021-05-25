@@ -5,17 +5,17 @@ UseFixedItems = false
 #Fixed items; item or item,amount,pay_item,cost,uses
 FixedItems = "minecraft:air;minecraft:air;minecraft:air;minecraft:air;minecraft:air;minecraft:air;minecraft:air"
 #Include Mods
-IncludeMods = "chancecubes;potionofbees;randomloot;lootbagmod;clef;mysterymilk;naturescompass;bagofyurting;neverenoughcandy;yeeter;golems;bellybutton"
+IncludeMods = "chancecubes;potionofbees;randomloot;lootbagmod;clef;mysterymilk;naturescompass;neverenoughcandy;yeeter;golems;bellybutton"
 #Exclude Mods
 ExcludeMods = "*"
 #Exclude Items
-ExcludeItems = "minecraft:nether_star;minecraft:beacon;minecraft:shulker_box;minecraft:colorset*shulker_box;minecraft:elytra;minecraft:end_portal_frame;vm:vending_machine;randomloot:trait_holder;randomloot:editor;randomloot:random_cluster;randomloot:random_chunk;randomloot:random_shard;randomloot:titan_case;chancecubes:chance_pendant_tier1;chancecubes:chance_pendant_tier2;chancecubes:chance_pendant_tier3;chancecubes:giant_chance_cube;chancecubes:creative_pendant;chancecubes:cube_dispenser;chancecubes:reward_selector_pendant;chancecubes:scanner;chancecubes:silk_touch_pendant;chancecubes:single_use_reward_selector_pendant;chancecubes:chance_icosahedron;clef:instrument_player;neverenoughcandy:mob_candy;golems:spawn_bedrock_golem;golems:golem_paper;golems:info_book;bellybutton:dust_bunny_spawn_egg;bellybutton:dust_bunny;bellybutton:vacuum"
+ExcludeItems = "minecraft:nether_star;minecraft:beacon;minecraft:shulker_box;minecraft:colorset*shulker_box;minecraft:elytra;minecraft:end_portal_frame;vm:vending_machine;randomloot:trait_holder;randomloot:editor;randomloot:random_cluster;randomloot:random_chunk;randomloot:random_shard;randomloot:titan_case;chancecubes:chance_pendant_tier1;chancecubes:chance_pendant_tier2;chancecubes:chance_pendant_tier3;chancecubes:giant_chance_cube;chancecubes:creative_pendant;chancecubes:cube_dispenser;chancecubes:reward_selector_pendant;chancecubes:scanner;chancecubes:silk_touch_pendant;chancecubes:single_use_reward_selector_pendant;chancecubes:chance_icosahedron;clef:instrument_player;neverenoughcandy:mob_candy;golems:spawn_bedrock_golem;golems:golem_paper;golems:info_book;bellybutton:dust_bunny_spawn_egg;bellybutton:evil_dust_bunny_spawn_egg;bellybutton:maid_spawn_egg;bellybutton:dust_bunny"
 #Include Creative Tab Groups
 IncludeGroups = "*"
 #Exclude Creative Tab Groups
 ExcludeGroups = "!"
 #Change item rarity value for pricing
-ItemRarity = "randomloot:golden_case=2;lootbagmod:lootbag=2;bagofyurting:bag_of_yurting=2;chancecubes:chance_cube=2;chancecubes:compact_giant_chance_cube=3;yeeter:tnt_yeeter_spawn_egg=3;golems:golem_head=1;bellybutton:lint_block=1"
+ItemRarity = "randomloot:golden_case=2;lootbagmod:lootbag=2;chancecubes:chance_cube=2;chancecubes:compact_giant_chance_cube=3;yeeter:tnt_yeeter_spawn_egg=3;golems:golem_head=1;bellybutton:lint_block=1;bellybutton:vacuum=1;bellybutton:maid_hairband=3;bellybutton:maid_dress=3;bellybutton:maid_skirt=3;bellybutton:maid_shoes=3;bellybutton:music_disc_belly_boppin=2;bellybutton:lint_sweater=2;bellybutton:belly_button=3"
 #Minable
 Minable = false
 
@@ -26,7 +26,7 @@ Minable = false
 	RareItem = "minecraft:emerald"
 	#Uncommon Cost
 	#Range: 0 ~ 64
-	UncommonCost = 15
+	UncommonCost = 16
 	#Rare Uses
 	#Range: 0 ~ 32
 	RareUses = 2
@@ -39,10 +39,10 @@ Minable = false
 	CommonItem = "minecraft:emerald"
 	#Epic Cost
 	#Range: 0 ~ 64
-	EpicCost = 15
+	EpicCost = 32
 	#Rare Cost
 	#Range: 0 ~ 64
-	RareCost = 15
+	RareCost = 24
 	#Common Uses
 	#Range: 0 ~ 32
 	CommonUses = 4
@@ -51,5 +51,5 @@ Minable = false
 	UncommonUses = 3
 	#Common Cost
 	#Range: 0 ~ 64
-	CommonCost = 15
+	CommonCost = 8
 

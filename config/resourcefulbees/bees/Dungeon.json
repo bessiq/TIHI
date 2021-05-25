@@ -37,12 +37,12 @@
   },
   "SpawnData": {
     "canSpawnInWorld": true,
-    "biomeWhitelist": "tag:overworld",
+    "biomeWhitelist": "tag:cold",
     "biomeBlacklist": "tag:water,nether,end,beach",
     "spawnWeight": 1,
     "minGroupSize": 1,
     "maxGroupSize": 1,
-    "maxYLevel": 45,
+    "minYLevel": 75,
     "lightLevel": "NIGHT"
   },
   "BreedData": {

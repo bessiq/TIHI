@@ -7,7 +7,7 @@
 	# Add the ID/resource location of the biome you don't want
 	# RS's village to spawn in. Separate each ID with a comma ,
 	#   Example: "minecraft:ice_spikes,awesome_mod:awesome_biome"
-	blacklistedVillageBiomes = "mining_dimension:mining,byg:crag_gardens,byg:fresh_water_lake,byg:great_lakes,byg:polluted_lake,byg:frozen_lake,jellyfishing:jellyfish_fields,byg:shattered_glacier"
+	blacklistedVillageBiomes = "byg:crag_gardens,byg:fresh_water_lake,byg:great_lakes,byg:polluted_lake,byg:frozen_lake,jellyfishing:jellyfish_fields,byg:shattered_glacier"
 
 	[Villages.MaxChunkDistance]
 		#
@@ -19,27 +19,27 @@
 		# How rare are Birch Villages in Birch biomes.
 		# 1 for spawning in most chunks and 1001 for no spawn.
 		#Range: 1 ~ 1001
-		birchVillageMaxChunkDistance = 35
+		birchVillageMaxChunkDistance = 38
 		#
 		# How rare are Swamp Villages in Swamp biomes.
 		# 1 for spawning in most chunks and 1001 for no spawn.
 		#Range: 1 ~ 1001
-		swampVillageMaxChunkDistance = 35
+		swampVillageMaxChunkDistance = 38
 		#
 		# How rare are Dark Forest Villages in Dark Forest biomes.
 		# 1 for spawning in most chunks and 1001 for no spawn.
 		#Range: 1 ~ 1001
-		darkForestVillageMaxChunkDistance = 35
+		darkForestVillageMaxChunkDistance = 38
 		#
 		# How rare are Mountains Villages in Mountains biomes.
 		# 1 for spawning in most chunks and 1001 for no spawn.
 		#Range: 1 ~ 1001
-		mountainsVillageMaxChunkDistance = 35
+		mountainsVillageMaxChunkDistance = 38
 		#
 		# How rare are Jungle Villages in Jungle biomes.
 		# 1 for spawning in most chunks and 1001 for no spawn.
 		#Range: 1 ~ 1001
-		jungleVillageMaxChunkDistance = 35
+		jungleVillageMaxChunkDistance = 38
 		#
 		# How rare are Warped Village in Warped Forest biomes.
 		# 1 for spawning in most chunks and 1001 for none.
@@ -49,15 +49,15 @@
 		# How rare are Badlands Villages in Badland biomes.
 		# 1 for spawning in most chunks and 1001 for no spawn.
 		#Range: 1 ~ 1001
-		badlandsVillageMaxChunkDistance = 35
+		badlandsVillageMaxChunkDistance = 38
 		#
 		# How rare are Giant Taiga Villages in Giant Taiga biomes.
 		# 1 for spawning in most chunks and 1001 for no spawn.
 		#Range: 1 ~ 1001
-		giantTaigaVillageMaxChunkDistance = 35
+		giantTaigaVillageMaxChunkDistance = 38
 		#
 		# How rare are Oak Villages in forest category
 		# biomes that are not birch or dark forest.
 		#Range: 1 ~ 1001
-		villageOakMaxChunkDistance = 35
+		villageOakMaxChunkDistance = 38
 

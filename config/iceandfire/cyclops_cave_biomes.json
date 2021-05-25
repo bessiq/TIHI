@@ -39,6 +39,13 @@
       {
         "type": "REGISTRY_NAME",
         "negate": false,
+        "value": "minecraft:snowy_beach"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
         "value": "minecraft:mushroom_field_shore"
       }
     ]

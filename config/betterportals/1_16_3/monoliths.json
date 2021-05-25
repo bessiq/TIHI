@@ -47,9 +47,57 @@
       "maxY": 70,
       "playerTeleportedMinY": 11,
       "playerTeleportedMaxY": 30,
-      "spawnChance": 0.05,
+      "spawnChance": 0.03,
       "spawnDimension": "minecraft:the_nether",
       "targetDimension": "minecraft:overworld"
+    },
+    {
+      "stairSelector": {
+        "entries": {
+          "minecraft:warped_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]": 1.0
+        },
+        "defaultBlock": "minecraft:warped_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+      },
+      "cornerSelector": {
+        "entries": {},
+        "defaultBlock": "minecraft:warped_hyphae"
+      },
+      "insideSelector": {
+        "entries": {
+          "minecraft:stripped_warped_hyphae": 1.0
+        },
+        "defaultBlock": "minecraft:stripped_warped_hyphae"
+      },
+      "fenceSelector": {
+        "entries": {
+          "minecraft:warped_fence[east=none,north=none,south=none,up=true,waterlogged=false,west=none]": 1.0
+        },
+        "defaultBlock": "minecraft:warped_fence[east=none,north=none,south=none,up=true,waterlogged=false,west=none]"
+      },
+      "powerBlock": "minecraft:lodestone",
+      "decorationBlock": "minecraft:light_gray_glazed_terracotta[facing=north]",
+      "beamStopBlocks": [
+        "minecraft:crying_obsidian"
+      ],
+      "unpoweredBeamColor": {
+        "red": "C3",
+        "green": "EC",
+        "blue": "E3",
+        "alpha": "FF"
+      },
+      "poweredBeamColor": {
+        "red": "00",
+        "green": "A4",
+        "blue": "81",
+        "alpha": "FF"
+      },
+      "minY": 35,
+      "maxY": 65,
+      "playerTeleportedMinY": 11,
+      "playerTeleportedMaxY": 12,
+      "spawnChance": 0.003,
+      "spawnDimension": "minecraft:the_end",
+      "targetDimension": "tihi:terribadia"
     }
   ]
 }

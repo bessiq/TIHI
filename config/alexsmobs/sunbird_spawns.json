@@ -34,6 +34,27 @@
         "negate": false,
         "value": "byg:skyris_highlands"
       }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:skyris_highlands_clearing"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:skyris_peaks"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:skyris_steeps"
+      }
     ]
   ]
 }

@@ -6,6 +6,20 @@
         "negate": false,
         "value": "minecraft:nether_wastes"
       }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:withering_woods"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tihi:terribadia"
+      }
     ]
   ]
 }

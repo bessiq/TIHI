@@ -11,7 +11,7 @@
 
 [spawn]
 	#Note: A list of biomes where angels should spawn.
-	allowedBiomes = ["byg:frozen_lake", "byg:shattered_glacier", "byg:snowy_black_beach", "byg:snowy_coniferous_clearing", "byg:snowy_deciduous_clearing", "byg:snowy_evergreen_clearing", "byg:snowy_rocky_black_beach", "byg:subzero_hypogeal", "minecraft:ice_spikes", "undergarden:frostfields"]
+	allowedBiomes = ["byg:frozen_lake", "byg:shattered_glacier", "byg:snowy_black_beach", "byg:snowy_coniferous_clearing", "byg:snowy_deciduous_clearing", "byg:snowy_evergreen_clearing", "byg:snowy_rocky_black_beach", "byg:subzero_hypogeal", "minecraft:ice_spikes", "undergarden:frostfields", "dimdungeons:biome_dungeon"]
 	#Angel spawn type
 	#Allowed Values: MONSTER, CREATURE, AMBIENT, WATER_CREATURE, WATER_AMBIENT, MISC, EITD_EYES
 	spawnType = "MONSTER"
@@ -61,7 +61,7 @@
 
 [teleport]
 	#Note: This a list of dimensions that angels should NOT teleport you to.
-	notAllowedDimensions = ["minecraft:the_end", "mining_dimension:mining", "appliedenergistics2:spatial_storage"]
+	notAllowedDimensions = ["minecraft:the_end", "tihi:terribadia", "appliedenergistics2:spatial_storage", "dimdungeons:dungeon_dimension"]
 	#The maximum range a user can be teleported by the Angels
 	#Range: > 1
 	teleportRange = 666

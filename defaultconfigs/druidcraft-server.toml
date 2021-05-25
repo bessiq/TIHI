@@ -5,32 +5,32 @@
 	amber_size = 3
 	#Determines the rarity of amber veins.
 	#Range: 0 ~ 200
-	amber_weight = 2
+	amber_weight = 3
 	#Determines the size of a moonstone vein.
 	#Range: 1 ~ 32
 	moonstone_size = 3
 	#Determines the rarity of moonstone veins.
 	#Range: 0 ~ 200
-	moonstone_weight = 2
+	moonstone_weight = 3
 	#Determines the size of a fiery glass vein.
 	#Range: 1 ~ 32
-	fiery_glass_size = 3
+	fiery_glass_size = 4
 	#Determines the rarity of fiery glass veins.
 	#Range: 0 ~ 200
-	fiery_glass_weight = 2
+	fiery_glass_weight = 4
 	#Determines the size of a rockroot vein.
 	#Range: 1 ~ 32
 	rockroot_size = 3
 	#Determines the rarity of rockroot veins.
 	#Range: 0 ~ 200
-	rockroot_weight = 10
+	rockroot_weight = 12
 	#Whether to have ores from this mod spawn at all.
 	generate_ores = true
 
 [droprate]
 	#Rate of hemp seed drops from grass blocks.
 	#Range: 0 ~ 100
-	hemp_seed_rate = 2
+	hemp_seed_rate = 1
 	#Whether to have seeds from this mod drop from grass at all.
 	drop_seeds = true
 

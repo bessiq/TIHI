@@ -9,8 +9,8 @@
 	#How should the code treate biomes? true = whitelist, false = blacklist. Biomes defined with ! do the opposite.
 	is_whitelist = true
 	#A biome filter to determine where the structure should generate. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
-	biomes = "dark_forest, byg:snowy_coniferous_forest, byg:coniferous_forest, byg:the_black_forest, byg:blue_giant_taiga, byg:ancient_forest, byg:glowing_ancient_forest, byg:northern_forest, byg:ebony_woods, byg:woodlands, byg:zelkova_forest, byg:cika_woods, byg:redwood_tropics, byg:weeping_witch_forest, byg:snowy_evergreen_taiga, byg:evergreen_taiga, byg:tropical_fungal_forest, byg:pumpkin_forest"
+	biomes = "dark_forest, byg:coniferous_forest, byg:the_black_forest, byg:ancient_forest, byg:northern_forest, byg:ebony_woods, byg:woodlands, byg:weeping_witch_forest, druidcraft:darkwood_forest, byg:redwood_tropics, twilightforest:dense_forest, byg:enchanted_forest, byg:zelkova_forest"
 	#Chance of generating in an allowed chunk
 	#Range: 0.0 ~ 1.0
-	probability = 0.75
+	probability = 0.8
 

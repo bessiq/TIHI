@@ -3,7 +3,7 @@
 	#True if rats are to spawn naturally
 	"Spawn Rats" = true
 	#True if demon rats are to spawn naturally in the nether
-	"Spawn Demon Rats" = true
+	"Spawn Demon Rats" = false
 	#True if rats can only spawn in the Overworld(0) dimension.
 	"Rats Spawn In Overworld Only" = false
 	#True if Pied Pipers can only spawn in the Overworld(0) dimension.
@@ -12,14 +12,14 @@
 	"Funny Rat Flute Sound" = true
 	#A seperate random roll that only spawns rats if a one-out-of-X chance, x being this number. raise this number to make them more rare.
 	#Range: > 0
-	"Rat Spawn Decrease" = 10
+	"Rat Spawn Decrease" = 7
 	#True if plague rats are to spawn naturally
 	"Plague Rats" = true
 	#True if Pied Pipers are to spawn naturally
 	"Spawn Piper" = true
 	#A seperate random roll that only spawns pipers if a one-out-of-X chance, x being this number. raise this number to make them more rare.
 	#Range: > 0
-	"Piper Spawn Decrease" = 10
+	"Piper Spawn Decrease" = 7
 	#The weight of rats in vanilla's spawn rate
 	#Range: 1 ~ 300
 	"Rat Spawn Weight" = 80
@@ -86,7 +86,7 @@
 	"Rat Upgrade Lumberjack: Max Tree Blocks" = 10000
 	#Black Death Max Health
 	#Range: 0.0 ~ 3.4028234663852886E38
-	"Black Death Max Health" = 400.0
+	"Black Death Max Health" = 444.0
 	#Black Death Attack Damage
 	#Range: 0.0 ~ 3.4028234663852886E38
 	"Black Death Automaton Attack Damage" = 6.0
@@ -110,7 +110,7 @@
 	"Rat RF Transfer Rate Elite (kRF)" = 1000
 	#How much kRF (1000 RF) a rat with an extreme energy transfer upgrade can transport at a time.
 	#Range: > 1
-	"Rat RF Transfer Rate Extreme (kRF)" = 100000
+	"Rat RF Transfer Rate Extreme (kRF)" = 10000
 	#How far away from players the Rat Upgrade: Voodoo Doll is effective.
 	#Range: 0.0 ~ 3.4028234663852886E38
 	"Voodoo Doll Rat distance" = 32.0
@@ -151,5 +151,5 @@
 	"Plague Doctor Spawn Delay" = 42000
 	#Random number roll for plague doctor spawning, increase to make them rarer.
 	#Range: > 1
-	"Plague Doctor Spawn Chance" = 20
+	"Plague Doctor Spawn Chance" = 15
 

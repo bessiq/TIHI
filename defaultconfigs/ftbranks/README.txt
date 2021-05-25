@@ -1240,14 +1240,6 @@ command.locate.towers_of_the_wild:jungle_tower
 command.locate.towers_of_the_wild:ocean_tower
 command.locate.towers_of_the_wild:ocean_warm_tower
 command.locate.towers_of_the_wild:tower
-command.locate.valhelsia_structures:castle
-command.locate.valhelsia_structures:castle_ruin
-command.locate.valhelsia_structures:desert_house
-command.locate.valhelsia_structures:forge
-command.locate.valhelsia_structures:player_house
-command.locate.valhelsia_structures:small_castle
-command.locate.valhelsia_structures:small_dungeon
-command.locate.valhelsia_structures:tower_ruin
 command.locate.village
 command.locate.weeping_angels:graveyard
 command.locatebiome

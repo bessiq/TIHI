@@ -4,7 +4,12 @@
       {
         "type": "BIOME_DICT",
         "negate": false,
-        "value": "hot"
+        "value": "mesa"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "wet"
       },
       {
         "type": "BIOME_DICT",
@@ -14,9 +19,96 @@
       {
         "type": "BIOME_DICT",
         "negate": true,
-        "value": "wet"
+        "value": "cold"
       }
-   ],
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "plateau"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "wet"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "water"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "cold"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "sparse"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "wet"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "water"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "cold"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "mountain"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "wet"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "water"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "cold"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "gaiadimension:volcanic_lands"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:magma_wastes"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:brimstone_caverns"
+      }
+    ],
     [
       {
         "type": "REGISTRY_NAME",
@@ -28,7 +120,7 @@
       {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "byg:magma_wastes"
+        "value": "good_nights_sleep:wasted_forest"
       }
     ]
   ]

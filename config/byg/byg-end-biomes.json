@@ -27,6 +27,17 @@
         }
       ]
     },
+    "byg:imparius_grove": {
+      "dictionary": "END",
+      "weight": 5,
+      "edge": "byg:imparius_clearing",
+      "hills": [
+        {
+          "name": "byg:imparius_clearing",
+          "weight": 10
+        }
+      ]
+    },
     "byg:ivis_fields": {
       "dictionary": "END",
       "weight": 5,
@@ -71,6 +82,12 @@
     }
   },
   "void-biomes": {
+    "byg:shattered_desert_isles": {
+      "dictionary": "END,VOID",
+      "weight": 5,
+      "edge": "",
+      "hills": []
+    },
     "byg:viscal_isles": {
       "dictionary": "END,VOID",
       "weight": 5,

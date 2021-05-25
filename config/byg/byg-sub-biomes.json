@@ -39,13 +39,13 @@
     "byg:black_forest_clearing": {
       "dictionary": "COLD,CONIFEROUS,FOREST,OVERWORLD",
       "river": "minecraft:river",
-      "beach": "minecraft:beach",
+      "beach": "byg:rocky_beach",
       "edge": ""
     },
     "byg:black_forest_hills": {
       "dictionary": "COLD,CONIFEROUS,FOREST,HILLS,OVERWORLD",
       "river": "minecraft:river",
-      "beach": "minecraft:beach",
+      "beach": "byg:rocky_beach",
       "edge": ""
     },
     "byg:blue_giant_taiga": {
@@ -63,7 +63,7 @@
     "byg:bluff_peaks": {
       "dictionary": "COLD,MOUNTAIN,OVERWORLD,SNOWY",
       "river": "minecraft:river",
-      "beach": "minecraft:beach",
+      "beach": "byg:rocky_beach",
       "edge": ""
     },
     "byg:bog": {
@@ -99,7 +99,7 @@
     "byg:cika_mountains": {
       "dictionary": "COLD,CONIFEROUS,FOREST,MOUNTAIN,OVERWORLD",
       "river": "minecraft:river",
-      "beach": "byg:basalt_barrera",
+      "beach": "byg:rocky_beach",
       "edge": ""
     },
     "byg:coniferous_clearing": {
@@ -132,6 +132,12 @@
       "beach": "minecraft:beach",
       "edge": ""
     },
+    "byg:dummy": {
+      "dictionary": "OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
     "byg:ebony_hills": {
       "dictionary": "DENSE,FOREST,HILLS,OVERWORLD",
       "river": "minecraft:river",
@@ -140,6 +146,12 @@
     },
     "byg:enchanted_forest_hills": {
       "dictionary": "FOREST,HILLS,MAGICAL,OVERWORLD,RARE",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:enchanted_grove": {
+      "dictionary": "LUSH,MAGICAL,OVERWORLD,PLAINS,RARE",
       "river": "minecraft:river",
       "beach": "minecraft:beach",
       "edge": ""
@@ -183,7 +195,7 @@
     "byg:forest_fault": {
       "dictionary": "COLD,CONIFEROUS,FOREST,OVERWORLD,RARE",
       "river": "minecraft:river",
-      "beach": "minecraft:beach",
+      "beach": "byg:rocky_beach",
       "edge": ""
     },
     "byg:fresh_water_lake": {
@@ -216,7 +228,19 @@
       "beach": "minecraft:beach",
       "edge": ""
     },
+    "byg:grove": {
+      "dictionary": "LUSH,OVERWORLD,PLAINS",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
     "byg:guiana_clearing": {
+      "dictionary": "FOREST,JUNGLE,OVERWORLD",
+      "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:guiana_springs": {
       "dictionary": "FOREST,JUNGLE,OVERWORLD",
       "river": "minecraft:river",
       "beach": "minecraft:beach",
@@ -267,7 +291,7 @@
     "byg:pointed_stone_forest": {
       "dictionary": "FOREST,MOUNTAIN,OVERWORLD,PLATEAU",
       "river": "minecraft:river",
-      "beach": "minecraft:beach",
+      "beach": "byg:rocky_beach",
       "edge": ""
     },
     "byg:polluted_lake": {
@@ -327,13 +351,13 @@
     "byg:redwood_clearing": {
       "dictionary": "FOREST,OVERWORLD,SPARSE",
       "river": "minecraft:river",
-      "beach": "minecraft:beach",
+      "beach": "byg:rocky_beach",
       "edge": ""
     },
     "byg:redwood_mountains": {
       "dictionary": "DRY,HOT,MOUNTAIN,OVERWORLD",
       "river": "minecraft:river",
-      "beach": "minecraft:beach",
+      "beach": "byg:rocky_beach",
       "edge": ""
     },
     "byg:rocky_beach": {
@@ -381,6 +405,24 @@
     "byg:sierra_range": {
       "dictionary": "DRY,HOT,MOUNTAIN,OVERWORLD",
       "river": "minecraft:river",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:skyris_highlands_clearing": {
+      "dictionary": "COLD,CONIFEROUS,MOUNTAIN,OVERWORLD",
+      "river": "byg:skyris_highlands_clearing",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:skyris_peaks": {
+      "dictionary": "COLD,CONIFEROUS,MOUNTAIN,OVERWORLD",
+      "river": "byg:skyris_peaks",
+      "beach": "minecraft:beach",
+      "edge": ""
+    },
+    "byg:skyris_steeps": {
+      "dictionary": "COLD,CONIFEROUS,MOUNTAIN,OVERWORLD",
+      "river": "byg:skyris_steeps",
       "beach": "minecraft:beach",
       "edge": ""
     },
@@ -453,11 +495,11 @@
     "byg:tropical_islands": {
       "dictionary": "OVERWORLD",
       "river": "byg:tropical_islands",
-      "beach": "minecraft:beach",
+      "beach": "byg:rainbow_beach",
       "edge": ""
     },
     "byg:tropical_rainforest_hills": {
-      "dictionary": "DENSE,HILLS,HOT,JUNGLE,OVERWORLD,OVERWORLD",
+      "dictionary": "DENSE,HILLS,HOT,JUNGLE,OVERWORLD",
       "river": "minecraft:river",
       "beach": "minecraft:beach",
       "edge": ""
@@ -483,7 +525,7 @@
     "byg:wooded_grassland_plateau": {
       "dictionary": "FOREST,OVERWORLD,PLAINS",
       "river": "minecraft:river",
-      "beach": "minecraft:beach",
+      "beach": "byg:rocky_beach",
       "edge": ""
     },
     "byg:wooded_meadow": {

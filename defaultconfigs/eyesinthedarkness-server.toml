@@ -33,20 +33,6 @@
 	#Max block distance from a player at which the eyes will spawn.
 	#Range: > 1
 	MaxEyesSpawnDistance = 64
-	#Specifies rules for accepting or rejecting biomes.
-	#The rules are scanned one by one until a rule matches, This means the first rule to match takes precedence over any other subsequent rule, so more specific rules should go first.
-	#Rules:
-	#  "biome:name"    -- ALLOWS spawning in the given biome.
-	#  "!biome:name"   -- DISALLOWS spawning in the given biome.
-	#  "#biome_label"  -- ALLOWS spawning in the given biome dictionary label.
-	#  "!#biome_label" -- DISALLOWS spawning in the given biome dictionary label.
-	#  "!*"            -- DISALLOWS spawning unconditionally. Place this at the end of the list to disable spawning if no other rules pass (defaults to allow otherwise).
-	#Examples:
-	#  To disable spawning in the end: [ "!#END" ]
-	#  To disable spawning in the nether biome: [ "!minecraft:nether" ]
-	#  To disable spawning in forest areas, but allow them in dark fores: [ "minecraft:dark_forest", "!#FOREST" ]
-	#NOTE: VOID type biomes are disabled by default, internally. You can explicitly enable those by adding "#VOID" to the rules, but this is not recommended.
-	biomeRules = ["minecraft:small_end_islands", "byg:bayou", "byg:polluted_lake", "byg:embur_bog", "byg:cypress_swamplands", "byg:mangrove_marshes", "byg:pointed_stone_forest", "byg:forest_fault", "byg:dead_sea", "good_nights_sleep:nightmare_hills", "undergarden:dense_forest", "the_bumblezone:hive_pillar", "gaiadimension:goldstone_lands", "byg:basalt_barrera", "!*"]
 	#Specifies rules for accepting or rejecting dimensions.
 	#The rules are scanned one by one until a rule matches, This means the first rule to match takes precedence over any other subsequent rule, so more specific rules should go first.
 	#Rules:
@@ -60,36 +46,50 @@
 	#  To disable spawning in the nether dimension: [ "!minecraft:nether" ]
 	#  To disable spawning in all secondary overworlds, but allow the vanilla overworld: [ "minecraft:overworld", "!#minecraft:overworld" ]
 	DimensionRules = []
+	#Specifies rules for accepting or rejecting biomes.
+	#The rules are scanned one by one until a rule matches, This means the first rule to match takes precedence over any other subsequent rule, so more specific rules should go first.
+	#Rules:
+	#  "biome:name"    -- ALLOWS spawning in the given biome.
+	#  "!biome:name"   -- DISALLOWS spawning in the given biome.
+	#  "#biome_label"  -- ALLOWS spawning in the given biome dictionary label.
+	#  "!#biome_label" -- DISALLOWS spawning in the given biome dictionary label.
+	#  "!*"            -- DISALLOWS spawning unconditionally. Place this at the end of the list to disable spawning if no other rules pass (defaults to allow otherwise).
+	#Examples:
+	#  To disable spawning in the end: [ "!#END" ]
+	#  To disable spawning in the nether biome: [ "!minecraft:nether" ]
+	#  To disable spawning in forest areas, but allow them in dark fores: [ "minecraft:dark_forest", "!#FOREST" ]
+	#NOTE: VOID type biomes are disabled by default, internally. You can explicitly enable those by adding "#VOID" to the rules, but this is not recommended.
+	BiomeRules = ["byg:basalt_barrera", "byg:bayou", "byg:cypress_swamplands", "byg:dead_sea", "byg:embur_bog", "byg:forest_fault", "byg:mangrove_marshes", "byg:pointed_stone_forest", "byg:polluted_lake", "druidcraft:darkwood_forest", "gaiadimension:goldstone_lands", "good_nights_sleep:nightmare_hills", "minecraft:small_end_islands", "twilightforest:dark_forest", "undergarden:dense_forest", "!*"]
 
 #Default spawn settings
 [spawning_normal]
 	#Number of ticks between spawn cycles.
 	#Range: > 1
-	SpawnCycleInterval = 400
+	SpawnCycleInterval = 3600
 	#Max number of eyes entities that will spawn around any one player.
 	#Range: > 1
 	MaxEyesAroundPlayer = 1
 	#Max number of eyes entities that will spawn in each dimension.
 	#Range: > 1
-	MaxTotalEyesPerDimension = 5
+	MaxTotalEyesPerDimension = 7
 
 #Spawn settings in the minutes around midnight
 [spawning_midnight]
 	#Number of ticks between spawn cycles.
 	#Range: > 1
-	SpawnCycleInterval = 200
+	SpawnCycleInterval = 2400
 	#Max number of eyes entities that will spawn around any one player.
 	#Range: > 1
 	MaxEyesAroundPlayer = 2
 	#Max number of eyes entities that will spawn in each dimension.
 	#Range: > 1
-	MaxTotalEyesPerDimension = 10
+	MaxTotalEyesPerDimension = 11
 
 #Spawn settings in the days leading to halloween
 [spawning_halloween]
 	#Number of ticks between spawn cycles.
 	#Range: > 1
-	SpawnCycleInterval = 100
+	SpawnCycleInterval = 300
 	#Max number of eyes entities that will spawn around any one player.
 	#Range: > 1
 	MaxEyesAroundPlayer = 4

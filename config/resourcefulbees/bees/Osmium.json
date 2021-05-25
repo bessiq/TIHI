@@ -27,7 +27,7 @@
   },
   "SpawnData": {
     "canSpawnInWorld": true,
-    "biomeWhitelist": "byg:basalt_barrera,mining_dimension:mining",
+    "biomeWhitelist": "byg:basalt_barrera",
     "lightLevel": "ANY",
     "spawnWeight": 1,
     "minGroupSize": 1,

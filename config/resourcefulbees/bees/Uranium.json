@@ -27,7 +27,7 @@
   },
   "SpawnData": {
     "canSpawnInWorld": true,
-    "biomeWhitelist": "tag:hot",
+    "biomeWhitelist": "tag:sparse",
     "biomeBlacklist": "tag:water,nether,end,beach",
     "lightLevel": "DAY",
     "spawnWeight": 1,

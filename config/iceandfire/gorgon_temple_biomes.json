@@ -32,6 +32,11 @@
         "value": "byg:snowy_rocky_black_beach"
       },
       {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "minecraft:snowy_beach"
+      },
+      {
         "type": "BIOME_DICT",
         "negate": true,
         "value": "water"

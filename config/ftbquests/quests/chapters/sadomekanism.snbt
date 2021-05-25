@@ -4,35 +4,13 @@
 	order_index: 1,
 	filename: "sadomekanism",
 	title: "SadoMekanism",
-	icon: {
-		ForgeCaps: {
-			"dungeons_gear:weapon": {
-				lastFiredTime: 0L,
-				fuseShotCounter: 0,
-				crossbowChargeTime: 0,
-				bowChargeTime: 0.0f
-			}
-		},
-		id: "mekanism:robit",
-		Count: 1b
-	},
+	icon: "mekanism:robit",
 	subtitle: ["Advanced machinery and tech that will make your ores into mORES!"],
 	default_quest_shape: "",
 	quests: [
 		{
 			title: "Osmium GET!",
-			icon: {
-				ForgeCaps: {
-					"dungeons_gear:weapon": {
-						lastFiredTime: 0L,
-						fuseShotCounter: 0,
-						crossbowChargeTime: 0,
-						bowChargeTime: 0.0f
-					}
-				},
-				id: "mekanism:osmium_ore",
-				Count: 1b
-			},
+			icon: "mekanism:osmium_ore",
 			x: 0.0d,
 			y: -1.0d,
 			subtitle: "Is it real?!",
@@ -41,18 +19,7 @@
 			tasks: [{
 				id: "0000000000000004",
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "mekanism:osmium_ore",
-					Count: 1b
-				}
+				item: "mekanism:osmium_ore"
 			}],
 			rewards: [{
 				id: "0000000000000005",
@@ -62,18 +29,7 @@
 		},
 		{
 			title: "Fluorite, Fluorite, Fluorite",
-			icon: {
-				ForgeCaps: {
-					"dungeons_gear:weapon": {
-						lastFiredTime: 0L,
-						fuseShotCounter: 0,
-						crossbowChargeTime: 0,
-						bowChargeTime: 0.0f
-					}
-				},
-				id: "mekanism:fluorite_gem",
-				Count: 1b
-			},
+			icon: "mekanism:fluorite_gem",
 			x: -2.0d,
 			y: -1.0d,
 			subtitle: "Fights cavities!",
@@ -82,18 +38,7 @@
 			tasks: [{
 				id: "0000000000000007",
 				type: "item",
-				item: {
-					ForgeCaps: {
-						"dungeons_gear:weapon": {
-							lastFiredTime: 0L,
-							fuseShotCounter: 0,
-							crossbowChargeTime: 0,
-							bowChargeTime: 0.0f
-						}
-					},
-					id: "mekanism:fluorite_gem",
-					Count: 1b
-				}
+				item: "mekanism:fluorite_gem"
 			}]
 		}
 	]

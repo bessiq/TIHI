@@ -19,6 +19,8 @@ shouldReturnPortalBeUsable = true
 progressionRuleDefault = true
 #Disable the uncrafting function of the uncrafting table. Provided as an option when interaction with other mods produces exploitable recipes.
 disableUncrafting = false
+#If true, Keepsake Caskets that are spawned when a player dies will not be accessible by other players. Use this if you dont want people taking from other people's death caskets. NOTE: server operators will still be able to open locked caskets.
+uuid_locking = false
 
 #Settings that are not reversible without consequences.
 ["Dimension Settings"]
@@ -62,11 +64,13 @@ disableUncrafting = false
 	#For example: "minecraft:iron_ore 0.7 8 1 24" would add a stalactite equal to the default iron ore stalactite.
 	["Dimension Settings"."Custom Hollow Hill Stalactites"]
 		#Blocks generating as stalactites in large hills only
-		largeHill = []
-		#Blocks generating as stalactites in all hills
-		mediumHill = []
+		largeHill = ["create:copper_ore 0.7 8 1 26", "create:zinc_ore 0.7 8 1 22", "eidolon:lead_ore 0.7 8 1 20", "mekanism:uranium_ore 0.7 8 1 20", "mekanism:tin_ore 0.7 8 1 25", "iceandfire:silver_ore 0.7 8 1 18", "iceandfire:amythest_ore 0.5 8 1 16", "immersiveengineering:ore_aluminum 0.7 8 1 25", "immersiveengineering:ore_nickel 0.6 8 1 19", "iceandfire:sapphire_ore 0.5 8 1 16"]
+		#Blocks generating as stalactites in medium and large hills
+		mediumHill = ["create:copper_ore 0.7 8 1 24", "create:zinc_ore 0.7 8 1 20", "eidolon:lead_ore 0.7 8 1 18", "mekanism:uranium_ore 0.7 8 1 18", "mekanism:tin_ore 0.7 8 1 23", "iceandfire:silver_ore 0.7 8 1 16", "immersiveengineering:ore_aluminum 0.7 8 1 23", "immersiveengineering:ore_nickel 0.6 8 1 17"]
 		#If true, default stalactites and stalactites defined by other mods will not be used.
 		useConfigOnly = false
+		#Blocks generating as stalactites in all hills
+		smallHill = ["create:copper_ore 0.7 8 1 22", "create:zinc_ore 0.7 8 1 18", "eidolon:lead_ore 0.7 8 1 16", "mekanism:uranium_ore 0.7 8 1 16", "mekanism:tin_ore 0.7 8 1 21", "iceandfire:silver_ore 0.7 8 1 14", "immersiveengineering:ore_aluminum 0.7 8 1 21", "immersiveengineering:ore_nickel 0.6 8 1 15"]
 
 #Lets you sacrifice various things to improve world performance.
 ["Performance Tweaks"]

@@ -1,7 +1,7 @@
 
 [general]
 	#Add a mob's full name here to prevent it from being frozen or taking damage from ice magic.
-	freeze_blacklist = ["mowziesmobs:frostmaw", "minecraft:enderdragon", "minecraft:blaze", "minecraft:magma_cube"]
+	freeze_blacklist = ["mowziesmobs:frostmaw", "minecraft:enderdragon", "minecraft:blaze", "minecraft:magma_cube", "iceandfire:ice_dragon", "iceandfire:fire_dragon", "iceandfire:lightning_dragon"]
 
 [tools_and_abilities]
 	#Range: 0.0 ~ 1.7976931348623157E308
@@ -125,7 +125,7 @@
 			#A blank entry means all biomes. No entries means no biomes.
 			#For example, 'FOREST,MAGICAL,!SNOWY' would mean all biomes that are magical forests but not snowy
 			#'!MOUNTAIN' would mean all non-mountain biomes
-			biome_type = ["SNOWY,!OCEAN,!RIVER,!BEACH"]
+			biome_type = ["SNOWY,!OCEAN,!RIVER,!BEACH,!WATER"]
 			#Allow spawns in these biomes regardless of the biome type settings
 			biome_whitelist = []
 			#Prevent spawns in these biomes regardless of the biome type settings
@@ -136,16 +136,16 @@
 			#Smaller number causes more generation, -1 to disable generation
 			#Maximum number of chunks between placements of this mob/structure
 			#Range: > -1
-			generation_distance = 33
+			generation_distance = 35
 			#Smaller number causes more generation, -1 to disable generation
 			#Minimum number of chunks between placements of this mob/structure
 			#Range: > -1
-			generation_separation = 12
+			generation_separation = 15
 			#Names of dimensions this mob/structure can generate in
 			dimensions = ["minecraft:overworld"]
 			#Maximum height for generation placement. -1 to ignore
 			#Range: -1.0 ~ 256.0
-			height_max = 150.0
+			height_max = 250.0
 			#Minimum height for generation placement. -1 to ignore
 			#Range: -1.0 ~ 256.0
 			height_min = 50.0
@@ -240,7 +240,7 @@
 			#Range: > -1
 			generation_separation = 7
 			#Names of dimensions this mob/structure can generate in
-			dimensions = ["minecraft:overworld", "twilightforest:twilightforest", "mining_dimension:mining"]
+			dimensions = ["minecraft:overworld", "twilightforest:twilightforest", "tihi:terribadia"]
 			#Maximum height for generation placement. -1 to ignore
 			#Range: -1.0 ~ 256.0
 			height_max = 55.0
@@ -286,7 +286,7 @@
 			#Range: > 1
 			max_group_size = 1
 			#Names of dimensions this mob can spawn in
-			dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+			dimensions = ["minecraft:overworld", "tihi:terribadia"]
 			#Names of blocks this mob is allowed to spawn on. Leave blank to allow any block.
 			allowed_blocks = []
 			#Maximum height for this spawn. -1 to ignore.
@@ -314,7 +314,7 @@
 			#A blank entry means all biomes. No entries means no biomes.
 			#For example, 'FOREST,MAGICAL,!SNOWY' would mean all biomes that are magical forests but not snowy
 			#'!MOUNTAIN' would mean all non-mountain biomes
-			biome_type = ["FOREST,MAGICAL,!SNOWY"]
+			biome_type = ["MAGICAL,!CONIFEROUS,!SNOWY,!COLD"]
 			#Allow spawns in these biomes regardless of the biome type settings
 			biome_whitelist = ["minecraft:dark_forest", "minecraft:dark_forest_hills"]
 			#Prevent spawns in these biomes regardless of the biome type settings
@@ -332,9 +332,9 @@
 			#Range: > 1
 			max_group_size = 3
 			#Names of dimensions this mob can spawn in
-			dimensions = ["minecraft:overworld"]
+			dimensions = ["minecraft:overworld", "twilightforest:twilightforest"]
 			#Names of blocks this mob is allowed to spawn on. Leave blank to allow any block.
-			allowed_blocks = ["minecraft:grass_block", "minecraft:dark_oak_leaves", "minecraft:dark_oak_log", "minecraft:oak_leaves", "minecraft:oak_log", "minecraft:birch_leaves", "minecraft:birch_log"]
+			allowed_blocks = ["minecraft:grass_block", "minecraft:dark_oak_leaves", "minecraft:dark_oak_log", "minecraft:oak_leaves", "minecraft:oak_log", "minecraft:birch_leaves", "minecraft:birch_log", "byg:blue_enchanted_log", "byg:blue_enchanted_leaves", "byg:green_enchanted_log", "byg:green_enchanted_leaves", "byg:silver_maple_leaves", "byg:maple_log", "byg:ebony_log", "byg:ebony_leaves", "twilightforest:twilight_oak_log", "twilightforest:rainboak_leaves"]
 			#Maximum height for this spawn. -1 to ignore.
 			#Range: -1 ~ 256
 			height_max = -1
@@ -362,7 +362,7 @@
 			#'!MOUNTAIN' would mean all non-mountain biomes
 			biome_type = ["SAVANNA"]
 			#Allow spawns in these biomes regardless of the biome type settings
-			biome_whitelist = ["gaiadimension:green_agate_jungle"]
+			biome_whitelist = []
 			#Prevent spawns in these biomes regardless of the biome type settings
 			biome_blacklist = []
 
@@ -370,7 +370,7 @@
 		[mobs.barakoa.spawn_config]
 			#Smaller number causes less spawning, 0 to disable spawning
 			#Range: > 0
-			spawn_rate = 4
+			spawn_rate = 3
 			#Minimum number of mobs that appear in a spawn group
 			#Range: > 1
 			min_group_size = 1
@@ -378,7 +378,7 @@
 			#Range: > 1
 			max_group_size = 2
 			#Names of dimensions this mob can spawn in
-			dimensions = ["minecraft:overworld", "gaiadimension:gaia_dimension"]
+			dimensions = ["minecraft:overworld"]
 			#Names of blocks this mob is allowed to spawn on. Leave blank to allow any block.
 			allowed_blocks = ["minecraft:grass_block", "minecraft:sand"]
 			#Maximum height for this spawn. -1 to ignore.
@@ -413,7 +413,7 @@
 			#'!MOUNTAIN' would mean all non-mountain biomes
 			biome_type = ["BEACH,MOUNTAIN", "BEACH,HILLS"]
 			#Allow spawns in these biomes regardless of the biome type settings
-			biome_whitelist = ["minecraft:stone_shore"]
+			biome_whitelist = ["minecraft:stone_shore", "rats:ratlantis_biome", "byg:snowy_black_beach", "byg:snowy_rocky_black_beach", "byg:basalt_barrera", "byg:crag_gardens", "byg:dead_sea", "byg:oasis"]
 			#Prevent spawns in these biomes regardless of the biome type settings
 			biome_blacklist = []
 
@@ -421,17 +421,17 @@
 		[mobs.naga.spawn_config]
 			#Smaller number causes less spawning, 0 to disable spawning
 			#Range: > 0
-			spawn_rate = 60
+			spawn_rate = 25
 			#Minimum number of mobs that appear in a spawn group
 			#Range: > 1
-			min_group_size = 2
+			min_group_size = 1
 			#Maximum number of mobs that appear in a spawn group
 			#Range: > 1
-			max_group_size = 3
+			max_group_size = 2
 			#Names of dimensions this mob can spawn in
-			dimensions = ["minecraft:overworld"]
+			dimensions = ["minecraft:overworld", "rats:ratlantis"]
 			#Names of blocks this mob is allowed to spawn on. Leave blank to allow any block.
-			allowed_blocks = ["minecraft:grass_block", "minecraft:stone", "minecraft:sand"]
+			allowed_blocks = ["minecraft:grass_block", "minecraft:stone", "minecraft:sand", "minecraft:basalt", "byg:rocky_stone", "minecraft:andesite", "byg:mossy_stone", "byg:overgrown_stone", "byg:rainbow_eucalyptus_log", "byg:mahogany_log", "byg:rainbow_eucalyptus_leaves", "byg:mahogany_leaves", "minecraft:lily_pad", "byg:tiny_lilypads", "byg:black_sand", "minecraft:snow", "minecraft:gravel"]
 			#Maximum height for this spawn. -1 to ignore.
 			#Range: -1 ~ 256
 			height_max = -1
@@ -464,7 +464,7 @@
 			#'!MOUNTAIN' would mean all non-mountain biomes
 			biome_type = ["JUNGLE"]
 			#Allow spawns in these biomes regardless of the biome type settings
-			biome_whitelist = []
+			biome_whitelist = ["rats:ratlantis_biome"]
 			#Prevent spawns in these biomes regardless of the biome type settings
 			biome_blacklist = []
 
@@ -472,17 +472,17 @@
 		[mobs.foliaath.spawn_config]
 			#Smaller number causes less spawning, 0 to disable spawning
 			#Range: > 0
-			spawn_rate = 60
+			spawn_rate = 25
 			#Minimum number of mobs that appear in a spawn group
 			#Range: > 1
 			min_group_size = 1
 			#Maximum number of mobs that appear in a spawn group
 			#Range: > 1
-			max_group_size = 3
+			max_group_size = 2
 			#Names of dimensions this mob can spawn in
-			dimensions = ["minecraft:overworld"]
+			dimensions = ["minecraft:overworld", "gaiadimension:gaia_dimension", "rats:ratlantis"]
 			#Names of blocks this mob is allowed to spawn on. Leave blank to allow any block.
-			allowed_blocks = ["minecraft:grass_block", "minecraft:podzol", "minecraft:jungle_leaves", "minecraft:oak_leaves", "minecraft:oak_log", "minecraft:jungle_log"]
+			allowed_blocks = ["minecraft:grass_block", "minecraft:podzol", "minecraft:jungle_leaves", "minecraft:oak_leaves", "minecraft:oak_log", "minecraft:jungle_log", "byg:jacaranda_log", "byg:rainbow_eucalyptus_log", "byg:mahogany_log", "byg:jacaranda_leaves", "byg:rainbow_eucalyptus_leaves", "byg:mahogany_leaves", "byg:overgrown_stone", "byg:mossy_stone", "gaiadimension:green_agate_log", "gaiadimension:green_agate_leaves", "gaiadimension:glitter_grass"]
 			#Maximum height for this spawn. -1 to ignore.
 			#Range: -1 ~ 256
 			height_max = -1

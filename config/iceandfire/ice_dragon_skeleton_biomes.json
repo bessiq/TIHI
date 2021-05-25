@@ -2,44 +2,22 @@
   "biomes": [
     [
       {
-        "type": "BIOME_DICT",
-        "negate": false,
-        "value": "overworld"
-      },
-      {
-        "type": "BIOME_DICT",
-        "negate": false,
-        "value": "cold"
-      },
-      {
-        "type": "BIOME_DICT",
-        "negate": true,
-        "value": "water"
-      }
-    ],
-    [
-      {
-        "type": "BIOME_DICT",
-        "negate": false,
-        "value": "overworld"
-      },
-      {
-        "type": "BIOME_DICT",
+        "type": "BIOME_CATEGORY",
         "negate": false,
         "value": "icy"
       },
       {
         "type": "BIOME_DICT",
         "negate": true,
+        "value": "beach"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
         "value": "water"
       }
     ],
     [
-      {
-        "type": "BIOME_DICT",
-        "negate": false,
-        "value": "overworld"
-      },
       {
         "type": "BIOME_DICT",
         "negate": false,
@@ -48,7 +26,34 @@
       {
         "type": "BIOME_DICT",
         "negate": true,
+        "value": "beach"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
         "value": "water"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "cold"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "beach"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "water"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "end"
       }
     ],
     [
@@ -56,6 +61,13 @@
         "type": "REGISTRY_NAME",
         "negate": false,
         "value": "byg:subzero_hypogeal"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tihi:terribadia"
       }
     ]
   ]

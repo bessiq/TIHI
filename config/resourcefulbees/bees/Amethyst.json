@@ -15,7 +15,7 @@
         "type": "BLOCK",
         "inputID": "tag:forge:stone",
         "outputs": [
-          {"outputID": "mysticalworld:amethyst_ore", "weight": 10},
+          {"outputID": "iceandfire:amythest_ore", "weight": 10},
           {"outputID": "minecraft:cobblestone", "weight": 10}
         ]
       }
@@ -23,11 +23,11 @@
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-    "mainOutput": "mysticalworld:amethyst"
+    "mainOutput": "iceandfire:amythest_gem"
   },
   "SpawnData": {
     "canSpawnInWorld": true,
-    "biomeWhitelist": "tag:cold",
+    "biomeWhitelist": "tag:jungle",
     "biomeBlacklist": "tag:water,nether,end,beach",
     "lightLevel": "DAY",
     "spawnWeight": 1,

@@ -1,11 +1,14 @@
 {
   "blockChances": {
     "entries": {
-      "minecraft:gold_block": 0.25,
-      "minecraft:iron_block": 0.25,
-      "minecraft:quartz_block": 0.25,
-      "minecraft:diamond_block": 0.15,
-      "mekanism:block_osmium": 0.01
+      "minecraft:gold_block": 0.15,
+      "minecraft:iron_block": 0.2,
+      "minecraft:quartz_block": 0.1,
+      "minecraft:diamond_block": 0.12,
+      "minecraft:emerald_block": 0.08,
+      "minecraft:lapis_block": 0.16,
+      "minecraft:redstone_block": 0.1,
+      "minecraft:netherite_block": 0.04
     },
     "defaultBlock": "minecraft:iron_block"
   }

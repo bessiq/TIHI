@@ -13,13 +13,6 @@
         "negate": false,
         "value": "swamp"
       }
-    ],
-    [
-      {
-        "type": "REGISTRY_NAME",
-        "negate": false,
-        "value": "gaiadimension:purple_agate_swamp"
-      }
     ]
   ]
 }
