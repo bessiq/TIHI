@@ -1,13 +1,10 @@
 // future farmers of minecraft
 
 onEvent('recipes', event => {
-    // Possibly pointless future-proofing for this purple potato
-    event.replaceInput({ mod: 'mysticalworld' }, 'mysticalworld:aubergine', '#forge:crops/eggplant')
 
     // The Carb Suite
     event.replaceOutput({}, '#forge:flour', 'create:wheat_flour')
     event.replaceOutput({}, '#forge:dough', 'create:dough')
-    event.replaceInput({}, 'pneumaticcraft:wheat_flour', '#forge:flour')
     event.replaceInput({}, 'appliedenergistics2:flour', '#forge:flour')
     event.replaceInput({}, 'create:wheat_flour', '#forge:flour')
     event.replaceInput({}, 'farmersdelight:wheat_dough', '#forge:dough')
@@ -33,11 +30,6 @@ onEvent('recipes', event => {
         'cabbage',
         'farmersdelight:cabbage',
         'farmersdelight:cabbage_seeds',
-    )
-    yeehaw(
-        'eggplant',
-        'mysticalworld:aubergine',
-        'mysticalworld:aubergine_seeds',
     )
     yeehaw(
         'onion',

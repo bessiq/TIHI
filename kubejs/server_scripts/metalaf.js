@@ -26,12 +26,8 @@ onEvent('recipes', event => {
         event.replaceInput({ mod: 'ars_nouveau' }, '#forge:storage_blocks/' + material, block)
         
         event.replaceInput('appliedenergistics2:ender_dust', '#forge:dusts/ender_pearl')
-        event.replaceInput('betterendforge:ender_dust', '#forge:dusts/ender_pearl')
 
         event.replaceInput('create:powdered_obsidian', '#forge:dusts/obsidian')
-
-        event.replaceInput('mysticalworld:' + material + '_block', '#forge:storage_blocks/' + material)
-        event.replaceInput('mysticalworld:amethyst', '#forge:gems/amethyst')
 
         event.replaceInput('forbidden_arcanus:' + material + '_ingot', '#forge:ingots/' + material)
         event.replaceInput('forbidden_arcanus:' + material + '_nugget', '#forge:nuggets/' + material)
@@ -48,13 +44,22 @@ onEvent('recipes', event => {
         '',
     )
     metalaf(
+        'amber',
+        '',
+        '',
+        '',
+        'druidcraft:amber_block',
+        '',
+        'druidcraft:amber'
+    )
+    metalaf(
         'amethyst',
         '',
         '',
         '',
-        'mysticalworld:amethyst_block',
+        'iceandfire:amythest_block',
         '',
-        'mysticalworld:amethyst'
+        'iceandfire:amythest_gem'
     )
     metalaf(
         'arcane_gold',
@@ -246,6 +251,15 @@ onEvent('recipes', event => {
         '',
     )
     metalaf(
+        'pearl',
+        '',
+        '',
+        '',
+        'fins:spindly_pearl_block',
+        '',
+        'fins:spindly_pearl',
+    )
+    metalaf(
         'quartz',
         'mekanism:dust_quartz',
         '',
@@ -255,13 +269,13 @@ onEvent('recipes', event => {
         'minecraft:quartz',
     )
     metalaf(
-        'quicksilver',
-        'create:crushed_quicksilver_ore',
-        'mysticalworld:quicksilver_ingot',
-        'mysticalworld:quicksilver_nugget',
-        'mysticalworld:quicksilver_block',
+        'ruby',
         '',
         '',
+        '',
+        'fins:spindly_ruby_block',
+        '',
+        'fins:spindly_ruby',
     )
     metalaf(
         'saltpeter',
@@ -284,9 +298,9 @@ onEvent('recipes', event => {
     metalaf(
         'silver',
         'create:crushed_silver_ore',
-        'occultism:silver_ingot',
-        'occultism:silver_nugget',
-        'occultism:silver_block',
+        'iceandfire:silver_ingot',
+        'iceandfire:silver_nugget',
+        'iceandfire:silver_block',
         'immersiveengineering:plate_silver',
         '',
     )
@@ -311,9 +325,9 @@ onEvent('recipes', event => {
     metalaf(
         'tin',
         'create:crushed_tin_ore',
-        'mysticalworld:tin_ingot',
-        'mysticalworld:tin_nugget',
-        'mysticalworld:tin_block',
+        'mekanism:ingot_tin',
+        'mekanism:nugget_tin',
+        'mekanism:block_tin',
         '',
         '',
     )

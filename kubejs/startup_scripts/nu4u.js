@@ -18,6 +18,6 @@ events.listen('block.registry', event => {
   // Georgia on my mind
   event.create('tihi:red_clay').material('clay').hardness(0.6).displayName('Red Clay').requiresTool(true).harvestTool('shovel', 0)
 
-  // Georgia on my mind
+  // Missing missingno
   event.create('tihi:missingno_block').material('iron').hardness(5.0).resistance(10.0).displayName('§kMissingno Block').requiresTool(true).harvestTool('pickaxe', 2)
 })

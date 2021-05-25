@@ -12,7 +12,7 @@ onEvent('recipes', event => {
     )
     orely(
         'amethyst',
-        'mysticalworld:amethyst_ore',
+        'iceandfire:amythest_ore',
     )
     orely(
         'ametrine',
@@ -71,10 +71,6 @@ onEvent('recipes', event => {
         'minecraft:nether_quartz_ore',
     )
     orely(
-        'quicksilver',
-        'mysticalworld:quicksilver_ore',
-    )
-    orely(
         'redstone',
         'minecraft:redstone_ore',
     )
@@ -84,11 +80,11 @@ onEvent('recipes', event => {
     )
     orely(
         'silver',
-        'occultism:silver_ore',
+        'iceandfire:silver_ore',
     )
     orely(
         'tin',
-        'mysticalworld:tin_ore',
+        'mekanism:tin_ore',
     )
     orely(
         'uranium',
