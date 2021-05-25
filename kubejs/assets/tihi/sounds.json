@@ -1,35 +1,34 @@
 {
-	"ambient.tihi_hehe": {
-		"category": "biomes",
+	"ambient.tb_hehe": {
 		"sounds": [
 			{
 				"name": "tihi:ambient/diamond_01",
-				"volume": 0.8,
+				"volume": 0.7,
 				"weight": 10
 			},
 			{
 				"name": "tihi:ambient/diamond_02",
-				"volume": 0.8,
+				"volume": 0.7,
 				"weight": 9
 			},
 			{
 				"name": "tihi:ambient/diamond_03",
-				"volume": 0.8,
+				"volume": 0.7,
 				"weight": 9
 			},
 			{
 				"name": "tihi:ambient/diamond_04",
-				"volume": 0.8,
+				"volume": 0.7,
 				"weight": 9
 			},
 			{
 				"name": "tihi:ambient/diamond_05",
-				"volume": 0.8,
+				"volume": 0.7,
 				"weight": 9
 			},
 			{
 				"name": "tihi:ambient/diamond_06",
-				"volume": 0.8,
+				"volume": 0.7,
 				"weight": 7
 			},
 			{
@@ -39,12 +38,12 @@
 			},
 			{
 				"name": "tihi:ambient/diamond_08",
-				"volume": 0.8,
+				"volume": 0.7,
 				"weight": 9
 			},
 			{
 				"name": "tihi:ambient/diamond_09",
-				"volume": 0.8,
+				"volume": 0.6,
 				"weight": 7
 			},
 			{
@@ -69,12 +68,12 @@
 			},
 			{
 				"name": "tihi:ambient/diamond_14",
-				"volume": 0.8,
+				"volume": 0.7,
 				"weight": 9
 			},
 			{
 				"name": "tihi:ambient/diamond_15",
-				"volume": 0.8,
+				"volume": 0.7,
 				"weight": 7
 			},
 			{
@@ -134,13 +133,26 @@
 			}
 		]
 	},
-	"music.tihi_lofi": {
-		"category": "music"
-	},
-	"sounds": [
-		{
-			"name": "tihi:music/tdziewiecdz",
-			"stream": true
-		}
-	]
+	"music.tb_lofi": {
+		"sounds": [
+			{
+				"name": "tihi:music/ab_ac_ad_ae",
+				"stream": true,
+				"volume": 1.0,
+				"weight": 10
+			},
+			{
+				"name": "tihi:music/marketing_is",
+				"stream": true,
+				"volume": 1.0,
+				"weight": 10
+			},
+			{
+				"name": "tihi:music/tdziewiecdz",
+				"stream": true,
+				"volume": 1.0,
+				"weight": 10
+			}
+		]
+	}
 }
