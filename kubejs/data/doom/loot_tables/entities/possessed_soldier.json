@@ -7,11 +7,11 @@
                 {
                     "type": "minecraft:item",
                     "name": "doom:bullets",
-                    "weight": 70
+                    "weight": 80
                 },
                 {
                     "type": "minecraft:empty",
-                    "weight": 30
+                    "weight": 20
                 }
             ],
             "conditions": [

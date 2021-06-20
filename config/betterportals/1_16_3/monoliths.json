@@ -43,11 +43,11 @@
         "blue": "73",
         "alpha": "FF"
       },
-      "minY": 35,
-      "maxY": 70,
-      "playerTeleportedMinY": 11,
-      "playerTeleportedMaxY": 30,
-      "spawnChance": 0.03,
+      "minY": 32,
+      "maxY": 52,
+      "playerTeleportedMinY": 6,
+      "playerTeleportedMaxY": 12,
+      "spawnChance": 0.035,
       "spawnDimension": "minecraft:the_nether",
       "targetDimension": "minecraft:overworld"
     },

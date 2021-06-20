@@ -27,7 +27,7 @@
   },
   "SpawnData": {
     "canSpawnInWorld": true,
-    "biomeWhitelist": "minecraft:crimson_forest",
+    "biomeWhitelist": "minecraft:crimson_forest, byg:crimson_gardens",
     "lightLevel": "NIGHT",
     "spawnWeight": 1,
     "minGroupSize": 1,

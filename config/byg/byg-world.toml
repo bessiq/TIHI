@@ -51,7 +51,7 @@
 	#What biome(s) does Budding Ametrine spawn in? Default: "byg:shattered_viscal_isles".
 	buddingAmetrineSpawns = "byg:shattered_viscal_isles"
 	#What biome(s) does Pendorite spawn in? Default: "byg:forest_fault".
-	pendoriteSpawns = "byg:forest_fault"
+	pendoriteSpawns = "byg:embur_bog"
 	#What biome(s) does Therium spawn in? Default: "byg#THE_END".
 	theriumSpawns = "byg#THEEND"
 

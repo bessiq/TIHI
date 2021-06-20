@@ -50,12 +50,12 @@
       },
       "minY": 200,
       "maxY": 250,
-      "playerTeleportedMinY": 12,
+      "playerTeleportedMinY": 22,
       "playerTeleportedMaxY": 42,
       "spawnChance": 0.02,
       "spawnDimension": "tihi:terribadia",
       "targetDimension": "minecraft:overworld",
-      "spawnPlatformBlock": "minecraft:grass_block"
+      "spawnPlatformBlock": "minecraft:bricks"
     }
   ]
 }

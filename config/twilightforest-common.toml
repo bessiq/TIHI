@@ -30,6 +30,8 @@ uuid_locking = false
 	skylightForest = false
 	#If true, giant Twilight Oaks will also spawn in void worlds
 	skylightOaks = true
+	#Destination dimension for Twilight Portals and some other logic as well
+	twilightDimensionID = "twilightforest:twilightforest"
 
 	#Weights for various small features
 	["Dimension Settings"."World-Gen Weights"]

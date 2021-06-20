@@ -1,0 +1,455 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "features": [
+          {
+            "feature": {
+              "config": {
+                "block_provider": {
+                  "entries": [
+                    {
+                      "weight": 99,
+                      "data": {
+                        "Name": "minecraft:stone"
+                      }
+                    },
+                    {
+                      "weight": 14,
+                      "data": {
+                        "Name": "create:zinc_ore"
+                      }
+                    },
+                    {
+                      "weight": 14,
+                      "data": {
+                        "Name": "immersiveengineering:ore_aluminum"
+                      }
+                    },
+                    {
+                      "weight": 12,
+                      "data": {
+                        "Name": "immersiveengineering:ore_nickel"
+                      }
+                    },
+                    {
+                      "weight": 12,
+                      "data": {
+                        "Name": "eidolon:lead_ore"
+                      }
+                    },
+                    {
+                      "weight": 12,
+                      "data": {
+                        "Name": "mekanism:osmium_ore"
+                      }
+                    },
+                    {
+                      "weight": 12,
+                      "data": {
+                        "Name": "mekanism:uranium_ore"
+                      }
+                    },
+                    {
+                      "weight": 11,
+                      "data": {
+                        "Name": "minecraft:gold_ore"
+                      }
+                    },
+                    {
+                      "weight": 13,
+                      "data": {
+                        "Name": "minecraft:iron_ore"
+                      }
+                    },
+                    {
+                      "weight": 14,
+                      "data": {
+                        "Name": "mekanism:tin_ore"
+                      }
+                    },
+                    {
+                      "weight": 11,
+                      "data": {
+                        "Name": "iceandfire:silver_ore"
+                      }
+                    },
+                    {
+                      "weight": 8,
+                      "data": {
+                        "Name": "appliedenergistics2:charged_quartz_ore"
+                      }
+                    },
+                    {
+                      "weight": 9,
+                      "data": {
+                        "Name": "appliedenergistics2:quartz_ore"
+                      }
+                    },
+                    {
+                      "weight": 7,
+                      "data": {
+                        "Name": "druidcraft:amber_ore"
+                      }
+                    },
+                    {
+                      "weight": 10,
+                      "data": {
+                        "Name": "druidcraft:fiery_glass_ore"
+                      }
+                    },
+                    {
+                      "weight": 6,
+                      "data": {
+                        "Name": "druidcraft:moonstone_ore"
+                      }
+                    },
+                    {
+                      "weight": 2,
+                      "data": {
+                        "Name": "good_nights_sleep:negatite_ore"
+                      }
+                    },
+                    {
+                      "weight": 9,
+                      "data": {
+                        "Name": "iceandfire:sapphire_ore"
+                      }
+                    },
+                    {
+                      "weight": 10,
+                      "data": {
+                        "Name": "mekanism:fluorite_ore"
+                      }
+                    },
+                    {
+                      "weight": 8,
+                      "data": {
+                        "Name": "minecraft:diamond_ore"
+                      }
+                    },
+                    {
+                      "weight": 8,
+                      "data": {
+                        "Name": "minecraft:emerald_ore"
+                      }
+                    },
+                    {
+                      "weight": 10,
+                      "data": {
+                        "Name": "minecraft:lapis_ore"
+                      }
+                    },
+                    {
+                      "weight": 9,
+                      "data": {
+                        "Name": "iceandfire:amythest_ore"
+                      }
+                    },
+                    {
+                      "weight": 10,
+                      "data": {
+                        "Name": "ars_nouveau:arcane_ore"
+                      }
+                    },
+                    {
+                      "weight": 9,
+                      "data": {
+                        "Name": "astralsorcery:rock_crystal_ore"
+                      }
+                    },
+                    {
+                      "weight": 11,
+                      "data": {
+                        "Name": "druidcraft:rockroot_ore"
+                      }
+                    },
+                    {
+                      "weight": 7,
+                      "data": {
+                        "Name": "farlanders:endumium_ore"
+                      }
+                    },
+                    {
+                      "weight": 10,
+                      "data": {
+                        "Name": "forbidden_arcanus:arcane_crystal_ore"
+                      }
+                    },
+                    {
+                      "weight": 7,
+                      "data": {
+                        "Name": "forbidden_arcanus:runestone"
+                      }
+                    },
+                    {
+                      "weight": 1,
+                      "data": {
+                        "Name": "forbidden_arcanus:xpetrified_ore"
+                      }
+                    },
+                    {
+                      "weight": 4,
+                      "data": {
+                        "Name": "good_nights_sleep:necrum_ore"
+                      }
+                    },
+                    {
+                      "weight": 4,
+                      "data": {
+                        "Name": "good_nights_sleep:zitrite_ore"
+                      }
+                    },
+                    {
+                      "weight": 6,
+                      "data": {
+                        "Name": "rats:oratchalcum_ore"
+                      }
+                    },
+                    {
+                      "weight": 5,
+                      "data": {
+                        "Name": "weeping_angels:kontron_ore"
+                      }
+                    }
+                  ],
+                  "type": "minecraft:weighted_state_provider"
+                },
+                "seed": 42,
+                "height_multiplier": 1.0
+              },
+              "type": "byg:tall_pointed_rock"
+            },
+            "chance": 0.25
+          }
+        ],
+        "default": {
+          "config": {
+            "block_provider": {
+              "entries": [
+                {
+                  "weight": 99,
+                  "data": {
+                    "Name": "minecraft:stone"
+                  }
+                },
+                {
+                  "weight": 14,
+                  "data": {
+                    "Name": "create:zinc_ore"
+                  }
+                },
+                {
+                  "weight": 14,
+                  "data": {
+                    "Name": "immersiveengineering:ore_aluminum"
+                  }
+                },
+                {
+                  "weight": 12,
+                  "data": {
+                    "Name": "immersiveengineering:ore_nickel"
+                  }
+                },
+                {
+                  "weight": 12,
+                  "data": {
+                    "Name": "eidolon:lead_ore"
+                  }
+                },
+                {
+                  "weight": 12,
+                  "data": {
+                    "Name": "mekanism:osmium_ore"
+                  }
+                },
+                {
+                  "weight": 12,
+                  "data": {
+                    "Name": "mekanism:uranium_ore"
+                  }
+                },
+                {
+                  "weight": 11,
+                  "data": {
+                    "Name": "minecraft:gold_ore"
+                  }
+                },
+                {
+                  "weight": 13,
+                  "data": {
+                    "Name": "minecraft:iron_ore"
+                  }
+                },
+                {
+                  "weight": 14,
+                  "data": {
+                    "Name": "mekanism:tin_ore"
+                  }
+                },
+                {
+                  "weight": 11,
+                  "data": {
+                    "Name": "iceandfire:silver_ore"
+                  }
+                },
+                {
+                  "weight": 8,
+                  "data": {
+                    "Name": "appliedenergistics2:charged_quartz_ore"
+                  }
+                },
+                {
+                  "weight": 9,
+                  "data": {
+                    "Name": "appliedenergistics2:quartz_ore"
+                  }
+                },
+                {
+                  "weight": 7,
+                  "data": {
+                    "Name": "druidcraft:amber_ore"
+                  }
+                },
+                {
+                  "weight": 10,
+                  "data": {
+                    "Name": "druidcraft:fiery_glass_ore"
+                  }
+                },
+                {
+                  "weight": 6,
+                  "data": {
+                    "Name": "druidcraft:moonstone_ore"
+                  }
+                },
+                {
+                  "weight": 2,
+                  "data": {
+                    "Name": "good_nights_sleep:negatite_ore"
+                  }
+                },
+                {
+                  "weight": 9,
+                  "data": {
+                    "Name": "iceandfire:sapphire_ore"
+                  }
+                },
+                {
+                  "weight": 10,
+                  "data": {
+                    "Name": "mekanism:fluorite_ore"
+                  }
+                },
+                {
+                  "weight": 8,
+                  "data": {
+                    "Name": "minecraft:diamond_ore"
+                  }
+                },
+                {
+                  "weight": 8,
+                  "data": {
+                    "Name": "minecraft:emerald_ore"
+                  }
+                },
+                {
+                  "weight": 10,
+                  "data": {
+                    "Name": "minecraft:lapis_ore"
+                  }
+                },
+                {
+                  "weight": 9,
+                  "data": {
+                    "Name": "iceandfire:amythest_ore"
+                  }
+                },
+                {
+                  "weight": 10,
+                  "data": {
+                    "Name": "ars_nouveau:arcane_ore"
+                  }
+                },
+                {
+                  "weight": 9,
+                  "data": {
+                    "Name": "astralsorcery:rock_crystal_ore"
+                  }
+                },
+                {
+                  "weight": 11,
+                  "data": {
+                    "Name": "druidcraft:rockroot_ore"
+                  }
+                },
+                {
+                  "weight": 7,
+                  "data": {
+                    "Name": "farlanders:endumium_ore"
+                  }
+                },
+                {
+                  "weight": 10,
+                  "data": {
+                    "Name": "forbidden_arcanus:arcane_crystal_ore"
+                  }
+                },
+                {
+                  "weight": 7,
+                  "data": {
+                    "Name": "forbidden_arcanus:runestone"
+                  }
+                },
+                {
+                  "weight": 1,
+                  "data": {
+                    "Name": "forbidden_arcanus:xpetrified_ore"
+                  }
+                },
+                {
+                  "weight": 4,
+                  "data": {
+                    "Name": "good_nights_sleep:necrum_ore"
+                  }
+                },
+                {
+                  "weight": 4,
+                  "data": {
+                    "Name": "good_nights_sleep:zitrite_ore"
+                  }
+                },
+                {
+                  "weight": 6,
+                  "data": {
+                    "Name": "rats:oratchalcum_ore"
+                  }
+                },
+                {
+                  "weight": 5,
+                  "data": {
+                    "Name": "weeping_angels:kontron_ore"
+                  }
+                }
+              ],
+              "type": "minecraft:weighted_state_provider"
+            },
+            "seed": 88,
+            "height_multiplier": 1.0
+          },
+          "type": "byg:pointed_rock"
+        }
+      },
+      "type": "minecraft:random_selector"
+    },
+    "decorator": {
+      "config": {
+        "count": 28,
+        "extra_chance": 0.1,
+        "extra_count": 1
+      },
+      "type": "byg:ocean_floor_count_extra"
+    }
+  },
+  "type": "minecraft:decorated"
+}

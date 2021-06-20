@@ -6,13 +6,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "doom:argent_energy",
-                    "weight": 15
+                    "name": "doom:argent_energy"
                 },
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:stone",
-                    "weight": 30,
                     "functions": [
                         {
                             "function": "minecraft:set_count",
@@ -22,10 +20,6 @@
                             }
                         }
                     ]
-                },
-                {
-                    "type": "minecraft:empty",
-                    "weight": 55
                 }
             ],
             "conditions": [

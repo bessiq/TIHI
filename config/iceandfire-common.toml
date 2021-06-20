@@ -86,7 +86,7 @@
 	"Generate Dragon Skeletons" = true
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Spawn Cyclops Cave Chance" = 120
+	"Spawn Cyclops Cave Chance" = 88
 	#True if myrmex colonies are allowed to spawn
 	"Spawn Myrmex" = true
 	#Default attack strength of a dragonsteel sword.
@@ -163,7 +163,7 @@
 	"Dragon Flight Speed Modifier" = 1.0
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Spawn Wandering Cyclops Chance" = 300
+	"Spawn Wandering Cyclops Chance" = 320
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
 	"Spawn Gorgon Chance" = 200
@@ -352,7 +352,7 @@
 	"Dragon Attack Damage" = 25
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Spawn Sirens Chance" = 300
+	"Spawn Sirens Chance" = 290
 	#Maximum troll health
 	#Range: 1.0 ~ 10000.0
 	"Troll Max Health" = 75.0

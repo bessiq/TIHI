@@ -2,7 +2,7 @@
   "scale": 1,
   "effects": {
     "sky_color": 0,
-    "fog_color": 42113,
+    "fog_color": 42,
     "water_color": 12840163,
     "water_fog_color": 12840163,
     "mood_sound": {
@@ -13,12 +13,12 @@
     },
     "additions_sound": {
       "sound": "tihi:ambient.tb_hehe",
-      "tick_chance": 0.0003
+      "tick_chance": 0.0002
     },
     "music": {
       "sound": "tihi:music.tb_lofi",
-      "min_delay": 12000,
-      "max_delay": 24000,
+      "min_delay": 4200,
+      "max_delay": 8800,
       "replace_current_music": true
     }
   },
@@ -30,10 +30,12 @@
     ]
   },
   "features": [
-    [],
     [
-      "tihi:misc/lake_lava",
-      "tihi:misc/lake_water"
+      "tihi:misc/tb_spikes"
+    ],
+    [
+      "tihi:misc/pool_lava",
+      "tihi:misc/pool_water"
     ],
     [],
     [
@@ -45,7 +47,6 @@
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
       "minecraft:end_island_decorated",
-      "minecraft:ore_infested",
       "minecraft:fossil"
     ],
     [
@@ -162,6 +163,7 @@
       "tihi:ores/ore_nether_anthracite",
       "tihi:ores/ore_nether_cobalt",
       "tihi:ores/ore_nether_gold",
+      "tihi:ores/ore_nether_pendorite",
       "tihi:ores/ore_nether_quartz",
       "tihi:ores/ore_ow_aquamarine",
       "tihi:ores/ore_ug_cloggrum",
@@ -174,22 +176,20 @@
       "tihi:ores/ore_ug_utherium"
     ],
     [
+      "minecraft:ore_infested"
+    ],
+    [
       "tihi:misc/fire",
       "tihi:misc/fire_boric",
       "tihi:misc/fire_cryptic",
+      "tihi:misc/fire_soul",
       "tihi:misc/spring_water",
       "tihi:misc/spring_lava",
       "tihi:misc/spring_closed",
       "tihi:misc/spring_open"
     ]
   ],
-  "starts": [
-    "quark:big_dungeon",
-    "dungeons_plus:bigger_dungeon",
-    "eidolon:catacomb",
-    "mowziesmobs:wrought_chamber",
-    "inventorypets:underground_dungeon"
-  ],
+  "starts": [],
   "spawners": {
     "monster": [
       {
@@ -244,7 +244,7 @@
         "type": "minecraft:phantom",
         "weight": 16,
         "minCount": 1,
-        "maxCount": 3
+        "maxCount": 2
       },
       {
         "type": "minecraft:ghast",
@@ -271,8 +271,14 @@
         "maxCount": 1
       },
       {
+        "type": "quark:forgotten",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
         "type": "iceandfire:troll",
-        "weight": 15,
+        "weight": 18,
         "minCount": 1,
         "maxCount": 1
       },
@@ -290,19 +296,19 @@
       },
       {
         "type": "rats:pied_piper",
-        "weight": 21,
+        "weight": 30,
         "minCount": 1,
         "maxCount": 1
       },
       {
         "type": "rats:rat",
-        "weight": 23,
+        "weight": 32,
         "minCount": 1,
         "maxCount": 2
       },
       {
         "type": "rats:demon_rat",
-        "weight": 15,
+        "weight": 22,
         "minCount": 1,
         "maxCount": 2
       },
@@ -350,8 +356,8 @@
       },
       {
         "type": "yeeter:tnt_yeeter",
-        "weight": 55,
-        "minCount": 2,
+        "weight": 42,
+        "minCount": 1,
         "maxCount": 3
       },
       {
@@ -365,13 +371,13 @@
     "ambient": [
       {
         "type": "minecraft:bat",
-        "weight": 8,
+        "weight": 6,
         "minCount": 2,
         "maxCount": 3
       },
       {
         "type": "statues:statue_bat",
-        "weight": 4,
+        "weight": 2,
         "minCount": 1,
         "maxCount": 2
       }
@@ -389,12 +395,28 @@
       "energy_budget": 0.03,
       "charge": 0.7
     },
+    "quark:forgotten": {
+      "energy_budget": 0.10,
+      "charge": 0.7
+    },
     "riskofrainmod:lemurian": {
       "energy_budget": 0.13,
       "charge": 0.7
     },
+    "ars_nouveau:wilden_stalker": {
+      "energy_budget": 0.13,
+      "charge": 0.7
+    },
+    "ars_nouveau:wilden_guardian": {
+      "energy_budget": 0.13,
+      "charge": 0.7
+    },
+    "ars_nouveau:wilden_hunter": {
+      "energy_budget": 0.12,
+      "charge": 0.7
+    },
     "goblintraders:goblin_trader": {
-      "energy_budget": 0.01,
+      "energy_budget": 0.02,
       "charge": 0.7
     },
     "eyesinthedarkness:eyes": {

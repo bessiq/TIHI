@@ -1,0 +1,69 @@
+{
+	id: "01E7B48016AC0022"
+	group: "7AD42FB203A77469"
+	order_index: 0
+	filename: "the_nether"
+	title: "The Nether"
+	icon: "minecraft:netherrack"
+	default_quest_shape: ""
+	quests: [
+		{
+			title: "Go To Hell!"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Enter the Nether."
+			description: ["Traditional Nether portals sadly will not work in this world. You must travel into the depths of the Overworld and seek out Nether rifts - they are somewhat rare, but you will know one when you see it. Probably."]
+			id: "0000000000000010"
+			tasks: [{
+				id: "0000000000000011"
+				type: "dimension"
+				title: "This is not the way."
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [{
+				id: "112A5AC691C12871"
+				type: "loot"
+				table_id: 52L
+			}]
+		}
+		{
+			title: "Get the hell outta here!"
+			x: 0.0d
+			y: 1.1d
+			subtitle: "Escape the Nether."
+			description: ["If you wanna leave the Nether, search for a Monolith. They project a beam into the sky, much like a beacon. Power the Reclaimer in the center of the Monolith by placing gold blocks on all 4 sides. Step into the activated beam. Ascend into the Overworld!"]
+			id: "621F85F3E09E3C7E"
+			tasks: [{
+				id: "7FAFB49145947C2A"
+				type: "observation"
+				title: "Find one of these thingies."
+				icon: "betterportals:reclaimer"
+				timer: 0L
+				observe: "block:betterportals:reclaimer_block"
+			}]
+			rewards: [{
+				id: "0EB758E7A106B41D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Rip \\& Tear!"
+			x: 1.7d
+			y: 0.0d
+			subtitle: "Obtain some Argent Energy,"
+			description: ["As if the Nether wasn't bad enough..."]
+			id: "166C3B21CEDC31F5"
+			tasks: [{
+				id: "7A2A13B57424C217"
+				type: "item"
+				item: "doom:argent_energy"
+			}]
+			rewards: [{
+				id: "7F2303B0089BEA10"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+	]
+}

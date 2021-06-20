@@ -1,0 +1,47 @@
+{
+	id: "65FDF8C466F76E75"
+	group: "7AD42FB203A77469"
+	order_index: 3
+	filename: "the_gaia_dimension"
+	title: "The Gaia Dimension"
+	icon: "gaiadimension:keystone_block"
+	default_quest_shape: ""
+	quests: [{
+		title: "Permanent Sunshine"
+		icon: "gaiadimension:bismuth_block"
+		x: 1.5d
+		y: -1.2d
+		subtitle: "Go to Gaia."
+		description: ["Gaia's gateway is built and activated similarly to a traditional Nether portal, but will only work in dry, hot, or mountainous regions. So random!"]
+		hide: true
+		dependency_requirement: "one_completed"
+		id: "000000000000001C"
+		tasks: [
+			{
+				id: "1F178F68D1CB48D8"
+				type: "item"
+				title: "Build the gateway."
+				item: "gaiadimension:keystone_block"
+				count: 12L
+			}
+			{
+				id: "4EDD7009EE3B4B04"
+				type: "dimension"
+				title: "Activate the portal."
+				icon: {
+					id: "gaiadimension:glint_and_gold"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				dimension: "gaiadimension:gaia_dimension"
+			}
+		]
+		rewards: [{
+			id: "2470A484345CF82D"
+			type: "loot"
+			table_id: 52L
+		}]
+	}]
+}

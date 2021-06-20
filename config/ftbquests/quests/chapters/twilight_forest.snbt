@@ -1,0 +1,29 @@
+{
+	id: "1B6B54EE1B8550DD"
+	group: "7AD42FB203A77469"
+	order_index: 6
+	filename: "twilight_forest"
+	title: "Twilight Forest"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	default_quest_shape: ""
+	quests: [{
+		title: "Disney's Dark Side"
+		x: 1.0d
+		y: -0.3d
+		subtitle: "It's the Twilight Forest, y'all!"
+		description: ["A diamond just ain't gonna cut it these days. But some stardust might do the trick!"]
+		id: "481D343575D0587E"
+		tasks: [{
+			id: "3CCD9F3B5CD056EA"
+			type: "dimension"
+			title: "Visit the Twilight Forest"
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			dimension: "twilighforest:twilightforest"
+		}]
+		rewards: [{
+			id: "30B1DA8413165BC3"
+			type: "loot"
+			table_id: 52L
+		}]
+	}]
+}

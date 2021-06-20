@@ -73,7 +73,7 @@
 	SPIDER_DEMON = ["|#nether"]
 	UNWILLING = ["|#nether"]
 	ZOMBIEMAN = ["|#nether"]
-	SPECTRE = ["|#nether", "|minecraft:end_midlands"]
+	SPECTRE = ["|#nether", "|tihi:mutated_midlands"]
 	CUEBALL = ["|#nether"]
 	PROWLER = ["|#nether", "|dimdungeons:biome_dungeon"]
 	IMP_STONE = ["|minecraft:basalt_deltas", "|tihi:terribadia"]

@@ -6,12 +6,33 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "doom:bfg_eternal",
-                    "weight": 42
+                    "name": "doom:bfg_eternal"
                 },
                 {
-                    "type": "minecraft:empty",
-                    "weight": 58
+                    "type": "minecraft:item",
+                    "name": "minecraft:netherite_scrap",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 5,
+                                "max": 10
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "doom:argent_energy",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 5,
+                                "max": 10
+                            }
+                        }
+                    ]
                 }
             ],
             "conditions": [
@@ -26,11 +47,11 @@
                 {
                     "type": "minecraft:item",
                     "name": "doom:argent_energy",
-                    "weight": 66
+                    "weight": 70
                 },
                 {
                     "type": "minecraft:empty",
-                    "weight": 34
+                    "weight": 30
                 }
             ],
             "conditions": [

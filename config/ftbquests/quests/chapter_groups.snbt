@@ -1,3 +1,7 @@
 {
-	chapter_groups: []
+	chapter_groups: [
+		{ id: "5008F560D465A15F", title: "Thanks! I Hate It" }
+		{ id: "7AD42FB203A77469", title: "Multiverse of Madness" }
+		{ id: "1E4A8205B21B95CF", title: "Man vs. Machine" }
+	]
 }

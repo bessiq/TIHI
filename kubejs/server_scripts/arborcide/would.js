@@ -42,6 +42,12 @@ const byg_logs = [
     'zelkova',
 ];
 
+
+const atum_logs = [
+    'deadwood',
+    'palm',
+]
+
 const ars_logs = [
     'blue_archwood',
     'green_archwood',

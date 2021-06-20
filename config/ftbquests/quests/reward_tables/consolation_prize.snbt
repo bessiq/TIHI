@@ -1,0 +1,58 @@
+{
+	id: "00D274EE1F40C781"
+	order_index: 1
+	title: "Consolation Prize"
+	icon: "good_nights_sleep:present"
+	loot_size: 3
+	hide_tooltip: true
+	rewards: [
+		{ item: "minecraft:coal", count: 2, weight: 25 }
+		{ item: "minecraft:stick", count: 10, weight: 40 }
+		{
+			item: {
+				id: "minecraft:fishing_rod"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 15
+		}
+		{
+			title: "YEET!"
+			icon: "minecraft:grindstone"
+			command: "/summon yeeter:tnt_yeeter @p 3 ~ 3"
+			player_command: false
+			type: "command"
+			weight: 12
+		}
+		{ item: "randomloot:basic_case", weight: 12 }
+		{
+			item: {
+				id: "mekanismtools:stone_paxel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 12
+		}
+		{
+			title: "Safety First!"
+			icon: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "goblintraders:absorption"
+				}
+			}
+			command: "/effect give @p minecraft:absorption 180 0 true"
+			player_command: false
+			type: "command"
+			weight: 12
+		}
+		{ item: "ars_nouveau:experience_gem", weight: 20 }
+		{ item: "ars_nouveau:greater_experience_gem", weight: 15 }
+		{ item: "forbidden_arcanus:xpetrified_orb", weight: 10 }
+	]
+}

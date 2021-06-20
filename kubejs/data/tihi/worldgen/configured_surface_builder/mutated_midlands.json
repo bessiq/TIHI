@@ -1,0 +1,14 @@
+{
+  "config": {
+    "top_material": {
+      "Name": "quark:basalt"
+    },
+    "under_material": {
+      "Name": "quark:basalt"
+    },
+    "underwater_material": {
+      "Name": "quark:basalt"
+    }
+  },
+  "type": "minecraft:default"
+}

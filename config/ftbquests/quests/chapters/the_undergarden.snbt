@@ -1,0 +1,39 @@
+{
+	id: "6108091CCBDD6AAC"
+	group: "7AD42FB203A77469"
+	order_index: 7
+	filename: "the_undergarden"
+	title: "The Undergarden"
+	icon: "undergarden:catalyst"
+	default_quest_shape: ""
+	quests: [{
+		title: "The Land Down Under"
+		x: 0.5d
+		y: 0.6d
+		subtitle: "Travel to the Undergarden."
+		description: ["Build a frame similar to a traditional Nether portal, using Stone Bricks instead of Obsidian. Then activate it with a Catalyst. Whether you go through the portal or not is up to you."]
+		hide: true
+		dependency_requirement: "one_completed"
+		id: "0000000000000019"
+		tasks: [
+			{
+				id: "49129160284D53DD"
+				type: "item"
+				title: "No, it's not Original Recipe."
+				item: "undergarden:catalyst"
+			}
+			{
+				id: "3129E22812535F46"
+				type: "dimension"
+				title: "Get to the garden - the Undergarden."
+				icon: "undergarden:depthrock"
+				dimension: "undergarden:undergarden"
+			}
+		]
+		rewards: [{
+			id: "694EAFE0D12566D1"
+			type: "loot"
+			table_id: 52L
+		}]
+	}]
+}

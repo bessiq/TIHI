@@ -13,7 +13,6 @@ onEvent('recipes', event => {
     event.replaceInput({ output: 'druidcraft:blueberry_muffin' }, 'minecraft:wheat', '#forge:dough')
     event.replaceInput({ output: 'minecraft:cake' }, 'minecraft:wheat', '#forge:dough')
     event.replaceInput({ output: 'minecraft:cookie' }, 'minecraft:wheat', '#forge:dough')
-    event.replaceInput({ id: 'minecolonies:blockhutbaker' }, 'minecraft:wheat', '#forge:dough')
     event.replaceInput({ id: 'rats:rat_cage' }, 'minecraft:wheat', 'farmersdelight:straw')
     event.remove({ type: 'minecraft:crafting_shaped', output: 'minecraft:bread' })
     event.remove({ type: 'minecraft:crafting_shapeless', output: 'minecraft:bread' })

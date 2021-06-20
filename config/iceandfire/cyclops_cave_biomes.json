@@ -46,7 +46,14 @@
       {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "minecraft:mushroom_field_shore"
+        "value": "byg:great_lake_isles"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:fresh_water_lake"
       }
     ]
   ]

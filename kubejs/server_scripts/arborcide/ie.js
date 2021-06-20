@@ -87,6 +87,14 @@ onEvent('recipes', event => {
         ie_saw('ars_nouveau:archwood_planks', 'ars_nouveau:archwood_stairs', [{ stripping: false, output: sawdust }])
     })
 
+    // atum
+    atum_logs.forEach((atum_log) => {
+        ie_saw(item.of('atum:' + atum_log + '_planks', 6), 'atum:' + atum_log + '_log', [{ stripping: true, output: sawdust }], 'atum:stripped_' + atum_log + '_log')
+        ie_saw(item.of('atum:' + atum_log + '_planks', 6), 'atum:' + atum_log + '_wood', [{ stripping: true, output: sawdust }], 'atum:stripped_' + atum_log + '_wood')
+        ie_saw('atum:' + atum_log + '_planks', 'atum:' + atum_log + '_door', [{ stripping: false, output: sawdust }])
+        ie_saw('atum:' + atum_log + '_planks', 'atum:' + atum_log + '_stairs', [{ stripping: false, output: sawdust }])
+    })
+
     // druidcraft
     dc_logs.forEach((dc_log) => {
         ie_saw(item.of('druidcraft:' + dc_log + '_planks', 6), 'druidcraft:' + dc_log + '_log', [{ stripping: true, output: sawdust }], 'druidcraft:stripped_' + dc_log + '_log')
@@ -144,8 +152,8 @@ onEvent('recipes', event => {
         ie_saw('undergarden:' + ug_log + '_planks', 'undergarden:' + ug_log + '_stairs', [{ stripping: false, output: sawdust }])
     })
 
-    ie_saw(item.of('undergarden:grongle_planks', 6), 'undergarden:grongle_stem', [{ stripping: true, output: sawdust }], 'undergarden:stripped_grongle_stem')
-    ie_saw(item.of('undergarden:grongle_planks', 6), 'undergarden:grongle_hyphae', [{ stripping: true, output: sawdust }], 'undergarden:stripped_grongle_hyphae')
+    ie_saw(item.of('undergarden:grongle_planks', 6), 'undergarden:grongle_log', [{ stripping: true, output: sawdust }], 'undergarden:stripped_grongle_log')
+    ie_saw(item.of('undergarden:grongle_planks', 6), 'undergarden:grongle_wood', [{ stripping: true, output: sawdust }], 'undergarden:stripped_grongle_wood')
     ie_saw('undergarden:grongle_planks', 'undergarden:grongle_door', [{ stripping: false, output: sawdust }])
     ie_saw('undergarden:grongle_planks', 'undergarden:grongle_stairs', [{ stripping: false, output: sawdust }])
 

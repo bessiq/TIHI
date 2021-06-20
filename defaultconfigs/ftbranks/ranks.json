@@ -2,20 +2,46 @@
   "kthx": {
     "name": "kthx",
     "power": 1,
-    "ftbchunks.max_claimed": 12
+    "condition": {
+      "type": "always_active"
+    },
+    "ftbchunks.max_claimed": 5,
+    "ftbchunks.max_force_loaded": 0,
+    "ftbranks.name_format": "<{name}>"
   },
   "hater": {
     "name": "Hater",
     "power": 50,
-    "ftbchunks.max_claimed": 42,
-    "ftbchunks.max_force_loaded": 5
+    "condition": {
+      "type": "playtime",
+      "time": 3,
+      "time_unit": "days"
+    },
+    "ftbchunks.max_claimed": 10,
+    "ftbchunks.max_force_loaded": 5,
+    "ftbranks.name_format": "<&bHater {name}&r>"
+  },
+  "thankful": {
+    "name": "Thankful",
+    "power": 100,
+    "condition": {
+      "type": "playtime",
+      "time": 7,
+      "time_unit": "days"
+    },
+    "ftbchunks.max_claimed": 20,
+    "ftbchunks.max_force_loaded": 10,
+    "ftbranks.name_format": "<&b{name} the Thankful&r>"
   },
   "admin": {
     "name": "42",
     "power": 1000,
-    "condition": "op",
+    "condition": {
+      "type": "op"
+    },
     "command.ftbranks": true,
     "ftbchunks.max_claimed": 100,
-    "ftbchunks.max_force_loaded": 50
+    "ftbchunks.max_force_loaded": 50,
+    "ftbranks.name_format": "<&2{name}&r>"
   }
 }

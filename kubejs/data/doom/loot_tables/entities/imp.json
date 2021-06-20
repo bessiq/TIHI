@@ -7,11 +7,11 @@
                 {
                     "type": "minecraft:item",
                     "name": "doom:argent_energy",
-                    "weight": 10
+                    "weight": 20
                 },
                 {
                     "type": "minecraft:empty",
-                    "weight": 90
+                    "weight": 80
                 }
             ],
             "conditions": [

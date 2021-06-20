@@ -13,10 +13,10 @@
       "item": "gaiadimension:crystallized_redstone"
     },
     "#": {
-      "item": "tconstruct:cobalt_ingot"
+      "tag": "forge:nuggets/cobalt"
     },
     "k": {
-      "tag": "forge:ingots/refined_glowstone"
+      "tag": "forge:nuggets/refined_glowstone"
     }
   },
   "result": {

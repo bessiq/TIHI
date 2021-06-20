@@ -1,249 +1,67 @@
 {
-	id: "0000000000000008",
-	group: "",
-	order_index: 0,
-	filename: "tihi",
-	title: "TIHI",
-	icon: "teletubbies:toast",
-	subtitle: ["Thanks! I Hate It"],
-	default_quest_shape: "",
+	id: "0000000000000008"
+	group: "5008F560D465A15F"
+	order_index: 0
+	filename: "tihi"
+	title: "TIHI"
+	icon: "teletubbies:toast"
+	subtitle: ["Thanks! I Hate It"]
+	default_quest_shape: ""
 	quests: [
 		{
-			title: "Thanks For Hating It!",
-			icon: "tihi:red_clay_ball",
-			x: 0.0d,
-			y: -0.3d,
-			shape: "hexagon",
-			subtitle: "Well, you might not hate it...yet.",
-			id: "0000000000000009",
+			title: "Thanks For Hating It!"
+			icon: "tihi:red_clay_ball"
+			x: 0.0d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "Well, you might not hate it...yet."
+			id: "0000000000000009"
 			tasks: [{
-				id: "000000000000000A",
-				type: "dimension",
-				title: "Play a modpack of questionable quality.",
-				icon: "tihi:red_clay_ball",
+				id: "000000000000000A"
+				type: "dimension"
+				title: "Play a modpack of questionable quality."
+				icon: "tihi:red_clay_ball"
 				dimension: "minecraft:overworld"
 			}]
-		},
-		{
-			title: "Go To Hell!",
-			x: -0.5d,
-			y: 0.6d,
-			hide: false,
-			id: "0000000000000010",
-			tasks: [{
-				id: "0000000000000011",
-				type: "dimension",
-				title: "Travel to the Nether.",
-				dimension: "minecraft:the_nether"
-			}],
 			rewards: [{
-				id: "112A5AC691C12871",
-				type: "loot",
-				table_id: 52L
-			}]
-		},
-		{
-			title: "End It All",
-			icon: "minecraft:end_crystal",
-			x: 0.5d,
-			y: -3.0d,
-			hide: true,
-			id: "0000000000000013",
-			tasks: [{
-				id: "0000000000000014",
-				type: "dimension",
-				title: "Reach The End.",
-				icon: "minecraft:end_portal_frame",
-				dimension: "minecraft:the_end"
-			}],
-			rewards: [{
-				id: "0000000000000015",
+				id: "1E1E431E66E127AC"
 				type: "loot"
+				table_id: 59238311184615297L
 			}]
-		},
+		}
 		{
-			title: "Haha Funny Rat Dimension",
-			x: -1.0d,
-			y: -0.3d,
-			hide: true,
-			dependency_requirement: "one_completed",
-			id: "0000000000000016",
+			title: "Conflict Resolution"
+			icon: "engineersdecor:metal_crafting_table"
+			x: -4.4d
+			y: -1.3d
+			subtitle: "Solve your recipe problems with \\\\m/etal!"
+			description: ["This crafting table allows you to select the desired recipe output - useful when modpack devs are too lame/lazy/driven-to-insanity to fix recipe conflicts!"]
+			id: "0000000000000031"
 			tasks: [{
-				id: "0000000000000017",
-				type: "dimension",
-				title: "Visit Ratlantis.",
-				icon: "rats:chunky_cheese_token",
-				dimension: "rats:ratlantis"
-			}],
-			rewards: [{
-				id: "3A03C8AF1928E942",
-				type: "loot",
-				table_id: 52L
-			}]
-		},
-		{
-			title: "The Land Down Under",
-			x: 0.5d,
-			y: 0.6d,
-			hide: true,
-			dependency_requirement: "one_completed",
-			id: "0000000000000019",
-			tasks: [{
-				id: "000000000000001A",
-				type: "dimension",
-				title: "Travel to the Undergarden.",
-				icon: {
-					id: "undergarden:catalyst",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				},
-				dimension: "undergarden:undergarden"
-			}],
-			rewards: [{
-				id: "694EAFE0D12566D1",
-				type: "loot",
-				table_id: 52L
-			}]
-		},
-		{
-			title: "Permanent Sunshine",
-			x: 0.0d,
-			y: -2.1d,
-			hide: true,
-			dependency_requirement: "one_completed",
-			id: "000000000000001C",
-			tasks: [{
-				id: "000000000000001D",
-				type: "dimension",
-				title: "Go to Gaia.",
-				icon: "gaiadimension:keystone_block",
-				dimension: "gaiadimension:gaia_dimension"
-			}],
-			rewards: [{
-				id: "2470A484345CF82D",
-				type: "loot",
-				table_id: 52L
-			}]
-		},
-		{
-			title: "Sweet Dreams",
-			x: -0.5d,
-			y: -1.2d,
-			hide: true,
-			id: "000000000000001F",
-			tasks: [{
-				id: "0000000000000020",
-				type: "dimension",
-				title: "Have a Good Dream.",
-				icon: "good_nights_sleep:candy_block",
-				dimension: "good_nights_sleep:good_dream"
-			}],
-			rewards: [{
-				id: "0000000000000021",
-				type: "loot",
-				table_id: 52L
-			}]
-		},
-		{
-			title: "Nightmare Fuel",
-			x: 0.5d,
-			y: -1.2d,
-			hide: true,
-			id: "0000000000000022",
-			tasks: [{
-				id: "0000000000000023",
-				type: "dimension",
-				title: "Experience a Nightmare.",
-				icon: "good_nights_sleep:necrum_block",
-				dimension: "good_nights_sleep:nightmare"
-			}],
-			rewards: [{
-				id: "3B9489BBDAFB19C0",
-				type: "loot",
-				table_id: 52L
-			}]
-		},
-		{
-			title: "Dragon Deletion",
-			icon: "minecraft:dragon_head",
-			x: 2.0d,
-			y: -3.1d,
-			id: "000000000000002A",
-			tasks: [{
-				id: "000000000000002B",
-				type: "advancement",
-				title: "End The Ender Dragon.",
-				icon: "minecraft:dragon_head",
-				advancement: "minecraft:end/kill_dragon",
-				criterion: ""
-			}],
-			rewards: [
-				{
-					id: "000000000000002C",
-					type: "loot"
-				},
-				{
-					id: "000000000000002D",
-					type: "xp",
-					xp: 100
-				}
-			]
-		},
-		{
-			title: "Come On Down To Shulkertown",
-			icon: "statues:shulker_statue",
-			x: -1.5d,
-			y: -3.4d,
-			hide_dependency_lines: true,
-			hide: true,
-			id: "000000000000002E",
-			tasks: [{
-				id: "000000000000002F",
-				type: "advancement",
-				title: "Find an End City.",
-				icon: "statues:shulker_statue",
-				advancement: "minecraft:end/find_end_city",
-				criterion: ""
-			}],
-			rewards: [{
-				id: "0000000000000030",
-				type: "xp",
-				xp: 10
-			}]
-		},
-		{
-			title: "Conflict Resolution",
-			icon: "engineersdecor:metal_crafting_table",
-			x: -4.4d,
-			y: -1.3d,
-			subtitle: "Solve your recipe problems with \\m/etal!",
-			description: ["This crafting table allows you to select the desired recipe output - useful when modpack devs are too lame/lazy/driven-to-insanity to fix recipe conflicts!"],
-			id: "0000000000000031",
-			tasks: [{
-				id: "0000000000000032",
-				type: "item",
+				id: "0000000000000032"
+				type: "item"
 				item: "engineersdecor:metal_crafting_table"
-			}],
-			rewards: [{
-				id: "0000000000000033",
-				type: "xp",
-				xp: 10
 			}]
-		},
+			rewards: [{
+				id: "0000000000000033"
+				type: "xp"
+				xp: 42
+			}]
+		}
 		{
-			title: "Disney's Dark Side",
-			x: 1.0d,
-			y: -0.3d,
-			subtitle: "It's the Twilight Forest, y'all!",
-			id: "481D343575D0587E",
+			title: "Terra...Badia?!"
+			icon: "tihi:tihinium"
+			x: 0.0d
+			y: -1.5d
+			subtitle: "So...yeah. This exists."
+			description: ["If for some reason you feel the need to visit this janky dimension, you may encounter monoliths in the End that will take you there. Simply activate the monolith's reclaimer by placing the appropriate block on all sides, then step into the beam."]
+			id: "7C8C398049D1D3CA"
 			tasks: [{
-				id: "3CCD9F3B5CD056EA",
-				type: "dimension",
-				title: "Visit the Twilight Forest",
-				icon: "twilightforest:twilight_portal_miniature_structure",
-				dimension: "twilighforest:twilightforest"
+				id: "105A5D871DC73E5D"
+				type: "dimension"
+				title: "Visit Terribadia."
+				icon: "tihi:tihinium"
+				dimension: "tihi:terribadia"
 			}]
 		}
 	]

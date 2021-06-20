@@ -7,13 +7,13 @@
             "feature": {
               "config": {
                 "target": {
-                  "tag": "byg:brimstone",
+                  "block": "byg:brimstone",
                   "predicate_type": "minecraft:block_match"
                 },
                 "state": {
                   "Name": "byg:boric_fire"
                 },
-                "size": 4
+                "size": 8
               },
               "type": "minecraft:ore"
             },
@@ -37,7 +37,7 @@
     },
     "decorator": {
       "config": {
-        "count": 12
+        "count": 24
       },
       "type": "minecraft:count"
     }

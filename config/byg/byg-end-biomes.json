@@ -79,6 +79,12 @@
       "weight": 5,
       "edge": "",
       "hills": []
+    },
+    "tihi:mutated_midlands": {
+      "dictionary": "END",
+      "weight": 3,
+      "edge": "",
+      "hills": []
     }
   },
   "void-biomes": {

@@ -182,6 +182,9 @@
     "chancecubes:world_infection": true,
     "chancecubes:block_thrower": true,
     "chancecubes:wheel_spin": true,
-    "yeet": true
+    "yeet": true,
+    "chancecubes:potion-works": true,
+    "chancecubes:connect_4": true,
+    "chancecubes:jar_guess": true
   }
 }

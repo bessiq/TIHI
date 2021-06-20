@@ -144,11 +144,17 @@
 			{
 				"name": "tihi:music/marketing_is",
 				"stream": true,
-				"volume": 1.0,
+				"volume": 0.8,
 				"weight": 10
 			},
 			{
 				"name": "tihi:music/tdziewiecdz",
+				"stream": true,
+				"volume": 1.0,
+				"weight": 10
+			},
+			{
+				"name": "tihi:music/yafiratu",
 				"stream": true,
 				"volume": 1.0,
 				"weight": 10

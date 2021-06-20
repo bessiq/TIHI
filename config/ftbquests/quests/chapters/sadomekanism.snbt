@@ -1,44 +1,62 @@
 {
-	id: "0000000000000002",
-	group: "",
-	order_index: 1,
-	filename: "sadomekanism",
-	title: "SadoMekanism",
-	icon: "mekanism:robit",
-	subtitle: ["Advanced machinery and tech that will make your ores into mORES!"],
-	default_quest_shape: "",
+	id: "0000000000000002"
+	group: "1E4A8205B21B95CF"
+	order_index: 0
+	filename: "sadomekanism"
+	title: "SadoMekanism"
+	icon: "mekanism:robit"
+	subtitle: ["Advanced machinery and tech that will make your ores into mORES!"]
+	default_quest_shape: ""
 	quests: [
 		{
-			title: "Osmium GET!",
-			icon: "mekanism:osmium_ore",
-			x: 0.0d,
-			y: -1.0d,
-			subtitle: "Is it real?!",
-			description: ["Mine some Osmium Ore."],
-			id: "0000000000000003",
+			title: "Osmium GET!"
+			icon: "mekanism:osmium_ore"
+			x: 0.0d
+			y: -1.0d
+			subtitle: "Is it real?!"
+			description: ["Mine some Osmium Ore."]
+			id: "0000000000000003"
 			tasks: [{
-				id: "0000000000000004",
-				type: "item",
+				id: "0000000000000004"
+				type: "item"
 				item: "mekanism:osmium_ore"
-			}],
+			}]
 			rewards: [{
-				id: "0000000000000005",
-				type: "xp_levels",
+				id: "0000000000000005"
+				type: "xp_levels"
 				xp_levels: 1
 			}]
-		},
+		}
 		{
-			title: "Fluorite, Fluorite, Fluorite",
-			icon: "mekanism:fluorite_gem",
-			x: -2.0d,
-			y: -1.0d,
-			subtitle: "Fights cavities!",
-			description: ["Mine some Fluorite Ore."],
-			id: "0000000000000006",
+			title: "Fluorite, Fluorite, Fluorite"
+			icon: "mekanism:fluorite_gem"
+			x: -2.0d
+			y: -1.0d
+			subtitle: "Fights cavities!"
+			description: ["Mine some Fluorite Ore."]
+			id: "0000000000000006"
 			tasks: [{
-				id: "0000000000000007",
-				type: "item",
+				id: "0000000000000007"
+				type: "item"
 				item: "mekanism:fluorite_gem"
+			}]
+		}
+		{
+			title: "Get a load of this!"
+			x: -1.0d
+			y: 1.1d
+			subtitle: "Craft an Anchor Upgrade."
+			description: ["Chunk loading doesn't have to be gift from FTB, ya know."]
+			id: "465E8658A65547B1"
+			tasks: [{
+				id: "6073A525DD325AF9"
+				type: "item"
+				item: "mekanism:upgrade_anchor"
+			}]
+			rewards: [{
+				id: "028F753E16E7107C"
+				type: "xp"
+				xp: 42
 			}]
 		}
 	]

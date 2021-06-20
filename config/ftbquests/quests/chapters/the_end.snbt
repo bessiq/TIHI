@@ -1,0 +1,78 @@
+{
+	id: "1134FCD1B043AB7B"
+	group: "7AD42FB203A77469"
+	order_index: 1
+	filename: "the_end"
+	title: "The End"
+	icon: "minecraft:end_portal_frame"
+	default_quest_shape: ""
+	quests: [
+		{
+			title: "End It All"
+			icon: "minecraft:end_crystal"
+			x: 0.0d
+			y: -2.1d
+			hide: true
+			id: "0000000000000013"
+			tasks: [{
+				id: "0000000000000014"
+				type: "dimension"
+				title: "Reach The End."
+				icon: "minecraft:end_portal_frame"
+				dimension: "minecraft:the_end"
+			}]
+			rewards: [{
+				id: "0000000000000015"
+				type: "loot"
+			}]
+		}
+		{
+			title: "Dragon Deletion"
+			icon: "minecraft:dragon_head"
+			x: 0.5d
+			y: -3.0d
+			id: "000000000000002A"
+			tasks: [{
+				id: "000000000000002B"
+				type: "advancement"
+				title: "End The Ender Dragon."
+				icon: "minecraft:dragon_head"
+				advancement: "minecraft:end/kill_dragon"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "000000000000002C"
+					type: "loot"
+				}
+				{
+					id: "000000000000002D"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "Come On Down To Shulkertown"
+			icon: "statues:shulker_statue"
+			x: -0.5d
+			y: -3.0d
+			hide_dependency_lines: true
+			hide: true
+			id: "000000000000002E"
+			tasks: [{
+				id: "000000000000002F"
+				type: "advancement"
+				title: "Find an End City."
+				icon: "statues:shulker_statue"
+				advancement: "minecraft:end/find_end_city"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0000000000000030"
+				type: "xp"
+				xp: 10
+			}]
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	id: "71FFE06D14DB480A"
+	group: "7AD42FB203A77469"
+	order_index: 5
+	filename: "ratlantis"
+	title: "Ratlantis"
+	icon: "rats:chunky_cheese_token"
+	default_quest_shape: ""
+	quests: [{
+		title: "Haha Funny Rat Dimension"
+		x: -1.0d
+		y: -0.3d
+		subtitle: "Reach Ratlantis."
+		description: ["Ratlantis. Atlantis. RAT-lantis. AT-lantis. Rat---OH I GET IT"]
+		hide: true
+		dependency_requirement: "one_completed"
+		id: "0000000000000016"
+		tasks: [
+			{
+				id: "2BF4B7B1A841B3B3"
+				type: "item"
+				title: "Obtain this token then THROW IT ON THE GROUND."
+				item: "rats:chunky_cheese_token"
+			}
+			{
+				id: "44F02D79DDFF681C"
+				type: "dimension"
+				title: "Up for a vacation?"
+				icon: "rats:ratlantis_portal"
+				dimension: "rats:ratlantis"
+			}
+		]
+		rewards: [{
+			id: "3A03C8AF1928E942"
+			type: "loot"
+			table_id: 52L
+		}]
+	}]
+}

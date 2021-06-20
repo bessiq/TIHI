@@ -93,9 +93,9 @@ onEvent('recipes', event => {
     event.replaceOutput({}, '#forge:tallow', 'eidolon:tallow')
     event.replaceInput({}, 'eidolon:tallow', '#forge:tallow')
     event.replaceInput({}, 'quark:tallow', '#forge:tallow')
-    event.remove({ id: 'minecolonies:supplycampdeployer' })
-    event.remove({ id: 'minecolonies:supplychestdeployer' })
     event.remove({ id: 'twilightforest:uncrafting_table' })
+    event.remove({ id: 'twilightforest:uncrafting_table' })
+    event.remove({ output: 'sonicraft:gold_ring' })
 
     /* TO DO */
     // glowcane dust crushing

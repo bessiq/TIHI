@@ -1,0 +1,68 @@
+{
+	id: "7CA8A0DB894B8828"
+	group: "7AD42FB203A77469"
+	order_index: 4
+	filename: "good_nights_sleep"
+	title: "Good Night's Sleep"
+	icon: "good_nights_sleep:candy"
+	default_quest_shape: ""
+	quests: [
+		{
+			title: "Sweet Dreams"
+			x: -0.5d
+			y: 0.9d
+			subtitle: "Have a good dream."
+			hide: true
+			id: "000000000000001F"
+			tasks: [{
+				id: "00A5D23CFC5B74C3"
+				type: "advancement"
+				advancement: "good_nights_sleep:dream/dream"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0000000000000021"
+				type: "loot"
+				table_id: 52L
+			}]
+		}
+		{
+			title: "Nightmare Fuel"
+			x: 0.5d
+			y: 0.9d
+			subtitle: "Have a bad dream."
+			hide: true
+			id: "0000000000000022"
+			tasks: [{
+				id: "558E04B9FF37EAC3"
+				type: "advancement"
+				advancement: "good_nights_sleep:nightmare/nightmare"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3B9489BBDAFB19C0"
+				type: "loot"
+				table_id: 52L
+			}]
+		}
+		{
+			title: "REM \\& RNG Sleep"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Craft a Strange Bed."
+			description: ["You might have a nice dream. You might not."]
+			id: "4F7E6D8A47203B93"
+			tasks: [{
+				id: "70AC9E3C3168514E"
+				type: "item"
+				title: "You made it. Now you have to lie in it."
+				item: "good_nights_sleep:strange_bed"
+			}]
+			rewards: [{
+				id: "31A49E6FE2DFC6BC"
+				type: "item"
+				item: "ars_nouveau:experience_gem"
+			}]
+		}
+	]
+}

@@ -21,7 +21,7 @@
 				{
 					"type": "minecraft:item",
 					"name": "lootbagmod:lootbag",
-					"weight": 3,
+					"weight": 10,
 					"conditions": [
 						{
 							"condition": "minecraft:killed_by_player"
@@ -35,7 +35,7 @@
 				},
 				{
 					"type": "empty",
-					"weight": 97
+					"weight": 90
 				}
 			]
 		},
@@ -89,7 +89,7 @@
 				},
 				{
 					"type": "empty",
-					"weight": 88
+					"weight": 66
 				}
 			]
 		}

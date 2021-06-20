@@ -2,7 +2,6 @@
     "replace": false,
     "values": [
         "create:dough",
-        "farmersdelight:wheat_dough",
-        "minecolonies:bread_dough"
+        "farmersdelight:wheat_dough"
     ]
 }

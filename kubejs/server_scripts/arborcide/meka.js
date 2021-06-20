@@ -112,6 +112,17 @@ onEvent('recipes', event => {
         meka_saw(item.of('ars_nouveau:archwood_planks', 3), 'ars_nouveau:archwood_trapdoor')
     })
 
+    // atum
+    atum_logs.forEach((atum_log) => {
+        meka_saw(item.of('atum:' + atum_log + '_planks', 6), 'atum:' + atum_log + '_log', item.of('mekanism:sawdust').withChance(0.25))
+        meka_saw(item.of('atum:' + atum_log + '_planks', 6), 'atum:' + atum_log + '_wood', item.of('mekanism:sawdust').withChance(0.25))
+        meka_saw(item.of('atum:' + atum_log + '_planks', 6), 'atum:stripped_' + atum_log + '_log', item.of('mekanism:sawdust').withChance(0.25))
+        meka_saw(item.of('atum:' + atum_log + '_planks', 2), 'atum:' + atum_log + '_door')
+        meka_saw(item.of('atum:' + atum_log + '_planks', 2), 'atum:' + atum_log + '_fence_gate', item.of('minecraft:stick', 4))
+        meka_saw(item.of('atum:' + atum_log + '_planks', 2), 'atum:' + atum_log + '_pressure_plate')
+        meka_saw(item.of('atum:' + atum_log + '_planks', 3), 'atum:' + atum_log + '_hatch')
+    })
+
     // druidcraft
     dc_logs.forEach((dc_log) => {
         meka_saw(item.of('druidcraft:' + dc_log + '_planks', 6), '#druidcraft:' + dc_log + '_logs', item.of('mekanism:sawdust').withChance(0.25))
@@ -175,7 +186,7 @@ onEvent('recipes', event => {
         meka_saw(item.of('undergarden:' + ug_log + '_planks', 3), 'undergarden:' + ug_log + '_trapdoor')
     })
 
-    meka_saw(item.of('undergarden:grongle_planks', 6), '#undergarden:grongle_stems', item.of('mekanism:sawdust').withChance(0.25))
+    meka_saw(item.of('undergarden:grongle_planks', 6), '#undergarden:grongle_logs', item.of('mekanism:sawdust').withChance(0.25))
     meka_saw(item.of('undergarden:grongle_planks', 5), 'undergarden:grongle_boat')
     meka_saw(item.of('undergarden:grongle_planks', 2), 'undergarden:grongle_door')
     meka_saw(item.of('undergarden:grongle_planks', 2), 'undergarden:grongle_fence_gate', item.of('undergarden:twistytwig', 4))

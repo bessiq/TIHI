@@ -1,0 +1,44 @@
+{
+  "flower": "byg:embur_lily",
+  "maxTimeInHive": 1000,
+  "hasHoneycomb": true,
+  "traits": ["nether"],
+  "baseLayerTexture": "ores/pendorite/pendorite_bee",
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#7b5cb3",
+    "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutations" : [
+      {
+        "type": "BLOCK",
+        "inputID": "tag:forge:netherrack",
+        "outputs": [
+          {"outputID": "byg:pendorite_ore", "weight": 5},
+          {"outputID": "byg:blue_netherrack", "weight": 10}
+        ]
+      }
+    ]
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "byg:pendorite_scraps",
+    "mainOutputCount": 1
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "byg:embur_bog",
+    "lightLevel": "NIGHT",
+    "spawnWeight": 1,
+    "minGroupSize": 1,
+    "maxGroupSize": 1
+  },
+  "BreedData": {
+    "isBreedable": true
+  },
+  "TraitData": {
+    "hasTraits": true
+  }
+}

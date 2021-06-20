@@ -1,0 +1,38 @@
+{
+	id: "453036DF8BF91E70"
+	group: "7AD42FB203A77469"
+	order_index: 2
+	filename: "atum"
+	title: "Atum"
+	icon: "atum:scarab"
+	default_quest_shape: ""
+	quests: [{
+		title: "The Sand Gets EVERYWHERE"
+		icon: "atum:sand"
+		x: 0.0d
+		y: 0.0d
+		subtitle: "Travel to Atum."
+		description: ["So you like, make a scarab thingy, and then throw it into some sandstone swimming pool...I think? idk, but the irony of entering a pool of water - to go to a dimension without any - is not lost on me."]
+		id: "5C372892F6B0D641"
+		tasks: [
+			{
+				id: "68C66E38127B35A6"
+				type: "item"
+				title: "Craft the shiny bug."
+				item: "atum:scarab"
+			}
+			{
+				id: "150A0E1153814D6F"
+				type: "dimension"
+				title: "Visit Atum. It's fine. You'll be fine."
+				icon: "atum:sand"
+				dimension: "atum:atum"
+			}
+		]
+		rewards: [{
+			id: "1D37972EE54ABDC9"
+			type: "loot"
+			table_id: 52L
+		}]
+	}]
+}

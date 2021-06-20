@@ -1,0 +1,18 @@
+{
+  "config": {
+    "block_provider": {
+      "entries": [
+        {
+          "weight": 10,
+          "data": {
+            "Name": "astralsorcery:black_marble_raw"
+          }
+        }
+      ],
+      "type": "minecraft:weighted_state_provider"
+    },
+    "seed": 666,
+    "height_multiplier": 0.4
+  },
+  "type": "byg:tall_pointed_rock"
+}

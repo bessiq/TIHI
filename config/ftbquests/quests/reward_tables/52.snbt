@@ -1,27 +1,15 @@
 {
-	id: "0000000000000034",
-	order_index: 0,
-	title: "loot",
-	icon: "randomloot:golden_case",
-	loot_size: 1,
+	id: "0000000000000034"
+	order_index: 0
+	title: "Loot Bag"
+	icon: "randomloot:golden_case"
+	loot_size: 1
+	hide_tooltip: true
 	rewards: [
-		{
-			item: "randomloot:basic_case",
-			weight: 5
-		},
-		{
-			item: "randomloot:golden_case",
-			weight: 3
-		},
-		{
-			item: "randomloot:titan_case"
-		},
-		{
-			item: "lootbagmod:lootbag",
-			weight: 2
-		},
-		{
-			item: "chancecubes:chance_cube"
-		}
+		{ item: "randomloot:basic_case", weight: 5 }
+		{ item: "randomloot:golden_case", weight: 3 }
+		{ item: "randomloot:titan_case" }
+		{ item: "lootbagmod:lootbag", weight: 2 }
+		{ item: "chancecubes:chance_cube" }
 	]
 }
